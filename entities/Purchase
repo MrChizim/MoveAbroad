@@ -1,0 +1,60 @@
+{
+  "name": "Purchase",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "description": "Email of the purchasing user"
+    },
+    "package_type": {
+      "type": "string",
+      "enum": [
+        "single",
+        "five_pack",
+        "all_access"
+      ],
+      "description": "Type of package purchased"
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of country codes the user has access to"
+    },
+    "amount_paid": {
+      "type": "number",
+      "description": "Amount paid in Naira"
+    },
+    "payment_reference": {
+      "type": "string",
+      "description": "Bank transfer reference or payment ID"
+    },
+    "payment_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "confirmed",
+        "rejected"
+      ],
+      "default": "pending",
+      "description": "Payment verification status"
+    },
+    "payment_method": {
+      "type": "string",
+      "enum": [
+        "bank_transfer",
+        "other"
+      ],
+      "default": "bank_transfer"
+    },
+    "admin_notes": {
+      "type": "string",
+      "description": "Notes from admin about this purchase"
+    }
+  },
+  "required": [
+    "user_email",
+    "package_type"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "CommunityPost",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "is_answered": {
+      "type": "boolean",
+      "default": false
+    },
+    "upvotes": {
+      "type": "number",
+      "default": 0
+    },
+    "upvoted_by": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "question",
+        "tip",
+        "success_story"
+      ],
+      "default": "question"
+    }
+  },
+  "required": [
+    "user_email",
+    "country_code",
+    "question"
+  ]
+}

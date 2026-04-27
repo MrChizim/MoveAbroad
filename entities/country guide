@@ -1,0 +1,83 @@
+{
+  "name": "CountryGuide",
+  "type": "object",
+  "properties": {
+    "country_name": {
+      "type": "string",
+      "description": "Name of the country"
+    },
+    "country_code": {
+      "type": "string",
+      "description": "ISO country code (e.g. US, CA, GB)"
+    },
+    "flag_emoji": {
+      "type": "string",
+      "description": "Flag emoji for the country"
+    },
+    "tagline": {
+      "type": "string",
+      "description": "Short catchy tagline for the country"
+    },
+    "preview_summary": {
+      "type": "string",
+      "description": "Free preview text shown to all users"
+    },
+    "hero_image_url": {
+      "type": "string",
+      "description": "Hero image URL for the country"
+    },
+    "visa_pathways": {
+      "type": "string",
+      "description": "Detailed visa pathways content (Markdown)"
+    },
+    "university_guide": {
+      "type": "string",
+      "description": "University and education guide (Markdown)"
+    },
+    "cost_of_living": {
+      "type": "string",
+      "description": "Cost of living breakdown (Markdown)"
+    },
+    "step_by_step_timeline": {
+      "type": "string",
+      "description": "Step by step relocation timeline (Markdown)"
+    },
+    "nigerian_specific_tips": {
+      "type": "string",
+      "description": "Tips specific to Nigerians (Markdown)"
+    },
+    "embassy_info": {
+      "type": "string",
+      "description": "Embassy and consulate information (Markdown)"
+    },
+    "cover_letter_template": {
+      "type": "string",
+      "description": "Cover letter template content (Markdown)"
+    },
+    "cv_template": {
+      "type": "string",
+      "description": "CV template content (Markdown)"
+    },
+    "scholarship_opportunities": {
+      "type": "string",
+      "description": "Scholarship opportunities for Nigerians (Markdown)"
+    },
+    "job_search_guide": {
+      "type": "string",
+      "description": "How to find jobs from Nigeria (Markdown)"
+    },
+    "housing_guide": {
+      "type": "string",
+      "description": "Housing and accommodation guide (Markdown)"
+    },
+    "is_published": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this guide is visible to users"
+    }
+  },
+  "required": [
+    "country_name",
+    "country_code"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "VisaChecklist",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "country_code": {
+      "type": "string"
+    },
+    "visa_type": {
+      "type": "string",
+      "enum": [
+        "student",
+        "work",
+        "visitor",
+        "permanent_residency"
+      ],
+      "default": "student"
+    },
+    "items": {
+      "type": "array",
+      "description": "Checklist items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "in_progress",
+              "done"
+            ],
+            "default": "pending"
+          },
+          "deadline": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "file_url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "target_submission_date": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user_email",
+    "country_code"
+  ]
+}
