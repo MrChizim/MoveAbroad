@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import heroBg from '@/assets/back.JPG';
+import heroBg from '@/assets/back.jpg';
 
 export default function HeroSection() {
   return (
