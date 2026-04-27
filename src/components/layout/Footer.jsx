@@ -40,10 +40,10 @@ export default function Footer() {
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10 pt-14 pb-8">
 
           {/* 4-col grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12 text-center sm:text-left">
 
             {/* Brand col */}
-            <div className="col-span-2 md:col-span-1">
+            <div className="sm:col-span-2 md:col-span-1 flex flex-col items-center sm:items-start">
               <img src={logoSrc} alt="MoveAbroad.ng"
                 className="h-10 w-auto object-contain mb-4"
                 style={{ filter: 'brightness(0) invert(1)' }}
@@ -54,7 +54,7 @@ export default function Footer() {
             </div>
 
             {/* Explore */}
-            <div>
+            <div className="flex flex-col items-center sm:items-start">
               <h4 className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.2)' }}>
                 Explore
               </h4>
@@ -75,7 +75,7 @@ export default function Footer() {
             </div>
 
             {/* Account */}
-            <div>
+            <div className="flex flex-col items-center sm:items-start">
               <h4 className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.2)' }}>
                 Account
               </h4>
@@ -96,7 +96,7 @@ export default function Footer() {
             </div>
 
             {/* Contact */}
-            <div>
+            <div className="flex flex-col items-center sm:items-start">
               <h4 className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.2)' }}>
                 Contact
               </h4>
@@ -131,14 +131,14 @@ export default function Footer() {
           </div>
 
           {/* Disclaimer */}
-          <div className="rounded-xl px-4 py-3 mb-8" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="rounded-xl px-4 py-3 mb-8 text-center sm:text-left" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
             <p className="text-[11px] leading-relaxed" style={{ color: 'rgba(255,255,255,0.18)' }}>
               ⚠ MoveAbroad.ng provides educational resources only. Always verify immigration requirements with official government sources before making any decisions.
             </p>
           </div>
 
           {/* Bottom bar */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-6" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-6 text-center" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
             <span className="text-[12px]" style={{ color: 'rgba(255,255,255,0.15)' }}>
               © {new Date().getFullYear()} MoveAbroad.ng · All rights reserved
             </span>
