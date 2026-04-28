@@ -33,7 +33,7 @@ export default function Countries() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {filtered.map((country, index) => (
             <motion.div
               key={country.code}
@@ -49,12 +49,12 @@ export default function Countries() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <div className="flex items-center gap-3">
-                      <span className="text-3xl">{country.flag}</span>
+                  <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-6">
+                    <div className="flex items-center gap-2 sm:gap-3">
+                      <span className="text-xl sm:text-3xl">{country.flag}</span>
                       <div>
-                        <h3 className="text-white font-heading text-xl font-bold">{country.name}</h3>
-                        <p className="text-white/70 text-sm">View full guide →</p>
+                        <h3 className="text-white font-heading text-sm sm:text-xl font-bold leading-tight">{country.name}</h3>
+                        <p className="text-white/60 text-[10px] sm:text-sm hidden sm:block">View full guide →</p>
                       </div>
                     </div>
                   </div>

@@ -7,13 +7,13 @@ export default function CountryPreviewGrid() {
   const featured = COUNTRIES.slice(0, 6);
 
   return (
-    <section className="py-32" style={{ background: '#F4F4F5' }}>
+    <section className="py-16 sm:py-32" style={{ background: '#F4F4F5' }}>
       <div className="max-w-[1200px] mx-auto px-6 lg:px-8">
 
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-14"
+          className="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-8 sm:mb-14"
         >
           <div>
             <p className="text-[11px] font-semibold tracking-[0.16em] uppercase text-[#006CFF] mb-4">Destinations</p>
@@ -29,7 +29,7 @@ export default function CountryPreviewGrid() {
         </motion.div>
 
         {/* Grid — 3 large + 3 small */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3">
           {featured.map((country, i) => (
             <motion.div
               key={country.code}

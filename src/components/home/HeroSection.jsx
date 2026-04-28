@@ -31,7 +31,7 @@ export default function HeroSection() {
       />
 
       {/* Content */}
-      <div className="relative max-w-[1200px] mx-auto px-6 lg:px-8 pt-32 pb-24">
+      <div className="relative max-w-[1200px] mx-auto px-6 lg:px-8 pt-24 sm:pt-32 pb-16 sm:pb-24">
 
         {/* Eyebrow */}
         <motion.div
@@ -59,7 +59,7 @@ export default function HeroSection() {
         {/* Sub */}
         <motion.p
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.16 }}
-          className="text-[17px] leading-relaxed max-w-[520px] mb-10"
+          className="text-[15px] sm:text-[17px] leading-relaxed max-w-[520px] mb-8 sm:mb-10"
           style={{ color: 'rgba(255,255,255,0.45)', fontWeight: 400 }}
         >
           In-depth relocation guides built for Nigerians — visa pathways, job strategies, cost breakdowns, CV templates for 15+ countries.
@@ -68,7 +68,7 @@ export default function HeroSection() {
         {/* CTAs */}
         <motion.div
           initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.24 }}
-          className="flex flex-wrap items-center gap-3 mb-24"
+          className="flex flex-wrap items-center gap-3 mb-12 sm:mb-24"
         >
           <Link to="/countries"
             className="inline-flex items-center gap-2 h-12 px-6 rounded-xl text-[14px] font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"

@@ -14,13 +14,13 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 sm:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 lg:px-8">
 
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-          className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16"
+          className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-10 sm:mb-16"
         >
           <div>
             <p className="text-[11px] font-semibold tracking-[0.16em] uppercase text-[#0096FF] mb-4">What's included</p>

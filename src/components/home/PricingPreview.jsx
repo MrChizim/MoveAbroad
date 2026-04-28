@@ -11,7 +11,7 @@ const packageMeta = {
 
 export default function PricingPreview() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 sm:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 lg:px-8">
 
         {/* Header */}
@@ -38,7 +38,7 @@ export default function PricingPreview() {
                 key={pkg.id}
                 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }} transition={{ delay: i * 0.08 }}
-                className={`relative rounded-3xl p-8 flex flex-col border transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,0.1)] ${
+                className={`relative rounded-3xl p-6 sm:p-8 flex flex-col border transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,0.1)] ${
                   pkg.popular
                     ? 'bg-[#04091A] border-transparent shadow-[0_8px_40px_rgba(4,9,26,0.18)]'
                     : 'bg-white border-black/[0.08]'
