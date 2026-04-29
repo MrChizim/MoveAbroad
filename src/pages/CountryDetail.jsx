@@ -3,12 +3,97 @@ import { useParams, Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import { hasAccessToCountry } from '@/lib/purchases';
 import { COUNTRIES } from '@/lib/countries';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowLeft, Plane, GraduationCap, Banknote, BookOpen, MapPin, FileText, Briefcase, Home, Award, Building2, CheckSquare, Lock, ArrowRight } from 'lucide-react';
+import { GUIDE_CONTENT } from '@/lib/guideContent';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  ArrowLeft, ArrowRight, Lock, CheckSquare, ExternalLink,
+  GraduationCap, Briefcase, Clock, DollarSign, Globe,
+  MapPin, BookOpen, Award, Building2, Users, ChevronDown, ChevronUp
+} from 'lucide-react';
+
+// ── Level selector config ──────────────────────────────────────────────
+const LEVELS = [
+  { id: 'undergrad',  label: 'Undergraduate', icon: '🎓' },
+  { id: 'masters',    label: 'Masters',        icon: '📚' },
+  { id: 'phd',        label: 'PhD',            icon: '🔬' },
+  { id: 'work',       label: 'Work Permit',    icon: '💼' },
+];
+
+// ── Tab config ─────────────────────────────────────────────────────────
+const TABS = [
+  { id: 'overview',      label: 'Overview',      icon: Globe },
+  { id: 'visa',          label: 'Visa Guide',    icon: BookOpen },
+  { id: 'timeline',      label: 'Timeline',      icon: Clock },
+  { id: 'universities',  label: 'Universities',  icon: Building2 },
+  { id: 'scholarships',  label: 'Scholarships',  icon: Award },
+  { id: 'tips',          label: 'Tips',          icon: MapPin },
+  { id: 'embassy',       label: 'Embassy',       icon: ExternalLink },
+];
+
+// ── Sub-components ─────────────────────────────────────────────────────
+
+function StatCard({ label, value, icon: Icon, color }) {
+  return (
+    <div className="bg-white rounded-2xl border border-black/[0.07] p-4 flex flex-col gap-2">
+      <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0" style={{ background: color + '18' }}>
+        <Icon className="w-4 h-4" style={{ color }} strokeWidth={1.75} />
+      </div>
+      <p className="text-[11px] font-semibold text-black/40 uppercase tracking-wide">{label}</p>
+      <p className="text-[14px] font-bold text-[#04091A] leading-snug">{value}</p>
+    </div>
+  );
+}
+
+function MarkdownText({ text }) {
+  if (!text) return null;
+  const lines = text.split('\n');
+  return (
+    <div className="space-y-2">
+      {lines.map((line, i) => {
+        if (line.startsWith('**') && line.endsWith('**') && line.length > 4) {
+          return <p key={i} className="text-[15px] font-bold text-[#04091A] mt-4 first:mt-0">{line.replace(/\*\*/g, '')}</p>;
+        }
+        if (line.startsWith('• ')) {
+          return <p key={i} className="text-[14px] text-black/60 leading-relaxed pl-4 border-l-2 border-[#0096FF]/20">{line.substring(2)}</p>;
+        }
+        if (line.trim() === '') return <div key={i} className="h-1" />;
+        return <p key={i} className="text-[14px] text-black/60 leading-relaxed">{line}</p>;
+      })}
+    </div>
+  );
+}
+
+function ExpandableSection({ title, children }) {
+  const [open, setOpen] = useState(true);
+  return (
+    <div className="bg-white rounded-2xl border border-black/[0.07] overflow-hidden">
+      <button
+        onClick={() => setOpen(v => !v)}
+        className="w-full flex items-center justify-between px-6 py-4 hover:bg-black/[0.01] transition-colors"
+      >
+        <span className="text-[15px] font-bold text-[#04091A]">{title}</span>
+        {open ? <ChevronUp className="w-4 h-4 text-black/30" /> : <ChevronDown className="w-4 h-4 text-black/30" />}
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="overflow-hidden"
+          >
+            <div className="px-6 pb-6">{children}</div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
 
 function LockedContent({ countryCode, countryName }) {
   return (
-    <div className="rounded-2xl border border-dashed border-[#0096FF]/30 bg-[#EBF5FF]/50 p-12 text-center">
+    <div className="rounded-2xl border border-dashed border-[#0096FF]/30 bg-[#EBF5FF]/40 p-12 text-center">
       <div className="w-14 h-14 rounded-full bg-[#0096FF]/10 flex items-center justify-center mx-auto mb-5">
         <Lock className="w-6 h-6 text-[#0096FF]" />
       </div>
@@ -16,7 +101,7 @@ function LockedContent({ countryCode, countryName }) {
         Unlock the Full {countryName} Guide
       </h3>
       <p className="text-[14px] text-black/40 mb-7 max-w-sm mx-auto leading-relaxed">
-        Get detailed visa pathways, CV templates, scholarship info, step-by-step timelines, and everything you need to make your move.
+        Get the complete visa guide, step-by-step timeline, university rankings, scholarships, and Nigerian-specific tips.
       </p>
       <Link
         to={`/pricing?country=${countryCode}`}
@@ -30,64 +115,52 @@ function LockedContent({ countryCode, countryName }) {
   );
 }
 
-function GuideSection({ icon: Icon, title, content }) {
-  if (!content) return (
-    <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
-      <p className="text-[14px] text-black/30">Content for <strong>{title}</strong> coming soon.</p>
-    </div>
-  );
-  return (
-    <div className="bg-white rounded-2xl border border-black/[0.07] p-6 sm:p-8">
-      <div className="flex items-center gap-3 mb-5">
-        <div className="w-9 h-9 rounded-xl bg-[#EBF5FF] flex items-center justify-center flex-shrink-0">
-          <Icon className="w-4 h-4 text-[#0096FF]" strokeWidth={1.75} />
-        </div>
-        <h2 className="text-[16px] font-bold text-[#04091A]">{title}</h2>
-      </div>
-      <div className="text-[14px] text-black/60 leading-relaxed whitespace-pre-wrap">{content}</div>
-    </div>
-  );
-}
-
+// ── Main Component ─────────────────────────────────────────────────────
 export default function CountryDetail() {
   const { code } = useParams();
   const { user } = useAuth();
   const [hasAccess, setHasAccess] = useState(null);
+  const [level, setLevel] = useState('masters');
+  const [activeTab, setActiveTab] = useState('overview');
 
   const country = COUNTRIES.find(c => c.code === code);
+  const guide = GUIDE_CONTENT[code];
 
   useEffect(() => {
     if (!user) { setHasAccess(false); return; }
     hasAccessToCountry(user.uid, code).then(setHasAccess);
   }, [user, code]);
 
+  // reset tab when switching levels
+  useEffect(() => { setActiveTab('overview'); }, [level]);
+
   if (!country) return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <p className="text-black/40 mb-4">Country not found.</p>
-        <Link to="/countries" className="text-[#0096FF] font-semibold hover:underline">Back to Countries</Link>
-      </div>
+      <p className="text-black/40">Country not found. <Link to="/countries" className="text-[#0096FF]">Back to Countries</Link></p>
     </div>
   );
 
+  const stats = guide?.stats?.[level];
   const unlocked = hasAccess === true;
+  const hasGuide = !!guide;
 
   return (
     <div className="min-h-screen bg-[#F8F9FB]">
+
       {/* Hero */}
-      <div className="relative h-[260px] sm:h-[380px]">
+      <div className="relative h-[240px] sm:h-[340px]">
         <img src={country.image} alt={country.name} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
           <div className="max-w-4xl mx-auto">
             <Link to="/countries" className="inline-flex items-center gap-2 text-white/60 hover:text-white mb-4 text-[13px] transition-colors">
               <ArrowLeft className="w-4 h-4" /> All Countries
             </Link>
-            <div className="flex items-center gap-4">
+            <div className="flex items-end gap-4">
               <span className="text-5xl">{country.flag}</span>
               <div>
-                <h1 className="text-white text-[2rem] sm:text-[2.5rem] font-black" style={{ fontWeight: 900 }}>{country.name}</h1>
-                <p className="text-white/60 text-[14px] mt-0.5">Relocation guide for Nigerians</p>
+                <h1 className="text-white text-[2rem] sm:text-[2.6rem] font-black leading-tight" style={{ fontWeight: 900 }}>{country.name}</h1>
+                {guide?.tagline && <p className="text-white/60 text-[14px] mt-1 max-w-lg">{guide.tagline}</p>}
               </div>
             </div>
           </div>
@@ -96,97 +169,335 @@ export default function CountryDetail() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
 
-        {/* Checklist CTA — only show if unlocked */}
-        {unlocked && (
-          <Link to={`/checklist/${code}`} className="block mb-6">
-            <div
-              className="flex items-center gap-3 p-4 rounded-2xl border transition-all hover:shadow-sm"
-              style={{ background: '#EBF5FF', borderColor: '#0096FF30' }}
+        {/* Level Selector */}
+        <div className="bg-white rounded-2xl border border-black/[0.07] p-2 mb-6 flex gap-1 overflow-x-auto">
+          {LEVELS.map(l => (
+            <button
+              key={l.id}
+              onClick={() => setLevel(l.id)}
+              className={`flex-1 min-w-[100px] flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-[12px] font-semibold transition-all whitespace-nowrap ${
+                level === l.id
+                  ? 'bg-[#0096FF] text-white shadow-sm'
+                  : 'text-black/40 hover:text-black/70 hover:bg-black/[0.03]'
+              }`}
             >
-              <CheckSquare className="w-5 h-5 text-[#0096FF] flex-shrink-0" strokeWidth={1.75} />
-              <div className="flex-1">
-                <p className="text-[14px] font-semibold text-[#0096FF]">Visa Document Checklist</p>
-                <p className="text-[12px] text-[#0096FF]/60">Track your documents and progress</p>
-              </div>
-              <ArrowRight className="w-4 h-4 text-[#0096FF]" />
-            </div>
-          </Link>
-        )}
-
-        {/* Free preview blurb */}
-        <div className="bg-white rounded-2xl border border-black/[0.07] p-6 sm:p-8 mb-6">
-          <h2 className="text-[16px] font-bold text-[#04091A] mb-3">Overview</h2>
-          <p className="text-[14px] text-black/50 leading-relaxed">
-            {country.name} is a popular destination for Nigerian professionals and students. This guide covers everything from visa pathways and university applications to cost of living, housing, and job searching — all tailored for Nigerians making the move.
-          </p>
+              <span className="text-lg">{l.icon}</span>
+              {l.label}
+            </button>
+          ))}
         </div>
 
-        {/* Locked state */}
+        {/* Stat cards */}
+        {stats && (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+            {stats.tuition && <StatCard label="Tuition / Year" value={stats.tuition} icon={DollarSign} color="#0096FF" />}
+            {stats.salary && <StatCard label="Average Salary" value={stats.salary} icon={DollarSign} color="#059669" />}
+            {stats.living && <StatCard label="Living Costs" value={stats.living} icon={MapPin} color="#7C3AED" />}
+            {stats.processing && <StatCard label="Visa Processing" value={stats.processing} icon={Clock} color="#D97706" />}
+            {stats.minIELTS && <StatCard label="Min. IELTS" value={stats.minIELTS} icon={BookOpen} color="#059669" />}
+            {stats.acceptance && <StatCard label="Acceptance Rate" value={stats.acceptance} icon={Users} color="#0096FF" />}
+            {stats.pathway && <StatCard label="Main Pathway" value={stats.pathway} icon={ArrowRight} color="#7C3AED" />}
+          </div>
+        )}
+
+        {/* Free preview — show to everyone */}
+        {guide && (
+          <div className="bg-white rounded-2xl border border-black/[0.07] p-6 mb-6">
+            <h2 className="text-[16px] font-bold text-[#04091A] mb-3">About {country.name}</h2>
+            <p className="text-[14px] text-black/50 leading-relaxed">{guide.overview}</p>
+          </div>
+        )}
+
+        {!guide && (
+          <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center mb-6">
+            <p className="text-[14px] text-black/30">Full guide for {country.name} is being prepared. Check back soon.</p>
+          </div>
+        )}
+
+        {/* Access gate */}
         {!unlocked && hasAccess !== null && (
           <LockedContent countryCode={code} countryName={country.name} />
         )}
 
-        {/* Loading state */}
         {hasAccess === null && (
-          <div className="flex items-center justify-center py-16">
+          <div className="flex items-center justify-center py-12">
             <div className="w-7 h-7 border-4 border-black/10 border-t-[#0096FF] rounded-full animate-spin" />
           </div>
         )}
 
-        {/* Full guide tabs */}
-        {unlocked && (
-          <Tabs defaultValue="visa" className="space-y-5">
-            <TabsList className="flex flex-wrap h-auto gap-1 bg-black/[0.05] p-1 rounded-xl">
-              {[
-                { value: 'visa', icon: Plane, label: 'Visa' },
-                { value: 'university', icon: GraduationCap, label: 'University' },
-                { value: 'cost', icon: Banknote, label: 'Cost' },
-                { value: 'timeline', icon: BookOpen, label: 'Timeline' },
-                { value: 'tips', icon: MapPin, label: 'Tips' },
-                { value: 'jobs', icon: Briefcase, label: 'Jobs' },
-                { value: 'templates', icon: FileText, label: 'Templates' },
-                { value: 'more', icon: Building2, label: 'More' },
-              ].map(({ value, icon: Icon, label }) => (
-                <TabsTrigger key={value} value={value}
-                  className="flex items-center gap-1.5 text-[12px] sm:text-[13px] px-3 py-1.5 rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-sm data-[state=active]:text-[#0096FF]"
-                >
-                  <Icon className="w-3.5 h-3.5" /> {label}
-                </TabsTrigger>
-              ))}
-            </TabsList>
+        {/* Full guide — unlocked */}
+        {unlocked && hasGuide && (
+          <>
+            {/* Checklist CTA */}
+            <Link to={`/checklist/${code}`} className="block mb-6">
+              <div className="flex items-center gap-3 p-4 rounded-2xl border transition-all hover:shadow-sm" style={{ background: '#EBF5FF', borderColor: '#0096FF25' }}>
+                <CheckSquare className="w-5 h-5 text-[#0096FF] flex-shrink-0" strokeWidth={1.75} />
+                <div className="flex-1">
+                  <p className="text-[14px] font-semibold text-[#0096FF]">Visa Document Checklist</p>
+                  <p className="text-[12px] text-[#0096FF]/60">Track your documents for {LEVELS.find(l => l.id === level)?.label} visa</p>
+                </div>
+                <ArrowRight className="w-4 h-4 text-[#0096FF]" />
+              </div>
+            </Link>
 
-            <TabsContent value="visa">
-              <GuideSection icon={Plane} title="Visa Pathways" content={null} />
-            </TabsContent>
-            <TabsContent value="university">
-              <GuideSection icon={GraduationCap} title="University & Education Guide" content={null} />
-            </TabsContent>
-            <TabsContent value="cost">
-              <GuideSection icon={Banknote} title="Cost of Living" content={null} />
-            </TabsContent>
-            <TabsContent value="timeline">
-              <GuideSection icon={BookOpen} title="Step-by-Step Timeline" content={null} />
-            </TabsContent>
-            <TabsContent value="tips">
-              <GuideSection icon={MapPin} title="Nigerian-Specific Tips" content={null} />
-            </TabsContent>
-            <TabsContent value="jobs">
-              <GuideSection icon={Briefcase} title="Job Search Guide" content={null} />
-            </TabsContent>
-            <TabsContent value="templates">
-              <div className="space-y-4">
-                <GuideSection icon={FileText} title="Cover Letter Template" content={null} />
-                <GuideSection icon={FileText} title="CV Template" content={null} />
-              </div>
-            </TabsContent>
-            <TabsContent value="more">
-              <div className="space-y-4">
-                <GuideSection icon={Award} title="Scholarship Opportunities" content={null} />
-                <GuideSection icon={Building2} title="Embassy Information" content={null} />
-                <GuideSection icon={Home} title="Housing Guide" content={null} />
-              </div>
-            </TabsContent>
-          </Tabs>
+            {/* Tab navigation */}
+            <div className="flex gap-1 overflow-x-auto pb-1 mb-6 scrollbar-hide">
+              {TABS.map(tab => {
+                const Icon = tab.icon;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-semibold whitespace-nowrap transition-all flex-shrink-0 ${
+                      activeTab === tab.id
+                        ? 'bg-[#0096FF] text-white'
+                        : 'bg-white border border-black/[0.07] text-black/50 hover:text-black/70'
+                    }`}
+                  >
+                    <Icon className="w-3.5 h-3.5" /> {tab.label}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Tab content */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={`${activeTab}-${level}`}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.18 }}
+              >
+
+                {/* OVERVIEW */}
+                {activeTab === 'overview' && (
+                  <div className="space-y-4">
+                    <ExpandableSection title={`${LEVELS.find(l => l.id === level)?.label} Visa at a Glance`}>
+                      <MarkdownText text={guide.visa?.[level]} />
+                    </ExpandableSection>
+                  </div>
+                )}
+
+                {/* VISA GUIDE */}
+                {activeTab === 'visa' && (
+                  <div className="space-y-4">
+                    <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                      <h3 className="text-[15px] font-bold text-[#04091A] mb-5">
+                        {LEVELS.find(l => l.id === level)?.icon} {LEVELS.find(l => l.id === level)?.label} Visa — Step by Step
+                      </h3>
+                      <MarkdownText text={guide.visa?.[level]} />
+                    </div>
+                  </div>
+                )}
+
+                {/* TIMELINE */}
+                {activeTab === 'timeline' && (
+                  <div className="space-y-3">
+                    {(guide.timeline?.[level] || []).map((item, i) => (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, x: -10 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: i * 0.05 }}
+                        className="bg-white rounded-2xl border border-black/[0.07] p-5 flex gap-4"
+                      >
+                        <div className="flex-shrink-0 flex flex-col items-center">
+                          <div className="w-8 h-8 rounded-full bg-[#0096FF] text-white text-[12px] font-bold flex items-center justify-center">
+                            {i + 1}
+                          </div>
+                          {i < (guide.timeline?.[level]?.length || 0) - 1 && (
+                            <div className="w-0.5 bg-[#0096FF]/20 flex-1 mt-2" />
+                          )}
+                        </div>
+                        <div className="flex-1 pb-2">
+                          <p className="text-[11px] font-bold text-[#0096FF] uppercase tracking-wide mb-1">{item.step}</p>
+                          <p className="text-[14px] font-bold text-[#04091A] mb-1.5">{item.title}</p>
+                          <p className="text-[13px] text-black/50 leading-relaxed">{item.detail}</p>
+                        </div>
+                      </motion.div>
+                    ))}
+                    {(!guide.timeline?.[level] || guide.timeline[level].length === 0) && (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
+                        <p className="text-[14px] text-black/30">Timeline for {LEVELS.find(l => l.id === level)?.label} coming soon.</p>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* UNIVERSITIES */}
+                {activeTab === 'universities' && (
+                  <div className="space-y-3">
+                    {level === 'work' ? (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
+                        <p className="text-[14px] text-black/40">Switch to Undergraduate, Masters, or PhD to see university recommendations.</p>
+                      </div>
+                    ) : (guide.universities?.[level] || []).length === 0 ? (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
+                        <p className="text-[14px] text-black/30">University list coming soon.</p>
+                      </div>
+                    ) : (guide.universities?.[level] || []).map((uni, i) => (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.05 }}
+                        className="bg-white rounded-2xl border border-black/[0.07] p-5"
+                      >
+                        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+                          <div className="flex-1">
+                            <p className="text-[15px] font-bold text-[#04091A] mb-1">{uni.name}</p>
+                            <p className="text-[13px] text-black/40 mb-3 flex items-center gap-1.5">
+                              <MapPin className="w-3.5 h-3.5" /> {uni.location}
+                            </p>
+                            <p className="text-[12px] text-black/50"><span className="font-semibold">Known for:</span> {uni.known_for}</p>
+                          </div>
+                          <div className="flex flex-col gap-1.5 sm:items-end shrink-0">
+                            <span className="text-[12px] font-bold text-[#0096FF]">{uni.avg_tuition}</span>
+                            <span className="text-[11px] text-black/30">Acceptance: {uni.acceptance}</span>
+                            <span className={`text-[11px] px-2 py-0.5 rounded-full font-semibold ${
+                              uni.nigerian_community === 'Very large' ? 'bg-green-100 text-green-700' :
+                              uni.nigerian_community === 'Large' ? 'bg-blue-100 text-blue-700' :
+                              uni.nigerian_community === 'Growing' ? 'bg-amber-100 text-amber-700' :
+                              'bg-black/[0.05] text-black/40'
+                            }`}>
+                              🇳🇬 {uni.nigerian_community} community
+                            </span>
+                          </div>
+                        </div>
+                      </motion.div>
+                    ))}
+                  </div>
+                )}
+
+                {/* SCHOLARSHIPS */}
+                {activeTab === 'scholarships' && (
+                  <div className="space-y-3">
+                    {(guide.scholarships?.[level] || []).length === 0 ? (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
+                        <p className="text-[14px] text-black/30">Scholarship info coming soon for this level.</p>
+                      </div>
+                    ) : (guide.scholarships?.[level] || []).map((s, i) => (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.06 }}
+                        className="bg-white rounded-2xl border border-black/[0.07] p-5"
+                      >
+                        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                          <div className="flex-1">
+                            <p className="text-[15px] font-bold text-[#04091A] mb-1">{s.name}</p>
+                            <p className="text-[13px] text-black/40 mb-2">{s.university}</p>
+                            <div className="flex flex-wrap gap-2">
+                              <span className="text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#ECFDF5', color: '#059669' }}>
+                                💰 {s.amount}
+                              </span>
+                              <span className="text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#FFF7ED', color: '#D97706' }}>
+                                📅 {s.deadline}
+                              </span>
+                            </div>
+                          </div>
+                          <a
+                            href={s.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-semibold text-white hover:opacity-90 transition-all flex-shrink-0"
+                            style={{ background: '#0096FF' }}
+                          >
+                            Apply <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+                      </motion.div>
+                    ))}
+                  </div>
+                )}
+
+                {/* TIPS */}
+                {activeTab === 'tips' && (
+                  <div className="space-y-3">
+                    {(guide.tips?.[level] || []).map((tip, i) => (
+                      <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.06 }}
+                        className="bg-white rounded-2xl border border-black/[0.07] p-5"
+                      >
+                        <div className="flex gap-3">
+                          <div className="w-8 h-8 rounded-xl bg-[#EBF5FF] flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <span className="text-[14px]">💡</span>
+                          </div>
+                          <div>
+                            <p className="text-[14px] font-bold text-[#04091A] mb-1.5">{tip.title}</p>
+                            <p className="text-[13px] text-black/50 leading-relaxed">{tip.body}</p>
+                          </div>
+                        </div>
+                      </motion.div>
+                    ))}
+                    {(!guide.tips?.[level] || guide.tips[level].length === 0) && (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center">
+                        <p className="text-[14px] text-black/30">Tips coming soon.</p>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* EMBASSY */}
+                {activeTab === 'embassy' && guide.embassy && (
+                  <div className="space-y-4">
+                    <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                      <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Official Contact</h3>
+                      <div className="space-y-2 mb-5">
+                        <p className="text-[14px] font-semibold text-[#04091A]">{guide.embassy.name}</p>
+                        {guide.embassy.address && (
+                          <p className="text-[13px] text-black/40 flex items-center gap-2">
+                            <MapPin className="w-3.5 h-3.5 flex-shrink-0" /> {guide.embassy.address}
+                          </p>
+                        )}
+                      </div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {guide.embassy.visa_apply && (
+                          <a href={guide.embassy.visa_apply} target="_blank" rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 p-3 rounded-xl border border-[#0096FF]/30 bg-[#EBF5FF] text-[#0096FF] text-[13px] font-semibold hover:bg-[#0096FF] hover:text-white transition-all">
+                            <Globe className="w-4 h-4" /> Apply for Visa
+                          </a>
+                        )}
+                        {guide.embassy.vfs && (
+                          <a href={guide.embassy.vfs} target="_blank" rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 p-3 rounded-xl border border-black/[0.08] text-black/60 text-[13px] font-semibold hover:border-[#0096FF]/30 hover:text-[#0096FF] transition-all">
+                            <MapPin className="w-4 h-4" /> Biometrics (VFS/TLS)
+                          </a>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                      <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Important Links</h3>
+                      <div className="space-y-2">
+                        {(guide.embassy.extra_links || []).map((link, i) => (
+                          <a
+                            key={i}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-between p-3 rounded-xl border border-black/[0.06] hover:border-[#0096FF]/30 hover:bg-[#EBF5FF]/50 transition-all group"
+                          >
+                            <span className="text-[13px] font-medium text-black/70 group-hover:text-[#0096FF] transition-colors">{link.label}</span>
+                            <ExternalLink className="w-3.5 h-3.5 text-black/20 group-hover:text-[#0096FF] flex-shrink-0 transition-colors" />
+                          </a>
+                        ))}
+                      </div>
+                      <p className="text-[11px] text-black/30 mt-4 text-center">
+                        Always verify information on official government websites — visa rules change frequently.
+                      </p>
+                    </div>
+                  </div>
+                )}
+
+              </motion.div>
+            </AnimatePresence>
+          </>
         )}
       </div>
     </div>
