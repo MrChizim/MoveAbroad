@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
-import { getUserPurchases } from '@/lib/purchases';
+import { getUserPurchases, ADMIN_EMAILS } from '@/lib/purchases';
 import { COUNTRIES } from '@/lib/countries';
 import { Globe, ArrowRight, Lock, LogOut, CheckSquare, Calculator, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -22,9 +22,10 @@ export default function Dashboard() {
     </div>
   );
 
-  const unlockedCodes = new Set(purchases.countries || []);
+  const isAdmin = ADMIN_EMAILS.map(e => e.toLowerCase()).includes(user.email?.toLowerCase());
+  const unlockedCodes = isAdmin ? new Set(COUNTRIES.map(c => c.code)) : new Set(purchases.countries || []);
   const unlockedList = COUNTRIES.filter(c => unlockedCodes.has(c.code));
-  const lockedList = COUNTRIES.filter(c => !unlockedCodes.has(c.code));
+  const lockedList = isAdmin ? [] : COUNTRIES.filter(c => !unlockedCodes.has(c.code));
 
   return (
     <div className="min-h-screen bg-[#F8F9FB] py-12">
