@@ -29,7 +29,7 @@ export default function VisaChecklist() {
 
   useEffect(() => {
     if (!user) { navigate('/'); return; }
-    hasAccessToCountry(user.uid, code).then(setHasAccess);
+    hasAccessToCountry(user.uid, code, user.email).then(setHasAccess);
   }, [user, code, navigate]);
 
   useEffect(() => {

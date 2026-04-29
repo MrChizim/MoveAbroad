@@ -128,7 +128,7 @@ export default function CountryDetail() {
 
   useEffect(() => {
     if (!user) { setHasAccess(false); return; }
-    hasAccessToCountry(user.uid, code).then(setHasAccess);
+    hasAccessToCountry(user.uid, code, user.email).then(setHasAccess);
   }, [user, code]);
 
   // reset tab when switching levels

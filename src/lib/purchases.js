@@ -36,9 +36,13 @@ export async function recordPurchase(uid, { packageId, countries, paystackRef, e
   }
 }
 
+export const ADMIN_EMAILS = ['siriusoddjobs@gmail.com'];
+
 // Check if a user has access to a specific country
-export async function hasAccessToCountry(uid, countryCode) {
+// Pass user email as second param to enable admin bypass without extra Firestore read
+export async function hasAccessToCountry(uid, countryCode, email) {
   if (!uid) return false;
+  if (email && ADMIN_EMAILS.includes(email)) return true;
   const data = await getUserPurchases(uid);
   return data.countries?.includes(countryCode) || data.countries?.includes('ALL');
 }
