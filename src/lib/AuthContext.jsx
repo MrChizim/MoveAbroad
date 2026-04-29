@@ -1,87 +1,48 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { base44 } from '@/api/base44Client';
+import { createContext, useContext, useEffect, useState } from 'react';
+import { onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { auth, db, googleProvider } from './firebase';
 
-const isNode = typeof window === 'undefined';
-const windowObj = isNode ? { localStorage: new Map() } : window;
-const storage = windowObj.localStorage;
-
-const toSnakeCase = (str) => {
-	return str.replace(/([A-Z])/g, '_$1').toLowerCase();
-}
-
-const getAppParamValue = (paramName, { defaultValue = undefined, removeFromUrl = false } = {}) => {
-	if (isNode) {
-		return defaultValue;
-	}
-	const storageKey = `base44_${toSnakeCase(paramName)}`;
-	const urlParams = new URLSearchParams(window.location.search);
-	const searchParam = urlParams.get(paramName);
-	if (removeFromUrl) {
-		urlParams.delete(paramName);
-		const newUrl = `${window.location.pathname}${urlParams.toString() ? `?${urlParams.toString()}` : ""
-			}${window.location.hash}`;
-		window.history.replaceState({}, document.title, newUrl);
-	}
-	if (searchParam) {
-		storage.setItem(storageKey, searchParam);
-		return searchParam;
-	}
-	if (defaultValue) {
-		storage.setItem(storageKey, defaultValue);
-		return defaultValue;
-	}
-	const storedValue = storage.getItem(storageKey);
-	if (storedValue) {
-		return storedValue;
-	}
-	return null;
-}
-
-const getAppParams = () => {
-	if (getAppParamValue("clear_access_token") === 'true') {
-		storage.removeItem('base44_access_token');
-		storage.removeItem('token');
-	}
-	return {
-		appId: getAppParamValue("app_id", { defaultValue: import.meta.env.VITE_BASE44_APP_ID }),
-		token: getAppParamValue("access_token", { removeFromUrl: true }),
-		fromUrl: getAppParamValue("from_url", { defaultValue: window.location.href }),
-		functionsVersion: getAppParamValue("functions_version", { defaultValue: import.meta.env.VITE_BASE44_FUNCTIONS_VERSION }),
-		appBaseUrl: getAppParamValue("app_base_url", { defaultValue: import.meta.env.VITE_BASE44_APP_BASE_URL }),
-	}
-}
-
-export const appParams = {
-	...getAppParams()
-}
-
-// Auth context
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(undefined);
-  const [authError, setAuthError] = useState(null);
-  const isLoadingAuth = user === undefined;
-  const isLoadingPublicSettings = false;
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    base44.auth.me()
-      .then(u => setUser(u))
-      .catch(err => {
-        setUser(null);
-        if (err?.type) {
-          setAuthError(err);
+    const unsub = onAuthStateChanged(auth, async (firebaseUser) => {
+      if (firebaseUser) {
+        const ref = doc(db, 'users', firebaseUser.uid);
+        const snap = await getDoc(ref);
+        if (!snap.exists()) {
+          await setDoc(ref, {
+            uid: firebaseUser.uid,
+            email: firebaseUser.email,
+            full_name: firebaseUser.displayName,
+            photo_url: firebaseUser.photoURL,
+            created_at: new Date().toISOString(),
+          });
         }
-      });
+        setUser({
+          uid: firebaseUser.uid,
+          email: firebaseUser.email,
+          full_name: firebaseUser.displayName,
+          photo_url: firebaseUser.photoURL,
+        });
+      } else {
+        setUser(null);
+      }
+      setLoading(false);
+    });
+    return unsub;
   }, []);
 
-  const navigateToLogin = () => {
-    base44.auth.redirectToLogin(window.location.href);
-  };
+  const signInWithGoogle = () => signInWithPopup(auth, googleProvider);
+  const logout = () => signOut(auth);
 
   return (
-    <AuthContext.Provider value={{ user, isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin }}>
-      {children}
+    <AuthContext.Provider value={{ user, loading, signInWithGoogle, logout }}>
+      {!loading && children}
     </AuthContext.Provider>
   );
 }

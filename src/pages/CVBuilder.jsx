@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { base44 } from '@/api/base44Client';
-import { useQuery } from '@tanstack/react-query';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { useAuth } from '@/lib/AuthContext';
+import { doc, getDoc } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -16,28 +17,27 @@ const STYLES = [
 ];
 
 export default function CVBuilder() {
-  const [user, setUser] = useState(null);
+  const { user } = useAuth();
+  const navigate = useNavigate();
+  const [profile, setProfile] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [selectedStyle, setSelectedStyle] = useState('CA');
   const [generating, setGenerating] = useState(false);
 
   useEffect(() => {
-    base44.auth.me().then(setUser).catch(() => base44.auth.redirectToLogin());
-  }, []);
-
-  const { data: profiles = [], isLoading } = useQuery({
-    queryKey: ['profile', user?.email],
-    queryFn: () => base44.entities.UserProfile.filter({ user_email: user.email }),
-    enabled: !!user?.email,
-  });
-
-  const profile = profiles[0];
+    if (!user) { navigate('/'); return; }
+    const ref = doc(db, 'profiles', user.uid);
+    getDoc(ref).then(snap => {
+      if (snap.exists()) setProfile(snap.data());
+    }).finally(() => setLoading(false));
+  }, [user, navigate]);
 
   const completionFields = [
     { label: 'Name', done: !!profile?.full_name },
     { label: 'Summary', done: !!profile?.professional_summary },
-    { label: 'Work Experience', done: profile?.work_experience?.length > 0 },
-    { label: 'Education', done: profile?.education?.length > 0 },
-    { label: 'Skills', done: profile?.skills?.length > 0 },
+    { label: 'Work Experience', done: (profile?.work_experience?.length || 0) > 0 },
+    { label: 'Education', done: (profile?.education?.length || 0) > 0 },
+    { label: 'Skills', done: (profile?.skills?.length || 0) > 0 },
   ];
   const completionPct = Math.round((completionFields.filter(f => f.done).length / completionFields.length) * 100);
 
@@ -50,56 +50,60 @@ export default function CVBuilder() {
     try {
       generateCV(profile, selectedStyle);
       toast.success('CV downloaded!');
-    } catch (e) {
+    } catch {
       toast.error('Failed to generate CV. Please try again.');
     }
     setGenerating(false);
   };
 
-  if (!user) return null;
+  if (!user || loading) return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="w-8 h-8 border-4 border-black/10 border-t-[#0096FF] rounded-full animate-spin" />
+    </div>
+  );
 
   return (
-    <div className="min-h-screen py-12">
+    <div className="min-h-screen bg-[#F8F9FB] py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
-              <FileText className="w-5 h-5 text-primary" />
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: '#EBF5FF' }}>
+              <FileText className="w-5 h-5 text-[#0096FF]" strokeWidth={1.75} />
             </div>
-            <h1 className="font-heading text-3xl font-bold">CV Builder</h1>
+            <h1 className="text-[1.8rem] font-black text-[#04091A]" style={{ fontWeight: 900 }}>CV Builder</h1>
           </div>
-          <p className="text-muted-foreground">Generate a professionally formatted CV from your profile data</p>
+          <p className="text-[14px] text-black/40">Generate a professionally formatted CV from your profile data</p>
         </div>
 
         {/* Profile Completion */}
         <Card className="p-6 mb-8">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="font-heading font-semibold">Profile Completion</h3>
-            <span className="text-sm font-bold text-primary">{completionPct}%</span>
+            <h3 className="text-[15px] font-bold text-[#04091A]">Profile Completion</h3>
+            <span className="text-[14px] font-bold text-[#0096FF]">{completionPct}%</span>
           </div>
-          <div className="w-full bg-muted rounded-full h-2 mb-4">
-            <div className="bg-primary h-2 rounded-full transition-all" style={{ width: `${completionPct}%` }} />
+          <div className="w-full bg-black/[0.06] rounded-full h-2 mb-4">
+            <div className="h-2 rounded-full transition-all" style={{ width: `${completionPct}%`, background: '#0096FF' }} />
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
             {completionFields.map(f => (
-              <div key={f.label} className={`flex items-center gap-1.5 text-xs ${f.done ? 'text-green-600' : 'text-muted-foreground'}`}>
+              <div key={f.label} className={`flex items-center gap-1.5 text-[12px] ${f.done ? 'text-green-600' : 'text-black/30'}`}>
                 {f.done ? <CheckCircle2 className="w-3.5 h-3.5" /> : <AlertCircle className="w-3.5 h-3.5" />}
                 {f.label}
               </div>
             ))}
           </div>
           {completionPct < 60 && (
-            <div className="mt-4 pt-4 border-t border-border flex items-center justify-between">
-              <p className="text-sm text-muted-foreground">Complete your profile to get a better CV</p>
+            <div className="mt-4 pt-4 border-t border-black/[0.06] flex items-center justify-between">
+              <p className="text-[13px] text-black/40">Complete your profile to get a better CV</p>
               <Link to="/profile">
-                <Button size="sm" variant="outline" className="gap-2"><User className="w-3.5 h-3.5" /> Edit Profile</Button>
+                <Button size="sm" variant="outline" className="gap-2 text-[13px]"><User className="w-3.5 h-3.5" /> Edit Profile</Button>
               </Link>
             </div>
           )}
         </Card>
 
         {/* Style Selection */}
-        <h3 className="font-heading text-lg font-semibold mb-4">Choose CV Style</h3>
+        <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Choose CV Style</h3>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
           {STYLES.map(style => (
             <button
@@ -107,15 +111,15 @@ export default function CVBuilder() {
               onClick={() => setSelectedStyle(style.id)}
               className={`p-5 rounded-2xl border-2 text-left transition-all ${
                 selectedStyle === style.id
-                  ? 'border-primary bg-primary/5'
-                  : 'border-border hover:border-primary/40 bg-card'
+                  ? 'border-[#0096FF] bg-[#EBF5FF]/50'
+                  : 'border-black/[0.08] hover:border-[#0096FF]/40 bg-white'
               }`}
             >
               <span className="text-3xl block mb-3">{style.flag}</span>
-              <h4 className="font-heading font-semibold mb-1">{style.name}</h4>
-              <p className="text-xs text-muted-foreground leading-relaxed">{style.desc}</p>
+              <h4 className="text-[14px] font-bold text-[#04091A] mb-1">{style.name}</h4>
+              <p className="text-[12px] text-black/40 leading-relaxed">{style.desc}</p>
               {selectedStyle === style.id && (
-                <Badge className="mt-3 bg-primary text-primary-foreground">Selected</Badge>
+                <Badge className="mt-3 text-[11px]" style={{ background: '#0096FF', color: '#fff' }}>Selected</Badge>
               )}
             </button>
           ))}
@@ -123,25 +127,20 @@ export default function CVBuilder() {
 
         {/* Preview summary */}
         {profile && (
-          <Card className="p-6 mb-8 bg-accent/30">
-            <h3 className="font-heading font-semibold mb-4">CV Preview Summary</h3>
+          <Card className="p-6 mb-8">
+            <h3 className="text-[15px] font-bold text-[#04091A] mb-4">CV Preview Summary</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
-              <div className="bg-card rounded-xl p-3">
-                <p className="font-heading text-2xl font-bold text-primary">{profile.work_experience?.length || 0}</p>
-                <p className="text-xs text-muted-foreground">Jobs</p>
-              </div>
-              <div className="bg-card rounded-xl p-3">
-                <p className="font-heading text-2xl font-bold text-primary">{profile.education?.length || 0}</p>
-                <p className="text-xs text-muted-foreground">Education</p>
-              </div>
-              <div className="bg-card rounded-xl p-3">
-                <p className="font-heading text-2xl font-bold text-primary">{profile.skills?.length || 0}</p>
-                <p className="text-xs text-muted-foreground">Skills</p>
-              </div>
-              <div className="bg-card rounded-xl p-3">
-                <p className="font-heading text-2xl font-bold text-primary">{profile.certifications?.length || 0}</p>
-                <p className="text-xs text-muted-foreground">Certs</p>
-              </div>
+              {[
+                { label: 'Jobs', val: profile.work_experience?.length || 0 },
+                { label: 'Education', val: profile.education?.length || 0 },
+                { label: 'Skills', val: profile.skills?.length || 0 },
+                { label: 'Certs', val: profile.certifications?.length || 0 },
+              ].map(({ label, val }) => (
+                <div key={label} className="bg-[#F8F9FB] rounded-xl p-3">
+                  <p className="text-[1.5rem] font-black text-[#0096FF]" style={{ fontWeight: 900 }}>{val}</p>
+                  <p className="text-[12px] text-black/40">{label}</p>
+                </div>
+              ))}
             </div>
           </Card>
         )}
@@ -150,14 +149,15 @@ export default function CVBuilder() {
         <div className="text-center">
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 gap-3 px-10"
+            className="gap-3 px-10 text-white hover:opacity-90"
+            style={{ background: '#0096FF' }}
             onClick={handleGenerate}
-            disabled={generating || isLoading}
+            disabled={generating || loading}
           >
             <Download className="w-5 h-5" />
             {generating ? 'Generating PDF...' : `Download ${STYLES.find(s => s.id === selectedStyle)?.name}`}
           </Button>
-          <p className="text-xs text-muted-foreground mt-3">
+          <p className="text-[12px] text-black/30 mt-3">
             Your CV will be downloaded as a professionally formatted PDF
           </p>
         </div>

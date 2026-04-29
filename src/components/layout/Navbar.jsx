@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { base44 } from '@/api/base44Client';
+import { useAuth } from '@/lib/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import logoSrc from '@/assets/logo.png';
 
@@ -18,11 +18,10 @@ const USER_LINKS = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [user, setUser] = useState(null);
   const [scrolled, setScrolled] = useState(false);
+  const { user, logout, signInWithGoogle } = useAuth();
   const location = useLocation();
 
-  useEffect(() => { base44.auth.me().then(setUser).catch(() => {}); }, []);
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 60);
     window.addEventListener('scroll', fn);
@@ -30,7 +29,7 @@ export default function Navbar() {
   }, []);
   useEffect(() => { setIsOpen(false); }, [location.pathname]);
 
-  const isAdmin = user?.role === 'admin';
+  const isAdmin = user?.isAdmin;
   const isHome = location.pathname === '/';
   const dark = isHome && !scrolled;
 
@@ -64,7 +63,7 @@ export default function Navbar() {
           {/* Right: Get Started + hamburger */}
           <div className="flex items-center gap-2">
             {!user ? (
-              <button onClick={() => base44.auth.redirectToLogin()}
+              <button onClick={signInWithGoogle}
                 className={`flex items-center h-9 px-5 text-[13px] font-semibold rounded-full transition-all ${
                   dark
                     ? 'bg-white text-[#04091A] hover:bg-white/90'
@@ -172,13 +171,13 @@ export default function Navbar() {
                 <div className="h-px bg-black/[0.06] my-1 mx-1" />
                 <div className="p-1">
                   {user ? (
-                    <button onClick={() => { base44.auth.logout(); setIsOpen(false); }}
+                    <button onClick={() => { logout(); setIsOpen(false); }}
                       className="w-full text-left px-3 py-2.5 text-[14px] text-red-400 hover:text-red-500 rounded-xl transition-colors"
                     >
                       Sign out
                     </button>
                   ) : (
-                    <button onClick={() => base44.auth.redirectToLogin()}
+                    <button onClick={() => { signInWithGoogle(); setIsOpen(false); }}
                       className="w-full h-11 bg-[#0096FF] text-white text-[13px] font-semibold rounded-xl hover:bg-[#0096FF]/90 transition-colors"
                     >
                       Get Started
