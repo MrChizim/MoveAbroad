@@ -118,7 +118,7 @@ function LockedContent({ countryCode, countryName }) {
 // ── Main Component ─────────────────────────────────────────────────────
 export default function CountryDetail() {
   const { code } = useParams();
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const [hasAccess, setHasAccess] = useState(null);
   const [level, setLevel] = useState('masters');
   const [activeTab, setActiveTab] = useState('overview');
@@ -127,9 +127,10 @@ export default function CountryDetail() {
   const guide = GUIDE_CONTENT[code];
 
   useEffect(() => {
+    if (authLoading) return;
     if (!user) { setHasAccess(false); return; }
     hasAccessToCountry(user.uid, code, user.email).then(setHasAccess);
-  }, [user, code]);
+  }, [user, code, authLoading]);
 
   // reset tab when switching levels
   useEffect(() => { setActiveTab('overview'); }, [level]);

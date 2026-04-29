@@ -18,7 +18,7 @@ const VISA_TYPES = [
 export default function VisaChecklist() {
   const { code } = useParams();
   const navigate = useNavigate();
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const [visaType, setVisaType] = useState('student');
   const [progress, setProgress] = useState({});
   const [hasAccess, setHasAccess] = useState(null);
@@ -28,9 +28,10 @@ export default function VisaChecklist() {
   const items = getChecklistTemplate(code, visaType);
 
   useEffect(() => {
+    if (authLoading) return;
     if (!user) { navigate('/'); return; }
     hasAccessToCountry(user.uid, code, user.email).then(setHasAccess);
-  }, [user, code, navigate]);
+  }, [user, code, navigate, authLoading]);
 
   useEffect(() => {
     if (!user || !hasAccess) return;
