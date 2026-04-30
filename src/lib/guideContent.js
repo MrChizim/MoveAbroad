@@ -3734,4 +3734,465 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
     },
   },
 
+  // ─────────────────────────────────────────────
+  // IRELAND
+  // ─────────────────────────────────────────────
+  IE: {
+    tagline: "English-speaking EU member with one of Europe's most straightforward skilled work permits — a growing destination for Nigerian tech and healthcare professionals",
+    overview: "Ireland is one of the most underrated destinations for Nigerians. It is an English-speaking EU member state, which means no language barrier, access to the EU single market, and the ability to travel freely across the EU once you have an Irish residence permit. Dublin's tech scene is home to the European headquarters of Google, Meta, Apple, LinkedIn, Salesforce, Airbnb, and dozens of other major companies — all of which actively recruit internationally. The Critical Skills Employment Permit is one of the fastest and most transparent work permits in Europe. For students, Irish universities are globally ranked, English-medium, and the fees — while not cheap — are lower than the UK for comparable programs. Ireland also has a growing Nigerian community, particularly in Dublin and Galway.",
+
+    stats: {
+      undergrad:  { tuition: "€10,000–25,000/yr (non-EU fee)", living: "€1,200–1,800/month", processing: "8–12 weeks (student visa)", acceptance: "Varies by course", minIELTS: "6.0–6.5 overall", currency: "EUR" },
+      masters:    { tuition: "€12,000–30,000/yr (non-EU fee)", living: "€1,200–1,800/month", processing: "8–12 weeks (student visa)", acceptance: "Competitive", minIELTS: "6.5 overall (7.0 for some programs)", currency: "EUR" },
+      phd:        { tuition: "Often fully funded (IRC or SFI scholarship)", living: "€18,500/yr stipend (IRC standard)", processing: "8–12 weeks after offer", acceptance: "Very competitive", minIELTS: "6.5 overall", currency: "EUR" },
+      work:       { salary: "€32,000–100,000+/yr depending on sector", processing: "4–12 weeks (Critical Skills Permit)", pathway: "Critical Skills Employment Permit / General Employment Permit", minIELTS: "Not required for permit — employer may test", currency: "EUR" },
+      visitor:    { fee: "€60 (Irish Short Stay 'C' visa)", processing: "4–8 weeks", duration: "Up to 90 days", pathway: "Irish Short Stay Visa (Category C) — Ireland is NOT Schengen", currency: "EUR" },
+    },
+
+    summary: {
+      undergrad: {
+        intro: "Ireland is not in the Schengen Area, but it is in the EU — which means an Irish student visa only covers Ireland, but graduating with an Irish degree gives you EU-level qualifications and access to one of Europe's strongest tech and pharmaceutical job markets. Dublin and Cork are home to most of the world's largest tech companies' European headquarters. Non-EU students pay higher fees, but Irish university fees are still generally lower than equivalent UK programs. The student visa process is managed by the Irish Naturalisation and Immigration Service (INIS).",
+        firstSteps: [
+          { action: "Research programs and apply through the CAO (undergraduate) or directly to universities", detail: "For undergraduate programs, international students apply through each university's international admissions office — not CAO (CAO is for Irish/EU students). Key universities: University College Dublin (UCD), Trinity College Dublin (TCD), University College Cork (UCC), University of Galway (NUI Galway), Dublin City University (DCU), University of Limerick (UL). Check each program's non-EU entry requirements and fees directly on the university website." },
+          { action: "Take IELTS Academic — target 6.5 overall", detail: "Most Irish universities require IELTS 6.0–6.5 for undergraduate entry. TCD and UCD require 6.5 for most programs. Book at British Council or IDP Nigeria. TOEFL iBT is also accepted — check each institution's specific requirement. PTE Academic may also be accepted at some institutions." },
+          { action: "Receive your offer letter and pay your tuition deposit", detail: "Once admitted, accept your offer and pay the required deposit (typically €3,000–6,000). Your university will issue a letter of acceptance that you need for the visa application. Some Irish universities also provide a registration letter specifying your course details, start date, and duration — keep both documents." },
+          { action: "Apply for your Irish student visa (Study Visa — 'D' visa) at the Irish Embassy", detail: "Apply online at visas.inis.gov.ie. Create an account, complete the application form, pay the €60 fee, and book an appointment at the Irish Embassy in Abuja or the Irish Consulate in Lagos to submit your biometrics and documents. Required documents: offer/acceptance letter, proof of tuition payment or sponsor's financial evidence, bank statements (6 months, showing sufficient funds — €7,000–10,000 minimum recommended for first year living costs plus tuition), passport, passport photographs, evidence of English proficiency, travel insurance." },
+          { action: "Arrange accommodation before arrival — student accommodation in Dublin books up fast", detail: "Dublin has a severe housing shortage. Apply for on-campus student accommodation the same week you accept your offer. UCD, TCD, and DCU all have student accommodation but it is heavily oversubscribed. Consider options: Digs (renting a room in a family home — common in Ireland, often includes meals), private student accommodation providers (Yugo, Uninest, Collegiate), shared apartments in suburbs with good transport links. Budget €700–1,100/month for accommodation." },
+        ],
+        keyFacts: [
+          "Ireland is NOT in Schengen — your Irish student visa only covers Ireland, not other EU countries",
+          "Non-EU tuition is higher — confirm exact fees per program before applying",
+          "Dublin has a housing shortage — apply for accommodation immediately on receiving your offer",
+          "After graduation: Third Level Graduate Programme (TLGP) gives you 12–24 months to find a job in Ireland",
+          "You can work 20 hours/week during term, 40 hours/week during holidays on a student visa",
+        ],
+        outcome: "Graduate → Third Level Graduate Programme (12 months for bachelor's, 24 months for master's/PhD) → find a job → Critical Skills Employment Permit or General Employment Permit → after 5 years legal residence → Long-Term Residence → Irish citizenship possible after 5 years.",
+      },
+      masters: {
+        intro: "Ireland's master's programs are internationally recognised, entirely English-medium, and feed directly into some of Europe's highest-paying tech and pharmaceutical jobs. The post-study Third Level Graduate Programme (TLGP) gives master's graduates 24 months to find work in Ireland — double what a bachelor's graduate gets. If you secure a job above €32,000 in a Critical Skills occupation, you convert directly to a Critical Skills Employment Permit, which leads to permanent residency after 2 years and Irish citizenship after 5.",
+        firstSteps: [
+          { action: "Research programs — target fields with strong Irish job market demand", detail: "Ireland's strongest sectors for international graduates: Technology (Software, Data Science, Cybersecurity, Cloud), Pharmaceutical and MedTech (Ireland is Europe's largest pharmaceutical exporter), Finance (Dublin is a major EU financial services hub post-Brexit), Business Analytics, and Healthcare. Check each university's master's programs directly. Strong programs: UCD Smurfit School (Business), TCD Computer Science, UCC Pharmacy, University of Galway Biomedical Sciences, DCU Data Analytics." },
+          { action: "Take IELTS Academic — target 6.5–7.0 overall", detail: "Most Irish master's programs require IELTS 6.5. UCD Smurfit and TCD require 7.0 for competitive programs. Your IELTS score affects admission — invest in preparation. Book at British Council or IDP Nigeria." },
+          { action: "Apply directly to universities — deadlines vary but most close March–May for September intake", detail: "Apply online through each university's postgraduate admissions portal. Documents: bachelor's degree certificate and transcripts, IELTS result, CV, personal statement, 2 academic references. Some programs (MBA, Data Science, Computer Science) may require additional interviews or test scores. Apply to 3–4 programs — Irish university acceptance rates are not as restrictive as the UK's top programs." },
+          { action: "Apply for Irish study visa ('D' visa) once admitted", detail: "Apply online at visas.inis.gov.ie. Book an appointment at the Irish Embassy Abuja or Consulate Lagos. Visa fee: €60. Processing: 8–12 weeks. Documents: acceptance letter, proof of tuition fee payment or financial sponsorship, 6 months bank statements (minimum €7,000 recommended for living costs in first year), IELTS result, passport, photographs, travel insurance. Be honest and complete — Irish visa officers can request additional documentation." },
+          { action: "Plan your Critical Skills Employment Permit application in your final semester", detail: "The Critical Skills Employment Permit requires a job offer from an Irish employer with a salary of at least €32,000/yr (for most roles) or €64,000/yr (for all occupations not on the critical skills list). Research companies recruiting in your field in Dublin and Cork. Attend your university's career fairs. Reach out on LinkedIn to recruiters at tech and pharma companies. A job offer before your TLGP expires is the goal." },
+        ],
+        keyFacts: [
+          "Third Level Graduate Programme: 24 months for master's graduates to find work in Ireland — apply before your student permission expires",
+          "Critical Skills Employment Permit: €32,000+ salary threshold for listed occupations; €64,000+ for unlisted ones",
+          "After 2 years on Critical Skills Employment Permit: eligible to apply for Stamp 4 — no employment permit needed, work for any employer",
+          "After 5 years legal residence in Ireland: eligible for Long-Term Residence or Irish citizenship (naturalisation)",
+          "Dublin has one of Europe's highest concentrations of tech company European HQs — Google, Meta, Apple, LinkedIn, Salesforce, Airbnb, Stripe",
+        ],
+        outcome: "Masters → TLGP (24 months) → Critical Skills Employment Permit → 2 years → Stamp 4 → 5 years total residence → Long-Term Residence or Irish citizenship. Ireland is one of the most straightforward EU countries for Nigerians to build a long-term life.",
+      },
+      phd: {
+        intro: "Irish PhD programs are 4 years. The majority of funded PhD positions are supported by Irish Research Council (IRC) scholarships or Science Foundation Ireland (SFI) grants. IRC Government of Ireland Postgraduate Scholarship: €18,500/yr stipend + €5,750 fees contribution + €3,250 research expenses — total support of approximately €27,500/year. SFI Research Centre positions are often fully funded including fees. As a PhD student in Ireland, you are treated as a student (not an employee like in the Netherlands or Sweden) — but funded PhD students have a real living stipend and no tuition to pay.",
+        firstSteps: [
+          { action: "Find funded PhD positions on IrishJobs.ie, university research pages, and iua.ie", detail: "Funded PhD positions are advertised on: iua.ie/research (Irish Universities Association), each university's postgraduate research page, academicpositions.eu, and findaphd.com (filter: Ireland). Also check SFI Research Centres — these are large funded research consortia in areas like data science, materials, energy, and pharmaceuticals. A position within an SFI Centre often guarantees funding." },
+          { action: "Contact supervisors directly with a research proposal", detail: "Irish PhD admission is supervisor-led. Identify professors whose work aligns with yours, read their recent papers, and email them with a focused research proposal (1 page) + CV + transcripts. Many funded positions are created around a specific supervisor's research grant — early contact can lead to a position being created for you before it's publicly advertised." },
+          { action: "Apply for IRC Government of Ireland Postgraduate Scholarship if your supervisor supports you", detail: "The IRC scholarship is applied for jointly by you and your supervisor. Your supervisor must agree to co-apply. Deadline: typically October/November each year — check research.ie. The application requires: research proposal, CV, transcripts, two references, and supervisor's support statement. Success rate: approximately 15–20% of applications. Strong applications have a clear research question, relevant background, and a supervisor at a top Irish institution." },
+          { action: "Apply for an Irish Study Visa ('D' visa) once you have a funded offer", detail: "Apply at visas.inis.gov.ie. With a funded scholarship letter showing your stipend and fees coverage, financial evidence is straightforward. Visa fee: €60. Processing: 8–12 weeks. Bring: scholarship/funding letter, university acceptance letter, IELTS, passport, bank statements." },
+          { action: "Register with GNIB (Irish immigration) within 90 days of arrival", detail: "All non-EU nationals must register with the Garda National Immigration Bureau (GNIB) within 90 days of arriving in Ireland. Book an appointment at inisonline.jahs.ie. You will receive an Irish Residence Permit (IRP) card — your legal right-to-stay document. Registration fee: €300 (waived for scholarship holders in some cases — check with your university's international office)." },
+        ],
+        keyFacts: [
+          "IRC Postgraduate Scholarship: €18,500/yr stipend + €5,750 fees + €3,250 research costs — approximately €27,500/yr total",
+          "SFI Research Centre positions often include full fees + stipend — check sfi.ie for current centres",
+          "PhD duration: 4 years. Extension possible with supervisor support",
+          "After PhD: TLGP gives you 12 months to find work (apply before student permission expires)",
+          "GNIB registration is mandatory within 90 days — do not delay. IRP card is your residence document",
+        ],
+        outcome: "PhD → Third Level Graduate Programme (12 months) → Critical Skills Employment Permit → 2 years → Stamp 4 → 5 years total → Long-Term Residence or Irish citizenship.",
+      },
+      work: {
+        intro: "Ireland's Critical Skills Employment Permit is one of the best work permit systems in Europe for skilled Nigerians. If you have a job offer from an Irish employer in a critical skills occupation with a salary of at least €32,000, the permit is issued within 4–12 weeks. After just 2 years on this permit, you get Stamp 4 — which means you can work for any employer in Ireland without any permit. No other EU country offers such a fast path from work visa to unrestricted work rights. Ireland does not have a points-based system like Australia — you need a job offer, but the process after that is fast and clear.",
+        firstSteps: [
+          { action: "Check if your occupation is on the Critical Skills Occupation List", detail: "Go to enterprise.gov.ie → employment permits → Critical Skills Occupation List. Occupations on this list qualify for the Critical Skills Employment Permit at €32,000+ salary. Key occupations relevant to Nigerians: Software Developer, Data Scientist, Cybersecurity Specialist, IT Architect, Network Engineer, Pharmacist, Medical Scientist, Registered Nurse, Civil Engineer, Financial Analyst, Accountant. If your occupation is not on the list, you may still be eligible for a General Employment Permit if your salary is €30,000+ and your role is not on the Ineligible Occupations list." },
+          { action: "Job search — target Irish employers in Dublin, Cork, and Galway", detail: "Main job boards: irishjobs.ie, jobs.ie, linkedin.com/jobs (Ireland filter), indeed.ie, glassdoor.ie. Key employers in Dublin's tech sector: Google (1,000+ staff), Meta, Apple, LinkedIn, Salesforce, Airbnb, Stripe, HubSpot, Workday, Indeed.com (HQ is Dublin), Zendesk. Pharmaceutical: Pfizer (Cork), Johnson & Johnson, MSD (Merck), Eli Lilly, Novartis, Alexion. Financial services: Citi, Bank of America, J.P. Morgan, State Street, Northern Trust, Fidelity." },
+          { action: "Secure a job offer — your employer applies for the permit on your behalf", detail: "In Ireland, either you or your employer can apply for the employment permit — but in practice employers always do it. Once you have an offer, your employer submits the Critical Skills Employment Permit application to the Department of Enterprise, Trade and Employment (DETE) online at epos.enterprise.gov.ie. Processing: typically 4–6 weeks for standard applications. You can then apply for your employment visa ('D' visa) at the Irish Embassy in Abuja or Consulate in Lagos." },
+          { action: "Apply for your employment visa ('D' visa) at the Irish Embassy in Abuja", detail: "Once your employment permit is approved, apply for the 'D' (Long Stay) visa at the Irish Embassy, Abuja. Bring: employment permit approval, job offer letter, passport, passport photographs, bank statements, educational qualifications. Fee: €60 for a single-entry visa, €100 for multiple entry. Processing at the embassy: 4–8 weeks. Book your appointment online at dfa.ie." },
+          { action: "Register with GNIB within 90 days of arriving in Ireland", detail: "On arrival, register with the Garda National Immigration Bureau (GNIB) at inisonline.jahs.ie to receive your Irish Residence Permit (IRP) card (Stamp 1). This is your legal right-to-stay document. Fee: €300. After 2 years on the Critical Skills permit, apply for Stamp 4 — this removes all work permit requirements and lets you work for any employer freely." },
+        ],
+        keyFacts: [
+          "Critical Skills permit salary threshold: €32,000+/yr for listed occupations; €64,000+/yr for all others",
+          "After 2 years on Critical Skills permit: apply for Stamp 4 — no employment permit needed, work freely for any employer",
+          "Employer applies for the permit at epos.enterprise.gov.ie — you get the permit, then apply for the visa",
+          "General Employment Permit: for roles not on critical skills list — salary €30,000+, employer pays €1,000 fee",
+          "After 5 years legal residence: eligible for Long-Term Residence; after 5 years as Irish citizen: can hold dual nationality",
+        ],
+        outcome: "Critical Skills Employment Permit → 2 years → Stamp 4 (free to work for any employer) → 5 years total Irish residence → Long-Term Residence or Irish Naturalisation (citizenship). Ireland allows dual nationality — you do not need to give up your Nigerian passport.",
+      },
+      visitor: {
+        intro: "Ireland is NOT in the Schengen Area — it has its own visa system. A Schengen visa does NOT allow you to enter Ireland, and an Irish visa does NOT allow you to enter Schengen countries. Nigerian passport holders need an Irish Short Stay 'C' visa to visit Ireland. The application is submitted at the Irish Embassy in Abuja or the Irish Consulate in Lagos. Ireland's visa refusal rate for Nigerians has historically been high — a strong, well-documented application is essential.",
+        firstSteps: [
+          { action: "Apply online at visas.inis.gov.ie and book an embassy appointment", detail: "Create an account at visas.inis.gov.ie. Complete the online application form for a Short Stay 'C' visa. Pay the €60 fee online. Print your summary sheet and book an appointment at the Irish Embassy in Abuja (Plot 1402, Tigris Crescent, off Aguiyi Ironsi Street, Maitama, Abuja) or the Honorary Consulate in Lagos. Bring all documents to the appointment — originals and copies." },
+          { action: "Prepare strong financial documentation", detail: "Bank statements: 6 months personal statements showing consistent income and balance. Recommended minimum balance: ₦1,500,000–2,000,000. If sponsored by someone in Ireland or Nigeria, include their bank statements and a signed sponsorship letter. Self-employed: CAC registration certificate, tax clearance, 6 months business account statements. The Irish Embassy scrutinises financial evidence carefully for Nigerian applicants — inconsistent or thin statements are a common reason for refusal." },
+          { action: "Show strong ties to Nigeria", detail: "The most important factor in an Irish visitor visa approval is demonstrating that you will return to Nigeria. Strong ties: permanent employment with a well-known employer (provide an employment letter stating your role, salary, and approved leave dates + payslips for 3 months), property ownership documents, business ownership (CAC, tax clearance), family dependants in Nigeria. Weak ties: no job, no property, single, no dependants — these all increase refusal risk." },
+          { action: "Prepare your purpose of visit documentation", detail: "Clearly state your purpose: tourism, visiting family/friends, business meetings, attending a conference. If visiting family or friends in Ireland: get a detailed invitation letter from your host including their name, Irish address, proof of Irish residency (copy of Irish passport or IRP card), relationship to you, and confirmation they will accommodate you. If attending a conference: include the conference invitation letter, registration confirmation, and programme." },
+          { action: "Travel insurance, accommodation proof, and return flight", detail: "Travel insurance: minimum €25,000 medical cover for the duration of your stay. Book return flights before applying — a confirmed return booking (refundable is fine) shows intent to return. Accommodation: hotel booking confirmation or host's invitation letter. Do not just print a screenshot — use proper booking confirmation emails with reservation numbers." },
+        ],
+        keyFacts: [
+          "Ireland is NOT Schengen — a Schengen visa does not allow entry to Ireland and vice versa",
+          "Visa fee: €60 for short-stay (non-refundable regardless of outcome)",
+          "Processing: 4–8 weeks standard — apply well in advance",
+          "Ireland's visa refusal rate for Nigerians is significant — a complete, strong application is non-negotiable",
+          "Maximum stay: up to 90 days per visit (the specific duration is determined by the immigration officer on arrival)",
+        ],
+        outcome: "An approved Irish Short Stay 'C' visa allows entry to Ireland only — not other EU or Schengen countries. Typical grant: single or double entry, valid for 3–6 months from issue date.",
+      },
+    },
+
+    visa: {
+      undergrad: `**Ireland Student Visa (Study Visa 'D') — Undergraduate**
+
+**Important: Ireland is NOT Schengen**
+Your Irish student visa covers Ireland only. You cannot use it to travel to France, Germany, Spain, or other EU/Schengen countries. If you want to travel within Europe during your studies, you need a separate Schengen visa. The UK also requires a separate visa. Ireland and the UK share the Common Travel Area (CTA), but as a non-EU Nigerian student, CTA does not automatically give you free movement between the two countries.
+
+**The Irish Student Visa Process**
+All applications are submitted online at visas.inis.gov.ie. After submitting online, you attend an appointment at the Irish Embassy in Abuja or the Consulate in Lagos to submit your original documents and biometrics.
+
+Step 1 — Apply online at visas.inis.gov.ie. Select 'Study' as your visa type.
+Step 2 — Pay the €60 visa fee online by card.
+Step 3 — Print your application summary sheet.
+Step 4 — Book an appointment at Irish Embassy Abuja or Honorary Consulate Lagos.
+Step 5 — Attend appointment with all original documents.
+Step 6 — Embassy processes and issues a decision. Processing: 8–12 weeks.
+
+**Documents Required**
+- Valid Nigerian passport (minimum 12 months validity beyond your course end date)
+- Completed online application form (summary sheet printed)
+- 2 passport photographs (white background, recent)
+- Original letter of acceptance from your Irish university (must state: course name, duration, start date, non-EU tuition fee amount)
+- Evidence of tuition fee payment or sponsorship (if you have not paid yet, a bank statement or scholarship letter showing you can pay)
+- 6 months personal bank statements showing consistent funds
+- Proof of living cost funds: approximately €7,000 for the first year (Irish naturalisation requirement baseline) — more is better
+- Private medical insurance for the duration of your stay
+- Evidence of English proficiency (IELTS certificate)
+
+**Working Rights**
+Non-EU students in Ireland can work:
+- 20 hours per week during term time (September–May, approximately)
+- 40 hours per week during holiday periods (June–August, December–January)
+- Any registered Irish employer can hire you — you don't need a separate work permit
+- National Minimum Wage: €12.70/hour (2024) — 20 hours/week = approximately €1,016/month before tax
+
+**Third Level Graduate Programme (TLGP)**
+After completing your undergraduate degree, you can apply for the TLGP before your student permission expires. TLGP for bachelor's graduates: 12 months of permission to stay in Ireland and search for graduate employment. You cannot work more than 40 hours per week. If you find a qualifying job, your employer applies for a Critical Skills or General Employment Permit to convert you to a work permission. The TLGP costs €300 to apply for at INIS.
+
+**After TLGP: Employment Permit**
+If you secure a job offer in a Critical Skills occupation (salary €32,000+), your employer applies for a Critical Skills Employment Permit through enterprise.gov.ie. After 2 years on this permit, you upgrade to Stamp 4 — no more employment permit needed, you can work for any Irish employer freely.`,
+
+      masters: `**Ireland Student Visa (Study Visa 'D') — Master's**
+
+**Why Ireland for a Master's**
+Three reasons:
+1. English is the language of instruction and the workplace — no second language required at any stage
+2. Dublin and Cork are home to the European HQs of most major global tech and pharma companies — your career network is built before you graduate
+3. The TLGP (24 months for master's graduates) gives you twice as long as a bachelor's to find work — and the Critical Skills Employment Permit after that leads to Stamp 4 in just 2 years
+
+**Application Process**
+Same as undergraduate. Apply online at visas.inis.gov.ie → Study visa → Book appointment at Irish Embassy Abuja or Consulate Lagos → Submit documents → Wait 8–12 weeks.
+
+**Financial Requirements for Visa**
+The Irish Embassy assesses whether you can fund your studies without working illegally. For master's applications:
+- Tuition fees: €12,000–30,000/yr — you must show this is covered (fee payment receipt, sponsor's bank statements, scholarship letter)
+- Living costs: approximately €7,000–10,000 for the first academic year in Ireland (Dublin is expensive)
+- Total recommended funds demonstrated: €20,000–40,000 for first year depending on your program
+
+If your family is sponsoring you, include: 6 months of sponsor's bank statements, a signed sponsorship letter, proof of the relationship (birth certificate if parent), and evidence of sponsor's employment or business income.
+
+**TLGP for Master's Graduates: 24 Months**
+This is the most important advantage of an Irish master's degree vs other countries. After graduation:
+1. Apply for TLGP before your student permission expires — €300 fee, submit at inisonline.jahs.ie
+2. You get 24 months of legal permission to stay and work (up to 40 hrs/week) while job-hunting
+3. No employment permit needed during TLGP — you work on your student permission extension
+4. Once you find a Critical Skills job: employer applies for Critical Skills Employment Permit
+5. After 2 years on Critical Skills permit: Stamp 4 (unrestricted work in Ireland)
+6. After 5 years total legal residence: Long-Term Residence or Irish naturalisation
+
+**Key Programs by Sector**
+Technology: TCD MSc Computer Science, UCD MSc Data Analytics, DCU MSc Cybersecurity, TCD MSc Intelligent Systems
+Business: UCD Smurfit School (MBA, MSc Finance, MSc Management), TCD Business School, UCC Business Information Systems
+Pharmaceutical/Life Sciences: UCC Pharmacy, University of Galway Biomedical Sciences, TCD Biochemistry, UCD Biotechnology
+Engineering: UCD Civil Engineering, University of Galway Electronic Engineering, UL Chemical Engineering`,
+
+      phd: `**Ireland PhD — IRC and SFI Funding**
+
+**Funding Landscape**
+Ireland has two primary PhD funding bodies:
+
+**Irish Research Council (IRC) — Government of Ireland Postgraduate Scholarship**
+- Stipend: €18,500/year
+- Fees contribution: €5,750/year
+- Research expenses: €3,250/year
+- Total: ~€27,500/year
+- Duration: 4 years
+- Application: joint application with your supervisor. Deadline: typically October/November. Apply at research.ie
+- This is competitive — success rate approximately 15–20%. Strong research proposals and top supervisors improve your odds significantly
+
+**Science Foundation Ireland (SFI) Research Centres**
+SFI funds large research centres in strategic areas. Positions within these centres are typically fully funded (fees + stipend). Current SFI Research Centres include: INSIGHT (data analytics), LERO (software), I-Form (advanced manufacturing), VistaMilk (food science), MaREI (marine, energy, climate), Amber (materials). Find open positions at sfi.ie and on each centre's own website.
+
+**University-funded Positions**
+Many Irish universities also have their own PhD scholarships — UCD, TCD, and UCC all advertise funded positions directly. Check each university's graduate research admissions page regularly.
+
+**The Application Process**
+1. Identify supervisor and agree on research topic
+2. Submit formal PhD application through university's graduate admissions portal
+3. If applying for IRC: supervisor submits joint application in October/November
+4. If IRC-funded: receive conditional offer → apply for study visa → travel → register with GNIB
+5. If university or SFI-funded: receive offer letter → same visa process
+
+**Working During PhD**
+PhD students in Ireland can work up to 20 hours/week during term, 40 hours/week during holidays. Many PhD students tutor undergraduates (€20–30/hour) or work as research assistants. Your stipend is not taxed — work income above €5,000/year may be subject to PAYE.
+
+**Student Visa and GNIB Registration**
+Apply for study 'D' visa at visas.inis.gov.ie. Funding letter from IRC or university substitutes for personal financial evidence. On arrival: register with GNIB within 90 days at inisonline.jahs.ie. Irish Residence Permit (IRP) card issued — this is your legal stay document. Fee: €300.`,
+
+      work: `**Ireland Critical Skills Employment Permit**
+
+**The Most Important Thing to Know**
+Ireland's Critical Skills Employment Permit is employer-led — either you or your employer submits the application, but in practice employers always do. You do not go to the embassy first. The sequence is:
+
+1. Job offer received with salary ≥ €32,000 in a critical skills occupation
+2. Employer submits permit application at epos.enterprise.gov.ie
+3. DETE processes and approves the permit (4–12 weeks)
+4. You apply for an employment 'D' visa at the Irish Embassy Abuja
+5. Travel to Ireland, register with GNIB (get Stamp 1 on IRP card)
+6. After 2 years: apply for Stamp 4
+7. After 5 years: apply for Long-Term Residence or Irish citizenship
+
+**Critical Skills Occupation List**
+The full list is at enterprise.gov.ie. Key categories for Nigerians:
+
+IT and Technology: Software Developer, Data Scientist, Cybersecurity Specialist, Systems/IT Architect, Network Engineer, ICT Project Manager, AI/Machine Learning Engineer — all qualify at €32,000+
+
+Healthcare: Pharmacist (€50,000+ typically), Medical Scientist, Radiographer, Registered Nurse (General Employment Permit — different route), Clinical Nurse Specialist
+
+Engineering: Civil Engineer, Mechanical Engineer, Electrical Engineer, Chemical Engineer, Process Engineer (pharmaceutical manufacturing)
+
+Finance: Actuary, Financial Analyst, Risk Manager, Quantitative Analyst
+
+If your occupation is NOT on the Critical Skills list, you may be eligible for the General Employment Permit — salary threshold is €30,000+, employer pays a €1,000 permit fee (refunded if refused), and the occupation must not be on the Ineligible list.
+
+**Where to Find Jobs in Ireland**
+Primary job boards: irishjobs.ie, jobs.ie, linkedin.com/jobs (set location to Ireland), indeed.ie. Key employers by sector:
+
+Tech: Google (Dublin — 8,000+ staff), Meta (Dublin), Apple (Cork), LinkedIn (Dublin — HQ is Ireland), Salesforce (Dublin), Stripe (Dublin — HQ), HubSpot (Dublin), Workday (Dublin), Zendesk, Intercom, Dropbox, Airbnb, Twitter/X, TikTok (EU ops in Dublin)
+
+Pharma/MedTech: Pfizer (Cork, Dublin), Johnson & Johnson (Cork), MSD/Merck (Carlow, Dublin), Eli Lilly (Cork, Limerick), Novartis (Dublin), Alexion (Dublin), Medtronic (Galway), Boston Scientific (Galway), Abbott (Clonmel)
+
+Financial Services: Citi (Dublin), Bank of America (Dublin), J.P. Morgan (Dublin), State Street (Dublin), Northern Trust (Limerick), Fidelity (Dublin), BNY Mellon (Dublin)
+
+**Stamp 4 After 2 Years**
+After 2 years continuous employment on a Critical Skills permit, you are entitled to Stamp 4. This is a transformational upgrade: you can work for any employer in Ireland, in any role, without any employment permit. No quota, no salary threshold, no employer sponsorship needed. You apply at inisonline.jahs.ie. Cost: €300. This is one of the fastest routes to unrestricted EU work rights available to any non-EU national anywhere in Europe.
+
+**Irish Citizenship**
+Ireland allows dual nationality — you do not need to give up your Nigerian passport. After 5 years of continuous legal residence in Ireland (which can include time as a student), you are eligible to apply for Irish naturalisation. An Irish passport gives you EU citizenship — the right to live and work in all 27 EU member states.`,
+
+      visitor: `**Ireland Short Stay Visa ('C' visa) — Visitor**
+
+**Ireland Is Not Schengen**
+This is the most important thing to understand. Ireland has its own visa system separate from the Schengen Area. A UK visa does not give you entry to Ireland (unless you hold a valid Irish visa or have another qualifying status). A Schengen visa does not give you entry to Ireland. You need a specific Irish visa.
+
+**Where to Apply**
+Irish Embassy: Plot 1402, Tigris Crescent, off Aguiyi Ironsi Street, Maitama, Abuja
+Honorary Consulate Lagos: contact via the embassy website at dfa.ie for current Lagos appointment process.
+
+Apply online first at visas.inis.gov.ie, then attend your appointment with original documents.
+
+**Visa Fee**
+Single entry: €60. Multiple entry: €100. Non-refundable.
+
+**Documents Checklist**
+- Completed online application (summary sheet printed from visas.inis.gov.ie)
+- Valid Nigerian passport (minimum 6 months validity beyond intended return date)
+- 2 recent passport photographs (35mm × 45mm, white background)
+- Confirmed return flight booking
+- Proof of accommodation (hotel reservation or invitation letter from host with copy of their IRP card or Irish passport)
+- 6 months personal bank statements (consistent balance — minimum ₦1,500,000 recommended)
+- Employment letter from your Nigerian employer (company letterhead, signed, stating your role, salary, leave approval, and confirmation you will return)
+- If self-employed: CAC registration, tax clearance certificate, 6 months business account statements
+- Travel/medical insurance (minimum €25,000 medical cover for duration of stay)
+- Any previous visa grants (UK, Schengen, US) — include copies as evidence of immigration compliance
+
+**Why Applications Are Refused — The Real Reasons**
+Irish visa refusals for Nigerians are common. The most frequent grounds:
+1. Insufficient financial evidence — bank statements showing low, inconsistent, or recently inflated balances
+2. Failure to demonstrate ties to Nigeria — no stable employment, no property, no family dependants
+3. Vague purpose of visit — unclear itinerary, no specific activities planned
+4. Inadequate explanation of relationship to host (if visiting someone in Ireland)
+5. Previous Irish or UK visa refusals not declared
+
+**Appealing a Refusal**
+If refused, you receive a written refusal notice specifying the grounds. You can appeal within 2 months to the Visa Appeals Officer (VAO). The appeal must address the specific grounds of refusal with new or additional evidence — not simply re-submitting the same application. Include a detailed personal statement addressing each ground. The VAO decision is final within the administrative process, though judicial review is technically possible.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { month: "12 months before", task: "Research Irish universities and programs. Check each university's non-EU entry requirements and fees directly" },
+        { month: "10–11 months before", task: "Take IELTS Academic — target 6.5 overall. Book at British Council or IDP Nigeria" },
+        { month: "9–10 months before", task: "Gather certified transcripts and WAEC/NECO results. Get documents stamped by your institution's registrar" },
+        { month: "7–9 months before", task: "Apply to 3–5 Irish universities through their international admissions portals. Deadlines vary — most accept applications from October through May" },
+        { month: "5–7 months before", task: "Receive offers. Accept and pay tuition deposit (typically €3,000–6,000). University issues acceptance letter" },
+        { month: "4–6 months before", task: "Apply online at visas.inis.gov.ie. Pay €60 fee. Book appointment at Irish Embassy Abuja or Consulate Lagos. Submit documents" },
+        { month: "2–4 months before", task: "Visa processing: 8–12 weeks. Apply for student accommodation immediately — Dublin housing shortage is severe" },
+        { month: "Arrival week", task: "Register with GNIB within 90 days at inisonline.jahs.ie. Fee: €300. Get your IRP card" },
+        { month: "During study", task: "Work up to 20 hrs/week during term, 40 hrs/week during holidays. Build your professional network in Dublin's tech community" },
+        { month: "Final semester", task: "Apply for TLGP before student permission expires. Cost: €300. Gives 12 months to find graduate employment" },
+      ],
+      masters: [
+        { month: "12 months before", task: "Research programs. Target fields aligned with Ireland's Critical Skills Occupation List: tech, pharma, finance, engineering" },
+        { month: "10 months before", task: "Take IELTS Academic — target 7.0 overall. UCD Smurfit, TCD, and some UCC programs require 7.0" },
+        { month: "8–9 months before", task: "Request official transcripts and degree certificate from your Nigerian university registrar" },
+        { month: "6–8 months before", task: "Apply to 3–4 programs. Most Irish master's programs close March–May for September intake. Some have January rolling deadlines" },
+        { month: "4–6 months before", task: "Accept offer, pay deposit, receive acceptance letter. Apply for study 'D' visa at visas.inis.gov.ie. Book embassy appointment" },
+        { month: "2–4 months before", task: "Visa processing: 8–12 weeks. Arrange accommodation — apply for university housing immediately on accepting offer" },
+        { month: "Arrival week", task: "GNIB registration within 90 days. Get IRP card. Set up Irish bank account (AIB, Bank of Ireland, or N26)" },
+        { month: "Final semester", task: "Apply for TLGP (24 months). Research Critical Skills employers and begin job applications. Attend campus recruitment events" },
+        { month: "During TLGP", task: "Work up to 40 hrs/week. Build experience. Employer applies for Critical Skills permit when you get a job offer" },
+        { month: "After 2 years on permit", task: "Apply for Stamp 4 at inisonline.jahs.ie. Work freely for any employer. Track towards 5-year residence milestone" },
+      ],
+      phd: [
+        { month: "Ongoing", task: "Monitor sfi.ie, research.ie, and university research pages for funded PhD positions. Set up email alerts" },
+        { month: "Contact phase", task: "Email potential supervisors with personalised research proposal + CV + transcripts. Allow 2–4 weeks per contact" },
+        { month: "IRC deadline (Oct/Nov)", task: "If applying for IRC scholarship: joint application with supervisor must be submitted by IRC deadline — check research.ie" },
+        { month: "Offer received", task: "Receive admission + funding offer. Apply for study 'D' visa at visas.inis.gov.ie. Funding letter covers financial evidence" },
+        { month: "Visa processing", task: "8–12 weeks processing. Book flights for start of academic year (typically September or January)" },
+        { month: "Arrival week", task: "GNIB registration within 90 days. IRP card. Open bank account. Attend university induction" },
+        { month: "Year 1–4", task: "IRC/SFI stipend paid monthly. Tutoring possible for supplementary income. Annual progress reviews" },
+        { month: "Completion", task: "Apply for TLGP (12 months) before student permission expires. Job search or postdoc" },
+      ],
+      work: [
+        { month: "Job search", task: "Apply on irishjobs.ie, linkedin.com/jobs (Ireland), and company career pages. Target Critical Skills occupations" },
+        { month: "Job offer", task: "Receive offer with salary ≥ €32,000. Confirm occupation is on Critical Skills list at enterprise.gov.ie" },
+        { month: "Permit application", task: "Employer submits Critical Skills Employment Permit at epos.enterprise.gov.ie. Processing: 4–12 weeks" },
+        { month: "Employment visa", task: "With permit approval, apply for 'D' employment visa at Irish Embassy Abuja. Fee: €60 (single) or €100 (multiple). Processing: 4–8 weeks" },
+        { month: "Travel and arrival", task: "Travel to Ireland. Register with GNIB within 90 days. Get Stamp 1 IRP card. Open bank account (AIB, Bank of Ireland)" },
+        { month: "2 years on permit", task: "Apply for Stamp 4 at inisonline.jahs.ie. €300 fee. Receive unrestricted work permission in Ireland" },
+        { month: "5 years residence", task: "Apply for Long-Term Residence or Irish naturalisation. Irish passport = EU citizenship and freedom of movement in all 27 EU states" },
+      ],
+      visitor: [
+        { month: "8 weeks before travel", task: "Apply online at visas.inis.gov.ie. Complete form and pay €60 fee" },
+        { month: "7 weeks before", task: "Book appointment at Irish Embassy Abuja or Consulate Lagos. Gather all documents" },
+        { month: "6 weeks before", task: "Attend embassy appointment with originals + copies of all documents. Submit biometrics if required" },
+        { month: "3–5 weeks before", task: "Processing: 4–8 weeks. Track via visas.inis.gov.ie with your application reference number" },
+        { month: "2–3 weeks before", task: "Collect passport with visa from embassy. Check visa dates, entries, and conditions" },
+        { month: "Travel", task: "Travel with passport + visa. Present at Irish immigration. Officer stamps your passport with permitted stay duration" },
+        { month: "In Ireland", task: "Do not overstay the stamp date in your passport. Do not work. Keep return ticket confirmed" },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Ireland is NOT in Schengen — your student visa only covers Ireland. Separate Schengen or UK visas needed for European travel",
+        "Dublin housing shortage is real and severe — apply for student accommodation the same week you receive your offer letter",
+        "The Third Level Graduate Programme (TLGP) is 12 months for undergraduates — plan your job search before you graduate, not after",
+        "You can work 20 hours/week during term at €12.70/hour minimum wage — this is meaningful supplementary income",
+        "GNIB registration within 90 days of arrival is mandatory — book your appointment before you land if possible",
+        "Irish universities are more accessible than UK universities for similar program quality — TCD, UCD, and UCC are genuinely world-class",
+        "After TLGP, the Critical Skills Employment Permit leads to Stamp 4 in just 2 years — one of the fastest unrestricted work paths in the EU",
+      ],
+      masters: [
+        "Choose a field on Ireland's Critical Skills Occupation List — this determines your employment permit eligibility and salary threshold",
+        "UCD Smurfit School has strong alumni networks in Dublin's finance sector — worth the higher fees if finance is your career path",
+        "The TLGP gives you 24 months post-graduation to find work in Ireland — more than any other EU country offers",
+        "Dublin tech salaries are comparable to London — Google, Meta, Stripe, and Salesforce Irish offices pay competitive European packages",
+        "An Irish master's degree combined with 5 years total Irish residence qualifies you for naturalisation — and an Irish passport gives EU freedom of movement",
+        "Apply to UCD, TCD, and DCU all at once — Irish universities don't penalise you for applying to multiple institutions",
+        "Cork is significantly more affordable than Dublin and has a large pharma and tech employment base — consider UCC for lower living costs",
+      ],
+      phd: [
+        "The IRC Postgraduate Scholarship is Ireland's most valuable PhD funding — apply in October/November with your supervisor's full support",
+        "SFI Research Centres (INSIGHT, LERO, MaREI etc.) often have more PhD positions than IRC — check sfi.ie directly",
+        "GNIB registration within 90 days is mandatory — missing this deadline creates serious immigration problems",
+        "PhD students can tutor undergraduates at €20–30/hour — Irish universities pay tutors better than most EU countries",
+        "An Irish PhD followed by TLGP and Critical Skills permit can lead to citizenship in under 10 years",
+        "TCD and UCD have the strongest research reputations in Ireland — supervisor quality matters more than which university you're at",
+        "Your IRC stipend is tax-exempt — additional work income above €5,000/year is taxable under PAYE",
+      ],
+      work: [
+        "The Critical Skills Employment Permit is employer-led — you need a job offer first, then the employer applies",
+        "Stamp 4 after 2 years is uniquely generous — no other EU country gives unrestricted work rights this quickly",
+        "Ireland allows dual nationality — you keep your Nigerian passport when you naturalise as Irish",
+        "An Irish passport = EU citizenship — you can live and work in all 27 EU member states without any visa",
+        "Dublin's cost of living is high — negotiate your salary above the €32,000 minimum if you can. Mid-level tech roles pay €55,000–90,000",
+        "LinkedIn is the most effective job search tool for Ireland's tech sector — build your profile before applying",
+        "GNIB registration fee is €300 — budget for this on arrival. Book your appointment before you land",
+      ],
+      visitor: [
+        "Ireland is NOT Schengen — a Schengen visa won't get you into Ireland and an Irish visa won't get you into Schengen",
+        "Consistent 6-month bank statements are the most important document — a sudden large deposit raises red flags",
+        "Show you have reasons to return to Nigeria: stable employment, property, family. The visa officer must believe you will leave",
+        "Previous UK, US, or Schengen visas (especially if you used them without overstaying) significantly help your Irish visa application",
+        "If refused, read the refusal letter carefully — appeal with specific new evidence addressing each stated ground",
+        "Book an appointment early — Irish Embassy Abuja appointments can be backed up 4–6 weeks",
+        "Do not pay an agent to 'guarantee' an Irish visa — no agent can guarantee a visa, and fraudulent applications cause permanent bans",
+      ],
+    },
+
+    universities: {
+      undergrad: [
+        { name: "University College Dublin (UCD)", location: "Dublin, Leinster", known_for: "Ireland's largest university. Strong in Business, Engineering, Law, Sciences, Medicine. Belfield campus. Large international student body. Close to Dublin's tech hub.", avg_tuition: "€18,000–28,000/yr (non-EU)", acceptance: "Moderately competitive", nigerian_community: "Small but growing" },
+        { name: "Trinity College Dublin (TCD)", location: "Dublin city centre", known_for: "Ireland's oldest and most prestigious university (est. 1592). Computer Science, Engineering, Business, Law, Medicine, Arts. Central Dublin location — exceptional industry access.", avg_tuition: "€19,000–29,000/yr (non-EU)", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "University College Cork (UCC)", location: "Cork, Munster", known_for: "Pharmacy, Medicine, Sciences, Business, Law. Cork is Ireland's second city — significant pharma and tech employment base. More affordable than Dublin.", avg_tuition: "€14,000–24,000/yr (non-EU)", acceptance: "Moderately competitive", nigerian_community: "Very small" },
+        { name: "Dublin City University (DCU)", location: "Dublin, Glasnevin", known_for: "Business, Computing, Engineering, Communications, Education. Strong industry links in Dublin's north. More accessible than TCD/UCD. Active international student office.", avg_tuition: "€12,000–20,000/yr (non-EU)", acceptance: "Accessible", nigerian_community: "Very small" },
+      ],
+      masters: [
+        { name: "Trinity College Dublin (TCD)", location: "Dublin city centre", known_for: "Computer Science, Engineering, Business, Law, Global Affairs. Ireland's top-ranked university globally. Exceptional alumni network in Dublin's tech and finance sector.", avg_tuition: "€18,000–30,000/yr (non-EU)", acceptance: "Very competitive", nigerian_community: "Small" },
+        { name: "University College Dublin — Smurfit School", location: "Dublin, Blackrock", known_for: "UCD Michael Smurfit Graduate Business School — MBA, MSc Finance, MSc Management. Top-ranked business school in Ireland. Strong corporate recruitment connections.", avg_tuition: "€20,000–35,000/yr (non-EU)", acceptance: "Competitive", nigerian_community: "Very small" },
+        { name: "University College Cork (UCC)", location: "Cork", known_for: "Pharmacy, Biochemistry, Food Science, Law, Business Information Systems. Cork's pharma and tech sector (Apple, Dell, Pfizer, J&J nearby) creates strong graduate employment.", avg_tuition: "€13,000–22,000/yr (non-EU)", acceptance: "Moderately competitive", nigerian_community: "Very small" },
+        { name: "Dublin City University (DCU)", location: "Dublin", known_for: "MSc Data Analytics, Cybersecurity, Engineering. Strong industry-facing curriculum. Close links with Google, Microsoft, and Intel which have major Dublin campuses.", avg_tuition: "€12,000–18,000/yr (non-EU)", acceptance: "Moderately competitive", nigerian_community: "Very small" },
+        { name: "University of Galway (NUI Galway)", location: "Galway, Connacht", known_for: "Biomedical Engineering, Marine Science, Law, Arts, Business. Galway has a growing MedTech sector (Medtronic, Boston Scientific both based here). More affordable living costs.", avg_tuition: "€12,000–20,000/yr (non-EU)", acceptance: "Accessible", nigerian_community: "Very small" },
+      ],
+      phd: [
+        { name: "Trinity College Dublin (TCD)", location: "Dublin city centre", known_for: "Computer Science, Engineering, Life Sciences, Law, Social Sciences. Ireland's top research university. Strong SFI and IRC funding pipeline.", avg_tuition: "Fully funded via IRC/SFI scholarship — €18,500+/yr stipend", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University College Dublin (UCD)", location: "Dublin", known_for: "Sciences, Engineering, Business, Medicine, Social Sciences. Large research output. Active industry partnerships with Dublin tech sector.", avg_tuition: "Fully funded via IRC/SFI", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University College Cork (UCC)", location: "Cork", known_for: "Pharmacy, Food Science, Biochemistry, Law. Strong pharmaceutical research links. Funded positions often available through SFI and Horizon Europe projects.", avg_tuition: "Fully funded via IRC/SFI", acceptance: "Competitive", nigerian_community: "Very small" },
+      ],
+      work: [],
+    },
+
+    scholarships: {
+      undergrad: [
+        { name: "Government of Ireland International Education Scholarships", amount: "€10,000 — one-time award for high-achieving international students", university: "All Irish HEIs — managed by HEA (Higher Education Authority)", deadline: "Check hea.ie annually — typically opens March each year", url: "https://hea.ie/policy/internationalisation/government-of-ireland-international-education-scholarship/" },
+        { name: "UCD Global Excellence Scholarship", amount: "€3,000–5,000 per year — tuition reduction for high-achieving non-EU undergraduates", university: "University College Dublin (UCD)", deadline: "Applied for automatically with UCD undergraduate admission", url: "https://www.ucd.ie/global/scholarships/" },
+      ],
+      masters: [
+        { name: "Government of Ireland Postgraduate Scholarship (IRC)", amount: "€18,500/yr stipend + €5,750 fees + €3,250 research costs — full support for research master's or PhD", university: "All Irish universities — joint application with supervisor. Apply at research.ie", deadline: "October/November each year — check research.ie for exact deadline", url: "https://research.ie/funding/goipg/" },
+        { name: "Government of Ireland International Education Scholarships", amount: "€10,000 one-time award — for international students at master's level", university: "All Irish HEIs — managed by HEA", deadline: "March each year — check hea.ie", url: "https://hea.ie/policy/internationalisation/government-of-ireland-international-education-scholarship/" },
+        { name: "UCD Smurfit Entrance Scholarships", amount: "€5,000–10,000 — merit-based tuition reduction for top MBA and MSc applicants", university: "UCD Smurfit School of Business", deadline: "Rolling — considered with admission application", url: "https://www.smurfitschool.ie/mastersprogrammes/scholarships/" },
+        { name: "TCD Postgraduate Ussher Fellowships", amount: "Full fees + €16,000 stipend — for outstanding postgraduate researchers", university: "Trinity College Dublin — for research master's and PhD", deadline: "Check tcd.ie/research annually for current cycle", url: "https://www.tcd.ie/research/postgraduate/" },
+      ],
+      phd: [
+        { name: "IRC Government of Ireland Postgraduate Scholarship", amount: "€18,500/yr stipend + €5,750 fees contribution + €3,250 research expenses — Ireland's flagship PhD scholarship", university: "All Irish universities — applied jointly with supervisor", deadline: "October/November each year at research.ie", url: "https://research.ie/funding/goipg/" },
+        { name: "SFI Research Centre PhD Positions", amount: "Full fees waiver + €18,500–22,000/yr stipend depending on centre — fully funded employment-equivalent", university: "SFI-funded research centres at Irish universities — check sfi.ie and each centre's website", deadline: "Rolling — per advertised position. Set up alerts at sfi.ie", url: "https://www.sfi.ie/funding/" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Irish Embassy Abuja / Honorary Consulate Lagos",
+      address: "Embassy: Plot 1402, Tigris Crescent, off Aguiyi Ironsi Street, Maitama, Abuja | Consulate: Contact via embassy website for Lagos appointments",
+      phone: "All visa applications submitted online at visas.inis.gov.ie first — then book in-person appointment at embassy",
+      note: "All Irish visa applications (student, visitor, employment) are submitted online at visas.inis.gov.ie first. After submitting online and paying the €60 fee, you book an in-person appointment at the Irish Embassy in Abuja to submit original documents. Employment permit applications are submitted separately by your employer at epos.enterprise.gov.ie — not at the embassy. GNIB registration (on arrival in Ireland) is done at inisonline.jahs.ie.",
+      website: "https://www.ireland.ie/en/nigeria/abuja/",
+      visa_apply: "https://www.visas.inis.gov.ie/",
+      vfs: "https://www.visas.inis.gov.ie/",
+      official_immigration: "https://www.irishimmigration.ie/",
+      extra_links: [
+        { label: "INIS Online — Irish visa applications", url: "https://www.visas.inis.gov.ie/" },
+        { label: "Irish Immigration Service — all permits and residency", url: "https://www.irishimmigration.ie/" },
+        { label: "Critical Skills Occupation List — enterprise.gov.ie", url: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/" },
+        { label: "Employment Permit application portal — EPOS", url: "https://epos.enterprise.gov.ie/" },
+        { label: "Irish Research Council — IRC Postgraduate Scholarship", url: "https://research.ie/funding/goipg/" },
+        { label: "Science Foundation Ireland — SFI research funding and positions", url: "https://www.sfi.ie/" },
+        { label: "GNIB Registration — Irish Residence Permit", url: "https://inisonline.jahs.ie/" },
+        { label: "IrishJobs.ie — Main Irish job board", url: "https://www.irishjobs.ie/" },
+        { label: "Study in Ireland — Official student guide", url: "https://www.educationinireland.com/" },
+        { label: "Third Level Graduate Programme — information", url: "https://www.irishimmigration.ie/coming-to-work-in-ireland/what-are-my-options-for-working-in-ireland/third-level-graduate-programme/" },
+      ],
+    },
+  },
+
 };
