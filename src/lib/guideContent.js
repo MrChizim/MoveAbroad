@@ -4983,4 +4983,1321 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
     },
   },
 
+  PL: {
+    tagline: "Poland — affordable EU education, a booming Warsaw tech scene, and one of Europe's fastest-growing economies.",
+
+    overview: `Poland is one of the most affordable EU countries for Nigerian students and workers. Warsaw and Krakow are dynamic cities with low costs (€500–800/month outside central Warsaw), strong universities, and a fast-growing tech sector. Polish universities charge non-EU students €1,500–4,000/year — far below Western Europe. English-medium programmes are widely available at Master's level. Poland is in the Schengen Area and EU, so a Polish degree and work permit opens doors across Europe. The path to permanent residency is 5 years. Polish bureaucracy is improving — the Legalization Office (Urząd do Spraw Cudzoziemców) handles permits, and most processes now have English guidance.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (non-EU)", value: "€1,500–4,000/yr" },
+        { label: "Living costs", value: "€500–800/mo" },
+        { label: "Visa type", value: "National visa (Type D)" },
+        { label: "Student work", value: "Unlimited hours during studies" },
+        { label: "Language", value: "Polish (most undergrad), English (many Master's)" },
+      ],
+      masters: [
+        { label: "Tuition (non-EU)", value: "€2,000–5,000/yr" },
+        { label: "Top universities", value: "University of Warsaw, Jagiellonian, Warsaw University of Technology" },
+        { label: "Scholarship", value: "Polish Government Scholarship (NAWA)" },
+        { label: "Post-study permit", value: "1 year after graduation" },
+        { label: "English programmes", value: "Widely available" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "Often free with stipend" },
+        { label: "Stipend", value: "~PLN 2,370–4,653/mo (€550–1,100)" },
+        { label: "Duration", value: "4 years" },
+        { label: "Scholarship", value: "NAWA Bekker, NCN grants" },
+        { label: "Post-PhD", value: "1-year job search permit" },
+      ],
+      work: [
+        { label: "Main permit", value: "Temporary Residence and Work Permit" },
+        { label: "EU Blue Card threshold", value: "150% average salary (~€24,000/yr)" },
+        { label: "Processing time", value: "1–3 months" },
+        { label: "Income tax", value: "12% up to PLN 120,000, 32% above" },
+        { label: "PR eligibility", value: "5 years lawful residence" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Schengen short-stay (Type C)" },
+        { label: "Max stay", value: "90 days / 180-day period" },
+        { label: "Fee", value: "€80" },
+        { label: "Processing", value: "15 calendar days" },
+        { label: "Apply via", value: "Polish Embassy Abuja or VFS" },
+      ],
+    },
+
+    summary: {
+      undergrad: "Polish public universities charge €1,500–4,000/year. Most undergrad is in Polish — language preparation is needed. English-medium undergrad exists at Medical University of Warsaw, University of Warsaw (selected programmes), and SGH Warsaw School of Economics. Apply directly to universities. Student visa is a Polish national visa (Type D), applied for at the Polish Embassy in Abuja. Living costs are among the lowest in the EU.",
+      masters: "English-medium Master's programmes are widely available. University of Warsaw, Jagiellonian University (Krakow), Warsaw University of Technology, and AGH University cover STEM, humanities, business, and law. The NAWA Polish Government Scholarship covers tuition and a monthly stipend for international students. After graduation, you can apply for a 1-year stay permit to job hunt.",
+      phd: "PhD programmes in Poland are run through doctoral schools (szkoły doktorskie) — 4 years, often fully funded with a monthly stipend (PLN 2,370 before, PLN 4,653 after midterm assessment). No tuition fees for funded positions. The NAWA Bekker Programme and NCN (National Science Centre) grants fund international researchers. Apply directly to universities or through NAWA.",
+      work: "The main route is the Temporary Residence and Work Permit — employer-led, submitted at the Voivode (regional authority) office. Processing: 1–3 months. The EU Blue Card is available for salaries above 150% of the average Polish salary (~PLN 10,000+/month). Poland's low taxes (12% up to PLN 120,000/year) make net salaries attractive especially in tech. Warsaw's tech scene includes companies like Allegro, CD Projekt, Booksy, and offices of Google, Samsung, and Amazon.",
+      visitor: "Poland is in the Schengen Area — a Polish short-stay visa covers all 26 Schengen countries for 90 days. Apply at the Polish Embassy Abuja or via VFS. Standard documents: passport, insurance (€30,000+), accommodation proof, funds (€50/day minimum), return travel, ties to Nigeria.",
+    },
+
+    visa: {
+      undergrad: `**Polish National Visa (Type D) — Student**
+
+1. Apply to a Polish university directly — get your acceptance letter.
+2. Apply for a national visa (Type D) at the Polish Embassy in Abuja. Documents: passport, acceptance letter, proof of funds (€500/month), accommodation proof, health insurance, photos, application form. Fee: ~€80.
+3. Processing: 2–4 weeks.
+4. On arrival: register your address at the local Voivode office within 4 days (mandatory). Apply for a Temporary Residence Card (Karta Pobytu) for stays longer than 3 months.
+5. Work rights: students in Poland can work unlimited hours — no separate permit needed.`,
+
+      masters: `**Polish National Visa (Type D) — Master's**
+
+Same process as undergrad. For NAWA scholarship holders, the scholarship letter replaces proof of personal funds. Apply directly to universities — most have English online portals. After graduation, apply for a 1-year Temporary Residence permit at the Voivode office to job hunt. Once employed, employer applies for the Temporary Residence and Work Permit on your behalf.`,
+
+      phd: `**PhD — Doctoral School Route**
+
+If funded (doctoral contract): apply for a Type D student visa using your doctoral school enrolment letter and stipend contract. Register at the Voivode on arrival, get your Karta Pobytu. No tuition fees for funded doctoral school positions. Annual stipend reviews can increase your stipend after midterm assessment (PLN 4,653/month = ~€1,080). After completion, apply for 1-year job-search permit.`,
+
+      work: `**Temporary Residence and Work Permit**
+
+1. Find a Polish employer. They submit a work permit application (zezwolenie na pracę) to the Voivode, plus you apply simultaneously for a Temporary Residence Permit.
+2. Combined processing: 1–3 months at the Voivode office.
+3. Once approved, apply for a Type D national visa at the Polish Embassy Abuja.
+4. On arrival: register your address, collect your Karta Pobytu (residence card).
+5. EU Blue Card: for salaries above ~PLN 10,000/month gross — request specifically from your employer for faster EU-wide mobility rights.`,
+
+      visitor: `**Schengen Visitor Visa (Type C)**
+
+Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos has the Consulate-General; Embassy is in Abuja). Standard Schengen documents: passport, insurance (€30,000+), accommodation, return flights, bank statements (€50/day minimum), proof of Nigerian ties. Fee: €80. Processing: 15 calendar days.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "University research & application", duration: "Oct–March", detail: "Apply directly to Polish universities. Deadlines vary — most September intakes close May–June. English-medium undergrad: Medical University of Warsaw (medicine, dentistry), SGH (economics), Warsaw University of Technology (engineering in English)." },
+        { phase: "Receive acceptance letter", duration: "April–June", detail: "Confirm your place and pay any deposit. Get the official enrolment/acceptance letter for visa." },
+        { phase: "Type D visa application", duration: "June–July", detail: "Apply at Polish Embassy Abuja with acceptance letter, proof of €500/month, accommodation, insurance, photos. Fee: ~€80. Processing: 2–4 weeks." },
+        { phase: "Arrive & register", duration: "August", detail: "Register address at local Voivode within 4 days. Apply for Karta Pobytu (residence card) for multi-year stay." },
+      ],
+      masters: [
+        { phase: "NAWA scholarship + university applications", duration: "Oct–March", detail: "NAWA Polish Government Scholarship: apply via nawa.gov.pl, typically closes in April for September intake. Simultaneously apply directly to universities." },
+        { phase: "Visa and arrival", duration: "June–August", detail: "Same Type D visa process. NAWA scholarship letter replaces bank statement proof. Register at Voivode on arrival." },
+        { phase: "Post-graduation job search", duration: "After graduation", detail: "Apply for 1-year Temporary Residence permit at Voivode. Use pracuj.pl, LinkedIn, and company career pages (Google, Amazon, Allegro all hire internationally in Warsaw)." },
+      ],
+      phd: [
+        { phase: "Find PhD position", duration: "6–12 months ahead", detail: "Search euraxess.pl, university doctoral school websites, and NAWA fellowship calls. Email supervisors directly." },
+        { phase: "Enrolment + visa", duration: "2–3 months before start", detail: "Get enrolment letter from doctoral school. Apply for Type D visa at Polish Embassy Abuja." },
+        { phase: "4-year PhD", duration: "Ongoing", detail: "Annual Karta Pobytu renewals. Midterm assessment at year 2 triggers stipend increase." },
+      ],
+      work: [
+        { phase: "Job search", duration: "2–4 months", detail: "pracuj.pl, LinkedIn, nofluffjobs.com (tech), goldenline.pl. Warsaw tech market is active — software engineers, data, finance are in demand." },
+        { phase: "Employer submits permit", duration: "1–3 months", detail: "Voivode office processes Temporary Residence + Work Permit jointly." },
+        { phase: "Type D visa + arrival", duration: "3–6 weeks", detail: "Polish Embassy Abuja. Arrive, register address, collect Karta Pobytu." },
+        { phase: "PR at 5 years", duration: "After 5 years", detail: "Apply for permanent residence (stały pobyt) at the Voivode. Citizenship available after 3 more years." },
+      ],
+      visitor: [
+        { phase: "Apply", duration: "3–4 weeks before travel", detail: "Polish Embassy Abuja or VFS. Standard Schengen documents. €80 fee." },
+        { phase: "Decision", duration: "15 days", detail: "Track via VFS portal. Do not book non-refundable travel before visa confirmed." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Polish is required for most undergraduate programmes — consider 6–12 months at a Polish language school first. Many universities offer a 1-year preparatory Polish language course for international students.",
+        "Medical programmes in English at Medical University of Warsaw, Jagiellonian Medical College, and Poznan University of Medical Sciences are popular with Nigerians — fees are €10,000–14,000/year but internationally recognized.",
+        "Cost of living in Krakow and Lodz is lower than Warsaw — €450–600/month including rent. Great quality of life for students.",
+        "Polish universities use ECTS — compatible with all EU systems. A Polish degree is recognized across the EU.",
+      ],
+      masters: [
+        "Warsaw University of Technology (Politechnika Warszawska) is Poland's top engineering school — strong English Master's in computer science, electronics, and civil engineering.",
+        "The NAWA Polish Government Scholarship is competitive but fully funded — covers tuition plus PLN 1,250–1,750/month stipend. Worth applying even if chances seem low.",
+        "Warsaw's tech job market has exploded since 2020 — Google, Samsung R&D, Allegro, and hundreds of startups all hire English-speaking graduates. A Polish tech Master's is a strong launchpad.",
+      ],
+      phd: [
+        "Doctoral school stipends are tax-free up to the minimum wage equivalent — take-home is better than the gross figure suggests.",
+        "NCN (Narodowe Centrum Nauki) grants fund research projects and PhD positions — check ncn.gov.pl for calls relevant to your field.",
+        "Poland's academic culture is collaborative and internationally oriented — many labs work fully in English.",
+      ],
+      work: [
+        "Poland's flat 12% income tax rate (on income up to PLN 120,000/year ≈ €28,000) is one of the lowest in the EU — net salaries are genuinely competitive.",
+        "Tech salaries in Warsaw: junior developer PLN 6,000–9,000/month net, mid PLN 10,000–15,000, senior PLN 16,000–22,000. Cost of living is a fraction of London or Amsterdam.",
+        "Most Polish companies and multinationals in Warsaw use English as a working language — Polish is not required for most tech, finance, and international business roles.",
+        "The Temporary Residence and Work Permit process is improving but can be slow — start the process as soon as you have a job offer. Some Voivode offices have long queues.",
+      ],
+      visitor: [
+        "Krakow, Warsaw, Gdansk, and Wroclaw are all worth visiting — Poland has excellent medieval architecture, World Heritage Sites, and some of the best food value in Europe.",
+        "Show strong ties to Nigeria in your application — employment letter, business registration, or property ownership all help.",
+      ],
+    },
+
+    universities: [
+      { name: "University of Warsaw", location: "Warsaw", intl_fee: "€2,000–4,000/yr", notes: "Poland's top-ranked university. Strong humanities, law, social sciences, and natural sciences. Many English Master's programmes. uw.edu.pl" },
+      { name: "Jagiellonian University", location: "Krakow", intl_fee: "€2,000–4,500/yr", notes: "One of Europe's oldest universities (est. 1364). Excellent law, medicine, humanities. Krakow is a beautiful, affordable city. uj.edu.pl" },
+      { name: "Warsaw University of Technology", location: "Warsaw", intl_fee: "€2,000–4,000/yr", notes: "Top engineering school. Strong CS, electrical engineering, civil engineering in English. pw.edu.pl" },
+      { name: "AGH University of Science and Technology", location: "Krakow", intl_fee: "€2,000–3,500/yr", notes: "Mining, energy, materials science, computer science. Strong research output. agh.edu.pl" },
+      { name: "SGH Warsaw School of Economics", location: "Warsaw", intl_fee: "€2,500–4,000/yr", notes: "Top business and economics school in Poland. English-medium programmes. sgh.waw.pl" },
+      { name: "Medical University of Warsaw", location: "Warsaw", intl_fee: "€10,000–13,000/yr (medicine)", notes: "English-medium medicine and dentistry. WHO-recognized. Popular with Nigerian pre-med students. wum.edu.pl" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "NAWA Polish Government Scholarship", amount: "Tuition waiver + PLN 1,250–1,750/month stipend", university: "Polish public universities — selected programmes", deadline: "Check nawa.gov.pl — typically April for September intake", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+      ],
+      masters: [
+        { name: "NAWA Polish Government Scholarship", amount: "Tuition waiver + PLN 1,250–1,750/month stipend", university: "Polish public universities", deadline: "April annually — nawa.gov.pl", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+        { name: "University own scholarships", amount: "Partial tuition reductions — varies", university: "University of Warsaw, Jagiellonian, WUT — check each university's scholarship page", deadline: "With application — varies", url: "https://en.uw.edu.pl/" },
+      ],
+      phd: [
+        { name: "Doctoral School Stipend (contrat doctoral equivalent)", amount: "PLN 2,370/month (rising to PLN 4,653 after midterm) — tax advantaged", university: "All Polish doctoral schools", deadline: "Rolling — per university recruitment cycle", url: "https://nawa.gov.pl/" },
+        { name: "NCN Research Grants (Preludium)", amount: "PLN 70,000–140,000 for 1–2 year PhD projects", university: "All Polish universities — researcher-led grant applications", deadline: "Twice yearly — check ncn.gov.pl", url: "https://ncn.gov.pl/en" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Polish Embassy Abuja / Consulate-General Lagos",
+      address: "Embassy: Plot 926, Cadastral Zone A0, Central Business District, Abuja | Consulate-General: 8 Tiamiyu Savage Street, Victoria Island, Lagos",
+      phone: "Lagos Consulate: +234 1 461 7800",
+      note: "Visa applications for Poland are submitted at the Polish Consulate-General in Lagos or the Embassy in Abuja. Long-stay (Type D) national visa fee: ~€80. Schengen short-stay (Type C) fee: €80. Apply for residence permits (Karta Pobytu) in Poland at the local Voivode office after arrival — not at the embassy.",
+      website: "https://www.gov.pl/web/nigeria",
+      visa_apply: "https://www.gov.pl/web/nigeria/visas",
+      vfs: "https://www.vfsglobal.com/Poland/Nigeria/",
+      official_immigration: "https://udsc.gov.pl/en/",
+      extra_links: [
+        { label: "NAWA — Polish Government Scholarships", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+        { label: "Study in Poland — official student portal", url: "https://www.study.gov.pl/" },
+        { label: "Urząd do Spraw Cudzoziemców — Polish immigration authority", url: "https://udsc.gov.pl/en/" },
+        { label: "NCN — National Science Centre (PhD grants)", url: "https://ncn.gov.pl/en" },
+        { label: "Euraxess Poland — research job listings", url: "https://euraxess.ec.europa.eu/poland" },
+        { label: "Pracuj.pl — main Polish job board", url: "https://www.pracuj.pl/" },
+        { label: "No Fluff Jobs — Polish tech jobs in English", url: "https://nofluffjobs.com/" },
+      ],
+    },
+  },
+
+  CZ: {
+    tagline: "Czech Republic — free public university education (in Czech), thriving Prague tech scene, and low-cost EU living.",
+
+    overview: `The Czech Republic is one of Europe's hidden gems for relocation. Prague is a beautiful, safe, internationally connected city with a booming tech and startup scene, low cost of living (€700–1,000/month including rent), and fast-growing salaries. Public university education is free if you study in Czech — one of the few EU countries where this applies to non-EU nationals too. English-medium programmes at Czech universities cost €3,000–8,000/year. The main work permit route is the Employee Card (Zaměstnanecká karta) — employer-led, processed at the Czech Embassy. Czech Republic is in the Schengen Area and EU. Permanent residency after 5 years. Prague's Nigerian community is small but present.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (Czech-medium)", value: "Free at public universities" },
+        { label: "Tuition (English-medium)", value: "€3,000–8,000/yr" },
+        { label: "Living costs", value: "€700–1,000/mo in Prague" },
+        { label: "Visa type", value: "Long-stay visa for study (Type D)" },
+        { label: "Student work", value: "Unlimited hours" },
+      ],
+      masters: [
+        { label: "Tuition (English)", value: "€3,000–8,000/yr" },
+        { label: "Top universities", value: "Charles University, Czech Technical University (CTU), Masaryk University" },
+        { label: "Scholarship", value: "Czech Government Scholarship (DZS)" },
+        { label: "Post-study permit", value: "6-month job search after graduation" },
+        { label: "Language", value: "English (many Master's), Czech (free programmes)" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "Free (Czech-medium), low (English-medium)" },
+        { label: "Stipend", value: "CZK 10,000–25,000/mo (~€400–1,000)" },
+        { label: "Duration", value: "4 years" },
+        { label: "Visa type", value: "Long-stay student visa (Type D)" },
+        { label: "Scholarship", value: "Czech Government Scholarship, GACR grants" },
+      ],
+      work: [
+        { label: "Main permit", value: "Employee Card (Zaměstnanecká karta)" },
+        { label: "EU Blue Card threshold", value: "1.5× average salary (~CZK 60,000/mo)" },
+        { label: "Processing time", value: "60 days (standard), 30 days (Blue Card)" },
+        { label: "Income tax", value: "15% flat rate (23% above CZK 1.9M/yr)" },
+        { label: "PR eligibility", value: "5 years lawful residence" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Schengen short-stay (Type C)" },
+        { label: "Max stay", value: "90 days / 180-day period" },
+        { label: "Fee", value: "€80" },
+        { label: "Processing", value: "15 calendar days" },
+        { label: "Apply via", value: "Czech Embassy Abuja" },
+      ],
+    },
+
+    summary: {
+      undergrad: "Czech public universities charge zero tuition for programmes taught in Czech — this applies to all nationalities including Nigerians. English-medium programmes cost €3,000–8,000/year. Charles University (Prague) and Masaryk University (Brno) are the most internationally recognized. Czech language preparation (B2 level) takes 12–18 months but unlocks essentially free EU university education. Apply directly to universities. Visa is a Type D long-stay issued at the Czech Embassy Abuja.",
+      masters: "English-medium Master's at Czech Technical University, Charles University, and Brno University of Technology are affordable (€3,000–6,000/year) and EU-recognized. The Czech Government Scholarship (DZS — scholarships.dzs.cz) is available for students from developing countries including Nigeria — covers tuition and stipend. After graduation, a 6-month job-search permit is available.",
+      phd: "Czech PhD programmes are free (Czech-medium) or low-cost, with stipends of CZK 10,000–25,000/month. Most funded positions are at research institutes (Czech Academy of Sciences — CAS) or universities. English-medium PhD positions are common in STEM. The Czech Science Foundation (GACR) funds project-based PhD positions.",
+      work: "The Employee Card (Zaměstnanecká karta) is the main work permit — employer files with the Ministry of Interior, you apply for a visa at the Czech Embassy Abuja. Processing: 60 days. EU Blue Card available for salaries above ~CZK 60,000/month. Czech flat 15% income tax is one of Europe's lowest. Prague tech salaries: CZK 60,000–100,000/month for experienced developers (€2,400–4,000 net).",
+      visitor: "Standard Schengen Type C visa. Apply at Czech Embassy Abuja. Documents: passport, insurance (€30,000+), accommodation, funds (€50/day), return travel, ties to Nigeria. Processing: 15 days.",
+    },
+
+    visa: {
+      undergrad: `**Czech Long-Stay Student Visa (Type D)**
+
+1. Apply directly to a Czech university — get acceptance letter.
+2. For Czech-medium programmes: prove B2 Czech language proficiency.
+3. Apply for Type D long-stay visa at Czech Embassy Abuja. Documents: passport, acceptance letter, proof of funds (€300/month minimum), accommodation, health insurance, photos. Fee: ~€100.
+4. Processing: 60–90 days — apply early.
+5. On arrival: register at the Foreign Police (Cizinecká policie) within 3 working days. Apply for a biometric residence permit (povolení k pobytu).
+6. Work: unlimited hours permitted for students.`,
+
+      masters: `**Czech Long-Stay Student Visa (Type D) — Master's**
+
+Same process as undergrad. For DZS scholarship holders, the scholarship letter replaces personal funds proof. After graduation, apply for a 6-month Temporary Residence permit extension for job searching. Once employed, your employer initiates the Employee Card process.`,
+
+      phd: `**PhD — Czech Long-Stay Student Visa**
+
+Apply to doctoral programmes via university websites or Czech Academy of Sciences (cas.cz). Get enrolment/acceptance letter and stipend contract. Apply for Type D visa at Czech Embassy Abuja. On arrival: register with Foreign Police, get residence permit. Annual renewals. GACR project-funded PhD positions listed on euraxess.cz.`,
+
+      work: `**Employee Card (Zaměstnanecká karta)**
+
+1. Secure a job offer from a Czech employer.
+2. Employer submits to Ministry of Interior — the role must appear on the Central Register of Vacancies (or employer claims exemption).
+3. You apply simultaneously for the Employee Card visa at Czech Embassy Abuja. Documents: passport, job contract, qualifications, accommodation proof, photos. Fee: ~€200.
+4. Processing: 60 days (standard), 30 days (EU Blue Card).
+5. On arrival: register at Foreign Police within 3 days. Collect biometric Employee Card (residence + work permit combined).
+6. EU Blue Card: for roles paying ≥1.5× average salary (~CZK 60,000/month) requiring higher education — request specifically.`,
+
+      visitor: `**Schengen Visitor Visa (Type C)**
+
+Apply at Czech Embassy Abuja (Sector A1, Cadastral Zone, Central Business District). Standard Schengen documents: passport, €30,000+ insurance, accommodation, return tickets, bank statements (€50/day minimum), Nigerian ties proof. Fee: €80. Processing: 15 days.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "Czech language preparation (if free route)", duration: "12–18 months", detail: "Alliance Française doesn't offer Czech — use online resources (italki, Czech courses at charles university language centre). DELF equivalent for Czech: CCE exam." },
+        { phase: "University application", duration: "Nov–March for Sept intake", detail: "Apply directly to universities. Charles University admissions: cuni.cz. Czech Technical University: cvut.cz. Masaryk University: muni.cz." },
+        { phase: "Type D visa", duration: "April–June", detail: "Czech Embassy Abuja. Allow 60–90 days processing. Apply as early as possible." },
+        { phase: "Arrive & register", duration: "August", detail: "Register at Foreign Police within 3 working days. Apply for residence permit." },
+      ],
+      masters: [
+        { phase: "DZS scholarship + university applications", duration: "Oct–Feb", detail: "Czech Government Scholarship via scholarships.dzs.cz — typically closes January. Apply to universities simultaneously." },
+        { phase: "Visa + arrival", duration: "May–August", detail: "Type D visa at Czech Embassy. Register at Foreign Police on arrival." },
+        { phase: "Post-graduation", duration: "6 months", detail: "Apply for job-search extension before student permit expires. Jobs.cz, LinkedIn, startupjobs.cz for Prague tech roles." },
+      ],
+      phd: [
+        { phase: "Find position", duration: "6–12 months ahead", detail: "euraxess.cz, cas.cz job board, university doctoral school websites. Email supervisors directly." },
+        { phase: "Visa + arrival", duration: "60–90 days processing", detail: "Type D visa. Register at Foreign Police. Annual permit renewals." },
+      ],
+      work: [
+        { phase: "Job search", duration: "2–4 months", detail: "Jobs.cz, LinkedIn, startupjobs.cz. Prague has offices of IBM, Oracle, Accenture, Avast, JetBrains, and hundreds of international companies." },
+        { phase: "Employee Card process", duration: "60 days", detail: "Employer files, you apply at Czech Embassy Abuja simultaneously." },
+        { phase: "Arrive + PR path", duration: "5 years", detail: "Foreign Police registration. Annual renewals. PR after 5 years, citizenship after 10 years (or 5 with strong integration)." },
+      ],
+      visitor: [
+        { phase: "Apply at Czech Embassy Abuja", duration: "3–4 weeks before travel", detail: "Standard Schengen documents. €80 fee. 15-day processing." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Free education in Czech is real — but Czech B2 proficiency takes 12–18 months of serious study. Budget for a preparation year (Czech language courses cost €2,000–5,000/year).",
+        "Charles University is ranked top 300 globally and is the oldest university in Central Europe — a degree from here is recognized worldwide.",
+        "Prague is one of Europe's most beautiful cities and has one of the lowest crime rates. Quality of life is excellent.",
+        "Czech koruna (CZK) is not euro — but it is strong and stable. €1 ≈ CZK 25. Prices feel very low to Nigerians converting from naira.",
+      ],
+      masters: [
+        "Czech Technical University (CTU/ČVUT) has strong English-medium Master's in computer science, electrical engineering, and civil engineering — graduates are hired across the EU.",
+        "Brno (Czech Republic's second city) has Masaryk University and Brno University of Technology — costs are 20–30% lower than Prague. Red Hat, IBM, and many tech companies have offices there.",
+        "Post-graduation, Prague's startup scene (Productboard, Kiwi.com, Pipedrive's Czech office) actively hires English-speaking international graduates.",
+      ],
+      phd: [
+        "Czech Academy of Sciences (CAS) runs world-class institutes in physics, chemistry, biology, and social sciences — independent of universities. Check cas.cz for research positions.",
+        "GACR (Czech Science Foundation) funds competitive PhD projects — supervisors apply for funding, then hire PhD students. A GACR-funded position is a strong career signal.",
+      ],
+      work: [
+        "Czech 15% flat income tax is genuinely low — take-home on CZK 80,000/month gross is around CZK 58,000 (≈€2,300 net). Prague rent for a 1-bed is CZK 18,000–25,000 (€720–1,000). Very liveable.",
+        "Prague is a major EU back-office hub — financial services firms (Citi, Deutsche Bank, Barclays all have Prague centres), tech companies, and shared services centres all hire English speakers.",
+        "Employee Card processing at Czech Embassy Abuja can be slow in peak months — start the process immediately once your employer is ready.",
+      ],
+      visitor: [
+        "Prague is one of the most visited cities in Europe — book accommodation early, especially in summer. Your Czech Schengen visa covers Germany, Austria, Slovakia, and all other Schengen countries.",
+        "The Czech Embassy in Abuja processes visitor visas carefully — a clean, organized application with clear proof of return ties works best.",
+      ],
+    },
+
+    universities: [
+      { name: "Charles University", location: "Prague", intl_fee: "Free (Czech) / €3,000–8,000 (English)", notes: "Top 300 globally, oldest in Central Europe. Medicine, law, humanities, natural sciences. cuni.cz" },
+      { name: "Czech Technical University (CTU/ČVUT)", location: "Prague", intl_fee: "Free (Czech) / €3,000–5,000 (English)", notes: "Top engineering school. Strong CS, electrical, civil, mechanical. cvut.cz" },
+      { name: "Masaryk University", location: "Brno", intl_fee: "Free (Czech) / €2,500–6,000 (English)", notes: "Second largest Czech university. Law, medicine, IT, social sciences. Lower cost than Prague. muni.cz" },
+      { name: "Brno University of Technology (VUT)", location: "Brno", intl_fee: "Free (Czech) / €2,500–4,500 (English)", notes: "Strong engineering, architecture, business. Good English-medium Master's. vutbr.cz" },
+      { name: "University of Economics Prague (VŠE)", location: "Prague", intl_fee: "Free (Czech) / €3,000–5,000 (English)", notes: "Top business and economics school in Czech Republic. vse.cz" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "Czech Government Scholarship (DZS)", amount: "Tuition waiver + CZK 14,000–15,000/month stipend", university: "Czech public universities — Czech-medium programmes for most; some English options", deadline: "Typically January — scholarships.dzs.cz", url: "https://scholarships.dzs.cz/" },
+      ],
+      masters: [
+        { name: "Czech Government Scholarship (DZS)", amount: "Tuition waiver + CZK 14,000–15,000/month stipend", university: "Czech public universities", deadline: "January annually", url: "https://scholarships.dzs.cz/" },
+      ],
+      phd: [
+        { name: "Czech Government Scholarship (DZS) — PhD", amount: "Tuition waiver + CZK 14,500/month stipend", university: "Czech public universities and research institutions", deadline: "January annually", url: "https://scholarships.dzs.cz/" },
+        { name: "GACR Project PhD Positions", amount: "Stipend set by project — typically CZK 15,000–25,000/month", university: "All Czech universities — project-based", deadline: "Rolling — check gacr.cz and lab websites", url: "https://gacr.cz/en/" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Czech Embassy Abuja",
+      address: "Plot 1071, Cadastral Zone A06, Off Constitution Avenue, Central Business District, Abuja",
+      phone: "+234 9 461 4340",
+      note: "All Czech visa applications (short-stay and long-stay) are submitted at the Czech Embassy in Abuja. There is no Czech consulate in Lagos — all Nigerian applicants use the Abuja embassy. Long-stay visa processing: 60–90 days. Short-stay Schengen: 15 days. Residence permits (povolení k pobytu) are applied for in the Czech Republic at the Foreign Police after arrival.",
+      website: "https://www.mzv.cz/abuja",
+      visa_apply: "https://www.mzv.cz/abuja/en/visas_and_consular_services/",
+      vfs: "https://www.mzv.cz/abuja/en/visas_and_consular_services/",
+      official_immigration: "https://www.mvcr.cz/mvcren/",
+      extra_links: [
+        { label: "DZS Czech Government Scholarships", url: "https://scholarships.dzs.cz/" },
+        { label: "Czech Ministry of Interior — residence permits", url: "https://www.mvcr.cz/mvcren/" },
+        { label: "Czech Academy of Sciences — research jobs", url: "https://www.avcr.cz/en/" },
+        { label: "Euraxess Czech Republic — academic jobs", url: "https://euraxess.ec.europa.eu/czech-republic" },
+        { label: "GACR — Czech Science Foundation grants", url: "https://gacr.cz/en/" },
+        { label: "Jobs.cz — main Czech job board", url: "https://www.jobs.cz/" },
+        { label: "StartupJobs.cz — Prague tech and startup roles", url: "https://www.startupjobs.cz/en" },
+      ],
+    },
+  },
+
+  PT: {
+    tagline: "Portugal — warm climate, low cost of living, Golden Visa legacy, and a welcoming gateway into the EU.",
+
+    overview: `Portugal has become one of the most popular relocation destinations in Europe — and for good reason. Lisbon and Porto are vibrant, affordable cities (€900–1,300/month) with warm climates, excellent food, and a genuinely welcoming culture. Portugal speaks Portuguese, but English is widely used in Lisbon's tech and startup scene, tourism, and international business. The country has grown rapidly as a digital nomad and tech hub — companies like Feedzai, Outsystems, and Farfetch are Portuguese, and Lisbon's Web Summit (the world's largest tech conference) reflects its international ambition.
+
+For students, Portuguese public universities charge non-EU students €950–7,000/year — affordable by Western European standards. The Instituto Camões Portuguese language scholarship and Gulbenkian Foundation grants are available. For workers, the Tech Visa is a specific fast-track permit for tech professionals. The D3 Highly Qualified Activity visa covers most other skilled roles. Portugal also introduced the Digital Nomad Visa for remote workers earning at least €3,040/month.
+
+The path to permanent residency is 5 years. Portuguese citizenship — which gives EU passport rights — is available after 5 years of legal residence, one of the shortest timelines in the EU.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (non-EU)", value: "€950–3,500/yr (public universities)" },
+        { label: "Living costs", value: "€700–1,000/mo (Porto), €900–1,300/mo (Lisbon)" },
+        { label: "Visa type", value: "Student visa (D4)" },
+        { label: "Student work", value: "20 hrs/wk during term, full-time in holidays" },
+        { label: "Language", value: "Portuguese (most programmes), English (many Master's)" },
+      ],
+      masters: [
+        { label: "Tuition (non-EU)", value: "€1,250–7,000/yr" },
+        { label: "Top universities", value: "University of Lisbon, Universidade Nova, University of Porto, IST" },
+        { label: "Scholarship", value: "Gulbenkian, FCT, Erasmus+ (from Portugal)" },
+        { label: "Post-study permit", value: "1-year job search (D3 extension)" },
+        { label: "English programmes", value: "Widely available at Master's level" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "€2,500–4,000/yr (often waived with fellowship)" },
+        { label: "FCT fellowship", value: "€1,074/month net stipend" },
+        { label: "Duration", value: "4 years" },
+        { label: "Scholarship", value: "FCT PhD Scholarships (main route)" },
+        { label: "Visa type", value: "D4 student or D3 researcher visa" },
+      ],
+      work: [
+        { label: "Main permit", value: "D3 Highly Qualified Activity Visa / Tech Visa" },
+        { label: "Tech Visa salary threshold", value: "No fixed minimum — employer letter + contract" },
+        { label: "Processing time", value: "2–3 months (SEF/AIMA)" },
+        { label: "Income tax", value: "14.5–48% (NHR regime: flat 20% for 10 years for new residents)" },
+        { label: "PR eligibility", value: "5 years — citizenship also at 5 years" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Schengen short-stay (Type C)" },
+        { label: "Max stay", value: "90 days / 180-day period" },
+        { label: "Fee", value: "€80" },
+        { label: "Processing", value: "15 calendar days" },
+        { label: "Apply via", value: "Portuguese Embassy Abuja or VFS" },
+      ],
+    },
+
+    summary: {
+      undergrad: "Portuguese public universities charge €950–3,500/year for non-EU students — some of the most affordable in Western Europe. Most undergraduate programmes are in Portuguese. English-medium undergrad is limited — mainly at private institutions and some IST (Instituto Superior Técnico) programmes. Apply directly to universities via the national portal (dges.mec.pt). Student visa is the D4, applied for at the Portuguese Embassy Abuja. Portuguese language (B1–B2) opens up the full range of affordable public programmes.",
+      masters: "Portugal has excellent English-medium Master's at IST (engineering), Nova School of Business and Economics (management, finance), Universidade Nova Lisboa (sciences), and University of Porto. Fees are €1,250–7,000/year. The Gulbenkian Foundation and FCT (Foundation for Science and Technology) offer scholarships. After your Master's, you can apply for a 1-year job-search permit extension.",
+      phd: "FCT (Fundação para a Ciência e a Tecnologia) is Portugal's main research funder. The FCT PhD Scholarship pays €1,074/month net (tax-free) for 4 years — competitive but accessible. Most STEM and social science PhDs in Portugal are advertised through FCT calls or individual university positions. Visa is the D4 student or D3 researcher visa applied at the Portuguese Embassy Abuja.",
+      work: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. It covers professionals with higher education qualifications in qualified roles. The Tech Visa is a fast-track for tech professionals — the employer gets certified as a Tech Visa employer, then sponsors your application. Processing at SEF/AIMA (immigration authority) takes 2–3 months. Portugal's Non-Habitual Resident (NHR) tax regime offers a flat 20% tax rate on Portuguese-sourced income for the first 10 years — one of Europe's most attractive tax incentives for skilled migrants.",
+      visitor: "Standard Schengen Type C visa. Portuguese Embassy Abuja or VFS. Proof of funds (€75/day recommended), insurance (€30,000+), return travel, accommodation, ties to Nigeria. Processing: 15 days. Portugal is one of the safest and most tourist-friendly countries in Europe.",
+    },
+
+    visa: {
+      undergrad: `**Portuguese Student Visa (D4)**
+
+1. Apply to a Portuguese university — get acceptance letter.
+2. Apply for D4 student visa at Portuguese Embassy Abuja. Documents: passport, acceptance letter, proof of funds (€760/month from bank or sponsor), proof of accommodation, health insurance, criminal record certificate (apostilled), photos. Fee: ~€90.
+3. Processing: 2–3 months. Apply well in advance.
+4. On arrival: register at the local Junta de Freguesia (parish council) within 3 days. Apply for a Residência (residence permit) at SEF/AIMA within 4 months of arrival.
+5. Work: 20 hrs/week during term, full-time in holidays — no separate permit needed.`,
+
+      masters: `**Portuguese Student Visa (D4) — Master's**
+
+Same process as undergrad. For FCT or Gulbenkian scholarship holders, the scholarship letter replaces personal funds proof. Most English-medium Master's applications go through the university directly. After graduation, apply for D3 job-search extension at AIMA before your D4 expires.`,
+
+      phd: `**PhD — D4 Student Visa or D3 Researcher Visa**
+
+For FCT-funded scholarships: apply for D4 student visa with your FCT scholarship letter and university enrolment. For researcher employment contracts (some lab positions): apply for D3 Highly Qualified Activity Visa. Both require criminal record certificate (apostilled), accommodation proof, passport. Processing: 2–3 months at Portuguese Embassy Abuja. On arrival: register at Junta de Freguesia, apply for residence permit at AIMA within 4 months.`,
+
+      work: `**D3 Highly Qualified Activity Visa / Tech Visa**
+
+D3 (standard skilled route):
+1. Secure job offer from Portuguese employer (or remote contract with Portuguese company).
+2. Employer provides employment contract.
+3. Apply for D3 visa at Portuguese Embassy Abuja: passport, employment contract, degree certificates, criminal record (apostilled), accommodation proof, photos. Fee: ~€90.
+4. Processing: 60–90 days at AIMA.
+5. On arrival: apply for residence permit at AIMA.
+
+Tech Visa (faster for tech roles):
+1. Employer applies to IAPMEI (national agency) to become a certified Tech Visa employer.
+2. Once certified, they sponsor your Tech Visa application.
+3. Same documentation as D3 but processed more quickly by AIMA.
+
+NHR Tax Regime: Apply at the tax authority (AT — autoridade tributária) within 31 March of the year following your first tax residency. Gives flat 20% tax on Portuguese-source income for 10 years.`,
+
+      visitor: `**Schengen Visitor Visa (Type C)**
+
+Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: valid passport, return flight itinerary, accommodation proof (hotel/Airbnb/host letter), travel insurance (€30,000+ Schengen-wide), bank statements (€75/day recommended), proof of Nigerian employment or business ties. Fee: €80. Processing: 15 days. Portugal is warm year-round — Lisbon, Porto, the Algarve, and Madeira are all excellent destinations.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "Portuguese language (if applicable)", duration: "6–12 months", detail: "Most affordable public programmes require Portuguese B1–B2. Instituto Camões and online platforms (Pimsleur, italki) are useful." },
+        { phase: "University application", duration: "Feb–May for Sept intake", detail: "Apply via dges.mec.pt (public university clearinghouse) or directly to private institutions. IST, University of Lisbon, University of Porto, Universidade Nova." },
+        { phase: "D4 visa application", duration: "May–July", detail: "Portuguese Embassy Abuja. Criminal record certificate required — get this apostilled from the Nigerian Police Force + Ministry of Foreign Affairs. Allow 6–8 weeks for apostille." },
+        { phase: "Arrive + AIMA registration", duration: "August–September", detail: "Register at Junta de Freguesia, apply for residence permit at AIMA within 4 months." },
+      ],
+      masters: [
+        { phase: "FCT / Gulbenkian scholarship applications", duration: "Jan–April", detail: "FCT PhD calls: fct.pt. Gulbenkian Foundation scholarships: gulbenkian.pt. Some university-specific scholarships open in October." },
+        { phase: "University applications", duration: "Jan–May", detail: "Direct applications to Nova SBE, IST, University of Porto. English portal available at most." },
+        { phase: "D4 visa + arrival", duration: "May–August", detail: "Criminal record apostille is the longest step — start this first. Allow 8–10 weeks total for visa." },
+        { phase: "Post-graduation", duration: "1 year job search", detail: "Apply for D3 job-search extension. LinkedIn, Glassdoor Portugal, Landing.jobs (Lisbon tech jobs) are main platforms." },
+      ],
+      phd: [
+        { phase: "FCT scholarship call", duration: "Typically opens Feb–April", detail: "Annual FCT PhD scholarship competition — fct.pt. Highly competitive but well-funded. Simultaneously look for supervisor-funded positions." },
+        { phase: "D4 or D3 visa", duration: "60–90 days", detail: "Portuguese Embassy Abuja. Criminal record apostille needed. 4 months to register at AIMA after arrival." },
+        { phase: "4-year PhD", duration: "Annual permit renewals", detail: "AIMA residence permit renewed annually. FCT stipend increases after year 2 performance review." },
+      ],
+      work: [
+        { phase: "Job search", duration: "2–4 months", detail: "Landing.jobs, LinkedIn, Glassdoor, Sapo Emprego. Lisbon has offices of Google, Amazon, Volkswagen Digital, Farfetch, Feedzai. Remote-first companies also hire Lisbon-based staff." },
+        { phase: "D3 or Tech Visa", duration: "60–90 days at Portuguese Embassy", detail: "Criminal record apostille is critical — start immediately. Portuguese Embassy Abuja processes D3 visas." },
+        { phase: "AIMA + NHR tax", duration: "First months in Portugal", detail: "Apply for residence permit at AIMA. Apply for NHR tax regime by 31 March following year of arrival." },
+        { phase: "PR + citizenship at 5 years", duration: "After 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
+      ],
+      visitor: [
+        { phase: "Apply at Portuguese Embassy Abuja", duration: "3–4 weeks before travel", detail: "Standard Schengen. €80 fee. Criminal record not required for visitor visas. 15-day processing." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Criminal record certificate apostille is required for the D4 visa — get this from the Nigerian Police Force headquarters, then apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks minimum. Start this first.",
+        "Porto is significantly cheaper than Lisbon and has world-class universities (University of Porto). If budget is your main concern, Porto is the better choice.",
+        "Private universities (Universidade Católica, ISCTE) charge more (€4,000–8,000/year) but often have stronger industry connections and more English-medium programmes.",
+        "Portugal is one of the safest countries in Europe — consistently top 5 in the Global Peace Index. Very welcoming to Africans and Nigerians specifically.",
+      ],
+      masters: [
+        "Nova School of Business and Economics (Nova SBE) in Carcavelos is one of Europe's rising business schools — FT-ranked, with strong finance, economics, and data science Master's in English.",
+        "IST (Instituto Superior Técnico) is Portugal's MIT — top engineering school, strong in aerospace, bioengineering, computer science, electrical engineering. English-medium Master's available.",
+        "The NHR tax regime is available to new residents — if you transition from student to worker, apply for NHR in your first year working. 20% flat tax for 10 years is transformative for high earners.",
+        "Lisbon's digital nomad and startup community is one of the most international in Europe — Web Summit, countless coworking spaces, and English is widely spoken in professional settings.",
+      ],
+      phd: [
+        "FCT PhD scholarships are fully tax-free — the €1,074/month net is genuinely liveable in Porto or Coimbra (Lisbon is tighter). Combined with free healthcare as a resident, purchasing power is solid.",
+        "Portuguese research institutions to know: INESC TEC (engineering/AI), Instituto Gulbenkian de Ciência (biology), ITQB NOVA (molecular biosciences), LARSyS (robotics/marine tech).",
+        "Coimbra (home to one of Europe's oldest universities) offers lower living costs than Lisbon — €600–800/month — and a vibrant student city atmosphere.",
+      ],
+      work: [
+        "Lisbon is now one of Europe's top startup cities — Farfetch, Feedzai, Talkdesk, OutSystems, and hundreds of international companies have Lisbon offices. Tech salaries are lower than London or Amsterdam but costs are dramatically lower.",
+        "The NHR (Non-Habitual Resident) tax regime is one of Portugal's biggest draws for skilled migrants — 20% flat tax on Portuguese employment income for 10 years. Apply at finanças.gov.pt within the deadlines.",
+        "Portuguese is a global language — 280 million speakers worldwide. Learning Portuguese opens doors not just in Portugal but in Brazil, Angola, Mozambique, and Cape Verde.",
+        "Processing at AIMA (the immigration authority that replaced SEF in 2023) has been slow — allow extra time and use a lawyer for complex permit situations.",
+      ],
+      visitor: [
+        "Portugal has no VFS centre in Nigeria for French visas — applications go directly to the Portuguese Embassy in Abuja. Book early as appointment slots can be limited.",
+        "The Algarve (south coast) has some of Europe's best beaches. Lisbon is excellent in spring and autumn — summer is very hot and crowded.",
+        "If you have a Portuguese-speaking contact in Portugal, an invitation letter from them significantly strengthens your visitor visa application.",
+      ],
+    },
+
+    universities: [
+      { name: "University of Lisbon (ULisboa)", location: "Lisbon", intl_fee: "€950–3,500/yr (public)", notes: "Largest university in Portugal. Law, humanities, sciences, medicine. Many English Master's. ulisboa.pt" },
+      { name: "IST (Instituto Superior Técnico)", location: "Lisbon", intl_fee: "€1,400–7,000/yr", notes: "Portugal's top engineering and technology school. Strong in aerospace, CS, bioengineering. Excellent English-medium Master's. tecnico.ulisboa.pt" },
+      { name: "Nova School of Business and Economics", location: "Carcavelos (near Lisbon)", intl_fee: "€10,500–22,000/yr (Master's)", notes: "FT-ranked business school. Finance, economics, data science in English. Strong industry connections. novasbe.unl.pt" },
+      { name: "University of Porto (U.Porto)", location: "Porto", intl_fee: "€950–3,500/yr (public)", notes: "Second largest university. Engineering, medicine, law, sciences, architecture. Lower cost city. up.pt" },
+      { name: "Universidade Nova de Lisboa", location: "Lisbon", intl_fee: "€1,250–5,000/yr", notes: "Sciences, social sciences, humanities, law. Strong research output. unl.pt" },
+      { name: "University of Coimbra", location: "Coimbra", intl_fee: "€950–3,000/yr (public)", notes: "One of Europe's oldest universities (est. 1290). UNESCO World Heritage campus. Affordable student city. uc.pt" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "Instituto Camões Scholarship", amount: "Tuition waiver + living allowance — limited awards for Portuguese language study", university: "Portuguese public universities — Portuguese-medium programmes", deadline: "Contact Portuguese Embassy Abuja or Instituto Camões directly — camoes.mec.pt", url: "https://www.camoes.mec.pt/" },
+      ],
+      masters: [
+        { name: "Gulbenkian Foundation Scholarship", amount: "€1,000–1,500/month + tuition support — highly competitive", university: "Portuguese universities — STEM and humanities — foundation selects disciplines annually", deadline: "Check gulbenkian.pt — typically opens early in the year", url: "https://gulbenkian.pt/en/scholarships/" },
+        { name: "FCT Research Scholarship", amount: "€1,074/month net (tax-free) for Master's research component", university: "FCT-funded research units at Portuguese universities", deadline: "Rolling — per FCT call. fct.pt", url: "https://www.fct.pt/apoios/bolsas/" },
+      ],
+      phd: [
+        { name: "FCT PhD Scholarship", amount: "€1,074/month net stipend (tax-free) + tuition waiver, 4 years", university: "All Portuguese public universities and associated research institutions", deadline: "Annual competition — typically opens February/March. Check fct.pt", url: "https://www.fct.pt/apoios/bolsas/investigacao/" },
+        { name: "Gulbenkian PhD Grant", amount: "Up to €2,000/month for selected disciplines", university: "Top Portuguese research centres — Gulbenkian selects annually", deadline: "Check gulbenkian.pt", url: "https://gulbenkian.pt/en/scholarships/" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Portuguese Embassy Abuja",
+      address: "Plot 1222, Parakou Crescent, off Aminu Kano Crescent, Wuse II, Abuja",
+      phone: "+234 9 461 8857",
+      note: "All Portuguese visa applications for Nigerian nationals are submitted at the Portuguese Embassy in Abuja. There is no VFS centre for Portugal in Nigeria — go directly to the embassy. Long-stay visa (D3/D4) fee: ~€90. Short-stay Schengen: €80. IMPORTANT: criminal record certificate (apostilled) is required for D3 and D4 long-stay visas — obtain from Nigerian Police Force and get apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks for this step. Residence permits after arrival are applied for at AIMA (Agência para a Integração, Migrações e Asilo) — the agency that replaced SEF in 2023.",
+      website: "https://abuja.embaixadaportugal.mne.gov.pt/",
+      visa_apply: "https://abuja.embaixadaportugal.mne.gov.pt/en/",
+      vfs: "https://abuja.embaixadaportugal.mne.gov.pt/en/",
+      official_immigration: "https://www.aima.gov.pt/",
+      extra_links: [
+        { label: "AIMA — Portuguese immigration authority (replaced SEF)", url: "https://www.aima.gov.pt/" },
+        { label: "FCT — PhD and research scholarships", url: "https://www.fct.pt/apoios/bolsas/" },
+        { label: "Gulbenkian Foundation scholarships", url: "https://gulbenkian.pt/en/scholarships/" },
+        { label: "DGES — Portuguese university admissions", url: "https://www.dges.gov.pt/" },
+        { label: "Tech Visa Portugal — IAPMEI", url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Startups/Tech-Visa.aspx" },
+        { label: "Landing.jobs — Lisbon and Portugal tech jobs", url: "https://landing.jobs/" },
+        { label: "NHR tax regime — Portuguese Tax Authority", url: "https://info.portaldasfinancas.gov.pt/pt/noticias/Pages/20201231_irs-nhr.aspx" },
+        { label: "Study in Portugal — official portal", url: "https://www.study-in-portugal.gov.pt/en/" },
+      ],
+    },
+  },
+
+  ES: {
+    tagline: "Spain — affordable public universities, a vibrant culture, and a growing tech scene in Madrid and Barcelona.",
+
+    overview: `Spain is one of Europe's most liveable countries — warm climate, rich culture, affordable costs (€800–1,200/month), and strong universities in Madrid, Barcelona, Valencia, and Seville. Spanish public universities charge non-EU students €1,000–3,500/year, and many postgraduate programmes are offered in English. Spain is a Schengen EU member — a Spanish degree and work permit opens Europe-wide opportunities. The main immigration routes for Nigerians are the student visa (visado de estudios), the Highly Qualified Professional visa (equivalent to the EU Blue Card), and the growing Startup Visa and Digital Nomad Visa. Permanent residency after 5 years; Spanish citizenship after 10 years (among the longer EU timelines). Spain has a notable Nigerian and West African community in Madrid, Barcelona, and Valencia.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (non-EU)", value: "€1,000–3,500/yr (public)" },
+        { label: "Living costs", value: "€700–1,000/mo (outside Madrid/Barcelona)" },
+        { label: "Visa type", value: "Student visa (visado de estudios, Type D)" },
+        { label: "Student work", value: "Up to 30 hrs/wk" },
+        { label: "Language", value: "Spanish (most programmes), English (many Master's)" },
+      ],
+      masters: [
+        { label: "Tuition (non-EU)", value: "€1,500–7,000/yr (public), up to €20,000 (private)" },
+        { label: "Top universities", value: "Complutense Madrid, UAM, UB Barcelona, UPM, IE Business School" },
+        { label: "Scholarship", value: "MAEC-AECID (Spanish Government Scholarship)" },
+        { label: "Post-study permit", value: "1-year job search after graduation" },
+        { label: "English programmes", value: "Widely available at Master's level" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "€300–2,000/yr (public universities)" },
+        { label: "FPI/FPU stipend", value: "€1,100–1,200/month for 4 years" },
+        { label: "Duration", value: "3–4 years" },
+        { label: "Scholarship", value: "FPI (ministry-funded), FPU (university-funded)" },
+        { label: "Visa type", value: "Student visa (Type D) or researcher visa" },
+      ],
+      work: [
+        { label: "Main permit", value: "Autorización de residencia y trabajo (work + residence)" },
+        { label: "EU Blue Card threshold", value: "1.5× average salary (~€38,000/yr)" },
+        { label: "Processing time", value: "1–3 months" },
+        { label: "Income tax", value: "19–47% (Beckham Law: flat 24% for 6 years for new residents)" },
+        { label: "PR eligibility", value: "5 years lawful residence" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Schengen short-stay (Type C)" },
+        { label: "Max stay", value: "90 days / 180-day period" },
+        { label: "Fee", value: "€80" },
+        { label: "Processing", value: "15 calendar days" },
+        { label: "Apply via", value: "Spanish Embassy Abuja or VFS" },
+      ],
+    },
+
+    summary: {
+      undergrad: "Spanish public universities are affordable (€1,000–3,500/year for non-EU) but most undergraduate programmes are in Spanish. Spanish B2 is required for most programmes. Apply through the university directly or via UNED's equivalency process for foreign qualifications (UNED Equivalencia). Student visa applied for at the Spanish Embassy Abuja or VFS. Students can work up to 30 hours/week.",
+      masters: "English-medium Master's are widely available, especially in business (IE Business School, ESADE, IESE — world top 20), engineering (UPM, UPC), and sciences. The MAEC-AECID Spanish Government Scholarship covers tuition and living costs for students from developing countries including Nigeria. After graduation, a 1-year job-search permit is available.",
+      phd: "Spanish public university PhD fees are very low (€300–2,000/year). FPI (Formación de Personal Investigador) and FPU (Formación del Profesorado Universitario) are Spanish government PhD fellowships paying €1,100–1,200/month for 4 years, attached to research projects. Positions are listed on the Spanish Research Agency (AEI) website and individual universities.",
+      work: "The standard work permit (Autorización de residencia y trabajo) is employer-led — filed at the immigration office (Extranjería). The EU Blue Card is available for salaries above ~€38,000/year. Spain's Beckham Law (Ley Beckham) offers a flat 24% income tax rate for the first 6 years for new qualified residents — a major financial incentive. The Startup Visa (Ley de Startups 2023) allows entrepreneurs and highly skilled remote workers (Digital Nomad Visa) to live and work in Spain.",
+      visitor: "Standard Schengen Type C visa. Apply at the Spanish Embassy Abuja or VFS Global. Proof of funds (€90/day), insurance (€30,000+), accommodation, return travel, ties to Nigeria. Processing: 15 days.",
+    },
+
+    visa: {
+      undergrad: `**Spanish Student Visa (Visado de Estudios, Type D)**
+
+1. Apply directly to a Spanish university — get admission letter.
+2. Get your secondary school qualifications evaluated by UNED (uned.es/universidad/inicio/en/international) — required for Nigerian secondary school certificates. This takes 2–3 months.
+3. Apply for student visa at Spanish Embassy Abuja or VFS. Documents: passport, admission letter, UNED equivalency (or university exemption), proof of funds (€600/month), accommodation proof, health insurance, criminal record certificate (apostilled), photos. Fee: €80.
+4. Processing: 30–60 days.
+5. On arrival: apply for your Tarjeta de Identidad de Extranjero (TIE — foreigner ID card) at the Extranjería office within 30 days.
+6. Work: up to 30 hrs/week permitted.`,
+
+      masters: `**Spanish Student Visa (Type D) — Master's**
+
+Same process as undergrad but UNED equivalency may not be required if your Bachelor's is from a recognised university. For MAEC-AECID scholarship holders, the scholarship letter replaces personal funds proof. After graduation, apply for 1-year job-search permit at the Extranjería before your student visa expires. Spanish social security number (NIE/número de seguridad social) required to work.`,
+
+      phd: `**PhD — Student Visa or Researcher Visa**
+
+For FPI/FPU fellowship holders: apply for student Type D visa using the fellowship contract. For researcher employment contracts (some lab positions): apply for a researcher-specific authorisation. Both require: criminal record apostille, accommodation, health insurance, passport. Processing: 30–60 days at Spanish Embassy Abuja. On arrival: get TIE within 30 days. Annual permit renewals at Extranjería.`,
+
+      work: `**Autorización de Residencia y Trabajo (Work + Residence)**
+
+1. Secure job offer from Spanish employer.
+2. Employer files work authorisation at the Delegación del Gobierno/Extranjería in their province. Labour market test (informe de situación nacional de empleo) may apply — employer must show no suitable Spanish/EU candidate.
+3. Once approved, you apply for the work visa at Spanish Embassy Abuja. Documents: passport, work authorisation, job contract, degree certificates, criminal record (apostilled), photos. Fee: €80.
+4. Processing: 30–90 days.
+5. On arrival: apply for TIE within 30 days at Extranjería.
+
+Beckham Law (Régimen Especial de Trabajadores Desplazados):
+- Available if you haven't been tax resident in Spain in the last 5 years
+- Flat 24% income tax on Spanish income up to €600,000 (45% above)
+- Valid for 6 years
+- Apply at the Spanish Tax Agency (AEAT) within 6 months of starting work
+
+EU Blue Card: for roles with salary ≥ 1.5× average (~€38,000/yr) requiring higher education — request specifically from employer.`,
+
+      visitor: `**Schengen Visitor Visa (Type C)**
+
+Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nigeria. Documents: passport (3+ months validity), return flight itinerary, hotel/accommodation confirmation, travel insurance (€30,000+ Schengen-wide), bank statements (€90/day minimum), proof of Nigerian employment or business ties, application form. Fee: €80. Processing: 15 days standard. Apply 3–4 weeks before travel.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "Spanish language preparation", duration: "6–12 months", detail: "DELE B2 minimum for most Spanish-medium programmes. Instituto Cervantes offers DELE exams. Spanish is one of the world's most useful languages — worth investing in." },
+        { phase: "UNED equivalency application", duration: "2–3 months", detail: "Nigerian secondary certificates must be evaluated by UNED — apply at uned.es. Allow 2–3 months. Some universities accept directly — check." },
+        { phase: "University application", duration: "Feb–June", detail: "Apply directly to universities. Most intakes are September. Some universities have January intake too." },
+        { phase: "Student visa at Spanish Embassy Abuja", duration: "April–July", detail: "30–60 day processing. Criminal record apostille required — start early." },
+        { phase: "Arrive + TIE", duration: "August–September", detail: "Apply for TIE (foreigner ID card) at Extranjería within 30 days of arrival. Register at local Ayuntamiento (city hall) — Empadronamiento — also required." },
+      ],
+      masters: [
+        { phase: "MAEC-AECID scholarship", duration: "Apply Oct–Jan", detail: "Spanish Government Scholarship — aecid.es. Covers tuition + monthly stipend. Competitive — apply early with strong academic record." },
+        { phase: "University applications", duration: "Oct–March", detail: "Direct to university portals. IE, ESADE, IESE have their own MBA/Master's processes. Public university Master's via university website." },
+        { phase: "Student visa + arrival", duration: "April–August", detail: "Same Type D process. 30–60 day processing at Spanish Embassy Abuja." },
+        { phase: "Post-graduation", duration: "1-year permit", detail: "Apply at Extranjería for job-search permit. Infojobs.net, LinkedIn, Tecnoempleo (tech) are main job platforms." },
+      ],
+      phd: [
+        { phase: "Find FPI/FPU position or supervissor", duration: "6–12 months ahead", detail: "AEI (agencia estatal de investigación) lists FPI calls. University websites list FPU calls. Email supervisors directly with research proposal." },
+        { phase: "Visa + arrival", duration: "30–60 days", detail: "Student visa at Spanish Embassy Abuja. TIE within 30 days of arrival." },
+        { phase: "3–4 year PhD", duration: "Annual renewals", detail: "TIE renewed annually at Extranjería. Strong Spanish research sectors: biomedical, renewable energy, aerospace, materials science." },
+      ],
+      work: [
+        { phase: "Job search", duration: "2–4 months", detail: "Infojobs.net, LinkedIn, Tecnoempleo, Manfred (tech). Madrid and Barcelona have the strongest job markets. Glassdoor Spain, Indeed.es." },
+        { phase: "Work authorisation", duration: "1–3 months", detail: "Employer files at Extranjería. Labour market test may apply." },
+        { phase: "Visa + arrival", duration: "30–60 days", detail: "Spanish Embassy Abuja. Criminal record apostille required. TIE within 30 days of arrival." },
+        { phase: "Beckham Law application", duration: "Within 6 months of starting work", detail: "Apply at AEAT (agenciatributaria.es). Massive tax saving — don't miss this window." },
+        { phase: "PR at 5 years, citizenship at 10", duration: "Long-term", detail: "Permanent residency (residencia de larga duración) at 5 years. Spanish citizenship at 10 years — dual nationality with Nigeria not recognized by Spain (you'd formally renounce Nigerian citizenship though some Nigerians retain both practically)." },
+      ],
+      visitor: [
+        { phase: "Apply at Spanish Embassy Abuja or VFS", duration: "3–4 weeks before travel", detail: "€80 fee. Standard Schengen documents. Criminal record NOT required for visitor visas." },
+        { phase: "Decision", duration: "15 days standard", detail: "Track via VFS portal. Spain is very popular — apply early for summer travel." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "UNED equivalency is required for most Spanish universities to evaluate your WAEC/NECO — start this 3–4 months before you plan to apply to universities. Cost is around €200–300.",
+        "Spanish is the world's second most spoken language (native speakers) — investing in Spanish opens opportunities in Spain, Latin America, and internationally. It is worth learning properly.",
+        "Valencia, Seville, Granada, and Bilbao are excellent, cheaper alternatives to Madrid and Barcelona — €600–800/month living costs with strong universities.",
+        "Public Spanish university degrees are internationally recognized. A degree from Complutense Madrid, UAM, UB, or UPM carries genuine weight across Europe and globally.",
+      ],
+      masters: [
+        "IE Business School and ESADE are among Europe's top 5 business schools — MBA graduates access elite European finance and consulting jobs. They are expensive (€50,000–80,000 MBA) but scholarship and loan options exist.",
+        "The MAEC-AECID scholarship is Spain's main government scholarship for developing country students — competitive but well-funded. Apply through the Spanish Embassy Abuja.",
+        "Barcelona has a thriving English-speaking expat and startup community — many companies there operate fully in English. Madrid is more Spanish-language dominant in business.",
+        "Post-graduation job search: Spain has higher unemployment than northern Europe, but tech, finance, tourism, and renewable energy sectors are growing fast. Starting salary expectations should be calibrated to Spanish levels (€25,000–40,000/year gross is typical for graduates).",
+      ],
+      phd: [
+        "FPI and FPU fellowships are awarded competitively and tied to specific research projects — you apply for a fellowship tied to a supervisor's project, not independently. Identify supervisors with active funded projects.",
+        "Spain is a world leader in renewable energy research (wind, solar, offshore) — strong PhD positions at CIEMAT, CSIC, and universities in this field. Also strong in biomedicine (IRB Barcelona, CNIO Madrid) and astrophysics (IAC Tenerife).",
+        "The CSIC (Consejo Superior de Investigaciones Científicas) is Spain's national research council — largest public research institution in Spain with 120+ institutes. Check job.csic.es for positions.",
+      ],
+      work: [
+        "Beckham Law (Régimen Especial para Trabajadores Desplazados) is one of Spain's best-kept tax secrets — 24% flat tax for 6 years for qualifying new residents. Apply within 6 months of starting work at AEAT. Don't miss this window.",
+        "Madrid tech salaries: junior developer €25,000–35,000 gross/year, senior €45,000–65,000. Living costs in Madrid are €1,000–1,400/month. The gap between salary and cost of living is tighter than in northern Europe but quality of life is exceptional.",
+        "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum income €2,334/month. Beckham Law also applies. Good option if you work remotely for a foreign company.",
+        "Spanish bureaucracy (the Extranjería, Seguridad Social, AEAT) moves slowly — apply for everything the day you are eligible. Queue management systems (cita previa) are used — book appointments immediately on arrival.",
+      ],
+      visitor: [
+        "Madrid, Barcelona, Seville, Granada, the Balearic Islands, and the Canary Islands are all worth visiting. Spain has exceptional food, architecture, beaches, and nightlife.",
+        "Barcelona has a Nigerian community and several African restaurants — a welcoming city for first-time visitors from Nigeria.",
+        "Spanish Schengen visa covers France, Germany, Italy, Netherlands, and 22 other countries — plan your European trip across multiple countries if time allows.",
+        "Show clear ties to Nigeria — stable employment, property, family — the Spanish Embassy wants confidence you will return.",
+      ],
+    },
+
+    universities: [
+      { name: "Universidad Complutense de Madrid (UCM)", location: "Madrid", intl_fee: "€1,000–2,500/yr (public)", notes: "One of Europe's oldest and largest universities. Law, medicine, humanities, sciences. ucm.es" },
+      { name: "Universidad Autónoma de Madrid (UAM)", location: "Madrid", intl_fee: "€1,000–2,500/yr (public)", notes: "Research-intensive. Strong sciences, economics, law, humanities. uam.es" },
+      { name: "Universidad Politécnica de Madrid (UPM)", location: "Madrid", intl_fee: "€1,500–3,500/yr", notes: "Top Spanish engineering school. Aerospace, civil, CS, telecoms. English Master's available. upm.es" },
+      { name: "Universitat de Barcelona (UB)", location: "Barcelona", intl_fee: "€1,500–3,500/yr (public)", notes: "Top-ranked Catalan university. Sciences, medicine, humanities. ub.edu" },
+      { name: "Universitat Politècnica de Catalunya (UPC)", location: "Barcelona", intl_fee: "€1,500–4,000/yr", notes: "Top engineering school in Catalonia. CS, telecom, civil, architecture. upc.edu" },
+      { name: "IE Business School", location: "Madrid", intl_fee: "€50,000–80,000 (MBA)", notes: "Top 5 European business school. MBA, Master's in Finance, Data Analytics. Fully English-medium. ie.edu" },
+      { name: "Universidad de Valencia (UV)", location: "Valencia", intl_fee: "€1,000–2,000/yr (public)", notes: "Excellent research university. Medicine, sciences, law, humanities. uv.es" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "MAEC-AECID Scholarship", amount: "Tuition + €700–1,100/month stipend — fully funded for selected students from developing countries", university: "Spanish public universities — selected programmes across disciplines", deadline: "Apply via Spanish Embassy Abuja — typically January–March for September intake. aecid.es", url: "https://www.aecid.es/en/becas-y-lectorados" },
+      ],
+      masters: [
+        { name: "MAEC-AECID Scholarship", amount: "Tuition waiver + monthly stipend (~€1,000/month)", university: "Spanish public universities and some private institutions — varies annually", deadline: "Contact Spanish Embassy Abuja for current call. aecid.es", url: "https://www.aecid.es/en/becas-y-lectorados" },
+        { name: "La Caixa Foundation Fellowship", amount: "€16,000–25,000/year for STEM Master's at Spanish universities", university: "Spanish universities and research centres", deadline: "Annual call — typically opens November. fundacionlacaixa.org", url: "https://fundacionlacaixa.org/en/scholarships-postgraduate-studies-europe" },
+      ],
+      phd: [
+        { name: "FPI Fellowship (Formación de Personal Investigador)", amount: "~€1,100/month for 4 years + tuition waiver + health insurance", university: "Attached to Spanish Ministry of Science funded research projects — all Spanish universities and CSIC", deadline: "Annual AEI call — typically opens November/December. aei.gob.es", url: "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-personal-investigador" },
+        { name: "FPU Fellowship (Formación del Profesorado Universitario)", amount: "~€1,100/month for 4 years", university: "Spanish public universities — funded by Ministry of Universities", deadline: "Annual call — typically opens October. universidades.gob.es", url: "https://www.universidades.gob.es/becas-fpu/" },
+        { name: "La Caixa INPhINIT Doctoral Fellowship", amount: "€25,200/year gross (€16,000 net approx.) for 3 years — highly competitive", university: "Top Spanish research centres (BIST, CERCA, CSIC institutes) and IE University", deadline: "Annual — typically opens November. fundacionlacaixa.org", url: "https://fundacionlacaixa.org/en/inphinit-doctoral-fellowships" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Spanish Embassy Abuja / Consulate-General Lagos",
+      address: "Embassy: 8 Kokoma Close, Off Amazon Street, Maitama, Abuja | Consulate-General: 21c Kofo Abayomi Street, Victoria Island, Lagos",
+      phone: "Lagos Consulate: +234 1 261 0085 | Abuja Embassy: +234 9 413 7206",
+      note: "Visa applications can be submitted at the Spanish Embassy in Abuja or the Spanish Consulate-General in Lagos, or via VFS Global Nigeria. For student and work long-stay visas, a criminal record certificate (apostilled) is required — obtain from the Nigerian Police Force and have it apostilled by the Ministry of Foreign Affairs. Allow 6–8 weeks for apostille. UNED equivalency evaluation of Nigerian secondary certificates is required for undergraduate university entry — allow 2–3 months. Residence permit (TIE) is applied for in Spain at the local Extranjería office within 30 days of arrival.",
+      website: "https://www.exteriores.gob.es/Embajadas/abuja/en/",
+      visa_apply: "https://www.vfsglobal.com/Spain/Nigeria/",
+      vfs: "https://www.vfsglobal.com/Spain/Nigeria/",
+      official_immigration: "https://extranjeros.inclusion.gob.es/en/",
+      extra_links: [
+        { label: "Extranjería — Spanish immigration authority", url: "https://extranjeros.inclusion.gob.es/en/" },
+        { label: "MAEC-AECID Scholarships — Spanish Government", url: "https://www.aecid.es/en/becas-y-lectorados" },
+        { label: "UNED Equivalency for foreign qualifications", url: "https://www.uned.es/universidad/inicio/en/international/" },
+        { label: "AEI — FPI doctoral fellowship calls", url: "https://www.aei.gob.es/convocatorias/buscador-convocatorias/" },
+        { label: "La Caixa INPhINIT doctoral fellowships", url: "https://fundacionlacaixa.org/en/inphinit-doctoral-fellowships" },
+        { label: "CSIC job board — research positions", url: "https://www.csic.es/en/csic/job-offers" },
+        { label: "Infojobs.net — main Spanish job board", url: "https://www.infojobs.net/" },
+        { label: "Tecnoempleo — Spanish tech jobs", url: "https://www.tecnoempleo.com/" },
+        { label: "Digital Nomad Visa Spain — official info", url: "https://www.exteriores.gob.es/en/EmbajadasConsulados/Pages/EmbajadaConsulado.aspx" },
+        { label: "Beckham Law (NHR equivalent) — AEAT", url: "https://sede.agenciatributaria.gob.es/" },
+      ],
+    },
+  },
+
+  NZ: {
+    tagline: "New Zealand — world-class education, a points-based skilled migration system, and a clear path to PR and citizenship.",
+
+    overview: `New Zealand is a genuinely immigration-friendly country with a transparent, points-based immigration system and one of the world's most liveable environments. Auckland, Wellington, and Christchurch are safe, clean, internationally connected cities. The country actively recruits skilled migrants — especially in healthcare, engineering, IT, construction, and education — through the Skilled Migrant Category (SMC) and the Green List (a fast-track PR route for shortage occupations). University fees for international students run NZD 22,000–45,000/year, which is high, but post-study work rights are among the world's most generous: up to 3 years after graduation. New Zealand is not in the Schengen Area — it has its own visa system managed by Immigration New Zealand (INZ). The Nigerian community in New Zealand is small but growing, particularly in Auckland and Wellington. Dual citizenship with New Zealand is permitted — Nigerians can retain their Nigerian passport.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (international)", value: "NZD 22,000–38,000/yr (€12,000–21,000)" },
+        { label: "Living costs", value: "NZD 15,000–20,000/yr (€8,000–11,000)" },
+        { label: "Visa type", value: "Student visa (INZ)" },
+        { label: "Student work", value: "20 hrs/wk during term, full-time in holidays" },
+        { label: "Post-study work", value: "Up to 3 years (Post-Study Work Visa)" },
+      ],
+      masters: [
+        { label: "Tuition (international)", value: "NZD 26,000–45,000/yr" },
+        { label: "Top universities", value: "University of Auckland, Victoria University, University of Otago" },
+        { label: "Scholarship", value: "NZ Commonwealth Scholarship, University of Auckland Excellence" },
+        { label: "Post-study work", value: "Up to 3 years" },
+        { label: "Green List", value: "Many roles qualify for accelerated PR after graduation + work" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "NZD 6,500–9,000/yr (subsidised domestic rate for most)" },
+        { label: "PhD scholarship", value: "NZ Doctoral Scholarship: NZD 27,500/yr + fees" },
+        { label: "Duration", value: "3–4 years" },
+        { label: "Post-PhD work", value: "3-year Post-Study Work Visa" },
+        { label: "PR path", value: "PhD + Green List job = fast-track PR" },
+      ],
+      work: [
+        { label: "Main routes", value: "Skilled Migrant Category (SMC), Green List, Accredited Employer Work Visa (AEWV)" },
+        { label: "Green List (Tier 1)", value: "Straight-to-PR for shortage roles (doctors, nurses, engineers, teachers)" },
+        { label: "SMC points threshold", value: "180+ points to be selected" },
+        { label: "Income tax", value: "10.5–39% (progressive)" },
+        { label: "PR eligibility", value: "2 years on Resident Visa (after SMC/Green List)" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Visitor Visa (INZ)" },
+        { label: "Max stay", value: "Up to 9 months in an 18-month period" },
+        { label: "Fee", value: "NZD 211 (~€115)" },
+        { label: "Processing", value: "2–4 weeks online" },
+        { label: "Apply via", value: "Immigration New Zealand online (visas.immigration.govt.nz)" },
+      ],
+    },
+
+    summary: {
+      undergrad: "New Zealand international student fees are NZD 22,000–38,000/year — expensive, but post-study work rights (up to 3 years) make the investment worthwhile if you plan to stay. The University of Auckland, Victoria University of Wellington, University of Otago (Dunedin), Canterbury, and Massey are the main universities. Apply directly to universities. Student visa applied online via Immigration New Zealand (INZ). Students can work 20 hours/week during term.",
+      masters: "English-medium across all disciplines. Strong in agriculture/food science (Massey), medicine (Otago), marine science (Auckland/Otago), and computer science (Auckland, Victoria). NZD 26,000–45,000/year fees. New Zealand Commonwealth Scholarships and University Excellence Scholarships available. After graduation: 3-year Post-Study Work Visa. Many graduate roles qualify for the Green List — fast-track PR.",
+      phd: "PhD fees in New Zealand are subsidised to a near-domestic rate for most funded students — NZD 6,500–9,000/year. The New Zealand Doctoral Scholarship pays NZD 27,500/year stipend plus fees for top applicants. PhD graduates get a 3-year Post-Study Work Visa. If your PhD is in a Green List field (engineering, medicine, IT), combining your degree with a qualifying job offer can lead to straight-to-residency.",
+      work: "New Zealand has three main work-to-PR routes: (1) Accredited Employer Work Visa (AEWV) — employer must be INZ-accredited, can lead to SMC; (2) Skilled Migrant Category (SMC) — points-based, need 180+ points from age, qualifications, job offer, work experience; (3) Green List — Tier 1 gives straight-to-residency for shortage occupations (doctors, nurses, engineers, certain teachers, construction professionals). New Zealand actively recruits Nigerians in healthcare — AHPRA-equivalent registration through MCNZ (medicine) or NCNZ (nursing).",
+      visitor: "New Zealand visitor visa allows up to 9 months in an 18-month period. Apply online via visas.immigration.govt.nz. Required: passport, evidence of funds (NZD 1,000/month or credit card evidence), return ticket, accommodation plan. Processing: 2–4 weeks online. New Zealand visa is not a Schengen visa — it covers only New Zealand.",
+    },
+
+    visa: {
+      undergrad: `**New Zealand Student Visa**
+
+1. Apply directly to a New Zealand university — receive offer of place.
+2. Apply for student visa online at visas.immigration.govt.nz. Documents: passport, offer of place letter, evidence of funds (NZD 15,000/year minimum in bank or scholarship letter), accommodation proof, proof of English proficiency (IELTS 6.0+), medical certificate (chest X-ray from INZ-approved panel physician in Nigeria), police certificate (from Nigerian Police Force). Fee: NZD 375.
+3. Processing: 2–6 weeks online.
+4. On arrival: no separate registration needed — your visa conditions are your authorization to study and work.
+5. Work: 20 hrs/week during term, full-time in scheduled holidays.
+6. After graduation: apply for Post-Study Work Visa (open work rights, 1–3 years depending on level and location of study).`,
+
+      masters: `**New Zealand Student Visa — Master's**
+
+Same online process as undergrad. For scholarship holders, scholarship award letter replaces personal funds evidence. After graduation, apply for the Post-Study Work Visa: 1 year for Diploma-level, 2 years for Bachelor's, 3 years for Master's/PhD — applied online before student visa expires. This open work visa lets you work for any employer in any role, building toward SMC or Green List residency.`,
+
+      phd: `**New Zealand Student Visa — PhD**
+
+PhD students apply for a student visa. For NZ Doctoral Scholarship holders: scholarship letter covers funds requirement. Medical certificate (chest X-ray) from INZ-approved panel physician in Nigeria required. Police certificate required. Apply at visas.immigration.govt.nz. After PhD: 3-year Post-Study Work Visa. If PhD is in Green List Tier 1 field and you have a qualifying job offer, apply for Straight-to-Residence (Green List Tier 1).`,
+
+      work: `**Accredited Employer Work Visa (AEWV) + Residency Routes**
+
+Step 1 — AEWV (to enter and work):
+- Find an INZ-accredited employer in New Zealand (check accredited employer list at immigration.govt.nz).
+- Employer makes you a Job Check-approved offer.
+- Apply for AEWV online: passport, job offer, qualification evidence, English proof (IELTS 5.0+ for most roles), medical certificate, police certificate. Fee: NZD 750.
+- Processing: 2–4 weeks.
+- AEWV is typically 3 years (extendable to 5). It gives you open work rights with the accredited employer.
+
+Step 2 — Residency routes:
+
+**Green List Tier 1 (Straight to Residence):**
+- For shortage occupations: medical practitioners, nurses, engineers (civil, mechanical, electrical), secondary school teachers (STEM), construction project managers, and others — check the full list at immigration.govt.nz/green-list.
+- If you have a qualifying job offer and meet the registration/qualification requirements: apply directly for a Resident Visa — no need to accumulate SMC points.
+
+**Green List Tier 2 (2-year work first):**
+- For a broader range of shortage roles — work in New Zealand for 2 years, then eligible for Resident Visa.
+
+**Skilled Migrant Category (SMC):**
+- Points-based: 180+ points needed to be selected.
+- Points from: age (max 30 for age 20–39), qualifications (up to 70 points for PhD), skilled employment in NZ (50 points), work experience (up to 50 points), partner qualifications, study in NZ.
+- Submit Expression of Interest (EOI), get selected in a ballot, then apply for Resident Visa.
+- Citizenship: after 5 years as a Resident, apply for New Zealand citizenship. Dual nationality permitted — you keep your Nigerian passport.`,
+
+      visitor: `**New Zealand Visitor Visa**
+
+Apply online at visas.immigration.govt.nz. New Zealand processes most visitor visas online — no embassy visit required in most cases.
+
+Documents uploaded:
+- Valid passport scan
+- Recent passport photograph
+- Evidence of sufficient funds: NZD 1,000/month (bank statements or evidence of credit cards)
+- Return or onward flight itinerary
+- Accommodation plan (hotel bookings, host invitation)
+- Evidence of ties to Nigeria: employment letter, business registration, family ties
+- Police clearance certificate (from Nigerian Police Force) — required for stays over 6 months or if requested
+
+Fee: NZD 211 (~€115). Pay online by card.
+Processing: 2–4 weeks online. Some applications request additional documents — respond quickly.
+
+Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa — covers New Zealand only. Australia requires a separate visa.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "University research and application", duration: "6–12 months ahead", detail: "Apply directly to NZ universities. Main intake: February (Semester 1) and July (Semester 2). Deadlines typically 2–3 months before semester start." },
+        { phase: "Medical certificate and police certificate", duration: "2–3 months ahead", detail: "Medical certificate from INZ-approved panel physician in Nigeria (chest X-ray for TB). Police clearance from Nigerian Police Force. Both required for student visa." },
+        { phase: "Student visa online application", duration: "6–8 weeks ahead", detail: "Apply at visas.immigration.govt.nz. Fee: NZD 375. Upload all documents. Processing: 2–6 weeks." },
+        { phase: "Arrive New Zealand", duration: "1–2 weeks before semester", detail: "No registration needed on arrival — your visa is your authorization. Open bank account (ANZ, BNZ, ASB, Westpac all welcome international students with passport and offer letter)." },
+        { phase: "Post-Study Work Visa", duration: "Before student visa expires", detail: "Apply online for 3-year Post-Study Work Visa (Master's/PhD) or 2-year (Bachelor's). Open work rights — work for any employer in any role." },
+      ],
+      masters: [
+        { phase: "Scholarship applications", duration: "6–12 months ahead", detail: "NZ Commonwealth Scholarship: apply via Commonwealth Scholarship Commission. University Excellence Scholarships: apply with admission. Deadline: typically March–June for February intake." },
+        { phase: "Admission + student visa", duration: "3–6 months ahead", detail: "Admission letter → medical + police cert → online visa application." },
+        { phase: "Job search during studies", duration: "Year 1–2", detail: "Use Seek.co.nz, LinkedIn NZ, TradeMe Jobs. Network at university career fairs. Many employers hire graduating international students for Green List roles." },
+        { phase: "Post-Study Work Visa + residency", duration: "After graduation", detail: "3-year open work visa → build Green List or SMC points → Resident Visa." },
+      ],
+      phd: [
+        { phase: "Contact supervisors + apply", duration: "6–12 months ahead", detail: "Email NZ academics directly with research proposal. NZ Doctoral Scholarship competition — apply through university. Strong in marine science, agriculture, geothermal, materials, biomedical." },
+        { phase: "Student visa", duration: "2–3 months ahead", detail: "Online at visas.immigration.govt.nz. Medical + police cert required." },
+        { phase: "3–4 year PhD", duration: "Ongoing", detail: "NZD 27,500/year stipend (NZ Doctoral Scholarship). Student visa renewed annually. Network toward Green List job offers from year 2 onwards." },
+        { phase: "Residency", duration: "Post-PhD", detail: "3-year Post-Study Work Visa → Green List Tier 1 straight to residency (if qualifying role) or SMC points-based application." },
+      ],
+      work: [
+        { phase: "Job search in NZ market", duration: "2–4 months", detail: "Seek.co.nz, TradeMe Jobs, LinkedIn NZ. Healthcare (nurses, doctors, physios): register with NCNZ/MCNZ first. Engineers: register with Engineering NZ (IPENZ). Teachers: Teaching Council of NZ." },
+        { phase: "Secure accredited employer offer", duration: "Concurrent", detail: "Confirm employer is INZ-accredited (immigration.govt.nz accredited employer search). Job Check approval needed from INZ before you can apply for AEWV." },
+        { phase: "AEWV application online", duration: "2–4 weeks processing", detail: "Medical certificate + police cert required. Fee: NZD 750. Upload at visas.immigration.govt.nz." },
+        { phase: "Arrive + work", duration: "Up to 3 years on AEWV", detail: "No in-country registration needed. File NZ tax return annually — IRD number from ird.govt.nz on arrival." },
+        { phase: "Resident Visa", duration: "Green List Tier 1: immediately | SMC: 180+ points | Tier 2: 2 years", detail: "Green List Tier 1 qualifying jobs → apply for Resident Visa immediately. Otherwise accumulate SMC points and submit EOI." },
+        { phase: "Citizenship at 5 years", duration: "After 5 years as resident", detail: "Dual nationality permitted — NZ citizenship does not require renouncing Nigerian citizenship." },
+      ],
+      visitor: [
+        { phase: "Apply online", duration: "2–4 weeks before travel", detail: "visas.immigration.govt.nz. Upload passport, funds evidence, itinerary, accommodation. Fee: NZD 211." },
+        { phase: "Decision", duration: "2–4 weeks", detail: "INZ may request additional documents — respond quickly. No embassy visit required for most applicants." },
+        { phase: "Travel", duration: "Within visa validity", detail: "Declare all food items on arrival — NZ biosecurity is strict. Penalties for non-declaration are heavy." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "New Zealand's Post-Study Work Visa (3 years for Bachelor's and above, 2 years for diplomas) is one of the world's most generous — use it to work and build points toward residency while your qualifications are fresh.",
+        "Dunedin (University of Otago) is significantly cheaper than Auckland — NZD 12,000–15,000/year living costs vs NZD 20,000+ in Auckland. Otago is one of NZ's top universities.",
+        "The medical certificate (chest X-ray) is required for Nigerian applicants due to TB screening — get it from an INZ-approved panel physician in Lagos or Abuja. List of approved physicians at immigration.govt.nz/medical.",
+        "New Zealand is genuinely multicultural — Auckland is one of the world's most ethnically diverse cities. Nigerians are welcomed and integrate well into NZ communities.",
+      ],
+      masters: [
+        "The Green List is the key thing to know as a Nigerian Master's student — identify before you start your degree whether your field of study leads to a Green List occupation. Engineering, nursing, medicine, teaching, and construction management all qualify. This changes your 5-year plan significantly.",
+        "New Zealand universities are strong in niche but globally important fields: marine science, earthquake engineering, dairy/agriculture science, geothermal energy, Māori and Pacific studies, viticulture. These are areas where NZ has genuine world-leading expertise.",
+        "University of Auckland is ranked top 100 globally — a degree from here is internationally recognized and carries real weight for global career mobility.",
+      ],
+      phd: [
+        "The NZ Doctoral Scholarship (NZD 27,500/year) is competitive — apply with a strong research proposal and evidence of prior research experience. Shortlisting happens at the university level before the national competition.",
+        "NZ research strengths: environmental science, agriculture/food tech, marine biology, geophysics, biomedical engineering, materials science. If your research aligns, NZ offers access to unique natural environments and datasets.",
+        "Dual nationality: New Zealand citizenship does not require renouncing Nigerian citizenship. After 5 years of residency, you can hold both NZ and Nigerian passports — this is one of NZ's biggest draws for long-term planning.",
+      ],
+      work: [
+        "The Green List Tier 1 'straight to residence' is one of the most valuable immigration pathways in the world for qualified professionals — a nurse, doctor, or civil engineer with a qualifying NZ job offer can get permanent residency without waiting years. Check the full occupations list carefully at immigration.govt.nz.",
+        "Registered nurses are in critical shortage in New Zealand — NCNZ (Nursing Council of NZ) registration for Nigerian nurses is possible with degree verification and English test (IELTS 7.0 overall, 7.0 in each band). Once registered, Tier 1 straight-to-residency applies.",
+        "New Zealand salary expectations: nurses NZD 60,000–85,000/year, software engineers NZD 80,000–130,000, civil engineers NZD 75,000–110,000. Cost of living in Auckland is high — Wellington and Christchurch are more affordable with similar salaries.",
+        "NZ income tax is simple: 10.5% up to NZD 14,000, 17.5% up to NZD 48,000, 30% up to NZD 70,000, 33% up to NZD 180,000, 39% above. No capital gains tax on most assets. ACC levy (accident compensation) is additional ~1.6% on employment income.",
+      ],
+      visitor: [
+        "NZ biosecurity is among the world's strictest — declare all food, plant material, and animal products on your arrival card. Fines are substantial and non-negotiable. Do not bring meat, fruit, or plant materials.",
+        "New Zealand is expensive for visitors — budget NZD 150–200/day (€80–110). Self-catering accommodation and campervanning are popular ways to reduce costs.",
+        "Auckland, Wellington, Queenstown, Rotorua, and the Bay of Islands are all remarkable. The scenery is unlike anywhere else in the world — mountains, fjords, beaches, and geothermal fields all within a small country.",
+        "A NZ visitor visa does not allow you to enter Australia — you need a separate Australian ETA or visa for any Australian leg of your trip.",
+      ],
+    },
+
+    universities: [
+      { name: "University of Auckland", location: "Auckland", intl_fee: "NZD 30,000–45,000/yr", notes: "NZ's #1 university, top 100 globally. Engineering, medicine, law, business, sciences. auckland.ac.nz" },
+      { name: "Victoria University of Wellington", location: "Wellington", intl_fee: "NZD 28,000–40,000/yr", notes: "Strong in law, public policy, information management, architecture. Capital city location — excellent for government and policy careers. wgtn.ac.nz" },
+      { name: "University of Otago", location: "Dunedin", intl_fee: "NZD 24,000–37,000/yr", notes: "NZ's oldest university. World-class medicine, dentistry, marine science, pharmacy. Cheapest major city. otago.ac.nz" },
+      { name: "University of Canterbury", location: "Christchurch", intl_fee: "NZD 24,000–36,000/yr", notes: "Strong engineering, sciences, arts. Christchurch is rapidly growing post-earthquake — great city for tech and engineering careers. canterbury.ac.nz" },
+      { name: "Massey University", location: "Palmerston North / Auckland", intl_fee: "NZD 22,000–35,000/yr", notes: "World-leading in agriculture, food technology, veterinary science, design. massey.ac.nz" },
+      { name: "AUT (Auckland University of Technology)", location: "Auckland", intl_fee: "NZD 26,000–38,000/yr", notes: "Practice-focused. Strong in nursing, business, computing, communication. Known for industry connections and employability. aut.ac.nz" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "New Zealand Commonwealth Scholarship", amount: "Full tuition + NZD 20,000/year living allowance + flights — fully funded", university: "New Zealand universities — for Commonwealth country nationals including Nigeria", deadline: "Apply via Commonwealth Scholarship Commission Nigeria — typically opens September, closes October/November", url: "https://www.nzscholarships.govt.nz/" },
+      ],
+      masters: [
+        { name: "New Zealand Commonwealth Scholarship", amount: "Full tuition + NZD 20,000/year living allowance + flights + insurance", university: "All NZ universities", deadline: "Via Commonwealth Scholarship Commission Nigeria — September–November annually", url: "https://www.nzscholarships.govt.nz/" },
+        { name: "University of Auckland Excellence Scholarship", amount: "NZD 10,000–full tuition — merit-based", university: "University of Auckland — competitive, applied with admission", deadline: "Check auckland.ac.nz/scholarships — most close March for Semester 2, October for Semester 1", url: "https://www.auckland.ac.nz/en/study/scholarships-and-awards.html" },
+      ],
+      phd: [
+        { name: "New Zealand Doctoral Scholarship", amount: "NZD 27,500/year stipend + tuition fees paid — 3 years", university: "All New Zealand universities", deadline: "Apply through your chosen university — rolling competitive selection. Most intakes: February and July", url: "https://www.nzscholarships.govt.nz/" },
+        { name: "University-specific doctoral scholarships", amount: "NZD 20,000–27,500/year + tuition — varies by university", university: "Each university has its own doctoral scholarship scheme — check university websites", deadline: "Check each university scholarship page — rolling and annual deadlines", url: "https://www.auckland.ac.nz/en/study/scholarships-and-awards.html" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "New Zealand High Commission Abuja",
+      address: "Plot 1649, Cadastral Zone A6, Diplomatic Drive, Central Business District, Abuja",
+      phone: "+234 9 461 3144",
+      note: "Most New Zealand visa applications — including visitor, student, and work visas — are submitted online at visas.immigration.govt.nz. The New Zealand High Commission in Abuja handles enquiries and consular services but most visa processing is done online by Immigration New Zealand (INZ) in Wellington. Biometrics are collected at VFS Global Nigeria for some visa types. The medical certificate (chest X-ray) must be completed with an INZ-approved panel physician in Nigeria before submitting your visa application — list at immigration.govt.nz/medical. Police clearance from the Nigerian Police Force is required for long-stay applications.",
+      website: "https://www.mfat.govt.nz/en/countries-and-regions/africa/nigeria/new-zealand-high-commission-abuja/",
+      visa_apply: "https://www.immigration.govt.nz/new-zealand-visas",
+      vfs: "https://www.vfsglobal.com/NewZealand/Nigeria/",
+      official_immigration: "https://www.immigration.govt.nz/",
+      extra_links: [
+        { label: "Immigration New Zealand — all visa types", url: "https://www.immigration.govt.nz/new-zealand-visas" },
+        { label: "NZ Green List — shortage occupation straight-to-residency", url: "https://www.immigration.govt.nz/new-zealand-visas/apply-for-a-visa/about-visa/green-list-occupation-resident-visa" },
+        { label: "Skilled Migrant Category — points calculator", url: "https://www.immigration.govt.nz/new-zealand-visas/apply-for-a-visa/about-visa/skilled-migrant-category-resident-visa" },
+        { label: "NZ Scholarships — Commonwealth + doctoral", url: "https://www.nzscholarships.govt.nz/" },
+        { label: "NCNZ — Nursing Council New Zealand (nurse registration)", url: "https://www.nursingcouncil.org.nz/" },
+        { label: "MCNZ — Medical Council New Zealand (doctor registration)", url: "https://www.mcnz.org.nz/" },
+        { label: "Engineering New Zealand — engineer registration", url: "https://www.engineeringnz.org/" },
+        { label: "Seek.co.nz — main NZ job board", url: "https://www.seek.co.nz/" },
+        { label: "INZ approved panel physicians Nigeria — medical certificate", url: "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/health-and-character/health-requirements/panel-physicians" },
+      ],
+    },
+  },
+
+  US: {
+    tagline: "United States — the world's top university system, the global tech capital, and a clear path for high-skilled Nigerians through F-1, OPT, and H-1B.",
+
+    overview: `The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US represents the highest-stakes, highest-reward destination: fees are expensive ($25,000–55,000/year for international students), but graduate-level funding (teaching assistantships, research assistantships, fellowships) often covers full tuition plus a living stipend. The key insight most Nigerians miss: at the Master's and especially PhD level in STEM fields, you typically pay nothing and get paid to study.
+
+The US immigration system for students is F-1 visa → OPT (Optional Practical Training, up to 1 year or 3 years for STEM) → H-1B work visa (employer-sponsored, lottery-based) → Green Card. The H-1B lottery is the most significant bottleneck — annual cap of 85,000 visas, with hundreds of thousands of applicants. Nigerian STEM graduates are among the most successful H-1B applicants due to their technical skills and employer demand.
+
+The Nigerian-American community is the largest African-origin community in the US — over 300,000 Nigerian-born residents, concentrated in Houston, New York, Maryland, New Jersey, Atlanta, and Dallas. The community is well-established, educated, and professionally networked. Nigerian doctors, engineers, lawyers, academics, and entrepreneurs are prominent across all major US cities.
+
+Visitor visa (B-1/B-2) applications from Nigeria face scrutiny — consular officers look for strong ties to Nigeria and clear evidence you will return. Approval is not guaranteed but is absolutely achievable with the right application.`,
+
+    stats: {
+      undergrad: [
+        { label: "Tuition (international)", value: "$25,000–55,000/yr (private), $15,000–35,000/yr (public out-of-state)" },
+        { label: "Living costs", value: "$12,000–20,000/yr depending on city" },
+        { label: "Visa type", value: "F-1 Student Visa" },
+        { label: "Student work", value: "On-campus only (20 hrs/wk) during studies; CPT/OPT for off-campus" },
+        { label: "Post-study OPT", value: "12 months (36 months for STEM)" },
+      ],
+      masters: [
+        { label: "Tuition (STEM, funded)", value: "Often free — TA/RA covers tuition + stipend ($18,000–30,000/yr)" },
+        { label: "Tuition (unfunded)", value: "$30,000–60,000/yr" },
+        { label: "Top universities", value: "MIT, Stanford, Carnegie Mellon, Georgia Tech, Columbia, NYU" },
+        { label: "STEM OPT", value: "3 years post-graduation work authorization" },
+        { label: "H-1B", value: "Employer-sponsored, lottery — main path from OPT to Green Card" },
+      ],
+      phd: [
+        { label: "PhD fees", value: "Fully funded in most STEM + social sciences fields — tuition waived + stipend" },
+        { label: "Stipend", value: "$18,000–35,000/yr (varies by field and university)" },
+        { label: "Duration", value: "4–6 years" },
+        { label: "OPT after PhD", value: "3 years STEM OPT" },
+        { label: "Green Card path", value: "PhD → OPT → H-1B → EB-1/EB-2 NIW (National Interest Waiver)" },
+      ],
+      work: [
+        { label: "Main visa", value: "H-1B (specialty occupation, employer-sponsored)" },
+        { label: "H-1B cap", value: "85,000/year — lottery selection" },
+        { label: "O-1A", value: "Extraordinary ability — no cap, no lottery" },
+        { label: "Green Card EB path", value: "EB-1A (extraordinary ability), EB-2 NIW, EB-3 (PERM)" },
+        { label: "Income tax", value: "10–37% federal + state tax (0–13% varies by state)" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "B-1/B-2 Visitor Visa" },
+        { label: "Max stay", value: "Up to 6 months per entry (set by CBP officer)" },
+        { label: "Fee", value: "MRV fee: $185" },
+        { label: "Processing", value: "Varies — Lagos and Abuja consulates have long wait times; allow 3–6 months" },
+        { label: "Apply via", value: "US Embassy Lagos or Abuja (ustraveldocs.com)" },
+      ],
+    },
+
+    summary: {
+      undergrad: "US undergraduate fees are the highest in the world — $25,000–55,000/year at private universities, $15,000–35,000/year at public universities for international students. However, need-based financial aid is available at some elite institutions (Harvard, MIT, Yale, Princeton are need-blind for international students — they meet 100% of demonstrated financial need). For most applicants, community college → state university transfer is a more affordable path. F-1 visa required. Apply through Common App or Coalition App.",
+      masters: "The STEM Master's landscape in the US is split: funded (TA/RA covers tuition + pays a stipend) or unfunded (you pay full fees). Always target funded programmes in STEM — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, or University of Michigan is transformative. After graduation, STEM OPT gives 3 years of open work authorization — enough time to get an H-1B through the lottery. Unfunded business/law Master's degrees at elite schools (MBA at Wharton, HBS) can justify the $100,000+ cost through premium salaries.",
+      phd: "US PhD programmes in STEM are almost always fully funded — tuition waived plus a stipend of $18,000–35,000/year. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, or any top-50 US research university is free education at the world's best institutions, paid. After your PhD, STEM OPT gives 3 years of work authorization. PhD holders can self-petition for an EB-1A (extraordinary ability Green Card) or EB-2 NIW (National Interest Waiver) without needing employer sponsorship.",
+      work: "The H-1B is the primary work visa for skilled professionals in the US. It requires employer sponsorship, a Bachelor's degree or higher, and selection in an annual lottery (85,000 cap, typically 300,000+ applicants). Nigerian STEM graduates on OPT participate in the lottery. Key strategies: work at a university or non-profit (exempt from the cap), accumulate H-1B registrations over multiple years, or qualify for O-1A (extraordinary ability — no cap, no lottery). Big tech companies (Google, Microsoft, Amazon, Meta, Apple) routinely sponsor Nigerian engineers through H-1B and Green Card processes.",
+      visitor: "The B-1/B-2 US visitor visa is one of the most closely scrutinized for Nigerian applicants. Approval depends heavily on demonstrating strong ties to Nigeria (employment, property, family) and a clear purpose of visit. The interview at the US Embassy Lagos or Abuja is the key step. Wait times for appointments can be 3–6 months — plan far in advance. The MRV fee is $185 regardless of outcome.",
+    },
+
+    visa: {
+      undergrad: `**US F-1 Student Visa — Undergraduate**
+
+1. Apply to US universities through Common App (commonapp.org) or Coalition App (schools.coalitionforcollegeaccess.org). For need-blind financial aid: target Harvard, MIT, Yale, Princeton, Amherst, Dartmouth — all meet 100% of demonstrated financial need for international students.
+
+2. Receive I-20 form from your university — this is your SEVIS registration document, issued only after you are admitted and confirm enrollment.
+
+3. Pay the SEVIS fee: $350 (F-1 students) at fmjfee.com — pay before scheduling your visa interview.
+
+4. Complete DS-160 form online at ceac.state.gov/genniv.
+
+5. Pay the MRV visa fee: $185 at ustraveldocs.com.
+
+6. Schedule and attend F-1 visa interview at US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja. Documents:
+   - Valid passport (6+ months validity)
+   - DS-160 confirmation page
+   - SEVIS fee receipt
+   - I-20 from university
+   - Proof of financial support for first year: bank statements, sponsor letter, scholarship letter — enough to cover tuition + living ($30,000–70,000 depending on school)
+   - Academic transcripts, WAEC/NECO, SAT/ACT (if applicable)
+   - English proficiency (TOEFL/IELTS — many schools waive for Nigerian applicants)
+   - Evidence of ties to Nigeria: family, property, future plans
+
+7. Interview: be honest, clear, and concise. Consular officers make decisions quickly — typically under 5 minutes.
+
+8. Work rights: F-1 students can work on-campus only during studies (20 hrs/week). Off-campus work requires CPT (Curricular Practical Training — tied to your programme) or OPT (Optional Practical Training — post-graduation). STEM OPT: 3 years after graduation for STEM majors.`,
+
+      masters: `**US F-1 Student Visa — Master's**
+
+The application process is identical to undergrad (DS-160, SEVIS fee, MRV fee, interview). The critical difference is funding:
+
+**Funded STEM Master's (target this):**
+Many US universities offer Teaching Assistantships (TA) and Research Assistantships (RA) for Master's students in STEM fields. These cover:
+- Full tuition waiver
+- Monthly stipend ($1,500–2,500/month)
+- Health insurance
+
+Target: Carnegie Mellon, Georgia Tech, University of Michigan, Purdue, Texas A&M, Ohio State, University of Illinois Urbana-Champaign, NC State, University of Massachusetts Amherst.
+
+How to get funding: apply for PhD programmes and negotiate for a funded Master's first, or apply directly to funded thesis-track Master's programmes. Contact professors whose research aligns with yours — RA funding often comes from a professor's grant.
+
+**For your I-20:** if funded, your I-20 shows the university covering costs. If unfunded, you must show $60,000–100,000+ in personal/family funds for a 2-year programme.
+
+**STEM OPT (most important post-study right):**
+After graduation, apply for 12-month OPT. If your degree is in a STEM field (engineering, CS, data science, biology, physics, math, etc.), apply for the 24-month STEM OPT extension — total 36 months of work authorization. Use this period to enter H-1B lottery (3 attempts if needed), build US work experience, and transition to H-1B or a cap-exempt employer.`,
+
+      phd: `**US PhD — F-1 Visa + Full Funding**
+
+**Funding: this is the most important section.**
+STEM PhD programmes in the US are almost universally funded:
+- Full tuition waiver
+- Annual stipend: $18,000–35,000 (varies by field, university, and city)
+- Health insurance
+
+Humanities and social sciences PhDs have more variable funding — some fully funded, some partial. Target fully funded positions.
+
+**How to find funded PhD programmes:**
+- Apply to 8–15 programmes in your field
+- Target professors whose research interests match yours — email them before applying
+- Top STEM PhD: MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, Michigan, Cornell, Columbia
+- Strong but less competitive with great funding: Purdue, Ohio State, UMass Amherst, Georgia Tech, Rutgers, University of Pittsburgh
+
+**Application requirements (typical):**
+- GRE (many schools have dropped this requirement post-COVID — check)
+- TOEFL/IELTS (often waived for Nigerian applicants from English-medium universities)
+- Statement of Purpose — this is the most important document. Be specific about your research interests and why this lab/professor.
+- 3 letters of recommendation
+- Transcripts
+- CV/Resume
+
+**F-1 visa process:** same as above (DS-160, SEVIS $350, MRV $185, interview at US Embassy Lagos or Abuja). I-20 shows university funding.
+
+**Green Card from PhD:**
+- EB-1A (Extraordinary Ability): self-petition, no employer needed. Best for academics with publications, awards, citations, invited talks.
+- EB-2 NIW (National Interest Waiver): self-petition with degree + evidence your work is in the national interest of the US. STEM PhD holders can often qualify.
+- EB-1B (Outstanding Researcher): through employer — university/research institution sponsorship.`,
+
+      work: `**Working in the US — H-1B and Beyond**
+
+**H-1B (most common route for Nigerian professionals):**
+- Specialty occupation requiring a Bachelor's degree or higher
+- Employer must sponsor and file a petition with USCIS
+- Annual cap: 65,000 regular + 20,000 US Master's degree holders = 85,000 total
+- Annual lottery: registration period is March, draw in April, work starts October 1
+- Employer registers you in the lottery — you don't apply yourself
+- Stamping: after H-1B is approved, you may need to go to the US Embassy Lagos for a visa stamp in your passport
+
+**Key H-1B facts for Nigerians:**
+- Nigerian students on STEM OPT participate in the lottery — 3 attempts if on 3-year STEM OPT
+- Nigerian-born applicants are not subject to per-country Green Card backlogs (unlike India and China) — once you get H-1B and your employer files for a Green Card, wait times are relatively normal (3–8 years for EB-2/EB-3)
+- Big Tech (Google, Meta, Amazon, Microsoft, Apple) all have internal immigration teams — they routinely sponsor Nigerian engineers through H-1B and Green Card
+
+**Cap-exempt H-1B alternatives:**
+- Universities, research institutions, and non-profits are exempt from the H-1B cap — unlimited spots. A postdoc at a US university gives you H-1B status immediately, plus time to build EB-1A/EB-2 NIW credentials.
+- O-1A (Extraordinary Ability): no cap, no lottery. For Nigerians with high citation counts, major awards, press coverage, or significant industry recognition. Self-petition possible with an agent.
+
+**Green Card (Permanent Residency) routes:**
+- EB-1A: Extraordinary ability — self-petition, no employer needed. Strong for academics, researchers, entrepreneurs.
+- EB-2 NIW: National Interest Waiver — self-petition with evidence your work benefits the US national interest. STEM PhD holders are well-positioned.
+- EB-1B: Outstanding Researcher — employer-sponsored, for senior researchers at universities/research labs.
+- EB-2/EB-3 PERM: employer-sponsored labour certification process — standard corporate route. Takes 3–8 years typically for Nigerians (no country backlog).
+
+**Citizenship:** 5 years as a permanent resident (Green Card holder). Nigeria does not officially recognize dual nationality, but many Nigerian-Americans hold both passports in practice.`,
+
+      visitor: `**US B-1/B-2 Visitor Visa**
+
+The B-1/B-2 is for business (B-1) and tourism/personal visits (B-2). Most Nigerians apply for the combined B-1/B-2.
+
+**Step 1: DS-160 online form**
+Complete at ceac.state.gov/genniv. Be detailed and honest about your purpose, travel history, and family/financial situation.
+
+**Step 2: Pay MRV fee — $185**
+Pay at ustraveldocs.com or a designated bank. Keep the receipt.
+
+**Step 3: Schedule interview**
+At US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja (Plot 1075, Diplomatic Drive, Central Business District). Book at ustraveldocs.com. Wait times can be 3–6 months — book as early as possible.
+
+**Step 4: Attend interview**
+Bring:
+- Passport (valid 6+ months)
+- DS-160 confirmation barcode page
+- MRV fee receipt
+- Photo (5cm x 5cm)
+- Supporting documents (see below)
+
+**What consular officers look for:**
+- Strong ties to Nigeria: employment letter with salary, business registration/bank statements if self-employed, property ownership documents, family ties (spouse/children staying in Nigeria)
+- Clear purpose: why you are visiting, what you will do, where you will stay
+- Ability to fund the trip: bank statements showing sufficient funds ($3,000–5,000+ for a 2-week trip)
+- Proof you will return: most important — employment letter confirming your job is held while you travel, approved leave of absence
+
+**Interview tips:**
+- Dress professionally
+- Speak confidently and in English
+- Answers should be short and direct — consular officers decide in under 3 minutes
+- If you have traveled internationally before (UK, Schengen, Canada), mention it — it helps
+- If refused: a 214(b) refusal means the officer felt you didn't prove immigrant intent. You can reapply but must present new, stronger evidence of ties.
+
+**Entry:** CBP (Customs and Border Protection) sets the length of your stay at the port of entry — usually stamped for 6 months but can be less. Do not overstay — overstaying is one of the most damaging immigration violations and affects future visa applications globally.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "Standardized tests and preparation", duration: "2–3 years before entry", detail: "SAT/ACT (many schools test-optional now). TOEFL/IELTS. Start in SS2/SS3. Build extracurricular record, leadership roles, community involvement — US admissions is holistic." },
+        { phase: "Common App / Coalition App", duration: "Aug–Jan (year of application)", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to 10–15 schools across safety, match, and reach. Write strong essays." },
+        { phase: "Financial aid applications", duration: "Concurrent with admission", detail: "CSS Profile (css.collegeboard.org) for need-based aid — file by November 15 for ED schools. FAFSA (fafsa.ed.gov) — file after October 1. For need-blind schools: apply regardless of ability to pay." },
+        { phase: "Receive admission and financial aid offer", duration: "March–April", detail: "Decision Day: May 1. Compare financial aid packages carefully. Contact financial aid offices to negotiate — this is standard practice." },
+        { phase: "I-20 and SEVIS fee", duration: "May–June", detail: "University issues I-20 after you enroll. Pay SEVIS fee ($350) at fmjfee.com. Keep SEVIS receipt — needed for visa interview." },
+        { phase: "F-1 visa interview at US Embassy Lagos/Abuja", duration: "June–July", detail: "DS-160, MRV fee ($185), interview. Processing: 2–5 days after interview if approved. Apply as early as possible — Lagos consulate has long waits." },
+        { phase: "Arrive USA", duration: "August (30 days before programme start)", detail: "F-1 allows entry 30 days before programme start date on I-20. Report to International Student Office (DSO) within first few days — mandatory." },
+      ],
+      masters: [
+        { phase: "GRE (if required) + TOEFL/IELTS", duration: "6–12 months ahead", detail: "Many top STEM programmes have dropped GRE. Check each school's requirements. TOEFL 90–100+ or IELTS 7.0+ typically needed." },
+        { phase: "Research and professor outreach", duration: "July–September", detail: "Email professors whose research matches yours. A professor's positive response significantly increases admission and funding chances." },
+        { phase: "Applications", duration: "September–December", detail: "Most STEM Master's/PhD deadlines: December 1 – January 15. Submit applications, statements of purpose, letters of recommendation, transcripts." },
+        { phase: "Offers and funding negotiation", duration: "January–April", detail: "Funded offers may come with TA/RA offers. You can negotiate — compare packages across schools." },
+        { phase: "I-20 + F-1 visa", duration: "May–July", detail: "SEVIS fee, DS-160, MRV fee, interview at US Embassy Lagos. Apply early — wait times are long." },
+        { phase: "OPT and STEM OPT planning", duration: "Year 1 of studies", detail: "Register with your DSO about OPT planning from year 1. STEM OPT application is filed 90 days before graduation. Time your H-1B lottery registration." },
+      ],
+      phd: [
+        { phase: "Professor outreach + applications", duration: "July–December", detail: "Email potential PhD supervisors with your research proposal. Strong professor support = much higher admission chances. Apply to 10–15 funded programmes." },
+        { phase: "Funding offers", duration: "January–March", detail: "Funded offers include I-20 showing university coverage. Compare stipend levels, research fit, lab resources, and cost of living in each city." },
+        { phase: "F-1 visa + arrival", duration: "May–August", detail: "Same process. DSO check-in within first days. Social Security Number application after 10 days of being in status." },
+        { phase: "PhD years", duration: "4–6 years", detail: "Annual OPT planning. Build publications, conference presentations, awards — all count toward EB-1A/EB-2 NIW Green Card self-petition later." },
+        { phase: "OPT + H-1B lottery", duration: "Year 4–5+", detail: "3-year STEM OPT. Register for H-1B lottery with employer. If selected, start October 1 of that year. If not selected in year 1, remain on OPT and try again (up to 3 times on STEM OPT)." },
+        { phase: "Green Card self-petition", duration: "From year 3 onwards", detail: "Start building EB-1A/EB-2 NIW record: publications, citations, invited talks, press, awards. Consult an immigration attorney — USCIS approval timelines vary." },
+      ],
+      work: [
+        { phase: "Job search targeting H-1B sponsors", duration: "During OPT / before", detail: "Use LinkedIn, Glassdoor, Levels.fyi (tech salaries), Indeed. Look specifically at companies with H-1B sponsorship history — myvisajobs.com shows which companies file most H-1B petitions." },
+        { phase: "H-1B lottery registration", duration: "March annually", detail: "Your employer registers you online. $10 fee per registration (employer pays). Results in April. If selected, USCIS adjudicates the petition. Work starts October 1." },
+        { phase: "If lottery not selected", duration: "Stay on OPT / explore alternatives", detail: "Remain on STEM OPT (if eligible for remaining time). Try again next March. Consider cap-exempt employers (universities, nonprofits). Explore O-1A if qualifications are strong." },
+        { phase: "H-1B to Green Card", duration: "3–10 years", detail: "Employer files PERM labor certification (EB-2/EB-3) or you self-petition (EB-1A/EB-2 NIW). Nigerians do NOT face the India/China per-country backlog — wait times are reasonable." },
+        { phase: "Citizenship at 5 years", duration: "After 5 years as Green Card holder", detail: "Apply for naturalization. Dual nationality: US citizenship requires no renunciation, but Nigeria does not formally recognize dual citizenship. Many Nigerian-Americans hold both passports in practice." },
+      ],
+      visitor: [
+        { phase: "DS-160 form", duration: "Complete before scheduling appointment", detail: "ceac.state.gov/genniv — save your application ID. Thorough, honest answers." },
+        { phase: "MRV fee payment + appointment scheduling", duration: "3–6 months before intended travel", detail: "ustraveldocs.com — pay $185, schedule interview at US Embassy Lagos or Abuja. Lagos wait times can be 4–6 months. Book as early as possible." },
+        { phase: "Interview", duration: "On appointment day", detail: "Arrive 15 minutes early. Short, confident answers. Show strong ties to Nigeria. Be clear about your purpose and plans." },
+        { phase: "Decision", duration: "Immediate (most cases)", detail: "Most decisions at the window. If approved: passport collected within 3–5 working days. If refused: 214(b) — you can reapply with stronger evidence." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Harvard, MIT, Yale, Princeton, and Amherst are need-blind for international students and meet 100% of demonstrated financial need — a family earning ₦5M/year could pay essentially nothing. Apply and apply for financial aid aggressively. Many Nigerians assume they cannot afford US education and never apply to these schools.",
+        "Community college → state university transfer is the most affordable path to a US degree — 2 years at a community college (as low as $6,000–10,000/year), then transfer to a state university as a junior. Total cost can be under $60,000 for 4 years.",
+        "The Common App essay is the most important document — write about something specific, personal, and genuine. Nigerian students often write about overcoming hardship, which is fine, but the best essays are specific, surprising, and show real personality.",
+        "Strong SAT/ACT scores are not required at most schools (test-optional) but can unlock merit scholarships at mid-tier universities. A 1400+ SAT or 30+ ACT opens merit scholarship opportunities at schools like University of Alabama, Tulsa, or Northeastern.",
+      ],
+      masters: [
+        "Never pay for a STEM PhD in the US — if you are not offered funding (tuition waiver + stipend), reject the offer and apply again or to different programmes. Paying $50,000/year for a US STEM PhD is unnecessary when funded options exist.",
+        "Professor relationships are everything in US PhD admissions. Emailing professors before you apply — showing you have read their work and have a specific research idea — is normal and expected. A professor who wants to work with you will advocate for your admission and funding.",
+        "STEM OPT's 3 years is genuinely transformative — you have 3 lottery attempts for H-1B, time to build work experience and Green Card evidence, and the flexibility to change employers. Plan your STEM eligibility from day one of your programme.",
+        "Cost of living varies dramatically by city: San Francisco and NYC ($25,000–40,000/year), mid-sized university towns like Purdue/West Lafayette or College Station, TX ($12,000–16,000/year). A funded PhD stipend goes further in a smaller city.",
+      ],
+      phd: [
+        "The EB-2 NIW (National Interest Waiver) Green Card is the Nigerian STEM PhD's best path to permanent residency without depending on an employer. After a strong PhD with publications, you can self-petition. Consult an immigration attorney who specializes in NIW from year 3 of your PhD.",
+        "US PhD culture is different from Nigerian academia — you are expected to be independent, push back on ideas respectfully, present your work at conferences, and network actively. Imposter syndrome is real but common — every international student faces it.",
+        "NSF, NIH, DARPA, and DOE all fund US research — understanding which funding body funds your supervisor's work helps you understand the job security of your position. Diversified funding = more stable PhD.",
+        "PhD students in the US typically earn $18,000–35,000/year gross — this is the stipend range. Some fields (biomedical, engineering) in high-cost cities (Boston, SF, NYC) have supplement programmes to bring stipends to $30,000+. Ask about stipend levels before accepting.",
+      ],
+      work: [
+        "Track H-1B sponsors at myvisajobs.com — it shows which companies filed the most H-1B petitions by year. Companies that file thousands of H-1Bs annually (Google, Microsoft, Amazon, Cognizant, Infosys, Tata) are experienced sponsors. Prioritize them in your job search.",
+        "Nigerian-born workers in the US do NOT face the per-country Green Card backlog that affects Indian and Chinese nationals — this is a significant advantage. Once your employer files for a Green Card, wait times are years shorter than for India-born colleagues in the same position.",
+        "O-1A (Extraordinary Ability visa) has no cap and no lottery. Nigerian professionals with strong publication records, industry recognition, awards, press coverage, or demonstrated peer expertise can self-petition or have an employer file. Work with a specialist immigration attorney.",
+        "US income tax is complex — federal (10–37%) plus state tax (0–13% — Texas and Florida have no state income tax, California has 13.3% top rate). Use a CPA for your first 2–3 years. Nigerian engineers at big tech in Texas (Amazon/Google Austin offices) take home significantly more than counterparts in California due to no state income tax.",
+      ],
+      visitor: [
+        "The B-1/B-2 interview in Lagos is short — typically under 3 minutes. Your entire case is made on a few key questions. Practice your answers: why are you visiting? What do you do in Nigeria? What family do you have here? When are you returning? Be specific and confident.",
+        "Lagos US Embassy appointment wait times are among the longest in Africa — 4–6 months is common. Book the moment you decide to apply. Plan your visit date accordingly.",
+        "If refused, wait 6–12 months before reapplying. A new application needs new or stronger evidence — the same application will almost certainly be refused again. Address the specific 214(b) reason.",
+        "Prior Schengen visa, UK visa, or Canadian visa stamps in your passport significantly help a B-1/B-2 application — they demonstrate you have traveled internationally and returned home as required.",
+        "Once inside the US on a B-1/B-2, do not overstay the date stamped in your passport by CBP. Overstaying bars you from the US for 3 years (180-day overstay) or 10 years (1-year+ overstay). It is one of the most serious immigration violations and affects global visa applications.",
+      ],
+    },
+
+    universities: [
+      { name: "Massachusetts Institute of Technology (MIT)", location: "Cambridge, MA", intl_fee: "$57,590/yr (need-blind for intl — meets 100% of need)", notes: "World #1 engineering and technology. Fully funded PhD. Need-blind admissions for international students. mit.edu" },
+      { name: "Stanford University", location: "Stanford, CA", intl_fee: "$56,169/yr (meets full demonstrated need)", notes: "Top 3 globally. Engineering, CS, business, medicine, law. Fully funded PhD. Silicon Valley connections. stanford.edu" },
+      { name: "Harvard University", location: "Cambridge, MA", intl_fee: "$54,768/yr (need-blind — meets 100% of need)", notes: "World-famous. Law, medicine, business (HBS), government (HKS), sciences. Need-blind for all nationalities. harvard.edu" },
+      { name: "Carnegie Mellon University", location: "Pittsburgh, PA", intl_fee: "$58,924/yr", notes: "World #1 computer science. Strong AI, robotics, data science, design. Excellent TA/RA funding for PhD/Master's. cmu.edu" },
+      { name: "Georgia Institute of Technology", location: "Atlanta, GA", intl_fee: "$32,876/yr (public, out-of-state)", notes: "Top 10 engineering. CS, aerospace, biomedical, industrial engineering. Affordable for a top-tier school. Strong STEM OPT placement. gatech.edu" },
+      { name: "University of Michigan", location: "Ann Arbor, MI", intl_fee: "$52,000/yr (out-of-state)", notes: "Top 25 globally. Engineering, medicine, law, business (Ross). Strong Nigerian alumni network. umich.edu" },
+      { name: "Columbia University", location: "New York City, NY", intl_fee: "$63,530/yr (meets full demonstrated need)", notes: "Ivy League. NYC location means unmatched internship and career access. Engineering, journalism, law, business. columbia.edu" },
+      { name: "University of Texas at Austin", location: "Austin, TX", intl_fee: "$38,000/yr", notes: "Top public university. No state income tax. Engineering, CS, business, law, petroleum engineering. Huge Nigerian community in Texas. utexas.edu" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "Harvard/MIT/Yale/Princeton Need-Based Aid", amount: "Up to full tuition + room + board — based on family income (families earning under ~$75,000/year often pay nothing)", university: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth — all need-blind for international students", deadline: "CSS Profile due November 15 (Early Decision) / January 1 (Regular Decision)", url: "https://college.harvard.edu/financial-aid" },
+        { name: "Mastercard Foundation Scholars Program", amount: "Full scholarship — tuition, room, board, travel, for African students at partner universities including some US schools", university: "Partnership varies — check mastercardfdn.org for current US partner universities", deadline: "Varies by partner university — check mastercardfdn.org annually", url: "https://mastercardfdn.org/all/scholars/" },
+      ],
+      masters: [
+        { name: "Teaching/Research Assistantship (TA/RA)", amount: "Full tuition waiver + $18,000–30,000/year stipend + health insurance — the primary funding mechanism for STEM Master's/PhD in the US", university: "All research universities — Carnegie Mellon, Georgia Tech, Michigan, Purdue, UIUC, UT Austin, Ohio State, etc.", deadline: "Apply with programme application (December–January). Indicate funding interest in statement of purpose.", url: "https://www.cmu.edu/graduate-studies/funding/" },
+        { name: "Fulbright Foreign Student Program", amount: "Full funding — tuition, living, insurance, travel — for Nigerian government-sponsored Fulbright scholars", university: "US universities across all disciplines — US Embassy Lagos manages Nigerian nominations", deadline: "Apply via US Embassy Lagos — typically opens February, closes May/June", url: "https://foreign.fulbrightonline.org/" },
+      ],
+      phd: [
+        { name: "University PhD Fellowship / TA-RA (standard funded PhD)", amount: "Full tuition waiver + $18,000–35,000/year stipend + health insurance — standard for STEM PhD in US", university: "All research universities in STEM, social sciences, and many humanities fields", deadline: "Application deadlines: December 1 – January 15 for most programmes", url: "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201" },
+        { name: "NSF Graduate Research Fellowship (GRFP)", amount: "$37,000/year stipend + $16,000 tuition allowance for 3 years — for US citizens and permanent residents only (not F-1 students)", university: "All US universities — but NOTE: only available to US citizens/permanent residents. Mention in application that you intend to pursue permanent residency.", url: "https://www.nsfgrfp.org/" },
+        { name: "Fulbright Foreign Student Program", amount: "Full funding for PhD or research at US universities", university: "Partner US universities — Embassy Lagos manages Nigerian nominations", deadline: "Apply via US Embassy Lagos — typically February–May", url: "https://foreign.fulbrightonline.org/" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "US Embassy Lagos / US Consulate Abuja",
+      address: "Embassy: 2 Walter Carrington Crescent, Victoria Island, Lagos | Consulate: Plot 1075, Diplomatic Drive, Central Business District, Abuja",
+      phone: "Visa enquiries: ustraveldocs.com (online). Emergency: +234 1 460 3400 (Lagos)",
+      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamping) for Nigerian applicants are booked via ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule. Lagos wait times for B-1/B-2 and F-1 appointments can be 4–6 months — book as early as possible. F-1 students can be interviewed up to 120 days before their programme start date. SEVIS fee ($350 for F-1) is paid separately at fmjfee.com before your interview. DS-160 form is completed at ceac.state.gov/genniv. USCIS (US Citizenship and Immigration Services) handles petitions for H-1B and Green Card — this is done inside the US by your employer, not at the embassy.",
+      website: "https://ng.usembassy.gov/",
+      visa_apply: "https://www.ustraveldocs.com/ng/",
+      vfs: "https://www.ustraveldocs.com/ng/",
+      official_immigration: "https://www.uscis.gov/",
+      extra_links: [
+        { label: "US Travel Docs Nigeria — visa appointment booking", url: "https://www.ustraveldocs.com/ng/" },
+        { label: "DS-160 Nonimmigrant Visa Application", url: "https://ceac.state.gov/genniv/" },
+        { label: "SEVIS Fee Payment (F-1 students — $350)", url: "https://www.fmjfee.com/" },
+        { label: "Common App — US undergraduate admissions", url: "https://www.commonapp.org/" },
+        { label: "Fulbright Foreign Student Program Nigeria", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
+        { label: "USCIS — US immigration authority (H-1B, Green Card)", url: "https://www.uscis.gov/" },
+        { label: "STEM OPT information — Study in the States", url: "https://studyinthestates.dhs.gov/stem-opt-hub" },
+        { label: "H-1B Sponsor tracker — myvisajobs.com", url: "https://www.myvisajobs.com/" },
+        { label: "NSF Graduate Research Fellowship", url: "https://www.nsfgrfp.org/" },
+        { label: "Mastercard Foundation Scholars Program", url: "https://mastercardfdn.org/all/scholars/" },
+        { label: "CSS Profile (financial aid application)", url: "https://cssprofile.collegeboard.org/" },
+      ],
+    },
+  },
+
 };
