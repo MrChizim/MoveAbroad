@@ -29,17 +29,17 @@ export const PACKAGES = [
   {
     id: "five_pack",
     name: "5 Countries Pack",
-    price: 35000,
-    priceDisplay: "₦35,000",
-    description: "Choose any 5 countries — save ₦15,000",
+    price: 30000,
+    priceDisplay: "₦30,000",
+    description: "Choose any 5 countries — save ₦20,000",
     countries: 5,
     popular: true
   },
   {
     id: "all_access",
     name: "All Access",
-    price: 60000,
-    priceDisplay: "₦60,000",
+    price: 50000,
+    priceDisplay: "₦50,000",
     description: "Unlock all 15 countries — the complete toolkit",
     countries: 15,
     popular: false
