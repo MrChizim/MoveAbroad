@@ -101,14 +101,14 @@ export default function Footer() {
                 Contact
               </h4>
               <div className="space-y-3">
-                <a href="mailto:hello@moveabroadng.com"
+                <a href="mailto:moveabroadng@gmail.com"
                   className="flex items-center gap-2 text-[13px] transition-colors hover:text-white"
                   style={{ color: 'rgba(255,255,255,0.28)' }}
                 >
                   <Mail className="w-3.5 h-3.5 flex-shrink-0" strokeWidth={1.75} />
-                  hello@moveabroadng.com
+                  moveabroadng@gmail.com
                 </a>
-                <a href="#"
+                <a href="https://instagram.com/moveabroadng" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-2 text-[13px] transition-colors hover:text-white"
                   style={{ color: 'rgba(255,255,255,0.28)' }}
                 >
@@ -117,12 +117,12 @@ export default function Footer() {
                   </svg>
                   @moveabroadng
                 </a>
-                <a href="#"
+                <a href="https://tiktok.com/@moveabroadng" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-2 text-[13px] transition-colors hover:text-white"
                   style={{ color: 'rgba(255,255,255,0.28)' }}
                 >
                   <svg className="w-3.5 h-3.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.75a8.16 8.16 0 0 0 4.78 1.52V6.82a4.85 4.85 0 0 1-1.01-.13z"/>
                   </svg>
                   @moveabroadng
                 </a>

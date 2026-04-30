@@ -94,7 +94,7 @@ export default function HeroSection() {
             { value: '15+', label: 'Countries covered' },
             { value: '10+', label: 'Sections per guide' },
             { value: '100%', label: 'Nigeria-focused' },
-            { value: '₦10,000', label: 'Starting price' },
+            { value: 'Once', label: 'Pay once, keep forever' },
           ].map(s => (
             <div key={s.label}>
               <p className="text-3xl sm:text-4xl font-black text-white tracking-tight" style={{ fontWeight: 900 }}>{s.value}</p>
