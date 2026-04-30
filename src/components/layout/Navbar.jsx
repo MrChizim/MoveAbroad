@@ -14,6 +14,7 @@ const USER_LINKS = [
   { to: '/dashboard', label: 'My Guides' },
   { to: '/profile', label: 'Profile' },
   { to: '/cv-builder', label: 'CV Builder' },
+  { to: '/expenses', label: 'Expense Monitor' },
 ];
 
 export default function Navbar() {

@@ -9,8 +9,97 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Plus, Trash2, Save, User, Briefcase, GraduationCap, Award, FileText, Loader2 } from 'lucide-react';
+import { Plus, Trash2, Save, User, Briefcase, GraduationCap, Award, FileText, Loader2, Upload, ChevronDown, ChevronUp } from 'lucide-react';
 import { toast } from 'sonner';
+
+function parseCVText(text) {
+  const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+  const result = {};
+
+  // Name: first non-empty line that looks like a name (2+ words, no numbers)
+  const nameLine = lines.find(l => /^[A-Za-z][a-zA-Z\s'-]{3,50}$/.test(l) && l.split(' ').length >= 2);
+  if (nameLine) result.full_name = nameLine;
+
+  // Phone
+  const phoneMatch = text.match(/(\+?[\d\s\-().]{10,18})/);
+  if (phoneMatch) result.phone = phoneMatch[1].trim();
+
+  // City — look for "Lagos" or "Location:" or city-like tokens
+  const cityMatch = text.match(/(?:location|city|address)[:\s]+([^\n,]+)/i) || text.match(/Lagos|Abuja|Port Harcourt|Ibadan|Kano/i);
+  if (cityMatch) result.city = (cityMatch[1] || cityMatch[0]).trim();
+
+  // LinkedIn
+  const linkedinMatch = text.match(/linkedin\.com\/in\/[\w-]+/i);
+  if (linkedinMatch) result.linkedin_url = linkedinMatch[0];
+
+  // Summary — text after "Summary", "Profile", "About" heading
+  const summaryMatch = text.match(/(?:summary|profile|about|objective)[:\s]*\n+([\s\S]{30,400}?)(?:\n[A-Z]{3,}|\n\n[A-Z]|$)/i);
+  if (summaryMatch) result.professional_summary = summaryMatch[1].replace(/\n+/g, ' ').trim();
+
+  // Skills — after "Skills" heading, comma/bullet separated
+  const skillsMatch = text.match(/skills?[:\s]*\n+([\s\S]{10,400}?)(?:\n[A-Z]{4,}|\n\n|$)/i);
+  if (skillsMatch) {
+    const raw = skillsMatch[1];
+    const skills = raw.split(/[,•\n|\/]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 40);
+    if (skills.length) result.skills = skills;
+  }
+
+  // Work experience — look for sections with dates like "2020 - 2023" or "Jan 2020"
+  const workSection = text.match(/(?:experience|employment|work)[:\s]*\n+([\s\S]+?)(?:\n(?:education|skills|certif|language|project)|$)/i);
+  if (workSection) {
+    const expText = workSection[1];
+    const jobs = [];
+    // Split by date patterns that indicate new job entries
+    const jobBlocks = expText.split(/\n(?=[A-Z][^\n]{5,60}\n)/);
+    jobBlocks.slice(0, 5).forEach(block => {
+      const blines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      if (blines.length < 2) return;
+      const dateMatch = block.match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february)?\s*(\d{4})\s*[-–to]+\s*(?:present|current|(\d{4}))/i);
+      const job = {
+        job_title: blines[0] || '',
+        company: blines[1] || '',
+        location: '',
+        start_date: dateMatch ? dateMatch[1] : '',
+        end_date: dateMatch ? (dateMatch[2] || 'Present') : '',
+        is_current: /present|current/i.test(block),
+        achievements: blines.slice(2).filter(l => l.length > 10 && !l.match(/^\d{4}/)).slice(0, 4),
+      };
+      if (job.job_title) jobs.push(job);
+    });
+    if (jobs.length) result.work_experience = jobs;
+  }
+
+  // Education
+  const eduSection = text.match(/education[:\s]*\n+([\s\S]+?)(?:\n(?:experience|skills|certif|language|work)|$)/i);
+  if (eduSection) {
+    const eduText = eduSection[1];
+    const edus = [];
+    const eduBlocks = eduText.split(/\n(?=[A-Z])/);
+    eduBlocks.slice(0, 4).forEach(block => {
+      const blines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      if (!blines.length) return;
+      const yearMatch = block.match(/(\d{4})/);
+      const degreeMatch = blines[0].match(/(?:bachelor|master|phd|doctorate|diploma|hnd|ond|bsc|msc|ba|ma|b\.eng|mba)/i);
+      edus.push({
+        degree: blines[0] || '',
+        field: degreeMatch ? (blines[1] || '') : '',
+        institution: blines[1] || '',
+        year: yearMatch ? yearMatch[1] : '',
+        honors: '',
+      });
+    });
+    if (edus.length) result.education = edus;
+  }
+
+  // Languages
+  const langSection = text.match(/languages?[:\s]*\n*([\s\S]{5,200}?)(?:\n[A-Z]{4,}|\n\n|$)/i);
+  if (langSection) {
+    const langs = langSection[1].split(/[,•\n|]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 40);
+    if (langs.length) result.languages = langs;
+  }
+
+  return result;
+}
 
 const EMPTY_FORM = {
   full_name: '', phone: '', city: '', linkedin_url: '',
@@ -26,6 +115,9 @@ export default function Profile() {
   const [saving, setSaving] = useState(false);
   const [skillInput, setSkillInput] = useState('');
   const [langInput, setLangInput] = useState('');
+  const [showImport, setShowImport] = useState(false);
+  const [cvText, setCvText] = useState('');
+  const [parsing, setParsing] = useState(false);
 
   useEffect(() => {
     if (!user) { navigate('/'); return; }
@@ -90,6 +182,41 @@ export default function Profile() {
     set('education', updated);
   };
 
+  const handleFileUpload = (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => setCvText(ev.target.result || '');
+    reader.readAsText(file);
+  };
+
+  const handleImportCV = () => {
+    if (!cvText.trim()) { toast.error('Paste your CV text or upload a file first'); return; }
+    setParsing(true);
+    try {
+      const parsed = parseCVText(cvText);
+      const filled = Object.keys(parsed).filter(k => parsed[k] && (Array.isArray(parsed[k]) ? parsed[k].length > 0 : true)).length;
+      if (filled === 0) { toast.error('Could not extract data — try pasting plain text CV'); return; }
+      setForm(f => ({
+        ...f,
+        full_name: parsed.full_name || f.full_name,
+        phone: parsed.phone || f.phone,
+        city: parsed.city || f.city,
+        linkedin_url: parsed.linkedin_url || f.linkedin_url,
+        professional_summary: parsed.professional_summary || f.professional_summary,
+        skills: parsed.skills?.length ? parsed.skills : f.skills,
+        languages: parsed.languages?.length ? parsed.languages : f.languages,
+        work_experience: parsed.work_experience?.length ? parsed.work_experience : f.work_experience,
+        education: parsed.education?.length ? parsed.education : f.education,
+      }));
+      toast.success(`Imported ${filled} fields — review and correct before saving`);
+      setShowImport(false);
+      setCvText('');
+    } finally {
+      setParsing(false);
+    }
+  };
+
   const addCert = () => set('certifications', [...form.certifications, { name: '', issuer: '', year: '' }]);
   const updateCert = (i, field, val) => {
     const updated = [...form.certifications];
@@ -124,6 +251,56 @@ export default function Profile() {
               {saving ? <><Loader2 className="w-4 h-4 animate-spin" /> Saving...</> : <><Save className="w-4 h-4" /> Save Profile</>}
             </Button>
           </div>
+        </div>
+
+        {/* CV Import */}
+        <div className="mb-6 border border-black/[0.08] rounded-2xl overflow-hidden">
+          <button
+            onClick={() => setShowImport(v => !v)}
+            className="w-full flex items-center justify-between p-4 bg-white hover:bg-[#F8F9FB] transition-colors text-left"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl flex items-center justify-center bg-[#EBF5FF]">
+                <Upload className="w-4 h-4 text-[#0096FF]" />
+              </div>
+              <div>
+                <p className="text-[14px] font-bold text-[#04091A]">Import from existing CV</p>
+                <p className="text-[12px] text-black/40">Paste or upload your CV text to auto-fill fields</p>
+              </div>
+            </div>
+            {showImport ? <ChevronUp className="w-4 h-4 text-black/30" /> : <ChevronDown className="w-4 h-4 text-black/30" />}
+          </button>
+          {showImport && (
+            <div className="p-4 border-t border-black/[0.06] bg-[#F8F9FB] space-y-3">
+              <p className="text-[12px] text-black/50 leading-relaxed">
+                Paste plain text from your CV below (copy from Word, Google Docs, or a .txt file). The parser will extract your name, contact info, experience, education and skills. <strong>Always review the results</strong> before saving.
+              </p>
+              <div className="flex gap-2 items-center">
+                <label className="flex items-center gap-2 px-3 py-2 rounded-lg border border-black/[0.1] bg-white text-[12px] font-medium text-black/60 cursor-pointer hover:bg-[#F0F4FF] transition-colors">
+                  <Upload className="w-3.5 h-3.5" /> Upload .txt file
+                  <input type="file" accept=".txt,.text" className="hidden" onChange={handleFileUpload} />
+                </label>
+                <span className="text-[12px] text-black/30">or paste below</span>
+              </div>
+              <Textarea
+                className="h-40 text-[12px] font-mono"
+                placeholder="Paste your CV text here..."
+                value={cvText}
+                onChange={e => setCvText(e.target.value)}
+              />
+              <div className="flex gap-2">
+                <Button
+                  onClick={handleImportCV}
+                  disabled={parsing || !cvText.trim()}
+                  className="gap-2 text-[13px] text-white hover:opacity-90"
+                  style={{ background: '#0096FF' }}
+                >
+                  {parsing ? <><Loader2 className="w-3.5 h-3.5 animate-spin" /> Parsing...</> : <><Upload className="w-3.5 h-3.5" /> Fill fields from CV</>}
+                </Button>
+                <Button variant="ghost" size="sm" className="text-[13px]" onClick={() => { setShowImport(false); setCvText(''); }}>Cancel</Button>
+              </div>
+            </div>
+          )}
         </div>
 
         <Tabs defaultValue="personal" className="space-y-6">

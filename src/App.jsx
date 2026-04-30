@@ -13,6 +13,7 @@ import Profile from './pages/Profile';
 import CVBuilder from './pages/CVBuilder';
 import VisaChecklist from './pages/VisaChecklist';
 import BudgetCalculator from './pages/BudgetCalculator';
+import ExpenseMonitor from './pages/ExpenseMonitor';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/cv-builder" element={<CVBuilder />} />
             <Route path="/checklist/:code" element={<VisaChecklist />} />
             <Route path="/budget-calculator" element={<BudgetCalculator />} />
+            <Route path="/expenses" element={<ExpenseMonitor />} />
             <Route path="*" element={<PageNotFound />} />
           </Route>
         </Routes>

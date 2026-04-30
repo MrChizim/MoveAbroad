@@ -6,7 +6,7 @@ import { db } from '@/lib/firebase';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { FileText, Download, User, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { FileText, Download, User, AlertCircle, CheckCircle2, Info, Pencil } from 'lucide-react';
 import { generateCV, generateCoverLetter } from '@/lib/cvGenerator';
 import { toast } from 'sonner';
 
@@ -14,7 +14,7 @@ const STYLES = [
   { id: 'CA', flag: '🇨🇦', name: 'Canadian Style', desc: 'Max 2 pages, no photo, achievements-focused, ATS optimized.' },
   { id: 'US', flag: '🇺🇸', name: 'US Style (Resume)', desc: '1 page preferred, tight format, metric-heavy, no personal info.' },
   { id: 'GB', flag: '🇬🇧', name: 'UK Style', desc: '2 pages allowed, personal statement at top, UK spelling.' },
-  { id: 'EU', flag: '🇪🇺', name: 'European / Swedish Style', desc: 'Two-column layout, navy sidebar, skills pills, photo-optional. Standard for Sweden and EU roles.' },
+  { id: 'EU', flag: '🇪🇺', name: 'European Style', desc: 'Two-column layout, navy sidebar, skills pills, photo-optional. Standard across EU countries including Sweden, Germany, Netherlands and more.' },
 ];
 
 const COVER_COUNTRIES = [
@@ -203,9 +203,19 @@ export default function CVBuilder() {
             </div>
             <h2 className="text-[1.4rem] font-black text-[#04091A]" style={{ fontWeight: 900 }}>Cover Letter Generator</h2>
           </div>
-          <p className="text-[14px] text-black/40 mb-8">
-            Download a tailored cover letter template for your destination country and application type. All [bracketed] sections are yours to personalise.
+          <p className="text-[14px] text-black/40 mb-4">
+            Download a cover letter template with your name and contact info already filled in. All [bracketed] sections are placeholders you personalise before sending.
           </p>
+
+          {/* How it works */}
+          <div className="bg-[#FFFBEB] border border-amber-200 rounded-2xl p-4 mb-8 flex gap-3">
+            <Info className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
+            <div className="space-y-1.5 text-[13px] text-amber-800">
+              <p><strong>How it works:</strong> Your name, city, phone, and email from your Profile are pre-filled at the top. Everything else is a template you complete.</p>
+              <p><strong>How to edit after download:</strong> Open the PDF in any editor — Preview (Mac), Adobe Acrobat, or upload to Google Docs / Word. Replace every <code className="bg-amber-100 px-1 rounded text-[12px]">[bracketed]</code> section with your real details before sending.</p>
+              <p><strong>Profile required:</strong> Fill in at least your name and contact info in <Link to="/profile" className="underline font-semibold">My Profile</Link> first, otherwise the header will be blank.</p>
+            </div>
+          </div>
 
           <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Destination Country</h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
@@ -260,7 +270,7 @@ export default function CVBuilder() {
               {generatingCover ? 'Generating...' : 'Download Cover Letter'}
             </Button>
             <p className="text-[12px] text-black/30 mt-3">
-              PDF with your name and contact info pre-filled — customise the [bracketed] sections before sending
+              PDF downloads with your name and contact info pre-filled — open in Preview, Acrobat, or Google Docs to edit the [bracketed] sections
             </p>
           </div>
         </div>

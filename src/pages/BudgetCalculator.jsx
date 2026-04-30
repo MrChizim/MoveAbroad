@@ -226,8 +226,12 @@ export default function BudgetCalculator() {
             How much do you need<br className="hidden sm:block" /> to move abroad?
           </h1>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm leading-relaxed">
-            Real cost breakdown including visa fees, mandatory deposits, health surcharges, language tests, and monthly living costs — all converted to Naira.
+            Estimated cost breakdown including visa fees, mandatory deposits, health surcharges, language tests, and monthly living costs — all converted to Naira.
           </p>
+          <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-4 py-1.5 mt-4">
+            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+            <span className="text-xs text-amber-700 font-medium">All figures are estimates — verify with official sources before making financial decisions</span>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-6">
@@ -292,9 +296,11 @@ export default function BudgetCalculator() {
 
             <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-2.5">
               <AlertTriangle className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
-              <p className="text-xs text-amber-700 leading-relaxed">
-                Figures are based on 2025 data. Tuition is <strong>not included</strong> — it varies widely by school and program. Always verify current rates with the official source.
-              </p>
+              <div className="text-xs text-amber-700 leading-relaxed space-y-1.5">
+                <p><strong>These are estimates only.</strong> Actual costs vary based on exchange rates, your lifestyle, school fees, and current visa prices.</p>
+                <p>Tuition is <strong>not included</strong> — it varies widely by school and program.</p>
+                <p>Always verify current figures with official embassy and university sources before making financial decisions.</p>
+              </div>
             </div>
           </div>
 

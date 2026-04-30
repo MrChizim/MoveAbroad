@@ -16,6 +16,7 @@ export const GUIDE_CONTENT = {
       masters:    { tuition: "CAD 18,000–40,000/yr", living: "CAD 1,000–1,500/month", processing: "4–12 weeks", acceptance: "Varies by program", minIELTS: "6.5–7.0 overall", currency: "CAD" },
       phd:        { tuition: "Often fully funded", living: "CAD 1,500–2,500/month (stipend)", processing: "4–12 weeks", acceptance: "Very competitive", minIELTS: "6.5 overall", currency: "CAD" },
       work:       { salary: "CAD 45,000–90,000/yr", processing: "2–6 months", pathway: "Express Entry / LMIA Work Permit", minIELTS: "CLB 7+ recommended", currency: "CAD" },
+      visitor:    { fee: "CAD 100 (TRV fee)", processing: "2–8 weeks", duration: "Up to 6 months per entry", pathway: "Temporary Resident Visa (TRV)", currency: "CAD" },
     },
 
     summary: {
@@ -88,6 +89,24 @@ export const GUIDE_CONTENT = {
           "After 1 year of skilled Canadian work experience, you qualify for Canadian Experience Class — faster PR track",
         ],
         outcome: "Express Entry PR application takes ~6 months from Invitation to Apply. LMIA work permit + 1 year experience → Canadian Experience Class → PR. Either path leads to full Permanent Residency.",
+      },
+      visitor: {
+        intro: "The Canada Visitor Visa (officially called a Temporary Resident Visa or TRV) allows Nigerians to visit Canada for tourism, family visits, or short business trips — up to 6 months per entry. Canada is not an easy visa to get for Nigerians. The rejection rate is significant. The key factor is convincing the visa officer that you have strong reasons to leave Canada and return to Nigeria.",
+        firstSteps: [
+          { action: "Gather your core financial documents before anything else", detail: "Canada wants to see 3–6 months of bank statements showing stable funds — not money deposited just before you apply. The rough benchmark is CAD 2,500–3,000 per month of your planned stay. If a sponsor is funding your trip, include their bank statements and a sponsor letter. Unstable or recently deposited funds are a common rejection reason." },
+          { action: "Get a strong invitation letter if visiting family or friends", detail: "If someone in Canada invited you, they write a formal letter: their full name, Canadian status (citizenship, PR, study/work permit), address, relationship to you, the purpose of your visit, and confirmation they are hosting you. Attach a copy of their Canadian status document. This letter significantly strengthens applications for family visits." },
+          { action: "Apply online at canada.ca/ircc", detail: "Create an IRCC account at canada.ca. Select 'Visitor Visa'. The application fee is CAD 100. You will upload: valid Nigerian passport (with at least 6 months validity beyond your planned return date), recent passport photos, bank statements, proof of employment or business in Nigeria, travel itinerary (even a rough one), hotel bookings or host invitation letter." },
+          { action: "Biometrics at VFS Global in Lagos or Abuja", detail: "After submitting, IRCC sends a Biometrics Instruction Letter. Book at VFS Global (vfsglobal.ca/canada/nigeria). Fee: CAD 85. Biometrics are valid for 10 years — if you gave them before, check if they are still valid." },
+          { action: "Prepare your ties-to-Nigeria evidence thoroughly", detail: "This is the most important part of your application. Ties to Nigeria that count: current employment letter from Nigerian employer confirming your role, leave approval, and that your job will be held; business registration documents if self-employed; land or property ownership documents (C of O, deed); letter confirming children are in school in Nigeria; family ties such as a spouse or dependants who remain in Nigeria." },
+        ],
+        keyFacts: [
+          "A Multiple Entry TRV (METV) allows you to re-enter Canada multiple times within 10 years — request this unless you only need a single entry",
+          "Processing time is 2–8 weeks — do not book flights before your visa is approved",
+          "Rejection is common for first-time applicants — if rejected, you can reapply immediately but must address every reason given in the refusal letter",
+          "Having a previous US, UK, or Schengen visa in your passport helps significantly — it shows other countries have approved you",
+          "Even small details matter: a return flight booking, hotel confirmation, and a clear day-by-day itinerary all strengthen your application",
+        ],
+        outcome: "A successful TRV application grants entry for up to 6 months. You can apply for an extension inside Canada (another CAD 100) if you need more time. A Multiple Entry visa allows return visits without reapplying each time.",
       },
     },
 
@@ -615,6 +634,59 @@ Step seven — arrive in Canada. Your work permit is tied to this specific emplo
 **After 1 year of Canadian work: Canadian Experience Class**
 
 Whether you arrived on a student visa and switched to a work permit, or came directly on an LMIA work permit, after 1 year of skilled Canadian work experience you qualify for the Canadian Experience Class (CEC) stream within Express Entry. CEC has its own separate draws, typically with lower CRS thresholds than the general pool. Most Nigerians with 1 year of Canadian work experience and CLB 7+ IELTS scores qualify for CEC invitations within 6–12 months of becoming eligible.`,
+
+      visitor: `**The Canada Visitor Visa (Temporary Resident Visa — TRV)**
+
+Canada requires most Nigerian passport holders to obtain a Temporary Resident Visa (TRV) before travelling. This is commonly called a visitor visa. It allows you to enter Canada for tourism, family visits, business meetings, or attending events — but not to work or study. Maximum stay per entry is 6 months, though the actual duration is set by the border officer when you arrive.
+
+**What Canada is looking for**
+
+The visa officer's job is to assess whether you are genuinely visiting temporarily and will leave when required. The most common reason Nigerian applications are refused is insufficient evidence of ties to Nigeria. You must demonstrate that your life, responsibilities, and financial interests are rooted in Nigeria and that you have clear reasons to return. The strength of your ties to Nigeria matters more than the amount of money in your account.
+
+Ties that count:
+• A current employment letter from your Nigerian employer confirming your role, your approved leave dates, and that your position will be held for you — signed by HR or management on company letterhead
+• If self-employed: Certificate of Incorporation, recent bank statements for your business, and a letter from your accountant confirming your business is active
+• Land or property ownership: Certificate of Occupancy (C of O), deed of assignment, or property tax receipts
+• Family responsibilities: a spouse or children remaining in Nigeria (include birth certificates of children if applicable)
+• Enrolled children: school letters confirming your children are currently enrolled in Nigeria
+• Other ongoing responsibilities: salary slips, tax clearance certificates, pension documents
+
+**Financial requirements**
+
+There is no fixed minimum bank balance, but a rough benchmark is having enough to cover approximately CAD 2,500–3,000 per month of your planned stay, plus your return flight. Your statements should show funds that have been stable for at least 3–6 months — not recently deposited. If someone else is funding your trip (a family member in Canada or a sponsor in Nigeria), include their bank statements and a signed sponsor letter explaining the relationship and their commitment to cover your costs.
+
+**Applying online**
+
+Go to canada.ca and create an IRCC account. Select "Apply for a visitor visa." The application fee is CAD 100. When completing the form, be honest and specific. Provide a clear travel purpose, realistic dates, and your planned activities. Vague or inconsistent answers are flagged.
+
+Documents to upload:
+• Valid Nigerian passport — must be valid for at least 6 months beyond your planned return date
+• Recent passport photographs (specifications are on the IRCC site)
+• Bank statements — 3–6 months, clearly showing your name and account number
+• Employment letter or business evidence (as described above)
+• Travel itinerary — your planned destinations, accommodation, and dates (hotel bookings or host's address)
+• Invitation letter (if visiting family or friends in Canada — see below)
+• Any previous visas (US, UK, Schengen) — include copies in your passport scan; these help
+
+**If you are visiting family or friends**
+
+The person hosting you in Canada writes an invitation letter including: their full legal name, their Canadian immigration status (Canadian citizen, permanent resident, or details of their study/work permit), their home address in Canada, their relationship to you, the purpose of your visit, how long you will be staying, and confirmation they are hosting you. Attach a copy of their Canadian status document (citizenship card, PR card, or work/study permit). This letter should be signed and dated. Without this, the officer has no context for why you are visiting a specific person.
+
+**Biometrics**
+
+After submitting, IRCC will send a Biometrics Instruction Letter (BIL). Book an appointment at VFS Global in Lagos (Victoria Island) or Abuja (Maitama). Fee: CAD 85 — paid online when booking. Biometrics are valid for 10 years. If you have previously given biometrics for Canada within the last 10 years, your BIL will confirm you do not need to go again.
+
+**Processing time**
+
+Current processing time from IRCC is approximately 2–8 weeks. Do not book flights until your visa is approved. Check the IRCC website for current processing time estimates before applying.
+
+**If your application is refused**
+
+IRCC must provide a refusal letter listing the reasons. Read every reason carefully. You can reapply immediately — there is no waiting period — but you must address every reason for refusal in your new application. Adding new documents, a stronger employment letter, clearer itinerary, or more comprehensive financial evidence are common ways to strengthen a second application. Having a previous Canada refusal does not automatically mean you will be refused again if you apply with better documentation.
+
+**Multiple Entry Visa**
+
+When applying, request a Multiple Entry Temporary Resident Visa (METV). If approved, this allows you to enter Canada multiple times within the visa's validity (typically 10 years or the expiry of your passport). If you only need to travel once, a single entry TRV is also an option but costs the same — the multiple entry version is almost always the better choice if you might visit again.`,
     },
 
     timeline: {
@@ -654,6 +726,13 @@ Whether you arrived on a student visa and switched to a work permit, or came dir
         { step: "Job offer received", title: "Employer applies for LMIA on your behalf", detail: "Your employer submits an LMIA application to Service Canada. This proves no Canadian worker was available for your role. Cost to employer: CAD 1,000. Processing: 2–5 months. Once approved, you apply for your work permit at canada.ca." },
         { step: "1 year of Canadian work", title: "Canadian Experience Class — fast-track to PR", detail: "After 1 year of skilled work experience in Canada, apply for PR through Canadian Experience Class (a stream within Express Entry). This stream has lower CRS score requirements. Most Nigerians who get 1 year of Canadian work experience qualify for PR within another 6–12 months." },
       ],
+      visitor: [
+        { step: "8–12 weeks before travel", title: "Gather your documents — start with employment letter and bank statements", detail: "Ask your Nigerian employer to issue a formal letter on company letterhead confirming your role, your approved leave dates, and that your position will be held for you while you travel. Simultaneously prepare 3–6 months of personal bank statements. Funds should look stable — not recently deposited. This is the core of your application." },
+        { step: "6–8 weeks before travel", title: "Apply online at canada.ca", detail: "Create an IRCC account and start the Visitor Visa (TRV) application. Fee: CAD 100. Upload: passport, bank statements, employment letter, travel itinerary (hotel bookings or host details), passport photos, and any invitation letter. If you have previous US, UK, or Schengen visas, ensure your passport scan includes those pages — they help. Request a Multiple Entry TRV for future flexibility." },
+        { step: "Within days of applying", title: "Biometrics at VFS Global", detail: "IRCC sends a Biometrics Instruction Letter (BIL) by email shortly after you apply. Book at VFS Global in Lagos (Victoria Island) or Abuja (Maitama) at vfsglobal.ca/canada/nigeria. Fee: CAD 85. Bring your passport and the printed BIL. Biometrics valid for 10 years." },
+        { step: "2–8 weeks later", title: "Decision — do not book flights until you have approval", detail: "Processing time is currently 2–8 weeks but varies. Check the IRCC website for live estimates. Once approved, your visa will be stamped in your passport and returned to you via VFS. Only then book your flights." },
+        { step: "At the Canadian airport", title: "Border officer sets your actual entry duration", detail: "Your TRV allows you to seek entry. The border officer at the Canadian airport determines exactly how long you can stay — typically up to 6 months. Be prepared to answer questions about your visit purpose, where you are staying, how much money you have, and when you are returning to Nigeria. Have your return flight booking ready to show." },
+      ],
     },
 
     tips: {
@@ -679,6 +758,13 @@ Whether you arrived on a student visa and switched to a work permit, or came dir
         { title: "LinkedIn is not optional — it is how Canadian hiring works", body: "Canadian recruiters actively search LinkedIn for candidates. Set up a complete profile (professional photo, detailed work history, skills listed). Turn on 'Open to Work' and set Canada as your target location. Nigerian software engineers, accountants, nurses, and engineers are genuinely in demand. If your profile is complete and professional, you will receive messages from Canadian recruiters — especially in tech and healthcare." },
         { title: "Provincial health systems actively recruit Nigerian healthcare workers", body: "Alberta Health Services, Ontario Health, and other provincial health systems have international recruitment programs. If you are a nurse, doctor, pharmacist, or allied health professional, search '[province] international healthcare recruitment' specifically. Note: Nigeria is currently on a World Health Organization list of countries with healthcare worker shortages, which means targeted NHS-style recruitment from Nigeria faces restrictions in some programs — but individual applications are still accepted. The path is to apply directly to hospitals and health systems, not through government-to-government schemes." },
         { title: "Saskatchewan and Manitoba are faster routes than Ontario for many Nigerians", body: "The Saskatchewan Immigrant Nominee Program (SINP) and Manitoba Provincial Nominee Program (MPNP) have streams that specifically need workers in healthcare, agriculture, trades, and other sectors. These programs have lower score thresholds than Ontario's federal Express Entry stream. If you are a nurse, mechanic, electrician, or in another trade, look at these provinces seriously." },
+      ],
+      visitor: [
+        { title: "Your employment letter is the most important document in your application", body: "A vague employment letter kills applications. The letter must be on official company letterhead, signed by HR or a senior manager, and must state: your name, job title, your monthly salary or annual salary, that you have been granted leave from [date] to [date], and that your position will be held for you upon your return. Include the company's official contact details. If you are self-employed, get a letter from your accountant on their letterhead confirming your business is active and generates income." },
+        { title: "Bank funds must be stable — not recently deposited", body: "IRCC visa officers specifically look at how long money has been in your account. A large amount that appeared in your account 2–3 weeks before you applied is a red flag. Ideally your statements should show 3–6 months of consistent, stable balances. If you cannot show this in your personal account, a sponsor's bank statements (parent, sibling, or friend in Canada) combined with a clear sponsor letter can supplement your application." },
+        { title: "Previous visas (US, UK, Schengen) significantly help your application", body: "If you have been previously approved for a US B1/B2, UK Standard Visitor, or any Schengen visa, these are powerful evidence that other immigration systems have assessed you and approved you. Make sure your passport scan includes ALL pages with visa stamps — not just the bio-data page. These previous approvals show you have a travel history and have returned home as required." },
+        { title: "If refused, you can reapply — but you must address every refusal reason", body: "A TRV refusal is not permanent. Read the refusal letter carefully and identify every reason given. A common reason is 'insufficient ties to home country' — address this with a stronger employment letter, property documents, and family evidence. 'Insufficient funds' can be addressed with more months of stable bank statements. Reapply with clearly improved documentation. Do not reapply with the same documents — you will likely be refused again." },
+        { title: "Request a Multiple Entry TRV, not a single entry", body: "The application fee is the same (CAD 100) regardless of whether you get a single or multiple entry visa. Request a Multiple Entry TRV in your application — if approved, it allows you to visit Canada multiple times within 10 years without reapplying each time. This is especially useful if you have family in Canada or travel for business regularly. Single entry visas expire as soon as you leave Canada." },
       ],
     },
 
@@ -762,6 +848,7 @@ Whether you arrived on a student visa and switched to a work permit, or came dir
       masters:    { tuition: "£15,000–£40,000/yr", living: "£1,136–£1,483/month", processing: "3 weeks", acceptance: "Varies by program", minIELTS: "6.0–7.0 UKVI (see guide)", currency: "GBP" },
       phd:        { tuition: "£15,000–£30,000/yr (often funded)", living: "£1,136–£1,483/month", processing: "3 weeks", acceptance: "Very competitive", minIELTS: "6.5–7.0 UKVI", currency: "GBP" },
       work:       { salary: "£28,000–£65,000/yr", processing: "3–8 weeks", pathway: "Skilled Worker Visa", minIELTS: "B1 English required", currency: "GBP" },
+      visitor:    { fee: "£115 (Standard Visitor Visa)", processing: "3 weeks (online)", duration: "Up to 6 months per entry", pathway: "Standard Visitor Visa", currency: "GBP" },
     },
 
     summary: {
@@ -835,6 +922,24 @@ Whether you arrived on a student visa and switched to a work permit, or came dir
           "UK allows dual nationality — British citizenship does not require giving up your Nigerian passport",
         ],
         outcome: "Skilled Worker Visa → 5 years → ILR (permanent residence) → 1 more year → British citizenship. Your spouse can work and your children attend UK schools.",
+      },
+      visitor: {
+        intro: "The UK Standard Visitor Visa allows Nigerians to visit the UK for tourism, visiting family, attending conferences or business meetings, and short academic activities — up to 6 months per visit. Nigerian passport holders cannot travel to the UK without this visa. The UK has one of the faster processing times (typically 3 weeks) but the refusal rate for Nigerians is significant. Strong financial evidence and clear ties to Nigeria are the two things that determine the outcome.",
+        firstSteps: [
+          { action: "Decide what type of evidence you are building your application around", detail: "There are two main application types: visiting family/friends in the UK, or visiting for tourism/business. For family visits, an invitation letter from the UK-based person is essential. For tourism, your itinerary and hotel bookings carry most of the weight. Decide which applies to you before gathering documents." },
+          { action: "Get a strong employment letter from your Nigerian employer", detail: "The letter must be on official company letterhead, signed by HR or management. It should state: your name, job title, annual or monthly salary, length of employment, that you have been approved leave from [date] to [date], and that your position will be held for you. This is the single document that most affects visitor visa decisions. If self-employed, get a letter from your accountant confirming your business is active and generating income." },
+          { action: "Apply online at gov.uk/standard-visitor-visa", detail: "The application fee is £115. Complete the form carefully — be specific about where you are staying, who you are visiting (with their contact details and UK address), your itinerary, and how you are funding the trip. You will then be asked to book a visa appointment at TLScontact (the UK's visa centre in Nigeria)." },
+          { action: "Attend your appointment at TLScontact in Lagos or Abuja", detail: "TLScontact handles UK visa applications in Nigeria. You submit your documents and biometrics (fingerprints and photo) here. Lagos: 31A Ladybird House, Mobolaji Bank Anthony Way, Ikeja. Abuja: plot 1261 Tafawa Balewa Way. Bring originals and copies of all documents. The appointment fee is separate from the visa fee." },
+          { action: "Prepare your document bundle in this order", detail: "1. Valid Nigerian passport (6 months validity beyond return date). 2. UK Standard Visitor Visa application form. 3. Bank statements — 3–6 months, showing stable funds (roughly £2,000–3,000 for a 2-week trip minimum). 4. Employment letter or business evidence. 5. Hotel bookings or host's invitation letter and proof of their UK status. 6. Return flight booking (you can use a refundable booking at this stage). 7. Travel itinerary. 8. Any previous UK, US, or Schengen visas — these help significantly." },
+        ],
+        keyFacts: [
+          "Standard Visitor Visa fee: £115 — apply at gov.uk/standard-visitor-visa",
+          "TLScontact (not VFS for UK) handles applications in Lagos and Abuja — book at tlscontact.com",
+          "Processing: typically 3 weeks from biometrics for standard service; 5 working days for priority (extra £250); 24 hours for super priority (extra £500 — limited availability)",
+          "A long-term Standard Visitor Visa (2, 5, or 10 years) is available — same application, costs more but allows multiple visits without reapplying",
+          "You cannot work, claim public funds, or study on a Standard Visitor Visa — even unpaid volunteering is restricted",
+        ],
+        outcome: "A Standard Visitor Visa allows entry for up to 6 months per visit. You cannot extend inside the UK — you must leave and reapply. A long-term visa (2, 5, or 10 years) avoids having to reapply for every trip and is worth applying for if you visit regularly.",
       },
     },
 
@@ -1372,6 +1477,13 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         { step: "CoS received", title: "Apply for Skilled Worker Visa at gov.uk", detail: "Apply at gov.uk/skilled-worker-visa. Pay visa fee (varies by duration) + IHS (£1,035/year). Processing: 3–8 weeks. You can switch from Graduate Route to Skilled Worker while in the UK without leaving." },
         { step: "5 years on Skilled Worker Visa", title: "Apply for Indefinite Leave to Remain (ILR)", detail: "After 5 years continuous residence on a Skilled Worker Visa, apply for ILR — permanent residence. No more visa renewals. You can travel freely. Cost: £2,885 (verify at gov.uk as this changes). After 1 more year with ILR, apply for British citizenship. UK allows dual nationality — you keep your Nigerian passport." },
       ],
+      visitor: [
+        { step: "4–6 weeks before travel", title: "Gather documents — employment letter, bank statements, and itinerary", detail: "Get your employment letter from HR (on company letterhead, with your salary, leave approval, and return-to-work date). Prepare 3–6 months of personal bank statements. Draft your travel itinerary (hotels, activities, dates). If visiting family or friends, ask them to write an invitation letter and attach their UK status document (BRP, passport photo page, or leave to remain)." },
+        { step: "4–5 weeks before travel", title: "Apply online at gov.uk/standard-visitor-visa", detail: "Complete the application online. Fee: £115. Be specific about your accommodation, who you are visiting, your purpose, and your return date. Upload all documents. After submitting, the system gives you a reference number and instructions to book your biometrics appointment at TLScontact." },
+        { step: "3–4 weeks before travel", title: "Attend TLScontact appointment for biometrics", detail: "Book your appointment at tlscontact.com/gb/lg/en/ (Lagos) or the Abuja TLScontact centre. Bring your passport, appointment letter, and document copies. Biometrics (fingerprints and photo) are taken at the appointment. Standard processing after biometrics: approximately 3 weeks." },
+        { step: "After applying", title: "Do not book non-refundable flights until visa is approved", detail: "Processing is typically 3 weeks but can vary. If you need to travel sooner, consider priority service (£250 extra, approximately 5 working days). Only book flights after you have your visa stamped in your passport and returned via TLScontact or courier." },
+        { step: "At UK border control", title: "Be prepared to answer questions clearly", detail: "The UK border officer will ask about your visit purpose, where you are staying, who you are visiting, how much money you have access to, and when you are returning to Nigeria. Have your return flight booking visible on your phone or printed. Answer clearly and consistently with what you stated in your application." },
+      ],
     },
 
     tips: {
@@ -1394,6 +1506,13 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         { title: "Check the licensed sponsors register BEFORE applying to any UK job", body: "The Home Office publishes a complete public list of all companies licensed to sponsor foreign workers. Download it from gov.uk/government/publications/register-of-licensed-sponsors-workers before investing time in any job application. Scam job offers targeting Nigerians with false sponsorship promises exist. If a company is not on this register, they cannot legally sponsor your Skilled Worker Visa — do not accept their offer." },
         { title: "Nigerian lawyers can qualify as UK solicitors through the SQE without a UK law degree", body: "The Solicitors Qualifying Examination (SQE) is a route to qualify as a UK solicitor. It involves two assessments and a period of qualifying work experience. Nigerian barristers and solicitors have used this route to build careers in UK law firms. You do not need a UK law degree. Check the Solicitors Regulation Authority website (sra.org.uk) for current requirements." },
         { title: "Proof of ties to Nigeria for visitor and initial entry applications", body: "When applying for UK visitor visas (or if you have previously been refused a visa), showing ties to Nigeria helps demonstrate you intend to return. What counts: Certificate of Occupancy or family land documents (family property counts, not just yours), letter from a Nigerian employer, spouse or children in Nigeria, active Nigerian bank account with regular transactions, business registration documents, ownership of property or assets in Nigeria." },
+      ],
+      visitor: [
+        { title: "TLScontact — not VFS — handles UK visas in Nigeria", body: "The UK uses TLScontact (not VFS Global) for visa applications in Nigeria. Lagos: 31A Ladybird House, Mobolaji Bank Anthony Way, Ikeja. Abuja: plot 1261 Tafawa Balewa Way, Central Business District. Port Harcourt: also available — check tlscontact.com for the exact address. Apply online at gov.uk/standard-visitor-visa first, then book your biometrics appointment at TLScontact through the UK Visas and Immigration (UKVI) system." },
+        { title: "Show 28 consecutive days of stable funds in your bank account", body: "The UK Home Office expects to see funds that have been stable for at least 28 days before your application date. A large deposit made recently before applying is a red flag. For a 2-week trip, a rough minimum is showing £2,000–3,000 in savings. For longer stays, more is expected. Your bank statements should show regular income (salary credits), not just a large lump sum appearing recently." },
+        { title: "A previous UK refusal is not a ban — but you must address every reason", body: "Many Nigerians have been refused UK visitor visas. If you reapply with the exact same documents, you will likely be refused again. The refusal letter will state specific reasons. 'Insufficient ties to your home country' means you need a stronger employment letter, property documents, and family evidence. 'Insufficient funds' means you need more stable bank history. Address each reason specifically in your new application." },
+        { title: "Long-term visitor visas save you from reapplying every trip", body: "The UK offers 2-year, 5-year, and 10-year Standard Visitor Visas. You apply for whichever you want — the fee is higher but the visa lasts longer. A 2-year multi-entry visa costs approximately £361; 5-year costs approximately £655; 10-year costs approximately £963 (verify at gov.uk). If you have family in the UK or travel regularly for business, applying for a longer-term visa is worth it. You do not need to visit multiple times to qualify — you just have to meet the same requirements." },
+        { title: "You can apply for priority processing for £250 extra (5 working days)", body: "Standard processing for UK visitor visas is 3 weeks. Priority service brings this down to approximately 5 working days. Super priority (where available in Lagos) is 24 hours. These are paid at the application stage. If you have specific travel dates approaching, priority is worth considering. Book your TLScontact appointment at the same time as selecting priority, as appointment slots can be limited." },
       ],
     },
 
@@ -1480,6 +1599,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
       masters:    { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,584–12,000/month", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "6.0–6.5 or university equivalent", currency: "SEK" },
       phd:        { tuition: "FREE — PhD is salaried employment", living: "SEK 25,000–35,000/month (your salary)", processing: "4–8 weeks", acceptance: "Very competitive", minIELTS: "Set by program", currency: "SEK" },
       work:       { salary: "SEK 35,000–65,000/month", processing: "4–8 weeks", pathway: "Swedish Work Permit / EU Blue Card", minIELTS: "Not required for permit — employer may test", currency: "SEK" },
+      visitor:    { fee: "€80 Schengen visa fee (~₦140,000)", processing: "15 calendar days (standard)", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
     },
 
     summary: {
@@ -1553,6 +1673,23 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
           "After 4 years of continuous residence: Permanent Residence. Sweden allows dual citizenship.",
         ],
         outcome: "Work Permit (employer applies) → annual renewal → 4 years continuous residence → Permanent Residence → Swedish citizenship. Sweden allows dual nationality.",
+      },
+      visitor: {
+        intro: "Sweden is a Schengen Area country. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit Sweden. This single visa lets you travel across all 26 Schengen countries for up to 90 days in any 180-day period. You apply through the Swedish embassy or consulate (or in Nigeria, through VFS Global on behalf of Sweden). The visa fee is €80. Sweden processes most visitor visas within 15 calendar days.",
+        firstSteps: [
+          { action: "Determine where to apply — Sweden or another Schengen country", detail: "Apply at the embassy or consulate of the country you will spend the most time in. If visiting only Sweden, apply for a Swedish Schengen visa. If visiting Sweden and Germany equally, apply at whichever you enter first. In Nigeria, Sweden's Schengen applications go through the VFS Global centre. Lagos: 8 Elsie Femi Pearse Street, Victoria Island. Abuja: 16 Cairo Street, Wuse 2." },
+          { action: "Prepare your financial evidence", detail: "The Schengen requirement is €100 per day of your stay, or evidence of a host/sponsor who will cover your costs. For a 14-day visit: approximately €1,400 in accessible funds. Your 3–6 months of bank statements should show stable, consistent funds — not recently deposited. If a Swedish host is covering your costs, include an invitation letter from them with their Swedish identification and residency status." },
+          { action: "Get a strong employment letter and submit your application at VFS", detail: "You need: valid Nigerian passport, completed Schengen visa application form, two recent passport photos (35x45mm, white background), bank statements, employment letter (company letterhead, signed by HR, confirming your role, salary, approved leave dates, and return to work), hotel or host invitation, travel insurance covering €30,000 minimum across all Schengen countries, return flight booking (can be refundable at this stage), and application fee €80 (approximately ₦140,000 at current rates)." },
+          { action: "Biometrics and document submission at VFS", detail: "Book your appointment at vfsglobal.com/sweden/nigeria. Bring originals and photocopies of all documents. Biometrics (fingerprints and photo) are taken at the appointment. Your passport is held by VFS until the visa is processed." },
+        ],
+        keyFacts: [
+          "Schengen visa allows up to 90 days across all 26 Schengen countries — one visa, all of Europe",
+          "Travel insurance is mandatory: minimum €30,000 coverage, valid across all Schengen countries for your entire trip",
+          "Previous US, UK, or other Schengen visas in your passport significantly help your application",
+          "The Swedish embassy in Abuja handles appeals and special cases — VFS Global handles routine applications",
+          "A multiple-entry Schengen visa (if granted) allows multiple trips within its validity — request this if you plan to travel to Europe regularly",
+        ],
+        outcome: "A Schengen short-stay visa allows up to 90 days in Sweden (and any other Schengen country) within a 180-day window. You cannot work or study. You cannot extend inside the Schengen area — you must leave and reapply.",
       },
     },
 
@@ -1945,6 +2082,49 @@ After 4 years of continuous legal residence in Sweden on qualifying permits (wor
 Your employer renews your work permit annually until you apply for permanent residence. If you change employers, your new employer applies for a new work permit for you — the process is the same.
 
 The EU Blue Card is an alternative for highly qualified workers with a university degree and a salary offer above SEK 49,875/month (verify current figure at migrationsverket.se). It offers slightly faster processing and more flexibility to eventually move between EU countries. If your salary offer is high enough, ask your employer to apply for the EU Blue Card instead of the standard work permit.`,
+
+      visitor: `**Visiting Sweden — Schengen Short-Stay Visa**
+
+Sweden is part of the Schengen Area. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit. This one visa allows travel across all 26 Schengen countries — so if you are visiting Sweden and want to also see Germany, Norway, or Netherlands, the same visa covers it. Maximum stay: 90 days in any 180-day period.
+
+**Who handles Swedish Schengen applications in Nigeria**
+
+Swedish Schengen visa applications from Nigeria are handled by VFS Global:
+• Lagos: 8 Elsie Femi Pearse Street, Victoria Island
+• Abuja: 16 Cairo Street, Wuse 2
+Book your appointment at vfsglobal.com/sweden/nigeria.
+
+**Application fee**
+
+€80 — paid at the VFS centre or online depending on the process. At current exchange rates, approximately ₦140,000–150,000. Additional VFS service fees apply (approximately ₦10,000–15,000 extra). Check the VFS website for current charges.
+
+**Documents required**
+
+• Valid Nigerian passport — must be valid for at least 3 months beyond your planned return from Sweden
+• Completed Schengen visa application form (filled online or at VFS)
+• Two recent passport photographs — 35x45mm, white background, taken within the last 6 months
+• Bank statements — 3–6 months showing stable funds. Rough minimum: €100 per day of your stay (~€1,400 for 2 weeks)
+• Travel insurance — minimum €30,000 coverage, valid across all Schengen countries, for the full duration of your trip. Available from companies like AXA, Europ Assistance, or through your insurance broker in Nigeria. Many applicants buy this from VFS directly.
+• Employment letter — on company letterhead, confirming your role, salary, approved leave dates, and return-to-work date. If self-employed: Certificate of Incorporation and accountant letter.
+• Travel itinerary — your planned dates, accommodation, and activities. Hotel bookings help (refundable bookings are fine at application stage).
+• If visiting family or friends in Sweden: an invitation letter from your Swedish-based host, their full name, Swedish address, and a copy of their Swedish residence card (uppehållstillstånd) or Swedish citizenship documents.
+• Return flight booking — can be refundable. Shows your intended departure date.
+
+**Processing time**
+
+15 calendar days is the standard processing time for Swedish Schengen visas. In some cases it can take up to 30 or 45 days — check the VFS website for current estimates. Do not book non-refundable flights until your visa is returned.
+
+**What the Schengen visa does NOT allow**
+
+You cannot work in Sweden or any other Schengen country on a visitor visa, not even unpaid. You cannot study. You cannot stay beyond 90 days in any 180-day period. If you overstay, you will be flagged and future Schengen applications may be refused.
+
+**Getting a multiple-entry Schengen visa**
+
+The officer decides whether to issue single, double, or multiple entry. You can request a multiple entry visa on your application form — if your purpose (business travel, visiting family regularly) supports it and your previous travel history is good, multiple entry is often granted. A multiple-entry Schengen visa of 1 or 2 years allows repeated trips to Europe without reapplying each time.
+
+**If you have previously visited other countries**
+
+Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in your passport significantly strengthen your application. They show other immigration systems have assessed and approved you, and that you returned home as required. Bring your passport(s) showing these stamps to your VFS appointment.`,
     },
 
     timeline: {
@@ -1979,6 +2159,13 @@ The EU Blue Card is an alternative for highly qualified workers with a universit
         { step: "Permit approved — arrive in Sweden", title: "Register at Skatteverket for personnummer immediately", detail: "Your first priority after arriving. Bring your passport and Residence Permit. Personnummer unlocks: bank account (Swedbank or Handelsbanken are easiest for new arrivals), BankID (Swedish digital identity for banking and all government services), SIM plan, healthcare, library card, gym membership." },
         { step: "4 years of continuous residence", title: "Apply for Permanent Residence at migrationsverket.se", detail: "Work permits are renewed annually. After 4 years of continuous legal residence in Sweden, you qualify for permanent residence (PUT). Apply at migrationsverket.se. After 5 years total, apply for Swedish citizenship. Sweden allows dual nationality." },
       ],
+      visitor: [
+        { step: "6–8 weeks before travel", title: "Gather all documents — start with financial evidence and employment letter", detail: "Prepare 3–6 months of personal bank statements (roughly €100/day minimum as a guideline). Get your employment letter from HR on company letterhead: your name, role, salary, approved leave dates, and return to work confirmation. Book hotel or confirm your Swedish host's details. Get refundable flight bookings for your itinerary." },
+        { step: "5–6 weeks before travel", title: "Book your VFS Global appointment in Lagos or Abuja", detail: "Go to vfsglobal.com/sweden/nigeria and book your biometrics appointment. Book as early as possible — slots can fill up. At the appointment you will submit your documents and give biometrics. Your passport is held by VFS until the visa is processed." },
+        { step: "At your VFS appointment", title: "Submit documents including mandatory travel insurance", detail: "Bring: passport, application form, 2 passport photos, bank statements, employment letter, hotel bookings or host invitation, travel itinerary, return flight booking, and travel insurance (minimum €30,000 Schengen coverage, valid for your entire trip). VFS charges a separate service fee on top of the €80 visa fee." },
+        { step: "15 calendar days later (standard)", title: "Visa decision — do not book non-refundable travel until this point", detail: "Standard processing is 15 calendar days but can extend to 30 or 45 in busy periods. Once your passport is returned with a visa sticker, book your flights. The visa sticker shows the valid period, number of entries (single/multiple), and maximum stay." },
+        { step: "In Sweden", title: "Register your arrival if staying more than 90 days is ever your goal", detail: "For a short visit, you need no registration. Simply travel, enjoy, and leave before your 90 days expire. Remember the 90/180 rule applies across all Schengen countries — if you visited Germany last month, those days count against your 90-day allowance for the 180-day window." },
+      ],
     },
 
     tips: {
@@ -2003,6 +2190,13 @@ The EU Blue Card is an alternative for highly qualified workers with a universit
         { title: "BankID is essential for daily life in Sweden — get it in your first week", body: "BankID is Sweden's digital identity system. It is used for online banking, signing documents, logging into government websites (Skatteverket, Migrationsverket, healthcare booking), and many private services. You get BankID through your Swedish bank once you have your personnummer. Without BankID you are limited in what you can do digitally in Sweden. Make it a first-week priority alongside your personnummer." },
         { title: "Swedish workplace culture: leave on time, take fika, respect boundaries", body: "Staying late to impress your manager is not a positive signal in Swedish work culture — it suggests you are inefficient with your time. Work ends at work time. Fika (communal coffee break, typically twice a day) is where workplace relationships are built. Participate even if you do not drink coffee. Swedes value directness, punctuality, and a clear distinction between work time and personal time. Adapting to this quickly makes integration significantly easier." },
         { title: "Healthcare credential validation by Socialstyrelsen takes 6–12 months — start before you need a job", body: "If you are a Nigerian doctor, nurse, or other licensed health professional, you must have your credentials validated by Socialstyrelsen (the National Board of Health and Welfare) before you can practice in Sweden. This process takes 6–12 months. Start it before you arrive in Sweden, or at minimum in your first month. The full process is documented at socialstyrelsen.se. You may need to pass language tests and additional assessments." },
+      ],
+      visitor: [
+        { title: "Sweden is Schengen — one visa covers 26 countries", body: "A Swedish Schengen visa is not just for Sweden. It allows entry to all 26 Schengen member states: Germany, France, Netherlands, Spain, Italy, Portugal, Belgium, Austria, Czech Republic, Poland, Norway, Denmark, Finland, and others. If you want to combine a Sweden trip with visiting other European countries, you only need one visa. Apply at the embassy of the country you are visiting first or spending the most time in." },
+        { title: "Travel insurance is mandatory — get Schengen-specific coverage", body: "Your travel insurance must specifically state: Schengen Area coverage, minimum €30,000 coverage, valid for the entire duration of your trip. Insurance that covers 'international travel' generally is not enough — it must explicitly state Schengen coverage. You can buy Schengen-specific insurance through insurance companies in Nigeria (AXA, Leadway, etc.), through VFS Global at your appointment, or through online providers. Keep the insurance certificate with your passport." },
+        { title: "90 days in 180 days — understand how this is calculated", body: "The 90-day limit is not per calendar year. It is per any rolling 180-day window. If you visit Sweden for 30 days in January, then visit Germany for 30 days in March, you have used 60 days of your 90-day allowance. You cannot return to any Schengen country until 180 days have passed since your first entry — or until you have remaining days in the window. Overstaying can result in a ban from the Schengen Area for several years." },
+        { title: "Previous US or UK visas significantly help your Schengen application", body: "If you have a current or recent US B1/B2 visa or UK Standard Visitor visa in your passport, include the passport showing these visas with your application. They demonstrate to the Swedish embassy that other credible immigration systems have assessed and approved you, and that you honoured those visas by returning home. A track record of approved visas and returns is one of the strongest things you can show." },
+        { title: "If refused, the refusal letter explains exactly what to address — apply again with stronger documents", body: "Schengen visa refusals must include the reason. Common reasons for Nigerians: insufficient financial means, purpose of travel not justified, intention to leave the Schengen area before expiry not established. Address each reason specifically. A stronger employment letter, more stable bank statements, clearer itinerary, or property evidence can turn a refusal into an approval on reapplication." },
       ],
     },
 

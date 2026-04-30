@@ -17,6 +17,7 @@ const LEVELS = [
   { id: 'masters',    label: 'Masters',        icon: '📚' },
   { id: 'phd',        label: 'PhD',            icon: '🔬' },
   { id: 'work',       label: 'Work Permit',    icon: '💼' },
+  { id: 'visitor',    label: 'Visitor Visa',   icon: '✈️' },
 ];
 
 // ── Tab config ─────────────────────────────────────────────────────────
@@ -193,11 +194,13 @@ export default function CountryDetail() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
             {stats.tuition && <StatCard label="Tuition / Year" value={stats.tuition} icon={DollarSign} color="#0096FF" />}
             {stats.salary && <StatCard label="Average Salary" value={stats.salary} icon={DollarSign} color="#059669" />}
+            {stats.fee && <StatCard label="Visa Fee" value={stats.fee} icon={DollarSign} color="#059669" />}
+            {stats.duration && <StatCard label="Max Stay" value={stats.duration} icon={Clock} color="#0096FF" />}
             {stats.living && <StatCard label="Living Costs" value={stats.living} icon={MapPin} color="#7C3AED" />}
             {stats.processing && <StatCard label="Visa Processing" value={stats.processing} icon={Clock} color="#D97706" />}
             {stats.minIELTS && <StatCard label="Min. IELTS" value={stats.minIELTS} icon={BookOpen} color="#059669" />}
             {stats.acceptance && <StatCard label="Acceptance Rate" value={stats.acceptance} icon={Users} color="#0096FF" />}
-            {stats.pathway && <StatCard label="Main Pathway" value={stats.pathway} icon={ArrowRight} color="#7C3AED" />}
+            {stats.pathway && <StatCard label="Visa Type" value={stats.pathway} icon={ArrowRight} color="#7C3AED" />}
           </div>
         )}
 
