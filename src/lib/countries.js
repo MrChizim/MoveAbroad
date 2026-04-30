@@ -20,8 +20,8 @@ export const PACKAGES = [
   {
     id: "single",
     name: "Single Country",
-    price: 5000,
-    priceDisplay: "₦5,000",
+    price: 10000,
+    priceDisplay: "₦10,000",
     description: "Full access to one country guide of your choice",
     countries: 1,
     popular: false
@@ -29,8 +29,8 @@ export const PACKAGES = [
   {
     id: "five_pack",
     name: "5 Countries Pack",
-    price: 10000,
-    priceDisplay: "₦10,000",
+    price: 35000,
+    priceDisplay: "₦35,000",
     description: "Choose any 5 countries — save ₦15,000",
     countries: 5,
     popular: true
@@ -38,8 +38,8 @@ export const PACKAGES = [
   {
     id: "all_access",
     name: "All Access",
-    price: 30000,
-    priceDisplay: "₦30,000",
+    price: 60000,
+    priceDisplay: "₦60,000",
     description: "Unlock all 15 countries — the complete toolkit",
     countries: 15,
     popular: false
