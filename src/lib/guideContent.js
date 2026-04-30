@@ -4195,4 +4195,381 @@ If refused, you receive a written refusal notice specifying the grounds. You can
     },
   },
 
+  BE: {
+    tagline: "Belgium — the heart of Europe, hub of the EU, and a gateway to a multilingual career on the continent.",
+
+    overview: `Belgium punches far above its weight. Home to the European Union headquarters, NATO, and dozens of international institutions, Brussels is one of the most internationally connected cities in the world — and that creates real opportunity for educated Nigerians willing to navigate its layered immigration system.
+
+Belgium sits at the crossroads of French, Dutch, and German cultures. Most professional roles in Brussels are conducted in English — especially in EU institutions, law firms, tech companies, and international NGOs. Ghent and Leuven are world-class university cities that attract thousands of international students annually through KU Leuven and Ghent University, two of Europe's top 100 universities.
+
+For students, Belgium is surprisingly affordable compared to the UK: university fees for non-EU students start around €4,000–9,800/year at public institutions. The cost of living is moderate — €900–1,300/month in cities outside Brussels; €1,200–1,800/month in Brussels itself.
+
+For workers, Belgium's key attraction is stability and EU market access. Once you hold a Belgian work permit and Single Permit, you can transfer to EU Blue Card status, which eventually opens pathways to long-term EU residency. The Belgian Single Permit (covering both work and residence) is the main route — it is employer-led and requires your employer to prove no suitable local candidate was available.
+
+Belgium has a relatively large Nigerian community, particularly in Brussels and Antwerp. The Edo, Igbo, and Yoruba communities are established, and there are Nigerian churches, restaurants, and social groups in most major cities.
+
+The path is not simple — Belgian bureaucracy is famously layered, and the process involves both federal immigration authorities and regional employment agencies (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels). But for Nigerians with a strong degree or in-demand skill, Belgium is a genuine destination — especially if EU residency is your long-term goal.`,
+
+    stats: {
+      undergrad: [
+        { label: "Typical tuition (non-EU)", value: "€4,000–9,800/yr" },
+        { label: "Living costs", value: "€900–1,300/mo" },
+        { label: "Visa type", value: "Long-stay student visa (Type D)" },
+        { label: "Student work allowed", value: "Up to 20 hrs/wk during term" },
+        { label: "Language", value: "English, Dutch, French, German" },
+      ],
+      masters: [
+        { label: "Typical tuition (non-EU)", value: "€4,500–12,000/yr" },
+        { label: "Top universities", value: "KU Leuven, Ghent University, VUB, ULiège" },
+        { label: "Masters scholarship", value: "VLIR-UOS — full funding for Nigerians" },
+        { label: "Post-study stay right", value: "12 months job-search after graduation" },
+        { label: "Language of instruction", value: "English (most postgrad programmes)" },
+      ],
+      phd: [
+        { label: "PhD structure", value: "4 years, paid employee contract (€25,000–30,000/yr net)" },
+        { label: "Scholarship option", value: "VLIR-UOS ICP PhD, FWO, FNRS" },
+        { label: "Tax status", value: "Bursaries often tax-exempt; employee contracts taxed" },
+        { label: "Research language", value: "English (most programmes)" },
+        { label: "Residency path", value: "PhD + work = long-term residency after 5 years" },
+      ],
+      work: [
+        { label: "Permit type", value: "Belgian Single Permit (work + residence)" },
+        { label: "EU Blue Card salary threshold", value: "€45,141/yr gross (2024)" },
+        { label: "Processing time", value: "6–16 weeks (Single Permit)" },
+        { label: "Income tax rate", value: "25–50% (progressive) — social security deducted separately" },
+        { label: "PR eligibility", value: "After 5 years lawful residence" },
+      ],
+      visitor: [
+        { label: "Visa type", value: "Short-stay Schengen visa (Type C)" },
+        { label: "Maximum stay", value: "90 days in any 180-day period" },
+        { label: "Application fee", value: "€80 (adults)" },
+        { label: "Processing time", value: "15 calendar days (standard), up to 30 days" },
+        { label: "Proof of funds", value: "€95/day recommended" },
+      ],
+    },
+
+    summary: {
+      undergrad: "Belgian universities charge non-EU students €4,000–9,800/year — significantly less than the UK. You apply directly to the university and get a conditional offer letter, then apply for a Belgian long-stay student visa (Type D) at the Belgian Embassy in Abuja. Students can work up to 20 hours/week during term time. After graduation, you can apply for a 12-month job-search stay. KU Leuven, Ghent University, VUB (Vrije Universiteit Brussel), and UCLouvain are the flagship institutions. Most Bachelor's programmes are taught in Dutch or French, so language preparation is important unless you target the limited English-taught undergrad programmes.",
+      masters: "Belgium is one of Europe's best-kept secrets for international Master's students. Most postgraduate programmes at KU Leuven, Ghent University, and VUB are taught in English. Fees are €4,500–12,000/year. The VLIR-UOS scholarship is a fully funded Belgian government scholarship specifically for students from developing countries including Nigeria — it covers tuition, flights, living allowance, and health insurance. After completing your Master's, you get a 12-month stay to find work. If you find a job, you apply for a Single Permit and transition to worker status.",
+      phd: "PhD students in Belgium are typically employed on a full academic staff contract — this means you receive a salary (around €25,000–30,000/year net after tax and social security), with full Belgian social security coverage. You are treated as an employee, not just a student. The VLIR-UOS ICP PhD programme and FWO/FNRS funding bodies offer externally funded positions. A Belgian PhD makes you eligible for long-term EU residency and, eventually, Belgian citizenship after five years of cumulative lawful residence. Positions are advertised on academictransfer.com and each university's own jobs portal.",
+      work: "The Belgian Single Permit is the primary route for non-EU workers. It combines both the work permit and residence permit into one application, submitted by your employer to the relevant regional authority (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels). Your employer must first pass a labour market test proving no suitable local candidate was available — unless you qualify for an exemption (e.g. EU Blue Card salary threshold of €45,141/year, or certain regulated professions). Processing takes 6–16 weeks. Once you have the Single Permit, you can live and work in Belgium and build toward permanent residency after 5 years.",
+      visitor: "Belgian visitor visas are Schengen short-stay visas (Type C) — they allow up to 90 days in any 180-day period across the entire Schengen zone. Apply at the Belgian Embassy in Abuja or via VFS Global. You'll need to show proof of accommodation, return tickets, travel insurance (minimum €30,000 coverage), and sufficient funds (around €95/day). Processing typically takes 15 calendar days. Visas are not guaranteed — be honest and thorough in your application.",
+    },
+
+    visa: {
+      undergrad: `**Belgian Long-Stay Student Visa (Type D) — Undergraduate**
+
+**Step 1: Choose your programme and apply to a university**
+Most Belgian Bachelor's programmes are taught in Dutch or French. For English-language undergrad, look at VUB (Vrije Universiteit Brussel) International Bachelor programmes or the University of Antwerp's English offerings. Apply directly through the university's online portal. Deadlines are typically March–April for September intake.
+
+**Step 2: Get your admission letter**
+Once admitted, the university issues a conditional acceptance letter. Some universities (particularly in Flanders) will register you with the City Hall once you arrive — this registration is required for your residency permit.
+
+**Step 3: Apply for the Belgian Type D student visa**
+Visit the Belgian Embassy in Abuja (or apply via VFS Global). Documents required:
+- Valid passport (minimum 12 months validity beyond planned stay)
+- University acceptance letter
+- Proof of tuition fee payment or scholarship letter
+- Proof of sufficient funds: €700–900/month for the duration of your studies, shown via bank statements
+- Proof of accommodation in Belgium (university hall booking, private rental, or landlord letter)
+- Travel insurance for the initial period
+- Belgian visa application form (completed online via dvzoe.be)
+- Recent passport photos
+
+**Step 4: Submit and attend biometrics**
+Pay the visa fee (around €180 for long-stay). Attend your appointment at the Belgian Embassy in Abuja. Biometrics are collected at the embassy.
+
+**Step 5: Arrive and register with the Commune**
+Within 8 days of arrival in Belgium, you must register with your local Commune (municipal government). The Commune sends an inspector to verify your address. Once registered, you receive a CIRE card (Carte d'Identité pour Résidents Étrangers) — your Belgian residence card.
+
+**Working rights:** During term time you can work up to 20 hours/week. During summer (1 July–30 September) you can work full-time.
+
+**Post-graduation:** Apply for a 12-month job-search residency permit (Attestation de Séjour) after graduation. If you find a qualifying job, your employer applies for a Single Permit on your behalf.`,
+
+      masters: `**Belgian Long-Stay Student Visa (Type D) — Master's**
+
+The process is the same as undergrad but the universities and funding landscape are much richer:
+
+**Top English-language Master's universities:**
+- KU Leuven — consistently ranked top 50 Europe, strong in engineering, law, biomedical
+- Ghent University — top 100 globally, agriculture, bioscience, engineering
+- VUB (Vrije Universiteit Brussel) — Brussels-based, international relations, law, sciences
+- UCLouvain — French-medium, engineering, medicine, management
+- University of Antwerp — management, development economics, law
+- University of Liège (ULiège) — engineering, aerospace, sciences
+
+**VLIR-UOS Scholarship (most important for Nigerians):**
+The VLIR-UOS (Vlaamse Interuniversitaire Raad) scholarship is a Belgian government scholarship specifically for students from 31 eligible developing countries, including Nigeria. It is:
+- Fully funded: covers tuition fees, monthly stipend (~€860), accommodation, flights, insurance
+- For specific Master's and Advanced Master's programmes listed on the VLIR-UOS website
+- Competitive — apply via vlir.be from September to February each year for the following September intake
+- Selection is done by VLIR-UOS and the hosting university
+
+**Application steps for student visa:**
+1. Receive university acceptance letter
+2. Download visa application from dvzoe.be (Immigration Office Belgium)
+3. Submit at Belgian Embassy Abuja with: passport, acceptance letter, financial proof (scholarship letter suffices), accommodation proof, photos, insurance
+4. Long-stay visa fee: ~€180
+5. On arrival: register at Commune within 8 days, receive CIRE card
+6. Annual renewal of residence card (done via Commune)
+
+**Post-study:** 12-month job-search permit available after completing a Master's degree. Belgian graduates with qualifying job offers transition to Single Permit status.`,
+
+      phd: `**PhD in Belgium — Employee Contract Route**
+
+Belgium is one of the few EU countries where PhD students are typically employed on a full academic staff contract — not just a scholarship stipend. This means:
+- You are an employee of the university
+- You receive a net salary of approximately €2,000–2,500/month after tax and social security
+- You have full social security coverage (healthcare, unemployment, pension accrual)
+- You are entitled to 20+ days of annual leave
+
+**Visa route for funded PhD students:**
+If your PhD comes with an employment contract, you apply for a **Belgian Single Permit (work + residence)** — not a student visa. Your university (as employer) submits the application to the regional employment authority.
+
+If your PhD comes with a scholarship/bursary (not a salary), you apply for a **Type D student visa** as above.
+
+**Finding PhD positions:**
+- academictransfer.com — largest EU academic job board, many Belgian postings
+- KU Leuven jobs portal: kuleuven.be/personeel/jobsite
+- Ghent University jobs: ugent.be/en/work
+- FWO (Research Foundation Flanders) — fwo.be — funds PhD fellowships
+- FNRS (French-speaking equivalent) — fnrs.be
+- VLIR-UOS ICP PhD programme — for Nigerians, covers fees + stipend for specific programmes
+
+**Steps for Single Permit (employed PhD):**
+1. Receive employment contract from university
+2. University submits Single Permit application to regional authority (VDAB/FOREM/Actiris)
+3. Approval comes as "Annexe 46" — your authorisation to work
+4. Go to Belgian Embassy Abuja with Annexe 46 to get Type D visa
+5. Arrive in Belgium, register at Commune within 8 days
+6. Receive your electronic residence card (A-card or E-card depending on permit type)
+
+**Path to permanent residency:** After 5 years of lawful residence (student + work time can both count), you can apply for a D-card (permanent residence). Belgian citizenship is available after 5 years of legal residence and proof of social integration (language, civic participation).`,
+
+      work: `**Belgian Single Permit — Work Route**
+
+The Single Permit is Belgium's combined work and residence permit for non-EU nationals. It is employer-led — your employer must initiate the process before you can apply for a visa.
+
+**Step 1: Find a Belgian employer willing to sponsor**
+This is the hardest part. Your employer must be registered in Belgium and willing to submit the Single Permit application. Many international companies in Brussels, Antwerp, and Ghent are familiar with this process.
+
+**Step 2: Labour Market Test (unless exempt)**
+Before most Single Permit applications, the regional employment authority (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels) checks whether a suitable local/EU candidate could fill the role. Your employer must advertise the vacancy and prove no suitable local candidate was available.
+
+**Exemptions to labour market test:**
+- EU Blue Card: gross salary ≥ €45,141/year (2024) in a role requiring higher education
+- Intra-company transfer (ICT permit)
+- Certain shortage occupations (list varies by region)
+- Researchers
+
+**Step 3: Employer submits Single Permit application**
+Your employer submits to the regional authority with: employment contract, proof of your qualifications, job description, salary evidence, and labour market test results (if required). Processing: 6–16 weeks.
+
+**Step 4: Immigration Office issues Annexe 46**
+Once the regional authority approves, the Belgian Immigration Office (Dienst Vreemdelingenzaken / DVZ) issues an Annexe 46 — your authorisation to work and reside. This document is sent to the employer (and a copy to the Belgian Embassy).
+
+**Step 5: Apply for Type D visa at Belgian Embassy Abuja**
+With the Annexe 46, apply for a long-stay Type D visa. Documents: passport, Annexe 46, employment contract, proof of accommodation, passport photos. Fee: ~€180.
+
+**Step 6: Arrive and register at the Commune**
+Within 8 days of arrival, register your address at the local Commune. A municipal inspector verifies your address. You receive a temporary orange card (Bijlage 15), then your electronic A-card (1-year residence permit).
+
+**Annual renewal:**
+Single Permits are issued for the duration of your employment contract (typically 1 year, renewable). Renew at least 3 months before expiry via the Commune.
+
+**EU Blue Card:**
+If your salary meets the threshold (€45,141/year gross, 2024), request the EU Blue Card specifically. It gives the same rights as a Single Permit but with faster mobility rights across EU member states after 12 months.
+
+**Path to permanent residency:**
+After 5 years of lawful residence, apply for a D-card (unlimited duration residence permit). Belgian citizenship is available after 5 years of residence with proof of integration.
+
+**Key sectors hiring internationally in Belgium:**
+- EU institutions and international organisations (Brussels) — interpreter, policy, legal, IT
+- Pharma and biotech (Ghent, Leuven, Antwerp, Liège) — Belgium is home to UCB, Janssen (J&J), and Solvay
+- Finance and professional services (Brussels) — Big Four, law firms, banking
+- Technology — Proximus, Colruyt Group, regional scale-ups
+- Engineering and manufacturing (Antwerp port, Ghent)
+- NGOs and development sector (Brussels)`,
+
+      visitor: `**Belgian Schengen Visitor Visa (Type C)**
+
+Belgium is part of the Schengen Area. A Belgian short-stay visa allows up to 90 days in any 180-day period across all 26 Schengen countries.
+
+**Apply at:**
+Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria for current service status).
+
+**Application must be submitted no more than 6 months and no less than 15 days before travel.**
+
+**Documents required:**
+- Valid passport (minimum 3 months validity beyond your intended departure date, with at least 2 blank pages)
+- Completed and signed visa application form (via visapoint or VFS)
+- 2 recent passport-size photographs (35x45mm, white background)
+- Travel itinerary (flight bookings — can be hold bookings, not necessarily paid)
+- Proof of accommodation in Belgium: hotel bookings, Airbnb confirmation, or invitation letter from a host in Belgium
+- Travel and medical insurance: minimum €30,000 coverage, valid for entire Schengen area
+- Proof of financial means: bank statements for last 3–6 months showing sufficient funds (recommended €95/day = ~€8,550 for 90 days, but less for shorter trips)
+- Proof of ties to Nigeria: employment letter, business registration, property ownership, family ties — anything proving you will return
+- Application fee: €80 for adults, €40 for children 6–12, free for under 6
+
+**Processing time:** 15 calendar days (standard). Up to 30 days for complex cases. Apply early.
+
+**Tips for Nigerian applicants:**
+- The Belgian Embassy in Abuja processes visas carefully — a clean, well-organized application matters
+- Show a clear purpose of visit: tourism, business meeting, conference, visiting family
+- If visiting a Belgian resident: they can submit a private accommodation declaration (Attestation d'Accueil / verklaring van herbergzaming) at their local Commune, which strengthens your application
+- Refusal reasons: insufficient funds, no clear ties to Nigeria, vague purpose, past overstays elsewhere
+- Multiple-entry visas are sometimes issued for frequent travellers — you must specifically request this and justify it`,
+    },
+
+    timeline: {
+      undergrad: [
+        { phase: "Research & shortlist", duration: "2–3 months", detail: "Research English-medium programmes at VUB, KU Leuven International, and University of Antwerp. Check language requirements — Dutch or French is required for most Belgian-medium undergrad programmes." },
+        { phase: "VLIR-UOS or university scholarship application", duration: "Sept–Feb (for Sept intake)", detail: "If applying for VLIR-UOS scholarship, the window opens in September for the following academic year. Apply via vlir.be — the earlier the better." },
+        { phase: "University application", duration: "Jan–April", detail: "Apply directly through each university's admissions portal. Submit transcripts, English proficiency test (IELTS 6.0+ typically), statement of purpose, and references." },
+        { phase: "Receive admission letter", duration: "April–June", detail: "Conditional or unconditional offer issued. Confirm your place and pay any deposit required. Obtain final acceptance letter for visa application." },
+        { phase: "Belgian Type D visa application", duration: "1–2 months", detail: "Book appointment at Belgian Embassy Abuja or VFS. Submit passport, acceptance letter, proof of funds, accommodation proof, insurance, photos. Fee: ~€180. Processing: 4–8 weeks." },
+        { phase: "Arrive & register at Commune", duration: "Within 8 days of arrival", detail: "Register your address at the local Commune immediately. Inspector visits to verify. Receive CIRE card within a few weeks. This is mandatory — failure to register is a legal violation." },
+        { phase: "Settle and begin studies", duration: "September", detail: "Open Belgian bank account (KBC, BNP Paribas Fortis, Belfius). Get student MOBIB transit card. Register with the university health plan (mutualtiy/mutualiteit)." },
+      ],
+      masters: [
+        { phase: "VLIR-UOS scholarship research", duration: "August–September (year before)", detail: "The VLIR-UOS list of eligible Master's programmes for Nigerian applicants is published in September. Study it carefully — only listed programmes are eligible for the scholarship." },
+        { phase: "VLIR-UOS application", duration: "October–February", detail: "Apply via vlir.be — typically closes late January/early February. You may apply to up to 3 programmes simultaneously. Requires transcripts, CV, motivation letter, references, English proficiency proof." },
+        { phase: "Direct university application (parallel)", duration: "October–March", detail: "Apply directly to universities in case VLIR-UOS is unsuccessful. KU Leuven, Ghent, VUB all have online application portals. Some have rolling admissions; others close in March." },
+        { phase: "Admission decisions", duration: "March–May", detail: "VLIR-UOS selection results typically come in March–May. University direct offers typically follow shortly. Accept your place and confirm." },
+        { phase: "Belgian Type D student visa", duration: "April–July", detail: "Apply at Belgian Embassy Abuja or VFS with: passport, acceptance letter, scholarship letter (if applicable) or proof of funds, accommodation, insurance. Fee: ~€180. Allow 4–8 weeks." },
+        { phase: "Arrival & Commune registration", duration: "August–September", detail: "Arrive in Belgium, register at Commune within 8 days. Receive CIRE residence card. Open bank account. Register at the university health fund." },
+        { phase: "Year 1 studies", duration: "September–June", detail: "Most Belgian Master's are 60 ECTS (1 year) or 120 ECTS (2 years). Stay active in academic life — research groups, student associations, LinkedIn networking for post-study job hunting." },
+        { phase: "Job search after graduation", duration: "Up to 12 months", detail: "Apply for 12-month job-search permit. Use LinkedIn, VDAB.be (Flanders jobs), Actiris.be (Brussels jobs), StepStone.be. Once job found, employer applies for Single Permit on your behalf." },
+      ],
+      phd: [
+        { phase: "Find funded PhD position", duration: "6–12 months before start", detail: "Search academictransfer.com, FWO.be, FNRS.be, KU Leuven jobs portal, Ghent University jobs, and ResearchGate. Apply with CV, research statement, transcripts, and references." },
+        { phase: "Receive employment contract / funding letter", duration: "1–2 months after offer", detail: "University HR processes your contract. For employee-contract PhDs: Single Permit route. For scholarship-funded PhDs: student visa route." },
+        { phase: "Single Permit application (employer submits)", duration: "6–16 weeks", detail: "University HR submits Single Permit application to VDAB (Flanders), FOREM (Wallonia), or Actiris (Brussels). You do not submit this yourself. They receive Annexe 46 approval." },
+        { phase: "Type D visa at Belgian Embassy Abuja", duration: "3–6 weeks", detail: "With Annexe 46 in hand, apply for a long-stay Type D visa at the Belgian Embassy in Abuja. Bring: passport, Annexe 46, employment contract, accommodation proof, photos. Fee: ~€180." },
+        { phase: "Arrive & Commune registration", duration: "Within 8 days", detail: "Register at local Commune. Receive temporary Bijlage 15, then A-card (1-year residence permit). IMPORTANT: your A-card is renewable annually and tied to your employment contract." },
+        { phase: "PhD research", duration: "4 years typical", detail: "Annual contract renewals. Your employer (university) renews the Single Permit each year. Stay on top of residence card renewals — begin 3 months before expiry each year." },
+        { phase: "Post-PhD", duration: "After completion", detail: "PhD holders are well-positioned for EU Blue Card roles. With 5 cumulative years of lawful residence (including PhD years), you can apply for long-term residency D-card. Belgian citizenship possible at 5 years." },
+      ],
+      work: [
+        { phase: "Job search", duration: "3–6 months", detail: "Targeted job search for Belgian employers. LinkedIn, Indeed.be, StepStone.be, VDAB.be, EUjobs.eu (EU institutions). Target sectors: pharma, fintech, EU institutions, NGOs, engineering. Tailor your CV to Belgian/European format — no photo, no age, focus on competencies." },
+        { phase: "Employer agrees to sponsor", duration: "Concurrent with job search", detail: "Raise the Single Permit process early in the hiring process. Some Belgian employers are unfamiliar with non-EU sponsorship — bring information from werk.belgie.be. Brussels employers are more internationally experienced." },
+        { phase: "Employer submits Single Permit", duration: "6–16 weeks", detail: "Employer submits to VDAB (Flanders), FOREM (Wallonia), or Actiris (Brussels) depending on workplace location. Documents: your contract, qualifications, job description, salary proof, labour market test (if not exempt)." },
+        { phase: "Receive Annexe 46", duration: "After regional authority approves", detail: "Belgian Immigration Office (DVZ) issues Annexe 46 — the authorisation to work and reside. This is sent to your employer and to the Belgian Embassy in Nigeria." },
+        { phase: "Type D visa at Belgian Embassy Abuja", duration: "3–6 weeks", detail: "Apply for Type D long-stay visa at Belgian Embassy Abuja. Bring: passport, Annexe 46, employment contract, accommodation proof (temporary hotel accepted initially), photos. Fee: ~€180." },
+        { phase: "Arrive Belgium", duration: "Within visa validity", detail: "Fly to Belgium and go directly to your place of residence." },
+        { phase: "Commune registration", duration: "Within 8 days", detail: "Register your address at the local Commune within 8 working days. Inspector visits. You receive Bijlage 15 first, then your A-card (electronic residence permit, valid 1 year, renewable)." },
+        { phase: "Settle and build", duration: "Year 1+", detail: "Open Belgian bank account (KBC, Belfius, ING Belgium). Register with a health insurance fund (mutualiteit/mutualité). Begin integration: language classes (Dutch in Flanders, French in Wallonia) supported by VDAB/FOREM." },
+        { phase: "PR after 5 years", duration: "After 5 years lawful residence", detail: "Apply for D-card (unlimited duration residence). Belgian citizenship available after 5 years of legal residence with integration proof: language, civic knowledge, and demonstrated societal participation." },
+      ],
+      visitor: [
+        { phase: "Decide purpose and dates", duration: "6–8 weeks before travel", detail: "Confirm your reason for visiting Belgium. Tourism, business meetings, family visit, or attending a conference all require slightly different supporting documents." },
+        { phase: "Gather documents", duration: "3–4 weeks before application", detail: "Assemble: passport (3 months validity beyond return date), bank statements (3–6 months), accommodation proof, return flight itinerary, travel insurance (€30,000+ coverage), proof of Nigerian ties." },
+        { phase: "Book VFS or Embassy appointment", duration: "As soon as documents ready", detail: "VFS Global handles Belgian visa applications in Nigeria. Book appointment online. Application must be submitted not more than 6 months before travel and at least 15 days before." },
+        { phase: "Submit application and pay fee", duration: "On appointment day", detail: "Bring original documents plus photocopies. Biometrics collected. Fee: €80 for adults. VFS service fee applies separately." },
+        { phase: "Wait for decision", duration: "15–30 calendar days", detail: "Standard processing: 15 calendar days. Complex cases: up to 30 days. Track via VFS portal. Do not book non-refundable flights before visa is confirmed." },
+        { phase: "Travel to Belgium", duration: "Within visa validity", detail: "Entry stamp in passport marks start of your 90-day Schengen allowance. Keep your entry and exit stamps — useful if you apply for future Schengen visas." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Most Belgian undergraduate programmes are in Dutch or French — English-taught undergrad options are limited to VUB, KU Leuven (a few), and University of Antwerp. Research language requirements before applying.",
+        "VLIR-UOS scholarships are primarily for Master's and Advanced Master's — not undergraduate. For undergrad funding, check each university's own scholarship pages and the Belgian Development Cooperation grants.",
+        "Registering at the Commune within 8 days of arrival is a legal requirement, not optional. Take it seriously — failure to register can jeopardize your residence card and future visa applications.",
+        "Belgian universities use ECTS credits (30 per semester). Academic culture values independence and critical thinking — participation and thesis quality matter as much as exams.",
+        "Open a Belgian bank account as soon as possible — KBC Youth accounts, Belfius, and BNP Paribas Fortis all offer student products. You'll need it for rent, SNCB/STIB transit pass, and health insurance (mutualtiy).",
+        "Belgium has three official language regions: Dutch-speaking Flanders, French-speaking Wallonia, and bilingual Brussels. In Brussels, English is widely spoken professionally. In Ghent and Leuven, Dutch is dominant day-to-day. In Liège, French dominates.",
+        "For groceries and budget living: Aldi and Lidl are everywhere. Average weekly grocery spend for a student is €40–60. Student restaurants (Alma restaurants at KU Leuven, for example) offer subsidised hot meals for €2–4.",
+      ],
+      masters: [
+        "The VLIR-UOS scholarship is one of the best-funded scholarships available to Nigerians — comparable to Chevening in value. Apply early (September window, closes January/February). You can apply to up to 3 listed programmes simultaneously.",
+        "KU Leuven and Ghent University are consistently in Europe's top 100. A degree from either institution is recognized across the EU and globally — valuable if your plan is EU-wide career mobility.",
+        "Belgian Master's programmes are typically 60 ECTS (1 year) or 120 ECTS (2 years). One-year Master's are common in STEM fields. Budget planning is important for 1-year programmes — you have less time to earn.",
+        "After your Master's, apply immediately for the 12-month job-search permit (Attestation de Séjour pour Recherche d'emploi). This keeps you legal and in Belgium while job hunting. Do not leave Belgium and let your status lapse.",
+        "Brussels-based NGOs, EU institutions, and think tanks actively recruit internationally educated graduates. Polish your English and French — bilingualism is a genuine advantage in Brussels hiring.",
+        "Belgian CVs should follow European conventions: no photo, no nationality, no age, 1–2 pages maximum. Focus on measurable achievements and competencies. LinkedIn profile is important — Belgian recruiters use it heavily.",
+        "Health insurance (mutualtiy) is mandatory for Belgian residents. Join a health fund (e.g. UNMS, Mutualité Chrétienne, OZ) within 3 months of registration. Student rates are subsidized. This covers GP visits, hospital stays, and prescriptions.",
+      ],
+      phd: [
+        "Belgian PhD students on employment contracts are employees — you have rights. Join a union if you choose (CSC/ACV, FGTB/ABVV are the main ones), take your full annual leave, and don't let supervisors treat you as cheap unlimited labour.",
+        "FWO (Flanders) and FNRS (French-speaking) fellowship competitions are highly competitive but prestigious — an FWO mandate is a strong career signal. Apply even if you already have a university contract — they top up funding.",
+        "Annual residence card renewal is your responsibility even though your employer sponsors the permit. Mark your card expiry date 3 months early and begin renewal proceedings. A lapsed card can mean leaving Belgium.",
+        "A Belgian PhD counts toward the 5-year lawful residence requirement for permanent residency. So 4 years of PhD + 1 year of work can qualify you for a D-card (unlimited residence).",
+        "Network within the international research community in Belgium. Belgian universities are international — you will meet researchers from across the EU and beyond. These connections are your post-PhD career pipeline.",
+        "Tax treatment: employed PhD salaries are fully taxed. Some university-paid bursaries are partially tax-exempt. Understand your tax situation in year 1 — Belgian taxes are filed via Tax-on-Web (taxonweb.be) annually.",
+        "Learn some Dutch (in Flanders) or French (in Wallonia/Brussels) — even at conversational level, it integrates you into everyday life and is required for Belgian citizenship eventually. CBE language integration courses are free.",
+      ],
+      work: [
+        "Brussels is the EU capital — it has the highest concentration of NGOs, EU institutions, international law firms, and think tanks per capita in Europe. If your skills are policy, law, economics, international affairs, or communications, Brussels should be your target city.",
+        "Belgian income taxes are among the highest in Europe (up to 50% marginal rate). However, the salary-to-benefit ratio is different — Belgian social security provides world-class healthcare, generous unemployment insurance, and a real pension system. Factor this in when comparing offers with Gulf countries.",
+        "The EU Blue Card (€45,141/year gross threshold, 2024) exempts you from the labour market test and gives stronger EU mobility rights. If your salary qualifies, request the EU Blue Card specifically — ask your employer to apply for it instead of the standard Single Permit.",
+        "Belgian employer sponsorship experience varies hugely. Brussels-based multinationals and EU-sector employers deal with non-EU hires regularly. Smaller Flemish SMEs may be unfamiliar with the process — be prepared to guide them to werk.belgie.be/en.",
+        "Antwerp is home to one of the world's busiest ports and a major diamond trade hub, plus a growing pharma/biotech cluster. Ghent and Leuven have strong biotech and university spinout ecosystems. Consider these cities if your sector fits.",
+        "Language matters for long-term integration: Flanders requires Dutch for most civil service roles and for citizenship integration tests. Brussels has Dutch and French pathways. Wallonia requires French. Start language learning from day one.",
+        "Belgian payslips are complex. Your gross salary is significantly higher than your net take-home after 13.07% employee social security contributions plus income tax (25–50%). Budget from your net salary, not gross. Use tools like wagecoach.be to model your take-home.",
+      ],
+      visitor: [
+        "Show a clear, consistent purpose of visit. 'Tourism' is fine but be specific — 'I am visiting Brussels, Bruges, and Ghent for 10 days in July' is better than vague travel interest.",
+        "Proof of ties to Nigeria is critical: employment contract, business registration, property deeds, family photos, letter from employer confirming your return — these all help. The embassy is looking for evidence you will leave Belgium when your visa expires.",
+        "Belgium is in the Schengen Area — your Belgian Type C visa lets you travel to Germany, France, the Netherlands, Spain, and 22 other Schengen countries within the 90/180 day limit. Plan your trip across multiple countries if you wish.",
+        "Bruges, Ghent, Antwerp, Brussels, and the Ardennes region are all worth visiting. Belgium also has some of Europe's best beer culture (Trappist breweries), chocolate, and architecture. The Atomium, Grand Place, and the Gravensteen castle in Ghent are iconic.",
+        "For a business visit: bring an invitation letter from the Belgian company on official letterhead, stating the dates, purpose, and that they will cover your accommodation (if applicable). This significantly strengthens a business visa application.",
+        "Multiple-entry Schengen visas can be issued — request one explicitly if you have a valid reason (regular business, family visits). A history of Schengen visas with no overstays greatly increases your chances of getting multi-entry.",
+        "Travel insurance must cover the entire Schengen area for the full duration of your trip, with minimum €30,000 medical coverage. Buy from a reputable insurer — cheap policies sometimes exclude coverage for certain conditions.",
+      ],
+    },
+
+    universities: [
+      { name: "KU Leuven", location: "Leuven (Flanders)", intl_fee: "€4,200–9,800/year (Master's varies by programme)", notes: "Belgium's #1 university, consistently top 50 in Europe. Strong in engineering, biomedical sciences, law, theology, and applied sciences. Most Master's taught in English. Extensive scholarship support. kuleuven.be" },
+      { name: "Ghent University", location: "Ghent (Flanders)", intl_fee: "€4,000–8,000/year", notes: "Top 100 globally. Exceptional in bioscience, veterinary medicine, agriculture, and engineering. Ghent is one of Belgium's most liveable cities. ugent.be" },
+      { name: "VUB (Vrije Universiteit Brussel)", location: "Brussels", intl_fee: "€4,175–8,350/year", notes: "Brussels-based, fully secular and international. English is a working language. Strong in international politics, law, sciences. Adjacent to EU institutions. vub.be" },
+      { name: "UCLouvain (Université Catholique de Louvain)", location: "Louvain-la-Neuve (Wallonia)", intl_fee: "€4,175–4,500/year (EU-level tuition)", notes: "French-medium. Top-ranked in engineering, management, medicine, law. VLIR-UOS scholarship eligible for several programmes. uclouvain.be" },
+      { name: "University of Antwerp", location: "Antwerp", intl_fee: "€4,350–8,000/year", notes: "Strong in law, applied economics, medicine, and education science. Antwerp is Belgium's fashion and diamond capital with a booming port economy. uantwerpen.be" },
+      { name: "University of Liège (ULiège)", location: "Liège (Wallonia)", intl_fee: "€4,175/year (EU-level for many)", notes: "French-medium. Known for aerospace engineering, materials science, and biomedical research. Home to the world-class Space Centre de Liège. uliege.be" },
+      { name: "Hasselt University", location: "Hasselt (Flanders)", intl_fee: "€1,500–6,000/year", notes: "Smaller but modern. Strong in transportation sciences, biomedical sciences, and architecture. One of the more affordable options. uhasselt.be" },
+    ],
+
+    scholarships: {
+      undergrad: [
+        { name: "VLIR-UOS Master's Scholarships (for reference)", amount: "Full tuition + ~€860/month stipend + flights + insurance", university: "KU Leuven, Ghent University, VUB, and partner universities — specific listed programmes only", deadline: "Applications open September, close late January/early February", url: "https://www.vliruos.be/en/scholarships/scholarships_for_students/6" },
+        { name: "Individual University Scholarships", amount: "Varies — €1,000–full tuition waivers", university: "KU Leuven Excellence Scholarship, Ghent University bursaries, VUB Excellence awards", deadline: "Check each university website (typically March–May for September intake)", url: "https://www.kuleuven.be/english/admissions/money/scholarships" },
+      ],
+      masters: [
+        { name: "VLIR-UOS Scholarship", amount: "Full tuition fees + ~€860/month living allowance + return flights + health insurance — fully funded", university: "Participating Belgian universities — KU Leuven, Ghent, VUB, UCLouvain, ULiège, and others — for specific listed Master's programmes", deadline: "Application window: September–late January/February (for following September intake)", url: "https://www.vliruos.be/en/scholarships/scholarships_for_students/6" },
+        { name: "KU Leuven Excellence Scholarship for International Students", amount: "€8,000 tuition reduction + access to university scholarship fund", university: "KU Leuven — all faculties, competitive selection", deadline: "Check kuleuven.be — typically closes April for September intake", url: "https://www.kuleuven.be/english/admissions/money/scholarships/excellence" },
+        { name: "Ghent University Special Research Fund (BOF)", amount: "Varies — departmental research assistantships sometimes overlap with Master's study", university: "Ghent University", deadline: "Rolling — check ugent.be/en/research/funding", url: "https://www.ugent.be/en/research/funding" },
+      ],
+      phd: [
+        { name: "VLIR-UOS ICP PhD Scholarship", amount: "Full funding — covers tuition, living stipend (~€1,200–1,500/month), travel, and insurance for Nigerians", university: "Belgian universities in partnership with specific development-related research programmes", deadline: "Varies by programme — check vlir.be carefully, some open in September", url: "https://www.vliruos.be/en/scholarships/scholarships_for_students/6" },
+        { name: "FWO (Research Foundation Flanders) PhD Fellowship", amount: "Full salary equivalent — approx. €2,200/month net for 4 years", university: "All Flemish universities (KU Leuven, Ghent, VUB, Hasselt, Antwerp)", deadline: "Annual competition — typically closes February (junior postdocs/PhD) and April (senior). Check fwo.be", url: "https://www.fwo.be/en/fellowships-funding/" },
+        { name: "FNRS (Fonds de la Recherche Scientifique) PhD Fellowship", amount: "Full salary equivalent for French-speaking university PhD positions", university: "UCLouvain, ULiège, UNamur, UMons, ULB (Wallonia and Brussels French-medium universities)", deadline: "Annual calls — check fnrs.be for calendar", url: "https://www.fnrs.be/en/funding-instruments/researchers-in-training" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Belgian Embassy Abuja / Honorary Consul Lagos",
+      address: "Plot 1008, Samuel Ladoke Akintola Boulevard, Garki 2, Abuja, Federal Capital Territory, Nigeria",
+      phone: "All applications now primarily handled via VFS Global or online pre-registration at dvzoe.be. Call +234 (0)9 461 4655 for embassy enquiries.",
+      note: "Visa applications for Belgium are processed at the Belgian Embassy in Abuja or via VFS Global (check vfsglobal.com/Belgium/Nigeria for current appointment availability). Long-stay visa (Type D) applications — student, work, and family — are submitted at the embassy with original documents. Short-stay Schengen (Type C) applications are typically processed via VFS. The Single Permit process is entirely employer-led and initiated in Belgium — the embassy only issues the actual Type D visa once the Annexe 46 is approved. There is no Belgian Embassy in Lagos — all Nigerian applicants use Abuja. Allow 4–8 weeks for long-stay visa processing after submitting documents.",
+      website: "https://nigeria.diplomatie.belgium.be/en",
+      visa_apply: "https://www.vfsglobal.com/Belgium/Nigeria/",
+      vfs: "https://www.vfsglobal.com/Belgium/Nigeria/",
+      official_immigration: "https://dofi.ibz.be/en/",
+      extra_links: [
+        { label: "Belgian Immigration Office (DVZ/OE) — immigration rules", url: "https://dofi.ibz.be/en/" },
+        { label: "dvzoe.be — Belgian visa application pre-registration portal", url: "https://www.dvzoe.be/" },
+        { label: "werk.belgie.be — Single Permit official information (English)", url: "https://www.werk.belgie.be/en/themes/international-employment/employment-foreign-nationals-belgium" },
+        { label: "VLIR-UOS Scholarships — for Nigerian students", url: "https://www.vliruos.be/en/scholarships/scholarships_for_students/6" },
+        { label: "VDAB — Flanders employment authority (job listings, Single Permit)", url: "https://www.vdab.be/english" },
+        { label: "Actiris — Brussels employment authority", url: "https://www.actiris.be/en/" },
+        { label: "FWO — Flanders research funding (PhD fellowships)", url: "https://www.fwo.be/en/" },
+        { label: "FNRS — French-speaking research funding (PhD fellowships)", url: "https://www.fnrs.be/en/" },
+        { label: "academictransfer.com — EU academic job board (many Belgian listings)", url: "https://www.academictransfer.com/" },
+        { label: "KU Leuven scholarships page", url: "https://www.kuleuven.be/english/admissions/money/scholarships" },
+        { label: "Belgium travel and tourism (VisitBelgium)", url: "https://www.visitbelgium.com/en" },
+      ],
+    },
+  },
+
 };

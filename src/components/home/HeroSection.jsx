@@ -91,7 +91,7 @@ export default function HeroSection() {
           style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}
         >
           {[
-            { value: '15+', label: 'Countries covered' },
+            { value: '16+', label: 'Countries covered' },
             { value: '10+', label: 'Sections per guide' },
             { value: '100%', label: 'Nigeria-focused' },
             { value: 'Once', label: 'Pay once, keep forever' },

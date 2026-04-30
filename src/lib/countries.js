@@ -7,6 +7,7 @@ export const COUNTRIES = [
   { code: "NL", name: "Netherlands", flag: "🇳🇱", image: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&q=80" },
   { code: "AU", name: "Australia", flag: "🇦🇺", image: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80" },
   { code: "IE", name: "Ireland", flag: "🇮🇪", image: "https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=800&q=80" },
+  { code: "BE", name: "Belgium", flag: "🇧🇪", image: "https://images.unsplash.com/photo-1491557345352-5929e343eb89?w=800&q=80" },
   { code: "FR", name: "France", flag: "🇫🇷", image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80" },
   { code: "PL", name: "Poland", flag: "🇵🇱", image: "https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=800&q=80" },
   { code: "CZ", name: "Czech Republic", flag: "🇨🇿", image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80" },
@@ -40,8 +41,8 @@ export const PACKAGES = [
     name: "All Access",
     price: 50000,
     priceDisplay: "₦50,000",
-    description: "Unlock all 15 countries — the complete toolkit",
-    countries: 15,
+    description: "Unlock all 16 countries — the complete toolkit",
+    countries: 16,
     popular: false
   }
 ];
