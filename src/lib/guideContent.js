@@ -18,6 +18,79 @@ export const GUIDE_CONTENT = {
       work:       { salary: "CAD 45,000–90,000/yr", processing: "2–6 months", pathway: "Express Entry / LMIA Work Permit", minIELTS: "CLB 7+ recommended", currency: "CAD" },
     },
 
+    summary: {
+      undergrad: {
+        intro: "Canada's undergraduate Study Permit is open to any Nigerian accepted at a government-approved (DLI) school. The process starts with applying to a university — nothing happens until you have a Letter of Acceptance. Tuition runs CAD 20,000–35,000 per year. You will need to show proof of funds through a GIC account before the visa is issued.",
+        firstSteps: [
+          { action: "Get your WAEC/NECO results verified at the WAEC office", detail: "Takes 2–4 weeks. Canadian universities specifically require a Verification Certificate — not just your result slip. Do this before anything else." },
+          { action: "Take IELTS Academic — target 6.0 overall minimum (6.5 to be safe)", detail: "Book at British Council or IDP in Lagos, Abuja, or Port Harcourt. You have 2–3 months before typical application windows open." },
+          { action: "Apply to 4–6 Designated Learning Institutions (DLIs)", detail: "Apply through each university's own website. Application fee: CAD 100–200 per school. You need: WAEC certificate, transcripts, IELTS result, personal statement, reference letters." },
+          { action: "Once admitted: pay your deposit and set up a GIC account", detail: "Your GIC (CAD 20,635 deposited at CIBC, Scotiabank, or SBI Canada) is not a fee — the money is released back to you monthly after you arrive. The GIC certificate is required to apply for your Study Permit." },
+          { action: "Apply for your Study Permit at canada.ca (CAD 150 fee)", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, bank statements, Statement of Purpose, passport. Then attend biometrics at VFS Global in Lagos or Abuja (CAD 85)." },
+        ],
+        keyFacts: [
+          "Processing: 4–12 weeks after biometrics",
+          "Your approval letter is NOT your Study Permit — the physical card is issued at the Canadian airport on arrival",
+          "GIC money is NOT lost — it comes back to you in monthly payments",
+          "Your spouse gets an Open Work Permit and can work anywhere in Canada while you study",
+          "WAEC verification takes 2–4 weeks — start this first, before choosing schools",
+        ],
+        outcome: "After your degree, you qualify for a Post-Graduation Work Permit (PGWP) — up to 3 years of open work authorization. Canadian work experience then feeds into Express Entry for Permanent Residency.",
+      },
+      masters: {
+        intro: "Canada is the best country in the world for Nigerians who want to study and then stay. A 1–2 year masters leads to a 3-year open work permit (PGWP), which leads to Permanent Residency through Express Entry. Many thousands of Nigerians have completed this exact path. The process starts with applying to a university — nothing moves until you have a Letter of Acceptance.",
+        firstSteps: [
+          { action: "Research programs and shortlist 4–6 universities — apply to all of them", detail: "Start at each university's School of Graduate Studies website. Do not apply to only one school. Programs range from course-based (no research required) to thesis-based (you work with a supervisor). Choose based on your career goals." },
+          { action: "Take IELTS Academic — target 7.0 overall (most top programs require this)", detail: "University of Toronto requires 7.0 minimum with no band below 6.5. Book at British Council or IDP in Lagos, Abuja, or Port Harcourt." },
+          { action: "Get your degree and transcripts officially certified", detail: "Your degree certificate and transcripts must be officially stamped by your university's registrar. Some programs also require WES (World Education Services) evaluation — do this at wes.org, costs ~USD 246, takes ~7 weeks." },
+          { action: "Once admitted: pay your tuition deposit and set up your GIC account", detail: "Open a GIC account (CAD 20,635) at CIBC, Scotiabank StartRight, or SBI Canada. This takes 2–3 weeks. The money is released back to you in monthly payments after arrival — it is a savings account, not a fee." },
+          { action: "Apply for Study Permit at canada.ca (CAD 150) and attend biometrics at VFS Global", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, Statement of Purpose, transcripts, passport. Biometrics fee: CAD 85 at VFS Global Lagos or Abuja. Processing: 4–12 weeks." },
+        ],
+        keyFacts: [
+          "ALL masters graduates now receive a 3-year PGWP — even 1-year programs (changed February 2024)",
+          "GIC money (CAD 20,635) is returned to you in monthly instalments after you arrive — it is not a fee",
+          "Your spouse gets an Open Work Permit — they can work for any employer in Canada while you study",
+          "Apply for PGWP within 180 days of graduating — missing this window ends your path to PR",
+          "After 1 year of skilled Canadian work, you qualify for Canadian Experience Class — a fast-track PR route",
+        ],
+        outcome: "Masters → 3-year PGWP (work anywhere in Canada) → Express Entry Permanent Residency. Most Nigerians with strong IELTS scores (CLB 9) receive a PR invitation within 6–18 months of finishing their PGWP.",
+      },
+      phd: {
+        intro: "Canadian PhD programs are 4–5 years and almost always fully funded. Your supervisor pays your tuition AND gives you a monthly stipend (CAD 18,000–28,000/year). You must contact professors directly — this is how Canadian PhD admissions work. One professor who agrees to supervise you is your entry point.",
+        firstSteps: [
+          { action: "Email 10–20 professors whose research matches your interests", detail: "Write each email in under 200 words. Reference one specific paper they published and say something specific about it. Explain how your background connects to their work. Attach your CV. Ask if they are accepting PhD students. This is normal and expected in Canada — not rude." },
+          { action: "Apply formally only to programs where a professor has expressed interest", detail: "Your application needs: research proposal (1,000–2,000 words), Statement of Purpose, CV with all publications and research experience, 3 reference letters (at least 2 academic), degree certificate and transcripts, IELTS Academic (6.5 minimum)." },
+          { action: "Receive your funded offer letter — confirm everything in writing", detail: "Confirm: Is tuition waived? What is the annual stipend? Are there TA/RA duties? What is the expected duration? Get this in writing. This offer letter is what makes your Study Permit application strong." },
+          { action: "Apply for Study Permit at canada.ca (CAD 150)", detail: "Include your funding/offer letter — it proves to IRCC you are financially supported. Biometrics: CAD 85 at VFS Global Lagos or Abuja." },
+        ],
+        keyFacts: [
+          "Most Canadian PhD students receive full tuition waiver + CAD 18,000–28,000/year stipend",
+          "TA (Teaching Assistant) and RA (Research Assistant) work counts as Canadian work experience for Express Entry",
+          "After graduation: 3-year PGWP + TA/RA experience = very competitive Express Entry profile",
+          "Emailing professors is expected and normal — professors post their emails because they want students to reach out",
+          "Provincial Nominee Programs can add 600 CRS points — essentially guaranteeing a PR invitation",
+        ],
+        outcome: "PhD graduation → 3-year PGWP → Express Entry PR within 6–18 months for most Nigerian PhD graduates with TA/RA experience and strong IELTS scores.",
+      },
+      work: {
+        intro: "There are two ways to work in Canada as a Nigerian: Express Entry (apply for Permanent Residency from outside Canada using your qualifications) or an LMIA Work Permit (a Canadian employer sponsors you for a specific job). Most Nigerians who move to Canada for work use Express Entry. The process starts with two mandatory steps you can do right now.",
+        firstSteps: [
+          { action: "Get your Nigerian degree evaluated by WES (World Education Services)", detail: "Go to wes.org. Cost: ~USD 246. Takes ~7 weeks once WES receives your documents. This is mandatory for Express Entry — you cannot create an Express Entry profile without a WES evaluation." },
+          { action: "Take IELTS — target 8.0+ in all 4 bands (CLB 9)", detail: "Language points are the biggest lever in your CRS score. Going from CLB 7 to CLB 9 can add 50–80+ points. Book IELTS General Training at British Council or IDP. Take it multiple times if needed." },
+          { action: "Use the Come to Canada tool at canada.ca to estimate your CRS score", detail: "Before spending months on applications, estimate your score. If you are below 440, focus on improving your IELTS first. Know your score before deciding which path to take." },
+          { action: "Create your Express Entry profile at canada.ca", detail: "Once your WES evaluation and IELTS scores are ready, submit your profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 90 days to submit your full PR application." },
+        ],
+        keyFacts: [
+          "WES evaluation is mandatory for Express Entry — start it now even if you are months away from applying",
+          "IELTS CLB 9 (8.0+ in every band) gives you maximum language points — the most impactful thing you can improve",
+          "2024 Express Entry cut-off scores: STEM occupations ~491, Healthcare ~422–463, General draws ~460–500+",
+          "LMIA path: a Canadian employer hires you, pays CAD 1,000 to apply for LMIA, then you apply for a work permit — takes 2–5 months",
+          "After 1 year of skilled Canadian work experience, you qualify for Canadian Experience Class — faster PR track",
+        ],
+        outcome: "Express Entry PR application takes ~6 months from Invitation to Apply. LMIA work permit + 1 year experience → Canadian Experience Class → PR. Either path leads to full Permanent Residency.",
+      },
+    },
+
     visa: {
       undergrad: `**What is a Study Permit?**
 A Study Permit is the document that allows you to study in Canada. You apply for it online through the IRCC (Immigration, Refugees and Citizenship Canada) website at canada.ca. It is not a visa — your actual visa (if required) is issued alongside it.
@@ -89,10 +162,25 @@ What U of T looks for: Strong academic record (minimum 2:1 equivalent, roughly 3
 Apply to 4–6 programs. Do not apply to only one. Shortlist schools at different competitiveness levels.
 
 **Step 2 — Receive your Letter of Acceptance and pay deposit**
-Once admitted, pay your tuition deposit to secure your place. The university issues your Letter of Acceptance. You cannot apply for a Study Permit without this.
+Once admitted, pay your tuition deposit (usually CAD 3,000–5,000) to secure your place. The university then issues your formal Letter of Acceptance (LOA). You cannot apply for a Study Permit without this letter — it is the single most important document in your application.
 
-**Step 3 — GIC and Study Permit application**
-Same as undergraduate — set up your GIC (CAD 20,635), then apply for your Study Permit online at canada.ca. Application fee: CAD 150. Upload your LOA, GIC certificate, IELTS result, Statement of Purpose, and passport. Pay the CAD 85 biometrics fee and attend VFS Global in Lagos or Abuja.
+**Step 3 — Set up your GIC (Guaranteed Investment Certificate)**
+Deposit CAD 20,635 into a Canadian GIC account before applying for your Study Permit. Banks that accept Nigerian applications: CIBC, Scotiabank (StartRight program), and SBI Canada. The application takes about 2–3 weeks and you receive a GIC certificate. This money is NOT lost — it is released back to you in monthly instalments after you arrive in Canada. It is a savings account, not a fee.
+
+**Step 4 — Apply for your Study Permit at canada.ca**
+Create an IRCC account and pay the CAD 150 application fee. Upload:
+• Letter of Acceptance from your university
+• GIC certificate
+• Valid Nigerian passport (must be valid for your full program duration)
+• IELTS Academic result (taken within the last 2 years)
+• Bank statements (3–6 months showing stable funds — not just a recent large deposit)
+• Statement of Purpose explaining why you want to study in Canada, why you chose this school and program, and what you plan to do after graduating
+• Any scholarship letters you have received
+
+Your Statement of Purpose matters. Be specific: name the program, name why this school, explain your Nigerian academic background and work experience, and explain your plans after graduation. A vague statement raises red flags.
+
+**Step 5 — Biometrics at VFS Global**
+After submitting your application, IRCC sends a Biometrics Instruction Letter (BIL). Book an appointment at VFS Global in Lagos or Abuja. Fee: CAD 85. Bring your passport and the instruction letter. Biometrics are valid for 10 years.
 
 **Processing time:** 4–12 weeks after biometrics.
 
@@ -108,39 +196,71 @@ Your spouse gets an Open Work Permit — they can work any job anywhere in Canad
 
       phd: `**PhD in Canada — Funded, Respected, and a Clear Path to PR**
 
-Canadian PhD programs are typically 4–5 years. The most important thing to understand: most PhD positions in Canada are funded. Your supervisor pays your tuition AND gives you a monthly stipend, typically CAD 18,000–28,000 per year (CAD 1,500–2,300/month). You do not pay out of pocket.
+Canadian PhD programs are typically 4–5 years. The most important thing to understand: most PhD positions in Canada are funded. Your supervisor pays your tuition AND gives you a monthly stipend, typically CAD 18,000–28,000 per year (CAD 1,500–2,300/month). You do not pay tuition out of pocket.
 
 **How funding works:**
-Professors in Canada receive research grants from bodies like NSERC, SSHRC, or CIHR. Part of that grant goes to paying PhD students. When a professor agrees to supervise you, they are committing to fund you. This is why you must contact professors BEFORE applying.
+Professors in Canada receive research grants from bodies like NSERC, SSHRC, or CIHR. Part of that grant goes to paying PhD students. When a professor agrees to supervise you, they are committing to fund you. This is why you must contact professors BEFORE you apply — the formal application is almost a formality once a professor has said yes.
 
-**Step 1 — Email professors (do this 18–24 months before you want to start)**
-In Canada, emailing a professor directly to express interest in a PhD is expected and normal. Professors actively look for motivated students. Here is how to do it:
+**Step 1 — Email professors directly (start 18–24 months before you want to begin)**
+In Canada, emailing a professor to express interest in a PhD is expected and completely normal. Professors post their email addresses publicly because they want motivated students to reach out. Here is exactly how to do it:
 
-Write a short email (under 200 words). In the email:
-• Reference one specific paper they published and say one specific thing about it
-• Explain how your background connects to their research (be specific — not "I am interested in your field")
+Write a short email — under 200 words. In the email:
+• Reference one specific paper they published and say one specific thing you found interesting or relevant (read the paper properly — professors can tell when you have not)
+• Explain how your background connects to their research — be specific about your thesis topic, research methods you have used, or results from your own work
 • Attach your CV
-• Ask if they are accepting PhD students for the upcoming cycle
+• Ask directly whether they are accepting PhD students for the upcoming cycle
 
-Send to 10–20 professors across different universities. Expect responses from 1–4. One positive response is enough. A professor who says "yes, apply formally and mention my name" is gold — it dramatically increases your admission chances.
+Send to 10–20 professors across different universities. Expect responses from 1–4. One positive response is enough to move forward. A professor who says "yes, apply formally and mention my name in your application" is the best possible outcome — it dramatically increases your admission chances because supervisors advocate internally for candidates they want.
 
-**Step 2 — Apply formally**
-Once a professor expresses interest, apply to their program through the university's graduate admissions portal. Your application needs:
-• Research proposal (typically 1,000–2,000 words explaining your proposed research)
-• Statement of Purpose
-• CV with all publications, conference presentations, and research experience
-• 3 reference letters (at least 2 academic)
-• Degree certificate and transcripts
-• IELTS Academic (typically 6.5 overall minimum — check the specific program)
+If a professor does not respond within 2–3 weeks, it is fine to send one polite follow-up. After that, move on.
 
-**Step 3 — Receive funded offer and Study Permit**
-Your offer letter will state your funding package. Include this letter in your Study Permit application — it shows IRCC you have confirmed financial support, which makes approval faster.
+**Step 2 — Apply formally through the university's graduate portal**
+Once a professor has expressed interest, apply to their program through the university's own graduate admissions portal — each university has a separate one. Your application must include:
+• Research proposal (typically 1,000–2,000 words): explain your proposed research question, why it matters, your methodology, and how it connects to the supervisor's work. This is the most important document in a PhD application — spend at least 2 weeks on it.
+• Statement of Purpose: separate from the proposal — explains your academic background, why you chose this supervisor and program, and what your long-term goals are
+• CV: include every publication (even conference papers and thesis chapters), all research experience, any teaching, and any grants or awards you have received
+• 3 reference letters — at least 2 must be from academic supervisors who know your research work directly. Professional references are accepted for some programs but academic references carry more weight
+• Your degree certificate and official transcripts from every university you attended — must be officially stamped by the registrar, not printed from a student portal
+• IELTS Academic result — typically 6.5 overall minimum, but check the specific program (University of Toronto requires 6.5; some programs require 7.0)
+
+**Step 3 — Receive your funded offer letter and confirm everything in writing**
+When you are accepted, you receive an offer letter. Before accepting, confirm in writing:
+• Is tuition fully waived? (It should be — most funded Canadian PhDs have zero tuition)
+• What is the annual stipend — exactly? (Should be CAD 18,000–28,000 per year depending on university and department)
+• Are there Teaching Assistant (TA) or Research Assistant (RA) duties as part of the funding — and how many hours per week?
+• What is the expected duration?
+• Is there a conference travel budget?
+Get every detail confirmed in your offer letter before you accept. This offer letter is critical for your Study Permit application.
+
+**Step 4 — Apply for your Study Permit at canada.ca**
+Go to canada.ca and create an IRCC account. The Study Permit application fee is CAD 150. Upload:
+• Your funded offer letter from the university — this is the key document. It shows IRCC you have confirmed financial support, which significantly speeds up processing and reduces refusal risk
+• Valid Nigerian passport — must be valid for the entire duration of your PhD
+• IELTS Academic result (taken within the last 2 years)
+• Your degree certificate and transcripts
+• Bank statements (3–6 months showing stable personal funds — even though you have a stipend, IRCC still wants to see your personal financial history)
+• Statement of Purpose for the visa: this is separate from your academic Statement of Purpose. Write specifically about why you are doing this PhD in Canada, what your research is, and what your plans are after graduating. Mention your funding. Explain your ties to Nigeria (family, property, professional connections) to show you have reasons to maintain a connection to home.
+• Passport-style photographs
+
+Your Statement of Purpose for the visa matters independently of your academic application. IRCC officers read it to assess whether you are a genuine student with a credible plan. A vague statement raises flags even if you have a funded offer.
+
+**Step 5 — Biometrics at VFS Global in Lagos or Abuja**
+After submitting your application online, IRCC sends you a Biometrics Instruction Letter (BIL) by email. Book an appointment at VFS Global — Lagos or Abuja. Biometrics fee: CAD 85 (approximately ₦55,000 at current rates — rates change, calculate at the time). Bring your passport and the BIL. Biometrics are valid for 10 years once given, so if you have given biometrics before for a Canadian application, you may not need to do it again — check your BIL.
+
+Processing time: 4–12 weeks after biometrics. Do not book your flight until your permit is approved.
+
+**What happens at the Canadian airport:**
+Your approval letter is NOT your actual Study Permit — it is just permission to travel. At the Canadian Port of Entry (airport), an immigration officer checks all your documents and issues the physical Study Permit card. Carry ALL original documents in your hand luggage: offer letter, passport, funding confirmation, approval letter, transcripts. Do not put any of these in checked luggage. The officer may ask you questions about your research and your plans.
 
 **Building your path to PR during your PhD:**
-Teaching Assistant (TA) and Research Assistant (RA) positions are paid work experience in Canada. They count toward your CRS score in Express Entry. Keep records of all paid positions. After your PhD, you receive a 3-year PGWP. Most Nigerian PhD graduates qualify for Permanent Residency within 1–2 years of finishing.
+Teaching Assistant (TA) and Research Assistant (RA) positions are paid Canadian work experience — they count toward your Comprehensive Ranking System (CRS) score in Express Entry. Keep records of every paid position: employer name, job title, hours per week, start and end dates, and salary. You are allowed to work on campus without a work permit as a full-time student. Off-campus, your Study Permit allows up to 24 hours per week during the academic year (this changed from 20 hours in 2024 — verify at canada.ca as this changes).
+
+After your PhD, you receive a 3-year Post-Graduation Work Permit (PGWP) — an open work permit that lets you work for any employer anywhere in Canada. Apply for it within 180 days of receiving your final results. Include your IELTS result in the PGWP application (required since November 2024). You can start working full-time immediately after submitting the PGWP application while it is being processed.
+
+Three years of Canadian skilled work experience after your PhD, combined with your TA/RA experience, feeds directly into Express Entry for Permanent Residency. Most Nigerian PhD graduates with strong IELTS scores (CLB 9 — 8.0+ in every band) and Canadian work experience receive an Express Entry invitation within 6–18 months of finishing their PGWP work period.
 
 **Bringing your family:**
-Your funded stipend proves you can support dependants. Your spouse gets an Open Work Permit. Children attend Canadian school for free. Sweden is more family-friendly for PhDs but Canada is a close second.`,
+Your funded stipend proves to IRCC that you can financially support dependants — include your offer letter showing stipend amount. Your spouse or partner can apply for an Open Work Permit and work for any employer anywhere in Canada. Your children can attend Canadian primary and secondary school at no extra charge. You should show approximately CAD 4,000–6,000 additional funds per family member per year. Apply for their permits at the same time as yours.`,
 
       work: `**Working in Canada as a Nigerian — Two Main Paths**
 
@@ -332,6 +452,80 @@ On a work permit or Express Entry, your spouse may qualify for an Open Work Perm
       work:       { salary: "£28,000–£65,000/yr", processing: "3–8 weeks", pathway: "Skilled Worker Visa", minIELTS: "B1 English required", currency: "GBP" },
     },
 
+    summary: {
+      undergrad: {
+        intro: "UK undergraduate applications all go through one central system called UCAS — you cannot apply directly to a university. You apply to up to 5 universities with one personal statement. After admission, the university gives you a CAS number, which is what you use to apply for your Student Visa. The UK is culturally the most familiar western country for Nigerians — same language, similar legal system, one of the world's largest Nigerian diaspora communities.",
+        firstSteps: [
+          { action: "Take IELTS for UKVI Academic — NOT regular IELTS Academic", detail: "This is a critical mistake many Nigerians make. The visa requires specifically 'IELTS for UKVI Academic'. Book through British Council or IDP in Lagos, Abuja, or Port Harcourt. A regular IELTS Academic certificate will be rejected for your visa application." },
+          { action: "Apply through UCAS at ucas.com — one application covers all 5 universities", detail: "UCAS fee: £27.50 (2025). Oxford/Cambridge and Medicine applications: deadline October 15. All other universities: late January. You write ONE personal statement that goes to all 5 schools — write about why you love the subject, not which universities you picked." },
+          { action: "Book your TB test at IOM Lagos or Abuja — do this early", detail: "Mandatory for all Nigerian passport holders. IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Appointments fill up weeks in advance. Certificate valid for 6 months." },
+          { action: "Once you have your CAS number: prepare your funds (28-day rule)", detail: "Your money must sit in your account for 28 consecutive days before applying. Outside London: £1,136/month × 9 months + first year tuition. London: £1,483/month × 9 months + first year tuition. Plan this 6–8 weeks ahead." },
+          { action: "Apply for Student Visa at gov.uk/student-visa — pay IHS upfront", detail: "IHS (Immigration Health Surcharge): £776 per year. This gives you full NHS access. Biometrics at TLScontact in Lagos, Abuja, or Port Harcourt. Processing: 3 weeks. Visa comes as a sticker in your passport." },
+        ],
+        keyFacts: [
+          "Oxford/Cambridge and Medicine: UCAS deadline is October 15 — hard deadline, no exceptions",
+          "All other universities: UCAS deadline is late January",
+          "IELTS for UKVI Academic and regular IELTS Academic are different — you need the UKVI version for the visa",
+          "TB test is mandatory for all Nigerians — book early, slots fill quickly",
+          "On arrival: collect your Biometric Residence Permit (BRP) from a Post Office within 10 days",
+        ],
+        outcome: "After your degree, the Graduate Route visa gives you 2 years (3 for PhD) to work freely in the UK with no job offer required. Then you can switch to a Skilled Worker Visa and eventually apply for Indefinite Leave to Remain after 5 years.",
+      },
+      masters: {
+        intro: "UK masters programs are typically 1 year — faster and cheaper than Canada or the US. Applications go directly to each university (not through UCAS). After graduating, the Graduate Route visa gives you 2 years to work for any employer in the UK without needing sponsorship. Combined with a Skilled Worker Visa, this is now a genuine long-term path for Nigerians.",
+        firstSteps: [
+          { action: "Take IELTS for UKVI Academic — specifically the UKVI version", detail: "Must say 'for UKVI' on the certificate. Not the same as regular IELTS Academic. Book through British Council or IDP in Lagos, Abuja, or Port Harcourt. Most programs need 6.0–6.5 overall; top schools need 7.0." },
+          { action: "Apply directly to each university's own admissions portal", detail: "No central system for masters — go to each university's website. University of Manchester: pgapplication.manchester.ac.uk. UCL: ucl.ac.uk. Edinburgh: euclid.ed.ac.uk. Apply by January for September start — popular programs fill by February." },
+          { action: "Accept your offer, pay deposit, and receive your CAS number", detail: "Deposit: usually £3,000–5,000. CAS is issued 1–3 months before your course starts. Do not apply for the visa before receiving your CAS." },
+          { action: "Book TB test at IOM Lagos or Abuja — mandatory for all Nigerians", detail: "IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Book as early as possible — slots fill fast. Result sent directly to UKVI. Certificate valid for 6 months. Cost: ~£50." },
+          { action: "Prepare your finances (28-day rule) and apply at gov.uk/student-visa", detail: "Funds must sit in your account for 28 days. Outside London: £1,136/month × 9 months + first year tuition. London: £1,483/month × 9 months + first year tuition. Pay IHS (£776). Biometrics at TLScontact. Processing: 3 weeks." },
+        ],
+        keyFacts: [
+          "1-year UK masters is internationally recognised — it is not inferior to a 2-year program",
+          "Graduate Route after graduation: 2 years of open work, no job offer or sponsorship needed",
+          "Chevening Scholarship covers full tuition + ~£14,000/year living costs + flights + visa fees — apply by November",
+          "IHS (£776/year) gives you full NHS access during your studies — no separate health insurance needed",
+          "UK allows dual nationality — if you later qualify for citizenship, you keep your Nigerian passport",
+        ],
+        outcome: "1-year masters → Graduate Route visa (2 years open work) → Skilled Worker Visa → Indefinite Leave to Remain after 5 years → British citizenship. The full path from masters to citizenship can be under 9 years.",
+      },
+      phd: {
+        intro: "UK PhD programs are 3–4 years. Funded positions exist through UKRI, Commonwealth, and departmental scholarships. PhD graduates get 3 years on the Graduate Route visa (one year more than other graduates). The Commonwealth PhD Scholarship is fully funded and specifically available for Nigerians — it is underused. Apply.",
+        firstSteps: [
+          { action: "Find funded PhD positions at jobs.ac.uk — set weekly email alerts", detail: "jobs.ac.uk is the main platform for funded UK PhD positions. Set up alerts for your research field. Also check findaphd.com and each target university's PhD vacancies page. Alternatively, email supervisors directly — they can help you apply for funding." },
+          { action: "Apply for the Commonwealth PhD Scholarship through the Nigerian Federal Scholarship Board", detail: "Fully funded: tuition + living allowance + flights + thesis costs. Deadline: October each year. Apply through the Federal Scholarship Board — they manage Nigeria's in-country selection. Check cscuk.fcdo.gov.uk. This scholarship is underused by Nigerians." },
+          { action: "Apply with a research proposal and supervisor's letter of support", detail: "Your application needs a research proposal (2,000–3,000 words), Statement of Purpose, CV, 3 reference letters, transcripts, IELTS for UKVI (6.5–7.0). A supervisor's letter of support significantly improves your chances." },
+          { action: "Receive offer with funding details — confirm tuition and stipend in writing", detail: "Before accepting: confirm tuition is covered, annual stipend amount, conference travel allowance, and expected duration. Your offer letter goes into your Student Visa application." },
+          { action: "Apply for Student Visa: TB test + IHS + funds + gov.uk/student-visa", detail: "TB test at IOM Lagos/Abuja. IHS: £776/year × PhD duration. Show maintenance funds if not covered by scholarship. Biometrics at TLScontact. Processing: 3 weeks." },
+        ],
+        keyFacts: [
+          "PhD graduates get 3 years on the Graduate Route visa (other graduates get 2 years)",
+          "Commonwealth PhD Scholarship is fully funded and available for Nigerians — apply through the Federal Scholarship Board",
+          "UKRI doctoral studentships pay full tuition + ~£19,000/year living stipend (2025 minimum)",
+          "jobs.ac.uk is where funded UK PhD positions are officially listed — set weekly alerts",
+          "If your PhD is funded: your CAS shows £0 tuition; you only need to show living cost funds",
+        ],
+        outcome: "PhD graduation → 3-year Graduate Route visa → Skilled Worker Visa → Indefinite Leave to Remain after 5 years total on qualifying visas → British citizenship. UK allows dual nationality.",
+      },
+      work: {
+        intro: "Working in the UK as a Nigerian requires a Skilled Worker Visa — you need a job offer from a licensed sponsor paying at least £38,700/year (as of April 2024, verify at gov.uk as this changes). Nigerian professionals in tech, healthcare, engineering, finance, and law are in genuine demand. The NHS specifically employs large numbers of Nigerians — though government-to-government recruitment is restricted, individual applications to NHS trusts are open.",
+        firstSteps: [
+          { action: "Download the licensed sponsors register from gov.uk before applying to any job", detail: "Only companies on this list can legally sponsor your Skilled Worker Visa. Download from gov.uk/government/publications/register-of-licensed-sponsors-workers. Check a company is on the list before investing time in an application. Scam job offers with fake sponsorship exist — this list is your protection." },
+          { action: "Search LinkedIn, NHS Jobs, and sector-specific boards for UK-based roles", detail: "LinkedIn: set location to UK, turn on 'Open to Work'. NHS jobs: jobs.nhs.uk. General: reed.co.uk, totaljobs.com, indeed.co.uk. Tech: londontech.jobs. Focus on companies already on the licensed sponsors register." },
+          { action: "Receive a job offer and ask your employer to issue a Certificate of Sponsorship (CoS)", detail: "The CoS is a reference number your employer generates through the Sponsorship Management System. It contains your job title, salary, and start date. You need this to apply for your visa." },
+          { action: "Apply for Skilled Worker Visa at gov.uk/skilled-worker-visa", detail: "Pay visa fee + IHS (£1,035/year). Processing: 3–8 weeks. You can also switch from Graduate Route to Skilled Worker while inside the UK without leaving the country." },
+        ],
+        keyFacts: [
+          "Check the licensed sponsors register BEFORE applying to any job — scams targeting Nigerians exist",
+          "Salary threshold: £38,700/year for most roles (changed April 2024 — verify at gov.uk as this changes)",
+          "NHS healthcare workers: individual applications are open, but targeted Nigeria recruitment campaigns are restricted (Red List)",
+          "After 5 years on Skilled Worker Visa: apply for Indefinite Leave to Remain (ILR) — permanent residence",
+          "UK allows dual nationality — British citizenship does not require giving up your Nigerian passport",
+        ],
+        outcome: "Skilled Worker Visa → 5 years → ILR (permanent residence) → 1 more year → British citizenship. Your spouse can work and your children attend UK schools.",
+      },
+    },
+
     visa: {
       undergrad: `**UK Student Visa — Undergraduate**
 
@@ -412,7 +606,23 @@ What UK universities want from Nigerian masters applicants:
 • 2 reference letters — academic references preferred, professional accepted for MBA and conversion programs
 
 **Visa application process:**
-Same as undergraduate: receive CAS from university, pay IHS (£776/year), show maintenance funds (£1,136–£1,483/month × 9 months in account for 28 days), do TB test at IOM Lagos or Abuja, apply online at gov.uk/student-visa, biometrics at TLScontact.
+
+Step 1 — Receive your CAS number from the university. After you accept your offer and pay your tuition deposit (usually £3,000–5,000), the university issues a CAS (Confirmation of Acceptance for Studies) number. You cannot apply for a Student Visa without it.
+
+Step 2 — Take IELTS for UKVI Academic (not regular IELTS). Must specifically say "for UKVI" on your certificate. Book through British Council or IDP in Lagos, Abuja, or Port Harcourt.
+
+Step 3 — TB test at IOM Lagos or Abuja. Mandatory for all Nigerian passport holders. IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Book early — slots fill weeks in advance. Results sent directly to UKVI. Certificate valid for 6 months. Cost: approximately £50.
+
+Step 4 — Prepare your finances (28-day rule). Your funds must have been in your account for 28 consecutive days before you apply. Required amounts:
+• Studying outside London: £1,136/month × 9 months = £10,224 (plus first year tuition)
+• Studying in London: £1,483/month × 9 months = £13,347 (plus first year tuition)
+Example: If your tuition is £20,000 and you are studying in Manchester, you need to show at least £30,224 sitting in your account for 28 days.
+
+Step 5 — Pay the Immigration Health Surcharge (IHS) online. Current rate: £776 per year. For a 1-year masters: £776 paid upfront. This gives you full NHS access during your studies — no GP fees, no hospital fees. Pay at immigration-health-surcharge.service.gov.uk.
+
+Step 6 — Apply for Student Visa at gov.uk/student-visa. You can apply no earlier than 6 months before your course start date. Book biometrics at TLScontact in Lagos, Abuja, or Port Harcourt after submitting.
+
+Processing time: typically 3 weeks. Your passport returns with a vignette sticker. When you arrive in the UK, collect your Biometric Residence Permit (BRP) from a specified Post Office within 10 days.
 
 **The Graduate Route visa — 2 years of free work:**
 After your 1-year masters, apply for the Graduate Route visa before your Student Visa expires. You can work for any employer — no job offer needed. 2 years of open work authorization. Cost: approximately £937 + IHS. Apply online at gov.uk/graduate-visa. Process entirely from within the UK — do not travel outside UK after applying until you receive your decision. Processing: approximately 8 weeks, but you can remain in the UK while waiting.
@@ -426,29 +636,84 @@ Masters students can bring dependants. Show £845/month outside London or £680/
 
       phd: `**UK Student Visa — PhD**
 
-UK PhD programs are 3–4 years. Visa process is the same as masters. PhD graduates get a 3-year Graduate Route visa.
+UK PhD programs are 3–4 years. PhD graduates receive a 3-year Graduate Route visa after finishing — one year more than other graduates. Most PhD positions in the UK are funded: your tuition is covered and you receive a living stipend of approximately £18,000–21,000 per year (the 2025 UKRI minimum is £19,237 — verify at ukri.org).
 
-**Finding a funded PhD position**
-There are two ways to do a PhD in the UK:
+**Step 1 — Find a PhD position or supervisor**
+
+There are two routes:
 
 Option A — Apply to an advertised funded position:
-• jobs.ac.uk is the main platform where funded UK PhD positions are advertised. Set up email alerts for your field. These positions are fully funded (tuition + living stipend).
-• findaphd.com also lists funded positions
-• The university's own PhD vacancies page
+jobs.ac.uk is the main UK platform for funded PhD positions. Set up a weekly email alert for your research field and the keyword "PhD studentship." Also check findaphd.com and each target university's own research vacancies page. These positions are fully funded — tuition covered plus a living stipend. You apply directly for the position the same way you apply for a job.
 
-Option B — Email a supervisor and propose a project:
-• Email professors directly — this is completely acceptable
-• Agree on a research project together
-• They help you apply for funding (UKRI doctoral studentship, departmental scholarship, or Commonwealth)
-• Your chances improve greatly if a supervisor is already committed
+Option B — Email a supervisor directly and propose a project:
+You contact a professor whose research interests you, propose a research project, and they agree to supervise you. They then help you apply for funding through UKRI doctoral studentships, departmental scholarships, or the Commonwealth Scholarship. This route requires more initiative but gives you more choice over your research direction. Email 10–15 professors. Keep emails under 200 words: reference one specific paper they wrote, explain how your background connects to their work, attach your CV, and ask if they have funding or are considering PhD students.
 
-Commonwealth PhD Scholarship: Fully funded (tuition + living allowance + flights + thesis grant). Specifically available for Nigerians. Apply through the Nigerian Federal Scholarship Board. Deadline: October each year. Check cscuk.fcdo.gov.uk.
+The most important thing in either route: a committed supervisor makes your application dramatically stronger. Whether you apply to a listed position or approach a professor directly, having someone at the university who wants to work with you is the single biggest factor in your admission.
 
-**CAS for a funded PhD:**
-If your PhD is funded (tuition covered by scholarship), your CAS shows £0 tuition. You still need to show living cost funds (£1,136–£1,483/month × 9 months) unless your scholarship covers living costs too.
+**Commonwealth PhD Scholarship — apply if you qualify:**
+This scholarship is fully funded: tuition, living allowance, flights to the UK, and a thesis grant. It is specifically available for Nigerian citizens. Applications go through the Nigerian Federal Scholarship Board — they manage the in-country selection process. Deadline is usually October each year. Check cscuk.fcdo.gov.uk for the current cycle. This scholarship is underused by Nigerians — apply.
 
-**Graduate Route — 3 years:**
-PhD graduates get 3 years on the Graduate Route visa. Combined with your research experience, this is substantial time to find a Skilled Worker sponsor.`,
+**Step 2 — Formal application**
+Your application needs:
+• Research proposal (2,000–3,000 words): your research question, methodology, why this university and supervisor, how your work fits into existing literature, and what gap you are addressing
+• Statement of Purpose (separate from the proposal — explains your academic journey and career goals)
+• Academic CV: include all publications, conference presentations, research experience, and any teaching
+• 3 reference letters — at least 2 from academic supervisors who know your work directly
+• Degree certificate and full transcripts from all previous universities
+• IELTS for UKVI Academic — typically 6.5–7.0 overall (check the specific department's requirements)
+• Supervisor's letter of support if you arranged this through Option B — this significantly strengthens your application
+
+**Step 3 — Receive your offer with funding details**
+Before accepting, confirm in writing:
+• Is tuition fully covered? (For UKRI-funded positions: yes. For self-funded positions: no.)
+• What is the annual living stipend? (UKRI minimum 2025: £19,237 — verify at ukri.org)
+• Is there a conference travel allowance?
+• What are the expected TA (Teaching Assistant) duties, if any?
+• What is the expected duration? (UK PhDs are typically 3.5–4 years)
+Get this in writing in your offer letter. This offer letter is what you include in your Student Visa application.
+
+**Step 4 — English language test (IELTS for UKVI Academic)**
+You need IELTS for UKVI Academic — specifically the UKVI version. This is NOT the same as regular IELTS Academic. Both are offered by British Council and IDP, but you must specifically select the UKVI test when booking, and it must be taken at an approved UKVI test centre. A regular IELTS Academic certificate is NOT accepted for your visa application — this is one of the most common mistakes Nigerian applicants make.
+Typical PhD requirement: 6.5–7.0 overall with no band below 6.0. Check your specific department's requirement.
+Book at British Council or IDP in Lagos, Abuja, or Port Harcourt.
+
+**Step 5 — TB test at an approved clinic (mandatory)**
+Every Nigerian passport holder must take a Tuberculosis test before applying for a UK visa. Approved clinics in Nigeria:
+• IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island, Lagos
+• IOM Abuja: Contact IOM Nigeria for the current Abuja location
+Book early — appointments fill up weeks in advance. The result is sent directly to UKVI. You receive a certificate with a reference number to include in your visa application. Cost: approximately £50. Results are valid for 6 months.
+
+**Step 6 — Receive your CAS number from the university**
+After you accept your offer and complete the university's enrolment formalities, the university issues a CAS (Confirmation of Acceptance for Studies) number. You cannot apply for a Student Visa without this. If your PhD is funded and tuition is covered by a scholarship, your CAS will show £0 for tuition — this is normal and correct.
+
+**Step 7 — Prove your finances (28-day rule)**
+Your funds must have been sitting in your bank account for 28 consecutive days before the date you submit your visa application. The amounts required (verified from gov.uk):
+• Studying outside London: £1,136 per month × 9 months = £10,224
+• Studying in London: £1,483 per month × 9 months = £13,347
+If your scholarship covers living costs, your scholarship letter satisfies the financial requirement — you do not need to show personal funds for living costs. If tuition is funded, you do not need to show funds for tuition either. Only show personal funds for what the scholarship does not cover.
+Example: If you have a full Commonwealth Scholarship covering tuition, living allowance, and travel — you do not need to show personal bank funds at all. The scholarship letter is your financial proof.
+
+**Step 8 — Pay the Immigration Health Surcharge (IHS)**
+Pay the IHS online before submitting your application. Current rate (April 2025): £776 per year. For a 4-year PhD: £3,104 paid upfront. This gives you full NHS access during your studies — GP visits, hospital treatment, emergency care. Pay at immigration-health-surcharge.service.gov.uk. Verify the current rate as this has increased regularly.
+
+**Step 9 — Apply for Student Visa at gov.uk/student-visa**
+You can apply no earlier than 6 months before your course start date. Apply online at gov.uk/student-visa. After submitting, book your biometrics appointment at TLScontact in Lagos, Abuja, or Port Harcourt.
+Upload:
+• CAS number
+• Valid Nigerian passport (must be valid throughout your PhD)
+• IELTS for UKVI Academic certificate
+• TB test reference number
+• Financial evidence (bank statements for 28 days, or scholarship letter)
+• Offer letter from your university showing funding details
+• Passport-style photographs
+Processing time: approximately 3 weeks. Your passport returns with a vignette sticker (a visa sticker). When you land in the UK, collect your Biometric Residence Permit (BRP) from a specified Post Office within 10 days of arrival.
+
+**The Graduate Route — 3 years after your PhD:**
+After completing your PhD, apply for the Graduate Route visa before your Student Visa expires. Your university notifies UKVI of your graduation — once UKVI confirms this, you can apply. Cost: approximately £937 + IHS. Apply entirely online at gov.uk/graduate-visa from inside the UK. Do not travel outside the UK after applying until you receive your decision. Processing: approximately 8 weeks. You can remain in the UK while waiting.
+The Graduate Route gives PhD graduates 3 years of open work authorization — no employer sponsorship needed, work for any employer anywhere in the UK. Use this time to find a company on the licensed sponsors register and switch to a Skilled Worker Visa. After 5 years total on qualifying visas, apply for Indefinite Leave to Remain. After 1 more year, apply for British citizenship. UK allows dual nationality — you keep your Nigerian passport.
+
+**Bringing your spouse or children:**
+PhD students can bring dependants on a Student Dependant visa. Your spouse or partner can apply and is allowed to work in the UK. Your children can attend UK schools. Additional funds required: £845/month per dependant outside London or £680/month in London (28-day rule applies to these amounts too). Apply for dependant visas at the same time as your own application.`,
 
       work: `**Working in the UK as a Nigerian — Skilled Worker Visa**
 
@@ -626,6 +891,80 @@ Skilled Worker Visa holders can bring family. Your spouse gets a Dependant visa 
       masters:    { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,584–12,000/month", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "6.0–6.5 or university equivalent", currency: "SEK" },
       phd:        { tuition: "FREE — PhD is salaried employment", living: "SEK 25,000–35,000/month (your salary)", processing: "4–8 weeks", acceptance: "Very competitive", minIELTS: "Set by program", currency: "SEK" },
       work:       { salary: "SEK 35,000–65,000/month", processing: "4–8 weeks", pathway: "Swedish Work Permit / EU Blue Card", minIELTS: "Not required for permit — employer may test", currency: "SEK" },
+    },
+
+    summary: {
+      undergrad: {
+        intro: "Swedish undergraduate applications all go through one government portal — universityadmissions.se. There is no other way. Sweden does not issue a student visa — it issues a Residence Permit from the Migration Agency (Migrationsverket). The application window opens October 15 and closes January 15 for autumn start. Tuition is SEK 80,000–200,000/year and you need to prove you have SEK 10,584 per month of your study period (2025 figure).",
+        firstSteps: [
+          { action: "Apply at universityadmissions.se between October 15 and January 15", detail: "The ONLY portal for international applications. Create your account, select up to 4 programs, upload your documents (transcripts, English test result, personal letter if required), pay the SEK 900 application fee. Any agent charging to 'apply directly' to a Swedish university is using this same free portal." },
+          { action: "Prepare your English proof — check each program's specific requirement", detail: "Many Swedish programs accept IELTS Academic (5.5–6.5), TOEFL, or a letter from your Nigerian university confirming English as medium of instruction — but this varies. Check each specific program page. The Migration Agency does NOT require a language test for the Residence Permit itself." },
+          { action: "Wait for admission results in April — then immediately apply for your Residence Permit", detail: "Log into universityadmissions.se to see results. If admitted, accept your place and pay your deposit. Then immediately apply for your Residence Permit at migrationsverket.se — do not delay." },
+          { action: "Apply for Residence Permit at migrationsverket.se with proof of funds", detail: "Upload: admission letter, passport, proof of funds (SEK 10,584 × months of study — for a 3-year degree: ~SEK 381,024), paid tuition deposit receipt, health insurance proof. Processing: 4–8 weeks." },
+          { action: "Arrive in Sweden — register at Skatteverket within your first week", detail: "Your personnummer (Swedish personal identity number) is everything. Without it you cannot open a bank account, get a phone plan, or access most services. Go to the nearest Skatteverket office immediately on arrival." },
+        ],
+        keyFacts: [
+          "Application window: October 15 to January 15 — there are no extensions",
+          "You can apply to up to 4 programs at universityadmissions.se (SEK 900 fee)",
+          "Funds required: SEK 10,584/month × months of study (2025 figure — verify at migrationsverket.se annually)",
+          "You are allowed to work with no hour limit while studying in Sweden",
+          "Your personnummer from Skatteverket is the most important document you will get in Sweden",
+        ],
+        outcome: "After graduating, you can apply for a 12-month job-seeking permit to find Swedish employment. Once employed, your employer sponsors a Work Permit. After 4 years of continuous residence, apply for Permanent Residence.",
+      },
+      masters: {
+        intro: "Sweden is where the Swedish Institute Scholarship makes masters study genuinely accessible. The SI Scholarship covers all tuition, SEK 11,000/month living allowance, travel, and health insurance. Even without the scholarship, over 1,000 masters programs are taught in English. Applications go through universityadmissions.se — same portal as undergraduate. The Swedish PhD system is salaried employment, so a masters in Sweden is often a step toward a PhD position.",
+        firstSteps: [
+          { action: "Apply at universityadmissions.se by January 15 — and check si.se for the SI Scholarship at the same time", detail: "Both actions happen in the same window. Apply to up to 4 programs at universityadmissions.se (SEK 900 fee, deadline January 15). The SI Scholarship portal typically opens in February — but your universityadmissions.se application must already exist since the scholarship links to your program choices. Go to si.se in October to check the current cycle timeline." },
+          { action: "Check English requirements for each specific program", detail: "Most programs accept IELTS Academic 6.0–6.5, TOEFL, or in many cases a letter from your Nigerian university confirming English medium of instruction. Check each program page individually — requirements vary even within the same university." },
+          { action: "Wait for admission results in April — SI Scholarship results come May–June", detail: "Log into universityadmissions.se. If admitted, accept your place and pay your deposit. If you receive the SI Scholarship, it satisfies the financial requirement for your Residence Permit entirely." },
+          { action: "Apply for Residence Permit at migrationsverket.se", detail: "Apply immediately after your admission letter. With SI Scholarship: your scholarship letter covers the financial requirement. Without scholarship: show SEK 10,584/month × study months (~SEK 253,728 for a 2-year program). Upload admission letter, passport, and financial proof." },
+          { action: "Arrive in Sweden — register at Skatteverket immediately for your personnummer", detail: "Do this within your first week before anything else. Bring passport and Residence Permit. Without personnummer, you cannot open a bank account, get a SIM card, or access most services." },
+        ],
+        keyFacts: [
+          "SI Scholarship covers full tuition + SEK 11,000/month + travel + health insurance — Nigerians win this every year",
+          "Application window: October 15 – January 15 (SI Scholarship portal opens February)",
+          "Funds without scholarship: SEK 10,584/month × study months (2025 figure)",
+          "After graduating: apply for 12-month job-seeking permit; need SEK 13,000/month in savings",
+          "You can work with no hour limit while studying — helps offset Sweden's high cost of living",
+        ],
+        outcome: "Masters graduation → 12-month job-seeking permit → Work Permit (employer applies) → 4 years continuous residence → Permanent Residence → Swedish citizenship (Sweden allows dual nationality).",
+      },
+      phd: {
+        intro: "A Swedish PhD is not a study program — it is a salaried job. You apply for PhD positions the same way you apply for work. If selected, you sign an employment contract, receive a salary (SEK 25,000–35,000/month), get paid annual leave, contribute to the Swedish pension, and do not pay tuition. This is one of the best deals for Nigerian researchers in the world.",
+        firstSteps: [
+          { action: "Set weekly email alerts on academicpositions.com and varbi.com for PhD positions in Sweden", detail: "Swedish PhD positions open throughout the year — there is no single application season. Also check ki.se/en/about/jobs-at-ki (Karolinska Institutet) and each target university's career page directly. Positions typically receive 50–200 applications." },
+          { action: "Apply with an academic CV and targeted cover letter", detail: "CV must include: research experience, publications (thesis chapters count), languages, references. Cover letter must explain specifically why this project and why your background makes you the right fit. Generic letters are rejected immediately." },
+          { action: "Receive and sign an employment contract", detail: "The contract specifies your salary, start date, vacation days, and any conditions. This is a real employment contract under Swedish law. Read it carefully. This contract is what you use for your Residence Permit application." },
+          { action: "Apply for Residence Permit for doctoral studies at migrationsverket.se", detail: "Select the doctoral studies option. Upload your employment contract. Since you have a salary, no separate proof of funds is needed. Processing: 4–8 weeks." },
+          { action: "Arrive in Sweden — register at Skatteverket immediately and enrol in free Swedish classes (SFI)", detail: "Your personnummer is essential — your employer needs it for payroll. Go to Skatteverket within your first week. Also enrol in SFI (Svenska för Invandrare) at the nearest municipal adult education centre — it is free." },
+        ],
+        keyFacts: [
+          "A Swedish PhD is salaried employment: SEK 25,000–35,000/month + paid leave + pension contributions",
+          "You do NOT pay tuition — it is covered as part of your employment",
+          "Positions open throughout the year — there is no single application season",
+          "After 4 years of continuous Swedish residence: apply for Permanent Residence",
+          "Sweden allows dual citizenship — you keep your Nigerian passport",
+        ],
+        outcome: "PhD employment contract → Residence Permit → 4 years → Permanent Residence → Swedish citizenship. Your spouse can also work in Sweden and your children attend school for free.",
+      },
+      work: {
+        intro: "Sweden's work permit is employer-driven: your employer sponsors the application, not you. The salary must meet the collective agreement minimum (~SEK 27,360/month — verify at migrationsverket.se). Stockholm has one of Europe's strongest tech ecosystems. Swedish is required for most jobs outside Stockholm's international companies, so job search should target firms with English-language work environments.",
+        firstSteps: [
+          { action: "Search for Swedish employers on LinkedIn — specifically targeting international companies in Stockholm", detail: "Spotify, Klarna, King, Ericsson, Volvo, ABB, and Saab all hire internationally. Set your LinkedIn location preference to Sweden. English is the working language at most Stockholm tech companies, so you can function without Swedish initially." },
+          { action: "Also check arbetsformedlingen.se (Swedish Public Employment Service) and Blocket Jobb", detail: "arbetsformedlingen.se is the government employment service — free to use. For healthcare roles: Socialstyrelsen must validate your credentials first (6–12 months). Register your foreign degree at socialstyrelsen.se before applying to Swedish healthcare jobs." },
+          { action: "Receive a job offer — your employer submits the Work Permit application at migrationsverket.se", detail: "You cannot apply for the work permit yourself — it is submitted by your employer. Salary must meet the collective agreement minimum (verify current figure at migrationsverket.se). Processing: 4–8 weeks." },
+          { action: "Arrive in Sweden — register at Skatteverket for your personnummer and enrol in SFI", detail: "Personnummer is essential for banking, phone contracts, and all Swedish services. Enrol in SFI (free Swedish language classes) immediately — Swedish proficiency dramatically expands your long-term career options." },
+        ],
+        keyFacts: [
+          "Work permit is employer-sponsored — you cannot apply without a confirmed job offer",
+          "Minimum salary threshold: ~SEK 27,360/month (verify at migrationsverket.se — updated regularly)",
+          "EU Blue Card: for degrees + salary above SEK 49,875/month — faster processing and EU mobility",
+          "Healthcare workers: foreign credentials must be validated by Socialstyrelsen first (6–12 months)",
+          "After 4 years of continuous residence: Permanent Residence. Sweden allows dual citizenship.",
+        ],
+        outcome: "Work Permit (employer applies) → annual renewal → 4 years continuous residence → Permanent Residence → Swedish citizenship. Sweden allows dual nationality.",
+      },
     },
 
     visa: {

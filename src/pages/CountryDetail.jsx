@@ -93,7 +93,7 @@ function ExpandableSection({ title, children }) {
 
 function LockedContent({ countryCode, countryName }) {
   return (
-    <div className="rounded-2xl border border-dashed border-[#0096FF]/30 bg-[#EBF5FF]/40 p-12 text-center">
+    <div className="rounded-2xl border border-dashed border-[#0096FF]/30 bg-[#EBF5FF]/40 p-6 sm:p-12 text-center">
       <div className="w-14 h-14 rounded-full bg-[#0096FF]/10 flex items-center justify-center mx-auto mb-5">
         <Lock className="w-6 h-6 text-[#0096FF]" />
       </div>
@@ -171,12 +171,12 @@ export default function CountryDetail() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
 
         {/* Level Selector */}
-        <div className="bg-white rounded-2xl border border-black/[0.07] p-2 mb-6 flex gap-1 overflow-x-auto">
+        <div className="bg-white rounded-2xl border border-black/[0.07] p-2 mb-6 flex gap-1">
           {LEVELS.map(l => (
             <button
               key={l.id}
               onClick={() => setLevel(l.id)}
-              className={`flex-1 min-w-[100px] flex flex-col items-center gap-1 py-3 px-2 rounded-xl text-[12px] font-semibold transition-all whitespace-nowrap ${
+              className={`flex-1 flex flex-col items-center gap-1 py-3 px-1 sm:px-2 rounded-xl text-[11px] sm:text-[12px] font-semibold transition-all whitespace-nowrap ${
                 level === l.id
                   ? 'bg-[#0096FF] text-white shadow-sm'
                   : 'text-black/40 hover:text-black/70 hover:bg-black/[0.03]'
@@ -249,7 +249,7 @@ export default function CountryDetail() {
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-semibold whitespace-nowrap transition-all flex-shrink-0 ${
+                    className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2.5 rounded-xl text-[12px] sm:text-[13px] font-semibold whitespace-nowrap transition-all flex-shrink-0 ${
                       activeTab === tab.id
                         ? 'bg-[#0096FF] text-white'
                         : 'bg-white border border-black/[0.07] text-black/50 hover:text-black/70'
@@ -274,9 +274,57 @@ export default function CountryDetail() {
                 {/* OVERVIEW */}
                 {activeTab === 'overview' && (
                   <div className="space-y-4">
-                    <ExpandableSection title={`${LEVELS.find(l => l.id === level)?.label} Visa at a Glance`}>
-                      <MarkdownText text={guide.visa?.[level]} />
-                    </ExpandableSection>
+                    {guide.summary?.[level] ? (
+                      <>
+                        {guide.summary[level].intro && (
+                          <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                            <h3 className="text-[15px] font-bold text-[#04091A] mb-3">
+                              {LEVELS.find(l => l.id === level)?.icon} {LEVELS.find(l => l.id === level)?.label} — What You Need to Know
+                            </h3>
+                            <p className="text-[14px] text-black/60 leading-relaxed">{guide.summary[level].intro}</p>
+                          </div>
+                        )}
+                        {guide.summary[level].firstSteps?.length > 0 && (
+                          <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                            <h3 className="text-[14px] font-bold text-[#04091A] mb-4">Start Here — Before Anything Else</h3>
+                            <div className="space-y-3">
+                              {guide.summary[level].firstSteps.map((step, i) => (
+                                <div key={i} className="flex gap-3">
+                                  <div className="w-6 h-6 rounded-full bg-[#0096FF] text-white text-[11px] font-bold flex items-center justify-center flex-shrink-0 mt-0.5">{i + 1}</div>
+                                  <div>
+                                    <p className="text-[14px] font-semibold text-[#04091A]">{step.action}</p>
+                                    {step.detail && <p className="text-[13px] text-black/50 leading-relaxed mt-0.5">{step.detail}</p>}
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        {guide.summary[level].keyFacts?.length > 0 && (
+                          <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                            <h3 className="text-[14px] font-bold text-[#04091A] mb-4">Key Facts</h3>
+                            <div className="space-y-2">
+                              {guide.summary[level].keyFacts.map((fact, i) => (
+                                <div key={i} className="flex gap-2 items-start">
+                                  <span className="text-[#0096FF] mt-0.5 flex-shrink-0">•</span>
+                                  <p className="text-[13px] text-black/60 leading-relaxed">{fact}</p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        {guide.summary[level].outcome && (
+                          <div className="rounded-2xl border border-[#059669]/20 bg-[#059669]/5 p-5">
+                            <p className="text-[13px] font-semibold text-[#059669] mb-1">The Outcome</p>
+                            <p className="text-[13px] text-black/60 leading-relaxed">{guide.summary[level].outcome}</p>
+                          </div>
+                        )}
+                      </>
+                    ) : (
+                      <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
+                        <p className="text-[14px] text-black/50 leading-relaxed">{guide.overview}</p>
+                      </div>
+                    )}
                   </div>
                 )}
 

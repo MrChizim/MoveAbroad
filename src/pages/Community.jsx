@@ -108,14 +108,14 @@ export default function Community() {
             <Input placeholder="Search..." className="pl-10" value={search} onChange={e => setSearch(e.target.value)} />
           </div>
           <Select value={filterCountry} onValueChange={setFilterCountry}>
-            <SelectTrigger className="w-44"><SelectValue placeholder="All Countries" /></SelectTrigger>
+            <SelectTrigger className="w-full sm:w-44"><SelectValue placeholder="All Countries" /></SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Countries</SelectItem>
               {COUNTRIES.map(c => <SelectItem key={c.code} value={c.code}>{c.flag} {c.name}</SelectItem>)}
             </SelectContent>
           </Select>
           <Select value={filterType} onValueChange={setFilterType}>
-            <SelectTrigger className="w-40"><SelectValue placeholder="All Types" /></SelectTrigger>
+            <SelectTrigger className="w-full sm:w-40"><SelectValue placeholder="All Types" /></SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All Types</SelectItem>
               <SelectItem value="question">Questions</SelectItem>

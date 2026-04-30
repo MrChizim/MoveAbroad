@@ -36,7 +36,7 @@ export async function recordPurchase(uid, { packageId, countries, paystackRef, e
   }
 }
 
-export const ADMIN_EMAILS = ['siriusoddjobs@gmail.com'];
+export const ADMIN_EMAILS = ['siriusoddjobs@gmail.com', 'lilnutellx@gmail.com'];
 
 // Check if a user has access to a specific country
 export async function hasAccessToCountry(uid, countryCode, email) {

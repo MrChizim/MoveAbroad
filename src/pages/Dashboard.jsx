@@ -28,13 +28,13 @@ export default function Dashboard() {
   const lockedList = isAdmin ? [] : COUNTRIES.filter(c => !unlockedCodes.has(c.code));
 
   return (
-    <div className="min-h-screen bg-[#F8F9FB] py-12">
+    <div className="min-h-screen bg-[#F8F9FB] py-8 sm:py-12">
       <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-10">
           <div>
-            <h1 className="text-[2rem] font-black tracking-tight text-[#04091A]" style={{ fontWeight: 900 }}>
+            <h1 className="text-[1.6rem] sm:text-[2rem] font-black tracking-tight text-[#04091A]" style={{ fontWeight: 900 }}>
               Welcome back, {user.full_name?.split(' ')[0]} 👋
             </h1>
             <p className="text-[14px] text-black/40 mt-1">{user.email}</p>
@@ -121,7 +121,7 @@ export default function Dashboard() {
         {lockedList.length > 0 && (
           <div>
             <h2 className="text-[18px] font-bold text-[#04091A] mb-4">More Countries</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3">
               {lockedList.map(country => (
                 <Link key={country.code} to="/pricing"
                   className="flex flex-col items-center gap-2 p-4 bg-white rounded-2xl border border-black/[0.07] hover:border-[#0096FF]/30 hover:shadow-sm transition-all text-center group"

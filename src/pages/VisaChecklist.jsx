@@ -122,7 +122,7 @@ export default function VisaChecklist() {
               <button
                 key={v.value}
                 onClick={() => setVisaType(v.value)}
-                className={`px-3 py-1.5 rounded-lg text-[12px] font-semibold transition-all whitespace-nowrap ${
+                className={`px-3 py-2 rounded-lg text-[12px] font-semibold transition-all whitespace-nowrap ${
                   visaType === v.value
                     ? 'bg-white text-[#0096FF] shadow-sm'
                     : 'text-black/40 hover:text-black/60'

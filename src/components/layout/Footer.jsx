@@ -14,7 +14,7 @@ export default function Footer() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(4,9,26,0.88) 0%, rgba(0,150,255,0.55) 100%)' }} />
-        <div className="relative max-w-[1200px] mx-auto px-6 lg:px-10 py-20 w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+        <div className="relative max-w-[1200px] mx-auto px-6 lg:px-10 py-12 sm:py-20 w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 lg:gap-10">
           <div>
             <p className="text-[11px] font-semibold tracking-[0.16em] uppercase mb-4" style={{ color: '#7DD3FC' }}>
               Start your journey
