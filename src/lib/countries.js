@@ -13,8 +13,7 @@ export const COUNTRIES = [
   { code: "CZ", name: "Czech Republic", flag: "🇨🇿", image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80" },
   { code: "PT", name: "Portugal", flag: "🇵🇹", image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=80" },
   { code: "ES", name: "Spain", flag: "🇪🇸", image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80" },
-  { code: "AE", name: "United Arab Emirates", flag: "🇦🇪", image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80" },
-  { code: "NZ", name: "New Zealand", flag: "🇳🇿", image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80" }
+{ code: "NZ", name: "New Zealand", flag: "🇳🇿", image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80" }
 ];
 
 export const PACKAGES = [
@@ -41,8 +40,8 @@ export const PACKAGES = [
     name: "All Access",
     price: 50000,
     priceDisplay: "₦50,000",
-    description: "Unlock all 16 countries — the complete toolkit",
-    countries: 16,
+    description: "Unlock all 15 countries — the complete toolkit",
+    countries: 15,
     popular: false
   }
 ];
