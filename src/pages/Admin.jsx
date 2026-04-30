@@ -40,7 +40,7 @@ export default function Admin() {
 
   const totalRevenue = purchases.reduce((sum, p) => {
     return sum + (p.packages?.reduce((s, pkg) => {
-      const price = pkg.packageId === 'single' ? 5000 : pkg.packageId === 'five_pack' ? 10000 : 30000;
+      const price = pkg.packageId === 'single' ? 10000 : pkg.packageId === 'five_pack' ? 30000 : 50000;
       return s + price;
     }, 0) || 0);
   }, 0);

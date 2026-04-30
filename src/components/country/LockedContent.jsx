@@ -17,11 +17,11 @@ export default function LockedContent({ countryCode, countryName }) {
         </p>
         <Link to={`/pricing?country=${countryCode}`}>
           <Button size="lg" className="bg-primary hover:bg-primary/90 gap-2 rounded-full px-8">
-            Unlock for ₦5,000 <ArrowRight className="w-4 h-4" />
+            Unlock for ₦10,000 <ArrowRight className="w-4 h-4" />
           </Button>
         </Link>
         <p className="text-xs text-muted-foreground mt-4">
-          Or save with our 5-country (₦10,000) or all-access (₦30,000) packs
+          Or save with our 5-country (₦30,000) or all-access (₦50,000) packs
         </p>
       </div>
     </div>
