@@ -2796,4 +2796,472 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
       ],
     },
   },
+
+  // ─────────────────────────────────────────────
+  // NETHERLANDS
+  // ─────────────────────────────────────────────
+  NL: {
+    tagline: "English-speaking tech hub in the heart of Europe — one of the most accessible EU countries for Nigerians",
+    overview: "The Netherlands is one of the best-kept secrets for Nigerians. Nearly all university programs at the master's level are taught entirely in English. Dutch companies actively recruit international talent, and the Highly Skilled Migrant visa is one of the fastest and most straightforward work permits in Europe. Amsterdam, Eindhoven, and Rotterdam are thriving international cities where English gets you everywhere. As an EU member on Schengen, a Dutch residence permit gives you freedom to travel across Europe. Many Nigerians who come for a master's stay permanently — the Netherlands has a clear path from study to work permit to 5-year permanent residency.",
+
+    stats: {
+      undergrad:  { tuition: "€2,314/yr (EEA statutory) — non-EEA typically €8,000–20,000/yr", living: "€1,000–1,400/month", processing: "4–8 weeks (MVV + residence permit)", acceptance: "Varies by program", minIELTS: "6.0–6.5 overall", currency: "EUR" },
+      masters:    { tuition: "€12,000–22,000/yr (non-EEA fee varies by university)", living: "€1,000–1,400/month", processing: "4–8 weeks (MVV + residence permit)", acceptance: "Competitive, English required", minIELTS: "6.5 overall (7.0 for top programs)", currency: "EUR" },
+      phd:        { tuition: "Fully funded — salaried position (AIO/OIO contract)", living: "€2,200–2,700/month (gross salary)", processing: "4–8 weeks after job offer", acceptance: "Very competitive globally", minIELTS: "6.5 overall", currency: "EUR" },
+      work:       { salary: "€45,000–100,000/yr depending on sector", processing: "2–5 weeks (IND fast track)", pathway: "Highly Skilled Migrant (HSM) visa — sponsor required", minIELTS: "Not required for most roles", currency: "EUR" },
+      visitor:    { fee: "€80 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
+    },
+
+    summary: {
+      undergrad: {
+        intro: "Dutch undergraduate programs are mostly taught in Dutch, which means they are not the most accessible option for Nigerians unless you plan to learn the language. However, some universities offer English-medium bachelor's programs (University of Amsterdam, Leiden, Maastricht). Non-EEA students pay a higher tuition fee — typically €8,000–20,000 per year versus the statutory EEA rate. The process starts with applying through Studielink, the Dutch centralized application portal, and then applying for an MVV (entry visa) and residence permit through IND once admitted.",
+        firstSteps: [
+          { action: "Research English-taught undergraduate programs on Studielink", detail: "Go to studielink.nl to see all Dutch university programs. Filter for English-medium bachelor's programs. Key universities with English-taught undergrad: University of Amsterdam, Leiden University, Maastricht University (Problem-Based Learning), Groningen University, Utrecht University. Check the program-specific non-EEA tuition fee on the university's website — it varies significantly." },
+          { action: "Take IELTS Academic — target 6.5 overall", detail: "Book through British Council or IDP in Lagos, Abuja, or Port Harcourt. Most Dutch bachelor's programs in English require IELTS 6.0–6.5. Some programs accept TOEFL iBT (85+). Check each program's specific requirement on the university website." },
+          { action: "Apply through Studielink (studielink.nl)", detail: "Create an account and apply to up to 4 programs. Application fee: €100 per program at most Dutch universities. You'll need: WAEC/NECO results, transcripts, IELTS certificate, passport, motivation letter, CV. Some programs require additional portfolio or entrance test. Deadlines are typically April 1 for most programs — apply by January." },
+          { action: "Once admitted: apply for MVV (Machtiging tot Voorlopig Verblijf) and residence permit through IND", detail: "Your university will act as your sponsor (referent) with IND (Dutch Immigration and Naturalisation Service). The university submits a combined MVV + residence permit application on your behalf — you pay €210 for this. Processing takes 4–8 weeks. You collect your MVV (entry visa) from the Dutch Embassy in Lagos or Abuja, travel to the Netherlands, then collect your residence permit (biometric card) within 3 days of arrival." },
+          { action: "Open a Dutch bank account and arrange accommodation before arrival", detail: "Book student accommodation through your university housing office — the Netherlands has a serious housing shortage. Apply for housing the moment you receive your admission offer. Some universities guarantee housing for international students in the first year. You will need: proof of enrollment, Dutch DigiD (digital ID) — you get this after registering with the municipality (gemeente)." },
+        ],
+        keyFacts: [
+          "Non-EEA students pay higher 'institutional' tuition — can be €8,000–20,000/yr, confirm the exact figure per program",
+          "MVV = the entry visa to travel to the Netherlands; your residence permit (verblijfsvergunning) is collected after arrival",
+          "Housing shortage is real — apply for student housing the same week as your admission offer",
+          "After 5 years of continuous legal residence, you can apply for Dutch citizenship (naturalisation)",
+          "As a student you can work 16 hours/week during semester, full-time June–August with a TWV work permit",
+        ],
+        outcome: "After your degree, you can apply for a Orientation Year permit (Zoekjaar) — 1 year to find work. If you land a job with a Dutch-registered company earning above the HSM salary threshold, you convert to a Highly Skilled Migrant permit immediately.",
+      },
+      masters: {
+        intro: "The Netherlands is the best EU country for Nigerians pursuing a master's degree. Nearly every master's program at Dutch universities is taught entirely in English. You don't need Dutch language skills at all. The country is also one of the few in the EU with a genuine post-study work pathway — the 1-year Orientation Year (Zoekjaar) permit gives you time to find a job before your student permit expires. If you get a job at a Dutch company above the HSM salary threshold, you convert straight to a Highly Skilled Migrant permit — no separate work permit required.",
+        firstSteps: [
+          { action: "Research programs — use Mastersportal.eu or university websites directly", detail: "The Netherlands has hundreds of English-taught master's programs. Start at mastersportal.eu and filter by Netherlands + English. Top targets: TU Delft (Engineering, Architecture), Eindhoven University of Technology (TU/e — Data Science, CS), University of Amsterdam (UvA — Economics, Business, Psychology), Vrije Universiteit Amsterdam (VU — Sciences, Law), Wageningen University (Life Sciences, Agriculture), Leiden University (Law, International Relations), Erasmus University Rotterdam (Business, Economics). Apply to 3–5 programs." },
+          { action: "Take IELTS Academic — target 7.0 overall (some programs accept 6.5)", detail: "Most Dutch master's programs require IELTS 6.5–7.0. TU Delft and Eindhoven require 7.0 overall with specific sub-scores. Book through British Council or IDP. TOEFL iBT 90–100 is an alternative. Take the test at least 6–8 months before your application deadline." },
+          { action: "Get your degree and transcripts officially certified and evaluated", detail: "Get your bachelor's transcripts and degree certificate officially stamped by your university's registrar. Some Dutch universities require a Nuffic Neso evaluation (Neso Nigeria is based in Lagos — check nesonaigeria.org). Nuffic is the Dutch organization for internationalization in education. The evaluation confirms your degree is equivalent to a Dutch bachelor's." },
+          { action: "Apply to programs — deadlines are typically April 1 for September intake", detail: "Apply through each university's own admissions portal (not Studielink for master's). You'll need: transcripts, degree certificate, IELTS, CV, motivation letter, 2 references. Some programs like TU Delft have earlier deadlines (January or February for competitive programs). Apply early — programs fill up." },
+          { action: "After admission: your university sponsors your combined MVV + residence permit via IND", detail: "Pay €210 for IND application (submitted by university). Collect MVV from Dutch Embassy Lagos or Abuja. Travel to the Netherlands within the MVV validity period. Register with your local municipality (gemeente) within 5 days. Collect your residence permit (biometric card) — this is your legal right-to-stay document." },
+        ],
+        keyFacts: [
+          "Tuition: €12,000–22,000/yr for non-EEA students (confirm exact institutional fee per program)",
+          "After graduation: 1-year Orientation Year permit (Zoekjaar) to find a job — no need to leave while job-hunting",
+          "If you find a job above HSM salary threshold, no separate work permit needed — direct conversion",
+          "HSM salary threshold 2024: €5,688/month gross (≈ €68,000/yr) for general roles; €4,171/month for under-30s",
+          "Orientation Year applications cost €192 and must be submitted before your student permit expires",
+        ],
+        outcome: "Masters → Orientation Year → Highly Skilled Migrant permit → after 5 years continuous residence → permanent residency (or Dutch citizenship). This path has been completed by thousands of African graduates in the Netherlands.",
+      },
+      phd: {
+        intro: "PhD positions in the Netherlands are employment contracts, not study places. You apply for a specific advertised vacancy, receive a salary (AIO/OIO contract at a Dutch university, typically €2,200–2,700/month gross), contribute to social insurance, and receive full employee benefits. You don't 'apply to a PhD program' — you apply for a specific job opening posted by a professor. This is very different from the Nigerian academic model. You are an employee of the university from day one. Tax-free PhD scholarships also exist but are less common. Find vacancies at academictransfer.nl and indeed.nl.",
+        firstSteps: [
+          { action: "Find PhD vacancies at academictransfer.nl — the main Dutch academic job portal", detail: "Create a profile at academictransfer.nl and set up job alerts in your research field. Also check: jobs.tue.nl (Eindhoven), werken.tudelft.nl (TU Delft), jobs.uva.nl (Amsterdam), vacatures.leidenuniv.nl (Leiden). A good PhD ad will specify salary (usually TVöD-equivalent), starting date, supervisor, and research project." },
+          { action: "Reach out to professors directly if you have a strong research background", detail: "Dutch professors actively recruit PhD students. Find a supervisor whose research aligns with yours, read their recent papers, and send a one-page research proposal + your CV and transcripts. Email them directly — this is common and expected. A professor's yes is the first step to a formal vacancy." },
+          { action: "Apply formally through the university HR system once you find a vacancy", detail: "The application will require: CV, research statement, copies of degrees and transcripts, two reference letters, IELTS or TOEFL scores, and sometimes a project proposal. Shortlisted candidates typically do a video interview, then an in-person (or online) presentation. Decisions take 2–6 weeks after the closing date." },
+          { action: "Once offered the position: your university sponsor submits your residence permit application to IND", detail: "The university acts as your sponsor. You don't need an MVV if your residence permit is approved from within Nigeria before travel. IND processing: typically 2–4 weeks for sponsored highly skilled migrants. You receive a single-entry visa to travel to the Netherlands, then collect your residence permit on arrival." },
+          { action: "Register with the municipality and open a Dutch bank account immediately on arrival", detail: "You must register at the gemeente (municipality) within 5 days of arrival. You'll need your passport and accommodation address. This triggers your BSN (citizen service number) which is needed for bank accounts, salary payments, and health insurance. All employees in the Netherlands are legally required to have Dutch health insurance (zorgverzekering) — your university HR will guide you." },
+        ],
+        keyFacts: [
+          "PhD = salaried employee in the Netherlands — you pay income tax and social contributions, and receive full employment rights",
+          "Salary: TVöD scale, typically €2,200–2,700/month gross in year 1, increasing annually",
+          "Contract: typically 4 years (with a go/no-go evaluation after year 1)",
+          "30% ruling: as a knowledge migrant, you may be eligible for the 30% tax ruling — up to 30% of salary tax-free for 5 years",
+          "After PhD: Orientation Year permit gives you 1 year to find a job without leaving the Netherlands",
+        ],
+        outcome: "A Dutch PhD (doctor degree) combined with 4 years of residence means you are well on the path to permanent residence (5 years required). Many PhD graduates convert directly to HSM permits when hired by Dutch companies after graduation.",
+      },
+      work: {
+        intro: "The Netherlands has one of the most efficient skilled work permit systems in Europe — the Highly Skilled Migrant (HSM) visa. If a recognized Dutch employer hires you, the entire permit process takes 2–5 weeks. The employer (who must be an IND-recognized sponsor) submits the application; you don't apply yourself. You then collect your entry visa from the Dutch Embassy in Lagos or Abuja and move. No language test required for most tech and business roles. The salary threshold (€5,688/month gross for over-30s) is real but achievable in Amsterdam's tech, finance, and consulting sectors.",
+        firstSteps: [
+          { action: "Job search — target IND-recognised sponsors (most large Dutch companies are)", detail: "Search at linkedin.com/jobs (filter: Netherlands), indeed.nl, werkenbijdutchcompanies.nl, and company career pages. Amsterdam has a dense tech ecosystem: Booking.com, Adyen, TomTom, Philips, ASML, ING, ABN AMRO. The Hague has international organisations. Rotterdam is logistics and shipping. Eindhoven is engineering and semiconductors. Check if the company is an IND-recognized sponsor — most major Dutch companies are. New or small companies may not be recognized yet." },
+          { action: "Secure a job offer with a salary at or above the HSM salary threshold", detail: "HSM salary thresholds (2024): over 30 years old: €5,688/month gross (€68,256/yr); under 30: €4,171/month gross (€50,052/yr). Reduced threshold for holders of Dutch university degree searching via Orientation Year: €2,801/month. These are minimums — most tech roles in Amsterdam pay well above this. Confirm your gross monthly salary in the offer letter." },
+          { action: "Your Dutch employer submits the HSM application to IND on your behalf", detail: "You don't apply yourself. The employer (as your sponsor) submits the application through IND's online portal. Processing time: 2–5 weeks for recognized sponsors. IND will issue an approval letter (MVV/residence permit). Your employer's HR department will handle this — ask them specifically if they have done this before. Large companies (Booking.com, ASML, Philips) have dedicated expat HR teams." },
+          { action: "Collect your MVV entry visa at the Dutch Embassy in Lagos or Abuja", detail: "With IND approval, you collect the MVV (Machtiging tot Voorlopig Verblijf — temporary residence authorisation) from the Dutch Embassy or Consulate in Lagos (Haatso Road, Victoria Island) or Abuja. Book an appointment online. Bring: IND approval letter, passport, passport photos, biometrics fee. Processing at the embassy: 1–2 weeks." },
+          { action: "Travel to the Netherlands and register with the municipality within 5 days", detail: "On arrival, register at the gemeente (municipality) of your city. This triggers your BSN (Burgerservicenummer — citizen service number), which you need for: opening a bank account, receiving salary, getting health insurance, accessing government services. Enroll in Dutch health insurance within 4 months of your start date — your employer may contribute to the premium." },
+        ],
+        keyFacts: [
+          "HSM visa threshold (2024): €5,688/month gross (over 30) or €4,171/month (under 30)",
+          "Employer must be an IND-recognized sponsor — check the IND public register at ind.nl",
+          "30% ruling: if you're transferring from outside the Netherlands, up to 30% of salary is tax-free for 5 years",
+          "Processing: 2–5 weeks from employer submission to IND approval for recognized sponsors",
+          "After 5 years of legal residence: apply for permanent residency (Verblijfsvergunning voor onbepaalde tijd)",
+        ],
+        outcome: "Netherlands → 5 years legal residence → permanent residency → optional Dutch citizenship (after 5 years as permanent resident). The Netherlands also allows dual nationality in some cases — check the Dutch government's current rules on government.nl.",
+      },
+      visitor: {
+        intro: "The Netherlands is in the Schengen Area, which means you apply for a Schengen short-stay visa (Type C) — valid for visits to all 26 Schengen countries, not just the Netherlands. You apply at the Dutch Embassy or Consulate in Nigeria, or through VFS Global as the official visa application centre. The visa allows you up to 90 days within any 180-day period across all Schengen countries. You cannot work on a visitor visa.",
+        firstSteps: [
+          { action: "Book your appointment at VFS Global Lagos or Abuja for the Netherlands Schengen visa", detail: "Go to vfsglobal.com/netherlands/nigeria. Netherlands Schengen visas for Nigerian applicants are processed through VFS Global — you do not go directly to the Dutch Embassy for tourist visas. Book online, pay the appointment fee, and attend in person with all documents. VFS Lagos is at Plot 19, Ligali Ayorinde Street, Victoria Island. VFS Abuja is at Jabi District." },
+          { action: "Prepare your Schengen visa documents", detail: "Required: valid Nigerian passport (minimum 3 months validity beyond return date, with 2 blank pages), VFS application form, 2 passport photographs (35mm × 45mm, white background), travel itinerary (flights in and out of Schengen area), accommodation proof (hotel booking or invitation letter with host's proof of residency), travel insurance (minimum €30,000 cover, valid for entire Schengen area, not just Netherlands), bank statements (6 months, showing stable funds — minimum ₦500,000 balance recommended), proof of employment or business registration, and letter from employer granting leave." },
+          { action: "Pay the Schengen visa fee", detail: "Fee: €80 for adults (approximately ₦160,000 at current rates). VFS Global service fee is additional — approximately ₦15,000. Pay online when booking your appointment. The fee is non-refundable even if the visa is denied. Children 6–12 pay €40. Children under 6 pay nothing." },
+          { action: "Attend your biometrics appointment at VFS", detail: "Bring all original documents (not just copies) to your VFS appointment. VFS will take your fingerprints and photo (biometrics). They forward your application to the Dutch Embassy for decision. Processing: 15 calendar days from the date of application (can be up to 45 days in peak travel seasons — apply 3 months before your travel date)." },
+          { action: "Track your application and collect your passport at VFS", detail: "Track your application on the VFS website with your reference number. When approved, VFS will notify you by email or SMS to collect your passport with the visa sticker inside. Check: the visa validity dates, number of entries (single or multiple), and maximum stay per entry. If denied, you receive a written explanation and can appeal or reapply." },
+        ],
+        keyFacts: [
+          "Netherlands is Schengen — your Type C visa is valid for all 26 Schengen countries, not just the Netherlands",
+          "90-day rule: you can stay maximum 90 days in any rolling 180-day window across the entire Schengen zone",
+          "Travel insurance minimum: €30,000 cover, valid for entire Schengen area — Leadway, AXA, and Allianz Nigeria sell Schengen-valid policies",
+          "VFS Global processing the application — you do NOT go directly to the Dutch Embassy for tourist visas",
+          "Apply at least 6 weeks before travel — processing is 15 days but VFS appointments can be booked out",
+        ],
+        outcome: "A Netherlands Schengen visa gives you access to visit 26 European countries — France, Germany, Italy, Spain and more — within the 90-day limit. It does not give you the right to live or work in the Netherlands.",
+      },
+    },
+
+    visa: {
+      undergrad: `**Netherlands Undergraduate Student Visa (MVV + Residence Permit)**
+
+**Who this is for**
+Nigerians accepted at a Dutch university (universiteit or hogeschool) for an English-taught bachelor's program. You must have an unconditional admission offer before any visa process begins.
+
+**The Two-Step Process**
+Unlike the UK or Canada, the Netherlands combines the entry visa (MVV) and residence permit into a single application submitted by your university. You don't apply to IND yourself.
+
+Step 1: Your university submits a combined MVV + residence permit application to IND on your behalf. You pay €210 for this. Processing: 4–8 weeks.
+Step 2: Once IND approves, you collect your MVV sticker from the Dutch Embassy in Lagos or Abuja. This is just the entry visa. Travel to the Netherlands within the MVV validity period.
+Step 3: Within 3 days of arriving in the Netherlands, register at IND's desk at the university to collect your actual residence permit (biometric card). This is your main legal document.
+
+**Tuition and Costs**
+Non-EEA students pay 'institutional' tuition rates — set by each university independently. Typical range: €8,000–20,000/yr. Some programs are cheaper (University of Groningen, Maastricht). Engineering and business programs tend to be at the higher end. Confirm the exact fee on the program page before applying.
+
+Living costs: €1,000–1,400/month in most Dutch cities. Amsterdam and Utrecht are more expensive. Eindhoven and Groningen are more affordable.
+
+**Proof of Funds**
+You must demonstrate you can cover your tuition AND living costs for at least the first year. Most universities require you to show €12,000–24,000 in accessible funds. This can be a combination of: personal bank statements, sponsor's bank statements (parent or guardian), scholarship award letter. No blocked account is required (unlike Germany) — but the funds must be demonstrably available.
+
+**Working as a Student**
+As a non-EEA student on a Dutch student residence permit, you can work:
+- 16 hours/week during the academic year (September–May)
+- Full-time during June, July, and August
+Your employer needs to apply for a TWV (work permit) for you — this is their responsibility. Some universities partner with IND to streamline this. Platform work (Deliveroo, Thuisbezorgd) and self-employment are not permitted on a student permit.
+
+**Housing Warning**
+The Netherlands has a housing crisis. Affordable student housing in Amsterdam, Utrecht, and Rotterdam is extremely scarce. Apply for university-managed housing the same week you receive your admission offer — waiting lists can be 6+ months. Consider cities with better housing availability: Groningen, Maastricht, Enschede, Tilburg.
+
+**Orientation Year After Graduation**
+After completing your bachelor's, you can apply for a 1-year Orientation Year permit (Zoekjaar — literally 'search year') to find a job. Cost: €192. You must apply before your student permit expires. If you secure a job above the HSM salary threshold, you convert directly to a Highly Skilled Migrant permit — no need to leave the Netherlands.`,
+
+      masters: `**Netherlands Master's Student Visa (MVV + Residence Permit)**
+
+**Why the Netherlands for a Master's**
+The Netherlands is the most accessible EU country for Nigerians who want to study and stay in Europe. Reasons:
+1. Almost all master's programs are taught entirely in English — no Dutch required
+2. The post-study Orientation Year permit gives you 1 year to find work after graduation
+3. Once you find a job above the HSM threshold, you stay — no separate work permit application needed
+4. 5 years of legal residence → permanent residency → optional Dutch citizenship
+
+**Program Research**
+Start at mastersportal.eu and filter: Netherlands + your subject + English. The top universities by sector:
+- Engineering / Technology: TU Delft (ranked top 20 globally), Eindhoven University of Technology (TU/e), Twente University
+- Business / Economics: Erasmus University Rotterdam (RSM), Tilburg University, Maastricht University, Amsterdam Business School
+- Computer Science / Data: University of Amsterdam (UvA), VU Amsterdam, TU Delft, TU/e
+- Life Sciences / Agriculture: Wageningen University (WUR) — top 1 in the world for agriculture
+- Law / International Relations: Leiden University, VU Amsterdam, Utrecht University
+- Social Sciences: University of Groningen, Utrecht University, Radboud University Nijmegen
+
+**Application Process**
+1. Apply directly on each university's admissions portal (not Studielink for master's)
+2. Deadlines: most programs close April 1 for September intake; competitive programs (TU Delft, WUR) close as early as January 15 — check per program
+3. Documents: bachelor's transcripts + degree certificate, IELTS/TOEFL, CV, motivation letter, 2 academic references
+4. Some programs require: Nuffic evaluation of your Nigerian degree (nesonigeria.org), GRE/GMAT for specific business/science programs
+5. Admission decisions: 4–12 weeks after complete application
+
+**Nuffic Nigeria (Neso)**
+Neso Nigeria (the Dutch organization for international education) has an office in Lagos. They can evaluate your Nigerian university degree and confirm it meets the Dutch entry requirements. Check nesonigeria.org for their services. This evaluation is required by some Dutch universities, optional at others.
+
+**MVV + Residence Permit (same as undergrad)**
+Once admitted, your university submits a combined MVV + residence permit application to IND. You pay €210. IND processes in 4–8 weeks. You collect the MVV at the Dutch Embassy Lagos or Abuja, travel to the Netherlands, and collect your residence permit (biometric card) within 3 days of arrival.
+
+**Post-Study Path**
+After your master's: apply for the 1-year Orientation Year permit (Zoekjaar) before your student permit expires. Cost: €192. This gives you 1 year inside the Netherlands to find a job. If you secure an HSM-eligible job (above salary threshold), your employer applies for your HSM permit — you stay in the Netherlands throughout. Total study-to-work timeline: 1–2 years study + 1 year Orientation Year + HSM work permit valid for 5 years.`,
+
+      phd: `**Netherlands PhD Residence Permit (Salaried Employee Route)**
+
+**PhD as Employment**
+A Dutch PhD is not a study visa — it is a work permit. You are hired as an employee (AIO — Assistent in Opleiding, or OIO — Onderzoeker in Opleiding). Your employment contract is with the university. You receive a salary subject to Dutch income tax and social insurance. You are entitled to 25 days of annual leave, sick pay, parental leave, and full social security contributions.
+
+This means: you don't go through IND as a student. You go through IND as a highly skilled knowledge migrant (kennismigrant). Your university HR submits your residence permit application.
+
+**Finding PhD Vacancies**
+The main portal is academictransfer.nl — set up job alerts in your field. Also:
+- werken.tudelft.nl (TU Delft — strongest in engineering globally)
+- jobs.tue.nl (TU/e Eindhoven — embedded systems, data science, electrical engineering)
+- jobs.uva.nl (University of Amsterdam — social sciences, AI, law)
+- vacatures.leidenuniv.nl (Leiden — biology, history, law, international relations)
+- wur.nl/en/jobs (Wageningen — food, life sciences, environment)
+- academicpositions.eu (European-wide, Netherlands posts appear here too)
+
+**Cold-Contact a Supervisor**
+Many Dutch PhD positions are never publicly advertised. A professor with funding can create a position for the right candidate. Email the professor with: a short research proposal (1 page) clearly linked to their published work, your CV (academic, max 2 pages), degree transcripts, and an honest statement of your English proficiency and availability. A positive response from a professor leads to a formal HR vacancy being created for you.
+
+**Salary and Tax**
+AIO salary scale (2024): approximately €2,770/month gross in year 1, rising to €3,548 in year 4. After Dutch income tax and social contributions, take-home is approximately €2,000–2,400/month. The **30% ruling** is available to knowledge migrants recruited from outside the Netherlands — it allows you to receive 30% of your gross salary tax-free for 5 years. Apply through your university HR in your first months; it significantly improves take-home pay.
+
+**IND Registration Process**
+Your university HR department submits your combined residence permit application and employment notification to IND simultaneously. For recognized sponsors (all Dutch universities are), IND processes in 2–5 weeks. You receive notification, travel to the Netherlands on a single-entry visa, and collect your residence permit.
+
+**Timeline to Permanent Residency**
+A 4-year Dutch PhD contract puts you 4 years into the 5-year continuous legal residence required for permanent residency. If you stay in the Netherlands for 1 more year after your PhD (on Orientation Year or HSM permit), you can apply for permanent residency.`,
+
+      work: `**Netherlands Highly Skilled Migrant (HSM) Work Permit**
+
+**How It Works**
+The Highly Skilled Migrant (Kennismigrant) permit is the main route for Nigerians with skilled job offers in the Netherlands. The employer — not you — submits the application to IND. The employer must be an IND-recognised sponsor (most large Dutch companies are — there is a public register at ind.nl). Processing: 2–5 weeks for recognised sponsors.
+
+**Salary Thresholds (2024)**
+The HSM permit requires a minimum gross salary. Thresholds are updated each January:
+- Over 30 years old: €5,688/month gross (≈ €68,256/yr)
+- Under 30 years old: €4,171/month gross (≈ €50,052/yr)
+- Recent Dutch graduates (via Orientation Year): €2,801/month gross
+- EU Blue Card: €6,245/month (alternative route for highly qualified migrants)
+
+Amsterdam's tech sector routinely pays these amounts — Booking.com, Adyen, Uber, TomTom, ASML, Philips. Finance, consulting, and engineering roles in Rotterdam and The Hague also commonly exceed the threshold.
+
+**Job Search Strategy**
+Strong sectors for Nigerian professionals in the Netherlands:
+- Technology / Software: Amsterdam has one of Europe's densest startup ecosystems. Companies: Booking.com (largest tech employer), Adyen (fintech), TomTom, IMCD, Takeaway.com, MessageBird
+- Semiconductors: ASML (Eindhoven) — world's only EUV lithography machine maker — aggressively recruits globally, pays well above HSM threshold
+- Consulting: McKinsey Amsterdam, BCG, Deloitte, PwC, KPMG all have Dutch operations with international teams
+- Finance: ING, ABN AMRO, Rabobank, NN Group all operate from Amsterdam/The Hague
+- Life Sciences / Agriculture: Wageningen, DSM, Unilever Dutch operations
+
+Key job boards: linkedin.com/jobs (Netherlands), indeed.nl, glassdoor.nl, werkenbijbooking.com (Booking.com), careers.asml.com, ij.careers.adyen.com
+
+**The 30% Ruling**
+As an HSM permit holder recruited from outside the Netherlands, you are likely eligible for the **30% ruling (30%-regeling)**. This allows your employer to pay 30% of your agreed salary as a tax-free allowance, significantly increasing your take-home pay. It lasts for 5 years and can be applied from your first payslip if requested within 4 months of your start date. Apply through your employer's payroll department — they file it on your behalf with the Dutch Tax Authority (Belastingdienst).
+
+**Sponsor Check**
+Before accepting a job offer, verify the company is on IND's public register of recognised sponsors: ind.nl → Employers → Public register. A company that is not on the register must apply to become a recognised sponsor first — this can delay your permit by 4–6 weeks. Most major Dutch companies are already registered.
+
+**Step-by-Step Permit Process**
+1. You receive a job offer with gross monthly salary specified
+2. Your employer submits the HSM application to IND (online, within 2 business days of your start date or before)
+3. IND issues approval in 2–5 weeks
+4. You receive an MVV notification — collect the entry visa from the Dutch Embassy in Lagos or Abuja
+5. Travel to the Netherlands. Register at your local gemeente within 5 days
+6. Collect your residence permit biometric card from IND (IND Desk appointment or by post)
+7. Enroll in Dutch health insurance (zorgverzekering) — mandatory by law. Your employer may contribute
+
+**Path to Permanent Residency**
+After 5 years of continuous legal residence on an HSM permit (or a combination of student + work permits), you can apply for permanent residency (verblijfsvergunning voor onbepaalde tijd). After that, permanent residents can apply for Dutch naturalisation (citizenship) after 5 years as a permanent resident, or after a shorter period in some circumstances. The Netherlands generally does not recognise dual nationality — you may need to renounce your Nigerian passport. Check the current Dutch dual nationality rules at government.nl before starting this process.`,
+
+      visitor: `**Netherlands Schengen Visitor Visa (Type C)**
+
+**What You're Applying For**
+The Netherlands is in the Schengen Area. A Dutch Schengen visa (Type C) allows you to visit all 26 Schengen countries — not just the Netherlands. You apply at VFS Global in Nigeria, not directly at the Dutch Embassy for tourist/visit visas.
+
+**90-Day Rule**
+You can stay a maximum of 90 days in any rolling 180-day period across the entire Schengen Area. This is not 90 days per country — it's 90 days total across all Schengen countries. Once you leave Schengen, the clock pauses. When you re-enter Schengen, the previous days count.
+
+Example: if you visited France for 10 days in January, then Germany for 20 days in March, you have used 30 of your 90 days. You have 60 days remaining in the current 180-day window.
+
+**Where to Apply: VFS Global Nigeria**
+All Schengen visa applications for Nigerian applicants going to the Netherlands are processed through VFS Global:
+- VFS Lagos: Plot 19, Ligali Ayorinde Street, Victoria Island, Lagos
+- VFS Abuja: Jabi District, Abuja
+Book an appointment online at vfsglobal.com/netherlands/nigeria.
+
+**Documents Required**
+- Valid Nigerian passport (minimum 6 months remaining validity beyond planned return, 2 blank pages)
+- Completed Schengen visa application form (downloaded from VFS website, signed)
+- 2 recent passport photographs (35mm × 45mm, white background, taken within the last 6 months)
+- Confirmed return flight booking (not just a quote — actual booking, refundable is fine)
+- Proof of accommodation in the Netherlands: hotel reservation, Airbnb booking, or invitation letter from a host (with copy of host's ID and proof of Dutch address)
+- Travel insurance: minimum €30,000 medical coverage, valid for all Schengen countries, covering the entire trip duration. Providers in Nigeria: Leadway Assurance (Schengen policy), AXA Mansard, Allianz Nigeria — confirm "Schengen Area" is written on the policy
+- Bank statements: 6 months of personal statements showing regular income. No specific minimum amount is stated in law, but consular officers assess whether you can cover ≈€80–100/day. Recommended minimum balance: ₦500,000–1,000,000 consistently
+- Employment letter or business documentation: if employed, a letter on company letterhead confirming your position, leave dates, and that you will return. If self-employed: CAC registration, tax clearance certificate, 6 months business account statements
+- Nigerian passport data page (all previous visas and stamps)
+
+**Visa Fee**
+€80 adult Schengen fee (non-refundable) + VFS service charge (approximately ₦12,000–15,000). Children 6–12: €40. Under 6: free. Pay online when booking VFS appointment.
+
+**Processing Time**
+Standard processing: 15 calendar days from date of application.
+Peak periods (summer, Christmas): can take up to 45 days — apply early. Apply no more than 3 months before your trip. Apply at least 6–8 weeks before travel to be safe.
+
+**Visa Types**
+- Single-entry: you can enter Schengen once
+- Double-entry: you can enter and exit twice
+- Multiple-entry: unlimited entries within the visa's validity period (harder to get on a first application)
+
+**Why Applications Are Rejected**
+Most Dutch Schengen visa refusals for Nigerians cite:
+1. Insufficient proof of funds (bank statements show no consistent income)
+2. Lack of strong ties to Nigeria (no stable employment, property, or family commitments)
+3. Travel insurance doesn't explicitly cover the Schengen Area or the full trip
+4. Unclear purpose of visit / weak itinerary
+5. Incomplete documentation
+
+Address all five before submitting. A refused visa means a record in the Schengen information system — refusals from any Schengen country affect future applications to all Schengen countries.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { month: "12 months before", task: "Research English-taught undergraduate programs at Dutch universities via studielink.nl" },
+        { month: "11 months before", task: "Take IELTS Academic — target 6.5 overall (check each program's specific requirement)" },
+        { month: "10 months before", task: "Get WAEC/degree transcripts officially certified by your institution's registrar" },
+        { month: "9–10 months before", task: "Apply to 4–6 programs through each university's admissions portal or Studielink. Deadline is typically April 1 for September intake" },
+        { month: "8–9 months before", task: "Apply for student housing the same week you receive any admission offer — housing lists are long" },
+        { month: "6–8 months before", task: "Accept your offer, pay your tuition deposit. Your university submits MVV + residence permit application to IND (€210)" },
+        { month: "4–6 months before", task: "IND processes your application (4–8 weeks). You receive MVV notification. Book embassy appointment in Lagos or Abuja to collect MVV sticker" },
+        { month: "2–4 months before", task: "Collect MVV from Dutch Embassy. Book flights within MVV validity window" },
+        { month: "Arrival week", task: "Land in the Netherlands. Register at gemeente (municipality) within 5 days. Collect residence permit within 3 days at IND desk" },
+        { month: "First month", task: "Get BSN, open Dutch bank account, enroll in student health insurance, attend university orientation" },
+      ],
+      masters: [
+        { month: "14 months before", task: "Begin researching programs on mastersportal.eu and university websites" },
+        { month: "12 months before", task: "Take IELTS Academic — target 7.0 overall (some programs accept 6.5)" },
+        { month: "10–12 months before", task: "Request official transcripts and degree certificate from your Nigerian university registrar" },
+        { month: "8–10 months before", task: "Check if any target programs require Nuffic degree evaluation — start this process if needed (nesonigeria.org, takes 4–6 weeks)" },
+        { month: "7–9 months before", task: "Apply to 3–5 programs. Deadlines: January 15 (competitive: TU Delft, WUR, Erasmus), April 1 (most others). Apply to all by January" },
+        { month: "6–8 months before", task: "Receive admission offers. Accept and pay tuition deposit immediately. University submits MVV + IND application (€210)" },
+        { month: "4–6 months before", task: "Apply for student housing immediately — do not wait. IND processes application (4–8 weeks). Collect MVV at Dutch Embassy Lagos/Abuja" },
+        { month: "2–4 months before", task: "Book flights. Arrange Dutch travel insurance. Prepare arrival funds" },
+        { month: "Arrival week", task: "Register at gemeente within 5 days. Collect residence permit at IND. Start university registration and get student card" },
+        { month: "Final semester", task: "Apply for 1-year Orientation Year permit before student permit expires. Cost: €192. Start job search in final year" },
+      ],
+      phd: [
+        { month: "Ongoing", task: "Monitor academictransfer.nl, TU Delft, TU/e, UvA, Leiden, and WUR job boards for PhD vacancies" },
+        { month: "Application", task: "Submit application with CV, research statement, transcripts, and references (2–3 weeks per vacancy)" },
+        { month: "Interview stage", task: "Video or in-person interview + presentation. Decision: 2–6 weeks after closing date" },
+        { month: "Job offer received", task: "University HR submits residence permit + employment notification to IND. Processing: 2–5 weeks" },
+        { month: "Visa collection", task: "Collect entry visa from Dutch Embassy Lagos or Abuja (book appointment in advance)" },
+        { month: "Arrival week", task: "Register at gemeente. Collect residence permit. Get BSN and open bank account" },
+        { month: "First month", task: "Apply for 30% ruling through university HR (must be within 4 months of start date). Enroll in Dutch health insurance" },
+        { month: "Year 1–4", task: "Salaried PhD position. Annual go/no-go evaluation. Access to Dutch labour rights: 25 days leave, sick pay, pension contributions" },
+        { month: "After PhD", task: "Apply for 1-year Orientation Year permit or convert directly to HSM if job offer secured. 5 years total → permanent residency" },
+      ],
+      work: [
+        { month: "Job search", task: "Target IND-recognised Dutch sponsors on LinkedIn, Indeed.nl, and company career pages. Focus on HSM-eligible salary roles" },
+        { month: "Job offer", task: "Receive written offer with gross monthly salary. Confirm company is on IND public sponsor register at ind.nl" },
+        { month: "Permit application", task: "Employer submits HSM application to IND. Processing: 2–5 weeks for recognised sponsors" },
+        { month: "IND approval", task: "Receive IND approval. Book Dutch Embassy appointment in Lagos or Abuja to collect MVV entry visa" },
+        { month: "Embassy visit", task: "Collect MVV from embassy. Allow 1–2 weeks for embassy processing. Bring IND approval letter, passport, photographs" },
+        { month: "Travel and arrival", task: "Travel to the Netherlands. Register at gemeente within 5 days of arrival" },
+        { month: "First 2 weeks", task: "Get BSN, open Dutch bank account, collect residence permit from IND. Enroll in Dutch health insurance (verplicht — mandatory)" },
+        { month: "First month", task: "Apply for 30% ruling with employer's payroll department (do this within 4 months of start date or lose eligibility)" },
+        { month: "Ongoing", task: "Renew HSM permit as needed (typically 1–5 year validity). Track towards 5-year permanent residency milestone" },
+      ],
+      visitor: [
+        { month: "8 weeks before travel", task: "Book VFS Global appointment online at vfsglobal.com/netherlands/nigeria (Lagos or Abuja)" },
+        { month: "6–7 weeks before", task: "Gather all documents: passport, bank statements (6 months), employment letter, travel insurance, hotel booking, return flight booking" },
+        { month: "5–6 weeks before", task: "Attend VFS Global appointment. Submit documents and biometrics. Pay €80 visa fee + VFS service charge" },
+        { month: "3–5 weeks before", task: "VFS forwards to Dutch Embassy. Processing: 15 calendar days standard. Track online via VFS reference number" },
+        { month: "2–3 weeks before", task: "Collect passport with visa from VFS office. Check visa dates, entries, and duration carefully" },
+        { month: "Day of travel", task: "Travel with: passport + visa sticker, travel insurance document (original or digital), return ticket, hotel booking, cash or card for stay" },
+        { month: "In the Netherlands", task: "Do not overstay your visa duration. Count your days across all Schengen countries. Keep your return flight confirmation" },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Most Dutch bachelor's programs are in Dutch — research carefully to confirm a program is English-medium before applying",
+        "Apply for student housing the day you receive your admission offer — the Netherlands has a serious housing shortage",
+        "Non-EEA tuition varies widely by program and university — Groningen and Maastricht are often cheaper than Amsterdam and Utrecht",
+        "After graduating, the 1-year Orientation Year permit (Zoekjaar) gives you time to find a job inside the Netherlands",
+        "The 30% ruling can reduce your effective tax rate significantly once you start working — apply within your first 4 months",
+        "Register with the gemeente (municipality) within 5 days of arriving — you cannot open a bank account without a BSN, and BSN comes from the gemeente",
+        "Dutch employers expect you to negotiate your salary — don't accept the first offer if it barely meets the HSM threshold",
+      ],
+      masters: [
+        "The Netherlands is Europe's most accessible master's destination for Nigerians — English required, no Dutch needed",
+        "TU Delft and Eindhoven (TU/e) have extremely strong industry connections — graduates are recruited before finishing their thesis",
+        "Wageningen University is the world's top agricultural research university — exceptional for agri-science and food technology Nigerians",
+        "Apply to programs with January or February deadlines (TU Delft, Erasmus) early — December at the latest",
+        "Nuffic Nigeria (Lagos) can evaluate your degree before you apply — worth doing if your Nigerian university is not well known internationally",
+        "The Orientation Year permit costs only €192 and keeps you legal for a full year post-graduation — always apply before your student permit expires",
+        "Amsterdam is expensive for housing — Eindhoven, Groningen, Tilburg, and Enschede are significantly more affordable and have strong universities",
+      ],
+      phd: [
+        "PhD positions in the Netherlands are employment — you are paid a full salary, receive leave, sick pay, and pension — it is not a studentship",
+        "The 30% ruling is worth thousands of euros per year — apply through university HR in your first 4 months, do not miss this window",
+        "Academictransfer.nl is the primary job portal — set up email alerts for your field and check weekly",
+        "Cold-emailing a professor with a targeted one-page research proposal works — many positions are created this way before being advertised",
+        "TU Delft and TU/e have the strongest engineering and computer science PhD programs in the Netherlands",
+        "A Dutch PhD takes 4 years — combined with a post-PhD Orientation Year, you reach the 5-year permanent residency threshold",
+        "All Dutch university staff are entitled to file a 30% ruling — it is not competitive, just paperwork. Do it early",
+      ],
+      work: [
+        "The HSM permit is one of the fastest work permits in the EU — employer-submitted, 2–5 weeks, no quota system",
+        "Verify your employer is on the IND recognised sponsor register (ind.nl) before accepting a job offer — if not, factor in 4–6 weeks extra",
+        "The 30% ruling is significant: if your salary is €80,000, you take home as if you earned €56,000 in tax — this is legal and widely used",
+        "Amsterdam's tech ecosystem (Booking.com, Adyen, ASML, TomTom) pays well above HSM thresholds and is actively international",
+        "Dutch is not required for most tech, finance, and international business roles in Amsterdam — English is the office language",
+        "ASML in Eindhoven is one of the most important technology companies in the world and actively recruits international engineers",
+        "Health insurance is mandatory by law — enroll within 4 months of arrival. Your employer may contribute to your premium",
+      ],
+      visitor: [
+        "Apply at VFS Global — not directly at the Dutch Embassy — for Schengen tourist visas as a Nigerian applicant",
+        "The 90-day Schengen rule is counted across all 26 Schengen countries combined — not per country",
+        "Your travel insurance must explicitly say 'Schengen Area' on the policy — generic travel insurance is not accepted",
+        "A strong visa application shows: consistent income, stable employment, property or family in Nigeria, and a clear reason to return",
+        "Refused Schengen visas are recorded in the Schengen information system — a refusal from any Schengen country affects all future applications",
+        "Apply 6–8 weeks before travel — VFS appointments can be booked out, and standard processing is 15 days",
+        "Multiple-entry visas are rarely granted on a first application — build a travel history over time",
+      ],
+    },
+
+    universities: {
+      undergrad: [
+        { name: "University of Amsterdam (UvA)", location: "Amsterdam, North Holland", known_for: "Liberal Arts and Sciences, Psychology, Economics, Law — large international student body, English-medium programs available", avg_tuition: "€9,900–13,000/yr (non-EEA)", acceptance: "Moderately competitive", nigerian_community: "Small but present" },
+        { name: "Maastricht University", location: "Maastricht, Limburg", known_for: "Problem-Based Learning (PBL) — highly structured group-learning method. Strong international focus, nearly all bachelor's programs are English-medium. Medicine, Law, Business.", avg_tuition: "€9,900–12,000/yr (non-EEA)", acceptance: "Moderately competitive", nigerian_community: "Small" },
+        { name: "Leiden University", location: "Leiden, South Holland", known_for: "Netherlands' oldest university (1575). Strong in Law, International Relations, Area Studies, Natural Sciences. Several English-medium bachelor's programs.", avg_tuition: "€9,900–17,000/yr (non-EEA depending on program)", acceptance: "Selective", nigerian_community: "Very small" },
+        { name: "University of Groningen (RUG)", location: "Groningen", known_for: "Strong in Sciences, Business, Law, Health Sciences. More affordable city than Amsterdam. Good English-medium bachelor's programs. Large international community.", avg_tuition: "€8,700–11,000/yr (non-EEA)", acceptance: "Moderately competitive", nigerian_community: "Very small" },
+      ],
+      masters: [
+        { name: "Delft University of Technology (TU Delft)", location: "Delft, South Holland", known_for: "Top 15 globally for Engineering and Technology. Architecture, Aerospace, Civil, Electrical, Computer Science, Industrial Design. All master's programs in English. Extremely strong industry placement.", avg_tuition: "€15,000–21,000/yr (non-EEA)", acceptance: "Very competitive globally", nigerian_community: "Very small" },
+        { name: "Eindhoven University of Technology (TU/e)", location: "Eindhoven, North Brabant", known_for: "Data Science, Computer Science, Electrical Engineering, Industrial Design. Located in Eindhoven — home of ASML, Philips, and DAF. Industry-embedded research environment. English-medium.", avg_tuition: "€15,000–20,000/yr (non-EEA)", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "Erasmus University Rotterdam (RSM)", location: "Rotterdam, South Holland", known_for: "Rotterdam School of Management (RSM) — top European business school. MSc Management, Business Administration, Finance, Econometrics. Strong finance and consulting placement.", avg_tuition: "€18,000–23,000/yr (non-EEA)", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "Wageningen University (WUR)", location: "Wageningen, Gelderland", known_for: "World's top-ranked agricultural and food science university. Food Safety, Nutrition, Environmental Sciences, Biotechnology, Animal Sciences. All master's programs in English.", avg_tuition: "€14,000–20,000/yr (non-EEA)", acceptance: "Competitive", nigerian_community: "Very small" },
+        { name: "University of Amsterdam (UvA)", location: "Amsterdam", known_for: "Economics, Business, Psychology, Law, Information Studies, Artificial Intelligence. Strong research university. Amsterdam location gives access to major company internships.", avg_tuition: "€13,000–19,000/yr (non-EEA)", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "Leiden University", location: "Leiden / The Hague", known_for: "Law, International Relations, Public Administration, Life Sciences. Governance Campus in The Hague (near international courts and organisations). Strong for law and policy careers.", avg_tuition: "€14,000–19,000/yr (non-EEA)", acceptance: "Selective", nigerian_community: "Very small" },
+      ],
+      phd: [
+        { name: "Delft University of Technology (TU Delft)", location: "Delft, South Holland", known_for: "Global top 15 for Engineering. PhD positions are salaried AIO contracts. Specialties: renewable energy, water management, robotics, computer science, aerospace.", avg_tuition: "Fully funded — salaried AIO position", acceptance: "Very competitive internationally", nigerian_community: "Very small" },
+        { name: "Eindhoven University of Technology (TU/e)", location: "Eindhoven", known_for: "Computer Science, Embedded Systems, Electrical Engineering, Mechanical Engineering, Data Science. Strong ties to ASML, Philips, and DAF — PhD students often seconded to industry.", avg_tuition: "Fully funded — salaried AIO position", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "Wageningen University (WUR)", location: "Wageningen", known_for: "World leader in food, agriculture, environmental research. Strong social sciences division. PhD positions are employment contracts.", avg_tuition: "Fully funded — salaried position", acceptance: "Competitive", nigerian_community: "Very small" },
+        { name: "University of Amsterdam (UvA)", location: "Amsterdam", known_for: "AI, Information Studies, Social Sciences, Law, Economics, Medical Sciences. Located in Amsterdam — access to the Netherlands' largest startup and corporate ecosystem.", avg_tuition: "Fully funded — salaried AIO position", acceptance: "Competitive", nigerian_community: "Very small" },
+      ],
+      work: [],
+    },
+
+    scholarships: {
+      undergrad: [
+        { name: "Holland Scholarship", amount: "€5,000 one-time (first year only)", university: "Participating Dutch universities — check list at studyinholland.nl/scholarships", deadline: "Varies by university — typically February/March for September intake. Apply through your university after admission", url: "https://www.studyinholland.nl/finances/scholarships/find-scholarships/holland-scholarship" },
+        { name: "Orange Tulip Scholarship", amount: "Varies — partial or full tuition waiver depending on participating institution", university: "Participating Dutch institutions — check per country at nesonigeria.org", deadline: "Varies — typically February/March. Apply through Nuffic/Neso Nigeria in Lagos", url: "https://www.studyinholland.nl/finances/scholarships/find-scholarships/orange-tulip-scholarship" },
+      ],
+      masters: [
+        { name: "Holland Scholarship", amount: "€5,000 one-time (towards first year tuition)", university: "Most Dutch universities at master's level — check the participating institutions list at studyinholland.nl", deadline: "Varies by university — typically February 1 for September programs. Apply through university admissions", url: "https://www.studyinholland.nl/finances/scholarships/find-scholarships/holland-scholarship" },
+        { name: "Orange Tulip Scholarship (Nigeria)", amount: "Partial tuition waivers at participating institutions — amounts vary", university: "Selected Dutch universities — Neso Nigeria (Lagos) manages applications from Nigeria", deadline: "February each year — check nesonigeria.org for current open calls", url: "https://www.nesonigeria.org/orange-tulip-scholarship/" },
+        { name: "Erasmus Mundus Joint Masters (EMJM)", amount: "€1,400/month stipend + tuition waiver + travel allowance — for non-EEA applicants", university: "Consortium of European universities including Dutch ones — check eacea.ec.europa.eu for current programs", deadline: "January–February for September start — check each EMJM program's website", url: "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en" },
+        { name: "TU Delft Excellence Scholarship", amount: "€12,000–25,000/yr depending on program — partial or full tuition", university: "TU Delft only — for top-ranked master's applicants in all TU Delft programs", deadline: "January 15 for September intake (same as TU Delft's main application deadline)", url: "https://www.tudelft.nl/en/education/practical-matters/scholarships" },
+      ],
+      phd: [
+        { name: "NWO Talent Programme (VENI/VIDI/VICI)", amount: "Full funding for postdoctoral and established researchers — not for incoming PhD students but relevant for later career", university: "All Dutch universities — applied for by your supervisor", deadline: "Rolling, announced per year at nwo.nl", url: "https://www.nwo.nl/en/talent-programme" },
+        { name: "Funded PhD positions (employment contracts)", amount: "Full salary AIO scale — approximately €2,770 gross/month in year 1", university: "All Dutch universities — posted on academictransfer.nl. This is the standard way to do a PhD in the Netherlands", deadline: "Rolling — per vacancy posting on academictransfer.nl", url: "https://www.academictransfer.com/" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Royal Netherlands Embassy Lagos / Netherlands Honorary Consulate Abuja",
+      address: "Embassy: Haatso Road 13, Victoria Island, Lagos | Consulate: Plot 975, Aminiyatou Aliyu Street, Asokoro, Abuja",
+      phone: "Tourist visa applications: VFS Global (not directly at embassy). Work/study permits: submitted by your Dutch employer/university to IND in the Netherlands",
+      note: "For Schengen tourist visas, apply through VFS Global Nigeria (vfsglobal.com/netherlands/nigeria) — not directly at the embassy. Student and work permit applications are submitted by your Dutch institution or employer directly to IND (the Dutch immigration authority) — you do not come to the embassy for these. MVV collection (for study/work) is done at the embassy or consulate after IND approval.",
+      website: "https://www.netherlandsworldwide.nl/countries/nigeria",
+      visa_apply: "https://www.netherlandsworldwide.nl/countries/nigeria/visas",
+      vfs: "https://www.vfsglobal.com/netherlands/nigeria/",
+      official_immigration: "https://ind.nl/en",
+      extra_links: [
+        { label: "IND — Dutch Immigration and Naturalisation Service", url: "https://ind.nl/en" },
+        { label: "Studielink — Dutch university application portal (undergrad)", url: "https://www.studielink.nl/" },
+        { label: "Study in Holland — Official Dutch study abroad site", url: "https://www.studyinholland.nl/" },
+        { label: "Mastersportal.eu — Search Dutch master's programs", url: "https://www.mastersportal.eu/" },
+        { label: "Academictransfer.nl — Dutch academic job and PhD vacancy board", url: "https://www.academictransfer.com/" },
+        { label: "Neso Nigeria (Lagos) — Dutch education advisory office in Nigeria", url: "https://www.nesonigeria.org/" },
+        { label: "VFS Global Netherlands — Schengen visa application for Nigerians", url: "https://www.vfsglobal.com/netherlands/nigeria/" },
+        { label: "IND Recognised Sponsors Register", url: "https://ind.nl/en/public-register-recognised-sponsors" },
+        { label: "make-it-in-the-netherlands.nl — Official work in Netherlands portal", url: "https://business.gov.nl/coming-to-the-netherlands/" },
+        { label: "Holland Scholarship — study funding information", url: "https://www.studyinholland.nl/finances/scholarships/find-scholarships/holland-scholarship" },
+      ],
+    },
+  },
+
 };
