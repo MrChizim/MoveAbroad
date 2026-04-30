@@ -2266,4 +2266,534 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
       work: [],
     },
   },
+
+  // ─────────────────────────────────────────────
+  // GERMANY
+  // ─────────────────────────────────────────────
+  DE: {
+    tagline: "Free tuition at world-class universities — the most underrated destination for Nigerian students",
+    overview: "Germany is the only major western country where most public universities charge zero tuition for international students — including Nigerians. You pay a semester contribution of €100–400 that includes a public transport pass. German universities are globally ranked, research-intensive, and produce graduates who are highly employable across Europe. The main barrier is language: most undergraduate programs are in German, though English-taught masters programs are growing rapidly. For Nigerians who invest 6–12 months learning German, or who apply to English-taught masters, Germany offers an extraordinary deal: world-class education, low cost of living outside Munich, and a clear path to an EU work permit and eventually permanent residence.",
+
+    stats: {
+      undergrad:  { tuition: "€0 (public unis) + €200–400/semester contribution", living: "€700–1,000/month", processing: "2–3 months (incl. blocked account)", acceptance: "Varies by program", minIELTS: "German B2/C1 or IELTS 6.0+ (English programs)", currency: "EUR" },
+      masters:    { tuition: "€0 (public unis) + €200–400/semester contribution", living: "€750–1,100/month", processing: "6–10 weeks", acceptance: "Varies by program", minIELTS: "IELTS 6.0–7.0 (English programs)", currency: "EUR" },
+      phd:        { tuition: "FREE — often salaried (TVöD scale)", living: "€1,200–2,000/month (salary or stipend)", processing: "6–10 weeks", acceptance: "Very competitive", minIELTS: "Set by supervisor", currency: "EUR" },
+      work:       { salary: "€35,000–70,000/yr", processing: "1–3 months", pathway: "EU Blue Card / Skilled Worker Visa", minIELTS: "B1–B2 German or English role", currency: "EUR" },
+      visitor:    { fee: "€80 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
+    },
+
+    summary: {
+      undergrad: {
+        intro: "German public universities charge no tuition for international students — including Nigerians. You pay only a semester contribution of €200–400 which usually includes a public transport pass. Most undergraduate programs are taught in German, so the main requirement before applying is reaching German B2 or C1 level. The process runs through a portal called uni-assist, and you must open a blocked account (Sperrkonto) of €11,208 before your visa is issued.",
+        firstSteps: [
+          { action: "Start learning German immediately — B2 is the minimum, C1 is better", detail: "Most German undergraduate programs require B2 or C1 level German. This takes 6–12 months of consistent study. Enrol at Goethe-Institut Lagos (Goethe-Institut Nigeria, House 10, Udi Close, off Bowery Crescent, Victoria Island) or study online via DeutschAkademie, Lingoda, or Deutsche Welle's free courses at dw.com/en/learn-german. The TestDaF or DSH exam is what universities require — take it after B2." },
+          { action: "Research programs at hochschulstart.de, daad.de, and each university's own site", detail: "Use the DAAD database at daad.de/en/study-and-research-in-germany/studying-in-germany/study-search to find English and German-taught programs. Public universities are free — private universities charge fees. Shortlist 5–8 programs. Check each university's specific requirements: some use uni-assist, others have their own portals." },
+          { action: "Apply through uni-assist (most public universities use this)", detail: "uni-assist.de is the central application portal for most German public universities. Create an account, submit your documents (secondary school certificate, transcripts, German or English test result, passport). Pay the uni-assist fee (€75 for the first university, €30 for each additional). Some universities like TU Munich and LMU have their own portals — check each school's admissions page." },
+          { action: "Open your blocked account (Sperrkonto) — €11,208", detail: "Once admitted, you must deposit €11,208 into a German blocked account before applying for your visa. This money is NOT lost — it is released to you in monthly payments of €934 after you arrive in Germany. Open with Deutsche Bank, Fintiba (fintiba.com), Expatrio (expatrio.com), or Coracle — all accept applications from Nigeria online. Takes 1–3 weeks. You receive a certificate to include in your visa application." },
+          { action: "Apply for a German Student Visa at the German Embassy Abuja or Consulate Lagos", detail: "Visa fee: €75. Documents: university admission letter, Sperrkonto certificate, German/English test results, valid passport, academic certificates (secondary and any university), financial evidence, health insurance for Germany. Book your appointment early — slots fill weeks in advance at the German Embassy (Nile House, 9 Alvan Ikoku Street, Maitama, Abuja) or German Consulate General Lagos." },
+        ],
+        keyFacts: [
+          "Public university tuition is FREE — the €200–400 semester contribution covers admin and often a public transport pass",
+          "Blocked account (Sperrkonto): €11,208 deposited once, released to you at €934/month — it is savings, not a fee",
+          "Most undergraduate programs require German B2/C1 — plan 6–12 months of language study before applying",
+          "Germany allows 120 full days or 240 half days of work per year alongside studies",
+          "After graduation: 18-month job-seeking visa to find employment in Germany",
+        ],
+        outcome: "German degree → 18-month job-seeking visa → EU Blue Card or Skilled Worker Visa → 21–33 months to permanent residence (fast-tracked if B1 German and integrated) → EU citizenship after 8 years (5 with special integration).",
+      },
+      masters: {
+        intro: "Germany has the largest number of English-taught masters programs in Europe outside the UK — and almost all of them are free at public universities. This is the most realistic path for Nigerians who want a German education without learning German first. You need IELTS 6.0–7.0, a strong bachelor's degree, and the €11,208 blocked account. After graduating, you get an 18-month job-seeking visa to find work in Germany's strong engineering, tech, and healthcare job market.",
+        firstSteps: [
+          { action: "Search English-taught programs at daad.de/en — filter by English and Masters", detail: "The DAAD database lists all English-taught programs at German universities. Use daad.de/en/study-and-research-in-germany/studying-in-germany/study-search. Filter: language = English, degree = Masters. Top programs in engineering, computer science, business, and natural sciences are available at TU Munich, RWTH Aachen, TU Berlin, Heidelberg, and others. Read each program's specific admission requirements." },
+          { action: "Take IELTS Academic — target 6.5 overall (most programs accept 6.0–7.0)", detail: "English-taught German programs typically accept IELTS Academic 6.0–7.0 depending on the program. Book at British Council or IDP in Lagos, Abuja, or Port Harcourt. Some programs also accept TOEFL iBT (target 80–100). Check each specific program's language requirement." },
+          { action: "Apply directly through each university or via uni-assist", detail: "Some universities (TU Munich, LMU) have their own application portals. Most others use uni-assist.de. You will need: your bachelor's degree certificate and transcripts (with certified English or German translation), IELTS result, CV, motivation letter (1–2 pages explaining your background and why this program), and sometimes reference letters. Apply to 4–6 programs." },
+          { action: "Open your Sperrkonto — deposit €11,208", detail: "Use Fintiba, Expatrio, or Deutsche Bank. Apply online from Nigeria. Takes 1–3 weeks. Transfer €11,208 via international wire. You receive a certificate. The money is released to you in monthly instalments of €934 once you arrive and activate the account in Germany." },
+          { action: "Apply for Student Visa at the German Embassy Abuja or Consulate Lagos — book early", detail: "Visa fee: €75. Book your appointment as soon as you have your admission letter — slots at the German Embassy fill 4–8 weeks in advance. Bring: admission letter, Sperrkonto certificate, IELTS result, bachelor's degree and transcripts (with certified translations), valid passport, biometric photo, health insurance proof." },
+        ],
+        keyFacts: [
+          "Germany has 1,800+ English-taught masters programs at public universities — most are free",
+          "€11,208 Sperrkonto is refunded to you at €934/month — it is proof of funds, not a fee",
+          "After masters: 18-month job-seeking visa — you can legally stay and work (20 hours/week) while job hunting",
+          "EU Blue Card requires a job offer of €45,300/yr+ (€35,300 for shortage occupations — engineers, doctors, IT) — verify at bamf.de",
+          "Germany has a critical shortage of engineers, software developers, nurses, and doctors — Nigerian professionals in these fields are in demand",
+        ],
+        outcome: "Masters graduation → 18-month job-seeking visa → EU Blue Card or Skilled Worker Visa → 21 months to permanent residence (with B1 German) → settled in the EU.",
+      },
+      phd: {
+        intro: "German PhDs come in two forms: salaried research positions (wissenschaftlicher Mitarbeiter) where you are paid €1,500–2,200/month net as a university employee, and stipend-funded positions through DAAD or other foundations. The salaried route is most common and most desirable. You apply by contacting professors directly and responding to advertised positions — not through a central admissions process.",
+        firstSteps: [
+          { action: "Search for advertised PhD positions at academics.de, research-in-germany.org, and university job boards", detail: "academics.de lists positions across all German universities. research-in-germany.org (run by DAAD) also lists funded positions. Each university also posts positions on their own Stellenportal (jobs board). Set email alerts. Also contact professors directly whose research matches your area — this is accepted practice in Germany." },
+          { action: "Apply with a focused research proposal and tailored cover letter", detail: "German PhD applications need: a research proposal (2–5 pages describing your question, methodology, and how it fits the group's work), academic CV with all publications and research experience, university transcripts and degree, 2–3 reference letters from supervisors, IELTS or proof of English proficiency. German language ability is a bonus but not required for many research positions — especially in STEM fields." },
+          { action: "Receive and review your employment contract or stipend offer", detail: "Salaried positions are TVöD E13 scale (approximately 50% position) — currently €1,500–2,200/month net depending on state. This includes social insurance, health coverage, and pension contributions. Stipends (from DAAD, DFG, Humboldt) are approximately €1,200–1,500/month. Employment contracts are strongly preferable — they come with full social security and count as qualified work experience for residence permits." },
+          { action: "Apply for German National Visa (D visa) for research/employment at the German Embassy", detail: "Use the 'Researcher' or 'Employment' visa category — not the student visa. You need your employment contract or stipend letter, admission to the doctoral program (Immatrikulationsbescheinigung), valid passport, and financial evidence (if stipend-funded). Visa fee: €75. Processing: 4–8 weeks." },
+        ],
+        keyFacts: [
+          "Salaried PhD positions (wissenschaftlicher Mitarbeiter) pay approximately €1,500–2,200/month net + full social insurance",
+          "No tuition for doctoral students in Germany — you pay only the semester contribution",
+          "DAAD GSSP and Helmholtz Association offer fully-funded PhD positions open to Nigerians",
+          "After PhD: 18-month job-seeking visa, then EU Blue Card or Skilled Worker Visa",
+          "German PhD employment counts fully toward the 21-month fast-track to permanent residence",
+        ],
+        outcome: "PhD (salaried) → counted as skilled employment → EU Blue Card → 21 months to permanent residence with B1 German → EU citizenship pathway.",
+      },
+      work: {
+        intro: "Germany actively recruits skilled workers from outside the EU through the Skilled Worker Immigration Act (Fachkräfteeinwanderungsgesetz). Engineers, IT professionals, nurses, doctors, and tradespeople from Nigeria are among the profiles Germany specifically needs. You need either your Nigerian qualification recognised by anabin.kmk.org, or a German degree. The EU Blue Card is the fastest route for degree holders with a qualifying salary offer.",
+        firstSteps: [
+          { action: "Check if your Nigerian qualification is recognised using anabin.kmk.org", detail: "The anabin database lists Nigerian universities and degrees by recognition status: H+ (fully recognised), H (recognised with conditions), H- (not recognised). University of Lagos, Obafemi Awolowo, University of Nigeria Nsukka, Ahmadu Bello — most top Nigerian universities have H+ or H recognition. If your degree is listed H+, you can apply directly for the EU Blue Card. If H-, you may need an equivalency assessment from anabin." },
+          { action: "Get a job offer from a German employer paying at least €45,300/year (€35,300 for shortage occupations)", detail: "EU Blue Card salary thresholds: general = €45,300/year; shortage occupations (engineers, IT, doctors, nurses, scientists) = €35,300/year. Search: make-it-in-germany.com (official German government recruitment portal), LinkedIn Germany, StepStone.de, XING (Germany's main professional network). The job offer must be for a role matching your qualification level." },
+          { action: "Apply for EU Blue Card or Skilled Worker Visa at the German Embassy Abuja", detail: "EU Blue Card requires: job offer letter with salary confirmation, recognised degree certificate (or German degree), valid passport, biometric photos, proof of health insurance. Visa fee: €75. Processing: 4–8 weeks. You can also enter Germany on a 6-month job-seeking visa if you have a German degree or recognised qualification — then apply for the Blue Card from within Germany." },
+          { action: "Arrive in Germany and register at your local Einwohnermeldeamt within 2 weeks", detail: "Registration (Anmeldung) at your local residents' registration office is mandatory within 14 days of arrival. Bring your passport and rental contract (Mietvertrag). You receive an Anmeldebestätigung (registration certificate). This triggers your tax ID (Steueridentifikationsnummer) being mailed to your registered address — essential for payroll." },
+        ],
+        keyFacts: [
+          "EU Blue Card is valid for 4 years and leads to permanent residence in 21 months (with B1 German) or 33 months without",
+          "Germany has a 6-month job-seeking visa for holders of recognised degrees — allows legal residence while job hunting",
+          "make-it-in-germany.com is the official German government portal for international skilled worker recruitment",
+          "Nurses and doctors need qualification recognition from the Landesbehörde of the state you plan to work in — takes 3–12 months",
+          "German language B1 fast-tracks permanent residence from 33 months to 21 months — learn German from day one",
+        ],
+        outcome: "EU Blue Card → 21 months (B1 German) or 33 months (without) to permanent residence → German citizenship after 8 years total residence (5 with special integration track).",
+      },
+      visitor: {
+        intro: "Germany is in the Schengen Area. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit Germany. This single visa covers all 26 Schengen countries for up to 90 days in any 180-day period. German Schengen visa applications from Nigeria are processed at the German Embassy in Abuja and the German Consulate General in Lagos. Processing is typically 15 calendar days.",
+        firstSteps: [
+          { action: "Book your appointment at the German Embassy (Abuja) or Consulate General (Lagos)", detail: "Lagos Consulate General: 15 Walter Carrington Crescent, Victoria Island. Abuja Embassy: Nile House, 9 Alvan Ikoku Street, Maitama, Abuja. Book online at the embassy's appointment portal (termine.diplo.de for Abuja). Slots fill fast — book 4–6 weeks before your planned travel date." },
+          { action: "Gather your documents — employment letter and bank statements are the core", detail: "Employment letter on company letterhead: your name, role, salary, approved leave dates, return-to-work confirmation signed by HR. Bank statements: 3–6 months of stable funds — rough minimum €100/day of stay (€1,400 for 14 days). If a German host is sponsoring you, include their Verpflichtungserklärung (formal sponsorship declaration from the local German Ausländerbehörde) plus a copy of their German residence or citizenship document." },
+          { action: "Buy Schengen travel insurance — mandatory", detail: "Minimum €30,000 coverage across all Schengen countries for the full duration of your trip. Buy from a reputable provider in Nigeria (AXA, Leadway, etc.) or through the embassy's recommended providers. The certificate must clearly state Schengen coverage with dates matching your travel." },
+          { action: "Submit your full application at your appointment", detail: "Bring: completed application form (filled at home from the embassy website), valid Nigerian passport (6 months validity beyond return date), 2 recent passport photos (35x45mm, white background), bank statements, employment letter, travel insurance certificate, hotel bookings or host invitation, return flight booking (refundable is fine), and visa fee €80. Biometrics are taken at the appointment." },
+        ],
+        keyFacts: [
+          "German Embassy Abuja: Nile House, 9 Alvan Ikoku Street, Maitama — book at termine.diplo.de",
+          "German Consulate Lagos: 15 Walter Carrington Crescent, Victoria Island",
+          "Schengen visa = 26 countries, 90 days per 180-day window — one visa for all of Europe",
+          "A Verpflichtungserklärung from a German host (issued by the local Ausländerbehörde) significantly strengthens your application if visiting family",
+          "Previous US, UK, or Schengen visas in your passport are a major advantage",
+        ],
+        outcome: "Schengen short-stay visa allows up to 90 days across all 26 Schengen countries. Cannot be extended inside the Schengen area. Multiple-entry Schengen visas are available if your travel history and purpose support it.",
+      },
+    },
+
+    visa: {
+      undergrad: `**German Student Visa — Undergraduate**
+
+Germany does not issue a standard "student visa" — it issues a National Visa (D visa) for the purpose of study. This is applied for at the German Embassy in Abuja or the German Consulate General in Lagos before you travel.
+
+**Step 1 — German language: the first requirement**
+
+Most German undergraduate programs are taught entirely in German and require B2 or C1 level proficiency. This is tested through TestDaF (Test Deutsch als Fremdsprache) or DSH (Deutsche Sprachprüfung für den Hochschulzugang). Both tests are accepted by German universities.
+
+Where to study in Nigeria:
+• Goethe-Institut Nigeria — the official German cultural institute. Lagos: House 10, Udi Close, off Bowery Crescent, Victoria Island. They run German courses from A1 to C1 and administer official exams. This is the most reliable option.
+• Deutsche Welle (dw.com/learn-german) — free online German courses at all levels. Supplement with Goethe-Institut.
+• Lingoda, italki, and DeutschAkademie — online platforms with German tutors and structured courses.
+
+The TestDaF examination is divided into four sections: reading, listening, writing, and speaking. Each section is scored TDN 3–5. Most universities require TDN 4 in all four sections (equivalent to roughly B2–C1). Some universities also accept Goethe-Zertifikat B2 or C1. Check each specific program's requirements.
+
+Plan 8–12 months of intensive study to reach B2 from scratch, or 4–6 months if you already have some German background.
+
+**Step 2 — Choose your program and apply**
+
+German universities use two main application channels:
+
+uni-assist (uni-assist.de): The central application portal for most German public universities. Create an account, upload your documents (WAEC certificate and transcripts, secondary school leaving certificate, German test result, passport copy). Pay the application fee: €75 for your first application, €30 for each additional university. Most universities have an application deadline of January 15 for summer semester (April start) and July 15 for winter semester (October start) — but check each school's specific deadline.
+
+Direct application portals: TU Munich (apply.tum.de), LMU Munich, and some other universities have their own systems separate from uni-assist. Check each school's admissions page.
+
+Documents you will need for your application:
+• WAEC/NECO certificate — certified copy
+• Secondary school transcripts — certified by your school's registrar
+• Proof of German language proficiency (TestDaF or DSH result)
+• Passport copy
+• Motivation letter (some programs require this — 1 page explaining why you want to study this subject in Germany)
+
+**Step 3 — Receive your admission letter (Zulassungsbescheid)**
+
+When a university admits you, they send a Zulassungsbescheid. This is your official admission letter. It contains: the program name, start date, and any conditions. If your admission is conditional (e.g., you must submit additional documents), complete the conditions immediately and get your unconditional admission letter.
+
+**Step 4 — Open your blocked account (Sperrkonto)**
+
+Before applying for your visa, you must deposit €11,208 into a German blocked account (Sperrkonto). This amount represents one year of living costs (€934/month × 12) as required by German immigration law.
+
+This is NOT a fee. The money stays in a German bank account in your name and is released to you in monthly payments of €934 once you arrive in Germany and activate the account.
+
+Where to open a Sperrkonto from Nigeria:
+• Fintiba (fintiba.com) — most popular among international students. Online process, takes about 1 week. Partners with Deutsche Bank.
+• Expatrio (expatrio.com) — alternative to Fintiba. Also offers health insurance bundles.
+• Coracle (mycoracle.com) — another option.
+• Deutsche Bank (db.com) — more traditional process but works directly with the bank.
+
+Process: apply online, transfer €11,208 from Nigeria via SWIFT transfer, receive your Sperrkonto certificate. The certificate is what you submit with your visa application.
+
+**Step 5 — Get German health insurance**
+
+Germany requires proof of health insurance for your visa application. For students, the standard option is statutory health insurance (gesetzliche Krankenversicherung) through providers like TK (Techniker Krankenkasse), AOK, or Barmer. Student contribution is approximately €120–130/month. You can usually arrange this before arriving through an online application, or arrange a provisional coverage letter to include with your visa application.
+
+**Step 6 — Apply for your Student Visa**
+
+Book your appointment at the German Embassy in Abuja (Nile House, 9 Alvan Ikoku Street, Maitama) or the German Consulate General in Lagos (15 Walter Carrington Crescent, Victoria Island). Book early — appointments fill 4–8 weeks in advance. The booking system for Abuja is at termine.diplo.de.
+
+Visa application fee: €75. Documents to bring:
+• Valid Nigerian passport (must cover your full study period)
+• Completed visa application form (download from the embassy website)
+• Biometric passport photograph (35x45mm, white background)
+• Admission letter (Zulassungsbescheid) from your German university
+• Sperrkonto certificate showing €11,208 blocked
+• German language test result (TestDaF or DSH)
+• WAEC certificate and school transcripts (certified copies with certified translations into German if required — check embassy requirements)
+• Health insurance proof or coverage letter
+• Proof of accommodation in Germany (university dormitory confirmation, or a signed rental agreement, or a host's written confirmation of accommodation)
+• CV
+
+Processing time: approximately 4–8 weeks. You will be notified by email when your passport is ready for collection. Only book flights after your visa is approved.
+
+**When you arrive in Germany**
+
+Within two weeks of arrival:
+1. Register at your local Einwohnermeldeamt (residents' registration office). Bring passport and your rental agreement or host's address confirmation. You receive an Anmeldebestätigung — keep this, you need it for almost everything.
+2. Activate your Sperrkonto at Fintiba or your bank's branch — your monthly €934 payments start immediately.
+3. Enrol at the university and pay your semester contribution (€200–400).
+4. Get a German SIM card (Vodafone, Telekom, O2 — available at any electronics store).
+5. Open a German bank account (N26 and DKB both open accounts online without requiring a physical appointment — ideal for new arrivals).`,
+
+      masters: `**German Student Visa — Masters**
+
+Germany's public universities charge no tuition for masters programs — including English-taught ones. You pay a semester contribution of €200–400 which typically includes a public transport pass. This section covers the process for English-taught programs specifically, as these are the most accessible for Nigerians who do not yet speak German.
+
+**Step 1 — Find English-taught programs**
+
+Use the DAAD database at daad.de/en/study-and-research-in-germany/studying-in-germany/study-search. Filter: Language = English, Degree = Master. The results include programs at public universities across Germany — engineering, computer science, business, environmental sciences, public health, economics, and more. Many are at world-ranked universities.
+
+Strong options for English-taught masters in Germany:
+• TU Munich (Technical University of Munich) — Engineering, Computer Science, Data Science, Finance, Management. Rankings: consistently top 50 globally.
+• RWTH Aachen — Engineering (especially Mechanical and Electrical). Germany's premier engineering university.
+• TU Berlin — Engineering, Computer Science, Urban Planning. Strong in sustainable technologies.
+• Heidelberg University — Life Sciences, Natural Sciences, Public Health.
+• University of Bonn — Economics, Agricultural Sciences, Mathematics.
+• Freie Universität Berlin / Humboldt University — Social Sciences, Humanities, Law.
+
+**Step 2 — Prepare your application documents**
+
+What you need for most English-taught masters applications:
+• Bachelor's degree certificate and all semester transcripts — certified copies. Many programs require a certified English translation if your degree is in another language. Nigerian degrees are typically in English so this is usually not needed.
+• IELTS Academic score — most programs require 6.0–7.0 overall. Check each program specifically. Some accept TOEFL iBT (score 80–100 typically).
+• Motivation letter (Motivationsschreiben) — 1–2 pages. Explain your academic background, your specific interest in this program (name specific modules or research groups), and your professional goals after graduating. This is read carefully — generic letters are rejected.
+• CV (Lebenslauf) — European format, 1–2 pages. No photo required (though it is normal in Germany). List your education, work experience, research experience, publications, and relevant activities in reverse chronological order.
+• Reference letters — some programs require 1–2 academic reference letters. These should be from university lecturers who supervised your thesis or research.
+• Sample of academic work — some programs, especially in research-heavy fields, request a writing sample or your undergraduate thesis abstract.
+
+**Step 3 — Submit through uni-assist or the university's own portal**
+
+Most German public universities for international students use uni-assist.de. Create an account, upload your documents, pay the fee (€75 first application, €30 each additional), and submit by the deadline. Typical deadlines: July 15 for winter semester (October start), January 15 for summer semester (April start). Some popular programs close earlier — check each one individually.
+
+Universities with their own portals (not uni-assist): TU Munich uses apply.tum.de. LMU Munich uses lmu.de/en/study/all-degrees-and-programs/application-and-enrollment. Check before assuming uni-assist applies.
+
+**Step 4 — Open your Sperrkonto — €11,208**
+
+Same process as undergraduate. Use Fintiba, Expatrio, or Coracle — all accept applications from Nigeria online. Transfer €11,208 via international wire transfer. Receive your Sperrkonto certificate within 1–3 weeks. This certificate is required for your visa application. The money is released back to you in monthly instalments of €934 after you arrive in Germany and activate the account.
+
+**Step 5 — Apply for Student Visa**
+
+Book your appointment at the German Embassy Abuja (termine.diplo.de) or the German Consulate General Lagos (15 Walter Carrington Crescent, Victoria Island). Book 4–8 weeks before you need the visa. Visa fee: €75.
+
+Bring to your appointment:
+• Valid Nigerian passport
+• Admission letter from the German university
+• Sperrkonto certificate (€11,208 blocked)
+• IELTS result (or TOEFL)
+• Bachelor's degree and transcripts (certified copies — German translation not typically required for English documents)
+• Health insurance (TK, AOK, or Barmer student coverage — arrange online before arriving)
+• Proof of accommodation (university dormitory confirmation or signed rental agreement)
+• Biometric passport photo
+• Completed visa application form
+
+Processing time: 4–8 weeks. Do not book flights until approved.
+
+**After arriving — 18-month job-seeking visa**
+
+After completing your masters in Germany, you automatically qualify for an 18-month job-seeking visa (Aufenthaltserlaubnis zur Arbeitssuche). You can stay in Germany legally for 18 months and work up to 20 hours per week while searching for a job that matches your qualification. Once you receive a qualifying job offer (EU Blue Card threshold: €45,300/year general, €35,300 for shortage occupations), apply for the EU Blue Card from within Germany. You do not need to return to Nigeria.`,
+
+      phd: `**German PhD — Research Position or Stipend**
+
+Germany offers two main PhD routes: salaried research positions and stipend-funded positions. The salaried route is generally better — you are a university employee with full social insurance, pension, and employment rights.
+
+**Salaried research positions (wissenschaftlicher Mitarbeiter)**
+
+These are advertised positions at German universities and research institutes. You apply like a job application. The contract is typically 0.5 TVöD E13 (50% of full salary) — currently approximately €1,700–2,200/month net, depending on your state and experience level. Your tuition is waived. You contribute to the German pension system, have full health insurance through your employment, and earn 28+ days of annual leave.
+
+Where to find positions:
+• academics.de — Germany's main academic job board. Set email alerts for "PhD" and "Doktorand" in your field.
+• research-in-germany.org — DAAD's portal for international researchers. Lists funded PhD positions across all German research organisations.
+• EURAXESS (euraxess.ec.europa.eu) — EU-wide research jobs including Germany.
+• Each university's own Stellenportal (jobs page). For example: jobs.tum.de, karriere.uni-heidelberg.de.
+• Helmholtz Association (helmholtz.de) — Germany's largest research organisation with 18 centres. Frequently hires international PhD students.
+• Max Planck Society (mpg.de) — elite research institutes. Impeccable reputation. Regularly advertise funded PhD positions.
+
+**Stipend-funded PhDs (DAAD and other foundations)**
+
+• DAAD Research Grants (daad.de/en/study-and-research-in-germany/scholarships) — DAAD offers several PhD-related scholarships for Nigerian students. Check daad.de for current calls — they change annually.
+• Konrad-Adenauer-Stiftung, Friedrich-Ebert-Stiftung, Heinrich-Böll-Stiftung — German political foundations that offer PhD stipends (€1,200–1,500/month) to international doctoral candidates. Applications are highly competitive but open to Nigerians. Each foundation has its own application process and political/academic focus area.
+• Humboldt Research Fellowship — for postdoctoral researchers specifically.
+
+**Applying directly to professors**
+
+Emailing professors directly is accepted and expected in Germany — especially in engineering, natural sciences, and computer science. Write a short, specific email (150–200 words): reference one specific paper or project they published, explain your relevant background, attach your CV and a brief research statement, and ask if they have funded positions or can supervise you. A professor who responds positively will often either create a position for you or point you toward a funded call.
+
+**The visa — National Visa (D) for Research**
+
+Apply at the German Embassy Abuja or Consulate Lagos. Visa category: "Research" or "Employment" (for salaried positions) or "Study" (for stipend-funded enrolled students). Visa fee: €75.
+
+Documents needed:
+• Employment contract or stipend award letter
+• Acceptance letter from the doctoral program (Immatrikulationsbescheinigung — proof of enrolment)
+• Your valid Nigerian passport
+• University degree certificates and transcripts
+• 2 biometric passport photographs
+• Health insurance proof (covered by your employment contract for salaried positions)
+• For stipend positions: proof of stipend amount and financial coverage
+
+Processing: 4–8 weeks. Book appointments early.
+
+**Your first month in Germany**
+
+Register at the Einwohnermeldeamt within 14 days of arrival. Your tax ID (Steueridentifikationsnummer) arrives by post within 2–4 weeks — give it to your university's HR department immediately so payroll can be set up. Enrol in SFI-equivalent German classes (Volkshochschule or university German courses) even if your work is in English — German B1 cuts your path to permanent residence from 33 months to 21 months.`,
+
+      work: `**Working in Germany as a Nigerian — EU Blue Card and Skilled Worker Visa**
+
+Germany's 2023 Skilled Worker Immigration Act (Fachkräfteeinwanderungsgesetz) is one of the most progressive skilled worker laws in the EU. It specifically expands Germany's ability to recruit non-EU professionals, including Nigerians. The main routes are the EU Blue Card (for degree holders with a qualifying salary) and the Skilled Worker Visa.
+
+**Step 1 — Check if your Nigerian degree is recognised**
+
+Go to anabin.kmk.org — the German database of foreign qualifications. Search for your Nigerian university and degree. Results:
+• H+ : fully recognised — you can apply directly for EU Blue Card or Skilled Worker Visa
+• H: recognised with conditions — you may need additional documentation
+• H-: not recognised — you need to apply for an equivalency assessment through the Central Office for Foreign Education (KMK)
+
+Major Nigerian universities with H+ recognition: University of Lagos, Obafemi Awolowo University, University of Nigeria Nsukka, Ahmadu Bello University, University of Ibadan, University of Benin, and others. Check your specific university and degree type.
+
+If your qualification is not recognised or only partially recognised, apply for a formal equivalency assessment at anabin.kmk.org/kontakt. This takes 3–6 months. You can also enter Germany on a 6-month Recognition Visa (Anerkennungsvisum) to pursue recognition from within Germany — this visa allows you to work up to 20 hours/week during the process.
+
+**Step 2 — Search for jobs on German platforms**
+
+make-it-in-germany.com: Germany's official government portal for international skilled workers. Job listings, information on recognition, and visa guidance all in one place. Start here.
+
+LinkedIn Germany: Set your location to Germany and turn on Open to Work. German tech companies, engineering firms, and healthcare employers actively search LinkedIn. English profile is fine for international companies.
+
+StepStone.de: Germany's largest general job board. Most German employers post here.
+
+XING: Germany's professional network — similar to LinkedIn but more commonly used for mid-size German companies (Mittelstand). Create a XING profile alongside LinkedIn.
+
+Indeed.de: Wide coverage across all sectors.
+
+Specific sectors where Nigerians are in demand:
+• Information Technology: software engineers, data scientists, cloud architects. Germany has a shortage of 200,000+ IT workers. Companies like SAP, Siemens, Deutsche Telekom, Zalando, N26 regularly hire internationally.
+• Engineering: mechanical, electrical, civil, automotive. RWTH Aachen and TU Munich alumni networks include many Nigerians in engineering roles at Bosch, BMW, Volkswagen, BASF.
+• Healthcare: Germany needs 150,000 more nurses by 2030. Nigerian nurses and doctors can qualify — though it requires qualification recognition from your target state's Landesbehörde (state health authority).
+• Finance and Accounting: Frankfurt is the EU's financial capital post-Brexit. CFA, ACCA, or ICAN-qualified Nigerians find opportunities at Deutsche Bank, Commerzbank, and investment firms.
+
+**Step 3 — Get a job offer and apply for the EU Blue Card**
+
+EU Blue Card salary requirements (2024 — verify at bamf.de as these update):
+• General threshold: €45,300/year gross
+• Shortage occupations (IT, engineering, natural sciences, doctors, nurses): €35,300/year gross
+
+Your employer does not need to prove no German candidate was available (unlike the standard Skilled Worker Visa process for some roles) — the EU Blue Card is straightforward if you have a recognised degree and a qualifying salary offer.
+
+Apply for the EU Blue Card at the German Embassy Abuja or Consulate Lagos. Visa fee: €75. Documents: job offer letter confirming salary, recognised degree certificate (with anabin H+ status), valid passport, health insurance proof, biometric photos. Processing: 4–8 weeks.
+
+**The 6-month Job-Seeking Visa**
+
+If you hold a German degree or a fully recognised Nigerian degree (H+), you can apply for a 6-month Aufenthaltserlaubnis zur Arbeitssuche (Job-Seeking Visa) at the German Embassy. This allows you to enter Germany legally and job-search on the ground, working up to 20 hours/week. Once you secure a qualifying offer, convert to EU Blue Card from within Germany — you do not need to leave.
+
+**After the EU Blue Card: permanent residence**
+
+EU Blue Card holders with B1 German: 21 months to permanent residence (Niederlassungserlaubnis).
+EU Blue Card holders without B1 German: 33 months to permanent residence.
+
+After permanent residence, you can work for any employer anywhere in Germany (or the EU on your German PR). German citizenship is available after 8 years of legal residence (5 years with special integration criteria including C1 German and volunteer/civic involvement). Germany officially allows dual nationality for most cases.`,
+
+      visitor: `**Visiting Germany — Schengen Short-Stay Visa**
+
+Germany is a Schengen member state. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit. This single visa allows travel across all 26 Schengen countries — Germany, France, Netherlands, Sweden, Spain, Italy, and 20 others — for up to 90 days in any 180-day period.
+
+**Where to apply in Nigeria**
+
+German Embassy Abuja: Nile House, 9 Alvan Ikoku Street, Maitama, Abuja. Appointment booking: termine.diplo.de/en.
+German Consulate General Lagos: 15 Walter Carrington Crescent, Victoria Island, Lagos.
+
+Both accept Schengen visa applications. Apply at whichever is more convenient. Book your appointment as early as possible — slots at both locations fill 4–6 weeks in advance, especially during European summer (June–September).
+
+**What visa officers look at**
+
+The German consulate officer is assessing two things: (1) Can you financially support yourself during your stay? (2) Do you have strong enough ties to Nigeria to return when your visa expires?
+
+Financial requirement: Approximately €100 per day of your stay. For a 14-day trip, that means showing approximately €1,400 in accessible funds. Your bank statements should show this money has been stable for at least 3 months — not recently deposited.
+
+Ties to Nigeria: An employment letter from your Nigerian employer confirming your role, salary, leave approval dates, and return-to-work date is the most important document. Other ties: property ownership (Certificate of Occupancy), spouse or children remaining in Nigeria, business registration documents, salary slips.
+
+**Verpflichtungserklärung (formal sponsorship declaration)**
+
+If a German host is paying for your trip or hosting you, they can issue a Verpflichtungserklärung — a formal financial sponsorship declaration obtained from the local German Ausländerbehörde (immigration office). This significantly strengthens applications for family visits and can satisfy the financial requirement. Your host in Germany goes to their local Ausländerbehörde, pays a small fee (approximately €25–30), and gets the declaration issued in your name. You include this document with your application.
+
+**Document checklist**
+
+• Valid Nigerian passport — minimum 6 months validity beyond your planned return date, with at least 2 blank pages
+• Completed Schengen visa application form (downloaded from the German embassy website and filled before your appointment)
+• 2 recent biometric passport photos — 35x45mm, white background
+• Bank statements — 3–6 months, showing your name and stable funds
+• Employment letter — on company letterhead, signed by HR, confirming your role, monthly salary, approved leave (from date to date), and that your job will be held for you
+• Travel insurance — mandatory. Minimum €30,000 Schengen coverage for the full duration of your trip. Must explicitly state Schengen Area.
+• Hotel bookings or signed host invitation letter — with host's German address and contact
+• Return flight booking (can be refundable at application stage)
+• If visiting family: invitation letter from your German-based relative, plus copy of their German residence card (Aufenthaltstitel) or German passport
+• Visa fee: €80
+
+**Processing time**
+
+Standard processing: 15 calendar days from the date you submit your application and biometrics. In peak periods (summer) it can extend to 30–45 days. Check the embassy website for current estimates. Do not book non-refundable flights or accommodation until you have your visa in hand.
+
+**Multiple-entry Schengen visa**
+
+You can request a multiple-entry visa on your application form. If you have a good travel history (previous US, UK, or Schengen visas) and a clear legitimate purpose for multiple visits, multi-entry is often granted. A multi-entry Schengen visa allows you to enter and exit the Schengen area multiple times within its validity period — ideal if you have family in Europe or travel for business regularly.
+
+**If refused**
+
+The refusal letter must state the reason. The most common reasons for Nigerian applicants: insufficient proof of ties to home country (strengthen with employment letter, property documents, family evidence), insufficient financial means (more stable bank history, sponsor's Verpflichtungserklärung), purpose of travel not sufficiently justified (clearer itinerary, hotel bookings, invitation letter). Address each reason specifically in a reapplication.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { step: "12–18 months before start", title: "Start German language classes at Goethe-Institut or online", detail: "Most undergraduate programs require B2 or C1 German (TestDaF or DSH). Enrol at Goethe-Institut Nigeria in Lagos (Victoria Island) or study via Deutsche Welle (dw.com/learn-german) and DeutschAkademie online. Plan 8–12 months of consistent study to reach B2 from scratch. Do not skip this step — without B2/C1, you cannot enrol in most German undergraduate programs." },
+        { step: "10–12 months before", title: "Research programs and shortlist 5–8 schools using daad.de", detail: "Use the DAAD database (daad.de) to identify programs matching your subject. Check each university's specific entry requirements: most public universities use uni-assist.de for applications, but some (TU Munich, LMU) have their own portals. Note application deadlines — typically July 15 for October start and January 15 for April start." },
+        { step: "8–10 months before", title: "Sit TestDaF or DSH exam", detail: "Book your TestDaF exam at Goethe-Institut Lagos or an authorised test centre. TestDaF is offered several times per year — check prüfungstermine at testdaf.de. Results take approximately 6 weeks. Target TDN 4 in all four sections. Some programs accept Goethe-Zertifikat B2/C1 — check your specific program." },
+        { step: "6–8 months before", title: "Apply through uni-assist or direct portals", detail: "Upload your documents to uni-assist.de (WAEC certificate, transcripts, German test result, passport copy). Pay the application fee: €75 for first university, €30 each additional. Apply to at least 5–6 programs. If applying to TU Munich or LMU, use their own portals separately." },
+        { step: "4–6 months before", title: "Receive admission letter and open Sperrkonto", detail: "Once admitted (Zulassungsbescheid), open your blocked account immediately. Use Fintiba, Expatrio, or Coracle — all work from Nigeria online. Transfer €11,208. Receive certificate within 1–3 weeks. This certificate is required for your visa." },
+        { step: "3–4 months before", title: "Apply for Student Visa at German Embassy Abuja or Consulate Lagos", detail: "Book appointment at termine.diplo.de (Abuja) or consulate Lagos. Visa fee: €75. Bring: admission letter, Sperrkonto certificate, TestDaF/DSH result, WAEC and transcripts, passport, health insurance proof, accommodation confirmation, biometric photo. Processing: 4–8 weeks." },
+        { step: "First two weeks in Germany", title: "Register at Einwohnermeldeamt and activate Sperrkonto", detail: "Register at your local residents' registration office within 14 days. Bring passport and rental/host address. Activate your Sperrkonto at Fintiba or your bank — monthly €934 payments begin immediately. Enrol at the university, pay semester contribution (€200–400), get your student ID and public transport pass." },
+      ],
+      masters: [
+        { step: "9–12 months before start", title: "Identify English-taught programs at daad.de and take IELTS", detail: "Filter daad.de: Language = English, Degree = Masters. Shortlist 5–8 programs. Take IELTS Academic — target 6.5 overall. Some programs accept TOEFL iBT (80–100). Check each program's specific language requirement before booking your test." },
+        { step: "7–9 months before", title: "Prepare motivation letter and application documents", detail: "Your motivation letter (1–2 pages) is the most important document. Name specific modules or professors from the program. Connect your undergraduate background to why this specific German program is the right next step. Get your degree certificate and all semester transcripts certified. If reference letters are required, give referees 6–8 weeks notice." },
+        { step: "5–7 months before", title: "Apply through uni-assist or direct university portals", detail: "Deadlines: July 15 for October (winter semester) start, January 15 for April (summer semester) start. TU Munich uses apply.tum.de. Most others use uni-assist.de (€75 first application, €30 each additional). Apply to 4–6 programs." },
+        { step: "3–5 months before", title: "Receive admission and open Sperrkonto — €11,208", detail: "Open Sperrkonto at Fintiba, Expatrio, or Coracle from Nigeria. Transfer €11,208. Receive certificate within 1–3 weeks. Apply for Student Visa immediately — book appointment at German Embassy Abuja (termine.diplo.de) or Consulate Lagos." },
+        { step: "2–3 months before", title: "Student Visa — bring all documents to your appointment", detail: "Visa fee: €75. Bring: admission letter, Sperrkonto certificate, IELTS result, degree + transcripts, health insurance proof, accommodation confirmation, biometric photo, completed application form. Processing: 4–8 weeks." },
+        { step: "After graduation", title: "18-month job-seeking visa — stay and find work in Germany", detail: "Apply for Aufenthaltserlaubnis zur Arbeitssuche from within Germany before your Student Permit expires. This gives you 18 months to find a job matching your qualification. You can work up to 20 hours/week during this period. No need to return to Nigeria. Once you have a qualifying offer, apply for the EU Blue Card from within Germany." },
+      ],
+      phd: [
+        { step: "Ongoing — start now", title: "Set email alerts on academics.de and research-in-germany.org", detail: "PhD positions in Germany open throughout the year — there is no single season. Set daily email alerts for 'Doktorand' or 'PhD' in your field on academics.de, research-in-germany.org, and euraxess.ec.europa.eu. Also follow specific university job boards directly. Apply to every relevant position." },
+        { step: "When a position matches", title: "Apply with research proposal, CV, and references", detail: "Your application needs: focused research proposal (2–5 pages), academic CV with all research experience and publications, degree certificates and transcripts, 2–3 reference letters from academic supervisors, IELTS or proof of English proficiency. Tailor everything to the specific project advertised." },
+        { step: "Offer received", title: "Review your employment contract carefully", detail: "For salaried positions: confirm salary (TVöD E13, 50% or 65% position), contract duration, tuition waiver, holiday entitlement. For stipend positions: confirm monthly amount and whether health insurance is included. For salaried positions, health insurance is automatic through your employment. Get everything confirmed in writing before signing." },
+        { step: "2–3 months before start", title: "Apply for Research/Employment Visa at German Embassy", detail: "Visa category: Employment (for salaried contract) or Research (for stipend + enrollment). Fee: €75. Documents: employment contract or stipend letter, doctoral enrolment acceptance (Immatrikulationsbescheinigung), degree certificates, passport, biometric photo. Processing: 4–8 weeks." },
+        { step: "First week in Germany", title: "Anmeldung at Einwohnermeldeamt and get tax ID", detail: "Register within 14 days. Your tax ID (Steueridentifikationsnummer) arrives by post within 2–4 weeks — give it to university HR immediately for payroll setup. Enrol in German classes (Volkshochschule) — B1 German cuts your path to permanent residence from 33 months to 21 months." },
+      ],
+      work: [
+        { step: "Before job search", title: "Check anabin.kmk.org for your Nigerian degree's recognition status", detail: "Go to anabin.kmk.org and search your university and degree type. H+ means fully recognised — you can apply directly for EU Blue Card. H- means not recognised — apply for an equivalency assessment (takes 3–6 months) or consider entering on a 6-month Recognition Visa. This step determines your entire approach." },
+        { step: "Job search", title: "Apply on make-it-in-germany.com, LinkedIn, StepStone, and XING", detail: "make-it-in-germany.com is the German government's own portal for international skilled workers — start here. LinkedIn is essential for tech and international companies. StepStone.de and XING cover the broader German job market including Mittelstand (mid-sized German companies). Update your CV to German/European format: 1–2 pages, no photo required but common, reverse chronological." },
+        { step: "Job offer received — confirm salary meets Blue Card threshold", title: "EU Blue Card: €45,300/yr general; €35,300/yr shortage occupations", detail: "Confirm your offer letter explicitly states your annual gross salary. EU Blue Card shortage occupations include: mathematics, computer science, natural sciences, engineering, IT (MINT professions), doctors. If you are in these fields, the threshold is €35,300/year. Verify current figures at bamf.de before applying." },
+        { step: "Apply for EU Blue Card visa at German Embassy Abuja or Consulate Lagos", title: "Visa fee €75 — processing 4–8 weeks", detail: "Documents: job offer letter with salary, recognised degree (anabin H+ or equivalency certificate), valid passport, health insurance proof (your employer provides this once you start), biometric photos. Book appointment early at termine.diplo.de (Abuja) or Consulate Lagos." },
+        { step: "Arrive in Germany — first two weeks", title: "Anmeldung, tax ID, bank account, health insurance", detail: "Register at Einwohnermeldeamt within 14 days. Give your tax ID to your employer immediately. Open a bank account (N26 or DKB are easiest for new arrivals without an in-person appointment). Your employer registers you for statutory health insurance. Enrol in German language classes immediately — B1 reduces your PR wait from 33 months to 21 months." },
+        { step: "21 months (with B1 German)", title: "Apply for permanent residence (Niederlassungserlaubnis)", detail: "After 21 months on EU Blue Card with B1 German, apply for permanent residence at your local Ausländerbehörde. You must show: B1 German certificate, 21 months of social security contributions, clean criminal record, and adequate income. After permanent residence, you can work anywhere in the EU and no longer need visa renewals." },
+      ],
+      visitor: [
+        { step: "6–8 weeks before travel", title: "Book appointment at German Embassy Abuja (termine.diplo.de) or Consulate Lagos", detail: "Book as early as possible — slots fill 4–6 weeks in advance. Abuja: termine.diplo.de/en. Lagos: Consulate General, 15 Walter Carrington Crescent, Victoria Island. Begin gathering your documents at the same time as booking." },
+        { step: "5–6 weeks before", title: "Prepare documents — employment letter and bank statements are most critical", detail: "Employment letter: company letterhead, signed by HR, your name, role, salary, approved leave from [date] to [date], return-to-work date. Bank statements: 3–6 months, stable funds, approximately €100/day minimum. If a German host is sponsoring you, ask them to get a Verpflichtungserklärung from their local Ausländerbehörde." },
+        { step: "Before your appointment", title: "Buy Schengen travel insurance — mandatory", detail: "Minimum €30,000 coverage, valid across all Schengen countries, for the full duration of your trip. Must explicitly state Schengen coverage. Available from AXA, Leadway, or online providers. Certificate must show your name, dates, and coverage amount." },
+        { step: "At your appointment", title: "Submit documents, pay €80 fee, give biometrics", detail: "Bring all originals and photocopies. Complete the visa application form before arriving (download from the embassy website). Biometrics (fingerprints and photo) are taken at the appointment. Your passport is retained until the visa is processed." },
+        { step: "15 calendar days later", title: "Collect passport with visa sticker — then book non-refundable travel", detail: "Standard processing is 15 days. Only book non-refundable flights and accommodation after collecting your passport with the visa. The visa sticker shows: validity dates, allowed stay (days), and number of entries." },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        { title: "German public university tuition is genuinely zero — not a marketing gimmick", body: "Many Nigerians are sceptical about free tuition. It is real. German public universities (Technische Universität, Ruprecht-Karls-Universität, Freie Universität, etc.) charge no tuition for any student — domestic or international. You pay only a semester contribution of €200–400 which covers administration and usually a public transport pass for your city. The exceptions are Baden-Württemberg state, which charges international students €1,500/semester — still far below UK or North American tuition. Avoid private Hochschulen if cost is a concern — they charge fees." },
+        { title: "The Sperrkonto money comes back to you — do not confuse it with a fee", body: "€11,208 sounds like a lot. It is not a fee paid to Germany. It is your own money deposited into a blocked account in your name at a German bank. Once you arrive and activate the account, you receive €934 every month for 12 months — the full €11,208 comes back. Think of it as Germany forcing you to save one year of living expenses before you arrive. Use Fintiba or Expatrio — both are straightforward for Nigerians and take 1–3 weeks from application to certificate." },
+        { title: "B2 German is not optional for most programs — start immediately", body: "The most common mistake Nigerian students make is assuming they can learn German 'later.' Most German undergraduate programs will not admit you without B2 or C1 level German. TestDaF takes months to prepare for. Goethe-Institut in Lagos runs structured courses — enrol at whatever level you are currently at and commit to 10–15 hours of study per week. Deutsche Welle (dw.com/learn-german) is a free, excellent supplement. Start now, not when you start preparing applications." },
+        { title: "Germany allows 120 full or 240 half working days per year for students", body: "Unlike some countries that severely restrict student work, German law allows international students to work 120 full days (or 240 half days) per year alongside their studies. At German minimum wage (€12.41/hour in 2024), a student working 20 hours per week earns approximately €2,000/month — enough to cover living costs entirely in cities outside Munich. On-campus student jobs (Hiwi positions), tutoring, and hospitality are the most common routes. Working in Germany also builds employment history and language skills." },
+      ],
+      masters: [
+        { title: "1,800+ English-taught masters programs — Germany is Europe's best-kept secret for Nigerians", body: "Most Nigerians automatically think UK or Canada for English-taught masters. Germany has over 1,800 English-taught programs at public universities that charge zero tuition. The DAAD database (daad.de) lists all of them. Engineering, computer science, data science, business, public health, environmental science — all available in English. After graduating you get 18 months to find a job in Germany's booming tech and engineering market. This combination — free education, job-seeking period, EU Blue Card pathway — is arguably the best deal in the world for Nigerian masters students." },
+        { title: "Your motivation letter determines whether you get in", body: "German university admissions for masters are not purely based on grades. The Motivationsschreiben (motivation letter) is read carefully and matters significantly. Generic letters — 'I have always been interested in engineering' — are rejected. Specific letters work: 'Professor [Name]'s research group at TU Munich on [specific area] directly connects to my bachelor's thesis on [specific topic]. I want to develop this through the [specific module] in your program and then apply it in Nigeria's [sector].' Name real things from the program website. Show you actually researched the specific university and program." },
+        { title: "The 18-month job-seeking visa after graduation changes everything", body: "Germany gives every master's and PhD graduate an 18-month stay to find employment after graduating. You can work up to 20 hours/week during this period while job-hunting. This means you do not need a job offer before you graduate — you have 18 months in Germany to apply, interview, and convert to a work permit from within the country. No flight back to Nigeria to reapply. For a Nigerian with a German master's degree in engineering or IT, 18 months is more than enough time to secure an offer paying the EU Blue Card threshold." },
+        { title: "Health insurance: get statutory (GKV) not private (PKV) as a student", body: "Germany requires health insurance for your Student Visa and your entire stay. As a student, you have two options: statutory health insurance (GKV) at approximately €120–130/month through TK, AOK, or Barmer, or private insurance. For students, GKV is almost always better — it is widely accepted by all doctors and hospitals, has no hidden exclusions, and you can easily switch providers. Sign up for TK (tk.de) or AOK before arriving — they have English-language sign-up processes online. Avoid cheap travel insurance — it is not the same as proper German health insurance and will not satisfy the visa requirement." },
+      ],
+      phd: [
+        { title: "Salaried PhD positions are employment, not study — this changes your immigration status", body: "When you hold a salaried PhD position (wissenschaftlicher Mitarbeiter) in Germany, you are an employee. You pay into the German pension, contribute to statutory health insurance, accrue annual leave, and are protected by German employment law. This employment contract counts as qualified work experience for permanent residence applications — the same as any other skilled worker. Your path to a Niederlassungserlaubnis (permanent residence) starts the day your employment starts, not when you graduate." },
+        { title: "Max Planck Society and Helmholtz Association offer world-class funded positions", body: "Germany has two elite non-university research organisations that are among the best in the world. The Max Planck Society (mpg.de) runs 84 institutes covering natural sciences, life sciences, social sciences, and humanities. The Helmholtz Association (helmholtz.de) is Germany's largest research organisation with 18 centres focused on energy, earth, health, aeronautics, and key technologies. Both regularly advertise PhD positions open to international candidates. Positions at these institutes are especially prestigious and the funding is guaranteed for the contract duration. Set alerts on their career portals." },
+        { title: "Learn German from day one — B1 cuts permanent residence from 33 to 21 months", body: "Even if your research is entirely in English, German language ability dramatically changes your life in Germany and your immigration timeline. EU Blue Card holders with B1 German can apply for permanent residence after 21 months. Without B1, it is 33 months. That is 12 months you save by learning a language you will use every day anyway — for shopping, navigating bureaucracy, building relationships outside the lab, and eventual citizenship. Enrol at your university's Sprachenzentrum (language centre) or local Volkshochschule immediately after arriving." },
+      ],
+      work: [
+        { title: "make-it-in-germany.com is the German government's own recruitment portal — use it", body: "This is not a third-party site. It is run by the German Federal Government specifically to attract international skilled workers. It has job listings, information on how to get your qualification recognised, a 'find your visa' tool, and guides to living in Germany. Start here. It also has a partner job platform that aggregates listings from German employers who specifically want to hire internationally. Nigerian software engineers, nurses, and engineers feature prominently in the shortage occupation lists." },
+        { title: "Healthcare professionals: recognition takes 3–12 months but it is worth it", body: "Nurses and doctors trained in Nigeria can work in Germany, but you need your qualification recognised by the Landesbehörde (state health authority) of the German state you plan to work in. The process varies by state and typically takes 3–12 months. Some states require you to complete an adaptation course or take a knowledge test. The recognition process can be started from Nigeria — download the application form from your target state's health authority website. Some employers will sponsor you through this process and pay a salary during adaptation. German-speaking Nigerian nurses and doctors are especially sought after." },
+        { title: "The 6-month job-seeking visa lets you job-hunt from inside Germany", body: "If you have a German university degree or a fully recognised Nigerian degree (H+), you can apply for a 6-month Aufenthaltserlaubnis zur Arbeitssuche at the German Embassy before arriving. This visa allows you to live in Germany, work up to 20 hours/week, attend job interviews, and convert to an EU Blue Card once you have a qualifying offer — all without leaving Germany to reapply. German employers strongly prefer to interview candidates who are already in the country. This visa is underused by Nigerians and it is one of the most valuable visa categories Germany offers." },
+      ],
+      visitor: [
+        { title: "Book your German embassy appointment 4–6 weeks early — slots go fast", body: "The German Embassy in Abuja and the German Consulate General in Lagos both have limited appointment slots for Schengen visa applications. During European summer (June–September), slots can fill 6–8 weeks in advance. Book as soon as you know your travel dates. For Abuja: termine.diplo.de/en. For Lagos: contact the consulate directly or check their website. Missing your appointment means starting the booking process again." },
+        { title: "The Verpflichtungserklärung from a German host is powerful evidence", body: "If you have family or a close friend in Germany, ask them to get a Verpflichtungserklärung (formal sponsorship declaration) from their local German Ausländerbehörde (immigration office). This is a government-issued document where your German-resident host formally declares financial responsibility for your stay. It costs approximately €25–30 to obtain. This document significantly strengthens your application because it is issued by a German authority — it is not just a personal letter. Your host brings your details and their residence documents to the Ausländerbehörde and the declaration is issued on the spot or within a few days." },
+        { title: "Previous Schengen stamps in your passport are the strongest thing you can show", body: "If you have previously been to any Schengen country and returned home on time, those entry and exit stamps in your passport prove you respect visa conditions. A Schengen visa applied for by someone with previous Schengen travel history is significantly more likely to be approved and more likely to receive multiple-entry. If you have never had a Schengen visa, a current or recent US or UK visa is the next best alternative — it shows other credible immigration systems approved you." },
+        { title: "Request multiple-entry on your application if you visit Europe regularly", body: "When completing your Schengen visa application form, there is a field for 'number of entries requested.' Tick 'multiple entries' if you visit Germany or Europe for business or family reasons more than once a year. A multiple-entry Schengen visa (if granted) allows you to travel to any Schengen country as many times as you want within the visa's validity — typically 1 or 2 years — without reapplying. The fee is the same as a single-entry visa (€80)." },
+      ],
+    },
+
+    universities: {
+      undergrad: [
+        { name: "Technical University of Munich (TUM)", location: "Munich, Bavaria", known_for: "Engineering, Computer Science, Natural Sciences, Medicine, Management — consistently ranked #1 in Germany and top 50 globally", avg_tuition: "€0 + €144/semester contribution (not in Baden-Württemberg)", acceptance: "25–40% (competitive)", nigerian_community: "Small but growing" },
+        { name: "RWTH Aachen University", location: "Aachen, NRW (near Belgian border)", known_for: "Mechanical Engineering, Electrical Engineering, Computer Science — Germany's premier technical university for engineering", avg_tuition: "€0 + €310/semester contribution", acceptance: "40–55%", nigerian_community: "Small" },
+        { name: "Heidelberg University (Ruprecht-Karls)", location: "Heidelberg, Baden-Württemberg", known_for: "Natural Sciences, Medicine, Law, Social Sciences — Germany's oldest university (1386), top life sciences globally", avg_tuition: "€0 + €1,500/semester (non-EU students in BW since 2017) + ~€80 semester contribution", acceptance: "30–45%", nigerian_community: "Very small" },
+        { name: "Freie Universität Berlin", location: "Berlin, capital", known_for: "Social Sciences, Humanities, Political Science, Life Sciences — international city, most diverse in Germany", avg_tuition: "€0 + €320/semester contribution (includes Berlin public transport)", acceptance: "50–65%", nigerian_community: "Small" },
+        { name: "University of Hamburg", location: "Hamburg (Germany's second city)", known_for: "Law, Economics, Sciences, Business — port city, very international, lower cost of living than Munich", avg_tuition: "€0 + €290/semester contribution", acceptance: "55–70%", nigerian_community: "Very small" },
+      ],
+      masters: [
+        { name: "Technical University of Munich (TUM)", location: "Munich, Bavaria", known_for: "100+ English-taught masters in Engineering, CS, Data Science, Management, Finance — apply at apply.tum.de", avg_tuition: "€0 + ~€144/semester contribution", acceptance: "20–35% (very competitive)", nigerian_community: "Small but growing" },
+        { name: "RWTH Aachen University", location: "Aachen, NRW", known_for: "English-taught masters in Mechanical Engineering, Electrical Engineering, Computational Engineering, Data Science", avg_tuition: "€0 + ~€310/semester", acceptance: "30–45%", nigerian_community: "Small" },
+        { name: "Technical University of Berlin (TU Berlin)", location: "Berlin, capital", known_for: "Engineering, Computer Science, Urban Development, Business Administration (with ESCP) — vibrant startup ecosystem in Berlin", avg_tuition: "€0 + ~€320/semester", acceptance: "35–50%", nigerian_community: "Small" },
+        { name: "University of Bonn", location: "Bonn, NRW (former German capital)", known_for: "Economics, Agricultural Sciences, Mathematics, Computer Science — strong DAAD scholarship connections", avg_tuition: "€0 + ~€300/semester", acceptance: "45–60%", nigerian_community: "Very small" },
+        { name: "University of Cologne (Universität zu Köln)", location: "Cologne, NRW", known_for: "Business Administration, Economics, Law, Social Sciences — one of Germany's largest universities, near Düsseldorf", avg_tuition: "€0 + ~€280/semester", acceptance: "50–65%", nigerian_community: "Very small" },
+      ],
+      phd: [
+        { name: "Max Planck Society Institutes", location: "Nationwide — 84 institutes across Germany", known_for: "Elite research across natural sciences, life sciences, social sciences. Nobel Prize-winning institutions. PhD positions are salaried and fully funded.", avg_tuition: "Fully funded — salary TVöD scale", acceptance: "Highly competitive globally", nigerian_community: "Very small but internationally diverse" },
+        { name: "Helmholtz Association", location: "Nationwide — 18 research centres", known_for: "Energy, Earth and Environment, Health, Aeronautics, Key Technologies — Germany's largest research organisation. Structured PhD programs.", avg_tuition: "Fully funded — employment contract + social insurance", acceptance: "Highly competitive", nigerian_community: "Very small" },
+        { name: "Technical University of Munich (TUM Graduate School)", location: "Munich, Bavaria", known_for: "Structured PhD programs in Engineering, CS, Life Sciences, Economics. International Graduate School with English-medium programs.", avg_tuition: "€0 — stipend or salaried depending on position", acceptance: "Highly competitive", nigerian_community: "Small" },
+        { name: "Heidelberg University (HGGS)", location: "Heidelberg, Baden-Württemberg", known_for: "Heidelberg Graduate School of Fundamental Physics, life sciences, humanities — strong international community", avg_tuition: "€0 — stipend or employment contract", acceptance: "Competitive", nigerian_community: "Very small" },
+      ],
+      work: [],
+    },
+
+    scholarships: {
+      undergrad: [
+        { name: "DAAD Study Scholarships for Foreign Graduates", amount: "€850–1,200/month stipend + travel allowance + health insurance", university: "All German universities", deadline: "October 15 each year — check daad.de/en/study-and-research-in-germany/scholarships", url: "https://www.daad.de/en/study-and-research-in-germany/scholarships/" },
+        { name: "Deutschlandstipendium (National Scholarship Program)", amount: "€300/month — half funded by German companies, half by government. Available to enrolled students, not applicants.", university: "Most German universities — apply after enrolment", deadline: "Varies by university — apply in your first semester", url: "https://www.deutschlandstipendium.de/en/" },
+      ],
+      masters: [
+        { name: "DAAD Helmut-Schmidt Masters Scholarships (Public Policy and Good Governance)", amount: "€850/month + travel allowance + health insurance + study/research allowance", university: "Select German universities — program for future leaders from developing countries including Nigeria", deadline: "Check daad.de annually — typically October/November", url: "https://www.daad.de/en/study-and-research-in-germany/scholarships/helmut-schmidt-programme/" },
+        { name: "Konrad-Adenauer-Stiftung Scholarships", amount: "€850/month + additional benefits — for master's students in all fields", university: "All German universities", deadline: "January 15 and July 15 each year — check kas.de", url: "https://www.kas.de/en/web/begabtenfoerderung-und-kultur/scholarship-programmes" },
+        { name: "Friedrich-Ebert-Stiftung Scholarships", amount: "€830/month + study allowance — for students with social and political commitment", university: "All German universities", deadline: "April 30 each year for all applicants — check fes.de", url: "https://www.fes.de/en/foundation/foerderung" },
+        { name: "DAAD Master Scholarships (All Fields)", amount: "€850–1,200/month depending on study level + travel grant + health insurance", university: "All German public universities", deadline: "October–November each year — check daad.de", url: "https://www.daad.de/en/study-and-research-in-germany/scholarships/" },
+      ],
+      phd: [
+        { name: "DAAD Research Grants (PhD Researchers)", amount: "€1,200/month + travel allowance + health insurance", university: "All German universities and research institutions", deadline: "Varies by scholarship — check daad.de in October each year", url: "https://www.daad.de/en/study-and-research-in-germany/scholarships/daad-research-grants/" },
+        { name: "Helmholtz Association PhD Positions (fully funded employment)", amount: "Full salary TVöD E13 50–65% + complete social insurance + pension", university: "Helmholtz Association's 18 research centres", deadline: "Rolling — apply per advertised position at helmholtz.de", url: "https://www.helmholtz.de/en/career/job-portal/" },
+        { name: "Humboldt Research Fellowship (Postdoctoral)", amount: "€2,670–3,170/month + benefits — for postdoctoral researchers, not PhD students", university: "German universities and research institutes of your choice", deadline: "Rolling applications year-round — check humboldt-foundation.de", url: "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "German Embassy Abuja / German Consulate General Lagos",
+      address: "Embassy: Nile House, 9 Alvan Ikoku Street, Maitama, Abuja | Consulate: 15 Walter Carrington Crescent, Victoria Island, Lagos",
+      phone: "Apply online and book appointment at termine.diplo.de (Abuja) or the Lagos consulate website",
+      note: "Student and work visa appointments must be booked in advance online. Both the Abuja Embassy and Lagos Consulate process visa applications. Book as early as possible — appointment slots fill 4–6 weeks in advance.",
+      website: "https://nigeria.diplo.de/ng-en",
+      visa_apply: "https://nigeria.diplo.de/ng-en/konsularinfo/visa",
+      vfs: "https://nigeria.diplo.de/ng-en/konsularinfo/visa",
+      official_immigration: "https://www.make-it-in-germany.com/en/",
+      extra_links: [
+        { label: "DAAD — All Germany scholarships and programs", url: "https://www.daad.de/en/study-and-research-in-germany/" },
+        { label: "uni-assist — Application portal for most German universities", url: "https://www.uni-assist.de/en/" },
+        { label: "make-it-in-germany.com — Official German government skilled worker portal", url: "https://www.make-it-in-germany.com/en/" },
+        { label: "anabin — Check Nigerian degree recognition status", url: "https://anabin.kmk.org/anabin.html" },
+        { label: "Fintiba — Open Sperrkonto from Nigeria", url: "https://www.fintiba.com/" },
+        { label: "Expatrio — Sperrkonto + health insurance bundle", url: "https://www.expatrio.com/" },
+        { label: "BAMF — German immigration authority", url: "https://www.bamf.de/EN/" },
+        { label: "Appointment booking — German Embassy Abuja", url: "https://termine.diplo.de/en" },
+      ],
+    },
+  },
 };
