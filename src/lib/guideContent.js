@@ -3264,4 +3264,474 @@ Address all five before submitting. A refused visa means a record in the Schenge
     },
   },
 
+  // ─────────────────────────────────────────────
+  // AUSTRALIA
+  // ─────────────────────────────────────────────
+  AU: {
+    tagline: "A clear path from student visa to permanent residency — one of the most accessible English-speaking destinations for Nigerians",
+    overview: "Australia is one of the most structured destinations for Nigerians. The immigration system is points-based and transparent — you know exactly where you stand before you apply. The student-to-PR pathway is well-trodden: study a degree in a shortage occupation, work 2 years on a Graduate Visa (subclass 485), then apply for skilled migration through SkillSelect. Cities like Sydney, Melbourne, and Brisbane have growing Nigerian communities. English is the language of everyday life, the legal system, and the workplace — no second language required at any stage. Australia also has one of the highest minimum wages in the world, making part-time work as a student genuinely useful.",
+
+    stats: {
+      undergrad:  { tuition: "AUD 20,000–45,000/yr", living: "AUD 1,400–2,000/month", processing: "4–6 weeks", acceptance: "Varies by university", minIELTS: "6.0 overall (6.5 for many programs)", currency: "AUD" },
+      masters:    { tuition: "AUD 22,000–50,000/yr", living: "AUD 1,400–2,000/month", processing: "4–6 weeks", acceptance: "Competitive", minIELTS: "6.5 overall (7.0 for top programs)", currency: "AUD" },
+      phd:        { tuition: "Often fully funded (domestic fee rate)", living: "AUD 28,000–32,000/yr (stipend)", processing: "4–8 weeks", acceptance: "Very competitive", minIELTS: "6.5 overall", currency: "AUD" },
+      work:       { salary: "AUD 60,000–130,000/yr depending on occupation", processing: "2–12 months (SkillSelect EOI)", pathway: "Skilled Independent (189) / Employer Sponsored (482/186)", minIELTS: "Competent English required (IELTS 6.0 each band)", currency: "AUD" },
+      visitor:    { fee: "AUD 190 (Visitor Visa subclass 600)", processing: "20–30 days (can be longer)", duration: "Up to 3 or 6 months", pathway: "Visitor Visa (subclass 600)", currency: "AUD" },
+    },
+
+    summary: {
+      undergrad: {
+        intro: "Australian undergraduate degrees take 3–4 years and are internationally recognised. The key appeal for Nigerians is what comes after: a 2–4 year Graduate Visa (subclass 485) that lets you work anywhere in Australia after graduating. That work experience then feeds into the points-based skilled migration system for permanent residency. The student visa (subclass 500) process is straightforward if you have a Genuine Student requirement (GSR) statement ready and sufficient funds.",
+        firstSteps: [
+          { action: "Research programs and shortlist 4–6 universities — apply directly or via a registered agent", detail: "Start at universitiesaustralia.edu.au. Key universities: University of Sydney, University of Melbourne, Australian National University (ANU), University of Queensland (UQ), Monash University, University of New South Wales (UNSW), University of Western Australia (UWA). Check each program's specific English requirements and tuition fees — they vary significantly. Apply directly on each university's admissions portal." },
+          { action: "Take IELTS Academic — target 6.5 overall (no band below 6.0)", detail: "Most Australian universities require IELTS 6.0–6.5 overall for undergraduate entry. Book at British Council or IDP Nigeria (Lagos, Abuja, Port Harcourt). TOEFL iBT and PTE Academic are also accepted — check per institution. Start preparing 3–6 months before your application deadline." },
+          { action: "Get your WAEC/NECO results verified and transcripts ready", detail: "Australian universities generally accept WAEC/NECO results. Most do not require a separate verification service like WES — they assess documents directly. However, have your original certificates, certified copies, and official transcripts stamped by your school registrar ready. Some universities may ask for additional verification." },
+          { action: "Accept your offer and receive your electronic Confirmation of Enrolment (eCoE)", detail: "Once admitted and you pay your tuition deposit (typically AUD 2,000–5,000), your university issues an electronic Confirmation of Enrolment (eCoE). This is the core document for your student visa application. You cannot apply for a subclass 500 student visa without it." },
+          { action: "Apply for Student Visa subclass 500 on ImmiAccount", detail: "Create an ImmiAccount at immi.homeaffairs.gov.au. Apply online. You need: eCoE, IELTS result, Overseas Student Health Cover (OSHC — mandatory, approximately AUD 600–700/yr), financial evidence (AUD 21,041 for living costs + your annual tuition + AUD 7,362 for a dependent partner + AUD 3,152 per child), Genuine Student Requirement statement (why you want to study in Australia and your ties to Nigeria), passport. Visa fee: AUD 710." },
+        ],
+        keyFacts: [
+          "eCoE from your university is the core visa document — nothing moves without it",
+          "OSHC (Overseas Student Health Cover) is mandatory — buy before submitting your visa application",
+          "You can work up to 48 hours per fortnight during semester, unlimited during scheduled breaks",
+          "After graduation: Graduate Visa (subclass 485) gives 2–4 years of open work rights in Australia",
+          "Australia has a minimum wage of AUD 23.23/hour — part-time work is genuinely supplementary income",
+        ],
+        outcome: "Graduate → subclass 485 Graduate Visa (2–4 years work rights) → accumulate points for SkillSelect → Expression of Interest (EOI) → invitation → Skilled Independent Visa (subclass 189) or state-sponsored (subclass 190) → Permanent Residency.",
+      },
+      masters: {
+        intro: "A master's degree in Australia is one of the most reliable paths to permanent residency for Nigerians. The logic is simple: study in a field on Australia's Medium and Long-term Strategic Skills List (MLTSSL), graduate, get a 2–4 year Graduate Visa (subclass 485), work in your field, accumulate points (age, English, qualifications, experience), lodge an Expression of Interest through SkillSelect, get invited, apply for PR. Thousands of Nigerians have followed this exact sequence.",
+        firstSteps: [
+          { action: "Choose your field strategically — check the MLTSSL and STSOL skills lists", detail: "Go to immi.homeaffairs.gov.au and search for the Medium and Long-term Strategic Skills List (MLTSSL). Occupations on this list give you access to the subclass 189 (independent PR) pathway. High-demand fields for Nigerians: Nursing, Engineering (Civil, Mechanical, Electrical), IT (Software Engineer, Cybersecurity), Accounting, Social Work, Teaching. If your field is on the MLTSSL, your post-study work visa can be 3 years instead of 2." },
+          { action: "Take IELTS Academic — target 7.0 overall (some programs accept 6.5)", detail: "For the eventual PR application through SkillSelect, you need at minimum 'Competent English' (IELTS 6.0 each band). For points: 'Proficient English' (IELTS 7.0 each band) gives you 10 extra points, 'Superior English' (IELTS 8.0 each band) gives 20 extra points. Take the test seriously — your score affects your PR points, not just your university admission." },
+          { action: "Apply to 3–5 universities — target programs with strong industry connections", detail: "Strong master's programs for Nigerian students: UNSW (Engineering, Business), University of Melbourne (all disciplines), Monash (IT, Engineering, Health), UQ (Mining, Environmental, Health Sciences), ANU (Policy, Sciences, Economics), University of Sydney (Business, Law, Health). Apply through each university's online portal. Deadlines: February/March for Semester 1 (February start), July/August for Semester 2 (July start)." },
+          { action: "Once admitted: pay deposit, receive eCoE, apply for subclass 500 student visa", detail: "Pay tuition deposit (AUD 2,000–5,000), receive eCoE from university, purchase OSHC insurance, prepare financial evidence (AUD 21,041 living costs + tuition + travel), write Genuine Student Requirement statement. Apply on ImmiAccount. Visa fee: AUD 710. Processing: 4–6 weeks typically." },
+          { action: "Plan your skills assessment before or during your degree — don't wait until after", detail: "For PR through SkillSelect, your occupation must be assessed by the relevant Australian skills authority. For IT: ACS (Australian Computer Society). For Engineering: Engineers Australia. For Accounting: CPA Australia or CAANZ. For Nursing: AHPRA. Start this process in your final year — assessments take 3–6 months. Having a positive skills assessment ready when you finish your degree saves months." },
+        ],
+        keyFacts: [
+          "Graduate Visa (subclass 485): 2 years for most; 3 years if your degree is in an MLTSSL occupation; 4 years if you studied in a regional area",
+          "SkillSelect points: 65 points minimum to be invited (in practice, 80–90 points are competitive for popular occupations)",
+          "Points for age: 25–32 years = 30 points (maximum) — apply while young",
+          "Skills assessment is occupation-specific — check your assessing authority before choosing your program",
+          "State nomination (subclass 190) adds 5 points and is often easier to get than subclass 189 — worth exploring",
+        ],
+        outcome: "Masters → subclass 485 (2–4 years) → skills assessment + SkillSelect EOI → invitation → subclass 189 (permanent residency) or subclass 190 (state-sponsored PR). After 4 years as a PR holder, you can apply for Australian citizenship.",
+      },
+      phd: {
+        intro: "Australian PhD programs are 3–4 years and the vast majority of international PhD students receive full scholarships through the Research Training Program (RTP). If you receive an RTP scholarship, your tuition is waived and you receive a living stipend of approximately AUD 32,000/year tax-free. This is genuine funding — not a loan, not a work obligation beyond normal research duties. You apply for PhD and scholarship simultaneously in most cases. The student visa (subclass 500) covers PhD students, and after graduation you qualify for a Graduate Visa of up to 4 years.",
+        firstSteps: [
+          { action: "Find a supervisor first — this is the most important step", detail: "Australian PhD applications are supervisor-driven. Before applying formally, identify professors whose research aligns with yours, read their recent publications, and email them with a 1-page research proposal + CV + transcripts. A supervisor's agreement to take you on significantly strengthens your formal application and scholarship bid. Check university research staff pages, Google Scholar, and ResearchGate. Without a supervisor, your application is much weaker." },
+          { action: "Apply for both PhD admission and RTP scholarship simultaneously", detail: "Go to the university's graduate research school website. Most Australian universities have a single application form for PhD admission + scholarship. Key documents: research proposal (2,000–5,000 words depending on university), CV, transcripts and degree certificates, IELTS result, 2–3 academic references, supervisor's support letter. Competitive RTP scholarship applications are ones with strong research proposals and clear supervisor support." },
+          { action: "Take IELTS Academic — target 6.5 overall (some require 7.0)", detail: "PhD programs typically require IELTS 6.5 overall with no band below 6.0. ANU and University of Melbourne require 7.0 for some programs. Book through British Council or IDP Nigeria. PTE Academic is an alternative." },
+          { action: "After admission and scholarship offer: apply for subclass 500 student visa", detail: "With your offer letter and scholarship letter, apply on ImmiAccount. PhD scholarship holders get a fee exemption letter in place of eCoE for OSHC. Financial evidence is simplified if scholarship covers living costs — show scholarship letter. Visa fee: AUD 710. Processing: 4–8 weeks." },
+          { action: "Arrive and register with your university and the Australian Taxation Office (ATO)", detail: "RTP stipends are tax-free, but any additional income (tutoring, consulting) is taxable. Get a Tax File Number (TFN) from the ATO within weeks of arriving. Open an Australian bank account (Commonwealth Bank, ANZ, NAB, Westpac — all have international student accounts). Register with Medicare if your country has a reciprocal health agreement with Australia — Nigeria does not, so maintain OSHC." },
+        ],
+        keyFacts: [
+          "RTP (Research Training Program) scholarship: tuition waiver + AUD ~32,000/yr stipend — tax-free",
+          "PhD duration: 3–4 years. Most RTP scholarships are for 3.5 years with a 6-month extension possible",
+          "After PhD: Graduate Visa subclass 485 — up to 4 years if you studied in a regional area, 2 years otherwise",
+          "PhD students can work up to 48 hours per fortnight — many do tutoring (AUD 40–60/hour) for extra income",
+          "Skills assessment for PR: a completed Australian PhD often counts as evidence of the required qualifications for SkillSelect",
+        ],
+        outcome: "PhD + RTP scholarship → subclass 485 Graduate Visa (2–4 years) → skills assessment → SkillSelect EOI → PR. A completed Australian PhD is one of the strongest foundations for a SkillSelect application — it contributes qualification points and demonstrates research ability.",
+      },
+      work: {
+        intro: "Australia has two main employer-sponsored work visa pathways for Nigerians: the Temporary Skill Shortage visa (subclass 482) for employer-sponsored roles, and the Skilled Independent visa (subclass 189) through SkillSelect for people who don't need an employer to sponsor them. The 482 is faster but ties you to one employer. The 189 is permanent residency from day one but requires meeting a points threshold and being invited. Most Nigerians who come as skilled workers start with 482 and transition to 186 (Employer Nomination Scheme — permanent) after 2 years.",
+        firstSteps: [
+          { action: "Check if your occupation is on the relevant skills list", detail: "Go to immi.homeaffairs.gov.au. For subclass 189 (independent PR): your occupation must be on the MLTSSL. For subclass 482 (temporary employer-sponsored): occupation must be on the MLTSSL or STSOL (Short-term Skilled Occupation List). For subclass 190 (state-sponsored): each state has its own occupation list — check your target state's list. Key in-demand occupations for Nigerians: Software Engineer, Registered Nurse, Civil Engineer, Accountant, Medical Officer, Construction Manager, Social Worker." },
+          { action: "Get a skills assessment from the relevant assessing authority", detail: "This is mandatory for both employer-sponsored and independent pathways. Each occupation has a designated assessing authority: IT → ACS (Australian Computer Society — myacs.com.au); Engineering → Engineers Australia (engineersaustralia.org.au); Accounting → CPA Australia or CAANZ; Nursing → AHPRA; Medicine → AMC (Australian Medical Council); Social Work → AASW. Assessment takes 3–6 months and costs AUD 500–900. You need: degree certificates, transcripts, employment references (detailed, on company letterhead), and IELTS." },
+          { action: "Submit an Expression of Interest (EOI) through SkillSelect", detail: "Go to immi.homeaffairs.gov.au → SkillSelect. Create an EOI online. You input your points score (age, English, qualifications, work experience, partner skills, state nomination, regional study). The minimum to be considered is 65 points. In practice, most popular occupations (Software Engineer, Accountant) require 80–90+ points to receive an invitation. EOIs are ranked by points score and dated — higher points = invited first. Invitations are sent in monthly rounds." },
+          { action: "For employer-sponsored (subclass 482): secure a job offer from an approved sponsor", detail: "Your Australian employer must be an approved 482 sponsor. Large Australian companies (Deloitte, PwC, BHP, Commonwealth Bank, Telstra, Rio Tinto) are already approved. Smaller companies can apply to become sponsors — takes 4–8 weeks. Job search: seek.com.au, linkedin.com/jobs (Australia), indeed.com.au, ethicaljobs.com.au (for social sector). Once you have a job offer, your employer nominates you and you apply for the 482 visa. Processing: 2–6 months." },
+          { action: "After invitation from SkillSelect: lodge your visa application within 60 days", detail: "After receiving an invitation to apply for subclass 189 or 190, you have 60 days to lodge your full visa application. Documents: skills assessment, IELTS (Competent English minimum — all bands 6.0+), police clearance (Nigerian Police Force + Interpol clearance), health examination (by an approved panel physician — book at immi.homeaffairs.gov.au/help-support/glossary/panel-physician), passport, employment reference letters, proof of qualifications. Visa fee: AUD 4,640 for primary applicant (189)." },
+        ],
+        keyFacts: [
+          "Subclass 189: permanent residency from day one — no employer required, but needs SkillSelect invitation",
+          "Subclass 482: employer-sponsored, temporary (2–4 years), but can transition to permanent via subclass 186",
+          "Points score: 65 minimum, 80–90+ competitive for popular occupations. Check immi.homeaffairs.gov.au/points calculator",
+          "English requirement: Competent English (IELTS 6.0 each band minimum). Proficient (7.0 each band) = +10 points",
+          "Health examination and police clearance are mandatory — allow 4–6 weeks for Nigerian police clearance",
+        ],
+        outcome: "Subclass 189/190 → Permanent Residency from day of grant → after 4 years as PR → apply for Australian citizenship. Subclass 482 → 2 years employment → subclass 186 Employer Nomination Scheme → Permanent Residency.",
+      },
+      visitor: {
+        intro: "Australia's visitor visa for Nigerians is the subclass 600 (Visitor Visa — Tourist stream). Unlike Schengen countries, Australia does not have a visa-on-arrival or electronic travel authority (ETA) for Nigerian passport holders — you must apply in advance through ImmiAccount online. The application is assessed by the Department of Home Affairs. Approval rates for Nigerians are not publicly published, but strong financial evidence and clear ties to Nigeria significantly improve chances.",
+        firstSteps: [
+          { action: "Apply online through ImmiAccount at immi.homeaffairs.gov.au", detail: "Create an account at immi.homeaffairs.gov.au. Select 'Visitor' → subclass 600 → Tourist stream. Complete the application form online. You will be asked about: purpose of visit, intended length of stay, funds available, employment in Nigeria, family ties, previous travel history, any previous visa refusals. Be accurate and thorough — inconsistencies are a common reason for refusal." },
+          { action: "Prepare your supporting documents", detail: "Required documents: Nigerian passport (minimum 6 months validity beyond intended return date), recent passport photographs, bank statements (6 months showing consistent balance — recommended minimum ₦1,000,000+), employment letter on company letterhead stating your position, salary, and approved leave dates, business registration documents if self-employed (CAC certificate, tax clearance, 6 months business bank statements), evidence of accommodation in Australia (hotel booking or invitation letter from host with proof of Australian address and status), return flight booking, travel itinerary showing planned activities." },
+          { action: "Pay the visa application fee", detail: "Fee: AUD 190 (approximately ₦120,000 at current rates). Paid online by credit/debit card when submitting the application. The fee is non-refundable even if refused. No VFS Global for Australian visitor visas — it is entirely online through ImmiAccount." },
+          { action: "Submit health and character documents if requested", detail: "The Department of Home Affairs may request a health examination (by an approved panel physician) or police clearance after you submit. This is more common for longer stays or if you have previously lived in certain countries. Respond to any requests promptly — delays in responding can result in the application being refused." },
+          { action: "Track your application and respond promptly to any requests", detail: "Track through ImmiAccount. Standard processing: 20–35 days. Can be longer during peak periods or if additional checks are required. You will receive a grant notification by email with a visa label to print. The visa conditions will specify: maximum stay per visit (3 or 6 months), number of entries (single or multiple), and whether you can work (visitor visas do not allow work)." },
+        ],
+        keyFacts: [
+          "No VFS Global for Australian visitor visas — apply entirely online through ImmiAccount",
+          "Visa fee: AUD 190 — non-refundable regardless of outcome",
+          "Processing: 20–35 days standard — apply at least 6 weeks before travel",
+          "Strong financial evidence and clear employment ties to Nigeria are the most important factors",
+          "Australian visitor visas do not allow you to work — including remote work for overseas employers",
+        ],
+        outcome: "A granted subclass 600 visitor visa is typically valid for 12 months from grant date, with a maximum stay of 3 or 6 months per visit. Multiple-entry is possible but not guaranteed on a first application.",
+      },
+    },
+
+    visa: {
+      undergrad: `**Australia Student Visa (Subclass 500) — Undergraduate**
+
+**How It Works**
+The Australian student visa (subclass 500) is applied for entirely online through ImmiAccount. There is no embassy appointment, no VFS Global, and no paper forms. You apply, upload documents, pay the fee, and wait for a decision by email.
+
+**The Core Document: eCoE**
+Your Electronic Confirmation of Enrolment (eCoE) is issued by your university after you accept your offer and pay your deposit. It contains a unique reference number. Your student visa application cannot proceed without it. Keep it.
+
+**Genuine Student Requirement (GSR)**
+This replaced the old Genuine Temporary Entrant (GTE) requirement. You must demonstrate that your primary purpose in coming to Australia is to study — not to migrate permanently via the student route. Write a clear, honest statement covering: why you chose Australia and this specific course, why this course is relevant to your career goals, your ties to Nigeria (family, job, property), your academic background, and your financial situation. Vague or template answers are identified and can lead to refusal.
+
+**Financial Requirements**
+You must demonstrate funds for:
+- Living costs: AUD 21,041/year
+- Annual course tuition fees (stated on your eCoE)
+- Travel costs: AUD 2,000 (if not already shown on your application)
+- If bringing a partner: AUD 7,362 additional
+- If bringing a child: AUD 3,152 per child additional
+
+Acceptable evidence: personal bank statements (6 months), parent/sponsor bank statements, scholarship award letter, GIC-equivalent accounts. All statements must show the funds have been held consistently — a sudden large deposit is flagged.
+
+**OSHC — Overseas Student Health Cover**
+OSHC is mandatory before you can be granted a student visa. It is a health insurance policy specifically for international students in Australia. Cost: approximately AUD 600–750/year for a single student. Providers: Medibank, Bupa, AHM, CBHS, nib. Purchase online before submitting your visa application. Your eCoE from the university may indicate which provider they work with.
+
+**Working Rights**
+On a subclass 500 student visa:
+- Up to 48 hours per fortnight (roughly 24 hours/week) during semester
+- Unlimited hours during scheduled university breaks (holidays between semesters)
+- Partners of student visa holders can also work (unlimited if your course is at master's or PhD level)
+- Australia's minimum wage: AUD 23.23/hour — part-time work is real income
+
+**After Graduation: Graduate Visa (Subclass 485)**
+This is why Australia works for Nigerians. After completing your degree, you apply for the subclass 485 Graduate Visa — open work rights anywhere in Australia for:
+- 2 years: most bachelor's and master's degrees
+- 3 years: if your occupation is on the MLTSSL
+- 4 years: if you studied in a regional area of Australia
+- 5 years: if you completed a PhD at an Australian institution
+
+You cannot apply for 485 if you are still in Australia on a student visa without first completing your course. Apply within 6 months of your course completion.`,
+
+      masters: `**Australia Student Visa (Subclass 500) — Master's**
+
+**Why This Path Works**
+Masters → subclass 485 (2–4 years open work) → SkillSelect points → PR invitation → subclass 189 or 190. This is the most commonly completed immigration pathway by African graduates in Australia, including thousands of Nigerians.
+
+**Strategic Field Selection**
+Before choosing your master's program, check the Medium and Long-term Strategic Skills List (MLTSSL) at immi.homeaffairs.gov.au. If your occupation is on the MLTSSL, your subclass 485 post-study work visa is 3 years instead of 2. Fields on the MLTSSL that Nigerians commonly study: Software and Applications Programmer, Civil Engineer, Mechanical Engineer, Registered Nurse, Accountant (General), ICT Business Analyst, Social Worker, Construction Project Manager.
+
+**Skills Assessment: Start Early**
+Do not wait until after graduation to start your skills assessment. Each occupation has a designated assessing authority. For IT: ACS (myacs.com.au). For Engineering: Engineers Australia. For Accounting: CPA Australia or CAANZ. For Nursing: AHPRA. Skills assessments take 3–6 months. Starting in your final semester means you have your assessment ready when your student visa expires — and can apply for subclass 485 immediately.
+
+**SkillSelect Points Calculation**
+Points are assessed at time of invitation, not application. Key point sources:
+- Age 25–32: 30 points | Age 33–39: 25 points | Age 40–44: 15 points
+- Bachelor's or higher: 15 points
+- Proficient English (IELTS 7.0 each band): 10 points | Superior (8.0 each band): 20 points
+- 3 years skilled work experience (Australian): 5 points | 5 years: 10 points | 8 years: 15 points
+- Australian study of at least 2 years: 5 points
+- Study/work in a regional area: up to 5 extra points
+- State nomination (subclass 190): 5 extra points
+- Partner with competent English: 5 points
+
+A 29-year-old with a master's, IELTS 8.0, and 3 years Australian work experience scores: 30 + 15 + 20 + 5 + 5 = 75 points — competitive for many occupations.
+
+**Visa Application Process (Same as undergrad)**
+Accept offer → pay deposit → receive eCoE → purchase OSHC → write Genuine Student Requirement statement → apply on ImmiAccount → pay AUD 710 → upload documents → wait 4–6 weeks for decision → receive grant by email.
+
+**After Graduation**
+Apply for subclass 485 within 6 months of course completion. You must be in Australia when you apply. The 485 gives you open work rights — any employer, any location, any occupation. Use this time to build Australian work experience (critical for SkillSelect points) and lodge your EOI.`,
+
+      phd: `**Australia PhD — Research Training Program (RTP) Scholarship**
+
+**The RTP Scholarship**
+The Research Training Program (RTP) is funded by the Australian government and administered by universities. It provides:
+1. Full tuition fee offset — you pay no tuition
+2. Living allowance stipend — approximately AUD 32,192/year (2024 rate), tax-free
+3. Relocation allowance — one-time, typically AUD 1,000–2,000
+4. Thesis examination costs covered
+
+RTP scholarships are competitive but not as elite as they sound — Australia has a genuine need for research capacity and actively funds international PhD students. If you have a first-class degree, strong research experience, and a willing supervisor, your chances are real.
+
+**University-specific Additional Scholarships**
+Many universities top up RTP scholarships with their own awards. UNSW, University of Melbourne, and ANU offer additional top-up stipends of AUD 5,000–10,000/year for high-achieving PhD candidates. Check each university's research scholarship page after receiving an RTP offer.
+
+**Finding a Supervisor**
+This is the most critical step. Australian PhD admission is heavily supervisor-dependent. The right approach:
+1. Search Google Scholar for researchers in your field at Australian universities
+2. Read 2–3 of their recent papers
+3. Email them a short, personalised message: introduce yourself, state which specific paper of theirs you found compelling, explain how your research interests align, attach your CV and transcripts
+4. Ask if they have capacity to supervise a PhD student and whether they have or expect RTP funding
+
+A positive response from a supervisor unlocks the formal application pathway. A cold formal application without supervisor contact is much weaker.
+
+**Subclass 500 for PhD Students**
+PhD students apply for the same subclass 500 student visa. If you have an RTP scholarship, your scholarship letter serves as evidence of funds — you don't need to show bank statements for living costs. OSHC is still required. Visa fee: AUD 710.
+
+**After PhD: Subclass 485**
+After completing your PhD, you qualify for a subclass 485 Graduate Visa:
+- 4 years if you studied in a regional area
+- 2–3 years otherwise
+- If you transition directly to skilled work, your employer may sponsor a 482 and eventually 186 (permanent)
+
+A completed Australian PhD contributes 15 qualification points to SkillSelect and demonstrates the academic credential for most professional occupation assessments. Many PhD graduates receive direct job offers from Australian companies or government agencies during their final year.`,
+
+      work: `**Australia Skilled Migration — Subclass 189, 190, and 482**
+
+**The Three Main Pathways**
+
+**Subclass 189 — Skilled Independent (Permanent)**
+No employer required. Points-based. You submit an EOI through SkillSelect, wait for an invitation, and apply. PR from day one. Occupation must be on the MLTSSL. Minimum 65 points — in practice 80–90+ for competitive occupations. Visa fee: AUD 4,640.
+
+**Subclass 190 — State-Sponsored (Permanent)**
+Same as 189 but you are nominated by an Australian state or territory. State nomination adds 5 points to your score and each state has its own occupation list and selection criteria (some states prioritise in-state residence, some accept offshore applications). States: NSW, VIC, QLD, WA, SA, TAS, ACT, NT. Each state's Department of Home Affairs page lists current nomination requirements. Visa fee: AUD 4,115.
+
+**Subclass 482 — Temporary Skill Shortage (Employer-Sponsored)**
+Your Australian employer nominates you for a temporary work visa. 2-year visa for STSOL occupations, 4 years for MLTSSL. After 3 years on a 482 in an MLTSSL occupation, you can apply for subclass 186 (permanent employer nomination). This is the fastest way to get to Australia if you have a job offer but not enough points for SkillSelect. Salary requirement: at least the Temporary Skilled Migration Income Threshold (TSMIT) — AUD 73,150/year (2024).
+
+**Skills Assessment — The First Gate**
+Every skilled migration pathway requires a positive skills assessment from your occupation's designated authority. This is non-negotiable. Start this before everything else.
+
+For Software Engineers and IT professionals — ACS (Australian Computer Society):
+- Skills assessment application at myacs.com.au
+- Required: degree transcripts, detailed employment references (must specify your tasks, technologies used, and hours/week), IELTS result
+- Processing: 3–4 months, fee AUD 520
+- ACS assesses whether your qualifications and experience meet Australian standards for your nominated ANZSCO occupation code
+
+For Engineers (Civil, Mechanical, Electrical, Chemical) — Engineers Australia:
+- CDR (Competency Demonstration Report) — a formal document you write yourself demonstrating your engineering competencies through 3 career episodes
+- IELTS: 6.0 each band minimum (Superior — 7.0+ — preferred)
+- Processing: 3–6 months, fee AUD 800–1,000
+- CDR writing is a specific skill — many engineers hire agents to help structure it, but the content must be original
+
+For Accountants — CPA Australia or CAANZ (Chartered Accountants Australia and New Zealand):
+- Transcript-based assessment. Strong preference for degrees with specific accounting subject coverage
+- Processing: 4–8 weeks, fee AUD 500–700
+
+**SkillSelect EOI**
+After positive skills assessment, submit your EOI at immi.homeaffairs.gov.au/skills. Select your occupation and visa subclass. Input your points. You can nominate up to 5 states for nomination. Your EOI stays active for 2 years. Invitations are sent in monthly rounds — the highest-scoring EOIs (by points, then by date submitted) are invited first.
+
+**After Invitation**
+You have 60 days from invitation to lodge the full visa application. Required:
+- Skills assessment (must be current — check validity period)
+- IELTS (all bands 6.0+ for competent English — higher for more points)
+- Nigerian Police Clearance (apply at the Nigerian Police Force headquarters, takes 2–4 weeks — also get an Interpol clearance for some applications)
+- Health examination (approved panel physician — listed at immi.homeaffairs.gov.au/help-support/glossary/panel-physician)
+- Employment references (detailed, on official letterhead)
+- Proof of qualifications
+- Passport
+
+**Bridging Visas**
+If you are already in Australia on another visa and lodge a skilled migration application, you receive a Bridging Visa A (BVA) automatically — this lets you stay legally in Australia while your application is being processed.`,
+
+      visitor: `**Australia Visitor Visa (Subclass 600) — Tourist Stream**
+
+**Entirely Online**
+Unlike UK or Schengen visas, there is no VFS Global or embassy appointment for Australian visitor visas. The entire application is submitted online at immi.homeaffairs.gov.au through your ImmiAccount. You upload documents, pay the fee, and receive the decision by email. The visa is electronic — there is no sticker in your passport. When you arrive in Australia, immigration can see your visa electronically.
+
+**Why Applications Are Refused**
+Australian visitor visa refusals for Nigerians most commonly cite:
+1. Insufficient financial evidence — bank statements showing low or inconsistent balances
+2. Weak ties to Nigeria — no stable employment, property, or family commitments
+3. Unclear purpose of visit — vague answers about why you want to visit and who you are seeing
+4. Previous immigration violations in any country
+5. Health or character concerns
+
+Address all five clearly in your application before submitting.
+
+**Financial Evidence**
+There is no officially published minimum bank balance. In practice, consular officers assess whether you can cover the cost of your trip without working illegally. For a 4-week trip to Australia, demonstrating AUD 5,000–8,000 (approximately ₦3.2–5.1 million) in accessible personal funds is a reasonable baseline. The money should have been in your account for at least 6 months — not a recent lump sum deposit.
+
+**Showing Ties to Nigeria**
+This is critical. The visa officer must believe you will return to Nigeria when your visit ends. Strong ties: a permanent job (with employment letter and payslips), property ownership, family dependants in Nigeria (spouse, children), business ownership (with CAC registration and active business bank statements). Weak ties: no job, no dependants, no property, first-time traveller.
+
+**Invitation Letters**
+If you are visiting family or friends in Australia, get a letter from your host that includes: their full name, Australian address, immigration status (Australian citizen/PR/visa holder — include a copy of their passport or visa), relationship to you, details of your planned visit (dates, accommodation), and a statement that they will support you during your stay. This does not guarantee approval but strengthens your application.
+
+**Health and Character**
+Most tourist applications do not require a health exam upfront. However, if the Department of Home Affairs suspects a health condition or if you have spent extended time in certain countries, they may request one. Character: you must declare any criminal convictions. A past conviction does not automatically mean refusal, but concealing one does.
+
+**Processing Time and Validity**
+Standard processing: 20–35 days. Apply at least 6–8 weeks before travel.
+Typical grant: valid for 12 months from grant date, with stays of up to 3 months per visit (some are granted 6 months — depends on the officer's assessment). Multiple entries within the validity period.
+
+**Fees**
+AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
+    },
+
+    timeline: {
+      undergrad: [
+        { month: "12 months before", task: "Research English-taught undergraduate programs at Australian universities. Check CRICOS registration at cricos.education.gov.au — only CRICOS-registered institutions can enrol international students" },
+        { month: "10–11 months before", task: "Take IELTS Academic — target 6.5 overall. Book at IDP or British Council Nigeria" },
+        { month: "9–10 months before", task: "Gather certified WAEC/NECO results, transcripts, and any other required documents" },
+        { month: "7–9 months before", task: "Apply to 4–6 universities directly. Deadlines vary: most have two intakes (February and July). Apply October–November for February start; April–May for July start" },
+        { month: "5–7 months before", task: "Receive offers. Accept your preferred offer, pay tuition deposit (AUD 2,000–5,000). University issues eCoE" },
+        { month: "4–6 months before", task: "Purchase OSHC insurance. Write Genuine Student Requirement statement. Apply for subclass 500 on ImmiAccount. Pay AUD 710 fee" },
+        { month: "2–4 months before", task: "Receive visa grant by email. Book flights. Arrange accommodation (university halls or private rental)" },
+        { month: "Arrival week", task: "Complete university orientation. Get a Tax File Number (TFN) from the ATO. Open Australian bank account" },
+        { month: "During study", task: "Work up to 48 hrs/fortnight during semester. Start planning skills assessment in your final year" },
+        { month: "After graduation", task: "Apply for subclass 485 Graduate Visa within 6 months of course completion. Must be in Australia when you apply" },
+      ],
+      masters: [
+        { month: "14 months before", task: "Research programs. Cross-check your target occupation against the MLTSSL at immi.homeaffairs.gov.au" },
+        { month: "12 months before", task: "Take IELTS Academic — target 7.0 overall (affects both admission and future SkillSelect points)" },
+        { month: "10 months before", task: "Get degree certificate and transcripts certified by your Nigerian university registrar" },
+        { month: "8–9 months before", task: "Apply to 3–5 Australian universities. February intake deadline: October/November. July intake: April/May" },
+        { month: "6–8 months before", task: "Accept offer, pay deposit, receive eCoE. Purchase OSHC. Write GSR statement. Apply for subclass 500 on ImmiAccount" },
+        { month: "4–6 months before", task: "Receive visa grant. Book flights. Arrange accommodation. Register for orientation" },
+        { month: "Final year of study", task: "Begin skills assessment with your assessing authority (ACS, Engineers Australia, CPA, etc.) — takes 3–6 months" },
+        { month: "After graduation", task: "Apply for subclass 485 Graduate Visa. Lodge SkillSelect EOI once skills assessment is complete" },
+        { month: "During subclass 485", task: "Build Australian work experience. Improve IELTS if needed. Watch SkillSelect invitation rounds for your occupation" },
+        { month: "After invitation", task: "Lodge subclass 189 or 190 application within 60 days. Complete health exam and police clearance" },
+      ],
+      phd: [
+        { month: "Ongoing", task: "Search for PhD vacancies and supervisor opportunities on university research websites, FindAPhD.com, and seek.com.au" },
+        { month: "Contact phase", task: "Email potential supervisors with personalised research proposal + CV + transcripts. Allow 2–4 weeks per email" },
+        { month: "Application", task: "Formal PhD + RTP scholarship application through university graduate research portal. Documents: research proposal, references, transcripts, IELTS" },
+        { month: "Offer received", task: "Receive conditional offer + scholarship letter. University issues eCoE. Purchase OSHC" },
+        { month: "Visa application", task: "Apply for subclass 500 on ImmiAccount. Scholarship letter covers financial evidence. Processing: 4–8 weeks" },
+        { month: "Arrival", task: "University orientation. Get TFN. Open bank account. Register with your department and primary supervisor" },
+        { month: "Year 1", task: "Confirm enrolment review (milestone). Begin building research output. Explore tutoring for supplementary income" },
+        { month: "Years 2–3", task: "Research, publications, conferences. Begin thinking about post-PhD pathway (485, skills assessment, employer)" },
+        { month: "Submission/Completion", task: "Submit thesis. Apply for subclass 485 within 6 months of completion. Begin SkillSelect EOI or job search" },
+      ],
+      work: [
+        { month: "Skills assessment", task: "Start skills assessment with your authority (ACS, Engineers Australia, CPA, AHPRA etc.) — takes 3–6 months, do this first" },
+        { month: "SkillSelect EOI", task: "Submit Expression of Interest through SkillSelect at immi.homeaffairs.gov.au. Calculate your points accurately" },
+        { month: "State nomination (if applicable)", task: "Check each state's occupation and nomination criteria. Apply for state nomination if your occupation is on their list" },
+        { month: "Invitation received", task: "Receive invitation to apply for subclass 189 or 190. You have 60 days to lodge full application" },
+        { month: "Visa lodgement", task: "Gather: police clearance (allow 4 weeks for Nigerian clearance), health exam, employment references, transcripts, IELTS" },
+        { month: "Processing", task: "Subclass 189/190 processing: 6–18 months. You may receive a Bridging Visa if in Australia" },
+        { month: "Grant", task: "Receive PR grant. If subclass 189: activate by entering Australia before the activation deadline (usually within 12 months)" },
+        { month: "Employer-sponsored (482)", task: "Employer submits sponsorship and nomination. You apply for 482 visa. Processing: 2–6 months. 3 years service → eligible for 186 (permanent)" },
+      ],
+      visitor: [
+        { month: "8 weeks before travel", task: "Create ImmiAccount at immi.homeaffairs.gov.au. Begin gathering documents" },
+        { month: "6–7 weeks before", task: "Gather: 6 months bank statements, employment letter, return flight booking, hotel/accommodation proof, travel itinerary" },
+        { month: "5–6 weeks before", task: "Complete online application on ImmiAccount. Upload all documents. Pay AUD 190 fee by card" },
+        { month: "3–5 weeks before", task: "Department of Home Affairs reviews application. Standard processing: 20–35 days. Track via ImmiAccount" },
+        { month: "Visa granted", task: "Receive email confirmation. Visa is electronic — no sticker needed. Print or save the grant notification" },
+        { month: "Day of travel", task: "Australian Border Force can see your visa electronically. Bring your passport + printed grant notice. Declare items on incoming passenger card" },
+        { month: "In Australia", task: "Do not work (including remote work). Do not overstay your permitted stay period noted in the grant. Keep return ticket confirmed" },
+      ],
+    },
+
+    tips: {
+      undergrad: [
+        "Only apply to CRICOS-registered institutions — check cricos.education.gov.au before applying anywhere",
+        "Your Genuine Student Requirement (GSR) statement is more important than most people realise — write it carefully and honestly",
+        "OSHC is mandatory — buy it before submitting your visa application, not after",
+        "Australia's minimum wage is AUD 23.23/hour — 48 hours per fortnight of casual work at a café or retail can cover a significant portion of living costs",
+        "Sydney and Melbourne are the most expensive cities — consider Brisbane, Adelaide, or Perth for lower rent with still-strong job markets",
+        "Apply for the subclass 485 Graduate Visa within 6 months of completing your course — you must be in Australia when you apply",
+        "Check which occupations are on the MLTSSL before choosing your undergraduate specialisation if you intend to stay in Australia after graduating",
+      ],
+      masters: [
+        "Choose your master's program based on MLTSSL occupation alignment — this determines your post-study work visa length and PR eligibility",
+        "Start your skills assessment in your final semester — waiting until after graduation adds months of delay to your 485 and SkillSelect timeline",
+        "IELTS 8.0 each band gives you 20 extra SkillSelect points compared to 6.0 — this can be the difference between waiting months and being invited",
+        "State nomination (subclass 190) adds 5 points and is often easier to secure than a subclass 189 invitation for the same occupation",
+        "Regional universities (Wollongong, Newcastle, Canberra, Geelong) often offer more affordable tuition and may give you regional study bonus points for SkillSelect",
+        "The 485 Graduate Visa is open work rights — use every month of it to build Australian work experience for SkillSelect points",
+        "Engage with your university's careers centre in your first year — not final year. Internships and graduate programs fill up early",
+      ],
+      phd: [
+        "Email potential supervisors before applying formally — a supervisor's interest is the most important factor in a PhD application",
+        "The RTP scholarship (tuition waiver + AUD 32,000/yr stipend) is tax-free — it is genuinely liveable in most Australian cities outside Sydney",
+        "University top-up scholarships exist — UNSW, Melbourne, and ANU offer additional AUD 5,000–10,000/yr for competitive candidates. Ask",
+        "PhD students can tutor undergraduates at AUD 40–60/hour — this is the most common and flexible way to earn extra income",
+        "Australian PhDs typically have annual milestone reviews — take them seriously, they determine whether your scholarship continues",
+        "A completed Australian PhD contributes 15 points to SkillSelect and is assessed positively by most skills assessing authorities",
+        "The subclass 485 after a PhD is up to 4 years if you studied in a regional area — consider universities outside Sydney and Melbourne",
+      ],
+      work: [
+        "Start your skills assessment before anything else — it is the first gate and takes 3–6 months",
+        "For IT roles, ACS assessment requires detailed employment references — ask your previous employers now and keep them updated",
+        "For Engineers Australia CDR, hire a professional engineer (not an agent) to review your Career Episodes for technical accuracy — but write the content yourself",
+        "SkillSelect points decay with age — submit your EOI as young as possible (25–32 gives maximum 30 points)",
+        "State nomination requirements change frequently — check each state's website directly rather than relying on third-party advice",
+        "Seek.com.au and LinkedIn Australia are the main job boards — set up job alerts and apply consistently, not in bursts",
+        "The 482 visa ties you to one employer — negotiate your employment contract carefully before accepting, as changing employer requires a new nomination",
+      ],
+      visitor: [
+        "There is no VFS Global for Australian visitor visas — apply entirely online through ImmiAccount",
+        "Consistent bank balance over 6 months is more persuasive than a high recent balance — a sudden large deposit is a red flag",
+        "Write clear, specific answers for every application question — vague answers are a common reason for refusal",
+        "If visiting a host in Australia, get a detailed invitation letter with their Australian residency documentation attached",
+        "Previous Schengen, UK, or US visa grants help demonstrate travel history and immigration compliance — mention these",
+        "AUD 190 fee is non-refundable — only apply when your documents are complete and strong",
+        "Apply at least 6–8 weeks before travel — processing can take up to 45 days during peak periods",
+      ],
+    },
+
+    universities: {
+      undergrad: [
+        { name: "University of Queensland (UQ)", location: "Brisbane, Queensland", known_for: "Strong in Sciences, Engineering, Business, Health. Brisbane is more affordable than Sydney/Melbourne. Large international student body. CRICOS provider.", avg_tuition: "AUD 32,000–42,000/yr", acceptance: "Moderately competitive", nigerian_community: "Small but growing" },
+        { name: "Monash University", location: "Melbourne, Victoria", known_for: "Medicine, Engineering, Business, Law, Pharmacy. Multiple campuses including Malaysia campus. Large international student community. Strong industry links in Melbourne.", avg_tuition: "AUD 32,000–46,000/yr", acceptance: "Moderately competitive", nigerian_community: "Small" },
+        { name: "University of New South Wales (UNSW)", location: "Sydney, New South Wales", known_for: "Engineering, Business (UNSW Business School), Law, Medicine, Computer Science. High graduate employment rates. Located in Sydney — largest Nigerian community in Australia.", avg_tuition: "AUD 38,000–52,000/yr", acceptance: "Competitive", nigerian_community: "Small but growing" },
+        { name: "Macquarie University", location: "Sydney, New South Wales", known_for: "Finance, Business, Linguistics, Environmental Sciences. More accessible than UNSW/USyd. Strong industry partnerships.", avg_tuition: "AUD 28,000–38,000/yr", acceptance: "Moderately accessible", nigerian_community: "Very small" },
+      ],
+      masters: [
+        { name: "University of Melbourne", location: "Melbourne, Victoria", known_for: "Consistently ranked top 3 in Australia. Melbourne Model — broad graduate-entry professional degrees. Strong across all disciplines. Excellent research environment. Very competitive.", avg_tuition: "AUD 40,000–52,000/yr", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University of New South Wales (UNSW)", location: "Sydney, New South Wales", known_for: "Engineering, IT, Business, Law. Fastest-rising Australian university. Strong industry connections in Sydney's tech and finance sectors. Active Nigerian students association.", avg_tuition: "AUD 38,000–50,000/yr", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "Australian National University (ANU)", location: "Canberra, ACT", known_for: "Policy, International Relations, Economics, Sciences. Australia's only dedicated research university. Canberra is more affordable. Access to government and diplomatic sector.", avg_tuition: "AUD 35,000–48,000/yr", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University of Queensland (UQ)", location: "Brisbane, Queensland", known_for: "Mining Engineering, Environmental Science, Health Sciences, Business. Strong research output. Brisbane job market growing strongly. More affordable living than Sydney/Melbourne.", avg_tuition: "AUD 32,000–46,000/yr", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "Monash University", location: "Melbourne, Victoria", known_for: "Engineering, IT, Medicine, Business, Education. Largest Australian university by enrolment. Strong graduate employment outcomes. Active international community.", avg_tuition: "AUD 34,000–48,000/yr", acceptance: "Competitive", nigerian_community: "Small" },
+        { name: "University of Technology Sydney (UTS)", location: "Sydney, New South Wales", known_for: "IT, Design, Engineering, Business, Law. Strong industry-connected programs. Tech-focused curriculum. Strong startup and innovation ecosystem connections.", avg_tuition: "AUD 30,000–44,000/yr", acceptance: "Moderately competitive", nigerian_community: "Very small" },
+      ],
+      phd: [
+        { name: "University of Melbourne", location: "Melbourne, Victoria", known_for: "Top Australian research university. Strong across all disciplines. Competitive RTP scholarship funding. Melbourne Research Scholarship (MRS) tops up RTP for outstanding candidates.", avg_tuition: "Fully funded via RTP — AUD ~32,000/yr stipend", acceptance: "Very competitive internationally", nigerian_community: "Very small" },
+        { name: "Australian National University (ANU)", location: "Canberra, ACT", known_for: "Australia's only Group of Eight university dedicated to research. Strong in sciences, policy, economics, Asian studies. ANU University Research Scholarship available additionally to RTP.", avg_tuition: "Fully funded via RTP", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University of New South Wales (UNSW)", location: "Sydney, NSW", known_for: "Engineering, IT, Medicine, Law, Business. UNSW Scientia PhD Scholarship (top-up of AUD 10,000/yr + career development) available competitively.", avg_tuition: "Fully funded via RTP + possible UNSW Scientia top-up", acceptance: "Very competitive", nigerian_community: "Very small" },
+        { name: "University of Queensland (UQ)", location: "Brisbane, QLD", known_for: "Life Sciences, Mining, Environmental Sciences, Medicine, Engineering. UQ Research Training Scholarship available. Brisbane more affordable than Sydney/Melbourne.", avg_tuition: "Fully funded via RTP", acceptance: "Competitive", nigerian_community: "Very small" },
+      ],
+      work: [],
+    },
+
+    scholarships: {
+      undergrad: [
+        { name: "Australia Awards Scholarships", amount: "Full tuition + living allowance + airfare + health cover — full scholarship", university: "Australian universities — managed by DFAT (Australian Department of Foreign Affairs and Trade)", deadline: "April 30 each year for Nigerian applicants — apply at dfat.gov.au/australiaawards", url: "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships" },
+        { name: "University of Queensland Global Excellence Scholarship", amount: "AUD 10,500 per year for the duration of your undergraduate degree", university: "University of Queensland (UQ)", deadline: "Applications considered with admission — apply by November for February intake", url: "https://scholarships.uq.edu.au/scholarship/uq-global-excellence-scholarship-uqges-undergraduate" },
+        { name: "Destination Australia Program", amount: "AUD 15,000/yr — for study in regional Australia specifically", university: "Participating regional Australian universities — check destinationaustralia.gov.au", deadline: "Varies by university — check each institution", url: "https://www.destinationaustralia.gov.au/" },
+      ],
+      masters: [
+        { name: "Australia Awards Scholarships", amount: "Full tuition + monthly living allowance + return airfare + OSHC — covers everything", university: "All Australian universities — for Nigerians specifically managed via DFAT Lagos office", deadline: "April 30 each year — dfat.gov.au/australiaawards. This is one of the most competitive and valuable scholarships available to Nigerians", url: "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships" },
+        { name: "Endeavour Leadership Program", amount: "AUD 272,500 maximum — covers tuition, living, travel, health — for postgraduate study and research", university: "Any Australian university — check dfat.gov.au for current availability", deadline: "Check dfat.gov.au annually — program availability varies", url: "https://www.dfat.gov.au/people-to-people/australia-awards" },
+        { name: "UNSW International Scholarships", amount: "AUD 5,000–20,000 tuition reduction — varies by program and academic merit", university: "UNSW Sydney — applied for at time of admission", deadline: "Rolling — applied for with admission application", url: "https://www.unsw.edu.au/study/international/fees-and-scholarships/scholarships" },
+        { name: "Monash International Merit Scholarship", amount: "AUD 10,000 per year — tuition reduction for high-achieving international students", university: "Monash University — applied for automatically when you apply for admission", deadline: "Applied automatically with Monash admission application — no separate form", url: "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-merit-scholarship" },
+      ],
+      phd: [
+        { name: "Research Training Program (RTP) Scholarship", amount: "Full tuition waiver + AUD ~32,192/yr living stipend (tax-free) — the standard Australian PhD funding mechanism", university: "All Australian universities — applied for with PhD admission", deadline: "Rolling — applied for with PhD application. Quota is limited per university per year", url: "https://www.education.gov.au/research-training-program" },
+        { name: "Australia Awards Scholarships (PhD)", amount: "Full funding including tuition, living, airfare, health cover — available for PhD study", university: "Any Australian university — managed by DFAT", deadline: "April 30 each year for Nigerian applicants", url: "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships" },
+        { name: "UNSW Scientia PhD Scholarship", amount: "RTP tuition waiver + AUD 42,000/yr stipend (RTP + AUD 10,000 top-up) + AUD 10,000 career development support", university: "UNSW Sydney — for outstanding PhD applicants in all fields", deadline: "Competitive — check unsw.edu.au/research/hdr/scholarships. Rolling intake", url: "https://www.unsw.edu.au/research/hdr/scholarships/scientia-phd-scholarship-scheme" },
+        { name: "ANU University Research Scholarship (URS)", amount: "Full tuition waiver + AUD 32,192/yr stipend — ANU-funded top-up to RTP for outstanding candidates", university: "Australian National University (ANU)", deadline: "Rolling — applied for with PhD application at ANU", url: "https://www.anu.edu.au/study/scholarships/find-a-scholarship/anu-university-research-scholarship" },
+      ],
+      work: [],
+    },
+
+    embassy: {
+      name: "Australian High Commission Abuja / Australian Consulate General Lagos",
+      address: "High Commission: 48 Aguiyi Ironsi Street, Maitama, Abuja | Consulate: 14A Walter Carrington Crescent, Victoria Island, Lagos",
+      phone: "Visitor visa applications are submitted online only — no walk-in. For consular queries: contact via homeaffairs.gov.au",
+      note: "All visitor visa applications are submitted online through ImmiAccount at immi.homeaffairs.gov.au — there is no VFS Global or embassy appointment for tourist visas. Student and skilled migration applications are also submitted online. The High Commission in Abuja handles in-person services for Australian citizens and some complex cases. Skills assessments and visa applications do not require a visit to the High Commission.",
+      website: "https://nigeria.highcommission.gov.au/abjn/home.html",
+      visa_apply: "https://immi.homeaffairs.gov.au/",
+      vfs: "https://immi.homeaffairs.gov.au/",
+      official_immigration: "https://immi.homeaffairs.gov.au/",
+      extra_links: [
+        { label: "ImmiAccount — All Australian visa applications (student, visitor, skilled)", url: "https://immi.homeaffairs.gov.au/" },
+        { label: "SkillSelect — Skilled migration EOI portal", url: "https://immi.homeaffairs.gov.au/skills/skillselect" },
+        { label: "CRICOS — Verify your institution is registered for international students", url: "https://www.cricos.education.gov.au/" },
+        { label: "Australia Awards Scholarships — Full funding for Nigerians", url: "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships" },
+        { label: "ACS — IT skills assessment for SkillSelect", url: "https://www.acs.org.au/msa/skills-assessment.html" },
+        { label: "Engineers Australia — Engineering skills assessment and CDR", url: "https://www.engineersaustralia.org.au/portal/skills-assessment" },
+        { label: "MLTSSL — Medium and Long-term Strategic Skills List", url: "https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list" },
+        { label: "Seek.com.au — Main Australian job search portal", url: "https://www.seek.com.au/" },
+        { label: "Study in Australia — Official government study portal", url: "https://www.studyinaustralia.gov.au/" },
+        { label: "Destination Australia — Scholarships for regional study", url: "https://www.destinationaustralia.gov.au/" },
+      ],
+    },
+  },
+
 };
