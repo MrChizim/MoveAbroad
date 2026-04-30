@@ -298,6 +298,16 @@ Decide on course-based vs thesis-based masters. A course-based masters is like a
 
 Go to each university's School of Graduate Studies or Faculty of Graduate and Postdoctoral Studies website. Browse programs by subject area. Read admission requirements carefully — minimum GPA, IELTS score, required documents, whether the program is course-based or thesis-based. Make a shortlist of 4–6 programs across different universities at different competitiveness levels. Apply to all of them. Do not apply to only one or two.
 
+**How to choose the right university for you**
+
+Do not just chase rankings. The right university depends on your field, your budget, and your post-graduation plan. Ask three questions: (1) Does this university have a strong department in my specific subject area — not generally strong, but specifically strong in what I want to do? (2) Is this university in a city where I could realistically find work after graduating? (3) Can I afford the tuition, or does this university offer scholarships or funded positions? A lesser-ranked university in a city with a strong job market in your field may serve you better than a top-ranked university in a smaller town with fewer employers.
+
+For job market access: Toronto and Vancouver are Canada's best cities for tech, finance, and business. Calgary is strong for energy and engineering. Ottawa for government and policy. Montreal for tech, arts, AI research, and bilingual roles.
+
+For funding: if your goal is to minimise debt, prioritise programs that offer teaching assistantships (TAs) or research assistantships (RAs) — these pay a stipend (typically CAD 15,000–20,000/year) in exchange for 10 hours of work per week. Most masters students at Canadian universities can access TA positions by applying through the department after admission.
+
+Scholarships to know about: the Vanier Canada Graduate Scholarship (vanier.gc.ca) is for doctoral students — CAD 50,000/year for 3 years. The Ontario Graduate Scholarship is province-specific — CAD 10,000–15,000 for masters students at Ontario universities. Most universities also have internal scholarships listed on their graduate admissions pages — always check these.
+
 Real examples of where to apply and what they need:
 University of Toronto — apply at apply.sgs.utoronto.ca, fee CAD 130, IELTS 7.0 minimum (no band below 6.5), requires two reference letters and a Statement of Purpose. U of T is Canada's top-ranked university. Getting in is competitive but Nigerians with First Class or strong 2:1 degrees from UNILAG, OAU, UNN, ABU, or Covenant are regularly admitted.
 University of Waterloo — strong for computer science, engineering, mathematics, and data science. Very good industry connections, co-op options for some programs.
@@ -592,7 +602,7 @@ Step one — identify target sectors and employers. The sectors that most common
 
 Step two — search for LMIA-friendly employers. Job Bank Canada at jobbank.gc.ca is the Canadian government's own job board and is specifically used by employers who are open to hiring internationally. Search for your job title filtered to Canada. Look for postings that say "open to candidates requiring work authorization," "willing to sponsor," or "open work permit." Also search LinkedIn — set your location preference to Canada, update your profile for the Canadian job market (more on this below), and turn on "Open to Work" with Canada as your target location. Indeed Canada (ca.indeed.com) is also widely used.
 
-Step three — prepare your Canadian-format CV and cover letter. Canadian CVs are typically 1–2 pages maximum. They do not include your photo, date of birth, or marital status — do not include these. Your CV should list: professional summary (2–3 sentences), work experience in reverse chronological order with bullet points describing what you achieved not just what you did, education, and skills. Cover letters are expected for professional roles. Address it to a specific person, not "To Whom It May Concern." Research the company before writing.
+Step three — prepare your Canadian-format CV and cover letter. Canadian CVs are typically 1–2 pages maximum. They do not include your photo, date of birth, or marital status — do not include these. Your CV should list: professional summary (2–3 sentences), work experience in reverse chronological order with bullet points describing what you achieved not just what you did, education, and skills. Cover letters are expected for professional roles. Address it to a specific person, not "To Whom It May Concern." Research the company before writing. Use the MoveAbroad.ng CV Builder (cv-builder tab in your dashboard) to generate a properly formatted Canadian CV from your profile in one click. The same tool generates a Canada-specific cover letter template you can customise — it has the right format and structure Canadian hiring managers expect.
 
 Step four — apply and go through the interview process. Canadian hiring processes typically involve a phone screening, then 1–2 interviews (video or in-person), and sometimes a technical assessment for engineering and tech roles. Be prepared for behavioural interview questions — "Tell me about a time when..." style questions are standard in Canada. Research the STAR method (Situation, Task, Action, Result) and prepare examples from your Nigerian work experience.
 
@@ -984,6 +994,20 @@ UK Masters programs are typically 1 year full-time — shorter and cheaper than 
 **Finding programs and applying**
 Unlike undergraduate (where you use UCAS), masters applications in the UK go directly to the university. Each university has its own application portal.
 
+**How to choose the right UK university and program**
+
+Do not shortlist universities from rankings alone. Here is how to approach this properly:
+
+First, identify your field and specialisation. Within that field, look at three things: (1) Which universities have strong research groups or industry connections in your exact area — not just a general department, but specific faculty doing work you find compelling. Go to each department's staff page and read what professors actually research. (2) Location matters for your career after graduating: London is essential for finance, law, and media; Manchester and Leeds are strong for tech and engineering; Edinburgh for finance and life sciences; Birmingham for manufacturing and professional services. (3) What is the tuition cost and what scholarships does this university offer? UK tuition for international students ranges from £15,000 to £35,000+ per year. Scholarships can close that gap significantly.
+
+Scholarships to research immediately:
+Chevening Scholarship — covers full tuition + ~£14,000/year living costs + return flights + visa fees. Open to anyone with 2 years of work experience. Apply at chevening.org, deadline in November each year.
+Commonwealth Shared Scholarship — specifically for students from developing Commonwealth countries including Nigeria. For taught masters only. Administered through the Nigerian Federal Scholarship Board. Covers full tuition + living allowance + flights + visa. Deadline varies — check cscuk.fcdo.gov.uk.
+Commonwealth Distance Learning Scholarship — study remotely from Nigeria. Full funding. Check cscuk.fcdo.gov.uk.
+University-specific scholarships — every major UK university has international student scholarships, partial or full. Go to the financial aid or funding section of any university you are applying to and check what they offer specifically to Nigerian applicants.
+
+Apply for Chevening at the same time as you research programs — the November Chevening deadline is often before most application portals even open. You can apply for Chevening before you have been admitted — you select programs on the Chevening application. Do not wait for an offer first.
+
 REAL EXAMPLE — University of Manchester Masters:
 Portal: pgapplication.manchester.ac.uk/apply/
 Documents needed: Degree transcripts (official, stamped), English language test result, 2 reference letters, personal statement (500–1,000 words), CV
@@ -1295,7 +1319,7 @@ For pharmacists: Register with the General Pharmaceutical Council (GPhC) — sep
 
 **The job application process**
 
-Check the licensed sponsors register. Apply on the company's own careers page or through a job board. UK cover letters and CVs follow specific conventions: the CV should be 1–2 pages maximum, no photo, no date of birth, no marital status. Lead with a professional profile summary (3 sentences), then work experience in reverse chronological order with achievement-focused bullet points (what you delivered, not just what you did), then education, then skills. Cover letter: addressed to a specific person if possible, 3 short paragraphs — why this role interests you, what you bring from your experience, and why this company specifically.
+Check the licensed sponsors register. Apply on the company's own careers page or through a job board. UK cover letters and CVs follow specific conventions: the CV should be 1–2 pages maximum, no photo, no date of birth, no marital status. Lead with a professional profile summary (3 sentences), then work experience in reverse chronological order with achievement-focused bullet points (what you delivered, not just what you did), then education, then skills. Cover letter: addressed to a specific person if possible, 3 short paragraphs — why this role interests you, what you bring from your experience, and why this company specifically. Use the MoveAbroad.ng CV Builder to generate a correctly formatted UK CV from your profile, and download the UK Work cover letter template which gives you the right structure and language for UK applications — both are in the CV Builder section of your dashboard.
 
 UK interview processes typically involve: a phone or video screen with HR or a recruiter, then a competency interview with the hiring manager (expect "Tell me about a time you..." questions — prepare 6–8 stories from your Nigerian work experience using the STAR format: Situation, Task, Action, Result), and sometimes a technical assessment or case study. Video interviews from Nigeria are completely normal for first rounds.
 
@@ -1631,6 +1655,20 @@ After completing your undergraduate degree, you can apply for a residence permit
 
 Masters programs are where Sweden is strongest for Nigerian students. Over 1,000 programs are taught entirely in English across Swedish universities in engineering, technology, business, public health, computer science, and more.
 
+**How to choose the right Swedish university and program**
+
+Sweden has several excellent universities, each with different strengths. Here is how to choose:
+
+KTH Royal Institute of Technology (Stockholm) — one of Europe's top technical universities. Excellent for engineering, computer science, ICT, and energy. Strong employer connections in the Swedish tech sector. Stockholm location is an advantage for the international job market.
+Lund University (Lund/Malmö) — ranked among Europe's best overall. Particularly strong in science, medicine, law, and social sciences. Lund itself is a smaller city near Malmö — lower cost of living than Stockholm.
+Chalmers University of Technology (Gothenburg) — excellent for engineering and architecture. Gothenburg is Sweden's second city, home to Volvo, AstraZeneca, SKF, and many engineering employers.
+Uppsala University — Sweden's oldest and most historically prestigious university. Strong in science, medicine, pharmacy, and humanities. Uppsala is 40 minutes from Stockholm by train — you get a quieter, more affordable city with easy access to the capital.
+Stockholm University — broad range of subjects. Strong in natural sciences, social sciences, and humanities. Good location for the Stockholm job market.
+
+How to pick your specific program: go to universityadmissions.se and browse by subject. For each program you find interesting, go to that university's own website and read the program's specific requirements, curriculum, and which companies partner with the department or have hired recent graduates. That last point tells you a lot about the program's value in the labour market.
+
+Scholarships: The Swedish Institute Scholarship (SISGP) is the one to aim for — covers everything. But also check each university's international scholarship page. KTH, Lund, Uppsala, and Chalmers all have their own partial scholarships for admitted international students. These are typically announced after admission.
+
 **Step 1 — Apply at universityadmissions.se**
 Apply between October 15 and January 15 for autumn start. Apply to up to 4 programs. Pay the SEK 900 application fee. Upload your documents. Results in April.
 
@@ -1882,9 +1920,9 @@ For Swedish companies hiring tech internationally: search "Stockholm software en
 
 **Preparing your application for Swedish employers**
 
-Swedish CVs follow European conventions: typically 1–2 pages, personal details at the top, professional summary, work experience in reverse chronological order with achievement-focused descriptions, education, skills. No photo required (though it is common in Sweden, unlike the UK). No date of birth or marital status needed.
+Swedish CVs follow European conventions: typically 1–2 pages, personal details at the top, professional summary, work experience in reverse chronological order with achievement-focused descriptions, education, skills. No photo required (though it is common in Sweden, unlike the UK). No date of birth or marital status needed. Use the MoveAbroad.ng CV Builder and select the European / Swedish CV style — it generates a two-column PDF with the exact format Swedish and EU employers expect, complete with a skills sidebar. Download from the CV Builder section in your dashboard.
 
-Swedish cover letters are shorter than UK ones — typically half a page. Be direct about what role you want and what you offer. Swedish culture values modesty and specificity over self-promotion. Describe what you have done and let the results speak — do not describe yourself as "passionate" or "dynamic" without evidence.
+Swedish cover letters are shorter than UK ones — typically half a page. Be direct about what role you want and what you offer. Swedish culture values modesty and specificity over self-promotion. Describe what you have done and let the results speak — do not describe yourself as "passionate" or "dynamic" without evidence. The Sweden Work cover letter template in the CV Builder uses this tone by default.
 
 If you speak any Swedish — even basic conversational level — mention it explicitly. It signals genuine commitment to Sweden.
 

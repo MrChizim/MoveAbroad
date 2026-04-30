@@ -7,13 +7,28 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FileText, Download, User, AlertCircle, CheckCircle2 } from 'lucide-react';
-import { generateCV } from '@/lib/cvGenerator';
+import { generateCV, generateCoverLetter } from '@/lib/cvGenerator';
 import { toast } from 'sonner';
 
 const STYLES = [
   { id: 'CA', flag: '🇨🇦', name: 'Canadian Style', desc: 'Max 2 pages, no photo, achievements-focused, ATS optimized.' },
   { id: 'US', flag: '🇺🇸', name: 'US Style (Resume)', desc: '1 page preferred, tight format, metric-heavy, no personal info.' },
   { id: 'GB', flag: '🇬🇧', name: 'UK Style', desc: '2 pages allowed, personal statement at top, UK spelling.' },
+  { id: 'EU', flag: '🇪🇺', name: 'European / Swedish Style', desc: 'Two-column layout, navy sidebar, skills pills, photo-optional. Standard for Sweden and EU roles.' },
+];
+
+const COVER_COUNTRIES = [
+  { id: 'CA', flag: '🇨🇦', name: 'Canada' },
+  { id: 'GB', flag: '🇬🇧', name: 'United Kingdom' },
+  { id: 'SE', flag: '🇸🇪', name: 'Sweden' },
+  { id: 'EU', flag: '🇪🇺', name: 'Europe (General)' },
+];
+
+const COVER_LEVELS = [
+  { id: 'undergrad', label: 'Undergraduate Admission' },
+  { id: 'masters', label: 'Masters Admission' },
+  { id: 'phd', label: 'PhD Application' },
+  { id: 'work', label: 'Job Application' },
 ];
 
 export default function CVBuilder() {
@@ -23,6 +38,9 @@ export default function CVBuilder() {
   const [loading, setLoading] = useState(true);
   const [selectedStyle, setSelectedStyle] = useState('CA');
   const [generating, setGenerating] = useState(false);
+  const [coverCountry, setCoverCountry] = useState('CA');
+  const [coverLevel, setCoverLevel] = useState('masters');
+  const [generatingCover, setGeneratingCover] = useState(false);
 
   useEffect(() => {
     if (!user) { navigate('/'); return; }
@@ -54,6 +72,21 @@ export default function CVBuilder() {
       toast.error('Failed to generate CV. Please try again.');
     }
     setGenerating(false);
+  };
+
+  const handleCoverLetter = async () => {
+    if (!profile) {
+      toast.error('Please fill in your profile first');
+      return;
+    }
+    setGeneratingCover(true);
+    try {
+      generateCoverLetter(profile, selectedStyle, coverCountry, coverLevel);
+      toast.success('Cover letter downloaded!');
+    } catch {
+      toast.error('Failed to generate cover letter. Please try again.');
+    }
+    setGeneratingCover(false);
   };
 
   if (!user || loading) return (
@@ -145,8 +178,8 @@ export default function CVBuilder() {
           </Card>
         )}
 
-        {/* Download */}
-        <div className="text-center">
+        {/* Download CV */}
+        <div className="text-center mb-16">
           <Button
             size="lg"
             className="gap-3 px-10 text-white hover:opacity-90"
@@ -160,6 +193,76 @@ export default function CVBuilder() {
           <p className="text-[12px] text-black/30 mt-3">
             Your CV will be downloaded as a professionally formatted PDF
           </p>
+        </div>
+
+        {/* Cover Letter Section */}
+        <div className="border-t border-black/[0.07] pt-12">
+          <div className="flex items-center gap-3 mb-2">
+            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: '#F3EEFF' }}>
+              <FileText className="w-5 h-5" style={{ color: '#7C3AED' }} strokeWidth={1.75} />
+            </div>
+            <h2 className="text-[1.4rem] font-black text-[#04091A]" style={{ fontWeight: 900 }}>Cover Letter Generator</h2>
+          </div>
+          <p className="text-[14px] text-black/40 mb-8">
+            Download a tailored cover letter template for your destination country and application type. All [bracketed] sections are yours to personalise.
+          </p>
+
+          <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Destination Country</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+            {COVER_COUNTRIES.map(c => (
+              <button
+                key={c.id}
+                onClick={() => setCoverCountry(c.id)}
+                className={`p-4 rounded-2xl border-2 text-left transition-all ${
+                  coverCountry === c.id
+                    ? 'border-[#7C3AED] bg-[#F3EEFF]/60'
+                    : 'border-black/[0.08] hover:border-[#7C3AED]/40 bg-white'
+                }`}
+              >
+                <span className="text-2xl block mb-2">{c.flag}</span>
+                <p className="text-[13px] font-semibold text-[#04091A]">{c.name}</p>
+                {coverCountry === c.id && (
+                  <Badge className="mt-2 text-[11px]" style={{ background: '#7C3AED', color: '#fff' }}>Selected</Badge>
+                )}
+              </button>
+            ))}
+          </div>
+
+          <h3 className="text-[15px] font-bold text-[#04091A] mb-4">Application Type</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
+            {COVER_LEVELS.map(l => (
+              <button
+                key={l.id}
+                onClick={() => setCoverLevel(l.id)}
+                className={`p-4 rounded-2xl border-2 text-center transition-all ${
+                  coverLevel === l.id
+                    ? 'border-[#7C3AED] bg-[#F3EEFF]/60'
+                    : 'border-black/[0.08] hover:border-[#7C3AED]/40 bg-white'
+                }`}
+              >
+                <p className="text-[13px] font-semibold text-[#04091A]">{l.label}</p>
+                {coverLevel === l.id && (
+                  <Badge className="mt-2 text-[11px]" style={{ background: '#7C3AED', color: '#fff' }}>Selected</Badge>
+                )}
+              </button>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Button
+              size="lg"
+              className="gap-3 px-10 text-white hover:opacity-90"
+              style={{ background: '#7C3AED' }}
+              onClick={handleCoverLetter}
+              disabled={generatingCover || loading}
+            >
+              <Download className="w-5 h-5" />
+              {generatingCover ? 'Generating...' : 'Download Cover Letter'}
+            </Button>
+            <p className="text-[12px] text-black/30 mt-3">
+              PDF with your name and contact info pre-filled — customise the [bracketed] sections before sending
+            </p>
+          </div>
         </div>
       </div>
     </div>
