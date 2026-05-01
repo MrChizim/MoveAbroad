@@ -182,9 +182,44 @@ export default function Profile() {
     set('education', updated);
   };
 
-  const handleFileUpload = (e) => {
+  const handleFileUpload = async (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
+
+    if (file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf')) {
+      setParsing(true);
+      try {
+        // Load PDF.js from CDN if not already loaded
+        if (!window.pdfjsLib) {
+          await new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js';
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+          });
+          window.pdfjsLib.GlobalWorkerOptions.workerSrc =
+            'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        }
+        const arrayBuffer = await file.arrayBuffer();
+        const pdf = await window.pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+        const pages = [];
+        for (let i = 1; i <= pdf.numPages; i++) {
+          const page = await pdf.getPage(i);
+          const content = await page.getTextContent();
+          pages.push(content.items.map(item => item.str).join(' '));
+        }
+        setCvText(pages.join('\n'));
+        toast.success('PDF loaded — click "Fill fields from CV" to import');
+      } catch {
+        toast.error('Could not read PDF — try copy-pasting the text instead');
+      } finally {
+        setParsing(false);
+      }
+      return;
+    }
+
+    // Plain text / docx fallback
     const reader = new FileReader();
     reader.onload = (ev) => setCvText(ev.target.result || '');
     reader.readAsText(file);
@@ -265,7 +300,7 @@ export default function Profile() {
               </div>
               <div>
                 <p className="text-[14px] font-bold text-[#04091A]">Import from existing CV</p>
-                <p className="text-[12px] text-black/40">Paste or upload your CV text to auto-fill fields</p>
+                <p className="text-[12px] text-black/40">Upload PDF or paste text to auto-fill your profile fields</p>
               </div>
             </div>
             {showImport ? <ChevronUp className="w-4 h-4 text-black/30" /> : <ChevronDown className="w-4 h-4 text-black/30" />}
@@ -273,12 +308,12 @@ export default function Profile() {
           {showImport && (
             <div className="p-4 border-t border-black/[0.06] bg-[#F8F9FB] space-y-3">
               <p className="text-[12px] text-black/50 leading-relaxed">
-                Paste plain text from your CV below (copy from Word, Google Docs, or a .txt file). The parser will extract your name, contact info, experience, education and skills. <strong>Always review the results</strong> before saving.
+                Upload your CV as a <strong>PDF or .txt file</strong>, or paste plain text below. The parser will extract your name, contact info, experience, education, and skills. <strong>Always review the results</strong> before saving.
               </p>
               <div className="flex gap-2 items-center">
                 <label className="flex items-center gap-2 px-3 py-2 rounded-lg border border-black/[0.1] bg-white text-[12px] font-medium text-black/60 cursor-pointer hover:bg-[#F0F4FF] transition-colors">
-                  <Upload className="w-3.5 h-3.5" /> Upload .txt file
-                  <input type="file" accept=".txt,.text" className="hidden" onChange={handleFileUpload} />
+                  <Upload className="w-3.5 h-3.5" /> Upload PDF or .txt
+                  <input type="file" accept=".pdf,.txt,.text,application/pdf,text/plain" className="hidden" onChange={handleFileUpload} />
                 </label>
                 <span className="text-[12px] text-black/30">or paste below</span>
               </div>
