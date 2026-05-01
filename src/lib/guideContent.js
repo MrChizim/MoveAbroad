@@ -5805,41 +5805,41 @@ The Nigerian-American community is the most educated immigrant group in the US b
 Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times in 2025 are 6–13 months — book the day you decide to travel. The interview is short; the case is made on strong Nigerian ties and honest, clear answers.`,
 
     stats: {
-      undergrad: [
-        { label: "Tuition (private)", value: "$25,000–55,000/yr (need-blind aid at 8 schools)" },
-        { label: "Tuition (public)", value: "$15,000–35,000/yr out-of-state" },
-        { label: "Living costs", value: "$12,000–20,000/yr depending on city" },
-        { label: "Visa type", value: "F-1 Student Visa" },
-        { label: "Post-study OPT", value: "12 months (36 months STEM extension)" },
-      ],
-      masters: [
-        { label: "Tuition (STEM, funded)", value: "Free — TA/RA covers tuition + $18,000–30,000/yr stipend" },
-        { label: "Tuition (unfunded)", value: "$30,000–60,000/yr" },
-        { label: "STEM OPT", value: "36 months post-graduation work authorization" },
-        { label: "H-1B path", value: "Employer-sponsored lottery — 3 attempts on STEM OPT" },
-        { label: "Key universities", value: "MIT, Stanford, CMU, Georgia Tech, Michigan, Purdue" },
-      ],
-      phd: [
-        { label: "PhD funding", value: "Tuition waived + $18,000–35,000/yr stipend (most STEM fields)" },
-        { label: "Duration", value: "4–6 years" },
-        { label: "OPT after PhD", value: "36 months STEM OPT" },
-        { label: "Green Card self-petition", value: "EB-2 NIW or EB-1A — no employer needed" },
-        { label: "Health insurance", value: "Included with funded PhD position" },
-      ],
-      work: [
-        { label: "Main visa", value: "H-1B (specialty occupation, employer-sponsored)" },
-        { label: "H-1B cap", value: "85,000/year — wage-weighted lottery from FY2027" },
-        { label: "Cap-exempt option", value: "O-1A (extraordinary ability — no cap, no lottery)" },
-        { label: "Green Card", value: "EB-1A, EB-2 NIW (self-petition), EB-3 PERM (employer)" },
-        { label: "Income tax", value: "10–37% federal; 0% state in Texas/Florida, up to 13% in CA" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "B-1/B-2 Combined Visitor Visa" },
-        { label: "Max stay", value: "Up to 6 months per entry (CBP stamps at port of entry)" },
-        { label: "MRV fee", value: "$185 (non-refundable)" },
-        { label: "Appointment wait (Lagos)", value: "6–13 months in 2025 — book immediately" },
-        { label: "Apply via", value: "ustraveldocs.com — US Embassy Lagos or Consulate Abuja" },
-      ],
+      undergrad: {
+        tuition: "$15,000–55,000/yr (need-blind aid at 8 schools)",
+        living: "$1,000–1,700/mo",
+        minIELTS: "6.5+ (TOEFL 90+)",
+        processing: "2–5 months",
+        pathway: "F-1 Student Visa",
+      },
+      masters: {
+        tuition: "Free (funded STEM) / $30,000–60,000/yr (unfunded)",
+        living: "$1,000–1,700/mo",
+        minIELTS: "6.5–7.0 (TOEFL 100+)",
+        processing: "2–5 months",
+        pathway: "F-1 Student Visa",
+      },
+      phd: {
+        tuition: "Funded — tuition waived + $18,000–35,000/yr stipend",
+        living: "$1,000–1,700/mo",
+        minIELTS: "6.5–7.0 (TOEFL 100+)",
+        processing: "2–5 months",
+        pathway: "F-1 Student Visa",
+      },
+      work: {
+        salary: "H-1B: specialty occupation market rate",
+        living: "$1,500–3,000/mo (varies by city)",
+        processing: "3–6 months (H-1B)",
+        fee: "$185 MRV + $460 H-1B filing",
+        pathway: "H-1B / O-1A / EB-2 NIW",
+      },
+      visitor: {
+        fee: "$185 (MRV, non-refundable)",
+        duration: "Up to 6 months per entry",
+        processing: "6–13 months (Lagos 2025 — book immediately)",
+        living: "$100–200/day",
+        pathway: "B-1/B-2 Visitor Visa",
+      },
     },
 
     summary: {
