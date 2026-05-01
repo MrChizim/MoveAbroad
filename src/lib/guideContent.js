@@ -5614,301 +5614,389 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
   US: {
     tagline: "United States — the world's top university system, the global tech capital, and a clear path for high-skilled Nigerians through F-1, OPT, and H-1B.",
 
-    overview: `The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US represents the highest-stakes, highest-reward destination: fees are expensive ($25,000–55,000/year for international students), but graduate-level funding (teaching assistantships, research assistantships, fellowships) often covers full tuition plus a living stipend. The key insight most Nigerians miss: at the Master's and especially PhD level in STEM fields, you typically pay nothing and get paid to study.
+    overview: `The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US is the highest-stakes, highest-reward destination. Fees can reach $55,000/year at elite private universities — but at the Master's and PhD level in STEM, you typically pay nothing and get paid a stipend to study. Funded STEM PhD places at top-50 US universities are one of the most underused opportunities available to talented Nigerians.
 
-The US immigration system for students is F-1 visa → OPT (Optional Practical Training, up to 1 year or 3 years for STEM) → H-1B work visa (employer-sponsored, lottery-based) → Green Card. The H-1B lottery is the most significant bottleneck — annual cap of 85,000 visas, with hundreds of thousands of applicants. Nigerian STEM graduates are among the most successful H-1B applicants due to their technical skills and employer demand.
+The US immigration path for students runs: F-1 visa → OPT (12 months work authorization after graduation, or 36 months for STEM) → H-1B work visa (employer-sponsored, wage-weighted lottery from FY2027) → Green Card. The H-1B has an annual cap of 85,000 with hundreds of thousands of applicants — but Nigerians on STEM OPT get three lottery attempts. Big tech companies like Google, Microsoft, Amazon, Meta, and Apple routinely sponsor Nigerian engineers all the way to Green Card.
 
-The Nigerian-American community is the largest African-origin community in the US — over 300,000 Nigerian-born residents, concentrated in Houston, New York, Maryland, New Jersey, Atlanta, and Dallas. The community is well-established, educated, and professionally networked. Nigerian doctors, engineers, lawyers, academics, and entrepreneurs are prominent across all major US cities.
+Eight US universities are fully need-blind for international students and meet 100% of demonstrated financial need: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown. Harvard families earning under $100,000/year pay nothing at all — tuition, room, and board covered. Many Nigerians never apply because they assume US education is unaffordable. It is not — if you are applying to the right schools.
 
-Visitor visa (B-1/B-2) applications from Nigeria face scrutiny — consular officers look for strong ties to Nigeria and clear evidence you will return. Approval is not guaranteed but is absolutely achievable with the right application.`,
+The Nigerian-American community is the most educated immigrant group in the US by degree attainment. Over 400,000 Nigerian-born residents are concentrated in Houston, New York, Maryland, New Jersey, Atlanta, and Dallas — a well-networked diaspora spanning medicine, engineering, law, finance, and academia.
+
+Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times in 2025 are 6–13 months — book the day you decide to travel. The interview is short; the case is made on strong Nigerian ties and honest, clear answers.`,
 
     stats: {
       undergrad: [
-        { label: "Tuition (international)", value: "$25,000–55,000/yr (private), $15,000–35,000/yr (public out-of-state)" },
+        { label: "Tuition (private)", value: "$25,000–55,000/yr (need-blind aid at 8 schools)" },
+        { label: "Tuition (public)", value: "$15,000–35,000/yr out-of-state" },
         { label: "Living costs", value: "$12,000–20,000/yr depending on city" },
         { label: "Visa type", value: "F-1 Student Visa" },
-        { label: "Student work", value: "On-campus only (20 hrs/wk) during studies; CPT/OPT for off-campus" },
-        { label: "Post-study OPT", value: "12 months (36 months for STEM)" },
+        { label: "Post-study OPT", value: "12 months (36 months STEM extension)" },
       ],
       masters: [
-        { label: "Tuition (STEM, funded)", value: "Often free — TA/RA covers tuition + stipend ($18,000–30,000/yr)" },
+        { label: "Tuition (STEM, funded)", value: "Free — TA/RA covers tuition + $18,000–30,000/yr stipend" },
         { label: "Tuition (unfunded)", value: "$30,000–60,000/yr" },
-        { label: "Top universities", value: "MIT, Stanford, Carnegie Mellon, Georgia Tech, Columbia, NYU" },
-        { label: "STEM OPT", value: "3 years post-graduation work authorization" },
-        { label: "H-1B", value: "Employer-sponsored, lottery — main path from OPT to Green Card" },
+        { label: "STEM OPT", value: "36 months post-graduation work authorization" },
+        { label: "H-1B path", value: "Employer-sponsored lottery — 3 attempts on STEM OPT" },
+        { label: "Key universities", value: "MIT, Stanford, CMU, Georgia Tech, Michigan, Purdue" },
       ],
       phd: [
-        { label: "PhD fees", value: "Fully funded in most STEM + social sciences fields — tuition waived + stipend" },
-        { label: "Stipend", value: "$18,000–35,000/yr (varies by field and university)" },
+        { label: "PhD funding", value: "Tuition waived + $18,000–35,000/yr stipend (most STEM fields)" },
         { label: "Duration", value: "4–6 years" },
-        { label: "OPT after PhD", value: "3 years STEM OPT" },
-        { label: "Green Card path", value: "PhD → OPT → H-1B → EB-1/EB-2 NIW (National Interest Waiver)" },
+        { label: "OPT after PhD", value: "36 months STEM OPT" },
+        { label: "Green Card self-petition", value: "EB-2 NIW or EB-1A — no employer needed" },
+        { label: "Health insurance", value: "Included with funded PhD position" },
       ],
       work: [
         { label: "Main visa", value: "H-1B (specialty occupation, employer-sponsored)" },
-        { label: "H-1B cap", value: "85,000/year — lottery selection" },
-        { label: "O-1A", value: "Extraordinary ability — no cap, no lottery" },
-        { label: "Green Card EB path", value: "EB-1A (extraordinary ability), EB-2 NIW, EB-3 (PERM)" },
-        { label: "Income tax", value: "10–37% federal + state tax (0–13% varies by state)" },
+        { label: "H-1B cap", value: "85,000/year — wage-weighted lottery from FY2027" },
+        { label: "Cap-exempt option", value: "O-1A (extraordinary ability — no cap, no lottery)" },
+        { label: "Green Card", value: "EB-1A, EB-2 NIW (self-petition), EB-3 PERM (employer)" },
+        { label: "Income tax", value: "10–37% federal; 0% state in Texas/Florida, up to 13% in CA" },
       ],
       visitor: [
-        { label: "Visa type", value: "B-1/B-2 Visitor Visa" },
-        { label: "Max stay", value: "Up to 6 months per entry (set by CBP officer)" },
-        { label: "Fee", value: "MRV fee: $185" },
-        { label: "Processing", value: "Lagos B-1/B-2 wait time: 6–13 months in 2025 — book immediately" },
-        { label: "Apply via", value: "US Embassy Lagos or Consulate Abuja (ustraveldocs.com)" },
+        { label: "Visa type", value: "B-1/B-2 Combined Visitor Visa" },
+        { label: "Max stay", value: "Up to 6 months per entry (CBP stamps at port of entry)" },
+        { label: "MRV fee", value: "$185 (non-refundable)" },
+        { label: "Appointment wait (Lagos)", value: "6–13 months in 2025 — book immediately" },
+        { label: "Apply via", value: "ustraveldocs.com — US Embassy Lagos or Consulate Abuja" },
       ],
     },
 
     summary: {
-      undergrad: "US undergraduate fees are the highest in the world — $25,000–55,000/year at private universities, $15,000–35,000/year at public universities for international students. However, 8 US universities are fully need-blind for international students and meet 100% of demonstrated financial need: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown. Harvard families earning under $100,000/year pay nothing at all (tuition + room + board); under $200,000 pay no tuition. For most applicants, community college → state university transfer is a more affordable path. F-1 visa required. Apply through Common App.",
-      masters: "The STEM Master's landscape in the US is split: funded (TA/RA covers tuition + pays a stipend) or unfunded (you pay full fees). Always target funded programmes in STEM — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, or University of Michigan is transformative. After graduation, STEM OPT gives 3 years of open work authorization — enough time to get an H-1B through the lottery. Unfunded business/law Master's degrees at elite schools (MBA at Wharton, HBS) can justify the $100,000+ cost through premium salaries.",
-      phd: "US PhD programmes in STEM are almost always fully funded — tuition waived plus a stipend of $18,000–35,000/year. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, or any top-50 US research university is free education at the world's best institutions, paid. After your PhD, STEM OPT gives 3 years of work authorization. PhD holders can self-petition for an EB-1A (extraordinary ability Green Card) or EB-2 NIW (National Interest Waiver) without needing employer sponsorship.",
-      work: "The H-1B is the primary work visa for skilled professionals in the US. It requires employer sponsorship, a Bachelor's degree or higher, and selection in an annual lottery (85,000 cap, typically 300,000+ applicants). Nigerian STEM graduates on OPT participate in the lottery. Key strategies: work at a university or non-profit (exempt from the cap), accumulate H-1B registrations over multiple years, or qualify for O-1A (extraordinary ability — no cap, no lottery). Big tech companies (Google, Microsoft, Amazon, Meta, Apple) routinely sponsor Nigerian engineers through H-1B and Green Card processes.",
-      visitor: "The B-1/B-2 US visitor visa is one of the most closely scrutinized for Nigerian applicants. Approval depends heavily on demonstrating strong ties to Nigeria (employment, property, family) and a clear purpose of visit. The interview at the US Embassy Lagos or Consulate Abuja is the key step. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the moment you decide to travel. The MRV fee is $185 regardless of outcome.",
+      undergrad: {
+        intro: "US undergraduate education is the most expensive in the world — but 8 universities are need-blind for international students and meet 100% of financial need. Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all charge nothing to families that cannot afford to pay. The process starts with applying through Common App, filing for financial aid via CSS Profile, and receiving an I-20 from your university before applying for the F-1 visa.",
+        firstSteps: [
+          { action: "Take TOEFL or IELTS and SAT/ACT if targeting competitive schools", detail: "Many schools are now test-optional for SAT/ACT, but strong scores (1400+ SAT) unlock merit scholarships at mid-tier schools. TOEFL 90+ or IELTS 6.5+ required for most universities. Book at British Council or IDP Nigeria." },
+          { action: "Apply through Common App (commonapp.org) to 10–15 universities", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to safety, match, and reach schools. The personal essay is your most important document — make it specific and genuine." },
+          { action: "File CSS Profile for need-based financial aid at need-blind schools", detail: "Go to cssprofile.collegeboard.org — file by November 15 for Early Decision, January 1–15 for Regular Decision. For the 8 need-blind schools, apply regardless of income. Harvard families under $100,000/year pay nothing." },
+          { action: "Receive I-20, pay SEVIS fee ($350 at fmjfee.com), and apply for F-1 visa", detail: "After enrolling, your university issues an I-20. Pay SEVIS fee, complete DS-160 at ceac.state.gov/genniv, pay MRV fee ($185), and attend interview at US Embassy Lagos or Consulate Abuja. Apply as early as possible — wait times are long." },
+        ],
+        keyFacts: [
+          "8 universities meet 100% of demonstrated financial need for international students: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown",
+          "Harvard: families under $100,000/year pay $0; under $200,000/year pay no tuition",
+          "Community college → state university transfer costs as little as $60,000 for 4 years total",
+          "F-1 students can work on-campus 20 hrs/week; off-campus only via CPT or OPT",
+          "STEM OPT after graduation: 36 months of open work authorization — 3 H-1B lottery attempts",
+        ],
+        outcome: "A US undergraduate degree — especially from a top school with need-blind aid — is a life-changing credential. After graduation, STEM OPT gives 3 years to secure H-1B sponsorship and begin the Green Card process. Nigerian engineers, doctors, and lawyers with US degrees access the world's highest-paying job markets.",
+      },
+      masters: {
+        intro: "The US Master's decision splits into two completely different paths: funded STEM (you pay nothing and receive a stipend) and unfunded (you pay $30,000–60,000/year). Target funded positions in STEM fields exclusively — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, Purdue, or Michigan costs you nothing and pays you to study. The F-1 visa process is identical to undergraduate.",
+        firstSteps: [
+          { action: "Identify target universities and email professors before applying", detail: "For funded STEM programmes, contact professors whose research aligns with yours. A professor's support is the key to TA/RA funding. Search faculty pages at Carnegie Mellon, Georgia Tech, Michigan, Purdue, UIUC, Ohio State, UMass Amherst, Texas A&M, NC State." },
+          { action: "Take GRE (if required) and TOEFL/IELTS", detail: "Many top STEM programmes dropped GRE after COVID — check each school. TOEFL 90–100+ or IELTS 7.0+ typically required. Nigerian IELTS scores from English-medium universities are often accepted without waiver requests." },
+          { action: "Apply September–December for January–April funding offers", detail: "Most STEM deadlines: December 1 – January 15. Submit: statement of purpose (most important), CV, 3 recommendation letters, transcripts, TOEFL/IELTS, GRE if required. State your interest in TA/RA funding explicitly in your statement of purpose." },
+          { action: "Negotiate funding offers and apply for F-1 visa", detail: "Funded offers include tuition waiver + monthly stipend ($1,500–2,500). You can compare and negotiate across schools. Once you accept: university issues I-20, pay SEVIS fee ($350), DS-160, MRV fee ($185), interview at US Embassy Lagos." },
+        ],
+        keyFacts: [
+          "Funded STEM Master's: full tuition waiver + $18,000–30,000/year stipend + health insurance",
+          "Never pay for a US STEM Master's or PhD — funded options exist at every level of university ranking",
+          "STEM OPT: 36 months of work authorization after graduation (12 base + 24-month extension)",
+          "STEM OPT gives 3 separate H-1B lottery attempts — most Nigerians need 1–2 attempts",
+          "Unfunded professional Master's (MBA, law): only justified at top-10 schools with premium salary outcomes",
+        ],
+        outcome: "Funded STEM Master's → 36-month STEM OPT → H-1B (3 attempts) → Green Card. Nigerian engineers at Google, Amazon, Microsoft, Meta, and Apple followed this exact path. The US STEM Master's → H-1B pipeline is the most reliable route from Nigeria to high-income US employment.",
+      },
+      phd: {
+        intro: "US STEM PhD programmes are almost universally fully funded: tuition waived, stipend paid ($18,000–35,000/year), health insurance included. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, UC Berkeley, or any top-50 research university is world-class education — and you are paid to be there. You apply by emailing professors directly, submitting to 10–15 programmes, and targeting professors whose research matches yours.",
+        firstSteps: [
+          { action: "Email 15–20 professors whose published research matches your interests", detail: "Write brief, specific emails (under 200 words). Reference one paper they published. Explain how your background connects. Ask if they are accepting PhD students. Attach your CV. This is expected and normal — professors post emails because they want applicants. A professor who responds positively is your biggest admission advantage." },
+          { action: "Apply to 10–15 funded PhD programmes (December–January deadlines)", detail: "Required: statement of purpose (most critical — be specific about your research vision and the professor you want to work with), CV, 3 reference letters (2 must be academic), transcripts, TOEFL/IELTS, GRE (check — many schools dropped this). Apply broadly." },
+          { action: "Evaluate funding offers carefully — compare stipends and cost of living", detail: "Funded offers include I-20 showing university coverage. A $25,000 stipend in West Lafayette, Indiana (Purdue) goes much further than $30,000 in Manhattan. Consider research fit, lab resources, supervisor track record, and placement of recent graduates." },
+          { action: "Apply for F-1 visa and plan your Green Card strategy from year one", detail: "Same visa process. After arrival: register with DSO, apply for SSN after 10 days. From year 3 onwards, build EB-1A/EB-2 NIW credentials: publish, present at conferences, accumulate citations and awards." },
+        ],
+        keyFacts: [
+          "US STEM PhD: full tuition waived + $18,000–35,000/year stipend + health insurance — no debt",
+          "Top PhD programmes: MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, CMU, Michigan, Cornell",
+          "After PhD: 36 months STEM OPT — use to self-petition EB-2 NIW or build H-1B + EB-1B",
+          "EB-2 NIW (National Interest Waiver): self-petition Green Card after PhD — no employer sponsor needed",
+          "Nigerian PhD holders face no per-country Green Card backlog unlike Indian/Chinese nationals",
+        ],
+        outcome: "US STEM PhD → 36-month STEM OPT → EB-2 NIW self-petition or H-1B → Green Card. PhD holders with strong publication records can self-petition for permanent residency without needing employer sponsorship — the most independent immigration path available.",
+      },
+      work: {
+        intro: "The H-1B is the primary work visa for skilled Nigerians in the US. It requires a specialty occupation, employer sponsorship, and selection in an annual lottery (85,000 cap, wage-weighted from FY2027). Nigerians on STEM OPT participate in the lottery — three attempts if on 3-year STEM OPT. Cap-exempt alternatives exist: O-1A (extraordinary ability, no cap) and positions at universities or non-profits. The Green Card path for Nigerians is relatively clear — no per-country backlog unlike Indian and Chinese nationals.",
+        firstSteps: [
+          { action: "Use myvisajobs.com to target employers with strong H-1B sponsorship history", detail: "Filter by industry and company. Companies that file thousands of H-1Bs annually — Google, Microsoft, Amazon, Meta, Deloitte, IBM — are experienced sponsors. Prioritize these in your job search over companies with no H-1B history." },
+          { action: "Register for H-1B lottery in March through your employer", detail: "Employer registers you online — you do not apply yourself. Registration fee: $215 per beneficiary (employer pays). Results released in April. If selected, USCIS adjudicates petition. Work starts October 1. From FY2027, wage-weighted selection means higher-salary roles have better lottery odds." },
+          { action: "If not selected: stay on STEM OPT and try again next year", detail: "Remain on remaining STEM OPT time. Consider cap-exempt employers: universities, hospitals, non-profits — no lottery, immediate H-1B status. Explore O-1A if your credentials support it (publications, awards, press, industry recognition)." },
+          { action: "Begin Green Card process through employer (EB-2/EB-3) or self-petition (EB-1A/EB-2 NIW)", detail: "Employer-sponsored: EB-2 PERM or EB-3 PERM — 3–8 years for Nigerians (no country backlog). Self-petition: EB-1A (extraordinary ability) or EB-2 NIW (national interest waiver) — requires strong evidence but no employer needed. Consult an immigration attorney." },
+        ],
+        keyFacts: [
+          "H-1B cap: 65,000 regular + 20,000 US Master's holders = 85,000 total — lottery draw in April",
+          "From FY2027: H-1B selection is wage-weighted — higher salary = better lottery odds",
+          "H-1B registration fee: $215/beneficiary (employer pays — increased from $10 in 2025)",
+          "Nigeria has NO per-country Green Card backlog — unlike India (decades wait) and China",
+          "O-1A visa: no cap, no lottery — for Nigerians with exceptional achievements in their field",
+        ],
+        outcome: "H-1B → EB-2/EB-3 PERM (employer) or EB-2 NIW (self-petition) → Green Card → Citizenship at 5 years. Nigerian engineers, doctors, nurses, and academics have built full lives in the US through this path. The absence of a per-country backlog is Nigeria's biggest immigration advantage in the US.",
+      },
+      visitor: {
+        intro: "The B-1/B-2 US visitor visa is the most carefully scrutinized visa Nigerian applicants face. Approval depends on demonstrating strong ties to Nigeria and a clear, credible reason to visit and return. The interview at US Embassy Lagos or Consulate Abuja is the decisive moment. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the day you decide to travel.",
+        firstSteps: [
+          { action: "Complete DS-160 form at ceac.state.gov/genniv before scheduling anything", detail: "Save your application ID. Answer every question honestly and thoroughly. Include accurate travel history, family situation, employment details, and the purpose of your visit. Incomplete or inconsistent DS-160 forms are a red flag." },
+          { action: "Pay MRV fee ($185) and book your appointment at ustraveldocs.com immediately", detail: "Pay the $185 MRV fee online first, then schedule your interview. Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the moment you decide to apply. Check travel.state.gov monthly for updated wait times — they change seasonally." },
+          { action: "Gather your supporting documents — ties to Nigeria are everything", detail: "Employment letter (on company letterhead, with salary, leave approval, return-to-work date). Bank statements showing stable funds ($3,000–5,000+ for a 2-week trip). Property ownership documents. Family ties (spouse/children remaining in Nigeria). Prior international travel stamps (UK, Schengen, Canada) strengthen your application significantly." },
+          { action: "Attend interview with clear, short, confident answers", detail: "Arrive 15 minutes early. The interview is typically under 3 minutes. Answer each question directly. The officer will ask: What do you do in Nigeria? Why are you visiting? Who are you visiting? When will you return? Practice these. Do not volunteer extra information — answer what is asked." },
+        ],
+        keyFacts: [
+          "Lagos B-1/B-2 appointment wait times: 6–13 months in 2025 — book immediately at ustraveldocs.com",
+          "MRV fee: $185 — non-refundable regardless of outcome",
+          "214(b) refusal means officer felt you did not prove immigrant intent — you can reapply with stronger evidence",
+          "Prior UK, Schengen, or Canadian visa stamps significantly strengthen a US visitor visa application",
+          "Overstaying: 180+ days = 3-year US bar; 1 year+ = 10-year US bar — and affects visas worldwide",
+        ],
+        outcome: "A B-1/B-2 visa is typically valid for 10 years with multiple entries, each stay up to 6 months (set by CBP at port of entry). Once granted, it simplifies future US travel enormously. It also strengthens future visa applications to other countries.",
+      },
     },
 
     visa: {
       undergrad: `**US F-1 Student Visa — Undergraduate**
 
-1. Apply to US universities through Common App (commonapp.org). For need-blind financial aid: 8 universities are fully need-blind for international students and meet 100% of demonstrated financial need — Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown. Harvard families earning under $100,000/year pay nothing (tuition + room + board covered); under $200,000 pay no tuition. Apply for financial aid regardless of income — many Nigerian families qualify for significant aid.
+**Step 1: Apply to universities through Common App (commonapp.org)**
+Apply to 10–15 schools (safety, match, reach). For need-blind schools (Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown): apply and file for financial aid regardless of income. Harvard families under $100,000/year pay nothing. File CSS Profile at cssprofile.collegeboard.org by November 15 (Early Decision) or January 1–15 (Regular Decision).
 
-2. Receive I-20 form from your university — this is your SEVIS registration document, issued only after you are admitted and confirm enrollment.
+**Step 2: Receive admission and I-20**
+After enrolling, your university issues an I-20 form — your SEVIS registration document. This is required before your visa interview.
 
-3. Pay the SEVIS fee: $350 (F-1 students) at fmjfee.com — pay before scheduling your visa interview.
+**Step 3: Pay SEVIS fee — $350 at fmjfee.com**
+Pay before scheduling your interview. Keep the receipt — bring it to your interview.
 
-4. Complete DS-160 form online at ceac.state.gov/genniv.
+**Step 4: Complete DS-160 at ceac.state.gov/genniv**
+Fill out carefully and honestly. Save your confirmation barcode.
 
-5. Pay the MRV visa fee: $185 at ustraveldocs.com.
+**Step 5: Pay MRV fee — $185 at ustraveldocs.com**
+Then schedule your interview at US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja. Apply early — F-1 visa appointments can take several weeks to months.
 
-6. Schedule and attend F-1 visa interview at US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja. Documents:
-   - Valid passport (6+ months validity)
-   - DS-160 confirmation page
-   - SEVIS fee receipt
-   - I-20 from university
-   - Proof of financial support for first year: bank statements, sponsor letter, scholarship letter — enough to cover tuition + living ($30,000–70,000 depending on school)
-   - Academic transcripts, WAEC/NECO, SAT/ACT (if applicable)
-   - English proficiency (TOEFL/IELTS — many schools waive for Nigerian applicants)
-   - Evidence of ties to Nigeria: family, property, future plans
+**Step 6: Attend F-1 visa interview. Bring:**
+- Valid passport (6+ months validity beyond programme start)
+- DS-160 confirmation barcode page
+- SEVIS fee receipt
+- I-20 from your university
+- Proof of financial support: bank statements, scholarship letter, sponsor letter — covering tuition + living costs
+- Academic transcripts, WAEC/NECO results
+- TOEFL/IELTS result (if required)
+- Evidence of ties to Nigeria: family, future plans, property
 
-7. Interview: be honest, clear, and concise. Consular officers make decisions quickly — typically under 5 minutes.
+**Step 7: Arrive in the US (no earlier than 30 days before programme start on your I-20)**
+Report to your university's International Student Office (DSO) within first few days — mandatory for F-1 compliance.
 
-8. Work rights: F-1 students can work on-campus only during studies (20 hrs/week). Off-campus work requires CPT (Curricular Practical Training — tied to your programme) or OPT (Optional Practical Training — post-graduation). STEM OPT: 3 years after graduation for STEM majors.`,
+**Work rights:** F-1 students may work on-campus 20 hrs/week during term. Off-campus work requires CPT (Curricular Practical Training) or OPT (Optional Practical Training). After graduation: 12-month OPT, extendable to 36 months for STEM majors.`,
 
       masters: `**US F-1 Student Visa — Master's**
 
-The application process is identical to undergrad (DS-160, SEVIS fee, MRV fee, interview). The critical difference is funding:
+The visa application process is identical to undergraduate (DS-160, SEVIS $350, MRV $185, interview). The critical difference is funding:
 
-**Funded STEM Master's (target this):**
-Many US universities offer Teaching Assistantships (TA) and Research Assistantships (RA) for Master's students in STEM fields. These cover:
+**Funded STEM Master's (target this exclusively):**
+Teaching Assistantships (TA) and Research Assistantships (RA) at US universities cover:
 - Full tuition waiver
 - Monthly stipend ($1,500–2,500/month)
 - Health insurance
 
-Target: Carnegie Mellon, Georgia Tech, University of Michigan, Purdue, Texas A&M, Ohio State, University of Illinois Urbana-Champaign, NC State, University of Massachusetts Amherst.
+Universities known for funding Master's students in STEM: Carnegie Mellon, Georgia Tech, University of Michigan, Purdue, Texas A&M, Ohio State, University of Illinois Urbana-Champaign (UIUC), NC State, University of Massachusetts Amherst, Arizona State.
 
-How to get funding: apply for PhD programmes and negotiate for a funded Master's first, or apply directly to funded thesis-track Master's programmes. Contact professors whose research aligns with yours — RA funding often comes from a professor's grant.
+**How to get funding:**
+Email professors directly before applying. A professor who agrees to be your Research Advisor can allocate RA funding from their grant. For TA funding, apply directly to the graduate programme and indicate funding interest in your statement of purpose. Applying to PhD programmes and negotiating a funded Master's first is also a valid approach.
 
-**For your I-20:** if funded, your I-20 shows the university covering costs. If unfunded, you must show $60,000–100,000+ in personal/family funds for a 2-year programme.
+**I-20 and financial proof:**
+If funded: your I-20 shows university coverage — no personal funds proof needed for covered costs.
+If unfunded: you must show personal/family funds of $60,000–100,000+ to cover a 2-year programme.
 
-**STEM OPT (most important post-study right):**
-After graduation, apply for 12-month OPT. If your degree is in a STEM field (engineering, CS, data science, biology, physics, math, etc.), apply for the 24-month STEM OPT extension — total 36 months of work authorization. Use this period to enter H-1B lottery (3 attempts if needed), build US work experience, and transition to H-1B or a cap-exempt employer.`,
+**STEM OPT — your most valuable post-study right:**
+After graduation: 12-month OPT + 24-month STEM extension = 36 months total work authorization. During these 36 months: 3 separate H-1B lottery attempts. Plan your STEM field eligibility from day one. Register with your DSO about OPT 90 days before graduation.`,
 
       phd: `**US PhD — F-1 Visa + Full Funding**
 
-**Funding: this is the most important section.**
-STEM PhD programmes in the US are almost universally funded:
-- Full tuition waiver
-- Annual stipend: $18,000–35,000 (varies by field, university, and city)
+**Funding — the most important section:**
+US STEM PhD programmes are almost universally funded:
+- Full tuition waiver (you pay $0)
+- Annual stipend: $18,000–35,000 (field and university dependent)
 - Health insurance
 
-Humanities and social sciences PhDs have more variable funding — some fully funded, some partial. Target fully funded positions.
+**How to apply:**
+1. Email 15–20 professors whose research matches yours before submitting formal applications. Keep emails under 200 words, specific to their work. Attach your CV. Professors who want to work with you will expedite your admission and funding.
+2. Apply to 10–15 funded programmes (December–January deadlines). Required documents: Statement of Purpose (most critical — be specific about research vision and target professor), CV, 3 reference letters (2 academic), transcripts, TOEFL/IELTS, GRE if required.
+3. Evaluate funding offers: compare stipend level, cost of living in that city, research fit, supervisor placement record.
 
-**How to find funded PhD programmes:**
-- Apply to 8–15 programmes in your field
-- Target professors whose research interests match yours — email them before applying
-- Top STEM PhD: MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, Michigan, Cornell, Columbia
-- Strong but less competitive with great funding: Purdue, Ohio State, UMass Amherst, Georgia Tech, Rutgers, University of Pittsburgh
+**Top funded PhD programmes in STEM:**
+MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, University of Michigan, Cornell, Columbia, Johns Hopkins, Purdue, Ohio State, UMass Amherst, Georgia Tech.
 
-**Application requirements (typical):**
-- GRE (many schools have dropped this requirement post-COVID — check)
-- TOEFL/IELTS (often waived for Nigerian applicants from English-medium universities)
-- Statement of Purpose — this is the most important document. Be specific about your research interests and why this lab/professor.
-- 3 letters of recommendation
-- Transcripts
-- CV/Resume
-
-**F-1 visa process:** same as above (DS-160, SEVIS $350, MRV $185, interview at US Embassy Lagos or Abuja). I-20 shows university funding.
+**F-1 visa process:** same as above. I-20 shows university covering your costs.
 
 **Green Card from PhD:**
-- EB-1A (Extraordinary Ability): self-petition, no employer needed. Best for academics with publications, awards, citations, invited talks.
-- EB-2 NIW (National Interest Waiver): self-petition with degree + evidence your work is in the national interest of the US. STEM PhD holders can often qualify.
-- EB-1B (Outstanding Researcher): through employer — university/research institution sponsorship.`,
+- EB-2 NIW (National Interest Waiver): self-petition — prove your work is in the US national interest. STEM PhD holders with publications qualify. No employer sponsor needed.
+- EB-1A (Extraordinary Ability): self-petition — strong for academics with citations, awards, press, invited talks.
+- EB-1B (Outstanding Researcher): employer-sponsored — for senior researchers at universities or R&D labs.`,
 
       work: `**Working in the US — H-1B and Beyond**
 
 **H-1B (most common route for Nigerian professionals):**
 - Specialty occupation requiring a Bachelor's degree or higher
-- Employer must sponsor and file a petition with USCIS
-- Annual cap: 65,000 regular + 20,000 US Master's degree holders = 85,000 total
-- Annual lottery: registration period is March, draw in April, work starts October 1
-- FY2027 onwards (effective Feb 2026): H-1B moves to wage-weighted selection — higher-salary roles have better lottery odds
-- Employer registers you — you don't apply yourself
-- Stamping: after H-1B is approved, you may need to go to the US Embassy Lagos for a visa stamp in your passport
+- Employer sponsors and files petition with USCIS
+- Annual cap: 65,000 regular + 20,000 US Master's holders = 85,000 total
+- Registration period: March each year. Results: April. Work start: October 1
+- From FY2027: selection is wage-weighted — higher-salary roles have better lottery odds
+- Registration fee: $215/beneficiary (employer pays — increased from $10 in 2025)
+- Employer registers you — you do not apply yourself
+- After H-1B approval, you may need to attend US Embassy Lagos for visa stamp before travelling
 
-**Key H-1B facts for Nigerians:**
-- Nigerian students on STEM OPT participate in the lottery — 3 attempts if on 3-year STEM OPT
-- Nigerian-born applicants are not subject to per-country Green Card backlogs (unlike India and China) — once you get H-1B and your employer files for a Green Card, wait times are relatively normal (3–8 years for EB-2/EB-3)
-- Big Tech (Google, Meta, Amazon, Microsoft, Apple) all have internal immigration teams — they routinely sponsor Nigerian engineers through H-1B and Green Card
+**Key H-1B strategy for Nigerians:**
+- Nigerian STEM OPT holders get 3 lottery attempts (3-year STEM OPT window)
+- Nigerians have NO per-country Green Card backlog (unlike Indian/Chinese nationals) — once your employer files for Green Card, wait is 3–8 years, not decades
+- Big Tech sponsors thousands of H-1Bs annually: Google, Meta, Amazon, Microsoft, Apple all have dedicated immigration teams
 
-**Cap-exempt H-1B alternatives:**
-- Universities, research institutions, and non-profits are exempt from the H-1B cap — unlimited spots. A postdoc at a US university gives you H-1B status immediately, plus time to build EB-1A/EB-2 NIW credentials.
-- O-1A (Extraordinary Ability): no cap, no lottery. For Nigerians with high citation counts, major awards, press coverage, or significant industry recognition. Self-petition possible with an agent.
+**Cap-exempt routes (no lottery):**
+- Universities, research institutions, and non-profits: H-1B without cap — immediate status, unlimited spots. A postdoc at a US university gives H-1B immediately.
+- O-1A (Extraordinary Ability): no cap, no lottery. For Nigerians with strong citation records, awards, press, industry recognition. Can self-petition with an agent.
 
-**Green Card (Permanent Residency) routes:**
-- EB-1A: Extraordinary ability — self-petition, no employer needed. Strong for academics, researchers, entrepreneurs.
-- EB-2 NIW: National Interest Waiver — self-petition with evidence your work benefits the US national interest. STEM PhD holders are well-positioned.
-- EB-1B: Outstanding Researcher — employer-sponsored, for senior researchers at universities/research labs.
-- EB-2/EB-3 PERM: employer-sponsored labour certification process — standard corporate route. Takes 3–8 years typically for Nigerians (no country backlog).
+**Green Card routes:**
+- EB-2 NIW: self-petition — no employer needed. Best for STEM PhD holders with publications.
+- EB-1A: Extraordinary ability — self-petition. Best for academics, senior researchers, entrepreneurs.
+- EB-1B: Outstanding Researcher — employer-sponsored, for research institution hires.
+- EB-2/EB-3 PERM: standard employer-sponsored path — 3–8 years for Nigerians (no country queue).
 
-**Citizenship:** 5 years as a permanent resident (Green Card holder). Nigeria does not officially recognize dual nationality, but many Nigerian-Americans hold both passports in practice.`,
+**Citizenship:** 5 years as Green Card holder. US citizenship does not require renouncing Nigerian citizenship (US does not require it) — many Nigerian-Americans hold both passports in practice.`,
 
       visitor: `**US B-1/B-2 Visitor Visa**
 
-The B-1/B-2 is for business (B-1) and tourism/personal visits (B-2). Most Nigerians apply for the combined B-1/B-2.
+The B-1/B-2 covers both business visits (B-1) and tourism/personal visits (B-2). Most Nigerians apply for the combined B-1/B-2.
 
-**Step 1: DS-160 online form**
-Complete at ceac.state.gov/genniv. Be detailed and honest about your purpose, travel history, and family/financial situation.
+**Step 1: Complete DS-160 at ceac.state.gov/genniv**
+Detailed, honest answers about your purpose, employment, travel history, family. Save your confirmation barcode.
 
-**Step 2: Pay MRV fee — $185**
-Pay at ustraveldocs.com or a designated bank. Keep the receipt.
+**Step 2: Pay MRV fee — $185 at ustraveldocs.com**
+Non-refundable. Keep your receipt.
 
-**Step 3: Schedule interview**
-At US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja (Plot 1075, Diplomatic Drive, Central Business District). Book at ustraveldocs.com. In 2025, Lagos B-1/B-2 wait times are 6–13 months — book the day you decide to apply.
+**Step 3: Book interview appointment at ustraveldocs.com**
+US Embassy Lagos: 2 Walter Carrington Crescent, Victoria Island.
+US Consulate Abuja: Plot 1075, Diplomatic Drive, Central Business District.
+Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the day you decide to apply. Check travel.state.gov for current updated wait times.
 
-**Step 4: Attend interview**
-Bring:
-- Passport (valid 6+ months)
-- DS-160 confirmation barcode page
-- MRV fee receipt
-- Photo (5cm x 5cm)
-- Supporting documents (see below)
+**Step 4: Gather documents. Consular officers look for:**
+- Strong ties to Nigeria: employment letter (letterhead, salary, approved leave, return-to-work date), business registration or bank statements if self-employed, property documents, family staying in Nigeria (spouse, children)
+- Clear purpose of visit: why you are going, where you will stay, what you will do
+- Ability to fund the trip: bank statements showing $3,000–5,000+ for a typical 2-week trip
+- Prior international travel: UK visa, Schengen stamps, Canadian visa all strengthen your case significantly
 
-**What consular officers look for:**
-- Strong ties to Nigeria: employment letter with salary, business registration/bank statements if self-employed, property ownership documents, family ties (spouse/children staying in Nigeria)
-- Clear purpose: why you are visiting, what you will do, where you will stay
-- Ability to fund the trip: bank statements showing sufficient funds ($3,000–5,000+ for a 2-week trip)
-- Proof you will return: most important — employment letter confirming your job is held while you travel, approved leave of absence
+**Step 5: Interview (typically under 3 minutes)**
+Arrive 15 minutes early. Answers should be short, direct, confident. Key questions: what do you do in Nigeria? Why are you visiting? Who are you visiting? When are you returning? Do not volunteer information beyond what is asked.
 
-**Interview tips:**
-- Dress professionally
-- Speak confidently and in English
-- Answers should be short and direct — consular officers decide in under 3 minutes
-- If you have traveled internationally before (UK, Schengen, Canada), mention it — it helps
-- If refused: a 214(b) refusal means the officer felt you didn't prove immigrant intent. You can reapply but must present new, stronger evidence of ties.
+**If refused (214b):** the officer felt you did not prove non-immigrant intent. You can reapply — but you must present meaningfully new or stronger evidence. The same application will almost certainly be refused again. Address the specific concern.
 
-**Entry:** CBP (Customs and Border Protection) sets the length of your stay at the port of entry — usually stamped for 6 months but can be less. Do not overstay — overstaying is one of the most damaging immigration violations and affects future visa applications globally.`,
+**Entry:** CBP sets your length of stay at the port of entry — usually 6 months. Do not overstay: 180+ days triggers a 3-year US bar; 1 year+ triggers a 10-year bar. Both affect visa applications globally.`,
     },
 
     timeline: {
       undergrad: [
-        { phase: "Standardized tests and preparation", duration: "2–3 years before entry", detail: "SAT/ACT (many schools test-optional now). TOEFL/IELTS. Start in SS2/SS3. Build extracurricular record, leadership roles, community involvement — US admissions is holistic." },
-        { phase: "Common App / Coalition App", duration: "Aug–Jan (year of application)", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to 10–15 schools across safety, match, and reach. Write strong essays." },
-        { phase: "Financial aid applications", duration: "Concurrent with admission", detail: "CSS Profile (css.collegeboard.org) for need-based aid — file by November 15 for ED schools. FAFSA (fafsa.ed.gov) — file after October 1. For need-blind schools: apply regardless of ability to pay." },
-        { phase: "Receive admission and financial aid offer", duration: "March–April", detail: "Decision Day: May 1. Compare financial aid packages carefully. Contact financial aid offices to negotiate — this is standard practice." },
-        { phase: "I-20 and SEVIS fee", duration: "May–June", detail: "University issues I-20 after you enroll. Pay SEVIS fee ($350) at fmjfee.com. Keep SEVIS receipt — needed for visa interview." },
-        { phase: "F-1 visa interview at US Embassy Lagos/Abuja", duration: "June–July", detail: "DS-160, MRV fee ($185), interview. Processing: 2–5 days after interview if approved. Apply as early as possible — Lagos consulate has long waits." },
-        { phase: "Arrive USA", duration: "August (30 days before programme start)", detail: "F-1 allows entry 30 days before programme start date on I-20. Report to International Student Office (DSO) within first few days — mandatory." },
+        { step: "2–3 years before entry", title: "Build academic and extracurricular record", detail: "US admissions is holistic — strong WAEC/A-Level results, leadership roles, community involvement, and a compelling personal story all matter. Start in SS2/SS3. Take SAT/ACT if targeting merit scholarships. TOEFL or IELTS preparation." },
+        { step: "August–January (application year)", title: "Submit Common App to 10–15 universities", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to safety, match, and reach schools. Write specific, personal essays — avoid generic hardship narratives. File CSS Profile simultaneously for need-based aid at need-blind schools." },
+        { step: "March–April", title: "Receive admission and financial aid offers", detail: "Decision Day is May 1. Compare financial aid packages carefully. Contact financial aid offices to negotiate — this is standard and expected. Need-blind schools will explain your exact cost based on family income." },
+        { step: "May–June", title: "Enroll, receive I-20, pay SEVIS fee", detail: "Confirm enrollment and pay any deposit. University issues I-20 form. Pay SEVIS fee ($350) at fmjfee.com. Keep all receipts for your visa interview." },
+        { step: "June–July", title: "F-1 visa interview at US Embassy Lagos or Consulate Abuja", detail: "Complete DS-160, pay MRV fee ($185), attend interview. Bring: passport, DS-160 barcode, SEVIS receipt, I-20, proof of funds, transcripts, TOEFL/IELTS. Processing: 2–5 days if approved. Apply early — Lagos wait times can stretch." },
+        { step: "August", title: "Arrive in the US — no earlier than 30 days before programme start", detail: "Report to International Student Office (DSO) within first few days — mandatory. Apply for SSN after 10 days. Set up US bank account. Attend orientation." },
       ],
       masters: [
-        { phase: "GRE (if required) + TOEFL/IELTS", duration: "6–12 months ahead", detail: "Many top STEM programmes have dropped GRE. Check each school's requirements. TOEFL 90–100+ or IELTS 7.0+ typically needed." },
-        { phase: "Research and professor outreach", duration: "July–September", detail: "Email professors whose research matches yours. A professor's positive response significantly increases admission and funding chances." },
-        { phase: "Applications", duration: "September–December", detail: "Most STEM Master's/PhD deadlines: December 1 – January 15. Submit applications, statements of purpose, letters of recommendation, transcripts." },
-        { phase: "Offers and funding negotiation", duration: "January–April", detail: "Funded offers may come with TA/RA offers. You can negotiate — compare packages across schools." },
-        { phase: "I-20 + F-1 visa", duration: "May–July", detail: "SEVIS fee, DS-160, MRV fee, interview at US Embassy Lagos. Apply early — wait times are long." },
-        { phase: "OPT and STEM OPT planning", duration: "Year 1 of studies", detail: "Register with your DSO about OPT planning from year 1. STEM OPT application is filed 90 days before graduation. Time your H-1B lottery registration." },
+        { step: "6–12 months ahead", title: "Take TOEFL/IELTS and GRE (if required), research professors", detail: "TOEFL 90–100+ or IELTS 7.0+ typically needed. GRE: check each school — many STEM programmes dropped it post-COVID. Research faculty at target universities. Email professors whose work aligns with yours before applying." },
+        { step: "September–December", title: "Submit applications — target funded STEM programmes", detail: "Most STEM deadlines: December 1 – January 15. Required: statement of purpose (state funding interest explicitly), CV, 3 recommendation letters, transcripts, test scores. Apply to 10+ programmes. Never rely on just one application." },
+        { step: "January–April", title: "Receive funding offers and negotiate", detail: "Funded offers include TA/RA offer with tuition waiver + stipend. You can compare packages and negotiate. A funded Master's at a lower-ranked school beats an unfunded one at a higher-ranked school every time." },
+        { step: "May–July", title: "I-20 issued, apply for F-1 visa", detail: "SEVIS fee ($350), DS-160, MRV fee ($185), interview at US Embassy Lagos or Consulate Abuja. If funded, I-20 shows university covering costs — no personal funds proof needed for those costs." },
+        { step: "Year 1 of studies", title: "Plan OPT and STEM OPT from day one", detail: "Register with your DSO about OPT early. STEM OPT application is filed 90 days before graduation. Your degree must be in a STEM-designated field — check the DHS STEM list. Time your H-1B lottery registration for March of your graduation year." },
+        { step: "After graduation", title: "STEM OPT → H-1B lottery (up to 3 attempts)", detail: "Apply for 12-month OPT before graduation, then 24-month STEM OPT extension. Total: 36 months. Register for H-1B each March through your employer. If selected, work starts October 1. If not, remain on OPT and try again next year." },
       ],
       phd: [
-        { phase: "Professor outreach + applications", duration: "July–December", detail: "Email potential PhD supervisors with your research proposal. Strong professor support = much higher admission chances. Apply to 10–15 funded programmes." },
-        { phase: "Funding offers", duration: "January–March", detail: "Funded offers include I-20 showing university coverage. Compare stipend levels, research fit, lab resources, and cost of living in each city." },
-        { phase: "F-1 visa + arrival", duration: "May–August", detail: "Same process. DSO check-in within first days. Social Security Number application after 10 days of being in status." },
-        { phase: "PhD years", duration: "4–6 years", detail: "Annual OPT planning. Build publications, conference presentations, awards — all count toward EB-1A/EB-2 NIW Green Card self-petition later." },
-        { phase: "OPT + H-1B lottery", duration: "Year 4–5+", detail: "3-year STEM OPT. Register for H-1B lottery with employer. If selected, start October 1 of that year. If not selected in year 1, remain on OPT and try again (up to 3 times on STEM OPT)." },
-        { phase: "Green Card self-petition", duration: "From year 3 onwards", detail: "Start building EB-1A/EB-2 NIW record: publications, citations, invited talks, press, awards. Consult an immigration attorney — USCIS approval timelines vary." },
+        { step: "July–December", title: "Email professors + submit to 10–15 funded programmes", detail: "Email 15–20 professors before applications open. Short, specific emails (under 200 words) referencing their specific published work. Attach your CV. A positive reply dramatically increases your admission and funding chances. Apply broadly — funded PhD admissions are competitive." },
+        { step: "January–March", title: "Evaluate funding offers — compare stipends and research fit", detail: "Funded offers include I-20 showing university coverage. Compare: annual stipend (ask about increases over PhD duration), cost of living in that city, supervisor track record, recent graduate placement. Research fit > ranking for PhD success." },
+        { step: "May–August", title: "F-1 visa and arrival", detail: "Same visa process. Register with DSO. Apply for SSN after 10 days. Set up US bank account. Attend department orientation and supervisor introductions." },
+        { step: "Years 1–3", title: "Build research record and Green Card credentials", detail: "Publish, present at conferences, accumulate citations. From year 3: begin consulting an immigration attorney about EB-2 NIW self-petition. Build evidence: publications, invited talks, peer review credits, press, awards." },
+        { step: "Year 4–6", title: "STEM OPT + H-1B lottery or Green Card self-petition", detail: "Apply for STEM OPT on graduation. 36 months of work authorization: 3 H-1B lottery attempts. Simultaneously build EB-2 NIW or EB-1A self-petition case with your attorney. Nigerian PhD holders with publications can often qualify for NIW without employer sponsorship." },
       ],
       work: [
-        { phase: "Job search targeting H-1B sponsors", duration: "During OPT / before", detail: "Use LinkedIn, Glassdoor, Levels.fyi (tech salaries), Indeed. Look specifically at companies with H-1B sponsorship history — myvisajobs.com shows which companies file most H-1B petitions." },
-        { phase: "H-1B lottery registration", duration: "March annually", detail: "Your employer registers you online. $215 registration fee per beneficiary (employer pays — increased from $10 in 2025). Results in April. If selected, USCIS adjudicates the petition. Work starts October 1. From FY2027, selection is wage-weighted — higher salary = better odds." },
-        { phase: "If lottery not selected", duration: "Stay on OPT / explore alternatives", detail: "Remain on STEM OPT (if eligible for remaining time). Try again next March. Consider cap-exempt employers (universities, nonprofits). Explore O-1A if qualifications are strong." },
-        { phase: "H-1B to Green Card", duration: "3–10 years", detail: "Employer files PERM labor certification (EB-2/EB-3) or you self-petition (EB-1A/EB-2 NIW). Nigerians do NOT face the India/China per-country backlog — wait times are reasonable." },
-        { phase: "Citizenship at 5 years", duration: "After 5 years as Green Card holder", detail: "Apply for naturalization. Dual nationality: US citizenship requires no renunciation, but Nigeria does not formally recognize dual citizenship. Many Nigerian-Americans hold both passports in practice." },
+        { step: "Job search", title: "Target H-1B sponsors using myvisajobs.com", detail: "Filter by company and year at myvisajobs.com. Companies filing 1,000+ H-1Bs annually are experienced sponsors: Google, Microsoft, Amazon, Meta, Apple, Deloitte, IBM, Cognizant, Infosys. Use LinkedIn, Levels.fyi for tech salaries, Glassdoor, Indeed. International job boards if applying from outside the US." },
+        { step: "March annually", title: "H-1B lottery registration through your employer", detail: "Employer registers you — $215 fee per beneficiary. Results in April. If selected: employer files full petition, USCIS adjudicates, work starts October 1. From FY2027: wage-weighted selection — higher-salary offers have better odds. If not selected: remain on STEM OPT or explore cap-exempt employers." },
+        { step: "Ongoing", title: "Cap-exempt and O-1A alternatives if lottery not selected", detail: "Universities, hospitals, research institutions, non-profits: H-1B without cap, no lottery. A postdoc or researcher role at a US university gives immediate H-1B status plus time to build NIW credentials. O-1A for exceptional credentials: publications, awards, industry recognition." },
+        { step: "Year 1–2 of H-1B", title: "Begin Green Card process", detail: "Employer-sponsored: EB-2 PERM or EB-3 PERM — employer files PERM labor certification with DOL, then I-140 with USCIS. Nigerians: 3–8 years total (no per-country backlog). Self-petition: EB-2 NIW or EB-1A — consult specialist immigration attorney. Start early." },
+        { step: "After 5 years as Green Card holder", title: "Apply for US citizenship (naturalization)", detail: "File N-400. US citizenship does not require renouncing Nigerian citizenship — US law makes no such requirement. Many Nigerian-Americans hold both passports. Citizenship brings: US passport (visa-free to 186 countries), voting rights, full social security eligibility." },
       ],
       visitor: [
-        { phase: "DS-160 form", duration: "Complete before scheduling appointment", detail: "ceac.state.gov/genniv — save your application ID. Thorough, honest answers." },
-        { phase: "MRV fee payment + appointment scheduling", duration: "6–13 months before intended travel", detail: "ustraveldocs.com — pay $185, schedule interview at US Embassy Lagos or Consulate Abuja. Lagos B-1/B-2 wait times in 2025 are 6–13 months. Book immediately after deciding to travel. Check travel.state.gov for current wait times (updated monthly)." },
-        { phase: "Interview", duration: "On appointment day", detail: "Arrive 15 minutes early. Short, confident answers. Show strong ties to Nigeria. Be clear about your purpose and plans." },
-        { phase: "Decision", duration: "Immediate (most cases)", detail: "Most decisions at the window. If approved: passport collected within 3–5 working days. If refused: 214(b) — you can reapply with stronger evidence." },
+        { step: "Complete immediately", title: "DS-160 form at ceac.state.gov/genniv", detail: "Detailed, honest answers. Travel history, employment, family situation, purpose of visit. Save your application ID and confirmation barcode — you need this at the interview." },
+        { step: "Book immediately — 6–13 months ahead", title: "Pay $185 MRV fee and book interview at ustraveldocs.com", detail: "Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the moment you decide to apply. Check travel.state.gov monthly for updated wait times — they shift seasonally. Abuja Consulate typically has shorter wait times than Lagos." },
+        { step: "2–4 weeks before interview", title: "Gather all supporting documents", detail: "Employment letter (letterhead, salary, leave approval, return-to-work date). 6 months bank statements showing stable income. Property documents. Family staying in Nigeria. Purpose of visit documentation. Prior international visa stamps (UK, Schengen, Canada) — include these passports." },
+        { step: "Interview day", title: "Attend interview with short, confident, specific answers", detail: "Arrive 15 minutes early. Interview is typically 2–3 minutes. Prepare answers: why visiting, what you do in Nigeria, who is staying in Nigeria, when you return. Be direct. If refused: request to know the specific section cited (usually 214b), then address it in a new application." },
       ],
     },
 
     tips: {
       undergrad: [
-        "8 US universities are fully need-blind for international students: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown — all meet 100% of demonstrated financial need. Harvard families earning under $100,000/year pay nothing at all (tuition + room + board); under $200,000 pay no tuition. Many Nigerians assume they cannot afford US education and never apply. Apply to all 8 and file for financial aid — the worst answer is a no.",
-        "Community college → state university transfer is the most affordable path to a US degree — 2 years at a community college (as low as $6,000–10,000/year), then transfer to a state university as a junior. Total cost can be under $60,000 for 4 years.",
-        "The Common App essay is the most important document — write about something specific, personal, and genuine. Nigerian students often write about overcoming hardship, which is fine, but the best essays are specific, surprising, and show real personality.",
-        "Strong SAT/ACT scores are not required at most schools (test-optional) but can unlock merit scholarships at mid-tier universities. A 1400+ SAT or 30+ ACT opens merit scholarship opportunities at schools like University of Alabama, Tulsa, or Northeastern.",
+        { title: "8 US universities are need-blind for international students — apply to all of them", body: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all meet 100% of demonstrated financial need for international students. Harvard families earning under $100,000/year pay nothing — tuition, room, and board covered. Under $200,000/year: no tuition. Apply regardless of income. File CSS Profile. The worst outcome is a rejection — not applying is worse." },
+        { title: "Community college → state university transfer is the most affordable path", body: "Two years at a US community college costs $6,000–10,000/year. Then transfer to a state university (UC system, University of Texas, University of Michigan) as a junior. Total 4-year cost can be under $60,000. Community college credits transfer cleanly to top public universities — this is a legitimate, respected route." },
+        { title: "The personal essay is your biggest differentiator at competitive schools", body: "US admissions is holistic — your essay matters as much as your grades at elite schools. Write about something specific, genuine, and personal to you. Nigerian students sometimes default to generic hardship narratives. The best essays are surprising, specific, and reveal a real person. Start early, rewrite many times, get feedback." },
+        { title: "Merit scholarships at mid-tier schools can make them more affordable than 'cheaper' options", body: "Schools like University of Alabama, University of Tulsa, Northeastern, and University of Denver offer large merit scholarships to international students with strong grades and test scores. A 1400+ SAT or 30+ ACT can unlock $15,000–25,000/year in merit aid — making a US degree cost less than some European alternatives." },
       ],
       masters: [
-        "Never pay for a STEM PhD in the US — if you are not offered funding (tuition waiver + stipend), reject the offer and apply again or to different programmes. Paying $50,000/year for a US STEM PhD is unnecessary when funded options exist.",
-        "Professor relationships are everything in US PhD admissions. Emailing professors before you apply — showing you have read their work and have a specific research idea — is normal and expected. A professor who wants to work with you will advocate for your admission and funding.",
-        "STEM OPT's 3 years is genuinely transformative — you have 3 lottery attempts for H-1B, time to build work experience and Green Card evidence, and the flexibility to change employers. Plan your STEM eligibility from day one of your programme.",
-        "Cost of living varies dramatically by city: San Francisco and NYC ($25,000–40,000/year), mid-sized university towns like Purdue/West Lafayette or College Station, TX ($12,000–16,000/year). A funded PhD stipend goes further in a smaller city.",
+        { title: "Never pay for a STEM Master's or PhD in the US — funded options always exist", body: "If a US university offers you a STEM Master's or PhD without a tuition waiver and stipend, reject it and apply elsewhere. Paying $50,000/year for a STEM graduate degree is unnecessary — Carnegie Mellon, Georgia Tech, Purdue, Michigan, and hundreds of other top universities fund STEM graduate students routinely. Apply broadly across 10–15 programmes." },
+        { title: "Email professors before applying — it is the most underused tool for Nigerian applicants", body: "In US PhD and research Master's admissions, professors have enormous influence over who gets admitted and funded. Emailing a professor before you apply — referencing their specific work, explaining your research interests, attaching your CV — is expected and effective. A professor who wants to work with you will advocate for your admission and RA funding." },
+        { title: "STEM OPT's 36 months is the most valuable post-study benefit in any country", body: "36 months of open US work authorization after a STEM degree — no employer restriction, three separate H-1B lottery attempts. Most Nigerian engineers need 1–2 lottery attempts to get H-1B. Plan your STEM field eligibility from day one: ensure your degree is on the DHS STEM Designated Degree Programme list. Your DSO (International Student Office) can advise." },
+        { title: "Cost of living varies enormously — a stipend goes much further outside big cities", body: "A funded PhD or Master's stipend of $22,000/year in West Lafayette, Indiana (Purdue) or College Station, Texas (Texas A&M) means genuine savings. The same stipend in San Francisco or NYC barely covers rent. Factor cost of living into your offer comparisons. Levels.fyi shows real salary and cost-of-living data by city." },
       ],
       phd: [
-        "The EB-2 NIW (National Interest Waiver) Green Card is the Nigerian STEM PhD's best path to permanent residency without depending on an employer. After a strong PhD with publications, you can self-petition. Consult an immigration attorney who specializes in NIW from year 3 of your PhD.",
-        "US PhD culture is different from Nigerian academia — you are expected to be independent, push back on ideas respectfully, present your work at conferences, and network actively. Imposter syndrome is real but common — every international student faces it.",
-        "NSF, NIH, DARPA, and DOE all fund US research — understanding which funding body funds your supervisor's work helps you understand the job security of your position. Diversified funding = more stable PhD.",
-        "PhD students in the US typically earn $18,000–35,000/year gross — this is the stipend range. Some fields (biomedical, engineering) in high-cost cities (Boston, SF, NYC) have supplement programmes to bring stipends to $30,000+. Ask about stipend levels before accepting.",
+        { title: "EB-2 NIW is the Nigerian STEM PhD graduate's most powerful Green Card path", body: "The National Interest Waiver lets you self-petition for permanent residency without an employer — you prove your work benefits the US national interest. STEM PhD graduates with publications, conference presentations, and citations are well-positioned to qualify. Start building this record from year one. Consult an immigration attorney from year 3 of your PhD." },
+        { title: "Emailing professors is not just acceptable — it is how funded PhD positions are filled", body: "US PhD professors actively look for strong students. Your email to a professor is not an intrusion — it is how the system works. Write to 15–20 professors, keep emails specific and under 200 words, reference one paper they published, attach your CV, ask if they are taking students. One positive reply can change your application outcome entirely." },
+        { title: "Nigerians have a massive advantage over Indian and Chinese nationals in Green Card processing", body: "The US Green Card system has per-country quotas — Indian and Chinese nationals face decade-long backlogs for EB-2 and EB-3. Nigeria has no such backlog. Once your employer files your Green Card petition, wait times are 3–8 years — not 50+ years. This is one of the most strategically important immigration facts for Nigerians considering the US." },
+        { title: "Build your EB-1A/NIW record from year one — publications, citations, talks, awards", body: "The EB-1A (extraordinary ability) and EB-2 NIW Green Cards are based on evidence of achievement: publications in reputable journals, citation counts, invited conference presentations, peer review work, press coverage, awards. These take years to accumulate. Starting intentionally in year 1 of your PhD — choosing journals with strong indexing, attending top conferences — puts you in a much stronger position by year 4–5." },
       ],
       work: [
-        "Track H-1B sponsors at myvisajobs.com — it shows which companies filed the most H-1B petitions by year. Companies that file thousands of H-1Bs annually (Google, Microsoft, Amazon, Cognizant, Infosys, Tata) are experienced sponsors. Prioritize them in your job search.",
-        "Nigerian-born workers in the US do NOT face the per-country Green Card backlog that affects Indian and Chinese nationals — this is a significant advantage. Once your employer files for a Green Card, wait times are years shorter than for India-born colleagues in the same position.",
-        "O-1A (Extraordinary Ability visa) has no cap and no lottery. Nigerian professionals with strong publication records, industry recognition, awards, press coverage, or demonstrated peer expertise can self-petition or have an employer file. Work with a specialist immigration attorney.",
-        "US income tax is complex — federal (10–37%) plus state tax (0–13% — Texas and Florida have no state income tax, California has 13.3% top rate). Use a CPA for your first 2–3 years. Nigerian engineers at big tech in Texas (Amazon/Google Austin offices) take home significantly more than counterparts in California due to no state income tax.",
+        { title: "Use myvisajobs.com to identify H-1B sponsors before applying for jobs", body: "myvisajobs.com tracks every H-1B petition filed with USCIS by company and year. Companies filing 5,000+ H-1Bs annually are well-resourced sponsors: Google, Amazon, Microsoft, Meta, Apple, Deloitte, IBM, Infosys, Cognizant. These companies have internal immigration teams and established processes. Prioritize them over smaller companies with no H-1B history — the sponsorship process is smoother and more reliable." },
+        { title: "Nigeria's lack of Green Card backlog is a career-defining advantage — use it strategically", body: "Indian-born H-1B holders can wait 70+ years for a Green Card (EB-2 backlog). Nigerian-born holders typically wait 3–8 years. This means: target companies and roles where your employer will file for your Green Card quickly. Negotiate GC sponsorship into your offer. A faster Green Card means faster career freedom — you can change employers, start a company, or self-petition once you have it." },
+        { title: "Cap-exempt H-1B at universities and non-profits is available immediately — no lottery", body: "Any US university, research institution, or qualifying non-profit can hire you on H-1B without the annual cap or lottery. A postdoc or research scientist role at a US university gives you immediate H-1B status and lets you build the publication record needed for EB-2 NIW or EB-1B Green Card. Many Nigerian academics have used this path to bypass the H-1B lottery entirely." },
+        { title: "Texas and Florida have no state income tax — significantly higher take-home pay than California", body: "US federal income tax applies everywhere. But state income tax varies from 0% (Texas, Florida, Nevada, Washington) to 13.3% (California). A Nigerian software engineer earning $150,000 at Google Austin takes home roughly $15,000–18,000 more per year than a counterpart at Google Mountain View in California — before accounting for lower cost of living in Texas. Major tech employers in Texas: Google, Amazon, Apple, Oracle, Dell." },
       ],
       visitor: [
-        "The B-1/B-2 interview in Lagos is short — typically under 3 minutes. Your entire case is made on a few key questions. Practice your answers: why are you visiting? What do you do in Nigeria? What family do you have here? When are you returning? Be specific and confident.",
-        "Lagos US Embassy B-1/B-2 wait times in 2025 are 6–13 months — among the longest in the world. Book the moment you decide to apply. Check travel.state.gov monthly for updates. Plan your trip date at least a year out.",
-        "If refused, wait 6–12 months before reapplying. A new application needs new or stronger evidence — the same application will almost certainly be refused again. Address the specific 214(b) reason.",
-        "Prior Schengen visa, UK visa, or Canadian visa stamps in your passport significantly help a B-1/B-2 application — they demonstrate you have traveled internationally and returned home as required.",
-        "Once inside the US on a B-1/B-2, do not overstay the date stamped in your passport by CBP. Overstaying bars you from the US for 3 years (180-day overstay) or 10 years (1-year+ overstay). It is one of the most serious immigration violations and affects global visa applications.",
+        { title: "Book your B-1/B-2 appointment the day you decide to travel — not when you are ready", body: "Lagos B-1/B-2 US visa appointment wait times in 2025 are 6–13 months — among the longest for any US post worldwide. You should book your interview appointment before you even start gathering documents. You can gather documents over the following months. Waiting until you feel 'ready' can cost you a year. Check travel.state.gov monthly for current Lagos wait times." },
+        { title: "Your employment letter is the single most important document in your application", body: "The consular officer needs to believe you will return to Nigeria after your visit. An employment letter on company letterhead, signed by HR, confirming your role, your salary, your approved leave dates, and your return-to-work date is the clearest proof of ties. If self-employed: business registration certificate, 6 months bank statements showing business income, and a letter from your accountant." },
+        { title: "Prior international travel is the strongest signal you return home as required", body: "UK visa stamps, Schengen visa stamps, and Canadian visa stamps in your passport prove you have traveled internationally before and returned to Nigeria as required. If you have any of these, bring those passports to your interview — even expired ones. Multiple international travel stamps dramatically improve approval odds." },
+        { title: "A 214(b) refusal is not permanent — but the same application will fail again", body: "Section 214(b) refusal means the officer was not convinced you have strong enough ties to Nigeria to return. You can reapply — but you must present meaningfully stronger or new evidence. The same bank statements, the same employment letter, the same application will almost certainly be refused again. Wait 6–12 months, build stronger evidence (property purchase, marriage certificate, business growth), and reapply with a clearly different financial or personal situation." },
       ],
     },
 
-    universities: [
-      { name: "Massachusetts Institute of Technology (MIT)", location: "Cambridge, MA", intl_fee: "$57,590/yr (need-blind for intl — meets 100% of need)", notes: "World #1 engineering and technology. Fully funded PhD. Need-blind admissions for international students. mit.edu" },
-      { name: "Stanford University", location: "Stanford, CA", intl_fee: "$56,169/yr (meets full demonstrated need)", notes: "Top 3 globally. Engineering, CS, business, medicine, law. Fully funded PhD. Silicon Valley connections. stanford.edu" },
-      { name: "Harvard University", location: "Cambridge, MA", intl_fee: "$54,768/yr (need-blind — meets 100% of need)", notes: "World-famous. Law, medicine, business (HBS), government (HKS), sciences. Need-blind for all nationalities. harvard.edu" },
-      { name: "Carnegie Mellon University", location: "Pittsburgh, PA", intl_fee: "$58,924/yr", notes: "World #1 computer science. Strong AI, robotics, data science, design. Excellent TA/RA funding for PhD/Master's. cmu.edu" },
-      { name: "Georgia Institute of Technology", location: "Atlanta, GA", intl_fee: "$32,876/yr (public, out-of-state)", notes: "Top 10 engineering. CS, aerospace, biomedical, industrial engineering. Affordable for a top-tier school. Strong STEM OPT placement. gatech.edu" },
-      { name: "University of Michigan", location: "Ann Arbor, MI", intl_fee: "$52,000/yr (out-of-state)", notes: "Top 25 globally. Engineering, medicine, law, business (Ross). Strong Nigerian alumni network. umich.edu" },
-      { name: "Columbia University", location: "New York City, NY", intl_fee: "$63,530/yr (meets full demonstrated need)", notes: "Ivy League. NYC location means unmatched internship and career access. Engineering, journalism, law, business. columbia.edu" },
-      { name: "University of Texas at Austin", location: "Austin, TX", intl_fee: "$38,000/yr", notes: "Top public university. No state income tax. Engineering, CS, business, law, petroleum engineering. Huge Nigerian community in Texas. utexas.edu" },
-    ],
+    universities: {
+      undergrad: [
+        { name: "Massachusetts Institute of Technology (MIT)", location: "Cambridge, MA", known_for: "Engineering, Computer Science, Physics, Economics — world #1 in multiple fields", avg_tuition: "$57,986/yr (need-blind — meets 100% of need)", acceptance: "~4%", nigerian_community: "Growing" },
+        { name: "Harvard University", location: "Cambridge, MA", known_for: "Law, Medicine, Business (HBS), Government (Kennedy School), Sciences — need-blind for all nationalities", avg_tuition: "$59,076/yr (families under $100k pay $0)", acceptance: "~3.5%", nigerian_community: "Growing" },
+        { name: "Stanford University", location: "Stanford, CA", known_for: "Engineering, CS, Business (GSB), Medicine, Law — Silicon Valley access, top-3 globally", avg_tuition: "$62,484/yr (meets full demonstrated need)", acceptance: "~4%", nigerian_community: "Growing" },
+        { name: "Georgia Institute of Technology", location: "Atlanta, GA", known_for: "Engineering, CS, Aerospace, Biomedical, Industrial Engineering — top 10 engineering, affordable public school", avg_tuition: "$33,794/yr (out-of-state)", acceptance: "~17%", nigerian_community: "Large" },
+        { name: "University of Texas at Austin", location: "Austin, TX", known_for: "Petroleum Engineering, CS, Business, Law, Architecture — largest Nigerian student population in the US", avg_tuition: "$38,228/yr (out-of-state)", acceptance: "~31%", nigerian_community: "Very large" },
+        { name: "University of Michigan", location: "Ann Arbor, MI", known_for: "Engineering, Medicine, Law, Business (Ross School) — strong Nigerian alumni network", avg_tuition: "$53,232/yr (out-of-state)", acceptance: "~18%", nigerian_community: "Large" },
+      ],
+      masters: [
+        { name: "Carnegie Mellon University (CMU)", location: "Pittsburgh, PA", known_for: "Computer Science, AI, Robotics, Data Science, Design — world #1 CS, strong TA/RA funding", avg_tuition: "$58,924/yr (funded STEM positions available)", acceptance: "~15%", nigerian_community: "Growing" },
+        { name: "Georgia Tech", location: "Atlanta, GA", known_for: "STEM Master's with TA/RA funding, STEM OPT placement — affordable top engineering school", avg_tuition: "$33,794/yr (out-of-state)", acceptance: "~21%", nigerian_community: "Large" },
+        { name: "Purdue University", location: "West Lafayette, IN", known_for: "Engineering, CS, Pharmacy, Agriculture — excellent RA funding, very affordable cost of living", avg_tuition: "$29,128/yr (out-of-state)", acceptance: "~67%", nigerian_community: "Growing" },
+        { name: "University of Illinois Urbana-Champaign (UIUC)", location: "Champaign, IL", known_for: "CS, Electrical Engineering, Accountancy, MCS programme — top-5 CS, strong industry connections", avg_tuition: "$32,674/yr (out-of-state)", acceptance: "~45%", nigerian_community: "Growing" },
+        { name: "Columbia University", location: "New York City, NY", known_for: "Engineering, Journalism, Law, Business — NYC location means unmatched internship and career access", avg_tuition: "$63,530/yr", acceptance: "~12%", nigerian_community: "Large" },
+        { name: "University of Southern California (USC)", location: "Los Angeles, CA", known_for: "Engineering, CS, Film, Business — large international community, strong industry connections in LA", avg_tuition: "$64,726/yr", acceptance: "~12%", nigerian_community: "Growing" },
+      ],
+      phd: [
+        { name: "MIT", location: "Cambridge, MA", known_for: "STEM PhD fully funded — world-class in every engineering and science discipline", avg_tuition: "Fully funded + $40,000+/yr stipend (varies by dept)", acceptance: "~4%", nigerian_community: "Growing" },
+        { name: "Stanford University", location: "Stanford, CA", known_for: "Fully funded STEM PhD, Silicon Valley access, top-3 CS/EE/ME globally", avg_tuition: "Fully funded + $35,000–45,000/yr stipend", acceptance: "~4%", nigerian_community: "Growing" },
+        { name: "UC Berkeley", location: "Berkeley, CA", known_for: "Engineering, CS, Public Policy, Law, Chemistry — funded PhD, top public research university globally", avg_tuition: "Fully funded + $28,000–38,000/yr stipend", acceptance: "~11%", nigerian_community: "Growing" },
+        { name: "Johns Hopkins University", location: "Baltimore, MD", known_for: "Medicine, Public Health, Biomedical Engineering, International Studies — fully funded PhD in STEM and humanities", avg_tuition: "Fully funded + $28,000–36,000/yr stipend", acceptance: "~8%", nigerian_community: "Growing" },
+        { name: "University of Michigan", location: "Ann Arbor, MI", known_for: "Engineering, Medicine, Public Health — strong Nigerian PhD alumni network, fully funded positions", avg_tuition: "Fully funded + $25,000–35,000/yr stipend", acceptance: "~18%", nigerian_community: "Large" },
+        { name: "Purdue University", location: "West Lafayette, IN", known_for: "Engineering, CS, Agriculture — funded PhD, very low cost of living, stipend goes far", avg_tuition: "Fully funded + $20,000–28,000/yr stipend", acceptance: "~67%", nigerian_community: "Growing" },
+      ],
+    },
 
     scholarships: {
       undergrad: [
-        { name: "Need-Blind Financial Aid (8 universities)", amount: "Harvard: families under $100,000/year pay nothing (tuition + room + board); under $200,000 pay no tuition. MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown: similar full-need coverage — all meet 100% of demonstrated financial need", university: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown — all need-blind for international students", deadline: "CSS Profile due November 15 (Early Decision) / January 1–15 (Regular Decision)", url: "https://college.harvard.edu/financial-aid" },
-        { name: "Mastercard Foundation Scholars Program", amount: "Full scholarship — tuition, room, board, travel, for African students at partner universities including some US schools", university: "Partnership varies — check mastercardfdn.org for current US partner universities", deadline: "Varies by partner university — check mastercardfdn.org annually", url: "https://mastercardfdn.org/all/scholars/" },
+        { name: "Need-Blind Financial Aid — 8 Universities", amount: "Harvard: $0 for families under $100,000/year (tuition + room + board). All 8 universities meet 100% of demonstrated financial need — no loans, no work requirements for the covered amount", university: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown — all need-blind for international students", deadline: "CSS Profile: November 15 (Early Decision) / January 1–15 (Regular Decision) at cssprofile.collegeboard.org", url: "https://college.harvard.edu/financial-aid" },
+        { name: "Mastercard Foundation Scholars Program", amount: "Full scholarship — tuition, room, board, travel, stipend — for African students with financial need and leadership potential", university: "Partner universities vary by year — check mastercardfdn.org for current US partner list", deadline: "Varies by partner university — check mastercardfdn.org each academic year", url: "https://mastercardfdn.org/all/scholars/" },
       ],
       masters: [
-        { name: "Teaching/Research Assistantship (TA/RA)", amount: "Full tuition waiver + $18,000–30,000/year stipend + health insurance — the primary funding mechanism for STEM Master's/PhD in the US", university: "All research universities — Carnegie Mellon, Georgia Tech, Michigan, Purdue, UIUC, UT Austin, Ohio State, etc.", deadline: "Apply with programme application (December–January). Indicate funding interest in statement of purpose.", url: "https://www.cmu.edu/graduate-studies/funding/" },
-        { name: "Fulbright Foreign Student Program", amount: "Full funding — tuition, living, insurance, travel — for Nigerian government-sponsored Fulbright scholars", university: "US universities across all disciplines — US Embassy Lagos manages Nigerian nominations", deadline: "Apply via US Embassy Lagos — typically opens February, closes May/June", url: "https://foreign.fulbrightonline.org/" },
+        { name: "Teaching/Research Assistantship (TA/RA)", amount: "Full tuition waiver + $18,000–30,000/year stipend + health insurance — the primary funding route for STEM Master's in the US", university: "All US research universities with graduate programmes: CMU, Georgia Tech, Michigan, Purdue, UIUC, Ohio State, Texas A&M, UMass Amherst, NC State and more", deadline: "Apply with your programme application (September–January deadlines). State funding interest explicitly in your statement of purpose.", url: "https://www.gradcafe.com/" },
+        { name: "Fulbright Foreign Student Program (Nigeria)", amount: "Full funding — tuition, living allowance, health insurance, travel — competitive, prestigious", university: "US universities across all disciplines — US Embassy Lagos administers Nigerian nominations", deadline: "Apply through US Embassy Lagos — typically opens February, closes May/June each year", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
       ],
       phd: [
-        { name: "University PhD Fellowship / TA-RA (standard funded PhD)", amount: "Full tuition waiver + $18,000–35,000/year stipend + health insurance — standard for STEM PhD in US", university: "All research universities in STEM, social sciences, and many humanities fields", deadline: "Application deadlines: December 1 – January 15 for most programmes", url: "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201" },
-        { name: "NSF Graduate Research Fellowship (GRFP)", amount: "$37,000/year stipend + $16,000 tuition allowance for 3 years — for US citizens and permanent residents only (not F-1 students)", university: "All US universities — but NOTE: only available to US citizens/permanent residents. Mention in application that you intend to pursue permanent residency.", url: "https://www.nsfgrfp.org/" },
-        { name: "Fulbright Foreign Student Program", amount: "Full funding for PhD or research at US universities", university: "Partner US universities — Embassy Lagos manages Nigerian nominations", deadline: "Apply via US Embassy Lagos — typically February–May", url: "https://foreign.fulbrightonline.org/" },
+        { name: "University PhD Fellowship / TA-RA Funding (standard funded PhD)", amount: "Full tuition waiver + $18,000–40,000/year stipend + health insurance — standard offer for admitted STEM PhD students at US research universities", university: "All US research universities in STEM fields — MIT, Stanford, CMU, Michigan, Purdue, Georgia Tech, Cornell, Columbia, Johns Hopkins and all top-50 programmes", deadline: "December 1 – January 15 for most STEM PhD programmes. Apply to 10–15 programmes.", url: "https://www.uscis.gov/" },
+        { name: "Fulbright Foreign Student Program (PhD track)", amount: "Full funding for PhD study or research at US universities — prestigious government scholarship", university: "US universities — Embassy Lagos manages Nigerian nominations and selection", deadline: "Apply via US Embassy Lagos — typically February–May annually", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
       ],
       work: [],
     },
@@ -5916,24 +6004,23 @@ Bring:
     embassy: {
       name: "US Embassy Lagos / US Consulate Abuja",
       address: "Embassy: 2 Walter Carrington Crescent, Victoria Island, Lagos | Consulate: Plot 1075, Diplomatic Drive, Central Business District, Abuja",
-      phone: "Visa enquiries: ustraveldocs.com (online). Emergency: +234 1 460 3400 (Lagos)",
-      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamping) for Nigerian applicants are booked via ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule. Lagos B-1/B-2 wait times in 2025 are 6–13 months — book immediately. F-1 wait times are shorter. F-1 students can be interviewed up to 120 days before their programme start date. SEVIS fee ($350 for F-1) is paid separately at fmjfee.com before your interview. DS-160 form is completed at ceac.state.gov/genniv. Check travel.state.gov for current wait times (updated monthly). USCIS (US Citizenship and Immigration Services) handles H-1B and Green Card petitions — done inside the US by your employer, not at the embassy.",
+      phone: "Visa enquiries: ustraveldocs.com (online only). Emergency line: +234 1 460 3400 (Lagos)",
+      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamp) for Nigerian applicants are booked through ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule your interview. Lagos B-1/B-2 appointment wait times in 2025: 6–13 months — book immediately after deciding to apply. F-1 student visa appointments are typically shorter waits. F-1 students may schedule interviews up to 120 days before their programme start date on the I-20. SEVIS fee ($350) for F-1 is paid separately at fmjfee.com and must be paid before your interview. DS-160 form: ceac.state.gov/genniv. Check travel.state.gov for real-time Lagos appointment wait times (updated monthly). H-1B and Green Card petitions are filed by your employer with USCIS inside the US — not at the embassy.",
       website: "https://ng.usembassy.gov/",
       visa_apply: "https://www.ustraveldocs.com/ng/",
-      vfs: "https://www.ustraveldocs.com/ng/",
       official_immigration: "https://www.uscis.gov/",
       extra_links: [
-        { label: "US Travel Docs Nigeria — visa appointment booking", url: "https://www.ustraveldocs.com/ng/" },
-        { label: "DS-160 Nonimmigrant Visa Application", url: "https://ceac.state.gov/genniv/" },
-        { label: "SEVIS Fee Payment (F-1 students — $350)", url: "https://www.fmjfee.com/" },
-        { label: "Common App — US undergraduate admissions", url: "https://www.commonapp.org/" },
-        { label: "Fulbright Foreign Student Program Nigeria", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
-        { label: "USCIS — US immigration authority (H-1B, Green Card)", url: "https://www.uscis.gov/" },
-        { label: "STEM OPT information — Study in the States", url: "https://studyinthestates.dhs.gov/stem-opt-hub" },
-        { label: "H-1B Sponsor tracker — myvisajobs.com", url: "https://www.myvisajobs.com/" },
-        { label: "NSF Graduate Research Fellowship", url: "https://www.nsfgrfp.org/" },
+        { label: "US TravelDocs Nigeria — visa appointment booking", url: "https://www.ustraveldocs.com/ng/" },
+        { label: "DS-160 Nonimmigrant Visa Application form", url: "https://ceac.state.gov/genniv/" },
+        { label: "SEVIS I-901 Fee payment (F-1 students — $350)", url: "https://www.fmjfee.com/" },
+        { label: "State Dept: current visa wait times by post", url: "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html" },
+        { label: "Common App — US undergraduate admissions portal", url: "https://www.commonapp.org/" },
+        { label: "CSS Profile — need-based financial aid application", url: "https://cssprofile.collegeboard.org/" },
+        { label: "Fulbright Foreign Student Program — Nigeria", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
+        { label: "USCIS — H-1B, Green Card, citizenship", url: "https://www.uscis.gov/" },
+        { label: "STEM OPT Hub — Study in the States (DHS)", url: "https://studyinthestates.dhs.gov/stem-opt-hub" },
+        { label: "H-1B sponsor tracker — myvisajobs.com", url: "https://www.myvisajobs.com/" },
         { label: "Mastercard Foundation Scholars Program", url: "https://mastercardfdn.org/all/scholars/" },
-        { label: "CSS Profile (financial aid application)", url: "https://cssprofile.collegeboard.org/" },
       ],
     },
   },
