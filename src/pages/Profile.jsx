@@ -13,88 +13,173 @@ import { Plus, Trash2, Save, User, Briefcase, GraduationCap, Award, FileText, Lo
 import { toast } from 'sonner';
 
 function parseCVText(text) {
-  const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+  // Normalise: collapse runs of spaces, preserve newlines
+  const normalised = text.replace(/[ \t]{2,}/g, ' ').replace(/\r\n/g, '\n');
+  const lines = normalised.split('\n').map(l => l.trim()).filter(Boolean);
   const result = {};
 
-  // Name: first non-empty line that looks like a name (2+ words, no numbers)
-  const nameLine = lines.find(l => /^[A-Za-z][a-zA-Z\s'-]{3,50}$/.test(l) && l.split(' ').length >= 2);
+  // ── Name ──────────────────────────────────────────────────────────────────
+  // First line that looks like a full name (2+ words, letters/hyphens only, reasonable length)
+  const nameLine = lines.find(l =>
+    /^[A-Za-z][a-zA-Z\s''-]{3,50}$/.test(l) &&
+    l.split(/\s+/).length >= 2 &&
+    l.split(/\s+/).length <= 5 &&
+    !/^(summary|profile|about|objective|experience|education|skills?|contact|work|employment)/i.test(l)
+  );
   if (nameLine) result.full_name = nameLine;
 
-  // Phone
-  const phoneMatch = text.match(/(\+?[\d\s\-().]{10,18})/);
+  // ── Contact ───────────────────────────────────────────────────────────────
+  // Phone: Nigerian (+234 / 080/090/070/081) and international formats
+  const phoneMatch = normalised.match(/(\+?234[\s\-]?\d{3}[\s\-]?\d{3}[\s\-]?\d{4}|(?:\+?[\d\s\-().]{10,18}))/);
   if (phoneMatch) result.phone = phoneMatch[1].trim();
 
-  // City — look for "Lagos" or "Location:" or city-like tokens
-  const cityMatch = text.match(/(?:location|city|address)[:\s]+([^\n,]+)/i) || text.match(/Lagos|Abuja|Port Harcourt|Ibadan|Kano/i);
+  // Email (often already on profile but extract if present)
+  const emailMatch = normalised.match(/[\w.+-]+@[\w-]+\.\w{2,}/);
+  if (emailMatch) result.user_email = emailMatch[0];
+
+  // City
+  const cityMatch = normalised.match(/(?:location|city|address|based in)[:\s]+([^\n,|•]{2,40})/i)
+    || normalised.match(/\b(Lagos|Abuja|Port Harcourt|Ibadan|Kano|Benin City|Enugu|Kaduna|Owerri|Warri)\b/i);
   if (cityMatch) result.city = (cityMatch[1] || cityMatch[0]).trim();
 
   // LinkedIn
-  const linkedinMatch = text.match(/linkedin\.com\/in\/[\w-]+/i);
-  if (linkedinMatch) result.linkedin_url = linkedinMatch[0];
+  const linkedinMatch = normalised.match(/linkedin\.com\/in\/[\w-]+/i);
+  if (linkedinMatch) result.linkedin_url = 'https://' + linkedinMatch[0].replace(/^https?:\/\//i, '');
 
-  // Summary — text after "Summary", "Profile", "About" heading
-  const summaryMatch = text.match(/(?:summary|profile|about|objective)[:\s]*\n+([\s\S]{30,400}?)(?:\n[A-Z]{3,}|\n\n[A-Z]|$)/i);
-  if (summaryMatch) result.professional_summary = summaryMatch[1].replace(/\n+/g, ' ').trim();
+  // ── Section splitter ──────────────────────────────────────────────────────
+  // Identify section boundaries: lines that are all-caps or match known headings
+  const SECTION_RE = /^(?:summary|profile|about|objective|professional summary|experience|work experience|employment|education|academic|skills?|technical skills|certif|languages?|projects?|awards?|achievements?|publications?|references?)[:\s]*$/i;
 
-  // Skills — after "Skills" heading, comma/bullet separated
-  const skillsMatch = text.match(/skills?[:\s]*\n+([\s\S]{10,400}?)(?:\n[A-Z]{4,}|\n\n|$)/i);
-  if (skillsMatch) {
-    const raw = skillsMatch[1];
-    const skills = raw.split(/[,•\n|\/]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 40);
+  function extractSection(sectionNames, stopNames) {
+    const stopRe = new RegExp(`^(?:${stopNames.join('|')})[:\\s]*$`, 'i');
+    let inSection = false;
+    const captured = [];
+    for (const line of lines) {
+      const isHeading = SECTION_RE.test(line) || /^[A-Z\s]{4,30}$/.test(line);
+      if (isHeading && sectionNames.some(n => new RegExp(n, 'i').test(line))) {
+        inSection = true;
+        continue;
+      }
+      if (inSection) {
+        if (isHeading && stopRe.test(line)) break;
+        if (isHeading && stopNames.some(n => new RegExp(n, 'i').test(line))) break;
+        captured.push(line);
+      }
+    }
+    return captured.join('\n');
+  }
+
+  const STOP_ALL = ['summary|profile|about|objective', 'experience|employment|work', 'education|academic', 'skills?|technical', 'certif', 'language', 'project', 'award', 'reference'];
+
+  // ── Summary ───────────────────────────────────────────────────────────────
+  const summaryText = extractSection(['summary', 'profile', 'about', 'objective', 'professional summary'], ['experience', 'employment', 'work', 'education', 'skills', 'certif', 'language', 'project', 'award']);
+  if (summaryText.length > 30) result.professional_summary = summaryText.replace(/\n+/g, ' ').trim();
+
+  // ── Skills ────────────────────────────────────────────────────────────────
+  const skillsText = extractSection(['skills?', 'technical skills', 'core competencies', 'competencies'], ['experience', 'employment', 'work', 'education', 'certif', 'language', 'project', 'summary', 'profile']);
+  if (skillsText) {
+    const skills = skillsText.split(/[,•|\n\/·▪]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 50 && !/^\d+$/.test(s));
     if (skills.length) result.skills = skills;
   }
 
-  // Work experience — look for sections with dates like "2020 - 2023" or "Jan 2020"
-  const workSection = text.match(/(?:experience|employment|work)[:\s]*\n+([\s\S]+?)(?:\n(?:education|skills|certif|language|project)|$)/i);
-  if (workSection) {
-    const expText = workSection[1];
+  // ── Work Experience ───────────────────────────────────────────────────────
+  const workText = extractSection(['experience', 'employment', 'work experience', 'work history', 'professional experience'], ['education', 'academic', 'skills', 'certif', 'language', 'project', 'award', 'reference', 'summary', 'profile']);
+  if (workText) {
     const jobs = [];
-    // Split by date patterns that indicate new job entries
-    const jobBlocks = expText.split(/\n(?=[A-Z][^\n]{5,60}\n)/);
-    jobBlocks.slice(0, 5).forEach(block => {
-      const blines = block.split('\n').map(l => l.trim()).filter(Boolean);
-      if (blines.length < 2) return;
-      const dateMatch = block.match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|january|february)?\s*(\d{4})\s*[-–to]+\s*(?:present|current|(\d{4}))/i);
-      const job = {
-        job_title: blines[0] || '',
-        company: blines[1] || '',
-        location: '',
-        start_date: dateMatch ? dateMatch[1] : '',
-        end_date: dateMatch ? (dateMatch[2] || 'Present') : '',
-        is_current: /present|current/i.test(block),
-        achievements: blines.slice(2).filter(l => l.length > 10 && !l.match(/^\d{4}/)).slice(0, 4),
-      };
-      if (job.job_title) jobs.push(job);
-    });
+    // Split blocks by lines that look like job titles (followed by company or date on next lines)
+    const workLines = workText.split('\n').map(l => l.trim()).filter(Boolean);
+    let i = 0;
+    while (i < workLines.length && jobs.length < 6) {
+      const line = workLines[i];
+      const dateMatch = workText.slice(workText.indexOf(line)).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|\d{4})[a-z]*\.?\s*(\d{4})?\s*[-–to]+\s*(?:present|current|now|(\d{4}))/i);
+      // A job title block starts with a non-bullet, non-date line of reasonable length
+      if (line.length > 3 && line.length < 80 && !/^[•\-–·▪]/.test(line) && !/^\d{4}/.test(line)) {
+        const job = {
+          job_title: line,
+          company: workLines[i + 1] && !/^[•\-–·▪]/.test(workLines[i + 1]) && workLines[i + 1].length < 80 ? workLines[i + 1] : '',
+          location: '',
+          start_date: '',
+          end_date: '',
+          is_current: false,
+          achievements: [],
+        };
+        // Find date in next few lines
+        let j = i + 1;
+        while (j < Math.min(i + 4, workLines.length)) {
+          const dm = workLines[j].match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s*(\d{4})\s*[-–to]+\s*(?:present|current|now|(\d{4}))/i)
+            || workLines[j].match(/(\d{4})\s*[-–to]+\s*(?:present|current|now|(\d{4}))/i);
+          if (dm) {
+            job.start_date = dm[1] || '';
+            job.end_date = dm[2] || 'Present';
+            job.is_current = /present|current|now/i.test(workLines[j]);
+            if (j === i + 1) job.company = workLines[i + 2] && !/^[•\-–·▪]/.test(workLines[i + 2]) ? workLines[i + 2] : job.company;
+            break;
+          }
+          j++;
+        }
+        // Collect bullet-point achievements
+        let k = j + 1;
+        while (k < workLines.length && jobs.length < 5) {
+          const al = workLines[k];
+          if (/^[•\-–·▪]/.test(al) || (al.length > 15 && al.length < 200 && !job.job_title.includes(al))) {
+            const cleaned = al.replace(/^[•\-–·▪\s]+/, '').trim();
+            if (cleaned.length > 10) job.achievements.push(cleaned);
+          } else if (al.length > 3 && al.length < 80 && !/^[•\-–·▪]/.test(al) && k > i + 3) {
+            break; // Looks like next job title
+          }
+          k++;
+          if (job.achievements.length >= 4) break;
+        }
+        if (job.job_title && (job.company || job.achievements.length)) jobs.push(job);
+        i = k;
+      } else {
+        i++;
+      }
+    }
     if (jobs.length) result.work_experience = jobs;
   }
 
-  // Education
-  const eduSection = text.match(/education[:\s]*\n+([\s\S]+?)(?:\n(?:experience|skills|certif|language|work)|$)/i);
-  if (eduSection) {
-    const eduText = eduSection[1];
+  // ── Education ─────────────────────────────────────────────────────────────
+  const eduText = extractSection(['education', 'academic', 'academic background', 'qualifications'], ['experience', 'employment', 'skills', 'certif', 'language', 'project', 'award', 'reference', 'work']);
+  if (eduText) {
     const edus = [];
-    const eduBlocks = eduText.split(/\n(?=[A-Z])/);
-    eduBlocks.slice(0, 4).forEach(block => {
-      const blines = block.split('\n').map(l => l.trim()).filter(Boolean);
-      if (!blines.length) return;
-      const yearMatch = block.match(/(\d{4})/);
-      const degreeMatch = blines[0].match(/(?:bachelor|master|phd|doctorate|diploma|hnd|ond|bsc|msc|ba|ma|b\.eng|mba)/i);
-      edus.push({
-        degree: blines[0] || '',
-        field: degreeMatch ? (blines[1] || '') : '',
-        institution: blines[1] || '',
+    const eduLines = eduText.split('\n').map(l => l.trim()).filter(Boolean);
+    let i = 0;
+    while (i < eduLines.length && edus.length < 4) {
+      const line = eduLines[i];
+      if (line.length < 3) { i++; continue; }
+      const isDegree = /bachelor|master|phd|ph\.d|doctorate|diploma|hnd|ond|bsc|b\.sc|msc|m\.sc|b\.a\b|m\.a\b|b\.eng|mba|llb|llm|pgd/i.test(line);
+      const yearMatch = line.match(/(\d{4})/) || (eduLines[i + 1] || '').match(/(\d{4})/);
+      const edu = {
+        degree: line,
+        field: isDegree && eduLines[i + 1] && !eduLines[i + 1].match(/\d{4}/) ? eduLines[i + 1] : '',
+        institution: '',
         year: yearMatch ? yearMatch[1] : '',
         honors: '',
-      });
-    });
+      };
+      // Next non-year line is likely institution
+      let j = i + 1;
+      while (j < Math.min(i + 4, eduLines.length)) {
+        const nl = eduLines[j];
+        if (!/bachelor|master|phd|diploma|bsc|msc/i.test(nl) && !/^\d{4}/.test(nl) && nl.length > 3) {
+          edu.institution = nl;
+          break;
+        }
+        j++;
+      }
+      // Honors/grade
+      const honorsMatch = eduText.match(/(?:first class|second class|upper|lower|distinction|merit|cgpa|gpa)[^\n]*/i);
+      if (honorsMatch) edu.honors = honorsMatch[0].trim();
+      edus.push(edu);
+      i = j + 1;
+    }
     if (edus.length) result.education = edus;
   }
 
-  // Languages
-  const langSection = text.match(/languages?[:\s]*\n*([\s\S]{5,200}?)(?:\n[A-Z]{4,}|\n\n|$)/i);
-  if (langSection) {
-    const langs = langSection[1].split(/[,•\n|]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 40);
+  // ── Languages ─────────────────────────────────────────────────────────────
+  const langText = extractSection(['languages?', 'language skills'], ['experience', 'employment', 'education', 'skills', 'certif', 'project', 'award', 'reference', 'summary']);
+  if (langText) {
+    const langs = langText.split(/[,•|\n·▪]/).map(s => s.trim()).filter(s => s.length > 1 && s.length < 40 && !/^\d+$/.test(s));
     if (langs.length) result.languages = langs;
   }
 
@@ -207,7 +292,17 @@ export default function Profile() {
         for (let i = 1; i <= pdf.numPages; i++) {
           const page = await pdf.getPage(i);
           const content = await page.getTextContent();
-          pages.push(content.items.map(item => item.str).join(' '));
+          // Reconstruct lines by grouping items with similar Y positions
+          const itemsByY = {};
+          content.items.forEach(item => {
+            if (!item.str.trim()) return;
+            const y = Math.round(item.transform[5]);
+            if (!itemsByY[y]) itemsByY[y] = [];
+            itemsByY[y].push(item.str);
+          });
+          const sortedYs = Object.keys(itemsByY).map(Number).sort((a, b) => b - a);
+          const lines = sortedYs.map(y => itemsByY[y].join(' ').trim()).filter(Boolean);
+          pages.push(lines.join('\n'));
         }
         setCvText(pages.join('\n'));
         toast.success('PDF loaded — click "Fill fields from CV" to import');
