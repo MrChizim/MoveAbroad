@@ -4579,7 +4579,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
 
 Paris, Lyon, Marseille, Toulouse, and Bordeaux host some of Europe's most prestigious institutions: Sorbonne Université, Sciences Po, École Polytechnique, HEC Paris, CentraleSupélec, and Université Paris-Saclay, which ranks in the global top 15 for natural sciences. For Nigerian students, the main challenge is language: most undergraduate programmes are taught in French. But at Master's and PhD level, English-medium programmes are available across all major disciplines.
 
-For workers, France is a Schengen country with a large tech sector (Station F in Paris is the world's largest startup campus), a global luxury and fashion industry, a dominant aerospace and defence sector (Airbus in Toulouse), and world-leading pharmaceutical companies. The French Talent Passport (Passeport Talent) is the primary skilled worker route — it is employer-led, but covers a broad range of profiles including researchers, company founders, artists, and highly skilled professionals earning above a salary threshold.
+For workers, France is a Schengen country with a large tech sector (Station F in Paris is the world's largest startup campus), a global luxury and fashion industry, a dominant aerospace and defence sector (Airbus in Toulouse), and world-leading pharmaceutical companies. The Talent Passport (now officially called Talent – Salarié qualifié after a 2025 reform) is the primary skilled worker route — employer-led, covering employees, researchers, founders, and artists earning above a salary threshold.
 
 The Nigerian community in France is concentrated in Paris (especially the 18th and 19th arrondissements), with smaller communities in Lyon and Bordeaux. Yoruba, Igbo, and Edo communities are present and active. There are Nigerian churches, Afrobeats events, and African food stores in most major French cities.
 
@@ -4595,21 +4595,21 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
       ],
       masters: [
         { label: "Tuition at public universities", value: "~€243/yr" },
-        { label: "Eiffel Scholarship", value: "€1,181/month + flights + insurance — fully funded" },
+        { label: "Eiffel Scholarship", value: "~€1,200/month + flights + insurance — fully funded" },
         { label: "Top institutions", value: "Sorbonne, Sciences Po, Paris-Saclay, CentraleSupélec" },
-        { label: "Post-study permit", value: "APS — 1 year (Master's), 2 years (PhD)" },
+        { label: "Post-study permit", value: "CdS RECE — 12 months (Master's and PhD for Nigerians)" },
         { label: "English programmes", value: "Widely available at Master's level" },
       ],
       phd: [
         { label: "PhD tuition", value: "~€391/yr (public university)" },
         { label: "PhD contract salary", value: "€2,025–2,300/month gross (CIFRE: up to €2,700)" },
         { label: "PhD duration", value: "3 years (funded contract), extendable" },
-        { label: "Post-PhD APS", value: "2-year job-search permit after PhD" },
+        { label: "Post-PhD permit", value: "CdS RECE — 12 months job-search (Nigeria has no bilateral 2-yr extension)" },
         { label: "Scholarship", value: "Eiffel Doctorat, ANRT CIFRE, embassy grants" },
       ],
       work: [
-        { label: "Main permit", value: "Passeport Talent (Talent Passport)" },
-        { label: "Salary threshold", value: "€35,700/yr gross (1.5× SMIC for Talent Passport)" },
+        { label: "Main permit", value: "Talent Passport – Salarié qualifié (reformed Aug 2025)" },
+        { label: "Salary threshold", value: "€39,582/yr gross (updated Aug 2025 — verify at service-public.fr)" },
         { label: "Permit duration", value: "4 years (renewable)" },
         { label: "Income tax rate", value: "0–45% (progressive, with generous family deductions)" },
         { label: "PR eligibility", value: "After 5 years lawful residence" },
@@ -4625,10 +4625,10 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
 
     summary: {
       undergrad: "French public universities charge non-EU students the same near-zero fees as French nationals — around €170/year for a Licence (Bachelor's). Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in cities like Lyon, Bordeaux, Toulouse, or Montpellier. CROUS student housing (€150–400/month) is available through the housing application portal (Parcoursup for Grandes Écoles preparatory classes, Campus France for direct university entry). The VLS-TS student visa is validated on arrival via OFII.",
-      masters: "France's Master's landscape is exceptional — Sorbonne, Sciences Po, HEC Paris, École Polytechnique, and Université Paris-Saclay are world-class institutions with English-medium programmes. Public university Master's fees remain around €243/year. The Eiffel Excellence Scholarship, funded by the French Ministry of Europe and Foreign Affairs, covers €1,181/month living allowance, return flights, and health insurance — one of the most competitive scholarships available to Nigerians. Applications go through Campus France Nigeria first. After your Master's, you receive a 1-year APS (Autorisation Provisoire de Séjour) to job-hunt in France, renewable once.",
-      phd: "PhD students at French public universities pay ~€391/year in fees. Most funded PhD positions come with a full doctoral contract (contrat doctoral) at around €2,025/month gross — this is an employment contract with full social security. The CIFRE scheme (industrial PhD) pays more (up to €2,700/month) and pairs you with a company. The Eiffel Doctorat scholarship is available for high-achieving international PhD candidates in specific disciplines. After completing your PhD, you receive a 2-year APS permit to find work in France — significantly more generous than most EU countries.",
-      work: "The Passeport Talent is France's primary high-skill work permit, valid for 4 years and covering employees earning at least 1.5× the minimum wage (€35,700/year gross in 2024), researchers, company founders, and artists. It is employer-led — your employer files with the Préfecture — but the process is streamlined compared to the old work permit system. France also has a specific ICT (Intra-Company Transfer) permit and a salarié (employee) permit for roles below the Talent Passport threshold. After 5 years of lawful residence, you can apply for a carte de résident (permanent residence). French citizenship is available after 5 years with proof of integration.",
-      visitor: "The French short-stay visa is a Schengen Type C visa allowing up to 90 days across the entire Schengen zone. Nigerian applicants apply via VFS Global (France-Visas is the official portal). You need a valid passport, proof of accommodation, return travel itinerary, travel insurance (€30,000+ coverage), proof of funds (€65/day minimum), and evidence of ties to Nigeria. The French consulate in Abuja and VFS Lagos handle applications. Processing is typically 15 days but can be up to 45 days in peak season.",
+      masters: "France's Master's landscape is exceptional — Sorbonne (English STEM programmes, €3,770–4,770/yr), Sciences Po (€20,640/yr for non-EU), HEC Paris (€57,700 for 2-yr MiM), École Polytechnique, and Université Paris-Saclay are world-class with English-medium programmes. Public university Master's fees remain around €243/year. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance. Campus France Nigeria registration (fee: ₦80,000) is mandatory first. After your Master's, you get 12 months on the CdS RECE (Carte de Séjour – Recherche d'Emploi) permit to job-hunt — not renewable.",
+      phd: "PhD students at French public universities pay ~€391/year in fees. Most funded positions come with a contrat doctoral at ~€2,025/month gross — a real employment contract with full social security. The CIFRE scheme pays up to €2,700/month. After completing your PhD, Nigerian graduates receive 12 months on the CdS RECE job-search permit. Note: the 24-month version applies only to countries with bilateral agreements — Nigeria is not on that list.",
+      work: "The Talent Passport – Salarié qualifié (reformed August 2025) is France's primary high-skill work permit. Salary threshold updated to €39,582/year gross (verify at service-public.fr as this changes). Valid 4 years, employer-led. The EU Blue Card threshold is now €59,373/year gross. After 5 years of lawful residence, apply for a carte de résident. Citizenship at 5 years with B1 French and integration proof.",
+      visitor: "The French short-stay visa is a Schengen Type C visa — 90 days in any 180-day period. Since April 18 2025, France switched from VFS Global to TLScontact for visa submissions in Nigeria. Start your application at france-visas.gouv.fr first, then book a TLScontact appointment. Long-stay visa fee is now €220 (up from €99); short-stay visitor fee remains €80. Processing: 15 days standard, up to 45 days peak season.",
     },
 
     visa: {
@@ -4641,8 +4641,8 @@ Most French undergraduate programmes require B2–C1 French (DELF/DALF or TCF). 
 All Nigerian students applying to French universities must go through Campus France Nigeria first:
 - Register at nigeria.campusfrance.org
 - Complete the online DAP (Dossier APB — preliminary application file)
-- Pay the Campus France fee (around ₦20,000–30,000)
-- Attend a mandatory in-person interview at Campus France office (Lagos or Abuja)
+- Pay the Campus France fee (₦80,000 as of 2025/26 — confirm at nigeria.campusfrance.org)
+- Attend a mandatory in-person interview at Campus France office (Lagos or Abuja) — interview window November–March
 - Campus France validates your profile and issues a Campus France number
 
 **Step 3: Apply to universities**
@@ -4652,7 +4652,7 @@ Use your Campus France number to apply directly to universities via their online
 University issues an attestation d'inscription (enrolment certificate). Some programmes issue a conditional letter requiring proof of French proficiency.
 
 **Step 5: Apply for the VLS-TS Student Visa**
-Go to France-Visas portal (france-visas.gouv.fr) — create an account and complete the online application. Book an appointment at VFS Global (Lagos or Abuja). Documents:
+Go to France-Visas portal (france-visas.gouv.fr) — create an account and complete the online application. Since April 18 2025, France uses TLScontact (not VFS Global) for visa submissions in Nigeria — book your appointment at tlscontact.com. Documents:
 - Valid passport (minimum 1 year validity)
 - Campus France attestation (your DAP number)
 - University enrolment certificate
@@ -4660,10 +4660,10 @@ Go to France-Visas portal (france-visas.gouv.fr) — create an account and compl
 - Proof of accommodation in France (CROUS hall booking, rental contract, or host letter)
 - Passport photos (35x45mm white background)
 - Travel insurance for initial period
-- Visa fee: €99 for long-stay
+- Long-stay visa fee: €220 (updated April 2025). Eiffel/French government scholarship holders are exempt.
 
 **Step 6: OFII validation on arrival**
-The VLS-TS visa acts as a first residence permit for up to 1 year. Within 3 months of arrival, you must validate it online at administration-etrangers-en-france.interieur.gouv.fr and attend an OFII appointment (medical exam, civic information). This is mandatory — failure to validate makes your stay illegal.
+The VLS-TS visa acts as a first residence permit for up to 1 year. Within 3 months of arrival, you must validate it online at administration-etrangers-en-france.interieur.gouv.fr — the process is now fully digital. There is an OFII fee of €75 paid online. This is mandatory — failure to validate makes your stay illegal.
 
 **Step 7: Residence permit renewal**
 After year 1, renew your titre de séjour étudiant at the Préfecture (or online via the ANEF portal — administration-etrangers-en-france.interieur.gouv.fr). Renew annually as long as you are enrolled and making academic progress.
@@ -4677,9 +4677,9 @@ The process mirrors the undergraduate route but with a richer scholarship landsc
 **Eiffel Excellence Scholarship — the most important opportunity:**
 - Funded by the French Ministry of Europe and Foreign Affairs
 - Open to international students for Master's and PhD programmes in France
-- Award: €1,181/month stipend + return flights + health insurance
+- Award: ~€1,200/month stipend + return flights + health insurance (updated 2025/26 cycle)
 - Eligible disciplines: engineering/exact sciences, law/economics/management, humanities/social sciences
-- No age limit, but candidates are typically under 30 (Master's) or 35 (PhD)
+- Age limits: under 30 for Master's, under 35 for PhD at time of application
 - Applications are submitted by French institutions on behalf of students — you apply to the university first, and the university nominates you for Eiffel
 - Timeline: universities accept Eiffel nominations in October–January for the following September intake
 - Programme page: campusfrance.org/en/eiffel-scholarship-program-excellence
@@ -4698,12 +4698,12 @@ The process mirrors the undergraduate route but with a richer scholarship landsc
 1. Register on Campus France Nigeria (nigeria.campusfrance.org), complete your DAP
 2. Apply directly to universities — many have their own portals; Sciences Po uses its own platform
 3. Get acceptance letter
-4. Apply for VLS-TS student visa via france-visas.gouv.fr + VFS Global appointment
-5. Required documents same as undergrad: passport, Campus France attestation, enrolment letter, proof of funds (€615/month), accommodation, photos, insurance
-6. On arrival: validate VLS-TS online (OFII), attend OFII appointment within 3 months
+4. Apply for VLS-TS student visa via france-visas.gouv.fr + TLScontact appointment (TLS replaced VFS for France in Nigeria from April 2025)
+5. Required documents same as undergrad: passport, Campus France attestation, enrolment letter, proof of funds (€615/month), accommodation, photos, insurance. Long-stay visa fee: €220 (scholarship holders exempt).
+6. On arrival: validate VLS-TS online at administration-etrangers-en-france.interieur.gouv.fr within 3 months. Pay €75 OFII fee online. Fully digital — no in-person medical appointment required in most cases.
 
-**Post-study APS (Autorisation Provisoire de Séjour):**
-After completing your Master's, apply for a 1-year APS permit to search for work in France. If you find a qualifying job, transition to Passeport Talent or salarié permit. The APS is applied for at the Préfecture or via ANEF portal before your student permit expires.`,
+**Post-study permit (CdS RECE):**
+After completing your Master's, apply for the Carte de Séjour – Recherche d'Emploi ou Création d'Entreprise (CdS RECE) — 12 months. This replaced the old APS name in 2024. Important: for Nigerian graduates, it is 12 months only — the 24-month version requires a bilateral agreement Nigeria does not have. It is not renewable. Apply at the Préfecture or ANEF portal before your student permit expires.`,
 
       phd: `**PhD in France — Doctoral Contract and Visa Route**
 
@@ -4722,12 +4722,12 @@ If your PhD comes with a scholarship (not a salary), apply for a **VLS-TS studen
 **Steps for Passeport Talent chercheur (employed PhD):**
 1. Sign your doctoral contract with the French university
 2. University issues a hosting agreement (convention d'accueil) — required for the visa
-3. Apply for a Passeport Talent long-stay visa at the French Embassy/VFS:
+3. Apply for a Talent Passport – Chercheur long-stay visa at the French Embassy/TLScontact:
    - Passport
    - Convention d'accueil (hosting agreement) signed by university and prefecture
    - Proof of sufficient resources (salary contract suffices)
    - Accommodation proof
-   - Photos + visa fee (~€99)
+   - Photos + visa fee: €220 long-stay (from April 2025)
 4. On arrival: validate visa online (OFII) within 3 months, attend OFII appointment
 5. Visit the Préfecture within 2 months to receive your Titre de Séjour (residence card)
 
@@ -4737,8 +4737,8 @@ If your PhD comes with a scholarship (not a salary), apply for a **VLS-TS studen
 - Annual thesis committee review (Comité de Suivi Individuel — CSI)
 - Public defence (soutenance) at the end
 
-**Post-PhD APS — 2 years:**
-France gives PhD graduates a generous 2-year APS permit to find work. This is one of the best post-study rights in the EU. Use this time to transition to a Passeport Talent salarié or chercheur.
+**Post-PhD permit — CdS RECE (12 months for Nigerians):**
+After your PhD, apply for the CdS RECE (Carte de Séjour – Recherche d'Emploi) — 12 months job-search permit. The 24-month version only applies to nationalities covered by bilateral agreements; Nigeria is not included. Not renewable — you must secure a qualifying job and switch to a Talent Passport within those 12 months.
 
 **Key institutions for PhD research:**
 - CNRS (Centre National de la Recherche Scientifique) — world's largest public research institution, joint labs with all French universities
@@ -4753,11 +4753,11 @@ The Passeport Talent is France's flagship skilled worker permit. It covers multi
 
 **Main Passeport Talent categories:**
 
-1. **Salarié qualifié (Qualified Employee):** For employees with a job contract paying at least 1.5× SMIC (€35,700/year gross in 2024), holding a Master's degree or equivalent. Most common route for corporate hires.
+1. **Talent – Salarié qualifié (Qualified Employee):** For employees with a job contract paying at least €39,582/year gross (updated August 2025 — verify at service-public.fr), holding a Master's degree or equivalent. Most common route for corporate hires.
 
 2. **Chercheur (Researcher):** For PhD holders or researchers hired by a French research institution or university. Requires a hosting agreement (convention d'accueil) — no salary minimum.
 
-3. **Carte Bleue Européenne (EU Blue Card):** For employees earning at least 1.5× the average French salary (around €53,836/year in 2024, higher threshold than Talent Passport) in a role requiring tertiary education. Gives EU-wide mobility rights after 12 months.
+3. **Carte Bleue Européenne (EU Blue Card):** For employees earning at least €59,373/year gross (updated August 2025) in a role requiring tertiary education. Gives EU-wide mobility rights after 12 months.
 
 4. **Créateur d'entreprise (Company Founder):** For entrepreneurs with a viable business project in France — requires French Business France endorsement.
 
@@ -4765,11 +4765,11 @@ The Passeport Talent is France's flagship skilled worker permit. It covers multi
 
 **Step-by-step for Salarié qualifié (most common):**
 
-Step 1: Find a French employer and negotiate a contract at or above €35,700/year gross.
+Step 1: Find a French employer and negotiate a contract at or above €39,582/year gross (Talent Passport threshold, updated August 2025).
 
 Step 2: Employer files for work authorisation with the DRIEETS (Direction Régionale Interdépartementale de l'Économie, de l'Emploi, du Travail et des Solidarités) — the regional labour authority. Labour market test: employers must check if a qualified EU candidate is available, but for Talent Passport salary levels this is often expedited.
 
-Step 3: Employer receives work authorisation. You then apply for the Passeport Talent long-stay visa at the French Embassy Abuja or VFS Global:
+Step 3: Employer receives work authorisation. You then apply for the Talent Passport long-stay visa at the French Embassy Abuja or TLScontact Nigeria (TLS replaced VFS for France from April 2025):
 - Passport
 - Job contract
 - Work authorisation from DRIEETS
@@ -4777,7 +4777,7 @@ Step 3: Employer receives work authorisation. You then apply for the Passeport T
 - Proof of qualifications (degree certificates)
 - Proof of accommodation
 - Passport photos
-- Visa fee: ~€99
+- Long-stay visa fee: €220 (from April 2025)
 
 Step 4: On arrival in France, validate your VLS-TS visa online (OFII) within 3 months. Attend OFII appointment.
 
@@ -4802,9 +4802,9 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 
 **Where to apply:**
 - france-visas.gouv.fr — mandatory online application portal, create an account first
-- VFS Global Nigeria (Lagos and Abuja) handle French visa submissions
+- TLScontact Nigeria (Lagos and Abuja) handle French visa submissions — France switched from VFS to TLScontact on April 18, 2025
 
-**Start your application at france-visas.gouv.fr — choose your visa category, complete the form online, then book a VFS appointment to submit documents.**
+**Start your application at france-visas.gouv.fr — choose your visa category, complete the form online, then book a TLScontact appointment to submit documents.**
 
 **Documents required:**
 - Valid passport (minimum 3 months validity beyond your intended return date, at least 2 blank pages)
@@ -4817,7 +4817,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 - Proof of ties to Nigeria: employment letter with salary, business registration, property ownership, family situation, return flight — anything proving you will leave France when your visa expires
 - For business visits: invitation letter from the French company on official letterhead
 - Application fee: €80 for adults, €40 for children 6–11, free for under 6
-- VFS service fee: approximately ₦11,000–15,000
+- TLScontact service fee: approximately ₦15,000–20,000 (check tlscontact.com for current Nigeria rate)
 
 **Processing time:** 15 calendar days standard. Up to 45 days for complex cases. Apply at least 3–4 weeks before travel. Do not book non-refundable flights before your visa is granted.
 
@@ -4833,11 +4833,11 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
     timeline: {
       undergrad: [
         { phase: "French language preparation", duration: "6–18 months before application", detail: "Enroll at Alliance Française Lagos, Abuja, or Kano. Aim for DELF B2 minimum, C1 preferred for most Licence programmes. This is the most critical preparation step." },
-        { phase: "Campus France registration", duration: "October–January (for Sept intake)", detail: "Register at nigeria.campusfrance.org, complete your DAP file, pay the Campus France fee (~₦20,000–30,000), and book your mandatory interview in Lagos or Abuja." },
+        { phase: "Campus France registration", duration: "October–December (for Sept intake)", detail: "Register at nigeria.campusfrance.org, complete your DAP file, pay the Campus France fee (₦80,000 in 2025/26), and book your mandatory interview in Lagos or Abuja. Application deadline is December 1; interviews run November–March." },
         { phase: "University applications via Parcoursup", duration: "January–mid March", detail: "Apply to Licence programmes through parcoursup.fr. Submit your Campus France number, transcripts, and motivation letter. Most public universities are free to apply." },
         { phase: "Admission decisions", duration: "May–June", detail: "Parcoursup releases decisions in late May. You rank and confirm your choice. Some universities make rolling offers — accept promptly." },
-        { phase: "VLS-TS student visa application", duration: "June–July", detail: "Apply at france-visas.gouv.fr, book VFS appointment. Documents: passport, Campus France attestation, enrolment letter, proof of €615/month, accommodation proof, photos, insurance. Fee: €99." },
-        { phase: "Arrive France and validate OFII", duration: "August–September", detail: "Arrive before term starts. Within 3 months, validate your VLS-TS online (OFII portal) and attend OFII appointment (medical check, civic info). CRITICAL — not optional." },
+        { phase: "VLS-TS student visa application", duration: "June–July", detail: "Apply at france-visas.gouv.fr, book TLScontact appointment (TLS replaced VFS for France in Nigeria from April 2025). Documents: passport, Campus France attestation, enrolment letter, proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220." },
+        { phase: "Arrive France and validate OFII", duration: "August–September", detail: "Within 3 months of arrival, validate your VLS-TS online at administration-etrangers-en-france.interieur.gouv.fr. Pay €75 OFII fee online. Fully digital — CRITICAL, not optional." },
         { phase: "CROUS housing and setup", duration: "On arrival", detail: "If you booked CROUS student housing (résidence universitaire), move in and set up. Open a French bank account (Boursorama, Société Générale, or BNP offer student accounts for internationals with a student visa)." },
         { phase: "Year 1 and beyond", duration: "Ongoing", detail: "Renew titre de séjour annually via ANEF portal before expiry. Attend OFII civic integration sessions. Build French language skills — you'll need B1 minimum for citizenship eventually." },
       ],
@@ -4847,25 +4847,25 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { phase: "University applications", duration: "October–February", detail: "Apply directly to universities. Sciences Po, HEC, Sorbonne, and Paris-Saclay all have their own portals. Most Master's application deadlines fall between December and March. Submit CV, transcripts, motivation letter, English/French proficiency test, references." },
         { phase: "Eiffel nomination (by host institution)", duration: "October–January", detail: "You cannot apply directly for Eiffel — the university nominates you. Secure admission first, then ask admissions about Eiffel nomination. Results announced April–May." },
         { phase: "Receive offer and confirm", duration: "February–May", detail: "Once you have your acceptance letter, confirm your place and secure accommodation (CROUS application opens from January)." },
-        { phase: "VLS-TS student visa application", duration: "May–July", detail: "Apply via france-visas.gouv.fr + VFS. Proof of funds: scholarship letter (if Eiffel) or €615/month in bank. Processing: 15–45 days." },
+        { phase: "VLS-TS student visa application", duration: "May–July", detail: "Apply via france-visas.gouv.fr + TLScontact Nigeria. Proof of funds: scholarship letter (if Eiffel) or €615/month in bank. Long-stay fee: €220 (Eiffel holders exempt). Processing: 15–45 days." },
         { phase: "Arrive and OFII validation", duration: "August–September", detail: "Validate VLS-TS online within 3 months of arrival. Attend OFII appointment. Set up bank account, get Navigo transit card (Paris), register with your university health service." },
-        { phase: "Post-Master's APS application", duration: "Before student permit expires", detail: "Apply for 1-year APS (Autorisation Provisoire de Séjour) permit at the Préfecture or ANEF portal. This gives you 12 months to find qualifying employment in France." },
+        { phase: "Post-Master's CdS RECE application", duration: "Before student permit expires", detail: "Apply for the CdS RECE (Carte de Séjour – Recherche d'Emploi) at the ANEF portal. Gives you 12 months to find qualifying employment. Not renewable — transition to Talent Passport within this period." },
       ],
       phd: [
         { phase: "Find funded PhD position", duration: "6–12 months before intended start", detail: "Search ADUM (adum.fr), ABG (abg.asso.fr), CNRS job portal, and individual university PhD listings. Email potential supervisors directly with your research proposal and CV — cold contact is normal in French academia." },
         { phase: "Doctoral contract / convention d'accueil", duration: "1–3 months after offer", detail: "University HR prepares your contrat doctoral (employment contract) or convention d'accueil (hosting agreement for scholarship-funded PhDs). You need one of these documents before applying for the visa." },
-        { phase: "Passeport Talent chercheur visa (employed) OR VLS-TS student (scholarship)", duration: "4–8 weeks", detail: "Apply at the French Embassy Abuja or VFS Global. For Passeport Talent: bring convention d'accueil + contract + accommodation proof. For VLS-TS student: Campus France process first. Fee: €99." },
+        { phase: "Talent Passport chercheur visa (employed) OR VLS-TS student (scholarship)", duration: "4–8 weeks", detail: "Apply at the French Embassy Abuja or TLScontact Nigeria. For Talent Passport: bring convention d'accueil + contract + accommodation proof. For VLS-TS student: Campus France process first. Long-stay fee: €220." },
         { phase: "Arrive and OFII validation", duration: "Within 3 months of arrival", detail: "Validate visa online, attend OFII appointment. Register at the Préfecture (or ANEF) to receive your Titre de Séjour (residence card)." },
         { phase: "Enroll at doctoral school", duration: "September–October", detail: "All French PhDs enroll at an école doctorale. Complete mandatory training hours. Annual thesis committee (CSI) review required — keep records." },
         { phase: "Research years", duration: "3 years (extendable)", detail: "Annual contract renewals for doctoral contract. Renew residence card annually via ANEF portal. Budget for Paris or city costs on your doctoral salary (~€2,025/month gross)." },
-        { phase: "Post-PhD 2-year APS", duration: "After thesis defence", detail: "Apply for the 2-year APS post-doctoral permit before your residence card expires. This is one of Europe's most generous post-study rights — use it to transition to Passeport Talent salarié or a researcher position." },
+        { phase: "Post-PhD CdS RECE (12 months)", duration: "After thesis defence", detail: "Apply for the CdS RECE before your residence card expires. Nigerian graduates receive 12 months — not 2 years (the 24-month version requires bilateral agreements Nigeria does not have). Not renewable. Secure a job and switch to Talent Passport within those 12 months." },
       ],
       work: [
         { phase: "Job search targeting French market", duration: "3–6 months", detail: "LinkedIn, Welcome to the Jungle (wttj.co), Indeed.fr, Cadremploi.fr, APEC (apec.fr for cadres/executives). French CV format: no photo mandatory, 1–2 pages, professional summary at top. Cover letters (lettres de motivation) are standard in France." },
-        { phase: "Secure job offer above €35,700/year", duration: "Concurrent", detail: "Negotiate your package above the Talent Passport threshold. For EU Blue Card (stronger EU mobility), target above €53,836/year. Confirm employer is willing to sponsor the permit." },
+        { phase: "Secure job offer above €39,582/year", duration: "Concurrent", detail: "Negotiate your package above the Talent Passport threshold (€39,582/yr, updated August 2025). For EU Blue Card (stronger EU mobility), target above €59,373/year. Confirm employer is willing to sponsor the permit." },
         { phase: "Employer files work authorisation", duration: "4–8 weeks", detail: "Employer files with DRIEETS (regional labour authority) for work permit authorisation. Labour market test may apply for some roles — Talent Passport roles are expedited. Employer tracks the application." },
         { phase: "Receive work authorisation", duration: "After DRIEETS approval", detail: "Employer receives authorisation. French consulate is notified. You can now apply for your long-stay visa." },
-        { phase: "Passeport Talent long-stay visa at French Embassy Abuja", duration: "3–6 weeks", detail: "Apply at the French Embassy or VFS. Documents: passport, job contract, work authorisation, degree certificates, accommodation proof, photos. Fee: €99." },
+        { phase: "Talent Passport long-stay visa at French Embassy Abuja", duration: "3–6 weeks", detail: "Apply at the French Embassy or TLScontact Nigeria. Documents: passport, job contract, work authorisation, degree certificates, accommodation proof, photos. Long-stay fee: €220 (from April 2025)." },
         { phase: "Arrive France and OFII validation", duration: "Within 3 months of arrival", detail: "Validate VLS-TS online within 3 months. Attend OFII appointment (medical, civic info, integration contract — CIR). Sign the Republican Integration Contract (CIR) — mandatory for all new immigrants." },
         { phase: "Préfecture / ANEF residence card", duration: "Within 2 months of arrival", detail: "Apply for your Passeport Talent Titre de Séjour residence card at the local Préfecture or via the ANEF online portal (administration-etrangers-en-france.interieur.gouv.fr). Card is valid up to 4 years." },
         { phase: "Integration milestones", duration: "Years 1–5", detail: "Complete French language classes (if required by OFII). Learn French — B1 is required for citizenship. After 5 years, apply for carte de résident (permanent residence). Citizenship available at 5 years with strong integration record." },
@@ -4873,9 +4873,9 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       visitor: [
         { phase: "Start application on france-visas.gouv.fr", duration: "4–6 weeks before travel", detail: "Create an account, choose your visa type (short-stay tourism/business), complete the form, generate and print the application confirmation with barcode." },
         { phase: "Gather documents", duration: "2–3 weeks before appointment", detail: "Passport, photos, travel insurance (€30,000+ for full Schengen), accommodation proof, return flight itinerary, bank statements (3–6 months), proof of employment/ties to Nigeria." },
-        { phase: "Book and attend VFS appointment", duration: "On appointment day (Lagos or Abuja VFS)", detail: "Bring originals AND photocopies of every document. Biometrics collected. Pay €80 visa fee + VFS service fee. Keep your receipt." },
-        { phase: "Wait for decision", duration: "15–45 calendar days", detail: "Track status via VFS portal. French visas are typically decided in 15 days. Peak season (June–September) can be longer — apply earlier." },
-        { phase: "Receive passport and travel", duration: "Before travel date", detail: "Collect passport from VFS. Check visa validity dates carefully — ensure they cover your travel period. Remember: 90 days max in any 180-day Schengen period." },
+        { phase: "Book and attend TLScontact appointment", duration: "On appointment day (Lagos or Abuja)", detail: "Bring originals AND photocopies of every document. Biometrics collected. Pay €80 visa fee + TLScontact service fee. Keep your receipt. Book at tlscontact.com." },
+        { phase: "Wait for decision", duration: "15–45 calendar days", detail: "Track status via TLScontact portal. French visas are typically decided in 15 days. Peak season (June–September) can be longer — apply earlier." },
+        { phase: "Receive passport and travel", duration: "Before travel date", detail: "Collect passport from TLScontact. Check visa validity dates carefully — ensure they cover your travel period. Remember: 90 days max in any 180-day Schengen period." },
       ],
     },
 
@@ -4890,10 +4890,10 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         "APB/CROUS meal tickets (tickets restaurant universitaire) give subsidised meals at campus restaurants for €3.30 per meal — register as soon as you arrive. One of the best student benefits in France.",
       ],
       masters: [
-        "The Eiffel Excellence Scholarship is one of the best-funded scholarships in the world for international Master's students — €1,181/month is enough to live comfortably anywhere in France except central Paris. Applications are submitted by the institution, not you directly — build a relationship with admissions offices early.",
+        "The Eiffel Excellence Scholarship is one of the best-funded scholarships in the world for international Master's students — ~€1,200/month (2025/26 cycle) is enough to live comfortably anywhere in France except central Paris. Applications are submitted by the institution, not you directly — build a relationship with admissions offices early.",
         "Sciences Po Paris is one of the world's top institutions for international affairs, political science, economics, and law. It is fully English-medium and internationally recognised — worth the competitive application process.",
         "French Master's (2 years = 120 ECTS) often lead directly to French CDI (permanent contract) employment. French employers strongly prefer French degrees — a French Master's opens doors that an overseas qualification may not.",
-        "After your Master's, the 1-year APS job-search permit is applied for at the Préfecture before your student visa expires. Do not miss this window — once your student permit expires, your legal basis for staying vanishes.",
+        "After your Master's, apply for the CdS RECE (12-month job-search permit) at the ANEF portal before your student permit expires. It is not renewable — you must find a qualifying job and switch to a Talent Passport within 12 months or leave.",
         "Paris is expensive — budget €1,300–1,800/month minimum. Lyon, Toulouse, Bordeaux, and Montpellier offer the same quality of education for €800–1,100/month. Consider these cities seriously.",
         "Networking in France works through grandes écoles alumni networks. If you attend Sciences Po, HEC, or Polytechnique, join the alumni association — it is one of the most powerful career tools available.",
         "French healthcare is excellent and partially free for residents. Register with the sécurité sociale (social security) as soon as you arrive. Top up with a mutuelle (supplementary health insurance) — student mutuelles like LMDE or HEYME cost around €25–50/month.",
@@ -4901,7 +4901,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       phd: [
         "The French contrat doctoral is a real employment contract — you have rights as a worker, including 25 days annual leave, social security, and unemployment insurance eligibility after the PhD. Know your rights.",
         "CIFRE industrial PhDs (with a company partner) pay more (~€2,700/month gross) and give industry experience alongside research. If your field overlaps with industry needs, this is worth pursuing — search on anrt.asso.fr.",
-        "The 2-year post-PhD APS is genuinely one of Europe's best post-study rights. Fewer than 5 EU countries offer 2 years — most give 12–18 months. Use this time actively: network, apply for postdocs and industry roles simultaneously.",
+        "Nigerian PhD graduates get 12 months on the CdS RECE job-search permit — not 2 years. The 24-month version only applies to nationalities covered by bilateral agreements with France. Use those 12 months actively: network, apply for postdocs and industry roles, and secure your Talent Passport before the clock runs out.",
         "CNRS joint labs (Unités Mixtes de Recherche) exist in almost every French university — collaborating with CNRS researchers during your PhD expands your network significantly and can lead to postdoc positions.",
         "Annual thesis committee (CSI) reviews are mandatory and documented. Keep copies of all your progress reports. If your supervisor relationship becomes problematic, your doctoral school's mediator (référent déontologie) can help.",
         "Paris is the hub for French startups and international companies — if you want to transition from academia to industry, Paris gives the most options. Lyon and Toulouse are strong for engineering and aerospace.",
@@ -4917,7 +4917,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         "French bureaucracy (administration française) moves slowly. Apply for any government-related document (residence card, tax number, social security) immediately on arrival — don't wait until you need it urgently. The ANEF portal (administration-etrangers-en-france.interieur.gouv.fr) handles most immigration processes online now.",
       ],
       visitor: [
-        "Start your application online at france-visas.gouv.fr before booking any VFS appointment — the online form generates a barcode application that you bring to VFS. Skipping this step will mean being turned away.",
+        "Start your application online at france-visas.gouv.fr before booking any appointment — the online form generates a barcode application that you bring to TLScontact (which replaced VFS for France in Nigeria from April 2025). Skipping this step will mean being turned away.",
         "Travel insurance is strictly checked — it must cover the full Schengen area (not just France), the full duration of your stay, and have minimum €30,000 medical coverage. Buy from a well-known insurer. Cheap insurances with exclusions get rejected.",
         "Paris in July–August is peak season — both for tourism and visa backlogs. If visiting in summer, apply at least 5–6 weeks in advance. September–May is easier for appointments and processing.",
         "Showing you have previously traveled internationally (UK, US, Canada, Schengen) and returned without overstaying is one of the strongest signals in a French visa application. Attach copies of past stamps.",
@@ -4929,10 +4929,10 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 
     universities: [
       { name: "Sorbonne Université", location: "Paris", intl_fee: "~€243/yr (public)", notes: "One of Europe's oldest and most prestigious universities. Strong in humanities, sciences, medicine, and law. Many English-medium Master's programmes. sorbonne-universite.fr" },
-      { name: "Sciences Po Paris", location: "Paris (+ regional campuses)", intl_fee: "€13,000–14,000/yr (income-based reduction available)", notes: "World top 5 for political science, international affairs, and public policy. Fully English-medium. Highly international student body. sciencespo.fr" },
+      { name: "Sciences Po Paris", location: "Paris (+ regional campuses)", intl_fee: "€20,640/yr flat rate for non-EEA students (2026-27)", notes: "World top 5 for political science, international affairs, and public policy. Fully English-medium. Highly international student body. Emile Boutmy Scholarship available (income-based reduction). sciencespo.fr" },
       { name: "Université Paris-Saclay", location: "Saclay (near Paris)", intl_fee: "~€243/yr (public)", notes: "Top 15 globally for natural sciences and mathematics (Shanghai Ranking). Home to CentraleSupélec, AgroParisTech, and major CNRS labs. universite-paris-saclay.fr" },
       { name: "École Polytechnique (l'X)", location: "Palaiseau (near Paris)", intl_fee: "€12,500/yr (Master's)", notes: "France's most elite engineering school. Graduate programmes (Master's, PhD) open to international applicants. Industry connections are world-class. polytechnique.edu" },
-      { name: "HEC Paris", location: "Jouy-en-Josas (near Paris)", intl_fee: "€42,000 (MBA), €19,600 (Master's in Management)", notes: "Top 3 business school in Europe. MBA and Grande École programmes. Powerful alumni network across European finance and consulting. hec.edu" },
+      { name: "HEC Paris", location: "Jouy-en-Josas (near Paris)", intl_fee: "~€59,700 for 2-yr MiM (non-EU); ~€49,500 for MiF", notes: "Top 3 business school in Europe. Master in Management (Grande École), MBA, Master in Finance. Powerful alumni network across European finance and consulting. hec.edu" },
       { name: "Université de Lyon (UCBL)", location: "Lyon", intl_fee: "~€170–243/yr (public)", notes: "Lyon is France's second city — lower cost than Paris, excellent quality of life. Strong in life sciences, engineering, and humanities. univ-lyon1.fr" },
       { name: "Université de Bordeaux", location: "Bordeaux", intl_fee: "~€170–243/yr (public)", notes: "Beautiful city in southwest France. Strong wine economy (for agri-business students), plus good engineering and biomedical programmes. u-bordeaux.fr" },
       { name: "Université Paul Sabatier (Toulouse III)", location: "Toulouse", intl_fee: "~€170–243/yr (public)", notes: "Aerospace capital of France — Airbus HQ is here. Strong in aerospace engineering, aeronautics, and applied mathematics. Toulouse is an excellent city for engineering careers. univ-tlse3.fr" },
@@ -4944,7 +4944,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { name: "French Embassy Bursaries (Bourses du gouvernement français)", amount: "Varies — partial to full funding. Small number of awards for Nigerian students each year", university: "Awarded by the French Embassy Abuja to outstanding students — specific to French-medium programmes", deadline: "Contact French Embassy Abuja (Institut Français Nigeria) — typically closes December/January", url: "https://www.nigeria.campusfrance.org/bourses" },
       ],
       masters: [
-        { name: "Eiffel Excellence Scholarship", amount: "€1,181/month stipend + return flights from Nigeria + health insurance — fully funded", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Institutions submit nominations to Campus France between October and mid-January. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/eiffel-scholarship-program-excellence" },
+        { name: "Eiffel Excellence Scholarship", amount: "~€1,200/month stipend (2025/26 cycle) + return flights from Nigeria + health insurance — fully funded. Students holding French government scholarships are also exempt from the long-stay visa fee (€220).", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Applications open October 1; institutions submit nominations by January 8. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
         { name: "Sciences Po Emile Boutmy Scholarship", amount: "€6,000–19,000 tuition reduction (income-based)", university: "Sciences Po Paris — for non-EU international students in the undergraduate college and Master's programmes", deadline: "Check sciencespo.fr — typically closes February for September intake", url: "https://www.sciencespo.fr/admissions/en/content/scholarships-and-financial-aid.html" },
         { name: "HEC Paris Scholarship", amount: "Up to €24,000 tuition reduction (MBA), merit and need-based", university: "HEC Paris — for Master's in Management and MBA programmes", deadline: "Rolling — check hec.edu/en/mba-programs/financial-aid", url: "https://www.hec.edu/en/mba-programs/financial-aid" },
       ],
@@ -4960,17 +4960,17 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
     embassy: {
       name: "French Embassy Abuja / French Consulate Lagos",
       address: "Embassy: 1 Oyinkan Abayomi Drive, Ikoyi, Lagos (Consulate) | 1 Udi Hills Street, Off Mambilla Street, Maitama, Abuja (Embassy)",
-      phone: "Visa enquiries handled via VFS Global. Embassy general enquiries: +234 1 448 5000 (Lagos Consulate)",
-      note: "French visa applications for Nigerian applicants are processed through VFS Global (Lagos and Abuja locations). The mandatory first step for student visas is Campus France Nigeria registration and interview — do this before any visa application. Start your visa application at france-visas.gouv.fr to generate your application form and barcode. Long-stay visa fee: €99. Short-stay visitor visa fee: €80. All OFII post-arrival validation is done online at administration-etrangers-en-france.interieur.gouv.fr — within 3 months of arrival.",
+      phone: "Visa enquiries handled via TLScontact Nigeria (from April 2025). Embassy general enquiries: +234 1 448 5000 (Lagos Consulate)",
+      note: "IMPORTANT UPDATE (April 2025): France switched from VFS Global to TLScontact for visa submissions in Nigeria. Book appointments at tlscontact.com, not VFS. Long-stay visa fee (student/work): €220 (increased April 2025). Short-stay Schengen visitor visa fee: €80. The mandatory first step for student visas is Campus France Nigeria registration and interview (fee: ₦80,000 in 2025/26) — do this before any visa application. Start your visa application at france-visas.gouv.fr. All OFII post-arrival validation is now fully digital at administration-etrangers-en-france.interieur.gouv.fr within 3 months of arrival — €75 fee paid online.",
       website: "https://ng.ambafrance.org/",
       visa_apply: "https://france-visas.gouv.fr/",
-      vfs: "https://www.vfsglobal.com/France/Nigeria/",
+      vfs: "https://fr.tlscontact.com/visa/NG/",
       official_immigration: "https://www.service-public.fr/particuliers/vosdroits/N19806",
       extra_links: [
         { label: "France-Visas — official French visa application portal", url: "https://france-visas.gouv.fr/" },
         { label: "Campus France Nigeria — mandatory for student applicants", url: "https://www.nigeria.campusfrance.org/" },
-        { label: "Eiffel Excellence Scholarship — Campus France", url: "https://www.campusfrance.org/en/eiffel-scholarship-program-excellence" },
-        { label: "VFS Global France Nigeria — visa appointment booking", url: "https://www.vfsglobal.com/France/Nigeria/" },
+        { label: "Eiffel Excellence Scholarship — Campus France", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
+        { label: "TLScontact France Nigeria — visa appointment booking (replaced VFS April 2025)", url: "https://fr.tlscontact.com/visa/NG/" },
         { label: "OFII — post-arrival visa validation (mandatory)", url: "https://administration-etrangers-en-france.interieur.gouv.fr/" },
         { label: "ANEF portal — residence permit applications in France", url: "https://administration-etrangers-en-france.interieur.gouv.fr/" },
         { label: "ADUM — French PhD position listings", url: "https://www.adum.fr/" },
