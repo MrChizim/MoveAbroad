@@ -4999,13 +4999,13 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       masters: [
         { label: "Tuition (non-EU)", value: "€2,000–5,000/yr" },
         { label: "Top universities", value: "University of Warsaw, Jagiellonian, Warsaw University of Technology" },
-        { label: "Scholarship", value: "Polish Government Scholarship (NAWA)" },
+        { label: "Scholarship", value: "NAWA Stefan Banach (PLN 2,500/mo — Nigeria-eligible)" },
         { label: "Post-study permit", value: "1 year after graduation" },
         { label: "English programmes", value: "Widely available" },
       ],
       phd: [
         { label: "PhD fees", value: "Often free with stipend" },
-        { label: "Stipend", value: "~PLN 2,370–4,653/mo (€550–1,100)" },
+        { label: "Stipend", value: "PLN 4,242/mo before midterm, PLN 5,340/mo after (gross)" },
         { label: "Duration", value: "4 years" },
         { label: "Scholarship", value: "NAWA Bekker, NCN grants" },
         { label: "Post-PhD", value: "1-year job search permit" },
@@ -5022,16 +5022,16 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { label: "Max stay", value: "90 days / 180-day period" },
         { label: "Fee", value: "€80" },
         { label: "Processing", value: "15 calendar days" },
-        { label: "Apply via", value: "Polish Embassy Abuja or VFS" },
+        { label: "Apply via", value: "Polish Embassy Abuja / Consulate Lagos (e-Konsulat — no VFS)" },
       ],
     },
 
     summary: {
       undergrad: "Polish public universities charge €1,500–4,000/year. Most undergrad is in Polish — language preparation is needed. English-medium undergrad exists at Medical University of Warsaw, University of Warsaw (selected programmes), and SGH Warsaw School of Economics. Apply directly to universities. Student visa is a Polish national visa (Type D), applied for at the Polish Embassy in Abuja. Living costs are among the lowest in the EU.",
-      masters: "English-medium Master's programmes are widely available. University of Warsaw, Jagiellonian University (Krakow), Warsaw University of Technology, and AGH University cover STEM, humanities, business, and law. The NAWA Polish Government Scholarship covers tuition and a monthly stipend for international students. After graduation, you can apply for a 1-year stay permit to job hunt.",
-      phd: "PhD programmes in Poland are run through doctoral schools (szkoły doktorskie) — 4 years, often fully funded with a monthly stipend (PLN 2,370 before, PLN 4,653 after midterm assessment). No tuition fees for funded positions. The NAWA Bekker Programme and NCN (National Science Centre) grants fund international researchers. Apply directly to universities or through NAWA.",
+      masters: "English-medium Master's programmes are widely available. University of Warsaw, Jagiellonian University (Krakow), Warsaw University of Technology, and AGH University cover STEM, humanities, business, and law. The NAWA Stefan Banach Scholarship (Nigeria-eligible) covers tuition and PLN 2,500/month stipend for Master's students from developing countries. After graduation, apply for a 1-year Temporary Residence permit for job hunting.",
+      phd: "PhD programmes in Poland are run through doctoral schools (szkoły doktorskie) — 4 years, fully funded with a mandatory stipend (minimum PLN 4,242/month gross before midterm, PLN 5,340/month gross after midterm assessment). No tuition fees. The NCN (National Science Centre) Preludium grant funds pre-doctoral research projects. Apply directly to university doctoral schools — positions listed on euraxess.pl.",
       work: "The main route is the Temporary Residence and Work Permit — employer-led, submitted at the Voivode (regional authority) office. Processing: 1–3 months. The EU Blue Card is available for salaries above 150% of the average Polish salary (~PLN 10,000+/month). Poland's low taxes (12% up to PLN 120,000/year) make net salaries attractive especially in tech. Warsaw's tech scene includes companies like Allegro, CD Projekt, Booksy, and offices of Google, Samsung, and Amazon.",
-      visitor: "Poland is in the Schengen Area — a Polish short-stay visa covers all 26 Schengen countries for 90 days. Apply at the Polish Embassy Abuja or via VFS. Standard documents: passport, insurance (€30,000+), accommodation proof, funds (€50/day minimum), return travel, ties to Nigeria.",
+      visitor: "Poland is in the Schengen Area — a Polish short-stay visa covers all 26 Schengen countries for 90 days. Apply directly at the Polish Consulate-General Lagos or Embassy Abuja — Poland does not use VFS in Nigeria. Book via e-Konsulat (secure2.e-konsulat.gov.pl). Standard documents: passport, insurance (€30,000+), accommodation proof, funds (€50/day minimum), return travel, ties to Nigeria.",
     },
 
     visa: {
@@ -5049,7 +5049,7 @@ Same process as undergrad. For NAWA scholarship holders, the scholarship letter 
 
       phd: `**PhD — Doctoral School Route**
 
-If funded (doctoral contract): apply for a Type D student visa using your doctoral school enrolment letter and stipend contract. Register at the Voivode on arrival, get your Karta Pobytu. No tuition fees for funded doctoral school positions. Annual stipend reviews can increase your stipend after midterm assessment (PLN 4,653/month = ~€1,080). After completion, apply for 1-year job-search permit.`,
+If funded (doctoral school enrolment): apply for a Type D student visa using your doctoral school enrolment letter and stipend contract. Register your address (meldunek) at your local Commune within 4 days of arrival — then apply for your Karta Pobytu. No tuition fees for doctoral school positions. Minimum stipend: PLN 4,242/month gross before midterm (~PLN 3,764 net), rising to PLN 5,340/month gross after midterm (~PLN 4,739 net). After completion, apply for a 1-year job-search Temporary Residence permit.`,
 
       work: `**Temporary Residence and Work Permit**
 
@@ -5072,7 +5072,7 @@ Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos 
         { phase: "Arrive & register", duration: "August", detail: "Register address at local Voivode within 4 days. Apply for Karta Pobytu (residence card) for multi-year stay." },
       ],
       masters: [
-        { phase: "NAWA scholarship + university applications", duration: "Oct–March", detail: "NAWA Polish Government Scholarship: apply via nawa.gov.pl, typically closes in April for September intake. Simultaneously apply directly to universities." },
+        { phase: "NAWA Stefan Banach Scholarship + university applications", duration: "Oct–June", detail: "NAWA Stefan Banach Scholarship (Nigeria-eligible developing countries programme): apply via nawa.gov.pl/en/students/coming-to-poland/banach-programme — typically closes June for September intake. Simultaneously apply directly to universities." },
         { phase: "Visa and arrival", duration: "June–August", detail: "Same Type D visa process. NAWA scholarship letter replaces bank statement proof. Register at Voivode on arrival." },
         { phase: "Post-graduation job search", duration: "After graduation", detail: "Apply for 1-year Temporary Residence permit at Voivode. Use pracuj.pl, LinkedIn, and company career pages (Google, Amazon, Allegro all hire internationally in Warsaw)." },
       ],
@@ -5088,26 +5088,26 @@ Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos 
         { phase: "PR at 5 years", duration: "After 5 years", detail: "Apply for permanent residence (stały pobyt) at the Voivode. Citizenship available after 3 more years." },
       ],
       visitor: [
-        { phase: "Apply", duration: "3–4 weeks before travel", detail: "Polish Embassy Abuja or VFS. Standard Schengen documents. €80 fee." },
-        { phase: "Decision", duration: "15 days", detail: "Track via VFS portal. Do not book non-refundable travel before visa confirmed." },
+        { phase: "Apply", duration: "3–4 weeks before travel", detail: "Apply directly at Polish Consulate-General Lagos or Embassy Abuja via e-Konsulat (secure2.e-konsulat.gov.pl) — no VFS in Nigeria. Standard Schengen documents. €80 fee." },
+        { phase: "Decision", duration: "15 days", detail: "Poland processes Schengen applications in-house — no VFS tracking. Follow up with the consulate directly if delayed." },
       ],
     },
 
     tips: {
       undergrad: [
         "Polish is required for most undergraduate programmes — consider 6–12 months at a Polish language school first. Many universities offer a 1-year preparatory Polish language course for international students.",
-        "Medical programmes in English at Medical University of Warsaw, Jagiellonian Medical College, and Poznan University of Medical Sciences are popular with Nigerians — fees are €10,000–14,000/year but internationally recognized.",
+        "Medical programmes in English at Medical University of Warsaw (€17,100/yr), Jagiellonian Medical College, and Poznan University of Medical Sciences are popular with Nigerians — fees are significant but degrees are WHO-recognized and valid across the EU and Commonwealth.",
         "Cost of living in Krakow and Lodz is lower than Warsaw — €450–600/month including rent. Great quality of life for students.",
         "Polish universities use ECTS — compatible with all EU systems. A Polish degree is recognized across the EU.",
       ],
       masters: [
         "Warsaw University of Technology (Politechnika Warszawska) is Poland's top engineering school — strong English Master's in computer science, electronics, and civil engineering.",
-        "The NAWA Polish Government Scholarship is competitive but fully funded — covers tuition plus PLN 1,250–1,750/month stipend. Worth applying even if chances seem low.",
+        "The NAWA Stefan Banach Scholarship is Nigeria's route — it's for developing countries specifically (not the PMFC scholarship which is for OECD countries). It covers tuition plus PLN 2,500/month stipend. Apply at nawa.gov.pl — deadline is typically June each year.",
         "Warsaw's tech job market has exploded since 2020 — Google, Samsung R&D, Allegro, and hundreds of startups all hire English-speaking graduates. A Polish tech Master's is a strong launchpad.",
       ],
       phd: [
-        "Doctoral school stipends are tax-free up to the minimum wage equivalent — take-home is better than the gross figure suggests.",
-        "NCN (Narodowe Centrum Nauki) grants fund research projects and PhD positions — check ncn.gov.pl for calls relevant to your field.",
+        "Doctoral stipends are guaranteed by law: minimum PLN 4,242/month gross before midterm, PLN 5,340/month gross after. Stipends up to the national minimum wage are tax-free — take-home is better than the gross figure suggests.",
+        "NCN Preludium grants fund pre-doctoral research projects (up to PLN 210,000 for a 3-year project). Check ncn.gov.pl for open calls — PRELUDIUM runs twice yearly.",
         "Poland's academic culture is collaborative and internationally oriented — many labs work fully in English.",
       ],
       work: [
@@ -5128,20 +5128,20 @@ Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos 
       { name: "Warsaw University of Technology", location: "Warsaw", intl_fee: "€2,000–4,000/yr", notes: "Top engineering school. Strong CS, electrical engineering, civil engineering in English. pw.edu.pl" },
       { name: "AGH University of Science and Technology", location: "Krakow", intl_fee: "€2,000–3,500/yr", notes: "Mining, energy, materials science, computer science. Strong research output. agh.edu.pl" },
       { name: "SGH Warsaw School of Economics", location: "Warsaw", intl_fee: "€2,500–4,000/yr", notes: "Top business and economics school in Poland. English-medium programmes. sgh.waw.pl" },
-      { name: "Medical University of Warsaw", location: "Warsaw", intl_fee: "€10,000–13,000/yr (medicine)", notes: "English-medium medicine and dentistry. WHO-recognized. Popular with Nigerian pre-med students. wum.edu.pl" },
+      { name: "Medical University of Warsaw", location: "Warsaw", intl_fee: "€17,100/yr (medicine)", notes: "English-medium medicine and dentistry. WHO-recognized. Popular with Nigerian pre-med students. wum.edu.pl" },
     ],
 
     scholarships: {
       undergrad: [
-        { name: "NAWA Polish Government Scholarship", amount: "Tuition waiver + PLN 1,250–1,750/month stipend", university: "Polish public universities — selected programmes", deadline: "Check nawa.gov.pl — typically April for September intake", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+        { name: "NAWA Stefan Banach Scholarship", amount: "Tuition waiver + PLN 2,500/month stipend", university: "Polish public universities — for students from developing countries including Nigeria", deadline: "Check nawa.gov.pl — typically June for September intake", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
       ],
       masters: [
-        { name: "NAWA Polish Government Scholarship", amount: "Tuition waiver + PLN 1,250–1,750/month stipend", university: "Polish public universities", deadline: "April annually — nawa.gov.pl", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+        { name: "NAWA Stefan Banach Scholarship", amount: "Tuition waiver + PLN 2,500/month stipend", university: "Polish public universities — Nigeria-eligible (developing countries programme)", deadline: "June annually — nawa.gov.pl/en/students/coming-to-poland/banach-programme", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
         { name: "University own scholarships", amount: "Partial tuition reductions — varies", university: "University of Warsaw, Jagiellonian, WUT — check each university's scholarship page", deadline: "With application — varies", url: "https://en.uw.edu.pl/" },
       ],
       phd: [
-        { name: "Doctoral School Stipend (contrat doctoral equivalent)", amount: "PLN 2,370/month (rising to PLN 4,653 after midterm) — tax advantaged", university: "All Polish doctoral schools", deadline: "Rolling — per university recruitment cycle", url: "https://nawa.gov.pl/" },
-        { name: "NCN Research Grants (Preludium)", amount: "PLN 70,000–140,000 for 1–2 year PhD projects", university: "All Polish universities — researcher-led grant applications", deadline: "Twice yearly — check ncn.gov.pl", url: "https://ncn.gov.pl/en" },
+        { name: "Doctoral School Stipend (guaranteed by law)", amount: "PLN 4,242/month (before midterm) / PLN 5,340/month (after midterm) — gross", university: "All Polish doctoral schools", deadline: "Rolling — per university recruitment cycle", url: "https://nawa.gov.pl/" },
+        { name: "NCN Research Grants (Preludium)", amount: "PLN 210,000 total for up to 36-month PhD projects", university: "All Polish universities — researcher-led grant applications", deadline: "Twice yearly — check ncn.gov.pl", url: "https://ncn.gov.pl/en" },
       ],
       work: [],
     },
@@ -5150,13 +5150,12 @@ Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos 
       name: "Polish Embassy Abuja / Consulate-General Lagos",
       address: "Embassy: Plot 926, Cadastral Zone A0, Central Business District, Abuja | Consulate-General: 8 Tiamiyu Savage Street, Victoria Island, Lagos",
       phone: "Lagos Consulate: +234 1 461 7800",
-      note: "Visa applications for Poland are submitted at the Polish Consulate-General in Lagos or the Embassy in Abuja. Long-stay (Type D) national visa fee: ~€80. Schengen short-stay (Type C) fee: €80. Apply for residence permits (Karta Pobytu) in Poland at the local Voivode office after arrival — not at the embassy.",
+      note: "Poland does NOT use VFS Global for visa applications in Nigeria. Submit directly to the Polish Consulate-General in Lagos or the Embassy in Abuja. Appointments are booked via the e-Konsulat system at secure2.e-konsulat.gov.pl. Long-stay (Type D) national visa fee: ~€80. Schengen short-stay (Type C) fee: €80. Apply for residence permits (Karta Pobytu) in Poland at the local Voivode office after arrival — not at the embassy.",
       website: "https://www.gov.pl/web/nigeria",
-      visa_apply: "https://www.gov.pl/web/nigeria/visas",
-      vfs: "https://www.vfsglobal.com/Poland/Nigeria/",
+      visa_apply: "https://secure2.e-konsulat.gov.pl/",
       official_immigration: "https://udsc.gov.pl/en/",
       extra_links: [
-        { label: "NAWA — Polish Government Scholarships", url: "https://nawa.gov.pl/en/students/coming-to-poland/polish-government-scholarship-programme" },
+        { label: "NAWA Stefan Banach Scholarship (Nigeria-eligible)", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
         { label: "Study in Poland — official student portal", url: "https://www.study.gov.pl/" },
         { label: "Urząd do Spraw Cudzoziemców — Polish immigration authority", url: "https://udsc.gov.pl/en/" },
         { label: "NCN — National Science Centre (PhD grants)", url: "https://ncn.gov.pl/en" },
