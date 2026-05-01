@@ -4254,7 +4254,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         firstSteps: [
           { action: "Research English-medium undergrad programmes at VUB, KU Leuven, or University of Antwerp", detail: "Most Belgian Bachelor's are in Dutch or French. If you need English, VUB's International Bachelor programmes and Antwerp's English offerings are your main options. Confirm language requirements before applying." },
           { action: "Apply to the university directly and get your acceptance letter", detail: "Apply through the university's online portal. Deadlines: typically March–April for September intake. Submit transcripts, English proficiency (IELTS 6.0+ minimum), statement of purpose, and references." },
-          { action: "Apply for Belgian Type D student visa at the Belgian Embassy in Abuja", detail: "Documents: passport, acceptance letter, proof of funds (€700–900/month for duration of studies), accommodation proof, travel insurance, visa application form from dvzoe.be, passport photos. Fee: ~€180. Processing: 4–8 weeks." },
+          { action: "Apply for Belgian Type D student visa at the Belgian Embassy in Abuja", detail: "Documents: passport, acceptance letter, proof of funds (€700–900/month for duration of studies), accommodation proof, travel insurance, visa application form from dvzoe.be, passport photos. Visa fee: €180 + Immigration Office contribution fee of ~€242 (paid separately in Belgium after arrival) = total ~€420. Processing: 4–8 weeks." },
           { action: "Arrive and register at your local Commune within 8 days", detail: "Registering at the Commune is a legal requirement — not optional. A municipal inspector verifies your address. You then receive a CIRE residence card. Failure to register can jeopardize your legal status." },
         ],
         keyFacts: [
@@ -4665,7 +4665,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
   FR: {
     tagline: "France — the Eiffel Excellence scholarship, world-class universities, and a direct route into the EU job market.",
 
-    overview: `France is one of the most underrated destinations for Nigerian students and professionals. French public universities charge non-EU international students around €2,770–3,770 for a Licence (Bachelor's) and €3,770–4,770 for a Master's per year — a fraction of UK or US fees for equivalent institutions. Combined with the Eiffel Excellence Scholarship — which covers living expenses, return flights, and health insurance on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world for Nigerian students.
+    overview: `France is one of the most underrated destinations for Nigerian students and professionals. French public universities charge non-EU international students a flat €2,770/year for a Licence (Bachelor's) and €3,770/year for a Master's — set by the 2019 "Bienvenue en France" reform. Combined with the Eiffel Excellence Scholarship — which covers living expenses, return flights, and health insurance on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world for Nigerian students.
 
 Paris, Lyon, Marseille, Toulouse, and Bordeaux host some of Europe's most prestigious institutions: Sorbonne Université, Sciences Po, École Polytechnique, HEC Paris, CentraleSupélec, and Université Paris-Saclay, which ranks in the global top 15 for natural sciences. For Nigerian students, the main challenge is language: most undergraduate programmes are taught in French. But at Master's and PhD level, English-medium programmes are available across all major disciplines.
 
@@ -4677,14 +4677,14 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
 
     stats: {
       undergrad: {
-        tuition: "€2,770–3,770/yr (non-EU)",
+        tuition: "€2,770/yr (non-EU flat rate)",
         living: "€800–1,400/mo",
         minIELTS: "6.0+ or DELF B2",
         processing: "4–8 weeks",
         pathway: "VLS-TS Student Visa",
       },
       masters: {
-        tuition: "€3,770–4,770/yr (non-EU public); Sciences Po €20,640/yr",
+        tuition: "€3,770/yr (non-EU flat rate); Sciences Po €20,640/yr",
         living: "€900–1,500/mo",
         minIELTS: "6.5+ (English programmes)",
         processing: "4–8 weeks",
@@ -4715,7 +4715,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
 
     summary: {
       undergrad: {
-        intro: "French public universities charge non-EU international students around €2,770–3,770/year for a Licence (Bachelor's) — a fraction of UK or US fees for equivalent institutions. Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
+        intro: "French public universities charge non-EU international students a flat €2,770/year for a Licence (Bachelor's) — set by the 2019 'Bienvenue en France' reform. This is a fraction of UK or US fees for equivalent institutions. Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
         firstSteps: [
           { action: "Start French language preparation (minimum 12–18 months ahead)", detail: "Enroll at Alliance Française Lagos, Abuja, or Kano. Aim for DELF B2 minimum, C1 preferred. This is the single most critical step — most undergrad programmes require near-native French." },
           { action: "Register on Campus France Nigeria — mandatory before any university application", detail: "Go to nigeria.campusfrance.org, complete your DAP (preliminary application file), pay the Campus France fee (₦80,000 in 2025/26), and book a mandatory in-person interview at Campus France Lagos or Abuja. Complete this October–December for September intake." },
@@ -4723,7 +4723,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa at TLScontact Nigeria (June–July)", detail: "Start at france-visas.gouv.fr, complete the application form, then book a TLScontact appointment (TLS replaced VFS for France in Nigeria from April 2025). Documents: passport, Campus France attestation, enrolment letter, proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220." },
         ],
         keyFacts: [
-          "Public university tuition: ~€2,770–3,770/year for non-EU students (Licence/Bachelor's)",
+          "Public university tuition: €2,770/year flat rate for non-EU students (Licence/Bachelor's) — set by 2019 reform",
           "Campus France Nigeria registration (₦80,000 fee + mandatory interview) is the mandatory first step",
           "Living costs: €800–1,100/month outside Paris; €1,200–1,800/month in Paris",
           "OFII validation within 3 months of arrival is mandatory — fully digital at administration-etrangers-en-france.interieur.gouv.fr",
@@ -4732,7 +4732,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
         outcome: "A French public university Licence gives you an EU-recognized degree from a world-class system at affordable fees compared to the UK or US. After graduating, you can apply for a 12-month CdS RECE job-search permit and transition to the Talent Passport worker route toward permanent residency after 5 years.",
       },
       masters: {
-        intro: "France's Master's landscape is exceptional. Public university fees for non-EU students are ~€3,770–4,770/year. Sciences Po Paris (€20,640/yr), HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance on top of fees. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
+        intro: "France's Master's landscape is exceptional. Public university fees for non-EU students are €3,770/year flat rate. Sciences Po Paris (€20,640/yr), HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance — note it does not cover tuition fees. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
         firstSteps: [
           { action: "Research Eiffel-eligible programmes and target institutions (August–October)", detail: "Check campusfrance.org/en/eiffel-scholarship-program-excellence for the list of eligible institutions and disciplines. Identify 2–3 target institutions. Contact admissions offices about Eiffel nomination eligibility." },
           { action: "Register on Campus France Nigeria and complete mandatory interview", detail: "Register at nigeria.campusfrance.org, complete your DAP, pay ₦80,000 fee, attend mandatory in-person interview. This must be completed before any French institution processes your application." },
@@ -4740,8 +4740,8 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa via france-visas.gouv.fr and TLScontact (May–July)", detail: "Documents: passport, Campus France attestation, enrolment letter, scholarship letter (if Eiffel) or proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220 (Eiffel holders exempt). Validate OFII within 3 months of arrival." },
         ],
         keyFacts: [
-          "Non-EU tuition: ~€3,770–4,770/year (public); Sciences Po: €20,640/yr; HEC: ~€57,700 for full MiM",
-          "Eiffel Excellence Scholarship: ~€1,200/month + return flights + insurance — fully funded",
+          "Non-EU tuition: €3,770/year flat rate (public); Sciences Po: €20,640/yr; HEC: ~€57,700 for full MiM",
+          "Eiffel Excellence Scholarship: ~€1,200/month stipend + return flights + insurance — does NOT cover tuition",
           "Post-Master's: 12-month CdS RECE job-search permit (not renewable for Nigerians)",
           "Most major Master's programmes are English-medium at postgraduate level",
           "Campus France Nigeria interview (₦80,000) is mandatory before any application can be processed",
@@ -4761,7 +4761,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           "Contrat doctoral salary: ~€2,025/month gross with full social security coverage",
           "CIFRE industrial PhD: up to €2,700/month gross — company-funded",
           "Post-PhD: 12 months CdS RECE job-search permit for Nigerians (not 24 — no bilateral agreement)",
-          "Eiffel Doctorat scholarship: ~€1,400/month for up to 3 years for eligible disciplines",
+          "Eiffel Doctorat scholarship: ~€2,100/month (updated Jan 2026) for up to 3 years for eligible disciplines — does not cover tuition",
         ],
         outcome: "A French doctoral contract gives you 3+ years of paid research employment in the EU with full social security. After your PhD, the 12-month CdS RECE gives you time to transition to a Talent Passport. Combined with student years, the 5-year lawful residence for permanent residency (carte de résident) becomes achievable.",
       },
@@ -5051,13 +5051,13 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { title: "French is non-negotiable for most undergrad programmes", body: "DELF B2 is the minimum, C1 is recommended. Start language classes at Alliance Française Lagos, Abuja, or Kano early — minimum 12–18 months of preparation before applying." },
         { title: "Campus France registration is mandatory — do this first", body: "You cannot apply to any French public institution without a Campus France number. The mandatory interview in Lagos or Abuja (fee: ₦80,000) must be completed before your university application can be processed." },
         { title: "CROUS housing: apply early and have a backup plan", body: "CROUS student housing (€150–400/month) is the most affordable option. Apply as early as possible at trouverunlogement.lescrous.fr. Demand exceeds supply — have a private accommodation backup plan." },
-        { title: "Know the difference between public universities and Grandes Écoles", body: "Non-EU students pay ~€2,770–3,770/year at most public universities, but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €12,500–22,000/year. Confirm which type of institution you are targeting before applying." },
+        { title: "Know the difference between public universities and Grandes Écoles", body: "Non-EU students pay a flat €2,770/year at public universities (set by the 2019 'Bienvenue en France' reform), but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €12,500–22,000/year. Confirm which type of institution you are targeting before applying." },
         { title: "OFII validation within 3 months of arrival is mandatory", body: "If you miss the OFII validation window, your legal status becomes uncertain. Do it your first week in France via administration-etrangers-en-france.interieur.gouv.fr. Fully digital — pay €75 online." },
         { title: "Subsidised campus meals cost just €3.30", body: "CROUS restaurant universitaire tickets give subsidised hot meals at campus restaurants for €3.30/meal. Register as soon as you arrive — one of the best student benefits in France and significantly cuts your food budget." },
         { title: "Year 1 is competitive — take it seriously from day one", body: "French universities operate on a semester system. Year 1 of a Licence is demanding — students who fail to progress may be redirected. Academic independence and thesis quality matter as much as exams." },
       ],
       masters: [
-        { title: "Eiffel is one of the world's best-funded scholarships for Nigerians", body: "The Eiffel Excellence Scholarship pays ~€1,200/month (2025/26 cycle) — enough to live comfortably in most French cities. Applications are submitted by your host institution, not you directly. Build a relationship with admissions offices early and ask about Eiffel nomination." },
+        { title: "Eiffel is one of the world's best scholarships for Nigerians — but it doesn't cover tuition", body: "The Eiffel Excellence Scholarship pays ~€1,200/month (2025/26 cycle) + return flights + insurance — enough to live comfortably in most French cities. Important: it does NOT cover tuition fees (you still pay €3,770/yr). Applications are submitted by your host institution, not you directly. Build a relationship with admissions offices early and ask about Eiffel nomination." },
         { title: "Sciences Po Paris is world-class and fully English-medium", body: "Sciences Po is one of the world's top institutions for international affairs, political science, economics, and law. It is fully English-medium and internationally recognized — worth the competitive application process for Nigerians in policy, law, or economics." },
         { title: "A French Master's opens French and EU job markets", body: "French Master's (2 years = 120 ECTS) often lead directly to CDI (permanent contract) employment. French employers strongly prefer French degrees — a French Master's from Sciences Po, Sorbonne, or Paris-Saclay opens doors that overseas qualifications may not." },
         { title: "Apply for CdS RECE immediately after graduation — it is not renewable", body: "The 12-month CdS RECE job-search permit must be applied for at the ANEF portal before your student permit expires. It is not renewable — you must find a qualifying job and switch to a Talent Passport within those 12 months or leave France." },
@@ -5096,18 +5096,18 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 
     universities: {
       undergrad: [
-        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — one of Europe's most prestigious institutions with English-medium options at Licence level", avg_tuition: "~€170/year (public)", acceptance: "Selective for competitive Licence programmes", nigerian_community: "Active African student community in Paris; Nigerian students present across faculties" },
-        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, humanities — France's second city, lower cost than Paris with excellent quality of life", avg_tuition: "~€170/year (public)", acceptance: "Moderate", nigerian_community: "Growing international student community; Nigerian community established in Lyon" },
-        { name: "Université Paul Sabatier (Toulouse III)", location: "Toulouse", known_for: "Aerospace engineering, aeronautics, applied mathematics — Airbus HQ is in Toulouse", avg_tuition: "~€170/year (public)", acceptance: "Moderate", nigerian_community: "International student body; Toulouse is an affordable engineering city" },
-        { name: "Université de Bordeaux", location: "Bordeaux", known_for: "Engineering, biomedical sciences, agri-business — beautiful city in southwest France", avg_tuition: "~€170/year (public)", acceptance: "Moderate", nigerian_community: "Small but present Nigerian community; Bordeaux growing as student city" },
+        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — one of Europe's most prestigious institutions with English-medium options at Licence level", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Selective for competitive Licence programmes", nigerian_community: "Active African student community in Paris; Nigerian students present across faculties" },
+        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, humanities — France's second city, lower cost than Paris with excellent quality of life", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student community; Nigerian community established in Lyon" },
+        { name: "Université Paul Sabatier (Toulouse III)", location: "Toulouse", known_for: "Aerospace engineering, aeronautics, applied mathematics — Airbus HQ is in Toulouse", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "International student body; Toulouse is an affordable engineering city" },
+        { name: "Université de Bordeaux", location: "Bordeaux", known_for: "Engineering, biomedical sciences, agri-business — beautiful city in southwest France", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Small but present Nigerian community; Bordeaux growing as student city" },
       ],
       masters: [
         { name: "Sciences Po Paris", location: "Paris (+ regional campuses)", known_for: "International affairs, political science, economics, public policy — world top 5, fully English-medium", avg_tuition: "€20,640/year flat rate for non-EEA students", acceptance: "Very competitive (global top applicants)", nigerian_community: "Highly international student body; Nigerian students in policy and law programmes" },
-        { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, mathematics, engineering — top 15 globally (Shanghai Ranking); home to CentraleSupélec", avg_tuition: "~€243/year (public)", acceptance: "Very competitive for top programmes", nigerian_community: "Highly international research community; English-medium Master's" },
-        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — many English-medium Master's programmes", avg_tuition: "~€243/year (public)", acceptance: "Selective", nigerian_community: "Large African and Nigerian student community in Paris" },
+        { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, mathematics, engineering — top 15 globally (Shanghai Ranking); home to CentraleSupélec", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Very competitive for top programmes", nigerian_community: "Highly international research community; English-medium Master's" },
+        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — many English-medium Master's programmes", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Selective", nigerian_community: "Large African and Nigerian student community in Paris" },
         { name: "HEC Paris", location: "Jouy-en-Josas (near Paris)", known_for: "Master in Management, MBA, Master in Finance — top 3 European business school with powerful alumni network", avg_tuition: "~€59,700 for 2-yr MiM; ~€49,500 for MiF", acceptance: "Very competitive", nigerian_community: "Highly international cohort; scholarships available for African students" },
         { name: "École Polytechnique (l'X)", location: "Palaiseau (near Paris)", known_for: "Engineering Master's and PhD — France's most elite engineering school; world-class industry connections", avg_tuition: "€12,500/year (Master's)", acceptance: "Very competitive", nigerian_community: "Highly international engineering community" },
-        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, chemistry — lower cost than Paris with strong research output", avg_tuition: "~€243/year (public)", acceptance: "Moderate", nigerian_community: "Growing international student body; affordable city for Master's students" },
+        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, chemistry — lower cost than Paris with strong research output", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student body; affordable city for Master's students" },
       ],
       phd: [
         { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, maths, physics, engineering — hosts CNRS, CEA, INRIA labs; top 15 globally for natural sciences", avg_tuition: "~€391/year (funded positions: contrat doctoral ~€2,025/month gross)", acceptance: "Competitive — supervisor match critical", nigerian_community: "Highly international research environment; English-medium labs" },
@@ -5124,12 +5124,12 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { name: "French Embassy Bursaries (Bourses du gouvernement français)", amount: "Varies — partial to full funding. Small number of awards for Nigerian students each year", university: "Awarded by the French Embassy Abuja to outstanding students — specific to French-medium programmes", deadline: "Contact French Embassy Abuja (Institut Français Nigeria) — typically closes December/January", url: "https://www.nigeria.campusfrance.org/bourses" },
       ],
       masters: [
-        { name: "Eiffel Excellence Scholarship", amount: "~€1,200/month stipend (2025/26 cycle) + return flights from Nigeria + health insurance — fully funded. Students holding French government scholarships are also exempt from the long-stay visa fee (€220).", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Applications open October 1; institutions submit nominations by January 8. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
+        { name: "Eiffel Excellence Scholarship", amount: "~€1,200/month stipend (2025/26 cycle) + return flights from Nigeria + health insurance. Important: Eiffel does NOT cover tuition fees — you pay the €3,770/yr public university fee separately. Eiffel holders are exempt from the long-stay visa fee (€220).", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Applications open October 1; institutions submit nominations by January 8. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
         { name: "Sciences Po Emile Boutmy Scholarship", amount: "€6,000–19,000 tuition reduction (income-based)", university: "Sciences Po Paris — for non-EU international students in the undergraduate college and Master's programmes", deadline: "Check sciencespo.fr — typically closes February for September intake", url: "https://www.sciencespo.fr/admissions/en/content/scholarships-and-financial-aid.html" },
         { name: "HEC Paris Scholarship", amount: "Up to €24,000 tuition reduction (MBA), merit and need-based", university: "HEC Paris — for Master's in Management and MBA programmes", deadline: "Rolling — check hec.edu/en/mba-programs/financial-aid", url: "https://www.hec.edu/en/mba-programs/financial-aid" },
       ],
       phd: [
-        { name: "Eiffel Doctorat Scholarship", amount: "€1,400/month stipend + return flights + insurance for up to 10 months/year over 3 years", university: "French universities participating in Eiffel Doctorat — for PhD candidates in engineering, exact sciences, economics, management, and law/political science", deadline: "Institutions nominate candidates between October and mid-January — secure admission and supervisor first", url: "https://www.campusfrance.org/en/eiffel-scholarship-program-excellence" },
+        { name: "Eiffel Doctorat Scholarship", amount: "~€2,100/month stipend (updated Jan 2026) + return flights + insurance for up to 10 months/year over 3 years — does not cover tuition fees (PhD tuition is only €391/yr)", university: "French universities participating in Eiffel Doctorat — for PhD candidates in engineering, exact sciences, economics, management, and law/political science", deadline: "Institutions nominate candidates between October and mid-January — secure admission and supervisor first", url: "https://www.campusfrance.org/en/eiffel-scholarship-program-excellence" },
         { name: "Contrat Doctoral (Doctoral Contract)", amount: "~€2,025/month gross (~€1,650–1,700 net) + full social security — standard French PhD employment", university: "All French public universities — positions advertised on ADUM (adum.fr) and ABG (abg.asso.fr)", deadline: "Rolling — positions open throughout the year, main intake September", url: "https://www.adum.fr/" },
         { name: "CIFRE Convention (Industrial PhD)", amount: "€2,700/month minimum gross — company pays your salary while you do a PhD at a university", university: "Any accredited French university, in partnership with a French company. Managed by ANRT.", deadline: "Rolling — search at anrt.asso.fr, positions listed by company/lab", url: "https://www.anrt.asso.fr/fr/le-dispositif-cifre-7844" },
         { name: "ANR (Agence Nationale de la Recherche) Project Grants", amount: "Varies — PhD funded within a larger research grant, salary equivalent to doctoral contract", university: "Positions within funded research projects at all French universities", deadline: "Rolling — listed on lab websites and ADUM", url: "https://anr.fr/en/" },
@@ -5174,7 +5174,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
 
     stats: {
       undergrad: {
-        tuition: "€950–3,500/yr (non-EU, public)",
+        tuition: "€3,000–5,000/yr (non-EU, public)",
         living: "€700–1,000/mo (Porto) / €900–1,300 (Lisbon)",
         minIELTS: "6.0+",
         processing: "2–3 months",
@@ -5188,7 +5188,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         pathway: "D4 Student Visa",
       },
       phd: {
-        tuition: "Funded — FCT: €1,074/mo net stipend",
+        tuition: "Funded — FCT: €1,260+/mo net stipend (2025)",
         living: "€700–1,000/mo",
         minIELTS: "6.5+",
         processing: "2–3 months",
@@ -5212,7 +5212,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
 
     summary: {
       undergrad: {
-        intro: "Portuguese public universities charge €950–3,500/year for non-EU students — some of the most affordable in Western Europe. Most undergraduate programmes are in Portuguese; English-medium undergrad is limited to private institutions and some IST programmes.",
+        intro: "Portuguese public universities charge non-EU students €3,000–5,000/year — still significantly cheaper than the UK or US for equivalent institutions. Most undergraduate programmes are in Portuguese; English-medium undergrad is limited to private institutions and some IST programmes.",
         firstSteps: [
           { action: "Learn Portuguese", detail: "B1–B2 opens the full range of affordable public programmes. Instituto Camões, Pimsleur, and italki are useful resources." },
           { action: "Apply via DGES portal", detail: "dges.mec.pt is the national admissions clearinghouse for public universities. Private universities apply directly." },
@@ -5220,7 +5220,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
           { action: "Apply for D4 student visa", detail: "Submit at the Portuguese Embassy in Abuja. Fee ~€90. Processing 2–3 months." },
         ],
         keyFacts: [
-          "Tuition: €950–3,500/year (public non-EU)",
+          "Tuition: €3,000–5,000/year (public non-EU)",
           "Work permitted: 20 hrs/week term-time, full-time holidays",
           "Residence permit applied at AIMA within 4 months of arrival",
           "Porto is significantly cheaper than Lisbon — comparable universities at lower living costs",
@@ -5237,21 +5237,21 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         ],
         keyFacts: [
           "Tuition: €1,250–7,000/year (English-medium public); up to €22,000 (Nova SBE)",
-          "FCT scholarship: €1,074/month net tax-free",
+          "FCT scholarship: ~€1,260+/month net tax-free (updated 2025, linked to minimum wage)",
           "Post-graduation: 1-year D3 job-search permit available",
-          "NHR tax regime: 20% flat tax on Portuguese income for 10 years when you transition to work",
+          "IFICI tax regime (NHR 2.0): 20% flat tax for 10 years for qualifying professionals (tech, research, healthcare) — original NHR closed Jan 2024",
         ],
         outcome: "Strong engineering, business, and sciences Master's feeding Lisbon's fast-growing tech and startup ecosystem.",
       },
       phd: {
-        intro: "FCT (Fundação para a Ciência e a Tecnologia) is Portugal's main research funder. The FCT PhD Scholarship pays €1,074/month net (tax-free) for 4 years — competitive but accessible for strong candidates.",
+        intro: "FCT (Fundação para a Ciência e a Tecnologia) is Portugal's main research funder. The FCT PhD Scholarship pays approximately €1,260+/month net (tax-free, 2025 — amount is indexed to minimum wage and rises annually) for 4 years — competitive but accessible for strong candidates.",
         firstSteps: [
           { action: "Apply for FCT PhD scholarship", detail: "Annual competition opens February/March at fct.pt. Also look for supervisor-funded positions at individual research institutions." },
           { action: "Contact potential supervisors directly", detail: "INESC TEC, Instituto Gulbenkian de Ciência, ITQB NOVA, LARSyS are leading research institutions." },
           { action: "Apply for D4 student or D3 researcher visa", detail: "D4 for FCT scholarship holders; D3 for researcher employment contracts. Both at Portuguese Embassy Abuja. ~2–3 months processing." },
         ],
         keyFacts: [
-          "FCT stipend: €1,074/month net, tax-free, 4 years",
+          "FCT stipend: ~€1,260+/month net, tax-free, 4 years (indexed to minimum wage — check fct.pt for current value)",
           "Tuition waiver included with FCT fellowship",
           "AIMA residence permit renewed annually",
           "Coimbra and Porto offer lower living costs than Lisbon: €600–800/month",
@@ -5259,15 +5259,15 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         outcome: "Portuguese research residency, path to D3 post-doc or industry work visa, and citizenship eligibility at 5 years.",
       },
       work: {
-        intro: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. The Tech Visa is a fast-track for tech professionals. Portugal's NHR tax regime offers 20% flat tax on Portuguese income for 10 years.",
+        intro: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. The Tech Visa is a fast-track for tech professionals. Portugal's IFICI regime (NHR 2.0, effective 2024) offers 20% flat tax for 10 years for qualifying professionals — tech workers, researchers, and healthcare workers. The original NHR closed to new applicants in January 2024.",
         firstSteps: [
           { action: "Secure job offer or Tech Visa sponsor", detail: "Landing.jobs, LinkedIn, and Glassdoor Portugal are main platforms. Lisbon offices: Google, Amazon, Volkswagen Digital, Farfetch, Feedzai." },
           { action: "Apply for D3 visa at Portuguese Embassy Abuja", detail: "Documents: passport, employment contract, degree certificates, criminal record (apostilled), accommodation, photos. Fee ~€90. Processing 60–90 days." },
-          { action: "Apply for NHR tax regime", detail: "At finanças.gov.pt (tax authority) by 31 March of the year following your first tax residency. 20% flat tax for 10 years." },
+          { action: "Apply for IFICI tax regime (NHR 2.0)", detail: "At finanças.gov.pt by 31 March of the year following your first tax residency. 20% flat tax for 10 years — available to qualifying professionals (tech, research, healthcare). The original NHR closed Jan 2024; IFICI is the replacement." },
           { action: "Apply for AIMA residence permit", detail: "On arrival, within 4 months." },
         ],
         keyFacts: [
-          "NHR: 20% flat tax on Portuguese employment income for 10 years",
+          "IFICI (NHR 2.0): 20% flat tax for 10 years for qualifying professionals — tech, research, healthcare. Original NHR closed Jan 2024",
           "Citizenship after 5 years lawful residence + A2 Portuguese test",
           "Tech Visa: employer certified by IAPMEI sponsors faster processing",
           "AIMA processing can be slow — allow extra time, consider a lawyer for complex cases",
@@ -5322,7 +5322,7 @@ Tech Visa (faster for tech roles):
 2. Once certified, they sponsor your Tech Visa application.
 3. Same documentation as D3 but processed more quickly by AIMA.
 
-NHR Tax Regime: Apply at the tax authority (AT — autoridade tributária) within 31 March of the year following your first tax residency. Gives flat 20% tax on Portuguese-source income for 10 years.`,
+IFICI Tax Regime (NHR 2.0): The original NHR regime closed to new applicants in January 2024. The replacement — IFICI — offers the same 20% flat tax for 10 years but is restricted to qualifying professionals: tech workers, researchers, healthcare workers, and certain other roles. Apply at the tax authority (AT — autoridade tributária) by 31 March of the year following your first tax residency. Check eligibility at portaldasfinancas.gov.pt.`,
 
       visitor: `**Schengen Visitor Visa (Type C)**
 
@@ -5350,7 +5350,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
       work: [
         { step: 1, title: "Job search", detail: "2–4 months. Landing.jobs, LinkedIn, Glassdoor, Sapo Emprego. Lisbon offices: Google, Amazon, Volkswagen Digital, Farfetch, Feedzai. Remote-first companies also hire Lisbon-based staff." },
         { step: 2, title: "D3 or Tech Visa", detail: "60–90 days at Portuguese Embassy Abuja. Criminal record apostille is critical — start immediately." },
-        { step: 3, title: "AIMA + NHR tax", detail: "Apply for AIMA residence permit on arrival. Apply for NHR tax regime by 31 March following year of arrival." },
+        { step: 3, title: "AIMA + IFICI tax regime", detail: "Apply for AIMA residence permit on arrival. If you qualify (tech, research, healthcare), apply for the IFICI regime (NHR 2.0) by 31 March following year of arrival at portaldasfinancas.gov.pt." },
         { step: 4, title: "PR + citizenship at 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
       ],
       visitor: [
@@ -5367,17 +5367,17 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
       ],
       masters: [
         { title: "Nova SBE and IST are elite", body: "Nova School of Business and Economics (Nova SBE) in Carcavelos is FT-ranked — strong finance, economics, and data science Master's in English. IST is Portugal's top engineering school — aerospace, bioengineering, CS, electrical. Both have English-medium Master's." },
-        { title: "Apply for NHR as soon as you start working", body: "The NHR tax regime is available to new residents — if you transition from student to worker, apply for NHR in your first year working. 20% flat tax for 10 years is transformative for high earners." },
+        { title: "Apply for IFICI (NHR 2.0) as soon as you start working", body: "The original NHR regime closed in January 2024. The replacement — IFICI — gives the same 20% flat tax for 10 years but is restricted to qualifying professionals (tech, research, healthcare, and related roles). If you work in one of these fields, apply by 31 March of the year following your first tax residency at portaldasfinancas.gov.pt." },
         { title: "Lisbon's international startup scene", body: "Lisbon's digital nomad and startup community is one of the most international in Europe — Web Summit calls Lisbon home, countless coworking spaces, and English is widely spoken in professional settings." },
       ],
       phd: [
-        { title: "FCT stipend is genuinely liveable", body: "FCT PhD scholarships are fully tax-free — €1,074/month net is liveable in Porto or Coimbra (Lisbon is tighter). Combined with free healthcare as a resident, purchasing power is solid." },
+        { title: "FCT stipend is genuinely liveable", body: "FCT PhD scholarships are fully tax-free — the 2025 value is approximately €1,260+/month net (indexed to Portugal's minimum wage and rises annually — check fct.pt for the current figure). This is liveable in Porto or Coimbra; tighter in Lisbon but manageable with free healthcare as a resident." },
         { title: "Top research institutions", body: "Key Portuguese research centres: INESC TEC (engineering/AI, Porto), Instituto Gulbenkian de Ciência (biology, Oeiras), ITQB NOVA (molecular biosciences), LARSyS (robotics/marine tech)." },
         { title: "Coimbra as base city", body: "Coimbra (home to one of Europe's oldest universities, est. 1290) offers lower living costs than Lisbon — €600–800/month — and a vibrant student city atmosphere." },
       ],
       work: [
         { title: "Lisbon is a top European startup hub", body: "Farfetch, Feedzai, Talkdesk, OutSystems, and hundreds of international companies have Lisbon offices. Tech salaries are lower than London or Amsterdam but costs are dramatically lower." },
-        { title: "Don't miss the NHR window", body: "The NHR (Non-Habitual Resident) tax regime gives 20% flat tax on Portuguese employment income for 10 years. Apply at finanças.gov.pt by 31 March of the year following your first tax residency." },
+        { title: "Don't miss the IFICI window if you qualify", body: "The original NHR regime closed in January 2024. The replacement — IFICI (NHR 2.0) — gives the same 20% flat tax for 10 years, but only for qualifying professionals: tech workers, researchers, healthcare professionals, and related roles. Apply at portaldasfinancas.gov.pt by 31 March of the year following your first tax residency." },
         { title: "Portuguese is a global language", body: "280 million speakers worldwide. Learning Portuguese opens doors in Portugal, Brazil, Angola, Mozambique, and Cape Verde — one language, six continents." },
         { title: "AIMA is slow — plan accordingly", body: "Processing at AIMA (the immigration authority that replaced SEF in 2023) has been slow — allow extra time and use a lawyer for complex permit situations." },
       ],
@@ -5390,9 +5390,9 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
 
     universities: {
       undergrad: [
-        { name: "University of Lisbon (ULisboa)", location: "Lisbon", known_for: "Law, humanities, sciences, medicine", avg_tuition: "€950–3,500/yr (public non-EU)", acceptance: "Competitive", nigerian_community: "Growing" },
-        { name: "University of Porto (U.Porto)", location: "Porto", known_for: "Engineering, medicine, law, sciences, architecture", avg_tuition: "€950–3,500/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Small but welcoming" },
-        { name: "University of Coimbra", location: "Coimbra", known_for: "Law, humanities, sciences — UNESCO World Heritage campus (est. 1290)", avg_tuition: "€950–3,000/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Student city atmosphere" },
+        { name: "University of Lisbon (ULisboa)", location: "Lisbon", known_for: "Law, humanities, sciences, medicine", avg_tuition: "€3,000–5,000/yr (public non-EU)", acceptance: "Competitive", nigerian_community: "Growing" },
+        { name: "University of Porto (U.Porto)", location: "Porto", known_for: "Engineering, medicine, law, sciences, architecture", avg_tuition: "€3,000–5,000/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Small but welcoming" },
+        { name: "University of Coimbra", location: "Coimbra", known_for: "Law, humanities, sciences — UNESCO World Heritage campus (est. 1290)", avg_tuition: "€3,000–4,500/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Student city atmosphere" },
       ],
       masters: [
         { name: "IST (Instituto Superior Técnico)", location: "Lisbon", known_for: "Aerospace, CS, bioengineering, electrical engineering — Portugal's top engineering school", avg_tuition: "€1,400–7,000/yr", acceptance: "Selective", nigerian_community: "International campus" },
@@ -5412,10 +5412,10 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
       ],
       masters: [
         { name: "Gulbenkian Foundation Scholarship", amount: "€1,000–1,500/month + tuition support — highly competitive", university: "Portuguese universities — STEM and humanities — foundation selects disciplines annually", deadline: "Check gulbenkian.pt — typically opens early in the year", url: "https://gulbenkian.pt/en/scholarships/" },
-        { name: "FCT Research Scholarship", amount: "€1,074/month net (tax-free) for Master's research component", university: "FCT-funded research units at Portuguese universities", deadline: "Rolling — per FCT call. fct.pt", url: "https://www.fct.pt/apoios/bolsas/" },
+        { name: "FCT Research Scholarship", amount: "~€1,260+/month net (tax-free, 2025 — indexed to minimum wage, check fct.pt) for Master's research component", university: "FCT-funded research units at Portuguese universities", deadline: "Rolling — per FCT call. fct.pt", url: "https://www.fct.pt/apoios/bolsas/" },
       ],
       phd: [
-        { name: "FCT PhD Scholarship", amount: "€1,074/month net stipend (tax-free) + tuition waiver, 4 years", university: "All Portuguese public universities and associated research institutions", deadline: "Annual competition — typically opens February/March. Check fct.pt", url: "https://www.fct.pt/apoios/bolsas/investigacao/" },
+        { name: "FCT PhD Scholarship", amount: "~€1,260+/month net stipend (tax-free, 2025 — indexed to minimum wage, rises annually; check fct.pt for current value) + tuition waiver, 4 years", university: "All Portuguese public universities and associated research institutions", deadline: "Annual competition — typically opens February/March. Check fct.pt", url: "https://www.fct.pt/apoios/bolsas/investigacao/" },
         { name: "Gulbenkian PhD Grant", amount: "Up to €2,000/month for selected disciplines", university: "Top Portuguese research centres — Gulbenkian selects annually", deadline: "Check gulbenkian.pt", url: "https://gulbenkian.pt/en/scholarships/" },
       ],
       work: [],
@@ -5437,7 +5437,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         { label: "DGES — Portuguese university admissions", url: "https://www.dges.gov.pt/" },
         { label: "Tech Visa Portugal — IAPMEI", url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Startups/Tech-Visa.aspx" },
         { label: "Landing.jobs — Lisbon and Portugal tech jobs", url: "https://landing.jobs/" },
-        { label: "NHR tax regime — Portuguese Tax Authority", url: "https://info.portaldasfinancas.gov.pt/pt/noticias/Pages/20201231_irs-nhr.aspx" },
+        { label: "IFICI (NHR 2.0) tax regime — Portuguese Tax Authority (original NHR closed Jan 2024)", url: "https://info.portaldasfinancas.gov.pt/pt/noticias/Pages/20201231_irs-nhr.aspx" },
         { label: "Study in Portugal — official portal", url: "https://www.study-in-portugal.gov.pt/en/" },
       ],
     },
@@ -5544,7 +5544,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         ],
         keyFacts: [
           "Beckham Law: 24% flat tax on Spanish income up to €600,000 for 6 years",
-          "Digital Nomad Visa: min €2,334/month income from outside Spain",
+          "Digital Nomad Visa: min €2,763/month income from outside Spain (updated 2025 — tied to 200% of Spain's minimum wage)",
           "Permanent residency at 5 years; citizenship at 10 years",
           "AIMA/Extranjería bureaucracy is slow — apply immediately when eligible",
         ],
@@ -5646,7 +5646,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         { title: "Public degrees are globally respected", body: "A degree from Complutense Madrid, UAM, UB, or UPM carries genuine weight across Europe and globally. Public Spanish university degrees are internationally recognized." },
       ],
       masters: [
-        { title: "IE and ESADE are truly world-class", body: "IE Business School and ESADE are among Europe's top 5 business schools — MBA graduates access elite European finance and consulting jobs. They are expensive (€50,000–80,000 MBA) but scholarship and loan options exist." },
+        { title: "IE and ESADE are truly world-class", body: "IE Business School and ESADE are among Europe's top 5 business schools — MBA graduates access elite European finance and consulting jobs. IE's International MBA costs approximately €82,000–90,000 (2024/25); ESADE MBA is in a similar range. Scholarship and loan options exist." },
         { title: "MAEC-AECID is Spain's best scholarship for Nigerians", body: "Competitive but well-funded — covers tuition + ~€1,000/month stipend. Apply through the Spanish Embassy Abuja. Apply early with a strong academic record." },
         { title: "Barcelona vs Madrid for English speakers", body: "Barcelona has a thriving English-speaking expat and startup community — many companies operate fully in English. Madrid is more Spanish-language dominant in business." },
         { title: "Calibrate salary expectations", body: "Spain has higher unemployment than northern Europe, but tech, finance, tourism, and renewable energy sectors are growing fast. Graduate salaries: €25,000–40,000/year gross is typical." },
@@ -5659,7 +5659,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
       work: [
         { title: "Beckham Law — apply within 6 months", body: "Beckham Law (Régimen Especial para Trabajadores Desplazados) gives 24% flat tax for 6 years for qualifying new residents. Apply within 6 months of starting work at AEAT — don't miss this window." },
         { title: "Madrid tech market overview", body: "Junior developer: €25,000–35,000 gross/year. Senior: €45,000–65,000. Living costs: €1,000–1,400/month. Tighter than northern Europe but quality of life is exceptional." },
-        { title: "Digital Nomad Visa is a real option", body: "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum €2,334/month income. Beckham Law also applies." },
+        { title: "Digital Nomad Visa is a real option", body: "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum €2,763/month income (2025 — tied to 200% Spain's minimum wage). Beckham Law also applies." },
         { title: "Spanish bureaucracy is slow — act immediately", body: "The Extranjería, Seguridad Social, and AEAT all move slowly. Apply for everything the day you are eligible. Cita previa (appointment systems) fill up fast — book on arrival." },
       ],
       visitor: [
@@ -5679,7 +5679,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
       masters: [
         { name: "Universidad Politécnica de Madrid (UPM)", location: "Madrid", known_for: "Aerospace, civil, CS, telecoms — top Spanish engineering school. English Master's available", avg_tuition: "€1,500–3,500/yr", acceptance: "Selective", nigerian_community: "International campus" },
         { name: "Universitat Politècnica de Catalunya (UPC)", location: "Barcelona", known_for: "CS, telecom, civil, architecture — top engineering school in Catalonia", avg_tuition: "€1,500–4,000/yr", acceptance: "Selective", nigerian_community: "International" },
-        { name: "IE Business School", location: "Madrid", known_for: "MBA, Master's in Finance and Data Analytics — top 5 European business school, fully English-medium", avg_tuition: "€50,000–80,000 (MBA)", acceptance: "Selective", nigerian_community: "Diverse international cohort" },
+        { name: "IE Business School", location: "Madrid", known_for: "MBA, Master's in Finance and Data Analytics — top 5 European business school, fully English-medium", avg_tuition: "€82,000–90,000 (MBA, 2024/25)", acceptance: "Selective", nigerian_community: "Diverse international cohort" },
       ],
       phd: [
         { name: "Universidad Autónoma de Madrid (UAM)", location: "Madrid", known_for: "Sciences, economics, law, humanities — research-intensive, strong AEI-funded projects", avg_tuition: "Waived with FPI/FPU fellowship", acceptance: "Competitive (fellowship call)", nigerian_community: "International research environment" },
