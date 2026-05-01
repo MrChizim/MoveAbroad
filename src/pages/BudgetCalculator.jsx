@@ -203,13 +203,13 @@ export default function BudgetCalculator() {
   const toggle = (key) => setExpanded(e => ({ ...e, [key]: !e[key] }));
 
   const cityGroups = [
-    { label: '🇨🇦 Canada',        cities: ['Toronto, CA', 'Vancouver, CA', 'Calgary, CA', 'Ottawa, CA'] },
-    { label: '🇬🇧 United Kingdom', cities: ['London, GB', 'Manchester, GB', 'Birmingham, GB', 'Edinburgh, GB'] },
-    { label: '🇸🇪 Sweden',         cities: ['Stockholm, SE', 'Gothenburg, SE', 'Uppsala, SE', 'Lund, SE'] },
-    { label: '🇺🇸 USA',            cities: ['New York, US', 'Houston, US', 'Dallas, US', 'Atlanta, US'] },
-    { label: '🇩🇪 Germany',        cities: ['Berlin, DE', 'Munich, DE'] },
-    { label: '🇦🇺 Australia',      cities: ['Sydney, AU', 'Melbourne, AU'] },
-    { label: 'Other',              cities: ['Dublin, IE', 'Amsterdam, NL', 'Lisbon, PT', 'Warsaw, PL', 'Dubai, AE'] },
+    { label: 'Canada',        cities: ['Toronto, CA', 'Vancouver, CA', 'Calgary, CA', 'Ottawa, CA'] },
+    { label: 'United Kingdom', cities: ['London, GB', 'Manchester, GB', 'Birmingham, GB', 'Edinburgh, GB'] },
+    { label: 'Sweden',         cities: ['Stockholm, SE', 'Gothenburg, SE', 'Uppsala, SE', 'Lund, SE'] },
+    { label: 'USA',            cities: ['New York, US', 'Houston, US', 'Dallas, US', 'Atlanta, US'] },
+    { label: 'Germany',        cities: ['Berlin, DE', 'Munich, DE'] },
+    { label: 'Australia',      cities: ['Sydney, AU', 'Melbourne, AU'] },
+    { label: 'Other',          cities: ['Dublin, IE', 'Amsterdam, NL', 'Lisbon, PT', 'Dubai, AE'] },
   ];
 
   return (
@@ -325,7 +325,7 @@ export default function BudgetCalculator() {
                     <p className="text-white/40 text-xs mt-2">
                       Flight + Visa costs + Settlement + {months} months living in {city.split(',')[0]}
                     </p>
-                    <p className="text-amber-300 text-xs mt-1">⚠ Tuition fees are separate — check your specific university</p>
+                    <p className="text-amber-300 text-xs mt-1">Tuition fees are separate — check your specific university</p>
                   </div>
 
                   {/* Flight */}

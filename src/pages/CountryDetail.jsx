@@ -8,16 +8,17 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft, ArrowRight, Lock, CheckSquare, ExternalLink,
   GraduationCap, Briefcase, Clock, DollarSign, Globe,
-  MapPin, BookOpen, Award, Building2, Users, ChevronDown, ChevronUp
+  MapPin, BookOpen, Award, Building2, Users, ChevronDown, ChevronUp,
+  BookMarked, FlaskConical, Plane, Lightbulb, Calendar
 } from 'lucide-react';
 
 // ── Level selector config ──────────────────────────────────────────────
 const LEVELS = [
-  { id: 'undergrad',  label: 'Undergraduate', icon: '🎓' },
-  { id: 'masters',    label: 'Masters',        icon: '📚' },
-  { id: 'phd',        label: 'PhD',            icon: '🔬' },
-  { id: 'work',       label: 'Work Permit',    icon: '💼' },
-  { id: 'visitor',    label: 'Visitor Visa',   icon: '✈️' },
+  { id: 'undergrad',  label: 'Undergraduate', Icon: GraduationCap },
+  { id: 'masters',    label: 'Masters',        Icon: BookMarked },
+  { id: 'phd',        label: 'PhD',            Icon: FlaskConical },
+  { id: 'work',       label: 'Work Permit',    Icon: Briefcase },
+  { id: 'visitor',    label: 'Visitor Visa',   Icon: Plane },
 ];
 
 // ── Tab config ─────────────────────────────────────────────────────────
@@ -183,7 +184,7 @@ export default function CountryDetail() {
                   : 'text-black/40 hover:text-black/70 hover:bg-black/[0.03]'
               }`}
             >
-              <span className="text-lg">{l.icon}</span>
+              <l.Icon className="w-4 h-4" />
               {l.label}
             </button>
           ))}
@@ -282,7 +283,7 @@ export default function CountryDetail() {
                         {guide.summary[level].intro && (
                           <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
                             <h3 className="text-[15px] font-bold text-[#04091A] mb-3">
-                              {LEVELS.find(l => l.id === level)?.icon} {LEVELS.find(l => l.id === level)?.label} — What You Need to Know
+                              {LEVELS.find(l => l.id === level)?.label} — What You Need to Know
                             </h3>
                             <p className="text-[14px] text-black/60 leading-relaxed">{guide.summary[level].intro}</p>
                           </div>
@@ -336,7 +337,7 @@ export default function CountryDetail() {
                   <div className="space-y-4">
                     <div className="bg-white rounded-2xl border border-black/[0.07] p-6">
                       <h3 className="text-[15px] font-bold text-[#04091A] mb-5">
-                        {LEVELS.find(l => l.id === level)?.icon} {LEVELS.find(l => l.id === level)?.label} Visa — Step by Step
+                        {LEVELS.find(l => l.id === level)?.label} Visa — Step by Step
                       </h3>
                       <MarkdownText text={guide.visa?.[level]} />
                     </div>
@@ -442,11 +443,11 @@ export default function CountryDetail() {
                             <p className="text-[15px] font-bold text-[#04091A] mb-1">{s.name}</p>
                             <p className="text-[13px] text-black/40 mb-2">{s.university}</p>
                             <div className="flex flex-wrap gap-2">
-                              <span className="text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#ECFDF5', color: '#059669' }}>
-                                💰 {s.amount}
+                              <span className="inline-flex items-center gap-1 text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#ECFDF5', color: '#059669' }}>
+                                <DollarSign className="w-3 h-3" /> {s.amount}
                               </span>
-                              <span className="text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#FFF7ED', color: '#D97706' }}>
-                                📅 {s.deadline}
+                              <span className="inline-flex items-center gap-1 text-[12px] px-3 py-1 rounded-full font-semibold" style={{ background: '#FFF7ED', color: '#D97706' }}>
+                                <Calendar className="w-3 h-3" /> {s.deadline}
                               </span>
                             </div>
                           </div>
@@ -478,7 +479,7 @@ export default function CountryDetail() {
                       >
                         <div className="flex gap-3">
                           <div className="w-8 h-8 rounded-xl bg-[#EBF5FF] flex items-center justify-center flex-shrink-0 mt-0.5">
-                            <span className="text-[14px]">💡</span>
+                            <Lightbulb className="w-4 h-4 text-[#0096FF]" />
                           </div>
                           <div>
                             <p className="text-[14px] font-bold text-[#04091A] mb-1.5">{tip.title}</p>

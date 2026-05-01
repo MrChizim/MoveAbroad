@@ -4983,368 +4983,6 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
     },
   },
 
-  PL: {
-    tagline: "Poland — affordable EU education, a booming Warsaw tech scene, and one of Europe's fastest-growing economies.",
-
-    overview: `Poland is one of the most affordable EU countries for Nigerian students and workers. Warsaw and Krakow are dynamic cities with low costs (€500–800/month outside central Warsaw), strong universities, and a fast-growing tech sector. Polish universities charge non-EU students €1,500–4,000/year — far below Western Europe. English-medium programmes are widely available at Master's level. Poland is in the Schengen Area and EU, so a Polish degree and work permit opens doors across Europe. The path to permanent residency is 5 years. Polish bureaucracy is improving — the Legalization Office (Urząd do Spraw Cudzoziemców) handles permits, and most processes now have English guidance.`,
-
-    stats: {
-      undergrad: [
-        { label: "Tuition (non-EU)", value: "€1,500–4,000/yr" },
-        { label: "Living costs", value: "€500–800/mo" },
-        { label: "Visa type", value: "National visa (Type D)" },
-        { label: "Student work", value: "Unlimited hours during studies" },
-        { label: "Language", value: "Polish (most undergrad), English (many Master's)" },
-      ],
-      masters: [
-        { label: "Tuition (non-EU)", value: "€2,000–5,000/yr" },
-        { label: "Top universities", value: "University of Warsaw, Jagiellonian, Warsaw University of Technology" },
-        { label: "Scholarship", value: "NAWA Stefan Banach (PLN 2,500/mo — Nigeria-eligible)" },
-        { label: "Post-study permit", value: "1 year after graduation" },
-        { label: "English programmes", value: "Widely available" },
-      ],
-      phd: [
-        { label: "PhD fees", value: "Often free with stipend" },
-        { label: "Stipend", value: "PLN 4,242/mo before midterm, PLN 5,340/mo after (gross)" },
-        { label: "Duration", value: "4 years" },
-        { label: "Scholarship", value: "NAWA Bekker, NCN grants" },
-        { label: "Post-PhD", value: "1-year job search permit" },
-      ],
-      work: [
-        { label: "Main permit", value: "Temporary Residence and Work Permit" },
-        { label: "EU Blue Card threshold", value: "150% average salary (~€24,000/yr)" },
-        { label: "Processing time", value: "1–3 months" },
-        { label: "Income tax", value: "12% up to PLN 120,000, 32% above" },
-        { label: "PR eligibility", value: "5 years lawful residence" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Schengen short-stay (Type C)" },
-        { label: "Max stay", value: "90 days / 180-day period" },
-        { label: "Fee", value: "€80" },
-        { label: "Processing", value: "15 calendar days" },
-        { label: "Apply via", value: "Polish Embassy Abuja / Consulate Lagos (e-Konsulat — no VFS)" },
-      ],
-    },
-
-    summary: {
-      undergrad: "Polish public universities charge €1,500–4,000/year. Most undergrad is in Polish — language preparation is needed. English-medium undergrad exists at Medical University of Warsaw, University of Warsaw (selected programmes), and SGH Warsaw School of Economics. Apply directly to universities. Student visa is a Polish national visa (Type D), applied for at the Polish Embassy in Abuja. Living costs are among the lowest in the EU.",
-      masters: "English-medium Master's programmes are widely available. University of Warsaw, Jagiellonian University (Krakow), Warsaw University of Technology, and AGH University cover STEM, humanities, business, and law. The NAWA Stefan Banach Scholarship (Nigeria-eligible) covers tuition and PLN 2,500/month stipend for Master's students from developing countries. After graduation, apply for a 1-year Temporary Residence permit for job hunting.",
-      phd: "PhD programmes in Poland are run through doctoral schools (szkoły doktorskie) — 4 years, fully funded with a mandatory stipend (minimum PLN 4,242/month gross before midterm, PLN 5,340/month gross after midterm assessment). No tuition fees. The NCN (National Science Centre) Preludium grant funds pre-doctoral research projects. Apply directly to university doctoral schools — positions listed on euraxess.pl.",
-      work: "The main route is the Temporary Residence and Work Permit — employer-led, submitted at the Voivode (regional authority) office. Processing: 1–3 months. The EU Blue Card is available for salaries above 150% of the average Polish salary (~PLN 10,000+/month). Poland's low taxes (12% up to PLN 120,000/year) make net salaries attractive especially in tech. Warsaw's tech scene includes companies like Allegro, CD Projekt, Booksy, and offices of Google, Samsung, and Amazon.",
-      visitor: "Poland is in the Schengen Area — a Polish short-stay visa covers all 26 Schengen countries for 90 days. Apply directly at the Polish Consulate-General Lagos or Embassy Abuja — Poland does not use VFS in Nigeria. Book via e-Konsulat (secure2.e-konsulat.gov.pl). Standard documents: passport, insurance (€30,000+), accommodation proof, funds (€50/day minimum), return travel, ties to Nigeria.",
-    },
-
-    visa: {
-      undergrad: `**Polish National Visa (Type D) — Student**
-
-1. Apply to a Polish university directly — get your acceptance letter.
-2. Apply for a national visa (Type D) at the Polish Embassy in Abuja. Documents: passport, acceptance letter, proof of funds (€500/month), accommodation proof, health insurance, photos, application form. Fee: ~€80.
-3. Processing: 2–4 weeks.
-4. On arrival: register your address at the local Voivode office within 4 days (mandatory). Apply for a Temporary Residence Card (Karta Pobytu) for stays longer than 3 months.
-5. Work rights: students in Poland can work unlimited hours — no separate permit needed.`,
-
-      masters: `**Polish National Visa (Type D) — Master's**
-
-Same process as undergrad. For NAWA scholarship holders, the scholarship letter replaces proof of personal funds. Apply directly to universities — most have English online portals. After graduation, apply for a 1-year Temporary Residence permit at the Voivode office to job hunt. Once employed, employer applies for the Temporary Residence and Work Permit on your behalf.`,
-
-      phd: `**PhD — Doctoral School Route**
-
-If funded (doctoral school enrolment): apply for a Type D student visa using your doctoral school enrolment letter and stipend contract. Register your address (meldunek) at your local Commune within 4 days of arrival — then apply for your Karta Pobytu. No tuition fees for doctoral school positions. Minimum stipend: PLN 4,242/month gross before midterm (~PLN 3,764 net), rising to PLN 5,340/month gross after midterm (~PLN 4,739 net). After completion, apply for a 1-year job-search Temporary Residence permit.`,
-
-      work: `**Temporary Residence and Work Permit**
-
-1. Find a Polish employer. They submit a work permit application (zezwolenie na pracę) to the Voivode, plus you apply simultaneously for a Temporary Residence Permit.
-2. Combined processing: 1–3 months at the Voivode office.
-3. Once approved, apply for a Type D national visa at the Polish Embassy Abuja.
-4. On arrival: register your address, collect your Karta Pobytu (residence card).
-5. EU Blue Card: for salaries above ~PLN 10,000/month gross — request specifically from your employer for faster EU-wide mobility rights.`,
-
-      visitor: `**Schengen Visitor Visa (Type C)**
-
-Apply at the Polish Embassy Abuja (ul. Tiamiyu Savage 8, Victoria Island, Lagos has the Consulate-General; Embassy is in Abuja). Standard Schengen documents: passport, insurance (€30,000+), accommodation, return flights, bank statements (€50/day minimum), proof of Nigerian ties. Fee: €80. Processing: 15 calendar days.`,
-    },
-
-    timeline: {
-      undergrad: [
-        { phase: "University research & application", duration: "Oct–March", detail: "Apply directly to Polish universities. Deadlines vary — most September intakes close May–June. English-medium undergrad: Medical University of Warsaw (medicine, dentistry), SGH (economics), Warsaw University of Technology (engineering in English)." },
-        { phase: "Receive acceptance letter", duration: "April–June", detail: "Confirm your place and pay any deposit. Get the official enrolment/acceptance letter for visa." },
-        { phase: "Type D visa application", duration: "June–July", detail: "Apply at Polish Embassy Abuja with acceptance letter, proof of €500/month, accommodation, insurance, photos. Fee: ~€80. Processing: 2–4 weeks." },
-        { phase: "Arrive & register", duration: "August", detail: "Register address at local Voivode within 4 days. Apply for Karta Pobytu (residence card) for multi-year stay." },
-      ],
-      masters: [
-        { phase: "NAWA Stefan Banach Scholarship + university applications", duration: "Oct–June", detail: "NAWA Stefan Banach Scholarship (Nigeria-eligible developing countries programme): apply via nawa.gov.pl/en/students/coming-to-poland/banach-programme — typically closes June for September intake. Simultaneously apply directly to universities." },
-        { phase: "Visa and arrival", duration: "June–August", detail: "Same Type D visa process. NAWA scholarship letter replaces bank statement proof. Register at Voivode on arrival." },
-        { phase: "Post-graduation job search", duration: "After graduation", detail: "Apply for 1-year Temporary Residence permit at Voivode. Use pracuj.pl, LinkedIn, and company career pages (Google, Amazon, Allegro all hire internationally in Warsaw)." },
-      ],
-      phd: [
-        { phase: "Find PhD position", duration: "6–12 months ahead", detail: "Search euraxess.pl, university doctoral school websites, and NAWA fellowship calls. Email supervisors directly." },
-        { phase: "Enrolment + visa", duration: "2–3 months before start", detail: "Get enrolment letter from doctoral school. Apply for Type D visa at Polish Embassy Abuja." },
-        { phase: "4-year PhD", duration: "Ongoing", detail: "Annual Karta Pobytu renewals. Midterm assessment at year 2 triggers stipend increase." },
-      ],
-      work: [
-        { phase: "Job search", duration: "2–4 months", detail: "pracuj.pl, LinkedIn, nofluffjobs.com (tech), goldenline.pl. Warsaw tech market is active — software engineers, data, finance are in demand." },
-        { phase: "Employer submits permit", duration: "1–3 months", detail: "Voivode office processes Temporary Residence + Work Permit jointly." },
-        { phase: "Type D visa + arrival", duration: "3–6 weeks", detail: "Polish Embassy Abuja. Arrive, register address, collect Karta Pobytu." },
-        { phase: "PR at 5 years", duration: "After 5 years", detail: "Apply for permanent residence (stały pobyt) at the Voivode. Citizenship available after 3 more years." },
-      ],
-      visitor: [
-        { phase: "Apply", duration: "3–4 weeks before travel", detail: "Apply directly at Polish Consulate-General Lagos or Embassy Abuja via e-Konsulat (secure2.e-konsulat.gov.pl) — no VFS in Nigeria. Standard Schengen documents. €80 fee." },
-        { phase: "Decision", duration: "15 days", detail: "Poland processes Schengen applications in-house — no VFS tracking. Follow up with the consulate directly if delayed." },
-      ],
-    },
-
-    tips: {
-      undergrad: [
-        "Polish is required for most undergraduate programmes — consider 6–12 months at a Polish language school first. Many universities offer a 1-year preparatory Polish language course for international students.",
-        "Medical programmes in English at Medical University of Warsaw (€17,100/yr), Jagiellonian Medical College, and Poznan University of Medical Sciences are popular with Nigerians — fees are significant but degrees are WHO-recognized and valid across the EU and Commonwealth.",
-        "Cost of living in Krakow and Lodz is lower than Warsaw — €450–600/month including rent. Great quality of life for students.",
-        "Polish universities use ECTS — compatible with all EU systems. A Polish degree is recognized across the EU.",
-      ],
-      masters: [
-        "Warsaw University of Technology (Politechnika Warszawska) is Poland's top engineering school — strong English Master's in computer science, electronics, and civil engineering.",
-        "The NAWA Stefan Banach Scholarship is Nigeria's route — it's for developing countries specifically (not the PMFC scholarship which is for OECD countries). It covers tuition plus PLN 2,500/month stipend. Apply at nawa.gov.pl — deadline is typically June each year.",
-        "Warsaw's tech job market has exploded since 2020 — Google, Samsung R&D, Allegro, and hundreds of startups all hire English-speaking graduates. A Polish tech Master's is a strong launchpad.",
-      ],
-      phd: [
-        "Doctoral stipends are guaranteed by law: minimum PLN 4,242/month gross before midterm, PLN 5,340/month gross after. Stipends up to the national minimum wage are tax-free — take-home is better than the gross figure suggests.",
-        "NCN Preludium grants fund pre-doctoral research projects (up to PLN 210,000 for a 3-year project). Check ncn.gov.pl for open calls — PRELUDIUM runs twice yearly.",
-        "Poland's academic culture is collaborative and internationally oriented — many labs work fully in English.",
-      ],
-      work: [
-        "Poland's flat 12% income tax rate (on income up to PLN 120,000/year ≈ €28,000) is one of the lowest in the EU — net salaries are genuinely competitive.",
-        "Tech salaries in Warsaw: junior developer PLN 6,000–9,000/month net, mid PLN 10,000–15,000, senior PLN 16,000–22,000. Cost of living is a fraction of London or Amsterdam.",
-        "Most Polish companies and multinationals in Warsaw use English as a working language — Polish is not required for most tech, finance, and international business roles.",
-        "The Temporary Residence and Work Permit process is improving but can be slow — start the process as soon as you have a job offer. Some Voivode offices have long queues.",
-      ],
-      visitor: [
-        "Krakow, Warsaw, Gdansk, and Wroclaw are all worth visiting — Poland has excellent medieval architecture, World Heritage Sites, and some of the best food value in Europe.",
-        "Show strong ties to Nigeria in your application — employment letter, business registration, or property ownership all help.",
-      ],
-    },
-
-    universities: [
-      { name: "University of Warsaw", location: "Warsaw", intl_fee: "€2,000–4,000/yr", notes: "Poland's top-ranked university. Strong humanities, law, social sciences, and natural sciences. Many English Master's programmes. uw.edu.pl" },
-      { name: "Jagiellonian University", location: "Krakow", intl_fee: "€2,000–4,500/yr", notes: "One of Europe's oldest universities (est. 1364). Excellent law, medicine, humanities. Krakow is a beautiful, affordable city. uj.edu.pl" },
-      { name: "Warsaw University of Technology", location: "Warsaw", intl_fee: "€2,000–4,000/yr", notes: "Top engineering school. Strong CS, electrical engineering, civil engineering in English. pw.edu.pl" },
-      { name: "AGH University of Science and Technology", location: "Krakow", intl_fee: "€2,000–3,500/yr", notes: "Mining, energy, materials science, computer science. Strong research output. agh.edu.pl" },
-      { name: "SGH Warsaw School of Economics", location: "Warsaw", intl_fee: "€2,500–4,000/yr", notes: "Top business and economics school in Poland. English-medium programmes. sgh.waw.pl" },
-      { name: "Medical University of Warsaw", location: "Warsaw", intl_fee: "€17,100/yr (medicine)", notes: "English-medium medicine and dentistry. WHO-recognized. Popular with Nigerian pre-med students. wum.edu.pl" },
-    ],
-
-    scholarships: {
-      undergrad: [
-        { name: "NAWA Stefan Banach Scholarship", amount: "Tuition waiver + PLN 2,500/month stipend", university: "Polish public universities — for students from developing countries including Nigeria", deadline: "Check nawa.gov.pl — typically June for September intake", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
-      ],
-      masters: [
-        { name: "NAWA Stefan Banach Scholarship", amount: "Tuition waiver + PLN 2,500/month stipend", university: "Polish public universities — Nigeria-eligible (developing countries programme)", deadline: "June annually — nawa.gov.pl/en/students/coming-to-poland/banach-programme", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
-        { name: "University own scholarships", amount: "Partial tuition reductions — varies", university: "University of Warsaw, Jagiellonian, WUT — check each university's scholarship page", deadline: "With application — varies", url: "https://en.uw.edu.pl/" },
-      ],
-      phd: [
-        { name: "Doctoral School Stipend (guaranteed by law)", amount: "PLN 4,242/month (before midterm) / PLN 5,340/month (after midterm) — gross", university: "All Polish doctoral schools", deadline: "Rolling — per university recruitment cycle", url: "https://nawa.gov.pl/" },
-        { name: "NCN Research Grants (Preludium)", amount: "PLN 210,000 total for up to 36-month PhD projects", university: "All Polish universities — researcher-led grant applications", deadline: "Twice yearly — check ncn.gov.pl", url: "https://ncn.gov.pl/en" },
-      ],
-      work: [],
-    },
-
-    embassy: {
-      name: "Polish Embassy Abuja / Consulate-General Lagos",
-      address: "Embassy: Plot 926, Cadastral Zone A0, Central Business District, Abuja | Consulate-General: 8 Tiamiyu Savage Street, Victoria Island, Lagos",
-      phone: "Lagos Consulate: +234 1 461 7800",
-      note: "Poland does NOT use VFS Global for visa applications in Nigeria. Submit directly to the Polish Consulate-General in Lagos or the Embassy in Abuja. Appointments are booked via the e-Konsulat system at secure2.e-konsulat.gov.pl. Long-stay (Type D) national visa fee: ~€80. Schengen short-stay (Type C) fee: €80. Apply for residence permits (Karta Pobytu) in Poland at the local Voivode office after arrival — not at the embassy.",
-      website: "https://www.gov.pl/web/nigeria",
-      visa_apply: "https://secure2.e-konsulat.gov.pl/",
-      official_immigration: "https://udsc.gov.pl/en/",
-      extra_links: [
-        { label: "NAWA Stefan Banach Scholarship (Nigeria-eligible)", url: "https://nawa.gov.pl/en/students/coming-to-poland/banach-programme" },
-        { label: "Study in Poland — official student portal", url: "https://www.study.gov.pl/" },
-        { label: "Urząd do Spraw Cudzoziemców — Polish immigration authority", url: "https://udsc.gov.pl/en/" },
-        { label: "NCN — National Science Centre (PhD grants)", url: "https://ncn.gov.pl/en" },
-        { label: "Euraxess Poland — research job listings", url: "https://euraxess.ec.europa.eu/poland" },
-        { label: "Pracuj.pl — main Polish job board", url: "https://www.pracuj.pl/" },
-        { label: "No Fluff Jobs — Polish tech jobs in English", url: "https://nofluffjobs.com/" },
-      ],
-    },
-  },
-
-  CZ: {
-    tagline: "Czech Republic — free public university education (in Czech), thriving Prague tech scene, and low-cost EU living.",
-
-    overview: `The Czech Republic is one of Europe's hidden gems for relocation. Prague is a beautiful, safe, internationally connected city with a booming tech and startup scene, low cost of living (€700–1,000/month including rent), and fast-growing salaries. Public university education is free if you study in Czech — one of the few EU countries where this applies to non-EU nationals too. English-medium programmes at Czech universities cost €3,000–8,000/year. The main work permit route is the Employee Card (Zaměstnanecká karta) — employer-led, processed at the Czech Embassy. Czech Republic is in the Schengen Area and EU. Permanent residency after 5 years. Prague's Nigerian community is small but present.`,
-
-    stats: {
-      undergrad: [
-        { label: "Tuition (Czech-medium)", value: "Free at public universities" },
-        { label: "Tuition (English-medium)", value: "€3,000–8,000/yr" },
-        { label: "Living costs", value: "€700–1,000/mo in Prague" },
-        { label: "Visa type", value: "Long-stay visa for study (Type D)" },
-        { label: "Student work", value: "Unlimited hours" },
-      ],
-      masters: [
-        { label: "Tuition (English)", value: "€3,000–8,000/yr" },
-        { label: "Top universities", value: "Charles University, Czech Technical University (CTU), Masaryk University" },
-        { label: "Scholarship", value: "Czech Government Scholarship (DZS)" },
-        { label: "Post-study permit", value: "6-month job search after graduation" },
-        { label: "Language", value: "English (many Master's), Czech (free programmes)" },
-      ],
-      phd: [
-        { label: "PhD fees", value: "Free (Czech-medium), low (English-medium)" },
-        { label: "Stipend", value: "CZK 10,000–25,000/mo (~€400–1,000)" },
-        { label: "Duration", value: "4 years" },
-        { label: "Visa type", value: "Long-stay student visa (Type D)" },
-        { label: "Scholarship", value: "Czech Government Scholarship, GACR grants" },
-      ],
-      work: [
-        { label: "Main permit", value: "Employee Card (Zaměstnanecká karta)" },
-        { label: "EU Blue Card threshold", value: "1.5× average salary (~CZK 60,000/mo)" },
-        { label: "Processing time", value: "60 days (standard), 30 days (Blue Card)" },
-        { label: "Income tax", value: "15% flat rate (23% above CZK 1.9M/yr)" },
-        { label: "PR eligibility", value: "5 years lawful residence" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Schengen short-stay (Type C)" },
-        { label: "Max stay", value: "90 days / 180-day period" },
-        { label: "Fee", value: "€80" },
-        { label: "Processing", value: "15 calendar days" },
-        { label: "Apply via", value: "Czech Embassy Abuja" },
-      ],
-    },
-
-    summary: {
-      undergrad: "Czech public universities charge zero tuition for programmes taught in Czech — this applies to all nationalities including Nigerians. English-medium programmes cost €3,000–8,000/year. Charles University (Prague) and Masaryk University (Brno) are the most internationally recognized. Czech language preparation (B2 level) takes 12–18 months but unlocks essentially free EU university education. Apply directly to universities. Visa is a Type D long-stay issued at the Czech Embassy Abuja.",
-      masters: "English-medium Master's at Czech Technical University, Charles University, and Brno University of Technology are affordable (€3,000–6,000/year) and EU-recognized. The Czech Government Scholarship (DZS — scholarships.dzs.cz) is available for students from developing countries including Nigeria — covers tuition and stipend. After graduation, a 6-month job-search permit is available.",
-      phd: "Czech PhD programmes are free (Czech-medium) or low-cost, with stipends of CZK 10,000–25,000/month. Most funded positions are at research institutes (Czech Academy of Sciences — CAS) or universities. English-medium PhD positions are common in STEM. The Czech Science Foundation (GACR) funds project-based PhD positions.",
-      work: "The Employee Card (Zaměstnanecká karta) is the main work permit — employer files with the Ministry of Interior, you apply for a visa at the Czech Embassy Abuja. Processing: 60 days. EU Blue Card available for salaries above ~CZK 60,000/month. Czech flat 15% income tax is one of Europe's lowest. Prague tech salaries: CZK 60,000–100,000/month for experienced developers (€2,400–4,000 net).",
-      visitor: "Standard Schengen Type C visa. Apply at Czech Embassy Abuja. Documents: passport, insurance (€30,000+), accommodation, funds (€50/day), return travel, ties to Nigeria. Processing: 15 days.",
-    },
-
-    visa: {
-      undergrad: `**Czech Long-Stay Student Visa (Type D)**
-
-1. Apply directly to a Czech university — get acceptance letter.
-2. For Czech-medium programmes: prove B2 Czech language proficiency.
-3. Apply for Type D long-stay visa at Czech Embassy Abuja. Documents: passport, acceptance letter, proof of funds (€300/month minimum), accommodation, health insurance, photos. Fee: ~€100.
-4. Processing: 60–90 days — apply early.
-5. On arrival: register at the Foreign Police (Cizinecká policie) within 3 working days. Apply for a biometric residence permit (povolení k pobytu).
-6. Work: unlimited hours permitted for students.`,
-
-      masters: `**Czech Long-Stay Student Visa (Type D) — Master's**
-
-Same process as undergrad. For DZS scholarship holders, the scholarship letter replaces personal funds proof. After graduation, apply for a 6-month Temporary Residence permit extension for job searching. Once employed, your employer initiates the Employee Card process.`,
-
-      phd: `**PhD — Czech Long-Stay Student Visa**
-
-Apply to doctoral programmes via university websites or Czech Academy of Sciences (cas.cz). Get enrolment/acceptance letter and stipend contract. Apply for Type D visa at Czech Embassy Abuja. On arrival: register with Foreign Police, get residence permit. Annual renewals. GACR project-funded PhD positions listed on euraxess.cz.`,
-
-      work: `**Employee Card (Zaměstnanecká karta)**
-
-1. Secure a job offer from a Czech employer.
-2. Employer submits to Ministry of Interior — the role must appear on the Central Register of Vacancies (or employer claims exemption).
-3. You apply simultaneously for the Employee Card visa at Czech Embassy Abuja. Documents: passport, job contract, qualifications, accommodation proof, photos. Fee: ~€200.
-4. Processing: 60 days (standard), 30 days (EU Blue Card).
-5. On arrival: register at Foreign Police within 3 days. Collect biometric Employee Card (residence + work permit combined).
-6. EU Blue Card: for roles paying ≥1.5× average salary (~CZK 60,000/month) requiring higher education — request specifically.`,
-
-      visitor: `**Schengen Visitor Visa (Type C)**
-
-Apply at Czech Embassy Abuja (Sector A1, Cadastral Zone, Central Business District). Standard Schengen documents: passport, €30,000+ insurance, accommodation, return tickets, bank statements (€50/day minimum), Nigerian ties proof. Fee: €80. Processing: 15 days.`,
-    },
-
-    timeline: {
-      undergrad: [
-        { phase: "Czech language preparation (if free route)", duration: "12–18 months", detail: "Alliance Française doesn't offer Czech — use online resources (italki, Czech courses at charles university language centre). DELF equivalent for Czech: CCE exam." },
-        { phase: "University application", duration: "Nov–March for Sept intake", detail: "Apply directly to universities. Charles University admissions: cuni.cz. Czech Technical University: cvut.cz. Masaryk University: muni.cz." },
-        { phase: "Type D visa", duration: "April–June", detail: "Czech Embassy Abuja. Allow 60–90 days processing. Apply as early as possible." },
-        { phase: "Arrive & register", duration: "August", detail: "Register at Foreign Police within 3 working days. Apply for residence permit." },
-      ],
-      masters: [
-        { phase: "DZS scholarship + university applications", duration: "Oct–Feb", detail: "Czech Government Scholarship via scholarships.dzs.cz — typically closes January. Apply to universities simultaneously." },
-        { phase: "Visa + arrival", duration: "May–August", detail: "Type D visa at Czech Embassy. Register at Foreign Police on arrival." },
-        { phase: "Post-graduation", duration: "6 months", detail: "Apply for job-search extension before student permit expires. Jobs.cz, LinkedIn, startupjobs.cz for Prague tech roles." },
-      ],
-      phd: [
-        { phase: "Find position", duration: "6–12 months ahead", detail: "euraxess.cz, cas.cz job board, university doctoral school websites. Email supervisors directly." },
-        { phase: "Visa + arrival", duration: "60–90 days processing", detail: "Type D visa. Register at Foreign Police. Annual permit renewals." },
-      ],
-      work: [
-        { phase: "Job search", duration: "2–4 months", detail: "Jobs.cz, LinkedIn, startupjobs.cz. Prague has offices of IBM, Oracle, Accenture, Avast, JetBrains, and hundreds of international companies." },
-        { phase: "Employee Card process", duration: "60 days", detail: "Employer files, you apply at Czech Embassy Abuja simultaneously." },
-        { phase: "Arrive + PR path", duration: "5 years", detail: "Foreign Police registration. Annual renewals. PR after 5 years, citizenship after 10 years (or 5 with strong integration)." },
-      ],
-      visitor: [
-        { phase: "Apply at Czech Embassy Abuja", duration: "3–4 weeks before travel", detail: "Standard Schengen documents. €80 fee. 15-day processing." },
-      ],
-    },
-
-    tips: {
-      undergrad: [
-        "Free education in Czech is real — but Czech B2 proficiency takes 12–18 months of serious study. Budget for a preparation year (Czech language courses cost €2,000–5,000/year).",
-        "Charles University is ranked top 300 globally and is the oldest university in Central Europe — a degree from here is recognized worldwide.",
-        "Prague is one of Europe's most beautiful cities and has one of the lowest crime rates. Quality of life is excellent.",
-        "Czech koruna (CZK) is not euro — but it is strong and stable. €1 ≈ CZK 25. Prices feel very low to Nigerians converting from naira.",
-      ],
-      masters: [
-        "Czech Technical University (CTU/ČVUT) has strong English-medium Master's in computer science, electrical engineering, and civil engineering — graduates are hired across the EU.",
-        "Brno (Czech Republic's second city) has Masaryk University and Brno University of Technology — costs are 20–30% lower than Prague. Red Hat, IBM, and many tech companies have offices there.",
-        "Post-graduation, Prague's startup scene (Productboard, Kiwi.com, Pipedrive's Czech office) actively hires English-speaking international graduates.",
-      ],
-      phd: [
-        "Czech Academy of Sciences (CAS) runs world-class institutes in physics, chemistry, biology, and social sciences — independent of universities. Check cas.cz for research positions.",
-        "GACR (Czech Science Foundation) funds competitive PhD projects — supervisors apply for funding, then hire PhD students. A GACR-funded position is a strong career signal.",
-      ],
-      work: [
-        "Czech 15% flat income tax is genuinely low — take-home on CZK 80,000/month gross is around CZK 58,000 (≈€2,300 net). Prague rent for a 1-bed is CZK 18,000–25,000 (€720–1,000). Very liveable.",
-        "Prague is a major EU back-office hub — financial services firms (Citi, Deutsche Bank, Barclays all have Prague centres), tech companies, and shared services centres all hire English speakers.",
-        "Employee Card processing at Czech Embassy Abuja can be slow in peak months — start the process immediately once your employer is ready.",
-      ],
-      visitor: [
-        "Prague is one of the most visited cities in Europe — book accommodation early, especially in summer. Your Czech Schengen visa covers Germany, Austria, Slovakia, and all other Schengen countries.",
-        "The Czech Embassy in Abuja processes visitor visas carefully — a clean, organized application with clear proof of return ties works best.",
-      ],
-    },
-
-    universities: [
-      { name: "Charles University", location: "Prague", intl_fee: "Free (Czech) / €3,000–8,000 (English)", notes: "Top 300 globally, oldest in Central Europe. Medicine, law, humanities, natural sciences. cuni.cz" },
-      { name: "Czech Technical University (CTU/ČVUT)", location: "Prague", intl_fee: "Free (Czech) / €3,000–5,000 (English)", notes: "Top engineering school. Strong CS, electrical, civil, mechanical. cvut.cz" },
-      { name: "Masaryk University", location: "Brno", intl_fee: "Free (Czech) / €2,500–6,000 (English)", notes: "Second largest Czech university. Law, medicine, IT, social sciences. Lower cost than Prague. muni.cz" },
-      { name: "Brno University of Technology (VUT)", location: "Brno", intl_fee: "Free (Czech) / €2,500–4,500 (English)", notes: "Strong engineering, architecture, business. Good English-medium Master's. vutbr.cz" },
-      { name: "University of Economics Prague (VŠE)", location: "Prague", intl_fee: "Free (Czech) / €3,000–5,000 (English)", notes: "Top business and economics school in Czech Republic. vse.cz" },
-    ],
-
-    scholarships: {
-      undergrad: [
-        { name: "Czech Government Scholarship (DZS)", amount: "Tuition waiver + CZK 14,000–15,000/month stipend", university: "Czech public universities — Czech-medium programmes for most; some English options", deadline: "Typically January — scholarships.dzs.cz", url: "https://scholarships.dzs.cz/" },
-      ],
-      masters: [
-        { name: "Czech Government Scholarship (DZS)", amount: "Tuition waiver + CZK 14,000–15,000/month stipend", university: "Czech public universities", deadline: "January annually", url: "https://scholarships.dzs.cz/" },
-      ],
-      phd: [
-        { name: "Czech Government Scholarship (DZS) — PhD", amount: "Tuition waiver + CZK 14,500/month stipend", university: "Czech public universities and research institutions", deadline: "January annually", url: "https://scholarships.dzs.cz/" },
-        { name: "GACR Project PhD Positions", amount: "Stipend set by project — typically CZK 15,000–25,000/month", university: "All Czech universities — project-based", deadline: "Rolling — check gacr.cz and lab websites", url: "https://gacr.cz/en/" },
-      ],
-      work: [],
-    },
-
-    embassy: {
-      name: "Czech Embassy Abuja",
-      address: "Plot 1071, Cadastral Zone A06, Off Constitution Avenue, Central Business District, Abuja",
-      phone: "+234 9 461 4340",
-      note: "All Czech visa applications (short-stay and long-stay) are submitted at the Czech Embassy in Abuja. There is no Czech consulate in Lagos — all Nigerian applicants use the Abuja embassy. Long-stay visa processing: 60–90 days. Short-stay Schengen: 15 days. Residence permits (povolení k pobytu) are applied for in the Czech Republic at the Foreign Police after arrival.",
-      website: "https://www.mzv.cz/abuja",
-      visa_apply: "https://www.mzv.cz/abuja/en/visas_and_consular_services/",
-      vfs: "https://www.mzv.cz/abuja/en/visas_and_consular_services/",
-      official_immigration: "https://www.mvcr.cz/mvcren/",
-      extra_links: [
-        { label: "DZS Czech Government Scholarships", url: "https://scholarships.dzs.cz/" },
-        { label: "Czech Ministry of Interior — residence permits", url: "https://www.mvcr.cz/mvcren/" },
-        { label: "Czech Academy of Sciences — research jobs", url: "https://www.avcr.cz/en/" },
-        { label: "Euraxess Czech Republic — academic jobs", url: "https://euraxess.ec.europa.eu/czech-republic" },
-        { label: "GACR — Czech Science Foundation grants", url: "https://gacr.cz/en/" },
-        { label: "Jobs.cz — main Czech job board", url: "https://www.jobs.cz/" },
-        { label: "StartupJobs.cz — Prague tech and startup roles", url: "https://www.startupjobs.cz/en" },
-      ],
-    },
-  },
-
   PT: {
     tagline: "Portugal — warm climate, low cost of living, Golden Visa legacy, and a welcoming gateway into the EU.",
 
@@ -6017,23 +5655,23 @@ Visitor visa (B-1/B-2) applications from Nigeria face scrutiny — consular offi
         { label: "Visa type", value: "B-1/B-2 Visitor Visa" },
         { label: "Max stay", value: "Up to 6 months per entry (set by CBP officer)" },
         { label: "Fee", value: "MRV fee: $185" },
-        { label: "Processing", value: "Varies — Lagos and Abuja consulates have long wait times; allow 3–6 months" },
-        { label: "Apply via", value: "US Embassy Lagos or Abuja (ustraveldocs.com)" },
+        { label: "Processing", value: "Lagos B-1/B-2 wait time: 6–13 months in 2025 — book immediately" },
+        { label: "Apply via", value: "US Embassy Lagos or Consulate Abuja (ustraveldocs.com)" },
       ],
     },
 
     summary: {
-      undergrad: "US undergraduate fees are the highest in the world — $25,000–55,000/year at private universities, $15,000–35,000/year at public universities for international students. However, need-based financial aid is available at some elite institutions (Harvard, MIT, Yale, Princeton are need-blind for international students — they meet 100% of demonstrated financial need). For most applicants, community college → state university transfer is a more affordable path. F-1 visa required. Apply through Common App or Coalition App.",
+      undergrad: "US undergraduate fees are the highest in the world — $25,000–55,000/year at private universities, $15,000–35,000/year at public universities for international students. However, 8 US universities are fully need-blind for international students and meet 100% of demonstrated financial need: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown. Harvard families earning under $100,000/year pay nothing at all (tuition + room + board); under $200,000 pay no tuition. For most applicants, community college → state university transfer is a more affordable path. F-1 visa required. Apply through Common App.",
       masters: "The STEM Master's landscape in the US is split: funded (TA/RA covers tuition + pays a stipend) or unfunded (you pay full fees). Always target funded programmes in STEM — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, or University of Michigan is transformative. After graduation, STEM OPT gives 3 years of open work authorization — enough time to get an H-1B through the lottery. Unfunded business/law Master's degrees at elite schools (MBA at Wharton, HBS) can justify the $100,000+ cost through premium salaries.",
       phd: "US PhD programmes in STEM are almost always fully funded — tuition waived plus a stipend of $18,000–35,000/year. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, or any top-50 US research university is free education at the world's best institutions, paid. After your PhD, STEM OPT gives 3 years of work authorization. PhD holders can self-petition for an EB-1A (extraordinary ability Green Card) or EB-2 NIW (National Interest Waiver) without needing employer sponsorship.",
       work: "The H-1B is the primary work visa for skilled professionals in the US. It requires employer sponsorship, a Bachelor's degree or higher, and selection in an annual lottery (85,000 cap, typically 300,000+ applicants). Nigerian STEM graduates on OPT participate in the lottery. Key strategies: work at a university or non-profit (exempt from the cap), accumulate H-1B registrations over multiple years, or qualify for O-1A (extraordinary ability — no cap, no lottery). Big tech companies (Google, Microsoft, Amazon, Meta, Apple) routinely sponsor Nigerian engineers through H-1B and Green Card processes.",
-      visitor: "The B-1/B-2 US visitor visa is one of the most closely scrutinized for Nigerian applicants. Approval depends heavily on demonstrating strong ties to Nigeria (employment, property, family) and a clear purpose of visit. The interview at the US Embassy Lagos or Abuja is the key step. Wait times for appointments can be 3–6 months — plan far in advance. The MRV fee is $185 regardless of outcome.",
+      visitor: "The B-1/B-2 US visitor visa is one of the most closely scrutinized for Nigerian applicants. Approval depends heavily on demonstrating strong ties to Nigeria (employment, property, family) and a clear purpose of visit. The interview at the US Embassy Lagos or Consulate Abuja is the key step. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the moment you decide to travel. The MRV fee is $185 regardless of outcome.",
     },
 
     visa: {
       undergrad: `**US F-1 Student Visa — Undergraduate**
 
-1. Apply to US universities through Common App (commonapp.org) or Coalition App (schools.coalitionforcollegeaccess.org). For need-blind financial aid: target Harvard, MIT, Yale, Princeton, Amherst, Dartmouth — all meet 100% of demonstrated financial need for international students.
+1. Apply to US universities through Common App (commonapp.org). For need-blind financial aid: 8 universities are fully need-blind for international students and meet 100% of demonstrated financial need — Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown. Harvard families earning under $100,000/year pay nothing (tuition + room + board covered); under $200,000 pay no tuition. Apply for financial aid regardless of income — many Nigerian families qualify for significant aid.
 
 2. Receive I-20 form from your university — this is your SEVIS registration document, issued only after you are admitted and confirm enrollment.
 
@@ -6114,7 +5752,8 @@ Humanities and social sciences PhDs have more variable funding — some fully fu
 - Employer must sponsor and file a petition with USCIS
 - Annual cap: 65,000 regular + 20,000 US Master's degree holders = 85,000 total
 - Annual lottery: registration period is March, draw in April, work starts October 1
-- Employer registers you in the lottery — you don't apply yourself
+- FY2027 onwards (effective Feb 2026): H-1B moves to wage-weighted selection — higher-salary roles have better lottery odds
+- Employer registers you — you don't apply yourself
 - Stamping: after H-1B is approved, you may need to go to the US Embassy Lagos for a visa stamp in your passport
 
 **Key H-1B facts for Nigerians:**
@@ -6145,7 +5784,7 @@ Complete at ceac.state.gov/genniv. Be detailed and honest about your purpose, tr
 Pay at ustraveldocs.com or a designated bank. Keep the receipt.
 
 **Step 3: Schedule interview**
-At US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja (Plot 1075, Diplomatic Drive, Central Business District). Book at ustraveldocs.com. Wait times can be 3–6 months — book as early as possible.
+At US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja (Plot 1075, Diplomatic Drive, Central Business District). Book at ustraveldocs.com. In 2025, Lagos B-1/B-2 wait times are 6–13 months — book the day you decide to apply.
 
 **Step 4: Attend interview**
 Bring:
@@ -6199,14 +5838,14 @@ Bring:
       ],
       work: [
         { phase: "Job search targeting H-1B sponsors", duration: "During OPT / before", detail: "Use LinkedIn, Glassdoor, Levels.fyi (tech salaries), Indeed. Look specifically at companies with H-1B sponsorship history — myvisajobs.com shows which companies file most H-1B petitions." },
-        { phase: "H-1B lottery registration", duration: "March annually", detail: "Your employer registers you online. $10 fee per registration (employer pays). Results in April. If selected, USCIS adjudicates the petition. Work starts October 1." },
+        { phase: "H-1B lottery registration", duration: "March annually", detail: "Your employer registers you online. $215 registration fee per beneficiary (employer pays — increased from $10 in 2025). Results in April. If selected, USCIS adjudicates the petition. Work starts October 1. From FY2027, selection is wage-weighted — higher salary = better odds." },
         { phase: "If lottery not selected", duration: "Stay on OPT / explore alternatives", detail: "Remain on STEM OPT (if eligible for remaining time). Try again next March. Consider cap-exempt employers (universities, nonprofits). Explore O-1A if qualifications are strong." },
         { phase: "H-1B to Green Card", duration: "3–10 years", detail: "Employer files PERM labor certification (EB-2/EB-3) or you self-petition (EB-1A/EB-2 NIW). Nigerians do NOT face the India/China per-country backlog — wait times are reasonable." },
         { phase: "Citizenship at 5 years", duration: "After 5 years as Green Card holder", detail: "Apply for naturalization. Dual nationality: US citizenship requires no renunciation, but Nigeria does not formally recognize dual citizenship. Many Nigerian-Americans hold both passports in practice." },
       ],
       visitor: [
         { phase: "DS-160 form", duration: "Complete before scheduling appointment", detail: "ceac.state.gov/genniv — save your application ID. Thorough, honest answers." },
-        { phase: "MRV fee payment + appointment scheduling", duration: "3–6 months before intended travel", detail: "ustraveldocs.com — pay $185, schedule interview at US Embassy Lagos or Abuja. Lagos wait times can be 4–6 months. Book as early as possible." },
+        { phase: "MRV fee payment + appointment scheduling", duration: "6–13 months before intended travel", detail: "ustraveldocs.com — pay $185, schedule interview at US Embassy Lagos or Consulate Abuja. Lagos B-1/B-2 wait times in 2025 are 6–13 months. Book immediately after deciding to travel. Check travel.state.gov for current wait times (updated monthly)." },
         { phase: "Interview", duration: "On appointment day", detail: "Arrive 15 minutes early. Short, confident answers. Show strong ties to Nigeria. Be clear about your purpose and plans." },
         { phase: "Decision", duration: "Immediate (most cases)", detail: "Most decisions at the window. If approved: passport collected within 3–5 working days. If refused: 214(b) — you can reapply with stronger evidence." },
       ],
@@ -6214,7 +5853,7 @@ Bring:
 
     tips: {
       undergrad: [
-        "Harvard, MIT, Yale, Princeton, and Amherst are need-blind for international students and meet 100% of demonstrated financial need — a family earning ₦5M/year could pay essentially nothing. Apply and apply for financial aid aggressively. Many Nigerians assume they cannot afford US education and never apply to these schools.",
+        "8 US universities are fully need-blind for international students: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown — all meet 100% of demonstrated financial need. Harvard families earning under $100,000/year pay nothing at all (tuition + room + board); under $200,000 pay no tuition. Many Nigerians assume they cannot afford US education and never apply. Apply to all 8 and file for financial aid — the worst answer is a no.",
         "Community college → state university transfer is the most affordable path to a US degree — 2 years at a community college (as low as $6,000–10,000/year), then transfer to a state university as a junior. Total cost can be under $60,000 for 4 years.",
         "The Common App essay is the most important document — write about something specific, personal, and genuine. Nigerian students often write about overcoming hardship, which is fine, but the best essays are specific, surprising, and show real personality.",
         "Strong SAT/ACT scores are not required at most schools (test-optional) but can unlock merit scholarships at mid-tier universities. A 1400+ SAT or 30+ ACT opens merit scholarship opportunities at schools like University of Alabama, Tulsa, or Northeastern.",
@@ -6239,7 +5878,7 @@ Bring:
       ],
       visitor: [
         "The B-1/B-2 interview in Lagos is short — typically under 3 minutes. Your entire case is made on a few key questions. Practice your answers: why are you visiting? What do you do in Nigeria? What family do you have here? When are you returning? Be specific and confident.",
-        "Lagos US Embassy appointment wait times are among the longest in Africa — 4–6 months is common. Book the moment you decide to apply. Plan your visit date accordingly.",
+        "Lagos US Embassy B-1/B-2 wait times in 2025 are 6–13 months — among the longest in the world. Book the moment you decide to apply. Check travel.state.gov monthly for updates. Plan your trip date at least a year out.",
         "If refused, wait 6–12 months before reapplying. A new application needs new or stronger evidence — the same application will almost certainly be refused again. Address the specific 214(b) reason.",
         "Prior Schengen visa, UK visa, or Canadian visa stamps in your passport significantly help a B-1/B-2 application — they demonstrate you have traveled internationally and returned home as required.",
         "Once inside the US on a B-1/B-2, do not overstay the date stamped in your passport by CBP. Overstaying bars you from the US for 3 years (180-day overstay) or 10 years (1-year+ overstay). It is one of the most serious immigration violations and affects global visa applications.",
@@ -6259,7 +5898,7 @@ Bring:
 
     scholarships: {
       undergrad: [
-        { name: "Harvard/MIT/Yale/Princeton Need-Based Aid", amount: "Up to full tuition + room + board — based on family income (families earning under ~$75,000/year often pay nothing)", university: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth — all need-blind for international students", deadline: "CSS Profile due November 15 (Early Decision) / January 1 (Regular Decision)", url: "https://college.harvard.edu/financial-aid" },
+        { name: "Need-Blind Financial Aid (8 universities)", amount: "Harvard: families under $100,000/year pay nothing (tuition + room + board); under $200,000 pay no tuition. MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown: similar full-need coverage — all meet 100% of demonstrated financial need", university: "Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown — all need-blind for international students", deadline: "CSS Profile due November 15 (Early Decision) / January 1–15 (Regular Decision)", url: "https://college.harvard.edu/financial-aid" },
         { name: "Mastercard Foundation Scholars Program", amount: "Full scholarship — tuition, room, board, travel, for African students at partner universities including some US schools", university: "Partnership varies — check mastercardfdn.org for current US partner universities", deadline: "Varies by partner university — check mastercardfdn.org annually", url: "https://mastercardfdn.org/all/scholars/" },
       ],
       masters: [
@@ -6278,7 +5917,7 @@ Bring:
       name: "US Embassy Lagos / US Consulate Abuja",
       address: "Embassy: 2 Walter Carrington Crescent, Victoria Island, Lagos | Consulate: Plot 1075, Diplomatic Drive, Central Business District, Abuja",
       phone: "Visa enquiries: ustraveldocs.com (online). Emergency: +234 1 460 3400 (Lagos)",
-      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamping) for Nigerian applicants are booked via ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule. Lagos wait times for B-1/B-2 and F-1 appointments can be 4–6 months — book as early as possible. F-1 students can be interviewed up to 120 days before their programme start date. SEVIS fee ($350 for F-1) is paid separately at fmjfee.com before your interview. DS-160 form is completed at ceac.state.gov/genniv. USCIS (US Citizenship and Immigration Services) handles petitions for H-1B and Green Card — this is done inside the US by your employer, not at the embassy.",
+      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamping) for Nigerian applicants are booked via ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule. Lagos B-1/B-2 wait times in 2025 are 6–13 months — book immediately. F-1 wait times are shorter. F-1 students can be interviewed up to 120 days before their programme start date. SEVIS fee ($350 for F-1) is paid separately at fmjfee.com before your interview. DS-160 form is completed at ceac.state.gov/genniv. Check travel.state.gov for current wait times (updated monthly). USCIS (US Citizenship and Immigration Services) handles H-1B and Green Card petitions — done inside the US by your employer, not at the embassy.",
       website: "https://ng.usembassy.gov/",
       visa_apply: "https://www.ustraveldocs.com/ng/",
       vfs: "https://www.ustraveldocs.com/ng/",

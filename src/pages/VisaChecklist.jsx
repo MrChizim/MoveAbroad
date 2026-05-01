@@ -9,10 +9,10 @@ import { ArrowLeft, CheckCircle2, Circle, Lock, ArrowRight } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion';
 
 const VISA_TYPES = [
-  { value: 'student', label: '🎓 Student' },
-  { value: 'work', label: '💼 Work' },
-  { value: 'visitor', label: '✈️ Visitor' },
-  { value: 'permanent_residency', label: '🏠 PR' },
+  { value: 'student', label: 'Student' },
+  { value: 'work', label: 'Work' },
+  { value: 'visitor', label: 'Visitor' },
+  { value: 'permanent_residency', label: 'PR' },
 ];
 
 export default function VisaChecklist() {

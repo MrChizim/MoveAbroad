@@ -62,7 +62,7 @@ export default function HeroSection() {
           className="text-[15px] sm:text-[17px] leading-relaxed max-w-[520px] mb-8 sm:mb-10"
           style={{ color: 'rgba(255,255,255,0.45)', fontWeight: 400 }}
         >
-          In-depth relocation guides built for Nigerians — visa pathways, job strategies, cost breakdowns, CV templates for 15+ countries.
+          In-depth relocation guides built for Nigerians — visa pathways, job strategies, cost breakdowns, CV templates for 13+ countries.
         </motion.p>
 
         {/* CTAs */}
@@ -91,7 +91,7 @@ export default function HeroSection() {
           style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}
         >
           {[
-            { value: '15+', label: 'Countries covered' },
+            { value: '13+', label: 'Countries covered' },
             { value: '10+', label: 'Sections per guide' },
             { value: '100%', label: 'Nigeria-focused' },
             { value: 'Once', label: 'Pay once, keep forever' },

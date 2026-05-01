@@ -170,7 +170,7 @@ export default function Pricing() {
 
             {selectedPkg?.id === 'all_access' && (
               <div className="rounded-xl p-4 text-[13px] text-center" style={{ background: '#ECFDF5', color: '#059669' }}>
-                🌍 All 15 country guides unlock instantly after payment.
+                All 13 country guides unlock instantly after payment.
               </div>
             )}
 

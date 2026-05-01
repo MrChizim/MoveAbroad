@@ -133,7 +133,7 @@ export default function Footer() {
           {/* Disclaimer */}
           <div className="rounded-xl px-4 py-3 mb-8 text-center sm:text-left" style={{ border: '1px solid rgba(255,255,255,0.06)' }}>
             <p className="text-[11px] leading-relaxed" style={{ color: 'rgba(255,255,255,0.18)' }}>
-              ⚠ MoveAbroad.ng provides educational resources only. Always verify immigration requirements with official government sources before making any decisions.
+              MoveAbroad.ng provides educational resources only. Always verify immigration requirements with official government sources before making any decisions.
             </p>
           </div>
 

@@ -11,17 +11,17 @@ import { generateCV, generateCoverLetter } from '@/lib/cvGenerator';
 import { toast } from 'sonner';
 
 const STYLES = [
-  { id: 'CA', flag: '🇨🇦', name: 'Canadian Style', desc: 'Max 2 pages, no photo, achievements-focused, ATS optimized.' },
-  { id: 'US', flag: '🇺🇸', name: 'US Style (Resume)', desc: '1 page preferred, tight format, metric-heavy, no personal info.' },
-  { id: 'GB', flag: '🇬🇧', name: 'UK Style', desc: '2 pages allowed, personal statement at top, UK spelling.' },
-  { id: 'EU', flag: '🇪🇺', name: 'European Style', desc: 'Two-column layout, navy sidebar, skills pills, photo-optional. Standard across EU countries including Sweden, Germany, Netherlands and more.' },
+  { id: 'CA', code: 'CA', name: 'Canadian Style', desc: 'Max 2 pages, no photo, achievements-focused, ATS optimized.' },
+  { id: 'US', code: 'US', name: 'US Style (Resume)', desc: '1 page preferred, tight format, metric-heavy, no personal info.' },
+  { id: 'GB', code: 'UK', name: 'UK Style', desc: '2 pages allowed, personal statement at top, UK spelling.' },
+  { id: 'EU', code: 'EU', name: 'European Style', desc: 'Two-column layout, navy sidebar, skills pills, photo-optional. Standard across EU countries including Sweden, Germany, Netherlands and more.' },
 ];
 
 const COVER_COUNTRIES = [
-  { id: 'CA', flag: '🇨🇦', name: 'Canada' },
-  { id: 'GB', flag: '🇬🇧', name: 'United Kingdom' },
-  { id: 'SE', flag: '🇸🇪', name: 'Sweden' },
-  { id: 'EU', flag: '🇪🇺', name: 'Europe (General)' },
+  { id: 'CA', code: 'CA', name: 'Canada' },
+  { id: 'GB', code: 'UK', name: 'United Kingdom' },
+  { id: 'SE', code: 'SE', name: 'Sweden' },
+  { id: 'EU', code: 'EU', name: 'Europe (General)' },
 ];
 
 const COVER_LEVELS = [
@@ -148,7 +148,7 @@ export default function CVBuilder() {
                   : 'border-black/[0.08] hover:border-[#0096FF]/40 bg-white'
               }`}
             >
-              <span className="text-3xl block mb-3">{style.flag}</span>
+              <span className="inline-block text-[11px] font-bold px-2 py-1 rounded-lg mb-3" style={{ background: '#EBF5FF', color: '#0096FF' }}>{style.code}</span>
               <h4 className="text-[14px] font-bold text-[#04091A] mb-1">{style.name}</h4>
               <p className="text-[12px] text-black/40 leading-relaxed">{style.desc}</p>
               {selectedStyle === style.id && (
@@ -229,7 +229,7 @@ export default function CVBuilder() {
                     : 'border-black/[0.08] hover:border-[#7C3AED]/40 bg-white'
                 }`}
               >
-                <span className="text-2xl block mb-2">{c.flag}</span>
+                <span className="inline-block text-[11px] font-bold px-2 py-1 rounded-lg mb-2" style={{ background: '#EBF5FF', color: '#0096FF' }}>{c.code}</span>
                 <p className="text-[13px] font-semibold text-[#04091A]">{c.name}</p>
                 {coverCountry === c.id && (
                   <Badge className="mt-2 text-[11px]" style={{ background: '#7C3AED', color: '#fff' }}>Selected</Badge>

@@ -165,7 +165,7 @@ export default function Community() {
 
                         {post.answer && (
                           <div className="bg-accent/50 rounded-xl p-4 mb-3">
-                            <p className="text-xs font-semibold text-primary mb-1">✅ Community Answer:</p>
+                            <p className="text-xs font-semibold text-primary mb-1">Community Answer:</p>
                             <p className="text-sm text-foreground leading-relaxed">{post.answer}</p>
                           </div>
                         )}
@@ -227,9 +227,9 @@ export default function Community() {
               <Select value={form.type} onValueChange={v => setForm(f => ({ ...f, type: v }))}>
                 <SelectTrigger><SelectValue /></SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="question">❓ Question</SelectItem>
-                  <SelectItem value="tip">💡 Tip / Advice</SelectItem>
-                  <SelectItem value="success_story">⭐ Success Story</SelectItem>
+                  <SelectItem value="question">Question</SelectItem>
+                  <SelectItem value="tip">Tip / Advice</SelectItem>
+                  <SelectItem value="success_story">Success Story</SelectItem>
                 </SelectContent>
               </Select>
             </div>
