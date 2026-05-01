@@ -5211,11 +5211,84 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
     },
 
     summary: {
-      undergrad: "Portuguese public universities charge €950–3,500/year for non-EU students — some of the most affordable in Western Europe. Most undergraduate programmes are in Portuguese. English-medium undergrad is limited — mainly at private institutions and some IST (Instituto Superior Técnico) programmes. Apply directly to universities via the national portal (dges.mec.pt). Student visa is the D4, applied for at the Portuguese Embassy Abuja. Portuguese language (B1–B2) opens up the full range of affordable public programmes.",
-      masters: "Portugal has excellent English-medium Master's at IST (engineering), Nova School of Business and Economics (management, finance), Universidade Nova Lisboa (sciences), and University of Porto. Fees are €1,250–7,000/year. The Gulbenkian Foundation and FCT (Foundation for Science and Technology) offer scholarships. After your Master's, you can apply for a 1-year job-search permit extension.",
-      phd: "FCT (Fundação para a Ciência e a Tecnologia) is Portugal's main research funder. The FCT PhD Scholarship pays €1,074/month net (tax-free) for 4 years — competitive but accessible. Most STEM and social science PhDs in Portugal are advertised through FCT calls or individual university positions. Visa is the D4 student or D3 researcher visa applied at the Portuguese Embassy Abuja.",
-      work: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. It covers professionals with higher education qualifications in qualified roles. The Tech Visa is a fast-track for tech professionals — the employer gets certified as a Tech Visa employer, then sponsors your application. Processing at SEF/AIMA (immigration authority) takes 2–3 months. Portugal's Non-Habitual Resident (NHR) tax regime offers a flat 20% tax rate on Portuguese-sourced income for the first 10 years — one of Europe's most attractive tax incentives for skilled migrants.",
-      visitor: "Standard Schengen Type C visa. Portuguese Embassy Abuja or VFS. Proof of funds (€75/day recommended), insurance (€30,000+), return travel, accommodation, ties to Nigeria. Processing: 15 days. Portugal is one of the safest and most tourist-friendly countries in Europe.",
+      undergrad: {
+        intro: "Portuguese public universities charge €950–3,500/year for non-EU students — some of the most affordable in Western Europe. Most undergraduate programmes are in Portuguese; English-medium undergrad is limited to private institutions and some IST programmes.",
+        firstSteps: [
+          { action: "Learn Portuguese", detail: "B1–B2 opens the full range of affordable public programmes. Instituto Camões, Pimsleur, and italki are useful resources." },
+          { action: "Apply via DGES portal", detail: "dges.mec.pt is the national admissions clearinghouse for public universities. Private universities apply directly." },
+          { action: "Get criminal record apostilled", detail: "Required for the D4 visa — obtain from Nigerian Police Force and apostille at Ministry of Foreign Affairs. Allow 6–8 weeks." },
+          { action: "Apply for D4 student visa", detail: "Submit at the Portuguese Embassy in Abuja. Fee ~€90. Processing 2–3 months." },
+        ],
+        keyFacts: [
+          "Tuition: €950–3,500/year (public non-EU)",
+          "Work permitted: 20 hrs/week term-time, full-time holidays",
+          "Residence permit applied at AIMA within 4 months of arrival",
+          "Porto is significantly cheaper than Lisbon — comparable universities at lower living costs",
+        ],
+        outcome: "4-year degree opens D3 job-search extension and EU Blue Card eligibility. Portugal citizenship after 5 years of residency.",
+      },
+      masters: {
+        intro: "Portugal has excellent English-medium Master's at IST (engineering), Nova SBE (management, finance), Universidade Nova Lisboa (sciences), and University of Porto. Fees are €1,250–7,000/year.",
+        firstSteps: [
+          { action: "Apply for FCT or Gulbenkian scholarship", detail: "FCT PhD calls at fct.pt, Gulbenkian Foundation at gulbenkian.pt. Some university scholarships open in October." },
+          { action: "Apply directly to university", detail: "Nova SBE, IST, U.Porto all have English application portals. Jan–May for September intake." },
+          { action: "Get criminal record apostilled", detail: "Longest step — start immediately. 6–8 weeks minimum." },
+          { action: "Apply for D4 student visa at Portuguese Embassy Abuja", detail: "Fee ~€90. Processing 2–3 months. Allow 8–10 weeks total." },
+        ],
+        keyFacts: [
+          "Tuition: €1,250–7,000/year (English-medium public); up to €22,000 (Nova SBE)",
+          "FCT scholarship: €1,074/month net tax-free",
+          "Post-graduation: 1-year D3 job-search permit available",
+          "NHR tax regime: 20% flat tax on Portuguese income for 10 years when you transition to work",
+        ],
+        outcome: "Strong engineering, business, and sciences Master's feeding Lisbon's fast-growing tech and startup ecosystem.",
+      },
+      phd: {
+        intro: "FCT (Fundação para a Ciência e a Tecnologia) is Portugal's main research funder. The FCT PhD Scholarship pays €1,074/month net (tax-free) for 4 years — competitive but accessible for strong candidates.",
+        firstSteps: [
+          { action: "Apply for FCT PhD scholarship", detail: "Annual competition opens February/March at fct.pt. Also look for supervisor-funded positions at individual research institutions." },
+          { action: "Contact potential supervisors directly", detail: "INESC TEC, Instituto Gulbenkian de Ciência, ITQB NOVA, LARSyS are leading research institutions." },
+          { action: "Apply for D4 student or D3 researcher visa", detail: "D4 for FCT scholarship holders; D3 for researcher employment contracts. Both at Portuguese Embassy Abuja. ~2–3 months processing." },
+        ],
+        keyFacts: [
+          "FCT stipend: €1,074/month net, tax-free, 4 years",
+          "Tuition waiver included with FCT fellowship",
+          "AIMA residence permit renewed annually",
+          "Coimbra and Porto offer lower living costs than Lisbon: €600–800/month",
+        ],
+        outcome: "Portuguese research residency, path to D3 post-doc or industry work visa, and citizenship eligibility at 5 years.",
+      },
+      work: {
+        intro: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. The Tech Visa is a fast-track for tech professionals. Portugal's NHR tax regime offers 20% flat tax on Portuguese income for 10 years.",
+        firstSteps: [
+          { action: "Secure job offer or Tech Visa sponsor", detail: "Landing.jobs, LinkedIn, and Glassdoor Portugal are main platforms. Lisbon offices: Google, Amazon, Volkswagen Digital, Farfetch, Feedzai." },
+          { action: "Apply for D3 visa at Portuguese Embassy Abuja", detail: "Documents: passport, employment contract, degree certificates, criminal record (apostilled), accommodation, photos. Fee ~€90. Processing 60–90 days." },
+          { action: "Apply for NHR tax regime", detail: "At finanças.gov.pt (tax authority) by 31 March of the year following your first tax residency. 20% flat tax for 10 years." },
+          { action: "Apply for AIMA residence permit", detail: "On arrival, within 4 months." },
+        ],
+        keyFacts: [
+          "NHR: 20% flat tax on Portuguese employment income for 10 years",
+          "Citizenship after 5 years lawful residence + A2 Portuguese test",
+          "Tech Visa: employer certified by IAPMEI sponsors faster processing",
+          "AIMA processing can be slow — allow extra time, consider a lawyer for complex cases",
+        ],
+        outcome: "One of Europe's most attractive relocation destinations: affordable, safe, English-friendly in professional settings, with a uniquely competitive tax regime.",
+      },
+      visitor: {
+        intro: "Standard Schengen Type C visa. Portuguese Embassy Abuja — no VFS centre for Portugal in Nigeria, apply directly.",
+        firstSteps: [
+          { action: "Book appointment at Portuguese Embassy Abuja", detail: "Plot 1222 Parakou Crescent, Wuse II, Abuja. Slots can be limited — book early." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, accommodation proof, travel insurance (€30,000+), bank statements (€75/day), proof of Nigeria ties." },
+          { action: "Pay fee and submit", detail: "€80 Schengen fee. Processing: 15 days standard." },
+        ],
+        keyFacts: [
+          "Fee: €80 | Processing: 15 days",
+          "No criminal record required for visitor visa",
+          "No VFS for Portugal in Nigeria — embassy-direct only",
+          "Covers all 27 Schengen Area countries",
+        ],
+        outcome: "Portugal is safe, warm, and tourist-friendly. Lisbon and Porto in spring/autumn; Algarve beaches in summer.",
+      },
     },
 
     visa: {
@@ -5258,72 +5331,80 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
 
     timeline: {
       undergrad: [
-        { phase: "Portuguese language (if applicable)", duration: "6–12 months", detail: "Most affordable public programmes require Portuguese B1–B2. Instituto Camões and online platforms (Pimsleur, italki) are useful." },
-        { phase: "University application", duration: "Feb–May for Sept intake", detail: "Apply via dges.mec.pt (public university clearinghouse) or directly to private institutions. IST, University of Lisbon, University of Porto, Universidade Nova." },
-        { phase: "D4 visa application", duration: "May–July", detail: "Portuguese Embassy Abuja. Criminal record certificate required — get this apostilled from the Nigerian Police Force + Ministry of Foreign Affairs. Allow 6–8 weeks for apostille." },
-        { phase: "Arrive + AIMA registration", duration: "August–September", detail: "Register at Junta de Freguesia, apply for residence permit at AIMA within 4 months." },
+        { step: 1, title: "Portuguese language (if applicable)", detail: "6–12 months. Most affordable public programmes require Portuguese B1–B2. Instituto Camões and online platforms (Pimsleur, italki) are useful." },
+        { step: 2, title: "University application", detail: "Feb–May for Sept intake. Apply via dges.mec.pt (public university clearinghouse) or directly to private institutions. IST, University of Lisbon, University of Porto, Universidade Nova." },
+        { step: 3, title: "D4 visa application", detail: "May–July. Portuguese Embassy Abuja. Criminal record certificate required — get this apostilled from the Nigerian Police Force + Ministry of Foreign Affairs. Allow 6–8 weeks for apostille." },
+        { step: 4, title: "Arrive + AIMA registration", detail: "August–September. Register at Junta de Freguesia, apply for residence permit at AIMA within 4 months." },
       ],
       masters: [
-        { phase: "FCT / Gulbenkian scholarship applications", duration: "Jan–April", detail: "FCT PhD calls: fct.pt. Gulbenkian Foundation scholarships: gulbenkian.pt. Some university-specific scholarships open in October." },
-        { phase: "University applications", duration: "Jan–May", detail: "Direct applications to Nova SBE, IST, University of Porto. English portal available at most." },
-        { phase: "D4 visa + arrival", duration: "May–August", detail: "Criminal record apostille is the longest step — start this first. Allow 8–10 weeks total for visa." },
-        { phase: "Post-graduation", duration: "1 year job search", detail: "Apply for D3 job-search extension. LinkedIn, Glassdoor Portugal, Landing.jobs (Lisbon tech jobs) are main platforms." },
+        { step: 1, title: "FCT / Gulbenkian scholarship applications", detail: "Jan–April. FCT PhD calls: fct.pt. Gulbenkian Foundation scholarships: gulbenkian.pt. Some university-specific scholarships open in October." },
+        { step: 2, title: "University applications", detail: "Jan–May. Direct applications to Nova SBE, IST, University of Porto. English portal available at most." },
+        { step: 3, title: "D4 visa + arrival", detail: "May–August. Criminal record apostille is the longest step — start this first. Allow 8–10 weeks total for visa." },
+        { step: 4, title: "Post-graduation job search", detail: "Apply for D3 job-search extension (1 year). LinkedIn, Glassdoor Portugal, Landing.jobs (Lisbon tech jobs) are main platforms." },
       ],
       phd: [
-        { phase: "FCT scholarship call", duration: "Typically opens Feb–April", detail: "Annual FCT PhD scholarship competition — fct.pt. Highly competitive but well-funded. Simultaneously look for supervisor-funded positions." },
-        { phase: "D4 or D3 visa", duration: "60–90 days", detail: "Portuguese Embassy Abuja. Criminal record apostille needed. 4 months to register at AIMA after arrival." },
-        { phase: "4-year PhD", duration: "Annual permit renewals", detail: "AIMA residence permit renewed annually. FCT stipend increases after year 2 performance review." },
+        { step: 1, title: "FCT scholarship call", detail: "Typically opens Feb–April. Annual FCT PhD scholarship competition — fct.pt. Highly competitive but well-funded. Simultaneously look for supervisor-funded positions." },
+        { step: 2, title: "D4 or D3 visa", detail: "60–90 days. Portuguese Embassy Abuja. Criminal record apostille needed. 4 months to register at AIMA after arrival." },
+        { step: 3, title: "4-year PhD + annual renewals", detail: "AIMA residence permit renewed annually. FCT stipend increases after year 2 performance review." },
       ],
       work: [
-        { phase: "Job search", duration: "2–4 months", detail: "Landing.jobs, LinkedIn, Glassdoor, Sapo Emprego. Lisbon has offices of Google, Amazon, Volkswagen Digital, Farfetch, Feedzai. Remote-first companies also hire Lisbon-based staff." },
-        { phase: "D3 or Tech Visa", duration: "60–90 days at Portuguese Embassy", detail: "Criminal record apostille is critical — start immediately. Portuguese Embassy Abuja processes D3 visas." },
-        { phase: "AIMA + NHR tax", duration: "First months in Portugal", detail: "Apply for residence permit at AIMA. Apply for NHR tax regime by 31 March following year of arrival." },
-        { phase: "PR + citizenship at 5 years", duration: "After 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
+        { step: 1, title: "Job search", detail: "2–4 months. Landing.jobs, LinkedIn, Glassdoor, Sapo Emprego. Lisbon offices: Google, Amazon, Volkswagen Digital, Farfetch, Feedzai. Remote-first companies also hire Lisbon-based staff." },
+        { step: 2, title: "D3 or Tech Visa", detail: "60–90 days at Portuguese Embassy Abuja. Criminal record apostille is critical — start immediately." },
+        { step: 3, title: "AIMA + NHR tax", detail: "Apply for AIMA residence permit on arrival. Apply for NHR tax regime by 31 March following year of arrival." },
+        { step: 4, title: "PR + citizenship at 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
       ],
       visitor: [
-        { phase: "Apply at Portuguese Embassy Abuja", duration: "3–4 weeks before travel", detail: "Standard Schengen. €80 fee. Criminal record not required for visitor visas. 15-day processing." },
+        { step: 1, title: "Apply at Portuguese Embassy Abuja", detail: "3–4 weeks before travel. Standard Schengen. €80 fee. Criminal record not required for visitor visas. 15-day processing." },
       ],
     },
 
     tips: {
       undergrad: [
-        "Criminal record certificate apostille is required for the D4 visa — get this from the Nigerian Police Force headquarters, then apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks minimum. Start this first.",
-        "Porto is significantly cheaper than Lisbon and has world-class universities (University of Porto). If budget is your main concern, Porto is the better choice.",
-        "Private universities (Universidade Católica, ISCTE) charge more (€4,000–8,000/year) but often have stronger industry connections and more English-medium programmes.",
-        "Portugal is one of the safest countries in Europe — consistently top 5 in the Global Peace Index. Very welcoming to Africans and Nigerians specifically.",
+        { title: "Start the apostille early", body: "Criminal record certificate apostille is required for the D4 visa — obtain from the Nigerian Police Force headquarters, then apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks minimum. Start this before you even apply to universities." },
+        { title: "Consider Porto over Lisbon", body: "Porto is significantly cheaper than Lisbon and has world-class universities (University of Porto). If budget is your main concern, Porto is the better choice — €700–900/month vs €900–1,200/month in Lisbon." },
+        { title: "Private vs public universities", body: "Private universities (Universidade Católica, ISCTE) charge more (€4,000–8,000/year) but often have stronger industry connections and more English-medium programmes." },
+        { title: "Safety and welcome", body: "Portugal is one of the safest countries in Europe — consistently top 5 in the Global Peace Index. Very welcoming to Africans and Nigerians specifically." },
       ],
       masters: [
-        "Nova School of Business and Economics (Nova SBE) in Carcavelos is one of Europe's rising business schools — FT-ranked, with strong finance, economics, and data science Master's in English.",
-        "IST (Instituto Superior Técnico) is Portugal's MIT — top engineering school, strong in aerospace, bioengineering, computer science, electrical engineering. English-medium Master's available.",
-        "The NHR tax regime is available to new residents — if you transition from student to worker, apply for NHR in your first year working. 20% flat tax for 10 years is transformative for high earners.",
-        "Lisbon's digital nomad and startup community is one of the most international in Europe — Web Summit, countless coworking spaces, and English is widely spoken in professional settings.",
+        { title: "Nova SBE and IST are elite", body: "Nova School of Business and Economics (Nova SBE) in Carcavelos is FT-ranked — strong finance, economics, and data science Master's in English. IST is Portugal's top engineering school — aerospace, bioengineering, CS, electrical. Both have English-medium Master's." },
+        { title: "Apply for NHR as soon as you start working", body: "The NHR tax regime is available to new residents — if you transition from student to worker, apply for NHR in your first year working. 20% flat tax for 10 years is transformative for high earners." },
+        { title: "Lisbon's international startup scene", body: "Lisbon's digital nomad and startup community is one of the most international in Europe — Web Summit calls Lisbon home, countless coworking spaces, and English is widely spoken in professional settings." },
       ],
       phd: [
-        "FCT PhD scholarships are fully tax-free — the €1,074/month net is genuinely liveable in Porto or Coimbra (Lisbon is tighter). Combined with free healthcare as a resident, purchasing power is solid.",
-        "Portuguese research institutions to know: INESC TEC (engineering/AI), Instituto Gulbenkian de Ciência (biology), ITQB NOVA (molecular biosciences), LARSyS (robotics/marine tech).",
-        "Coimbra (home to one of Europe's oldest universities) offers lower living costs than Lisbon — €600–800/month — and a vibrant student city atmosphere.",
+        { title: "FCT stipend is genuinely liveable", body: "FCT PhD scholarships are fully tax-free — €1,074/month net is liveable in Porto or Coimbra (Lisbon is tighter). Combined with free healthcare as a resident, purchasing power is solid." },
+        { title: "Top research institutions", body: "Key Portuguese research centres: INESC TEC (engineering/AI, Porto), Instituto Gulbenkian de Ciência (biology, Oeiras), ITQB NOVA (molecular biosciences), LARSyS (robotics/marine tech)." },
+        { title: "Coimbra as base city", body: "Coimbra (home to one of Europe's oldest universities, est. 1290) offers lower living costs than Lisbon — €600–800/month — and a vibrant student city atmosphere." },
       ],
       work: [
-        "Lisbon is now one of Europe's top startup cities — Farfetch, Feedzai, Talkdesk, OutSystems, and hundreds of international companies have Lisbon offices. Tech salaries are lower than London or Amsterdam but costs are dramatically lower.",
-        "The NHR (Non-Habitual Resident) tax regime is one of Portugal's biggest draws for skilled migrants — 20% flat tax on Portuguese employment income for 10 years. Apply at finanças.gov.pt within the deadlines.",
-        "Portuguese is a global language — 280 million speakers worldwide. Learning Portuguese opens doors not just in Portugal but in Brazil, Angola, Mozambique, and Cape Verde.",
-        "Processing at AIMA (the immigration authority that replaced SEF in 2023) has been slow — allow extra time and use a lawyer for complex permit situations.",
+        { title: "Lisbon is a top European startup hub", body: "Farfetch, Feedzai, Talkdesk, OutSystems, and hundreds of international companies have Lisbon offices. Tech salaries are lower than London or Amsterdam but costs are dramatically lower." },
+        { title: "Don't miss the NHR window", body: "The NHR (Non-Habitual Resident) tax regime gives 20% flat tax on Portuguese employment income for 10 years. Apply at finanças.gov.pt by 31 March of the year following your first tax residency." },
+        { title: "Portuguese is a global language", body: "280 million speakers worldwide. Learning Portuguese opens doors in Portugal, Brazil, Angola, Mozambique, and Cape Verde — one language, six continents." },
+        { title: "AIMA is slow — plan accordingly", body: "Processing at AIMA (the immigration authority that replaced SEF in 2023) has been slow — allow extra time and use a lawyer for complex permit situations." },
       ],
       visitor: [
-        "Portugal has no VFS centre in Nigeria for French visas — applications go directly to the Portuguese Embassy in Abuja. Book early as appointment slots can be limited.",
-        "The Algarve (south coast) has some of Europe's best beaches. Lisbon is excellent in spring and autumn — summer is very hot and crowded.",
-        "If you have a Portuguese-speaking contact in Portugal, an invitation letter from them significantly strengthens your visitor visa application.",
+        { title: "No VFS in Nigeria for Portugal", body: "Portugal has no VFS centre in Nigeria — applications go directly to the Portuguese Embassy in Abuja. Book early as appointment slots can be limited." },
+        { title: "Best time to visit", body: "The Algarve (south coast) has some of Europe's best beaches. Lisbon and Porto are excellent in spring and autumn — summer is very hot and crowded with tourists." },
+        { title: "Invitation letter helps", body: "If you have a Portuguese-speaking contact in Portugal, an invitation letter from them significantly strengthens your visitor visa application." },
       ],
     },
 
-    universities: [
-      { name: "University of Lisbon (ULisboa)", location: "Lisbon", intl_fee: "€950–3,500/yr (public)", notes: "Largest university in Portugal. Law, humanities, sciences, medicine. Many English Master's. ulisboa.pt" },
-      { name: "IST (Instituto Superior Técnico)", location: "Lisbon", intl_fee: "€1,400–7,000/yr", notes: "Portugal's top engineering and technology school. Strong in aerospace, CS, bioengineering. Excellent English-medium Master's. tecnico.ulisboa.pt" },
-      { name: "Nova School of Business and Economics", location: "Carcavelos (near Lisbon)", intl_fee: "€10,500–22,000/yr (Master's)", notes: "FT-ranked business school. Finance, economics, data science in English. Strong industry connections. novasbe.unl.pt" },
-      { name: "University of Porto (U.Porto)", location: "Porto", intl_fee: "€950–3,500/yr (public)", notes: "Second largest university. Engineering, medicine, law, sciences, architecture. Lower cost city. up.pt" },
-      { name: "Universidade Nova de Lisboa", location: "Lisbon", intl_fee: "€1,250–5,000/yr", notes: "Sciences, social sciences, humanities, law. Strong research output. unl.pt" },
-      { name: "University of Coimbra", location: "Coimbra", intl_fee: "€950–3,000/yr (public)", notes: "One of Europe's oldest universities (est. 1290). UNESCO World Heritage campus. Affordable student city. uc.pt" },
-    ],
+    universities: {
+      undergrad: [
+        { name: "University of Lisbon (ULisboa)", location: "Lisbon", known_for: "Law, humanities, sciences, medicine", avg_tuition: "€950–3,500/yr (public non-EU)", acceptance: "Competitive", nigerian_community: "Growing" },
+        { name: "University of Porto (U.Porto)", location: "Porto", known_for: "Engineering, medicine, law, sciences, architecture", avg_tuition: "€950–3,500/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Small but welcoming" },
+        { name: "University of Coimbra", location: "Coimbra", known_for: "Law, humanities, sciences — UNESCO World Heritage campus (est. 1290)", avg_tuition: "€950–3,000/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Student city atmosphere" },
+      ],
+      masters: [
+        { name: "IST (Instituto Superior Técnico)", location: "Lisbon", known_for: "Aerospace, CS, bioengineering, electrical engineering — Portugal's top engineering school", avg_tuition: "€1,400–7,000/yr", acceptance: "Selective", nigerian_community: "International campus" },
+        { name: "Nova School of Business and Economics", location: "Carcavelos (near Lisbon)", known_for: "Finance, economics, data science — FT-ranked, English-medium", avg_tuition: "€10,500–22,000/yr", acceptance: "Selective", nigerian_community: "International cohort" },
+        { name: "Universidade Nova de Lisboa", location: "Lisbon", known_for: "Sciences, social sciences, humanities, law", avg_tuition: "€1,250–5,000/yr", acceptance: "Moderate", nigerian_community: "Diverse international students" },
+      ],
+      phd: [
+        { name: "University of Lisbon (ULisboa) — FCT partner", location: "Lisbon", known_for: "STEM, life sciences, social sciences — major FCT PhD host", avg_tuition: "Waived with FCT fellowship", acceptance: "Competitive (FCT call)", nigerian_community: "International research environment" },
+        { name: "University of Porto (U.Porto) — FCT partner", location: "Porto", known_for: "Engineering, biomedical sciences, marine research — lower cost city", avg_tuition: "Waived with FCT fellowship", acceptance: "Competitive (FCT call)", nigerian_community: "Welcoming city" },
+        { name: "INESC TEC / ITQB NOVA", location: "Porto / Oeiras", known_for: "Engineering and AI (INESC TEC); molecular biosciences (ITQB NOVA)", avg_tuition: "Researcher employment contract", acceptance: "Project-based", nigerian_community: "International research teams" },
+      ],
+    },
 
     scholarships: {
       undergrad: [
@@ -5406,11 +5487,84 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
     },
 
     summary: {
-      undergrad: "Spanish public universities are affordable (€1,000–3,500/year for non-EU) but most undergraduate programmes are in Spanish. Spanish B2 is required for most programmes. Apply through the university directly or via UNED's equivalency process for foreign qualifications (UNED Equivalencia). Student visa applied for at the Spanish Embassy Abuja or VFS. Students can work up to 30 hours/week.",
-      masters: "English-medium Master's are widely available, especially in business (IE Business School, ESADE, IESE — world top 20), engineering (UPM, UPC), and sciences. The MAEC-AECID Spanish Government Scholarship covers tuition and living costs for students from developing countries including Nigeria. After graduation, a 1-year job-search permit is available.",
-      phd: "Spanish public university PhD fees are very low (€300–2,000/year). FPI (Formación de Personal Investigador) and FPU (Formación del Profesorado Universitario) are Spanish government PhD fellowships paying €1,100–1,200/month for 4 years, attached to research projects. Positions are listed on the Spanish Research Agency (AEI) website and individual universities.",
-      work: "The standard work permit (Autorización de residencia y trabajo) is employer-led — filed at the immigration office (Extranjería). The EU Blue Card is available for salaries above ~€38,000/year. Spain's Beckham Law (Ley Beckham) offers a flat 24% income tax rate for the first 6 years for new qualified residents — a major financial incentive. The Startup Visa (Ley de Startups 2023) allows entrepreneurs and highly skilled remote workers (Digital Nomad Visa) to live and work in Spain.",
-      visitor: "Standard Schengen Type C visa. Apply at the Spanish Embassy Abuja or VFS Global. Proof of funds (€90/day), insurance (€30,000+), accommodation, return travel, ties to Nigeria. Processing: 15 days.",
+      undergrad: {
+        intro: "Spanish public universities are affordable (€1,000–3,500/year for non-EU) but most undergraduate programmes are in Spanish. Spanish B2 is required for most programmes. Students can work up to 30 hours/week.",
+        firstSteps: [
+          { action: "Learn Spanish to B2", detail: "Instituto Cervantes offers DELE exams. Most affordable programmes are fully Spanish-medium — this is a genuine prerequisite." },
+          { action: "UNED equivalency", detail: "Nigerian secondary certificates (WAEC/NECO) must be evaluated by UNED. Apply at uned.es — allow 2–3 months and ~€200–300." },
+          { action: "Apply to university", detail: "Apply directly to university portals. Most intakes are September; some have January intake." },
+          { action: "Student visa at Spanish Embassy Abuja or VFS", detail: "Criminal record apostille required. 30–60 day processing. Fee: €80." },
+        ],
+        keyFacts: [
+          "Tuition: €1,000–3,500/year (non-EU, public)",
+          "Work: up to 30 hrs/week permitted",
+          "TIE (foreigner ID card) required within 30 days of arrival at Extranjería",
+          "Valencia, Seville, and Granada are cheaper than Madrid/Barcelona with excellent universities",
+        ],
+        outcome: "4-year Spanish degree opens EU Blue Card eligibility. Permanent residency at 5 years; Spanish citizenship at 10 years.",
+      },
+      masters: {
+        intro: "English-medium Master's are widely available in business (IE, ESADE, IESE — world top 20), engineering (UPM, UPC), and sciences. The MAEC-AECID scholarship covers tuition and living costs for students from developing countries including Nigeria.",
+        firstSteps: [
+          { action: "Apply for MAEC-AECID scholarship", detail: "Via the Spanish Embassy Abuja — typically opens October–January. Covers tuition + ~€1,000/month stipend." },
+          { action: "Apply to universities", detail: "IE, ESADE, IESE have their own portals. Public university Master's via university websites. Oct–March deadlines." },
+          { action: "Student visa at Spanish Embassy Abuja or VFS", detail: "Type D visa. 30–60 day processing. Criminal record apostille required." },
+          { action: "Post-graduation: job search permit", detail: "Apply at Extranjería before student visa expires. Infojobs.net, LinkedIn, Tecnoempleo are main platforms." },
+        ],
+        keyFacts: [
+          "MAEC-AECID scholarship: tuition + ~€1,000/month stipend (competitive)",
+          "IE, ESADE, IESE are globally ranked top-20 business schools",
+          "1-year job-search permit available after graduation",
+          "Barcelona operates much more in English than Madrid professionally",
+        ],
+        outcome: "World-class business and engineering qualifications opening doors across Europe, with an affordable cost of study relative to UK/US equivalents.",
+      },
+      phd: {
+        intro: "Spanish public university PhD fees are very low (€300–2,000/year). FPI and FPU government fellowships pay €1,100–1,200/month for 4 years, attached to specific funded research projects.",
+        firstSteps: [
+          { action: "Find FPI/FPU position or supervisor", detail: "AEI (agencia estatal de investigación) lists FPI calls. University websites list FPU calls. Email supervisors directly with research proposal — positions are project-linked." },
+          { action: "Apply for student visa", detail: "Type D visa at Spanish Embassy Abuja. 30–60 day processing. TIE within 30 days of arrival." },
+          { action: "Register and start 3–4 year PhD", detail: "Annual TIE renewals at Extranjería. Strong research areas: biomedical, renewable energy, aerospace, materials science." },
+        ],
+        keyFacts: [
+          "FPI/FPU: €1,100–1,200/month for 4 years + tuition waiver",
+          "CSIC (national research council) has 120+ institutes — check job.csic.es",
+          "La Caixa INPhINIT: €25,200/year gross for 3 years (highly competitive)",
+          "Spain is a world leader in renewable energy research (CIEMAT, CSIC)",
+        ],
+        outcome: "Access to Spain's world-class research infrastructure and gateway to EU research careers.",
+      },
+      work: {
+        intro: "The standard work permit is employer-led (filed at Extranjería). The EU Blue Card covers high-salary roles (≥€38,000/yr). Beckham Law offers 24% flat tax for 6 years. The 2023 Startup Law created a Digital Nomad Visa for remote workers.",
+        firstSteps: [
+          { action: "Secure job offer from Spanish employer", detail: "Infojobs.net, LinkedIn, Tecnoempleo, Manfred (tech). Madrid and Barcelona have the strongest job markets." },
+          { action: "Employer files work authorisation at Extranjería", detail: "Labour market test may apply. Allow 1–3 months." },
+          { action: "Apply for work visa at Spanish Embassy Abuja", detail: "Criminal record apostille required. Fee: €80. Processing: 30–90 days." },
+          { action: "Apply for Beckham Law within 6 months of starting work", detail: "At AEAT (agenciatributaria.es). 24% flat tax for 6 years — don't miss this window." },
+        ],
+        keyFacts: [
+          "Beckham Law: 24% flat tax on Spanish income up to €600,000 for 6 years",
+          "Digital Nomad Visa: min €2,334/month income from outside Spain",
+          "Permanent residency at 5 years; citizenship at 10 years",
+          "AIMA/Extranjería bureaucracy is slow — apply immediately when eligible",
+        ],
+        outcome: "Spain offers exceptional quality of life, a competitive tax regime for skilled migrants, and one of Europe's most international professional environments in Madrid and Barcelona.",
+      },
+      visitor: {
+        intro: "Standard Schengen Type C visa. Apply at the Spanish Embassy Abuja or VFS Global Nigeria. Processing: 15 days.",
+        firstSteps: [
+          { action: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "VFS Global handles Spanish Schengen visa applications in Nigeria. Apply 3–4 weeks before travel." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, hotel/accommodation, travel insurance (€30,000+), bank statements (€90/day), proof of Nigerian employment or business ties." },
+          { action: "Pay fee and submit", detail: "€80 fee. Processing: 15 days standard." },
+        ],
+        keyFacts: [
+          "Fee: €80 | Processing: 15 days",
+          "No criminal record required for visitor visa",
+          "VFS Global Nigeria handles submissions",
+          "Covers all 27 Schengen Area countries",
+        ],
+        outcome: "Spain's Schengen visa gives access to 27 European countries. Plan multi-country travel to maximise the trip.",
+      },
     },
 
     visa: {
@@ -5454,77 +5608,85 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
 
     timeline: {
       undergrad: [
-        { phase: "Spanish language preparation", duration: "6–12 months", detail: "DELE B2 minimum for most Spanish-medium programmes. Instituto Cervantes offers DELE exams. Spanish is one of the world's most useful languages — worth investing in." },
-        { phase: "UNED equivalency application", duration: "2–3 months", detail: "Nigerian secondary certificates must be evaluated by UNED — apply at uned.es. Allow 2–3 months. Some universities accept directly — check." },
-        { phase: "University application", duration: "Feb–June", detail: "Apply directly to universities. Most intakes are September. Some universities have January intake too." },
-        { phase: "Student visa at Spanish Embassy Abuja", duration: "April–July", detail: "30–60 day processing. Criminal record apostille required — start early." },
-        { phase: "Arrive + TIE", duration: "August–September", detail: "Apply for TIE (foreigner ID card) at Extranjería within 30 days of arrival. Register at local Ayuntamiento (city hall) — Empadronamiento — also required." },
+        { step: 1, title: "Spanish language preparation", detail: "6–12 months. DELE B2 minimum for most Spanish-medium programmes. Instituto Cervantes offers DELE exams. Spanish is one of the world's most useful languages — worth investing in." },
+        { step: 2, title: "UNED equivalency application", detail: "2–3 months. Nigerian secondary certificates must be evaluated by UNED — apply at uned.es. Allow 2–3 months and ~€200–300. Some universities accept directly — check." },
+        { step: 3, title: "University application", detail: "Feb–June for September intake. Apply directly to universities. Some universities have January intake too." },
+        { step: 4, title: "Student visa at Spanish Embassy Abuja", detail: "April–July. 30–60 day processing. Criminal record apostille required — start early." },
+        { step: 5, title: "Arrive + TIE", detail: "August–September. Apply for TIE (foreigner ID card) at Extranjería within 30 days of arrival. Register at local Ayuntamiento (Empadronamiento) — also required." },
       ],
       masters: [
-        { phase: "MAEC-AECID scholarship", duration: "Apply Oct–Jan", detail: "Spanish Government Scholarship — aecid.es. Covers tuition + monthly stipend. Competitive — apply early with strong academic record." },
-        { phase: "University applications", duration: "Oct–March", detail: "Direct to university portals. IE, ESADE, IESE have their own MBA/Master's processes. Public university Master's via university website." },
-        { phase: "Student visa + arrival", duration: "April–August", detail: "Same Type D process. 30–60 day processing at Spanish Embassy Abuja." },
-        { phase: "Post-graduation", duration: "1-year permit", detail: "Apply at Extranjería for job-search permit. Infojobs.net, LinkedIn, Tecnoempleo (tech) are main job platforms." },
+        { step: 1, title: "MAEC-AECID scholarship", detail: "Apply Oct–Jan. Spanish Government Scholarship — aecid.es. Covers tuition + monthly stipend. Competitive — apply early with strong academic record." },
+        { step: 2, title: "University applications", detail: "Oct–March. Direct to university portals. IE, ESADE, IESE have their own MBA/Master's processes. Public university Master's via university website." },
+        { step: 3, title: "Student visa + arrival", detail: "April–August. Same Type D process. 30–60 day processing at Spanish Embassy Abuja." },
+        { step: 4, title: "Post-graduation job search", detail: "Apply at Extranjería for 1-year job-search permit. Infojobs.net, LinkedIn, Tecnoempleo (tech) are main job platforms." },
       ],
       phd: [
-        { phase: "Find FPI/FPU position or supervissor", duration: "6–12 months ahead", detail: "AEI (agencia estatal de investigación) lists FPI calls. University websites list FPU calls. Email supervisors directly with research proposal." },
-        { phase: "Visa + arrival", duration: "30–60 days", detail: "Student visa at Spanish Embassy Abuja. TIE within 30 days of arrival." },
-        { phase: "3–4 year PhD", duration: "Annual renewals", detail: "TIE renewed annually at Extranjería. Strong Spanish research sectors: biomedical, renewable energy, aerospace, materials science." },
+        { step: 1, title: "Find FPI/FPU position or supervisor", detail: "6–12 months ahead. AEI (agencia estatal de investigación) lists FPI calls. University websites list FPU calls. Email supervisors directly with research proposal." },
+        { step: 2, title: "Student visa + arrival", detail: "30–60 days processing at Spanish Embassy Abuja. TIE within 30 days of arrival." },
+        { step: 3, title: "3–4 year PhD + annual renewals", detail: "TIE renewed annually at Extranjería. Strong Spanish research sectors: biomedical, renewable energy, aerospace, materials science." },
       ],
       work: [
-        { phase: "Job search", duration: "2–4 months", detail: "Infojobs.net, LinkedIn, Tecnoempleo, Manfred (tech). Madrid and Barcelona have the strongest job markets. Glassdoor Spain, Indeed.es." },
-        { phase: "Work authorisation", duration: "1–3 months", detail: "Employer files at Extranjería. Labour market test may apply." },
-        { phase: "Visa + arrival", duration: "30–60 days", detail: "Spanish Embassy Abuja. Criminal record apostille required. TIE within 30 days of arrival." },
-        { phase: "Beckham Law application", duration: "Within 6 months of starting work", detail: "Apply at AEAT (agenciatributaria.es). Massive tax saving — don't miss this window." },
-        { phase: "PR at 5 years, citizenship at 10", duration: "Long-term", detail: "Permanent residency (residencia de larga duración) at 5 years. Spanish citizenship at 10 years — dual nationality with Nigeria not recognized by Spain (you'd formally renounce Nigerian citizenship though some Nigerians retain both practically)." },
+        { step: 1, title: "Job search", detail: "2–4 months. Infojobs.net, LinkedIn, Tecnoempleo, Manfred (tech). Madrid and Barcelona have the strongest job markets." },
+        { step: 2, title: "Employer files work authorisation", detail: "1–3 months. Employer files at Extranjería. Labour market test may apply." },
+        { step: 3, title: "Work visa at Spanish Embassy Abuja", detail: "30–60 days. Criminal record apostille required. Fee: €80." },
+        { step: 4, title: "Arrive + TIE + Beckham Law", detail: "TIE within 30 days of arrival. Apply for Beckham Law at AEAT within 6 months of starting work — massive tax saving." },
+        { step: 5, title: "PR at 5 years, citizenship at 10", detail: "Permanent residency (residencia de larga duración) at 5 years. Spanish citizenship at 10 years." },
       ],
       visitor: [
-        { phase: "Apply at Spanish Embassy Abuja or VFS", duration: "3–4 weeks before travel", detail: "€80 fee. Standard Schengen documents. Criminal record NOT required for visitor visas." },
-        { phase: "Decision", duration: "15 days standard", detail: "Track via VFS portal. Spain is very popular — apply early for summer travel." },
+        { step: 1, title: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "3–4 weeks before travel. €80 fee. Standard Schengen documents. Criminal record NOT required for visitor visas." },
+        { step: 2, title: "Decision", detail: "15 days standard. Track via VFS portal. Spain is very popular — apply early for summer travel." },
       ],
     },
 
     tips: {
       undergrad: [
-        "UNED equivalency is required for most Spanish universities to evaluate your WAEC/NECO — start this 3–4 months before you plan to apply to universities. Cost is around €200–300.",
-        "Spanish is the world's second most spoken language (native speakers) — investing in Spanish opens opportunities in Spain, Latin America, and internationally. It is worth learning properly.",
-        "Valencia, Seville, Granada, and Bilbao are excellent, cheaper alternatives to Madrid and Barcelona — €600–800/month living costs with strong universities.",
-        "Public Spanish university degrees are internationally recognized. A degree from Complutense Madrid, UAM, UB, or UPM carries genuine weight across Europe and globally.",
+        { title: "Start UNED early", body: "UNED equivalency is required for most Spanish universities to evaluate your WAEC/NECO — start this 3–4 months before you plan to apply to universities. Cost is around €200–300. It's a hard prerequisite, not optional." },
+        { title: "Spanish is worth learning properly", body: "Spanish is the world's second most spoken language (native speakers) — investing in it opens opportunities in Spain, Latin America, and internationally. Most affordable programmes are fully Spanish-medium." },
+        { title: "Consider cheaper cities", body: "Valencia, Seville, Granada, and Bilbao are excellent, cheaper alternatives to Madrid and Barcelona — €600–800/month living costs with strong universities." },
+        { title: "Public degrees are globally respected", body: "A degree from Complutense Madrid, UAM, UB, or UPM carries genuine weight across Europe and globally. Public Spanish university degrees are internationally recognized." },
       ],
       masters: [
-        "IE Business School and ESADE are among Europe's top 5 business schools — MBA graduates access elite European finance and consulting jobs. They are expensive (€50,000–80,000 MBA) but scholarship and loan options exist.",
-        "The MAEC-AECID scholarship is Spain's main government scholarship for developing country students — competitive but well-funded. Apply through the Spanish Embassy Abuja.",
-        "Barcelona has a thriving English-speaking expat and startup community — many companies there operate fully in English. Madrid is more Spanish-language dominant in business.",
-        "Post-graduation job search: Spain has higher unemployment than northern Europe, but tech, finance, tourism, and renewable energy sectors are growing fast. Starting salary expectations should be calibrated to Spanish levels (€25,000–40,000/year gross is typical for graduates).",
+        { title: "IE and ESADE are truly world-class", body: "IE Business School and ESADE are among Europe's top 5 business schools — MBA graduates access elite European finance and consulting jobs. They are expensive (€50,000–80,000 MBA) but scholarship and loan options exist." },
+        { title: "MAEC-AECID is Spain's best scholarship for Nigerians", body: "Competitive but well-funded — covers tuition + ~€1,000/month stipend. Apply through the Spanish Embassy Abuja. Apply early with a strong academic record." },
+        { title: "Barcelona vs Madrid for English speakers", body: "Barcelona has a thriving English-speaking expat and startup community — many companies operate fully in English. Madrid is more Spanish-language dominant in business." },
+        { title: "Calibrate salary expectations", body: "Spain has higher unemployment than northern Europe, but tech, finance, tourism, and renewable energy sectors are growing fast. Graduate salaries: €25,000–40,000/year gross is typical." },
       ],
       phd: [
-        "FPI and FPU fellowships are awarded competitively and tied to specific research projects — you apply for a fellowship tied to a supervisor's project, not independently. Identify supervisors with active funded projects.",
-        "Spain is a world leader in renewable energy research (wind, solar, offshore) — strong PhD positions at CIEMAT, CSIC, and universities in this field. Also strong in biomedicine (IRB Barcelona, CNIO Madrid) and astrophysics (IAC Tenerife).",
-        "The CSIC (Consejo Superior de Investigaciones Científicas) is Spain's national research council — largest public research institution in Spain with 120+ institutes. Check job.csic.es for positions.",
+        { title: "FPI/FPU are project-linked — identify supervisors first", body: "FPI and FPU fellowships are tied to specific funded research projects — you apply for a fellowship attached to a supervisor's project. Identify supervisors with active AEI-funded grants before applying." },
+        { title: "Spain leads in renewable energy and biomedicine research", body: "Strong PhD positions at CIEMAT (energy), CSIC, IRB Barcelona (biomedicine), CNIO Madrid (cancer), and IAC Tenerife (astrophysics). These are world-class research centres." },
+        { title: "CSIC is the key research network", body: "CSIC (Consejo Superior de Investigaciones Científicas) is Spain's national research council with 120+ institutes across the country. Check job.csic.es for positions." },
       ],
       work: [
-        "Beckham Law (Régimen Especial para Trabajadores Desplazados) is one of Spain's best-kept tax secrets — 24% flat tax for 6 years for qualifying new residents. Apply within 6 months of starting work at AEAT. Don't miss this window.",
-        "Madrid tech salaries: junior developer €25,000–35,000 gross/year, senior €45,000–65,000. Living costs in Madrid are €1,000–1,400/month. The gap between salary and cost of living is tighter than in northern Europe but quality of life is exceptional.",
-        "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum income €2,334/month. Beckham Law also applies. Good option if you work remotely for a foreign company.",
-        "Spanish bureaucracy (the Extranjería, Seguridad Social, AEAT) moves slowly — apply for everything the day you are eligible. Queue management systems (cita previa) are used — book appointments immediately on arrival.",
+        { title: "Beckham Law — apply within 6 months", body: "Beckham Law (Régimen Especial para Trabajadores Desplazados) gives 24% flat tax for 6 years for qualifying new residents. Apply within 6 months of starting work at AEAT — don't miss this window." },
+        { title: "Madrid tech market overview", body: "Junior developer: €25,000–35,000 gross/year. Senior: €45,000–65,000. Living costs: €1,000–1,400/month. Tighter than northern Europe but quality of life is exceptional." },
+        { title: "Digital Nomad Visa is a real option", body: "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum €2,334/month income. Beckham Law also applies." },
+        { title: "Spanish bureaucracy is slow — act immediately", body: "The Extranjería, Seguridad Social, and AEAT all move slowly. Apply for everything the day you are eligible. Cita previa (appointment systems) fill up fast — book on arrival." },
       ],
       visitor: [
-        "Madrid, Barcelona, Seville, Granada, the Balearic Islands, and the Canary Islands are all worth visiting. Spain has exceptional food, architecture, beaches, and nightlife.",
-        "Barcelona has a Nigerian community and several African restaurants — a welcoming city for first-time visitors from Nigeria.",
-        "Spanish Schengen visa covers France, Germany, Italy, Netherlands, and 22 other countries — plan your European trip across multiple countries if time allows.",
-        "Show clear ties to Nigeria — stable employment, property, family — the Spanish Embassy wants confidence you will return.",
+        { title: "Spain has unmissable destinations", body: "Madrid, Barcelona, Seville, Granada, the Balearic Islands, and the Canary Islands are all worth visiting. Exceptional food, architecture, beaches, and nightlife." },
+        { title: "Barcelona is welcoming for Nigerians", body: "Barcelona has a Nigerian community and several African restaurants — a welcoming city for first-time visitors from Nigeria." },
+        { title: "Plan a multi-country trip", body: "Your Spanish Schengen visa covers France, Germany, Italy, Netherlands, and 22 other countries — plan your European trip across multiple countries if time allows." },
+        { title: "Show strong ties to Nigeria", body: "Show clear ties to Nigeria — stable employment, property, family — the Spanish Embassy wants confidence you will return." },
       ],
     },
 
-    universities: [
-      { name: "Universidad Complutense de Madrid (UCM)", location: "Madrid", intl_fee: "€1,000–2,500/yr (public)", notes: "One of Europe's oldest and largest universities. Law, medicine, humanities, sciences. ucm.es" },
-      { name: "Universidad Autónoma de Madrid (UAM)", location: "Madrid", intl_fee: "€1,000–2,500/yr (public)", notes: "Research-intensive. Strong sciences, economics, law, humanities. uam.es" },
-      { name: "Universidad Politécnica de Madrid (UPM)", location: "Madrid", intl_fee: "€1,500–3,500/yr", notes: "Top Spanish engineering school. Aerospace, civil, CS, telecoms. English Master's available. upm.es" },
-      { name: "Universitat de Barcelona (UB)", location: "Barcelona", intl_fee: "€1,500–3,500/yr (public)", notes: "Top-ranked Catalan university. Sciences, medicine, humanities. ub.edu" },
-      { name: "Universitat Politècnica de Catalunya (UPC)", location: "Barcelona", intl_fee: "€1,500–4,000/yr", notes: "Top engineering school in Catalonia. CS, telecom, civil, architecture. upc.edu" },
-      { name: "IE Business School", location: "Madrid", intl_fee: "€50,000–80,000 (MBA)", notes: "Top 5 European business school. MBA, Master's in Finance, Data Analytics. Fully English-medium. ie.edu" },
-      { name: "Universidad de Valencia (UV)", location: "Valencia", intl_fee: "€1,000–2,000/yr (public)", notes: "Excellent research university. Medicine, sciences, law, humanities. uv.es" },
-    ],
+    universities: {
+      undergrad: [
+        { name: "Universidad Complutense de Madrid (UCM)", location: "Madrid", known_for: "Law, medicine, humanities, sciences — one of Europe's oldest and largest universities", avg_tuition: "€1,000–2,500/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "Growing in Madrid" },
+        { name: "Universitat de Barcelona (UB)", location: "Barcelona", known_for: "Sciences, medicine, humanities — top-ranked Catalan university", avg_tuition: "€1,500–3,500/yr (public non-EU)", acceptance: "Moderate", nigerian_community: "International city" },
+        { name: "Universidad de Valencia (UV)", location: "Valencia", known_for: "Medicine, sciences, law, humanities — affordable university city", avg_tuition: "€1,000–2,000/yr (public non-EU)", acceptance: "Accessible", nigerian_community: "Smaller international community" },
+      ],
+      masters: [
+        { name: "Universidad Politécnica de Madrid (UPM)", location: "Madrid", known_for: "Aerospace, civil, CS, telecoms — top Spanish engineering school. English Master's available", avg_tuition: "€1,500–3,500/yr", acceptance: "Selective", nigerian_community: "International campus" },
+        { name: "Universitat Politècnica de Catalunya (UPC)", location: "Barcelona", known_for: "CS, telecom, civil, architecture — top engineering school in Catalonia", avg_tuition: "€1,500–4,000/yr", acceptance: "Selective", nigerian_community: "International" },
+        { name: "IE Business School", location: "Madrid", known_for: "MBA, Master's in Finance and Data Analytics — top 5 European business school, fully English-medium", avg_tuition: "€50,000–80,000 (MBA)", acceptance: "Selective", nigerian_community: "Diverse international cohort" },
+      ],
+      phd: [
+        { name: "Universidad Autónoma de Madrid (UAM)", location: "Madrid", known_for: "Sciences, economics, law, humanities — research-intensive, strong AEI-funded projects", avg_tuition: "Waived with FPI/FPU fellowship", acceptance: "Competitive (fellowship call)", nigerian_community: "International research environment" },
+        { name: "CSIC (120+ research institutes)", location: "Nationwide", known_for: "National research council covering all sciences — job.csic.es for positions", avg_tuition: "Research employment contract", acceptance: "Project-based", nigerian_community: "International research teams" },
+        { name: "IRB Barcelona / CNIO Madrid", location: "Barcelona / Madrid", known_for: "IRB: biomedical research; CNIO: cancer research — La Caixa INPhINIT fellowships", avg_tuition: "La Caixa INPhINIT: €25,200/yr gross", acceptance: "Highly competitive", nigerian_community: "International researchers" },
+      ],
+    },
 
     scholarships: {
       undergrad: [
