@@ -4211,41 +4211,41 @@ Belgium has a relatively large Nigerian community, particularly in Brussels and 
 The path is not simple — Belgian bureaucracy is famously layered, and the process involves both federal immigration authorities and regional employment agencies (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels). But for Nigerians with a strong degree or in-demand skill, Belgium is a genuine destination — especially if EU residency is your long-term goal.`,
 
     stats: {
-      undergrad: [
-        { label: "Typical tuition (non-EU)", value: "€4,000–9,800/yr" },
-        { label: "Living costs", value: "€900–1,300/mo" },
-        { label: "Visa type", value: "Long-stay student visa (Type D)" },
-        { label: "Student work allowed", value: "Up to 20 hrs/wk during term" },
-        { label: "Language", value: "English, Dutch, French, German" },
-      ],
-      masters: [
-        { label: "Typical tuition (non-EU)", value: "€4,500–12,000/yr" },
-        { label: "Top universities", value: "KU Leuven, Ghent University, VUB, ULiège" },
-        { label: "Masters scholarship", value: "VLIR-UOS — full funding for Nigerians" },
-        { label: "Post-study stay right", value: "12 months job-search after graduation" },
-        { label: "Language of instruction", value: "English (most postgrad programmes)" },
-      ],
-      phd: [
-        { label: "PhD structure", value: "4 years, paid employee contract (€25,000–30,000/yr net)" },
-        { label: "Scholarship option", value: "VLIR-UOS ICP PhD, FWO, FNRS" },
-        { label: "Tax status", value: "Bursaries often tax-exempt; employee contracts taxed" },
-        { label: "Research language", value: "English (most programmes)" },
-        { label: "Residency path", value: "PhD + work = long-term residency after 5 years" },
-      ],
-      work: [
-        { label: "Permit type", value: "Belgian Single Permit (work + residence)" },
-        { label: "EU Blue Card salary threshold", value: "€45,141/yr gross (2024)" },
-        { label: "Processing time", value: "6–16 weeks (Single Permit)" },
-        { label: "Income tax rate", value: "25–50% (progressive) — social security deducted separately" },
-        { label: "PR eligibility", value: "After 5 years lawful residence" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Short-stay Schengen visa (Type C)" },
-        { label: "Maximum stay", value: "90 days in any 180-day period" },
-        { label: "Application fee", value: "€80 (adults)" },
-        { label: "Processing time", value: "15 calendar days (standard), up to 30 days" },
-        { label: "Proof of funds", value: "€95/day recommended" },
-      ],
+      undergrad: {
+        tuition: "€4,000–9,800/yr (non-EU)",
+        living: "€900–1,300/mo",
+        minIELTS: "6.0+",
+        processing: "4–8 weeks",
+        pathway: "Type D Long-Stay Student Visa",
+      },
+      masters: {
+        tuition: "€4,500–12,000/yr (non-EU)",
+        living: "€900–1,300/mo",
+        minIELTS: "6.5+",
+        processing: "4–8 weeks",
+        pathway: "Type D Long-Stay Student Visa",
+      },
+      phd: {
+        tuition: "Funded — contrat: €2,000–2,500/mo net",
+        living: "€900–1,300/mo",
+        minIELTS: "6.5+",
+        processing: "6–16 weeks (Single Permit)",
+        pathway: "Single Permit / Type D Student Visa",
+      },
+      work: {
+        salary: "€45,141/yr+ (EU Blue Card)",
+        living: "€1,200–1,800/mo (Brussels)",
+        processing: "6–16 weeks",
+        fee: "~€180 (Type D visa)",
+        pathway: "Belgian Single Permit",
+      },
+      visitor: {
+        fee: "€80",
+        duration: "90 days / 180-day period",
+        processing: "15–30 days",
+        living: "€95/day recommended",
+        pathway: "Schengen Type C Visa",
+      },
     },
 
     summary: {
@@ -4663,9 +4663,9 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
   },
 
   FR: {
-    tagline: "France — near-zero university fees, the Eiffel Excellence scholarship, and a career passport into the heart of Europe.",
+    tagline: "France — the Eiffel Excellence scholarship, world-class universities, and a direct route into the EU job market.",
 
-    overview: `France is one of the most underrated destinations for Nigerian students and professionals. Here is the single most important fact: French public universities charge essentially the same fees to international students as to French students — around €170 for a Bachelor's and €243 for a Master's per year. That is not a typo. France made this change permanent in 2020 for students admitted to public universities through a competitive process. Combined with the Eiffel Excellence Scholarship — which covers living expenses on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world.
+    overview: `France is one of the most underrated destinations for Nigerian students and professionals. French public universities charge non-EU international students around €2,770–3,770 for a Licence (Bachelor's) and €3,770–4,770 for a Master's per year — a fraction of UK or US fees for equivalent institutions. Combined with the Eiffel Excellence Scholarship — which covers living expenses, return flights, and health insurance on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world for Nigerian students.
 
 Paris, Lyon, Marseille, Toulouse, and Bordeaux host some of Europe's most prestigious institutions: Sorbonne Université, Sciences Po, École Polytechnique, HEC Paris, CentraleSupélec, and Université Paris-Saclay, which ranks in the global top 15 for natural sciences. For Nigerian students, the main challenge is language: most undergraduate programmes are taught in French. But at Master's and PhD level, English-medium programmes are available across all major disciplines.
 
@@ -4676,46 +4676,46 @@ The Nigerian community in France is concentrated in Paris (especially the 18th a
 French bureaucracy is notoriously complex — the OFII (Office Français de l'Immigration et de l'Intégration) process, the Préfecture registration, and the Campus France portal are all necessary steps that require patience. But the payoff is access to one of Europe's top education systems at a fraction of the cost of the UK or US, and a direct pathway into the EU labour market.`,
 
     stats: {
-      undergrad: [
-        { label: "Tuition at public universities", value: "~€170/yr (same as French students)" },
-        { label: "Living costs", value: "€800–1,400/mo (€1,200–1,800 in Paris)" },
-        { label: "Visa type", value: "Long-stay student visa (VLS-TS étudiant)" },
-        { label: "Student work allowed", value: "Up to 964 hrs/year (~60% full-time)" },
-        { label: "Language", value: "French (most undergrad), English (many Master's)" },
-      ],
-      masters: [
-        { label: "Tuition at public universities", value: "~€243/yr" },
-        { label: "Eiffel Scholarship", value: "~€1,200/month + flights + insurance — fully funded" },
-        { label: "Top institutions", value: "Sorbonne, Sciences Po, Paris-Saclay, CentraleSupélec" },
-        { label: "Post-study permit", value: "CdS RECE — 12 months (Master's and PhD for Nigerians)" },
-        { label: "English programmes", value: "Widely available at Master's level" },
-      ],
-      phd: [
-        { label: "PhD tuition", value: "~€391/yr (public university)" },
-        { label: "PhD contract salary", value: "€2,025–2,300/month gross (CIFRE: up to €2,700)" },
-        { label: "PhD duration", value: "3 years (funded contract), extendable" },
-        { label: "Post-PhD permit", value: "CdS RECE — 12 months job-search (Nigeria has no bilateral 2-yr extension)" },
-        { label: "Scholarship", value: "Eiffel Doctorat, ANRT CIFRE, embassy grants" },
-      ],
-      work: [
-        { label: "Main permit", value: "Talent Passport – Salarié qualifié (reformed Aug 2025)" },
-        { label: "Salary threshold", value: "€39,582/yr gross (updated Aug 2025 — verify at service-public.fr)" },
-        { label: "Permit duration", value: "4 years (renewable)" },
-        { label: "Income tax rate", value: "0–45% (progressive, with generous family deductions)" },
-        { label: "PR eligibility", value: "After 5 years lawful residence" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Short-stay Schengen visa (Type C)" },
-        { label: "Maximum stay", value: "90 days in any 180-day period" },
-        { label: "Application fee", value: "€80 (adults)" },
-        { label: "Processing time", value: "15 calendar days (standard), up to 45 days" },
-        { label: "Proof of funds", value: "€65/day minimum, €120/day recommended" },
-      ],
+      undergrad: {
+        tuition: "€2,770–3,770/yr (non-EU)",
+        living: "€800–1,400/mo",
+        minIELTS: "6.0+ or DELF B2",
+        processing: "4–8 weeks",
+        pathway: "VLS-TS Student Visa",
+      },
+      masters: {
+        tuition: "€3,770–4,770/yr (non-EU public); Sciences Po €20,640/yr",
+        living: "€900–1,500/mo",
+        minIELTS: "6.5+ (English programmes)",
+        processing: "4–8 weeks",
+        pathway: "VLS-TS Student Visa",
+      },
+      phd: {
+        tuition: "€391/yr (funded: contrat doctoral ~€2,025/mo gross)",
+        living: "€900–1,400/mo",
+        minIELTS: "6.5+ (or French B2)",
+        processing: "4–8 weeks",
+        pathway: "Talent Passport – Chercheur / VLS-TS",
+      },
+      work: {
+        salary: "€39,582/yr min (Talent Passport)",
+        living: "€1,200–2,000/mo",
+        processing: "6–12 weeks",
+        fee: "€220 (long-stay visa)",
+        pathway: "Talent Passport – Salarié qualifié",
+      },
+      visitor: {
+        fee: "€80",
+        duration: "90 days / 180-day period",
+        processing: "15–45 days",
+        living: "€65–120/day",
+        pathway: "Schengen Type C Visa",
+      },
     },
 
     summary: {
       undergrad: {
-        intro: "French public universities charge non-EU students the same near-zero fees as French nationals — around €170/year for a Licence (Bachelor's). Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
+        intro: "French public universities charge non-EU international students around €2,770–3,770/year for a Licence (Bachelor's) — a fraction of UK or US fees for equivalent institutions. Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
         firstSteps: [
           { action: "Start French language preparation (minimum 12–18 months ahead)", detail: "Enroll at Alliance Française Lagos, Abuja, or Kano. Aim for DELF B2 minimum, C1 preferred. This is the single most critical step — most undergrad programmes require near-native French." },
           { action: "Register on Campus France Nigeria — mandatory before any university application", detail: "Go to nigeria.campusfrance.org, complete your DAP (preliminary application file), pay the Campus France fee (₦80,000 in 2025/26), and book a mandatory in-person interview at Campus France Lagos or Abuja. Complete this October–December for September intake." },
@@ -4723,16 +4723,16 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa at TLScontact Nigeria (June–July)", detail: "Start at france-visas.gouv.fr, complete the application form, then book a TLScontact appointment (TLS replaced VFS for France in Nigeria from April 2025). Documents: passport, Campus France attestation, enrolment letter, proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220." },
         ],
         keyFacts: [
-          "Public university tuition: ~€170/year for a Licence — same as French students",
+          "Public university tuition: ~€2,770–3,770/year for non-EU students (Licence/Bachelor's)",
           "Campus France Nigeria registration (₦80,000 fee + mandatory interview) is the mandatory first step",
           "Living costs: €800–1,100/month outside Paris; €1,200–1,800/month in Paris",
           "OFII validation within 3 months of arrival is mandatory — fully digital at administration-etrangers-en-france.interieur.gouv.fr",
           "Students can work up to 964 hours/year (approx 20 hrs/week) — included in student visa",
         ],
-        outcome: "A French public university Licence gives you an EU-recognized degree from a world-class system at near-zero tuition cost. After graduating, you can apply for a 12-month CdS RECE job-search permit and transition to the Talent Passport worker route toward permanent residency after 5 years.",
+        outcome: "A French public university Licence gives you an EU-recognized degree from a world-class system at affordable fees compared to the UK or US. After graduating, you can apply for a 12-month CdS RECE job-search permit and transition to the Talent Passport worker route toward permanent residency after 5 years.",
       },
       masters: {
-        intro: "France's Master's landscape is exceptional. Public university fees remain ~€243/year. Sciences Po Paris, HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
+        intro: "France's Master's landscape is exceptional. Public university fees for non-EU students are ~€3,770–4,770/year. Sciences Po Paris (€20,640/yr), HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance on top of fees. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
         firstSteps: [
           { action: "Research Eiffel-eligible programmes and target institutions (August–October)", detail: "Check campusfrance.org/en/eiffel-scholarship-program-excellence for the list of eligible institutions and disciplines. Identify 2–3 target institutions. Contact admissions offices about Eiffel nomination eligibility." },
           { action: "Register on Campus France Nigeria and complete mandatory interview", detail: "Register at nigeria.campusfrance.org, complete your DAP, pay ₦80,000 fee, attend mandatory in-person interview. This must be completed before any French institution processes your application." },
@@ -4740,7 +4740,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa via france-visas.gouv.fr and TLScontact (May–July)", detail: "Documents: passport, Campus France attestation, enrolment letter, scholarship letter (if Eiffel) or proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220 (Eiffel holders exempt). Validate OFII within 3 months of arrival." },
         ],
         keyFacts: [
-          "Public university Master's tuition: ~€243/year; Sciences Po: €20,640/yr; HEC: €57,700 for full MiM",
+          "Non-EU tuition: ~€3,770–4,770/year (public); Sciences Po: €20,640/yr; HEC: ~€57,700 for full MiM",
           "Eiffel Excellence Scholarship: ~€1,200/month + return flights + insurance — fully funded",
           "Post-Master's: 12-month CdS RECE job-search permit (not renewable for Nigerians)",
           "Most major Master's programmes are English-medium at postgraduate level",
@@ -5051,7 +5051,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { title: "French is non-negotiable for most undergrad programmes", body: "DELF B2 is the minimum, C1 is recommended. Start language classes at Alliance Française Lagos, Abuja, or Kano early — minimum 12–18 months of preparation before applying." },
         { title: "Campus France registration is mandatory — do this first", body: "You cannot apply to any French public institution without a Campus France number. The mandatory interview in Lagos or Abuja (fee: ₦80,000) must be completed before your university application can be processed." },
         { title: "CROUS housing: apply early and have a backup plan", body: "CROUS student housing (€150–400/month) is the most affordable option. Apply as early as possible at trouverunlogement.lescrous.fr. Demand exceeds supply — have a private accommodation backup plan." },
-        { title: "Know the difference between public universities and Grandes Écoles", body: "The €170/year tuition is correct for most public universities, but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €10,000–22,000/year. Confirm which type of institution you are targeting." },
+        { title: "Know the difference between public universities and Grandes Écoles", body: "Non-EU students pay ~€2,770–3,770/year at most public universities, but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €12,500–22,000/year. Confirm which type of institution you are targeting before applying." },
         { title: "OFII validation within 3 months of arrival is mandatory", body: "If you miss the OFII validation window, your legal status becomes uncertain. Do it your first week in France via administration-etrangers-en-france.interieur.gouv.fr. Fully digital — pay €75 online." },
         { title: "Subsidised campus meals cost just €3.30", body: "CROUS restaurant universitaire tickets give subsidised hot meals at campus restaurants for €3.30/meal. Register as soon as you arrive — one of the best student benefits in France and significantly cuts your food budget." },
         { title: "Year 1 is competitive — take it seriously from day one", body: "French universities operate on a semester system. Year 1 of a Licence is demanding — students who fail to progress may be redirected. Academic independence and thesis quality matter as much as exams." },
@@ -5173,41 +5173,41 @@ For students, Portuguese public universities charge non-EU students €950–7,0
 The path to permanent residency is 5 years. Portuguese citizenship — which gives EU passport rights — is available after 5 years of legal residence, one of the shortest timelines in the EU.`,
 
     stats: {
-      undergrad: [
-        { label: "Tuition (non-EU)", value: "€950–3,500/yr (public universities)" },
-        { label: "Living costs", value: "€700–1,000/mo (Porto), €900–1,300/mo (Lisbon)" },
-        { label: "Visa type", value: "Student visa (D4)" },
-        { label: "Student work", value: "20 hrs/wk during term, full-time in holidays" },
-        { label: "Language", value: "Portuguese (most programmes), English (many Master's)" },
-      ],
-      masters: [
-        { label: "Tuition (non-EU)", value: "€1,250–7,000/yr" },
-        { label: "Top universities", value: "University of Lisbon, Universidade Nova, University of Porto, IST" },
-        { label: "Scholarship", value: "Gulbenkian, FCT, Erasmus+ (from Portugal)" },
-        { label: "Post-study permit", value: "1-year job search (D3 extension)" },
-        { label: "English programmes", value: "Widely available at Master's level" },
-      ],
-      phd: [
-        { label: "PhD fees", value: "€2,500–4,000/yr (often waived with fellowship)" },
-        { label: "FCT fellowship", value: "€1,074/month net stipend" },
-        { label: "Duration", value: "4 years" },
-        { label: "Scholarship", value: "FCT PhD Scholarships (main route)" },
-        { label: "Visa type", value: "D4 student or D3 researcher visa" },
-      ],
-      work: [
-        { label: "Main permit", value: "D3 Highly Qualified Activity Visa / Tech Visa" },
-        { label: "Tech Visa salary threshold", value: "No fixed minimum — employer letter + contract" },
-        { label: "Processing time", value: "2–3 months (SEF/AIMA)" },
-        { label: "Income tax", value: "14.5–48% (NHR regime: flat 20% for 10 years for new residents)" },
-        { label: "PR eligibility", value: "5 years — citizenship also at 5 years" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Schengen short-stay (Type C)" },
-        { label: "Max stay", value: "90 days / 180-day period" },
-        { label: "Fee", value: "€80" },
-        { label: "Processing", value: "15 calendar days" },
-        { label: "Apply via", value: "Portuguese Embassy Abuja or VFS" },
-      ],
+      undergrad: {
+        tuition: "€950–3,500/yr (non-EU, public)",
+        living: "€700–1,000/mo (Porto) / €900–1,300 (Lisbon)",
+        minIELTS: "6.0+",
+        processing: "2–3 months",
+        pathway: "D4 Student Visa",
+      },
+      masters: {
+        tuition: "€1,250–7,000/yr (non-EU)",
+        living: "€700–1,100/mo",
+        minIELTS: "6.5+",
+        processing: "2–3 months",
+        pathway: "D4 Student Visa",
+      },
+      phd: {
+        tuition: "Funded — FCT: €1,074/mo net stipend",
+        living: "€700–1,000/mo",
+        minIELTS: "6.5+",
+        processing: "2–3 months",
+        pathway: "D4 Student / D3 Researcher Visa",
+      },
+      work: {
+        salary: "Market rate (D3) / Tech Visa (no fixed min)",
+        living: "€900–1,300/mo (Lisbon)",
+        processing: "2–3 months",
+        fee: "~€90 (D3 visa)",
+        pathway: "D3 Highly Qualified / Tech Visa",
+      },
+      visitor: {
+        fee: "€80",
+        duration: "90 days / 180-day period",
+        processing: "15 days",
+        living: "€75/day recommended",
+        pathway: "Schengen Type C Visa",
+      },
     },
 
     summary: {
@@ -5368,41 +5368,41 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
     overview: `Spain is one of Europe's most liveable countries — warm climate, rich culture, affordable costs (€800–1,200/month), and strong universities in Madrid, Barcelona, Valencia, and Seville. Spanish public universities charge non-EU students €1,000–3,500/year, and many postgraduate programmes are offered in English. Spain is a Schengen EU member — a Spanish degree and work permit opens Europe-wide opportunities. The main immigration routes for Nigerians are the student visa (visado de estudios), the Highly Qualified Professional visa (equivalent to the EU Blue Card), and the growing Startup Visa and Digital Nomad Visa. Permanent residency after 5 years; Spanish citizenship after 10 years (among the longer EU timelines). Spain has a notable Nigerian and West African community in Madrid, Barcelona, and Valencia.`,
 
     stats: {
-      undergrad: [
-        { label: "Tuition (non-EU)", value: "€1,000–3,500/yr (public)" },
-        { label: "Living costs", value: "€700–1,000/mo (outside Madrid/Barcelona)" },
-        { label: "Visa type", value: "Student visa (visado de estudios, Type D)" },
-        { label: "Student work", value: "Up to 30 hrs/wk" },
-        { label: "Language", value: "Spanish (most programmes), English (many Master's)" },
-      ],
-      masters: [
-        { label: "Tuition (non-EU)", value: "€1,500–7,000/yr (public), up to €20,000 (private)" },
-        { label: "Top universities", value: "Complutense Madrid, UAM, UB Barcelona, UPM, IE Business School" },
-        { label: "Scholarship", value: "MAEC-AECID (Spanish Government Scholarship)" },
-        { label: "Post-study permit", value: "1-year job search after graduation" },
-        { label: "English programmes", value: "Widely available at Master's level" },
-      ],
-      phd: [
-        { label: "PhD fees", value: "€300–2,000/yr (public universities)" },
-        { label: "FPI/FPU stipend", value: "€1,100–1,200/month for 4 years" },
-        { label: "Duration", value: "3–4 years" },
-        { label: "Scholarship", value: "FPI (ministry-funded), FPU (university-funded)" },
-        { label: "Visa type", value: "Student visa (Type D) or researcher visa" },
-      ],
-      work: [
-        { label: "Main permit", value: "Autorización de residencia y trabajo (work + residence)" },
-        { label: "EU Blue Card threshold", value: "1.5× average salary (~€38,000/yr)" },
-        { label: "Processing time", value: "1–3 months" },
-        { label: "Income tax", value: "19–47% (Beckham Law: flat 24% for 6 years for new residents)" },
-        { label: "PR eligibility", value: "5 years lawful residence" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Schengen short-stay (Type C)" },
-        { label: "Max stay", value: "90 days / 180-day period" },
-        { label: "Fee", value: "€80" },
-        { label: "Processing", value: "15 calendar days" },
-        { label: "Apply via", value: "Spanish Embassy Abuja or VFS" },
-      ],
+      undergrad: {
+        tuition: "€1,000–3,500/yr (non-EU, public)",
+        living: "€700–1,000/mo (outside Madrid/Barcelona)",
+        minIELTS: "6.0+ (English programmes)",
+        processing: "30–60 days",
+        pathway: "Visado de Estudios (Type D)",
+      },
+      masters: {
+        tuition: "€1,500–7,000/yr (public); up to €20,000 (private)",
+        living: "€800–1,200/mo",
+        minIELTS: "6.5+",
+        processing: "30–60 days",
+        pathway: "Visado de Estudios (Type D)",
+      },
+      phd: {
+        tuition: "€300–2,000/yr (funded: FPI/FPU €1,100–1,200/mo)",
+        living: "€700–1,000/mo",
+        minIELTS: "6.5+",
+        processing: "1–3 months",
+        pathway: "Student Visa (Type D) / Researcher Visa",
+      },
+      work: {
+        salary: "~€38,000/yr+ (EU Blue Card threshold)",
+        living: "€1,000–1,600/mo (Madrid/Barcelona)",
+        processing: "1–3 months",
+        fee: "~€80 (student/work visa)",
+        pathway: "Autorización de residencia y trabajo",
+      },
+      visitor: {
+        fee: "€80",
+        duration: "90 days / 180-day period",
+        processing: "15 days",
+        living: "€90/day recommended",
+        pathway: "Schengen Type C Visa",
+      },
     },
 
     summary: {
@@ -5572,41 +5572,41 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
     overview: `New Zealand is a genuinely immigration-friendly country with a transparent, points-based immigration system and one of the world's most liveable environments. Auckland, Wellington, and Christchurch are safe, clean, internationally connected cities. The country actively recruits skilled migrants — especially in healthcare, engineering, IT, construction, and education — through the Skilled Migrant Category (SMC) and the Green List (a fast-track PR route for shortage occupations). University fees for international students run NZD 22,000–45,000/year, which is high, but post-study work rights are among the world's most generous: up to 3 years after graduation. New Zealand is not in the Schengen Area — it has its own visa system managed by Immigration New Zealand (INZ). The Nigerian community in New Zealand is small but growing, particularly in Auckland and Wellington. Dual citizenship with New Zealand is permitted — Nigerians can retain their Nigerian passport.`,
 
     stats: {
-      undergrad: [
-        { label: "Tuition (international)", value: "NZD 22,000–38,000/yr (€12,000–21,000)" },
-        { label: "Living costs", value: "NZD 15,000–20,000/yr (€8,000–11,000)" },
-        { label: "Visa type", value: "Student visa (INZ)" },
-        { label: "Student work", value: "20 hrs/wk during term, full-time in holidays" },
-        { label: "Post-study work", value: "Up to 3 years (Post-Study Work Visa)" },
-      ],
-      masters: [
-        { label: "Tuition (international)", value: "NZD 26,000–45,000/yr" },
-        { label: "Top universities", value: "University of Auckland, Victoria University, University of Otago" },
-        { label: "Scholarship", value: "NZ Commonwealth Scholarship, University of Auckland Excellence" },
-        { label: "Post-study work", value: "Up to 3 years" },
-        { label: "Green List", value: "Many roles qualify for accelerated PR after graduation + work" },
-      ],
-      phd: [
-        { label: "PhD fees", value: "NZD 6,500–9,000/yr (subsidised domestic rate for most)" },
-        { label: "PhD scholarship", value: "NZ Doctoral Scholarship: NZD 27,500/yr + fees" },
-        { label: "Duration", value: "3–4 years" },
-        { label: "Post-PhD work", value: "3-year Post-Study Work Visa" },
-        { label: "PR path", value: "PhD + Green List job = fast-track PR" },
-      ],
-      work: [
-        { label: "Main routes", value: "Skilled Migrant Category (SMC), Green List, Accredited Employer Work Visa (AEWV)" },
-        { label: "Green List (Tier 1)", value: "Straight-to-PR for shortage roles (doctors, nurses, engineers, teachers)" },
-        { label: "SMC points threshold", value: "180+ points to be selected" },
-        { label: "Income tax", value: "10.5–39% (progressive)" },
-        { label: "PR eligibility", value: "2 years on Resident Visa (after SMC/Green List)" },
-      ],
-      visitor: [
-        { label: "Visa type", value: "Visitor Visa (INZ)" },
-        { label: "Max stay", value: "Up to 9 months in an 18-month period" },
-        { label: "Fee", value: "NZD 211 (~€115)" },
-        { label: "Processing", value: "2–4 weeks online" },
-        { label: "Apply via", value: "Immigration New Zealand online (visas.immigration.govt.nz)" },
-      ],
+      undergrad: {
+        tuition: "NZD 22,000–38,000/yr (international)",
+        living: "NZD 1,250–1,700/mo",
+        minIELTS: "6.0+",
+        processing: "4–6 weeks",
+        pathway: "INZ Student Visa",
+      },
+      masters: {
+        tuition: "NZD 26,000–45,000/yr (international)",
+        living: "NZD 1,250–1,700/mo",
+        minIELTS: "6.5+",
+        processing: "4–6 weeks",
+        pathway: "INZ Student Visa",
+      },
+      phd: {
+        tuition: "NZD 6,500–9,000/yr (funded: NZD 27,500/yr scholarship)",
+        living: "NZD 1,250–1,600/mo",
+        minIELTS: "6.5+",
+        processing: "4–6 weeks",
+        pathway: "INZ Student Visa",
+      },
+      work: {
+        salary: "180+ SMC points / Green List role",
+        living: "NZD 1,500–2,200/mo (Auckland)",
+        processing: "4–8 weeks",
+        fee: "NZD 735 (AEWV)",
+        pathway: "AEWV / Skilled Migrant / Green List",
+      },
+      visitor: {
+        fee: "NZD 211 (~€115)",
+        duration: "Up to 9 months / 18-month period",
+        processing: "2–4 weeks",
+        living: "NZD 1,000/mo or credit card evidence",
+        pathway: "INZ Visitor Visa",
+      },
     },
 
     summary: {
