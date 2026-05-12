@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
+import { useSEO } from '@/lib/useSEO';
 import { getChecklistProgress, toggleChecklistItem } from '@/lib/checklist';
 import { hasAccessToCountry } from '@/lib/purchases';
 import { getChecklistTemplate } from '@/lib/checklistTemplates';
@@ -17,6 +18,16 @@ const VISA_TYPES = [
 
 export default function VisaChecklist() {
   const { code } = useParams();
+  const checklistCountry = COUNTRIES.find(c => c.code === code);
+  useSEO({
+    title: checklistCountry
+      ? `${checklistCountry.name} Visa Document Checklist for Nigerians | MoveAbroad.ng`
+      : 'Visa Document Checklist | MoveAbroad.ng',
+    description: checklistCountry
+      ? `Track every document you need for your ${checklistCountry.name} visa application. Nigerian-specific checklist for student, work and visitor visas.`
+      : 'Track every document you need for your visa application. Nigerian-specific checklists for student, work and visitor visas.',
+    canonical: `https://moveabroad.ng/checklist/${code}`,
+  });
   const navigate = useNavigate();
   const { user, loading: authLoading } = useAuth();
   const [visaType, setVisaType] = useState('student');

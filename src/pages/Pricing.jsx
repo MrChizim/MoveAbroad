@@ -7,6 +7,7 @@ import { toast } from 'sonner';
 import { useAuth } from '@/lib/AuthContext';
 import PaystackButton from '../components/payment/PaystackButton';
 import { useNavigate } from 'react-router-dom';
+import { useSEO } from '@/lib/useSEO';
 
 const packageMeta = {
   single:     { color: '#0096FF', bg: '#EBF5FF' },
@@ -15,6 +16,24 @@ const packageMeta = {
 };
 
 export default function Pricing() {
+  useSEO({
+    title: 'Pricing — Unlock Country Guides | MoveAbroad.ng',
+    description: 'Get full access to Nigerian relocation guides. Single country from ₦10,000, 5-country pack ₦30,000, or all 13 countries for ₦50,000. Pay once, access forever.',
+    canonical: 'https://moveabroad.ng/pricing',
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: 'MoveAbroad.ng Relocation Guides',
+      description: 'In-depth relocation guides for Nigerians — visa paths, jobs, cost of living, universities and scholarships for 13 countries.',
+      url: 'https://moveabroad.ng/pricing',
+      offers: [
+        { '@type': 'Offer', name: 'Single Country', price: '10000', priceCurrency: 'NGN' },
+        { '@type': 'Offer', name: '5 Countries Pack', price: '30000', priceCurrency: 'NGN' },
+        { '@type': 'Offer', name: 'All Access', price: '50000', priceCurrency: 'NGN' },
+      ],
+    },
+  });
+
   const { user, signInWithGoogle } = useAuth();
   const navigate = useNavigate();
   const [selectedPkg, setSelectedPkg] = useState(null);

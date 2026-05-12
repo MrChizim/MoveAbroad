@@ -4,6 +4,7 @@ import { useAuth } from '@/lib/AuthContext';
 import { hasAccessToCountry } from '@/lib/purchases';
 import { COUNTRIES } from '@/lib/countries';
 import { GUIDE_CONTENT } from '@/lib/guideContent';
+import { useSEO } from '@/lib/useSEO';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft, ArrowRight, Lock, CheckSquare, ExternalLink,
@@ -127,6 +128,26 @@ export default function CountryDetail() {
 
   const country = COUNTRIES.find(c => c.code === code);
   const guide = GUIDE_CONTENT[code];
+
+  useSEO(country ? {
+    title: `Move to ${country.name} from Nigeria — Visa, Jobs & Relocation Guide | MoveAbroad.ng`,
+    description: guide?.overview
+      ? guide.overview.slice(0, 155) + '…'
+      : `Complete relocation guide for Nigerians moving to ${country.name}. Visa pathways, cost of living, universities, scholarships and Nigerian-specific tips.`,
+    canonical: `https://moveabroad.ng/country/${code}`,
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: `Move to ${country.name} from Nigeria — Relocation Guide`,
+      description: guide?.tagline || `Relocation guide for Nigerians moving to ${country.name}.`,
+      publisher: {
+        '@type': 'Organization',
+        name: 'MoveAbroad.ng',
+        url: 'https://moveabroad.ng',
+      },
+      url: `https://moveabroad.ng/country/${code}`,
+    },
+  } : { title: 'MoveAbroad.ng', description: '' });
 
   useEffect(() => {
     if (authLoading) return;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
+import { useSEO } from '@/lib/useSEO';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { Button } from "@/components/ui/button";
@@ -32,6 +33,12 @@ const COVER_LEVELS = [
 ];
 
 export default function CVBuilder() {
+  useSEO({
+    title: 'International CV Builder for Nigerians — UK, Canada, USA & More | MoveAbroad.ng',
+    description: 'Build a job-ready CV in the format required by your target country. Nigerian professionals moving abroad — get a country-specific CV instantly.',
+    canonical: 'https://moveabroad.ng/cv-builder',
+  });
+
   const { user } = useAuth();
   const navigate = useNavigate();
   const [profile, setProfile] = useState(null);
