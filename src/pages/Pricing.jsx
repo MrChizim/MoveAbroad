@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, ArrowRight } from 'lucide-react';
+import { Check, ArrowRight, ChevronDown } from 'lucide-react';
 import { PACKAGES, COUNTRIES } from '@/lib/countries';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { motion } from 'framer-motion';
@@ -14,6 +14,26 @@ const packageMeta = {
   five_pack:  { color: '#7C3AED', bg: '#F3EEFF' },
   all_access: { color: '#059669', bg: '#ECFDF5' },
 };
+
+function FAQItem({ q, a }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="border border-black/[0.08] rounded-2xl overflow-hidden">
+      <button
+        onClick={() => setOpen(v => !v)}
+        className="w-full flex items-center justify-between px-6 py-4 text-left hover:bg-black/[0.01] transition-colors"
+      >
+        <span className="text-[15px] font-semibold text-[#04091A] pr-4">{q}</span>
+        <ChevronDown className={`w-4 h-4 text-black/30 flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && (
+        <div className="px-6 pb-5">
+          <p className="text-[14px] text-black/50 leading-relaxed">{a}</p>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Pricing() {
   useSEO({
@@ -151,6 +171,43 @@ export default function Pricing() {
               </motion.div>
             );
           })}
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
+        <h2 className="text-[1.6rem] font-black text-[#04091A] text-center mb-8" style={{ fontWeight: 900 }}>Frequently Asked Questions</h2>
+        <div className="space-y-3">
+          {[
+            {
+              q: 'Do I pay every month?',
+              a: 'No. MoveAbroad.ng is a one-time payment. You pay once and keep your guides forever — no subscriptions, no renewals.',
+            },
+            {
+              q: 'What exactly is in each guide?',
+              a: 'Each country guide covers: visa pathways (student, work, visitor), a step-by-step application timeline, top universities and their acceptance rates, available scholarships, cost of living breakdown, Nigerian-specific tips, and embassy/official links. All researched specifically for Nigerians.',
+            },
+            {
+              q: 'What if visa rules change after I buy?',
+              a: 'We update guides when major policy changes happen. Your access is lifetime, so you automatically get any updates we push — at no extra cost.',
+            },
+            {
+              q: 'Can I share my access with a friend?',
+              a: 'Access is tied to your account. Each person needs their own purchase. If you want to help a friend, the 5-country pack is great value.',
+            },
+            {
+              q: 'Is there a refund policy?',
+              a: 'Because the guides are digital and accessible instantly, we don\'t offer refunds. If you have concerns before buying, email us at moveabroadng@gmail.com and we\'ll answer any questions.',
+            },
+            {
+              q: 'How do I access my guides after paying?',
+              a: 'After payment via Paystack, your account is unlocked instantly. Just go to your Dashboard and click on any country you\'ve unlocked.',
+            },
+            {
+              q: 'I\'m not sure which country to pick — can I decide later?',
+              a: 'Yes. With the Single Country pack you pick your country at checkout. If you\'re undecided, the 5-country pack lets you choose 5 now and is much better value.',
+            },
+          ].map(({ q, a }) => <FAQItem key={q} q={q} a={a} />)}
         </div>
       </div>
 

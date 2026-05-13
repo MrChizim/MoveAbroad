@@ -10,7 +10,7 @@ import {
   ArrowLeft, ArrowRight, Lock, CheckSquare, ExternalLink,
   GraduationCap, Briefcase, Clock, DollarSign, Globe,
   MapPin, BookOpen, Award, Building2, Users, ChevronDown, ChevronUp,
-  BookMarked, FlaskConical, Plane, Lightbulb, Calendar
+  BookMarked, FlaskConical, Plane, Lightbulb, Calendar, Share2
 } from 'lucide-react';
 
 // ── Level selector config ──────────────────────────────────────────────
@@ -180,12 +180,23 @@ export default function CountryDetail() {
             <Link to="/countries" className="inline-flex items-center gap-2 text-white/60 hover:text-white mb-4 text-[13px] transition-colors">
               <ArrowLeft className="w-4 h-4" /> All Countries
             </Link>
-            <div className="flex items-end gap-4">
-              <span className="text-5xl">{country.flag}</span>
-              <div>
-                <h1 className="text-white text-[2rem] sm:text-[2.6rem] font-black leading-tight" style={{ fontWeight: 900 }}>{country.name}</h1>
-                {guide?.tagline && <p className="text-white/60 text-[14px] mt-1 max-w-lg">{guide.tagline}</p>}
+            <div className="flex items-end justify-between gap-4">
+              <div className="flex items-end gap-4">
+                <span className="text-5xl">{country.flag}</span>
+                <div>
+                  <h1 className="text-white text-[2rem] sm:text-[2.6rem] font-black leading-tight" style={{ fontWeight: 900 }}>{country.name}</h1>
+                  {guide?.tagline && <p className="text-white/60 text-[14px] mt-1 max-w-lg">{guide.tagline}</p>}
+                </div>
               </div>
+              <a
+                href={`https://wa.me/?text=${encodeURIComponent(`Check out this ${country.name} relocation guide for Nigerians 🇳🇬 — visa paths, jobs, cost of living and more: https://moveabroad.ng/country/${code}`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 rounded-xl text-[13px] font-semibold text-white flex-shrink-0 transition-all hover:opacity-90"
+                style={{ background: '#25D366' }}
+              >
+                <Share2 className="w-4 h-4" /> Share
+              </a>
             </div>
           </div>
         </div>

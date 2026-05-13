@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import { getUserPurchases, ADMIN_EMAILS } from '@/lib/purchases';
 import { COUNTRIES } from '@/lib/countries';
+import { getChecklistProgress } from '@/lib/checklist';
+import { getChecklistTemplate } from '@/lib/checklistTemplates';
 import { Globe, ArrowRight, Lock, LogOut, CheckSquare, Calculator, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -10,11 +12,28 @@ export default function Dashboard() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
   const [purchases, setPurchases] = useState(null);
+  const [checklistProgress, setChecklistProgress] = useState({});
 
   useEffect(() => {
     if (!user) { navigate('/'); return; }
     getUserPurchases(user.uid).then(setPurchases);
   }, [user, navigate]);
+
+  useEffect(() => {
+    if (!user || !purchases) return;
+    const isAdmin = ADMIN_EMAILS.map(e => e.toLowerCase()).includes(user.email?.toLowerCase());
+    const codes = isAdmin ? COUNTRIES.map(c => c.code) : (purchases.countries || []);
+    Promise.all(
+      codes.map(code =>
+        getChecklistProgress(user.uid, code).then(items => {
+          const template = getChecklistTemplate(code, 'student');
+          const total = template.length;
+          const done = Object.values(items).filter(Boolean).length;
+          return [code, { done, total, pct: total ? Math.round((done / total) * 100) : 0 }];
+        })
+      )
+    ).then(entries => setChecklistProgress(Object.fromEntries(entries)));
+  }, [user, purchases]);
 
   if (!user || !purchases) return (
     <div className="min-h-screen flex items-center justify-center">
@@ -97,17 +116,38 @@ export default function Dashboard() {
                           UNLOCKED
                         </div>
                       </div>
-                      <div className="p-4 flex items-center justify-between">
-                        <Link to={`/checklist/${country.code}`}
-                          className="flex items-center gap-1.5 text-[12px] font-medium text-black/50 hover:text-[#0096FF] transition-colors"
-                          onClick={e => e.stopPropagation()}
-                        >
-                          <CheckSquare className="w-3.5 h-3.5" strokeWidth={1.75} />
-                          Visa Checklist
-                        </Link>
-                        <span className="text-[12px] font-medium text-[#0096FF] group-hover:underline">
-                          Open Guide →
-                        </span>
+                      <div className="p-4">
+                        {(() => {
+                          const prog = checklistProgress[country.code];
+                          return prog ? (
+                            <div className="mb-3">
+                              <div className="flex items-center justify-between mb-1.5">
+                                <span className="text-[11px] font-medium text-black/40">Checklist progress</span>
+                                <span className="text-[11px] font-bold" style={{ color: prog.pct === 100 ? '#059669' : '#0096FF' }}>
+                                  {prog.done}/{prog.total}
+                                </span>
+                              </div>
+                              <div className="h-1.5 rounded-full bg-black/[0.06] overflow-hidden">
+                                <div
+                                  className="h-full rounded-full transition-all duration-500"
+                                  style={{ width: `${prog.pct}%`, background: prog.pct === 100 ? '#059669' : '#0096FF' }}
+                                />
+                              </div>
+                            </div>
+                          ) : null;
+                        })()}
+                        <div className="flex items-center justify-between">
+                          <Link to={`/checklist/${country.code}`}
+                            className="flex items-center gap-1.5 text-[12px] font-medium text-black/50 hover:text-[#0096FF] transition-colors"
+                            onClick={e => e.stopPropagation()}
+                          >
+                            <CheckSquare className="w-3.5 h-3.5" strokeWidth={1.75} />
+                            Visa Checklist
+                          </Link>
+                          <span className="text-[12px] font-medium text-[#0096FF] group-hover:underline">
+                            Open Guide →
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </Link>
