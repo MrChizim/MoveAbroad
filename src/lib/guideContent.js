@@ -22,12 +22,12 @@ export const GUIDE_CONTENT = {
 
     summary: {
       undergrad: {
-        intro: "Canada's undergraduate Study Permit is open to any Nigerian accepted at a government-approved (DLI) school. The process starts with applying to a university — nothing happens until you have a Letter of Acceptance. Tuition runs CAD 20,000–35,000 per year. You will need to show proof of funds through a GIC account before the visa is issued.",
+        intro: "Canada's undergraduate Study Permit is open to any Nigerian accepted at a government-approved (DLI) school. The process starts with applying to a university — nothing happens until you have a Letter of Acceptance. Tuition runs CAD 20,000–35,000 per year. You must prove you can cover first-year tuition plus CAD 23,448 for living costs (from 1 September 2026). Most Nigerian applicants do this with a GIC, which IRCC accepts and which makes your funds easy to verify.",
         firstSteps: [
           { action: "Get your WAEC/NECO results verified at the WAEC office", detail: "Takes 2–4 weeks. Canadian universities specifically require a Verification Certificate — not just your result slip. Do this before anything else." },
           { action: "Take IELTS Academic — target 6.0 overall minimum (6.5 to be safe)", detail: "Book at British Council or IDP in Lagos, Abuja, or Port Harcourt. You have 2–3 months before typical application windows open." },
           { action: "Apply to 4–6 Designated Learning Institutions (DLIs)", detail: "Apply through each university's own website. Application fee: CAD 100–200 per school. You need: WAEC certificate, transcripts, IELTS result, personal statement, reference letters." },
-          { action: "Once admitted: pay your deposit and set up a GIC account", detail: "Your GIC (CAD 23,448 deposited at CIBC, Scotiabank, or SBI Canada) is not a fee — the money is released back to you monthly after you arrive. The GIC certificate is required to apply for your Study Permit." },
+          { action: "Once admitted: pay your deposit and set up a GIC account", detail: "Your GIC (CAD 23,448 deposited at CIBC, Scotiabank, or SBI Canada) is not a fee — the money is released back to you monthly after you arrive. A GIC is not compulsory since the Nigeria Student Express ended in November 2024, but it is the cleanest way to prove your living funds." },
           { action: "Apply for your Study Permit at canada.ca (CAD 150 fee)", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, bank statements, Statement of Purpose, passport. Then attend biometrics at VFS Global in Lagos or Abuja (CAD 85)." },
         ],
         keyFacts: [
@@ -50,10 +50,10 @@ export const GUIDE_CONTENT = {
           { action: "Apply for Study Permit at canada.ca (CAD 150) and attend biometrics at VFS Global", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, Statement of Purpose, transcripts, passport. Biometrics fee: CAD 85 at VFS Global Lagos or Abuja. Processing: 4–12 weeks." },
         ],
         keyFacts: [
-          "ALL masters graduates now receive a 3-year PGWP — even 1-year programs (changed February 2024)",
+          "Master's programs of at least 8 months now qualify for a 3-year PGWP — even 1-year programs (changed February 2024). Degree programs have no field-of-study restriction",
           "GIC money (CAD 23,448) is returned to you in monthly instalments after you arrive — it is not a fee",
           "Your spouse can get an Open Work Permit only if your master's program is 16 months or longer (rule since January 2025). Shorter programs do not qualify",
-          "Apply for PGWP within 180 days of graduating — missing this window ends your path to PR",
+          "Apply for PGWP within 180 days of graduating — missing this window ends your path to PR. You need CLB 7 (IELTS General about 6.0 in every band) in all four skills for a university degree PGWP",
           "After 1 year of skilled Canadian work, you qualify for Canadian Experience Class — a fast-track PR route",
         ],
         outcome: "Masters → 3-year PGWP (work anywhere in Canada) → Express Entry Permanent Residency. Most Nigerians with strong IELTS scores (CLB 9) receive a PR invitation within 6–18 months of finishing their PGWP.",
@@ -68,12 +68,12 @@ export const GUIDE_CONTENT = {
         ],
         keyFacts: [
           "Most Canadian PhD students receive full tuition waiver + CAD 18,000–28,000/year stipend",
-          "TA (Teaching Assistant) and RA (Research Assistant) work counts as Canadian work experience for Express Entry",
-          "After graduation: 3-year PGWP + TA/RA experience = very competitive Express Entry profile",
+          "TA and RA work done while you are a full-time student does NOT count toward Express Entry or the Canadian Experience Class — your PR clock starts after graduation, on your PGWP",
+          "After graduation: 3-year PGWP + a Canadian PhD (maximum education points) + 1 year of skilled work = a very competitive Express Entry profile",
           "Emailing professors is expected and normal — professors post their emails because they want students to reach out",
           "Provincial Nominee Programs can add 600 CRS points — essentially guaranteeing a PR invitation",
         ],
-        outcome: "PhD graduation → 3-year PGWP → Express Entry PR within 6–18 months for most Nigerian PhD graduates with TA/RA experience and strong IELTS scores.",
+        outcome: "PhD graduation → 3-year PGWP → Express Entry PR for most Nigerian PhD graduates once they have 1 year of skilled Canadian work after graduation and strong IELTS scores.",
       },
       work: {
         intro: "There are two ways to work in Canada as a Nigerian: Express Entry (apply for Permanent Residency from outside Canada using your qualifications) or an LMIA Work Permit (a Canadian employer sponsors you for a specific job). Most Nigerians who move to Canada for work use Express Entry. The process starts with two mandatory steps you can do right now.",
@@ -84,11 +84,13 @@ export const GUIDE_CONTENT = {
           { action: "Create your Express Entry profile at canada.ca", detail: "Once your WES evaluation and IELTS scores are ready, submit your profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 60 days to submit your full PR application." },
         ],
         keyFacts: [
-          "WES evaluation is mandatory for Express Entry — start it now even if you are months away from applying",
+          "An Educational Credential Assessment (WES is the most common) is mandatory for the Federal Skilled Worker program — start it now even if you are months away from applying",
           "IELTS CLB 9 (8.0+ in every band) gives you maximum language points — the most impactful thing you can improve",
           "Express Entry cut-off scores change every draw. Check the latest rounds at canada.ca before estimating your chances",
           "LMIA path: a Canadian employer hires you, pays CAD 1,000 to apply for LMIA, then you apply for a work permit — takes 2–5 months",
           "After 1 year of skilled Canadian work experience, you qualify for Canadian Experience Class — faster PR track",
+          "Show settlement funds of CAD 15,263 (single applicant) for Federal Skilled Worker. PR fees are CAD 1,590 for the main applicant (from 30 April 2026)",
+          "French is a shortcut: French-language category draws often invite candidates at much lower CRS scores. NCLC 7 in TEF Canada or TCF Canada is the usual target",
         ],
         outcome: "Express Entry PR application takes ~6 months from Invitation to Apply. LMIA work permit + 1 year experience → Canadian Experience Class → PR. Either path leads to full Permanent Residency.",
       },
@@ -102,13 +104,15 @@ export const GUIDE_CONTENT = {
           { action: "Prepare your ties-to-Nigeria evidence thoroughly", detail: "This is the most important part of your application. Ties to Nigeria that count: current employment letter from Nigerian employer confirming your role, leave approval, and that your job will be held; business registration documents if self-employed; land or property ownership documents (C of O, deed); letter confirming children are in school in Nigeria; family ties such as a spouse or dependants who remain in Nigeria." },
         ],
         keyFacts: [
-          "A Multiple Entry TRV (METV) allows you to re-enter Canada multiple times within 10 years — request this unless you only need a single entry",
+          "Multiple-entry 10-year visas are no longer automatic (IRCC guidance, November 2024) — officers now decide single or multiple entry and the validity based on your purpose, funds and ties",
           "Processing time is 2–8 weeks — do not book flights before your visa is approved",
           "Rejection is common for first-time applicants — if rejected, you can reapply immediately but must address every reason given in the refusal letter",
           "Having a previous US, UK, or Schengen visa in your passport helps significantly — it shows other countries have approved you",
           "Even small details matter: a return flight booking, hotel confirmation, and a clear day-by-day itinerary all strengthen your application",
+          "Visitors can no longer switch to a work permit from inside Canada (that temporary policy ended 28 August 2024) — do not travel on a visitor visa hoping to find a job",
+          "Visiting a child or grandchild who is a Canadian citizen or PR? The Super Visa lets parents and grandparents stay up to 5 years per entry, with multiple entries over up to 10 years",
         ],
-        outcome: "A successful TRV application grants entry for up to 6 months. You can apply for an extension inside Canada (another CAD 100) if you need more time. A Multiple Entry visa allows return visits without reapplying each time.",
+        outcome: "A successful TRV application grants entry for up to 6 months. You can apply for an extension inside Canada (another CAD 100) if you need more time. If the officer grants a multiple-entry visa, you can return without reapplying each time.",
       },
     },
 
@@ -130,8 +134,12 @@ Each school has its own application portal. Go directly to the university websit
 **Step 2 — Receive your Letter of Acceptance (LOA)**
 When a school admits you, they send a Letter of Acceptance. This letter is the most important document for your visa application. Pay your tuition deposit (usually CAD 3,000–5,000) to confirm your place. The school will then finalise your LOA.
 
+**Provincial Attestation Letter (PAL):** Undergraduate and college students also need a PAL — a letter from the province confirming you fall within its share of Canada's study permit cap. You do not apply for it yourself: your school requests it and sends it to you with (or after) your LOA. Your Study Permit application will be returned if the PAL is missing. Canada caps new study permits each year, so apply as soon as you have your LOA and PAL.
+
+**Upfront medical exam:** Nigerians coming to Canada for more than 6 months must do an immigration medical exam with an IRCC-approved panel physician in Nigeria. Do it before you apply and upload the confirmation — it avoids weeks of delay.
+
 **Step 3 — Set up your GIC (Guaranteed Investment Certificate)**
-For most Nigerian Study Permit applicants, IRCC requires you to deposit CAD 23,448 into a Canadian GIC account before applying. This money is NOT lost — it is released to you in monthly payments once you arrive in Canada. Think of it as a forced savings account. Use CIBC, Scotiabank (StartRight program), or SBI Canada — they all accept applications from Nigeria. Processing typically takes 2–3 weeks. You will receive a GIC certificate to include in your visa application.
+You must prove you have CAD 23,448 for living costs (applications from 1 September 2026) on top of your first-year tuition. A GIC is no longer compulsory — the Nigeria Student Express and Student Direct Stream ended on 8 November 2024 — but it is still the strongest proof most Nigerian applicants can give, so we recommend it. This money is NOT lost — it is released to you in monthly payments once you arrive in Canada. Think of it as a forced savings account. Use CIBC, Scotiabank (StartRight program), or SBI Canada — they all accept applications from Nigeria. Processing typically takes 2–3 weeks. You will receive a GIC certificate to include in your visa application.
 
 **Step 4 — Apply for your Study Permit online**
 Go to canada.ca and create an IRCC account. The Study Permit application fee is CAD 150. You will upload:
@@ -196,7 +204,7 @@ Once you decide which school to attend, log into their admissions portal and for
 
 **Setting up your GIC — the step that confuses most Nigerian families**
 
-Before you can apply for your Study Permit, you need to deposit CAD 23,448 into a special account called a Guaranteed Investment Certificate (GIC). This money is NOT a fee and it is NOT paid to the Canadian government. It stays in a Canadian bank account in your name and is released back to you in monthly payments once you arrive in Canada. Think of it as a forced savings account that Canada holds on your behalf to confirm you can support yourself in your first year.
+Before you apply for your Study Permit, you need to prove CAD 23,448 for living costs plus your first-year tuition. The most reliable way is to deposit the living-cost amount into a special account called a Guaranteed Investment Certificate (GIC). A GIC is not strictly compulsory since November 2024, but officers trust it far more than personal bank statements. This money is NOT a fee and it is NOT paid to the Canadian government. It stays in a Canadian bank account in your name and is released back to you in monthly payments once you arrive in Canada. Think of it as a forced savings account that Canada holds on your behalf to confirm you can support yourself in your first year.
 
 The banks that accept GIC applications from Nigeria are CIBC (cibc.com/international), Scotiabank (StartRight program — scotiabank.com/startright), and SBI Canada. Each has a slightly different process but all can be done online from Nigeria. You send the money via international wire transfer and the bank processes the GIC within 2–3 weeks. You then receive a GIC certificate, which you include in your Study Permit application.
 
@@ -231,7 +239,7 @@ Carry ALL of the following documents in your hand luggage — never in checked b
 
 **After you arrive**
 
-Open your Canadian bank account immediately if you did not do it from Nigeria. Register at your university. Your GIC bank will release the first monthly payment to you within a few weeks of arrival — usually around CAD 1,700 depending on the bank's disbursement schedule. You are allowed to work up to 24 hours per week off-campus during the academic year and full-time during scheduled breaks (winter break, summer). You do not need a separate work permit — your Study Permit includes work authorization.
+Open your Canadian bank account immediately if you did not do it from Nigeria. Register at your university. Your GIC bank will release the first monthly payment to you within a few weeks of arrival — usually around CAD 1,900 depending on the bank's disbursement schedule. You are allowed to work up to 24 hours per week off-campus during the academic year and full-time during scheduled breaks (winter break, summer). You do not need a separate work permit — your Study Permit includes work authorization.
 
 **The path after your degree**
 
@@ -264,7 +272,11 @@ Apply to 4–6 programs. Do not apply to only one. Shortlist schools at differen
 Once admitted, pay your tuition deposit (usually CAD 3,000–5,000) to secure your place. The university then issues your formal Letter of Acceptance (LOA). You cannot apply for a Study Permit without this letter — it is the single most important document in your application.
 
 **Step 3 — Set up your GIC (Guaranteed Investment Certificate)**
-Deposit CAD 23,448 into a Canadian GIC account before applying for your Study Permit. Banks that accept Nigerian applications: CIBC, Scotiabank (StartRight program), and SBI Canada. The application takes about 2–3 weeks and you receive a GIC certificate. This money is NOT lost — it is released back to you in monthly instalments after you arrive in Canada. It is a savings account, not a fee.
+Prove CAD 23,448 for living costs plus first-year tuition. The recommended way is a Canadian GIC account (not compulsory since November 2024, but the strongest evidence). Banks that accept Nigerian applications: CIBC, Scotiabank (StartRight program), and SBI Canada. The application takes about 2–3 weeks and you receive a GIC certificate. This money is NOT lost — it is released back to you in monthly instalments after you arrive in Canada. It is a savings account, not a fee.
+
+**Do you need a Provincial Attestation Letter (PAL)?** From 1 January 2026, most master's students at public universities are exempt from the PAL and from the study permit cap. If you are going to a private institution or a non-degree program, ask your school whether you still need one.
+
+**Upfront medical exam:** Nigerians staying more than 6 months must do an immigration medical exam with an IRCC-approved panel physician in Nigeria. Do it before you apply.
 
 **Step 4 — Apply for your Study Permit at canada.ca**
 Create an IRCC account and pay the CAD 150 application fee. Upload:
@@ -353,7 +365,7 @@ Log into the university's admissions portal and formally accept your offer. Pay 
 
 **Setting up your GIC**
 
-This step trips up many Nigerian families. Before applying for your Study Permit, you must deposit CAD 23,448 into a Canadian Guaranteed Investment Certificate (GIC) account. This money is not a visa fee. It is not paid to the government. It is deposited into a Canadian bank account in your name and released back to you monthly after you arrive — approximately CAD 1,700 per month for 12 months. The purpose is to prove to IRCC that you have funds to live on in your first year in Canada.
+This step trips up many Nigerian families. Before applying for your Study Permit, you must prove CAD 23,448 for living costs plus your first-year tuition. Most Nigerian students do this by depositing the living-cost amount into a Canadian Guaranteed Investment Certificate (GIC) account — not compulsory since November 2024, but the strongest proof you can give. This money is not a visa fee. It is not paid to the government. It is deposited into a Canadian bank account in your name and released back to you after you arrive — usually an initial lump sum, then monthly instalments over 12 months (roughly CAD 1,900 a month). The purpose is to prove to IRCC that you have funds to live on in your first year in Canada.
 
 The banks that accept GIC applications from Nigeria are CIBC, Scotiabank (StartRight program), and SBI Canada. Apply online from Nigeria — you will create an account on the bank's website, complete the application, and send the money by international wire transfer from a Nigerian bank. Processing takes 2–3 weeks. You receive a GIC certificate, which you upload with your Study Permit application. Keep a copy.
 
@@ -425,6 +437,8 @@ When you are accepted, you receive an offer letter. Before accepting, confirm in
 • Is there a conference travel budget?
 Get every detail confirmed in your offer letter before you accept. This offer letter is critical for your Study Permit application.
 
+**Good news for PhD applicants:** from 1 January 2026, doctoral students at public universities do not need a Provincial Attestation Letter and are outside the study permit cap. IRCC has also announced a 14-day processing standard for doctoral applicants applying from outside Canada. You still need an upfront immigration medical exam with an IRCC-approved panel physician in Nigeria.
+
 **Step 4 — Apply for your Study Permit at canada.ca**
 Go to canada.ca and create an IRCC account. The Study Permit application fee is CAD 150. Upload:
 • Your funded offer letter from the university — this is the key document. It shows IRCC you have confirmed financial support, which significantly speeds up processing and reduces refusal risk
@@ -446,11 +460,11 @@ Processing time: 4–12 weeks after biometrics. Do not book your flight until yo
 Your approval letter is NOT your actual Study Permit — it is just permission to travel. At the Canadian Port of Entry (airport), an immigration officer checks all your documents and issues the physical Study Permit card. Carry ALL original documents in your hand luggage: offer letter, passport, funding confirmation, approval letter, transcripts. Do not put any of these in checked luggage. The officer may ask you questions about your research and your plans.
 
 **Building your path to PR during your PhD:**
-Teaching Assistant (TA) and Research Assistant (RA) positions are paid Canadian work experience — they count toward your Comprehensive Ranking System (CRS) score in Express Entry. Keep records of every paid position: employer name, job title, hours per week, start and end dates, and salary. You are allowed to work on campus without a work permit as a full-time student. Off-campus, your Study Permit allows up to 24 hours per week during the academic year (this changed from 20 hours in 2024 — verify at canada.ca as this changes).
+Teaching Assistant (TA) and Research Assistant (RA) positions give you income, references and Canadian experience on your CV — but IRCC does not count work done while you are a full-time student toward the Canadian Experience Class or Canadian work experience points. Your PR clock starts after you graduate and begin working on your PGWP. You are allowed to work on campus without a work permit as a full-time student. Off-campus, your Study Permit allows up to 24 hours per week during the academic year (this changed from 20 hours in 2024 — verify at canada.ca as this changes).
 
 After your PhD, you receive a 3-year Post-Graduation Work Permit (PGWP) — an open work permit that lets you work for any employer anywhere in Canada. Apply for it within 180 days of receiving your final results. Include your IELTS result in the PGWP application (required since November 2024). You can start working full-time immediately after submitting the PGWP application while it is being processed.
 
-Three years of Canadian skilled work experience after your PhD, combined with your TA/RA experience, feeds directly into Express Entry for Permanent Residency. Most Nigerian PhD graduates with strong IELTS scores (CLB 9 — 8.0+ in every band) and Canadian work experience receive an Express Entry invitation within 6–18 months of finishing their PGWP work period.
+Skilled Canadian work experience after your PhD feeds directly into Express Entry for Permanent Residency — you need at least 1 year (1,560 hours) for the Canadian Experience Class. Most Nigerian PhD graduates with strong IELTS scores (CLB 9 — 8.0+ in every band) and Canadian work experience receive an Express Entry invitation within 6–18 months of finishing their PGWP work period.
 
 **Bringing your family:**
 Your funded stipend proves to IRCC that you can financially support dependants — include your offer letter showing stipend amount. Your spouse or partner can apply for an Open Work Permit and work for any employer anywhere in Canada. Your children can attend Canadian primary and secondary school at no extra charge. You should show approximately CAD 4,000–6,000 additional funds per family member per year. Apply for their permits at the same time as yours.
@@ -533,7 +547,7 @@ Attend your department's orientation. Get to know the other PhD students — the
 
 **During your PhD: building toward PR**
 
-Every TA or RA position you hold is paid Canadian work experience. Keep records of every position — employer name (university), job title (Teaching Assistant or Research Assistant), hours per week, dates, and salary. When you apply for Permanent Residency, this experience counts in your Express Entry profile.
+TA and RA positions are valuable for income, references and your CV, but IRCC does not count work done while you are a full-time student toward the Canadian Experience Class. Treat them as career-building, and plan for your PR-eligible work to begin after graduation.
 
 Publish as much as you can. Conference papers, journal articles. Publications strengthen your Express Entry profile under the education category and make you more competitive in academic and non-academic job markets.
 
@@ -543,7 +557,7 @@ Take IELTS General Training (not Academic) in your final year and aim for CLB 9 
 
 Apply for your 3-year Post-Graduation Work Permit within 180 days of your final results. Include your IELTS result in the application. You can start working immediately after submitting while it is processed. Work in any skilled position — your PhD makes you eligible for high-skilled NOC categories that score well in Express Entry.
 
-After 1 year of skilled Canadian work experience (your TA/RA experience during the PhD also counts if it was paid), create your Express Entry profile. With a PhD, Canadian work experience, and CLB 9 IELTS, you are extremely competitive. Most Nigerian PhD graduates in this position receive PR invitations within 6–18 months.`,
+After 1 year of skilled Canadian work experience after graduation (TA/RA work done while studying full-time does not count), create your Express Entry profile. With a PhD, Canadian work experience, and CLB 9 IELTS, you are extremely competitive. Most Nigerian PhD graduates in this position receive PR invitations within 6–18 months.`,
 
       work: `**Working in Canada as a Nigerian — Two Main Paths**
 
@@ -560,13 +574,17 @@ Your CRS score comes from:
 
 Step-by-step:
 1. Take IELTS — target 8.0+ in all 4 bands (CLB 9)
-2. Get your Nigerian degree evaluated by WES (World Education Services) at wes.org. Cost: approximately USD 246. Takes about 7 weeks once WES receives your documents. This is mandatory — you cannot submit an Express Entry profile without it.
+2. Get your Nigerian degree evaluated by WES (World Education Services) at wes.org. Cost: approximately USD 246. Takes about 7 weeks once WES receives your documents. An Educational Credential Assessment (ECA) is mandatory for the Federal Skilled Worker program and is how you earn education points. WES is the most common provider, but IRCC accepts other designated organisations too.
 3. Go to canada.ca and use the "Come to Canada" tool to check your estimated CRS score
 4. Create your Express Entry profile
 5. Wait for an Invitation to Apply (ITA). Cut-off scores change with every draw and differ by category (French-language, healthcare, trades, etc.). Check the latest rounds of invitations at canada.ca.
 6. Once invited, you have 60 days to submit your full PR application
 
-Recent draws (2024): STEM occupations round — CRS 491. Healthcare — CRS 422–463. French language — 336–478. General draws are higher. If your score is below 450, focus on improving IELTS or gaining Canadian experience first.
+**2026 category-based draws.** As well as general and Canadian Experience Class draws, IRCC invites people in priority categories, often at lower scores: French-language proficiency, healthcare and social services, trades, education, and STEM (including cybersecurity). For 2026 it added new categories for doctors, researchers and senior managers with Canadian work experience, and for transport occupations. From 2026, each occupation category needs at least 1 year of work experience in the last 3 years. Cut-off scores change every draw — check the latest rounds at canada.ca.
+
+**Settlement funds (Federal Skilled Worker).** You must show money you can bring to Canada: CAD 15,263 for a single applicant, CAD 19,001 for 2 people, CAD 23,360 for 3, CAD 28,362 for 4 (figures updated July 2025). Canadian Experience Class applicants, and people with a valid job offer who are already authorised to work in Canada, are exempt.
+
+**PR fees (from 30 April 2026).** CAD 990 processing fee plus CAD 600 Right of Permanent Residence Fee = CAD 1,590 for the main applicant. Add CAD 1,590 for a spouse and CAD 270 per child. Budget separately for biometrics (CAD 85), medicals, police certificates and the ECA.
 
 **PATH 2 — LMIA Work Permit (Come to Canada with a job offer)**
 
@@ -585,7 +603,7 @@ Once you have a job offer, the employer applies for the LMIA. This takes 2–4 m
 After 1 year of skilled Canadian work experience, you qualify for Canadian Experience Class — a fast-track Express Entry stream for PR.
 
 **Bringing your family:**
-On a work permit or Express Entry, your spouse may qualify for an Open Work Permit. Children can attend Canadian schools.
+If you get PR through Express Entry, your spouse and children get PR with you. On a work permit, the rules tightened in January 2025: your spouse qualifies for an Open Work Permit only if your job is in TEER 0 or 1 (or certain TEER 2–3 occupations in shortage sectors) and you have at least 16 months left on your permit. Children can attend Canadian schools.
 
 **────────────────────────────────────────────**
 **FULL WALKTHROUGH — Working in Canada as a Nigerian, Start to Finish**
@@ -601,7 +619,7 @@ Express Entry is Canada's points-based immigration system. You create a profile 
 
 Your CRS score is calculated from four main factors: your age (peak points at 20–29, declining after 30), your education level (higher degrees = more points, a Nigerian masters or PhD evaluated by WES gets full credit), your language scores (English IELTS — target CLB 9 which is 8.0+ in every band; French is also scored if you have it), and your Canadian work experience (this is the biggest bonus — even 1 year of Canadian work experience adds a large number of points, which is why studying in Canada first is so effective). There are also bonus points for a provincial nomination (+600 points, which essentially guarantees an ITA), or a sibling who is a Canadian citizen or PR. Job offers no longer add CRS points: IRCC removed arranged-employment points on 25 March 2025.
 
-Step one — get your Nigerian degree evaluated by WES. World Education Services (wes.org) is the organisation that assesses whether your Nigerian degree is equivalent to a Canadian degree. This evaluation is mandatory for Express Entry — you cannot create a profile without it. The process costs approximately USD 246. You apply online at wes.org, request your transcripts to be sent from your Nigerian university directly to WES (check WES's instructions for Nigeria-specific document requirements), and WES processes your evaluation once they receive everything. The whole process takes about 7 weeks from when WES physically receives your documents. Do this immediately. Do not wait until you are ready to apply — WES always takes longer than expected.
+Step one — get your Nigerian degree evaluated by WES. World Education Services (wes.org) is the organisation most Nigerians use to assess whether their degree is equivalent to a Canadian degree. An Educational Credential Assessment (ECA) is mandatory for the Federal Skilled Worker program, and without one you get no points for foreign education. IRCC also accepts other designated organisations. The process costs approximately USD 246. You apply online at wes.org, request your transcripts to be sent from your Nigerian university directly to WES (check WES's instructions for Nigeria-specific document requirements), and WES processes your evaluation once they receive everything. The whole process takes about 7 weeks from when WES physically receives your documents. Do this immediately. Do not wait until you are ready to apply — WES always takes longer than expected.
 
 Step two — take IELTS General Training (not Academic — for Express Entry you use General Training, not Academic). Target 8.0+ in all four bands: Listening, Reading, Writing, and Speaking. At 8.0+ in every band, you achieve CLB 9 in all four skills, which gives you maximum language points. This is the single most impactful thing you can do to improve your CRS score. The difference between CLB 7 (6.0 in each band) and CLB 9 (8.0+ in each band) is approximately 60–80 CRS points. At current draw levels, 80 points can be the difference between receiving an ITA and waiting years. Retake the test as many times as needed. Register at British Council or IDP in Lagos, Abuja, or Port Harcourt.
 
@@ -627,7 +645,7 @@ Step three — prepare your Canadian-format CV and cover letter. Canadian CVs ar
 
 Step four — apply and go through the interview process. Canadian hiring processes typically involve a phone screening, then 1–2 interviews (video or in-person), and sometimes a technical assessment for engineering and tech roles. Be prepared for behavioural interview questions — "Tell me about a time when..." style questions are standard in Canada. Research the STAR method (Situation, Task, Action, Result) and prepare examples from your Nigerian work experience.
 
-Step five — receive a job offer. Once you have an offer, the employer applies for an LMIA from Service Canada. This costs the employer CAD 1,000 and takes 2–5 months. While waiting, do not resign from your current position in Nigeria — LMIA processing is not guaranteed and can be refused.
+Step five — receive a job offer. Once you have an offer, the employer applies for an LMIA from Service Canada. This costs the employer CAD 1,000 and takes 2–5 months. While waiting, do not resign from your current position in Nigeria — LMIA processing is not guaranteed and can be refused. Note: since September 2024, Service Canada refuses to process low-wage LMIAs in cities with unemployment of 6% or higher, so most realistic LMIA offers for Nigerians are high-wage roles. Never pay anyone for an LMIA or a job offer — it is illegal in Canada and a common scam.
 
 Step six — once the LMIA is approved, apply for your work permit at canada.ca. You will need: the LMIA number from your employer, your job offer letter, your valid Nigerian passport, proof of your qualifications (degree, professional certifications), and proof of relevant work experience. The work permit fee is CAD 155. Processing takes 2–8 weeks from Nigeria.
 
@@ -635,7 +653,7 @@ Step seven — arrive in Canada. Your work permit is tied to this specific emplo
 
 **After 1 year of Canadian work: Canadian Experience Class**
 
-Whether you arrived on a student visa and switched to a work permit, or came directly on an LMIA work permit, after 1 year of skilled Canadian work experience you qualify for the Canadian Experience Class (CEC) stream within Express Entry. CEC has its own separate draws, typically with lower CRS thresholds than the general pool. Most Nigerians with 1 year of Canadian work experience and CLB 7+ IELTS scores qualify for CEC invitations within 6–12 months of becoming eligible.`,
+Whether you arrived on a student visa and switched to a work permit, or came directly on an LMIA work permit, after 1 year of skilled Canadian work experience you qualify for the Canadian Experience Class (CEC) stream within Express Entry. CEC needs at least 1 year (1,560 hours) of skilled work (TEER 0–3) in Canada in the last 3 years, gained after you finished full-time study, and CLB 7 language scores for TEER 0–1 jobs (CLB 5 for TEER 2–3). CEC has its own separate draws, typically with lower CRS thresholds than the general pool. Most Nigerians with 1 year of Canadian work experience and CLB 7+ IELTS scores qualify for CEC invitations within 6–12 months of becoming eligible.`,
 
       visitor: `**The Canada Visitor Visa (Temporary Resident Visa — TRV)**
 
@@ -688,7 +706,15 @@ IRCC must provide a refusal letter listing the reasons. Read every reason carefu
 
 **Multiple Entry Visa**
 
-When applying, request a Multiple Entry Temporary Resident Visa (METV). If approved, this allows you to enter Canada multiple times within the visa's validity (typically 10 years or the expiry of your passport). If you only need to travel once, a single entry TRV is also an option but costs the same — the multiple entry version is almost always the better choice if you might visit again.`,
+Since November 2024, IRCC no longer treats a 10-year multiple-entry visa as the standard. The officer decides whether to issue a single-entry or multiple-entry visa, and for how long, based on your purpose, funds and ties to Nigeria. You can explain in your application why you need to travel repeatedly (for example, family in Canada), which helps if you want a multiple-entry visa.
+
+**Super Visa for parents and grandparents**
+
+If your child or grandchild is a Canadian citizen or permanent resident, you can apply for a Super Visa instead of a regular visitor visa. It allows stays of up to 5 years at a time, with multiple entries over up to 10 years. Your child or grandchild must meet a minimum income requirement, and you need Canadian medical insurance for at least one year. The fee starts at CAD 100.
+
+**You cannot switch to a work permit as a visitor**
+
+A temporary policy that let visitors apply for work permits from inside Canada ended on 28 August 2024. If you want to work in Canada, use the work routes in the Work Permit guide — do not travel as a visitor hoping to find a job.`,
     },
 
     timeline: {
@@ -697,7 +723,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { step: "10–12 months before", title: "Take IELTS Academic", detail: "Book IELTS Academic (not General Training — Academic is required for university admission). Minimum target: 6.0 overall with no band below 5.5. Target 6.5 to be safe. British Council and IDP both run IELTS in Lagos, Abuja, and Port Harcourt. Allow yourself 2–3 months of preparation. You can retake the test — no limit." },
         { step: "8–10 months before", title: "Submit university applications", detail: "Apply to 4–6 schools through each university's own website. You need: official transcripts (stamped by your university/school registrar), WAEC verification certificate, personal statement, reference letters, and your IELTS result. Pay each school's application fee (typically CAD 100–200 per school)." },
         { step: "6–8 months before", title: "Receive Letter of Acceptance and pay deposit", detail: "Once you receive an offer, pay the tuition deposit (usually CAD 3,000–5,000) to secure your place. The school then issues your formal Letter of Acceptance (LOA). Do not delay paying the deposit — spots are limited and offers can expire." },
-        { step: "5–6 months before", title: "Set up your GIC", detail: "Open a GIC account with CIBC, Scotiabank (StartRight program), or SBI Canada. Transfer CAD 23,448. The bank processes this in about 2–3 weeks and sends you a GIC certificate. You need this certificate to apply for your Study Permit." },
+        { step: "5–6 months before", title: "Set up your GIC", detail: "Open a GIC account with CIBC, Scotiabank (StartRight program), or SBI Canada. Transfer CAD 23,448. The bank processes this in about 2–3 weeks and sends you a GIC certificate. Upload it with your Study Permit application — it is the strongest proof of funds IRCC accepts." },
         { step: "5–6 months before", title: "Apply for Study Permit online at canada.ca", detail: "Application fee: CAD 150. Upload your LOA, GIC certificate, bank statements, passport bio-data page, IELTS result, and Statement of Purpose. Submit everything at once. Incomplete applications are rejected." },
         { step: "4–5 months before", title: "Biometrics at VFS Global Lagos or Abuja", detail: "After submitting your application, IRCC sends a Biometrics Instruction Letter (BIL). Book at vfsglobal.ca/canada/nigeria. Fee: CAD 85. Bring your passport and the BIL. Biometrics are valid for 10 years." },
         { step: "2–3 months before", title: "Study Permit approved — prepare to travel", detail: "Book your flight. Apply for on-campus housing immediately — it fills fast. Join Nigerian student WhatsApp groups for your university. Open a Canadian bank account online before you arrive (Scotiabank StartRight and TD International Student Banking allow pre-arrival setup)." },
@@ -717,11 +743,11 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { step: "12–15 months before", title: "Formal application with confirmed supervisor", detail: "Apply only to programs where a professor has expressed interest. Your application needs: Research proposal (1,000–2,000 words), Statement of Purpose, CV, 3 references (at least 2 academic), transcripts, IELTS (6.5 minimum). A supervised, funded PhD offer is significantly stronger for your Study Permit application." },
         { step: "8–10 months before", title: "Receive funded offer letter — confirm everything in writing", detail: "Before accepting, confirm: Is tuition waived? What is the annual stipend (usually CAD 18,000–28,000)? Are there TA/RA requirements? What is the expected duration? Get this in writing. Accept the offer. Begin Study Permit application." },
         { step: "5–6 months before", title: "Study Permit application", detail: "Include your funding/offer letter with your Study Permit application. This proves to IRCC that you are financially supported. Study Permit fee: CAD 150. Biometrics: CAD 85 at VFS Lagos or Abuja." },
-        { step: "During PhD", title: "TA/RA work experience counts toward Express Entry", detail: "Teaching Assistant and Research Assistant positions are paid Canadian work experience. Keep records. This experience boosts your CRS score when you apply for Permanent Residency after graduating." },
-        { step: "After graduation", title: "3-year PGWP then Express Entry PR", detail: "Apply for PGWP within 180 days of graduating. 3-year open work permit. Include IELTS result in application. Most Nigerian PhD graduates receive Express Entry invitations within 6–18 months of graduating, especially with strong language scores and Canadian work experience from TA/RA positions." },
+        { step: "During PhD", title: "Build your CV — and prepare for PR early", detail: "Teaching and Research Assistant roles give you income, references and Canadian experience on your CV. They do not count toward the Canadian Experience Class (work done as a full-time student is excluded), so use this time to publish, network, and take IELTS General Training aiming for CLB 9." },
+        { step: "After graduation", title: "3-year PGWP then Express Entry PR", detail: "Apply for PGWP within 180 days of graduating. 3-year open work permit. Include IELTS result in application. Most Nigerian PhD graduates receive Express Entry invitations within 6–18 months of graduating, especially with strong language scores and 1 year of skilled work after graduation." },
       ],
       work: [
-        { step: "Before anything else", title: "WES evaluation and IELTS", detail: "Get your Nigerian degree evaluated at wes.org. Cost: approximately USD 246. Takes about 7 weeks. This is mandatory for Express Entry. At the same time, take IELTS — target 8.0+ in all bands (CLB 9). These two things are the foundation of everything else." },
+        { step: "Before anything else", title: "WES evaluation and IELTS", detail: "Get your Nigerian degree evaluated at wes.org. Cost: approximately USD 246. Takes about 7 weeks. An ECA is mandatory for the Federal Skilled Worker program. At the same time, take IELTS — target 8.0+ in all bands (CLB 9). These two things are the foundation of everything else." },
         { step: "Check your score first", title: "Use the Come to Canada tool at canada.ca", detail: "Before spending months on anything, estimate your CRS score at canada.ca/come-to-canada-tool. If your score is below 440, focus on improving your IELTS first — the language improvement alone could add 50–80 points. Know your score before deciding which path to pursue." },
         { step: "Create your Express Entry profile", title: "Submit to the pool and wait for an invitation", detail: "Go to canada.ca, create your IRCC account, and submit your Express Entry profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 60 days to submit your full PR application. The entire PR process (from ITA to decision) typically takes 6 months." },
         { step: "Parallel track — job search for LMIA work permit", title: "Apply to Canadian employers willing to sponsor", detail: "Job Bank Canada (jobbank.gc.ca) is the government job board — free to use and specifically designed for this. Also use LinkedIn and Indeed Canada (ca.indeed.com). Look for companies that sponsor work visas — tech companies, hospitals, engineering firms. The job posting sometimes says 'open to work permit sponsorship'. Focus on IT, healthcare, engineering, and finance." },
@@ -730,7 +756,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
       ],
       visitor: [
         { step: "8–12 weeks before travel", title: "Gather your documents — start with employment letter and bank statements", detail: "Ask your Nigerian employer to issue a formal letter on company letterhead confirming your role, your approved leave dates, and that your position will be held for you while you travel. Simultaneously prepare 3–6 months of personal bank statements. Funds should look stable — not recently deposited. This is the core of your application." },
-        { step: "6–8 weeks before travel", title: "Apply online at canada.ca", detail: "Create an IRCC account and start the Visitor Visa (TRV) application. Fee: CAD 100. Upload: passport, bank statements, employment letter, travel itinerary (hotel bookings or host details), passport photos, and any invitation letter. If you have previous US, UK, or Schengen visas, ensure your passport scan includes those pages — they help. Request a Multiple Entry TRV for future flexibility." },
+        { step: "6–8 weeks before travel", title: "Apply online at canada.ca", detail: "Create an IRCC account and start the Visitor Visa (TRV) application. Fee: CAD 100. Upload: passport, bank statements, employment letter, travel itinerary (hotel bookings or host details), passport photos, and any invitation letter. If you have previous US, UK, or Schengen visas, ensure your passport scan includes those pages — they help. If you will travel repeatedly, explain why — multiple-entry visas are no longer automatic." },
         { step: "Within days of applying", title: "Biometrics at VFS Global", detail: "IRCC sends a Biometrics Instruction Letter (BIL) by email shortly after you apply. Book at VFS Global in Lagos (Victoria Island) or Abuja (Maitama) at vfsglobal.ca/canada/nigeria. Fee: CAD 85. Bring your passport and the printed BIL. Biometrics valid for 10 years." },
         { step: "2–8 weeks later", title: "Decision — do not book flights until you have approval", detail: "Processing time is currently 2–8 weeks but varies. Check the IRCC website for live estimates. Once approved, your visa will be stamped in your passport and returned to you via VFS. Only then book your flights." },
         { step: "At the Canadian airport", title: "Border officer sets your actual entry duration", detail: "Your TRV allows you to seek entry. The border officer at the Canadian airport determines exactly how long you can stay — typically up to 6 months. Be prepared to answer questions about your visit purpose, where you are staying, how much money you have, and when you are returning to Nigeria. Have your return flight booking ready to show." },
@@ -742,12 +768,12 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { title: "WAEC verification takes 2–4 weeks — start immediately", body: "Many Nigerian students lose months because they forgot to verify their WAEC/NECO results. Go to the WAEC office (Lagos: 16 Plot 326, Independence Avenue, Wuse 2; or your nearest state office) and request a Verification Certificate. This is different from your result slips. Canadian universities specifically request this. Do it before you even decide which schools to apply to." },
         { title: "Bank statements must show 3–6 months of stable funds", body: "IRCC visa officers check how long money has been sitting in your account. If NGN 15 million appeared in your account 3 weeks ago, a visa officer will flag it. Your funds should be stable for at least 3 months before you apply. If your parents or a sponsor is providing the funds, you also need a signed sponsor letter and their own bank statements." },
         { title: "Proof of ties to Nigeria — exactly what counts", body: "For your Study Permit, show you have reasons to come back to Nigeria (even if you plan to apply for PR later, your initial application must show ties). What counts: signed letter from a Nigerian employer confirming your position is being held for you, Certificate of Occupancy or family land documents (family property counts, not just yours), letter from parents confirming they are funding you and remaining in Nigeria, business registration documents, siblings or spouse in Nigeria. The more evidence, the better." },
-        { title: "The GIC money comes back to you — it is not a fee", body: "Many Nigerian families panic when they hear CAD 23,448 must be deposited. This money is NOT paid to the Canadian government. It is deposited into a Canadian bank account in your name and released to you in monthly instalments when you arrive. By the end of your first year, you will have received every penny back. Think of it as a savings account that Canada holds for you." },
+        { title: "The GIC money comes back to you — it is not a fee", body: "Many Nigerian families panic when they hear about the CAD 23,448 GIC. This money is NOT paid to the Canadian government. It is deposited into a Canadian bank account in your name and released to you in monthly instalments when you arrive. By the end of your first year, you will have received every penny back. Think of it as a savings account that Canada holds for you." },
         { title: "On-campus housing fills fast — apply the same day you accept your offer", body: "Do not wait. The day you accept your university offer and pay your deposit, immediately apply for on-campus housing. International students qualify for the same housing as domestic students at most Canadian universities. Residence halls are safe, affordable, and put you in the middle of campus life. Private apartments near campus can cost 2–3 times more." },
       ],
       masters: [
         { title: "Your Statement of Purpose will make or break your application", body: "Admissions committees read hundreds of generic statements. Name the specific professor whose research excites you. Reference their specific paper (read it properly, do not fake it). Explain exactly why your Nigerian academic background and work experience make you ready for this program. Describe what research question you want to answer. Two specific, well-written pages beats five generic pages. Spend 2–3 weeks on this document — it matters more than your grades in some programs." },
-        { title: "The PGWP changed as of February 2024 — every masters graduate gets 3 years", body: "Before February 2024, only masters programs of 2 years or more got a 3-year PGWP. Now ALL masters graduates get a 3-year PGWP regardless of program length. This means even a 1-year masters at a Canadian university gives you 3 years to work freely in Canada. This is one of the best immigration deals in the world for Nigerian students." },
+        { title: "The PGWP changed as of February 2024 — every masters graduate gets 3 years", body: "Before February 2024, only masters programs of 2 years or more got a 3-year PGWP. Now ALL masters graduates get a 3-year PGWP regardless of program length. This means even a 1-year masters at a Canadian university gives you 3 years to work freely in Canada. Two conditions to plan for: you need CLB 7 English (or NCLC 7 French) in all four skills when you apply, and you must apply within 180 days of graduating." },
         { title: "WES evaluation — do it as early as possible", body: "World Education Services (wes.org) evaluates your Nigerian degree for Canadian immigration purposes. It confirms your degree is equivalent to a Canadian degree and gives it a Canadian GPA equivalent. Takes approximately 7 weeks from when WES receives your documents. Cost: approximately USD 246. Start this process the moment you decide you are applying for PR or Express Entry — do not wait until you need it urgently." },
         { title: "Avoid immigration consultants who guarantee results", body: "Many consultants in Nigeria charge high fees and promise guaranteed visas. Study Permit decisions are made by IRCC visa officers — nobody can guarantee an outcome. If you want professional help, use only CICC-regulated representatives (Canadian Immigration Consultants College — verify at college-ic.ca). Many Nigerians successfully apply without a consultant by following the official IRCC website step by step." },
       ],
@@ -759,6 +785,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
       work: [
         { title: "LinkedIn is not optional — it is how Canadian hiring works", body: "Canadian recruiters actively search LinkedIn for candidates. Set up a complete profile (professional photo, detailed work history, skills listed). Turn on 'Open to Work' and set Canada as your target location. Nigerian software engineers, accountants, nurses, and engineers are genuinely in demand. If your profile is complete and professional, you will receive messages from Canadian recruiters — especially in tech and healthcare." },
         { title: "Provincial health systems actively recruit Nigerian healthcare workers", body: "Alberta Health Services, Ontario Health, and other provincial health systems have international recruitment programs. If you are a nurse, doctor, pharmacist, or allied health professional, search '[province] international healthcare recruitment' specifically. Note: Nigeria is currently on a World Health Organization list of countries with healthcare worker shortages, which means targeted NHS-style recruitment from Nigeria faces restrictions in some programs — but individual applications are still accepted. The path is to apply directly to hospitals and health systems, not through government-to-government schemes." },
+        { title: "Learning French can be worth more CRS points than a second degree", body: "Canada runs French-language category draws in Express Entry, and they often invite candidates at far lower CRS scores than general draws. French also adds up to 50 bonus points on top of your English score. The tests IRCC accepts are TEF Canada and TCF Canada; NCLC 7 in all four skills is the usual target for the French category. Going from zero to NCLC 7 typically takes 12–18 months of serious study, so start early. Nigerians with some French from secondary school or from living in a francophone neighbouring country have a head start." },
         { title: "Saskatchewan and Manitoba are faster routes than Ontario for many Nigerians", body: "The Saskatchewan Immigrant Nominee Program (SINP) and Manitoba Provincial Nominee Program (MPNP) have streams that specifically need workers in healthcare, agriculture, trades, and other sectors. These programs have lower score thresholds than Ontario's federal Express Entry stream. If you are a nurse, mechanic, electrician, or in another trade, look at these provinces seriously." },
       ],
       visitor: [
@@ -766,7 +793,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { title: "Bank funds must be stable — not recently deposited", body: "IRCC visa officers specifically look at how long money has been in your account. A large amount that appeared in your account 2–3 weeks before you applied is a red flag. Ideally your statements should show 3–6 months of consistent, stable balances. If you cannot show this in your personal account, a sponsor's bank statements (parent, sibling, or friend in Canada) combined with a clear sponsor letter can supplement your application." },
         { title: "Previous visas (US, UK, Schengen) significantly help your application", body: "If you have been previously approved for a US B1/B2, UK Standard Visitor, or any Schengen visa, these are powerful evidence that other immigration systems have assessed you and approved you. Make sure your passport scan includes ALL pages with visa stamps — not just the bio-data page. These previous approvals show you have a travel history and have returned home as required." },
         { title: "If refused, you can reapply — but you must address every refusal reason", body: "A TRV refusal is not permanent. Read the refusal letter carefully and identify every reason given. A common reason is 'insufficient ties to home country' — address this with a stronger employment letter, property documents, and family evidence. 'Insufficient funds' can be addressed with more months of stable bank statements. Reapply with clearly improved documentation. Do not reapply with the same documents — you will likely be refused again." },
-        { title: "Request a Multiple Entry TRV, not a single entry", body: "The application fee is the same (CAD 100) regardless of whether you get a single or multiple entry visa. Request a Multiple Entry TRV in your application — if approved, it allows you to visit Canada multiple times within 10 years without reapplying each time. This is especially useful if you have family in Canada or travel for business regularly. Single entry visas expire as soon as you leave Canada." },
+        { title: "Explain why you need multiple entries — it is no longer automatic", body: "The fee is the same (CAD 100) for single or multiple entry, but since November 2024 officers decide which you get and for how long. If you have family in Canada or travel for business regularly, say so clearly in your application and back it up (invitation letter, past trips, ongoing business). A single-entry visa ends as soon as you leave Canada." },
       ],
     },
 
@@ -810,7 +837,12 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { label: "Post-Graduation Work Permit (PGWP)", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html" },
         { label: "Express Entry — how it works", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/works.html" },
         { label: "Come to Canada Tool — check your CRS score", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/come-canada-tool-immigration-express-entry.html" },
-        { label: "WES — Nigerian Degree Evaluation (required for Express Entry)", url: "https://www.wes.org/ca/" },
+        { label: "WES — Nigerian Degree Evaluation (ECA for Express Entry)", url: "https://www.wes.org/ca/" },
+        { label: "Study permit proof of funds (official amounts)", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html" },
+        { label: "PGWP eligibility, language and field-of-study rules", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" },
+        { label: "Express Entry proof of funds (settlement funds)", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/proof-funds.html" },
+        { label: "Express Entry rounds of invitations — latest cut-off scores", url: "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/ministerial-instructions/express-entry-rounds.html" },
+        { label: "Super Visa for parents and grandparents", url: "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/parent-grandparent-super-visa.html" },
         { label: "VFS Global Nigeria — Biometrics Appointments", url: "https://www.vfsglobal.ca/canada/nigeria/" },
         { label: "Job Bank Canada — Official Government Job Board", url: "https://www.jobbank.gc.ca/" },
         { label: "CICC — Verify your immigration consultant (avoid fakes)", url: "https://college-ic.ca/protecting-the-public/find-an-immigration-consultant" },
@@ -6054,7 +6086,9 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
   US: {
     tagline: "United States — the world's top university system and the global tech capital. New student and visitor visas for Nigerians are currently restricted (see below).",
 
-    overview: `**IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits.**
+    overview: `**IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends new B-1/B-2 visitor, F/M student, J exchange and immigrant visas for Nigerian nationals. Visas issued before that date are still valid. You can still apply and attend an interview, but most new Nigerian applicants are currently refused. H-1B and other work visas are not covered by the suspension.**
+
+**What still works for Nigerians in 2026:** H-1B and O-1 work visas (employer-sponsored or extraordinary ability); changing status inside the US for people already there (for example F-1 to H-1B, or applying for a Green Card from inside the US); and dual nationals applying with a non-restricted passport. What is largely blocked for new applicants: student, exchange, visitor and immigrant visas issued at the Lagos consulate.
 
 The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US is the highest-stakes, highest-reward destination. Fees can reach $55,000/year at elite private universities — but at the Master's and PhD level in STEM, you typically pay nothing and get paid a stipend to study. Funded STEM PhD places at top-50 US universities are one of the most underused opportunities available to talented Nigerians.
 
@@ -6064,41 +6098,41 @@ Eight US universities are fully need-blind for international students and meet 1
 
 The Nigerian-American community is the most educated immigrant group in the US by degree attainment. Over 400,000 Nigerian-born residents are concentrated in Houston, New York, Maryland, New Jersey, Atlanta, and Dallas — a well-networked diaspora spanning medicine, engineering, law, finance, and academia.
 
-Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times in 2025 are 6–13 months — book the day you decide to travel. The interview is short; the case is made on strong Nigerian ties and honest, clear answers.`,
+Other rules that apply to Nigerians: since 8 July 2025 most US non-immigrant visas issued to Nigerians are single-entry with 3 months' validity (reciprocity); visitors may be asked for a visa bond of USD 10,000–20,000; student and exchange applicants must set their social media accounts to public for vetting; and from 1 August 2026 all routine visa interviews take place at the US Consulate General in Lagos, as the Embassy in Abuja has suspended routine visa services. A USD 250 "visa integrity fee" is in US law but collection had not started consistently as of October 2026.`,
 
     stats: {
       undergrad: {
         tuition: "$15,000–55,000/yr (need-blind aid at 8 schools)",
         living: "$1,000–1,700/mo",
         minIELTS: "6.5+ (TOEFL 90+)",
-        processing: "2–5 months",
+        processing: "New F-1 visas for Nigerians suspended since 1 Jan 2026",
         pathway: "F-1 Student Visa",
       },
       masters: {
         tuition: "Free (funded STEM) / $30,000–60,000/yr (unfunded)",
         living: "$1,000–1,700/mo",
         minIELTS: "6.5–7.0 (TOEFL 100+)",
-        processing: "2–5 months",
+        processing: "New F-1 visas for Nigerians suspended since 1 Jan 2026",
         pathway: "F-1 Student Visa",
       },
       phd: {
         tuition: "Funded — tuition waived + $18,000–35,000/yr stipend",
         living: "$1,000–1,700/mo",
         minIELTS: "6.5–7.0 (TOEFL 100+)",
-        processing: "2–5 months",
+        processing: "New F-1 visas for Nigerians suspended since 1 Jan 2026",
         pathway: "F-1 Student Visa",
       },
       work: {
         salary: "H-1B: specialty occupation market rate",
         living: "$1,500–3,000/mo (varies by city)",
         processing: "3–6 months (H-1B)",
-        fee: "$185 MRV + $460 H-1B filing",
+        fee: "$185 MRV + H-1B petition fees (employer pays)",
         pathway: "H-1B / O-1A / EB-2 NIW",
       },
       visitor: {
-        fee: "$185 (MRV, non-refundable)",
-        duration: "Up to 6 months per entry",
-        processing: "6–13 months (Lagos 2025 — book immediately)",
+        fee: "$185 MRV + possible visa bond $10,000–20,000",
+        duration: "Single entry, 3-month visa validity (since July 2025)",
+        processing: "New B visas for Nigerians suspended since 1 Jan 2026",
         living: "$100–200/day",
         pathway: "B-1/B-2 Visitor Visa",
       },
@@ -6106,94 +6140,97 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
 
     summary: {
       undergrad: {
-        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. US undergraduate education is the most expensive in the world — but 8 universities are need-blind for international students and meet 100% of financial need. Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all charge nothing to families that cannot afford to pay. The process starts with applying through Common App, filing for financial aid via CSS Profile, and receiving an I-20 from your university before applying for the F-1 visa.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 suspends most new F, M and J student visas for Nigerian nationals. You can still apply and be interviewed, but most new Nigerian applicants are currently refused. Students who already held a valid F-1 or J-1 visa before 1 January 2026 are not affected. Exceptions are narrow: dual nationals applying with a non-restricted passport, and rare case-by-case national-interest exceptions. Before you pay a SEVIS fee or tuition deposit, check ng.usembassy.gov, and keep a plan B (Canada, the UK and Germany have similar funded routes in this guide). US undergraduate education is the most expensive in the world — but 8 universities are need-blind for international students and meet 100% of financial need. Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all charge nothing to families that cannot afford to pay. The process starts with applying through Common App, filing for financial aid via CSS Profile, and receiving an I-20 from your university before applying for the F-1 visa.",
         firstSteps: [
           { action: "Take TOEFL or IELTS and SAT/ACT if targeting competitive schools", detail: "Many schools are now test-optional for SAT/ACT, but strong scores (1400+ SAT) unlock merit scholarships at mid-tier schools. TOEFL 90+ or IELTS 6.5+ required for most universities. Book at British Council or IDP Nigeria." },
           { action: "Apply through Common App (commonapp.org) to 10–15 universities", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to safety, match, and reach schools. The personal essay is your most important document — make it specific and genuine." },
           { action: "File CSS Profile for need-based financial aid at need-blind schools", detail: "Go to cssprofile.collegeboard.org — file by November 15 for Early Decision, January 1–15 for Regular Decision. For the 8 need-blind schools, apply regardless of income. Harvard families under $100,000/year pay nothing." },
-          { action: "Receive I-20, pay SEVIS fee ($350 at fmjfee.com), and apply for F-1 visa", detail: "After enrolling, your university issues an I-20. Pay SEVIS fee, complete DS-160 at ceac.state.gov/genniv, pay MRV fee ($185), and attend interview at US Embassy Lagos or Consulate Abuja. Apply as early as possible — wait times are long." },
+          { action: "Check the visa suspension before paying SEVIS or deposits, then apply for F-1", detail: "Ask the university to defer your admission if the suspension is still in place when you are admitted — many will. If you go ahead: your university issues an I-20, you pay the SEVIS fee ($350 at fmjfee.com), complete the DS-160 at ceac.state.gov/genniv, pay the MRV fee ($185), set your social media to public, and attend your interview at the US Consulate General in Lagos." },
         ],
         keyFacts: [
           "8 universities meet 100% of demonstrated financial need for international students: Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown",
           "Harvard: families under $100,000/year pay $0; under $200,000/year pay no tuition",
           "Community college → state university transfer costs as little as $60,000 for 4 years total",
-          "F-1 students can work on-campus 20 hrs/week; off-campus only via CPT or OPT",
+          "F-1 students can work on-campus 20 hrs/week; off-campus only via CPT or OPT. DHS has proposed (October 2026) large new fees on schools for each OPT recommendation — not in force yet",
           "STEM OPT after graduation: 36 months of open work authorization — 3 H-1B lottery attempts",
         ],
         outcome: "A US undergraduate degree — especially from a top school with need-blind aid — is a life-changing credential. After graduation, STEM OPT gives 3 years to secure H-1B sponsorship and begin the Green Card process. Nigerian engineers, doctors, and lawyers with US degrees access the world's highest-paying job markets.",
       },
       masters: {
-        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. The US Master's decision splits into two completely different paths: funded STEM (you pay nothing and receive a stipend) and unfunded (you pay $30,000–60,000/year). Target funded positions in STEM fields exclusively — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, Purdue, or Michigan costs you nothing and pays you to study. The F-1 visa process is identical to undergraduate.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 suspends most new F, M and J student visas for Nigerian nationals. You can still apply and be interviewed, but most new Nigerian applicants are currently refused. Students who already held a valid F-1 or J-1 visa before 1 January 2026 are not affected. Exceptions are narrow: dual nationals applying with a non-restricted passport, and rare case-by-case national-interest exceptions. Before you pay a SEVIS fee or tuition deposit, check ng.usembassy.gov, and keep a plan B (Canada, the UK and Germany have similar funded routes in this guide). The US Master's decision splits into two completely different paths: funded STEM (you pay nothing and receive a stipend) and unfunded (you pay $30,000–60,000/year). Target funded positions in STEM fields exclusively — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, Purdue, or Michigan costs you nothing and pays you to study. The F-1 visa process is identical to undergraduate.",
         firstSteps: [
           { action: "Identify target universities and email professors before applying", detail: "For funded STEM programmes, contact professors whose research aligns with yours. A professor's support is the key to TA/RA funding. Search faculty pages at Carnegie Mellon, Georgia Tech, Michigan, Purdue, UIUC, Ohio State, UMass Amherst, Texas A&M, NC State." },
           { action: "Take GRE (if required) and TOEFL/IELTS", detail: "Many top STEM programmes dropped GRE after COVID — check each school. TOEFL 90–100+ or IELTS 7.0+ typically required. Nigerian IELTS scores from English-medium universities are often accepted without waiver requests." },
           { action: "Apply September–December for January–April funding offers", detail: "Most STEM deadlines: December 1 – January 15. Submit: statement of purpose (most important), CV, 3 recommendation letters, transcripts, TOEFL/IELTS, GRE if required. State your interest in TA/RA funding explicitly in your statement of purpose." },
-          { action: "Negotiate funding offers and apply for F-1 visa", detail: "Funded offers include tuition waiver + monthly stipend ($1,500–2,500). You can compare and negotiate across schools. Once you accept: university issues I-20, pay SEVIS fee ($350), DS-160, MRV fee ($185), interview at US Embassy Lagos." },
+          { action: "Negotiate funding offers — and ask about deferral before you apply for F-1", detail: "Funded offers include tuition waiver + monthly stipend ($1,500–2,500). Because new F-1 visas for Nigerians are suspended, ask each school whether it will defer your offer and funding by a year. If you proceed: I-20, SEVIS fee ($350), DS-160, MRV fee ($185), interview at the US Consulate General in Lagos." },
         ],
         keyFacts: [
           "Funded STEM Master's: full tuition waiver + $18,000–30,000/year stipend + health insurance",
           "Never pay for a US STEM Master's or PhD — funded options exist at every level of university ranking",
           "STEM OPT: 36 months of work authorization after graduation (12 base + 24-month extension)",
-          "STEM OPT gives 3 separate H-1B lottery attempts — most Nigerians need 1–2 attempts",
+          "STEM OPT gives 3 separate H-1B lottery attempts. Since the FY2027 lottery, selection is weighted by wage level, so higher-paid offers have better odds",
           "Unfunded professional Master's (MBA, law): only justified at top-10 schools with premium salary outcomes",
         ],
         outcome: "Funded STEM Master's → 36-month STEM OPT → H-1B (3 attempts) → Green Card. Nigerian engineers at Google, Amazon, Microsoft, Meta, and Apple followed this exact path. The US STEM Master's → H-1B pipeline is the most reliable route from Nigeria to high-income US employment.",
       },
       phd: {
-        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. US STEM PhD programmes are almost universally fully funded: tuition waived, stipend paid ($18,000–35,000/year), health insurance included. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, UC Berkeley, or any top-50 research university is world-class education — and you are paid to be there. You apply by emailing professors directly, submitting to 10–15 programmes, and targeting professors whose research matches yours.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 suspends most new F, M and J student visas for Nigerian nationals. You can still apply and be interviewed, but most new Nigerian applicants are currently refused. Students who already held a valid F-1 or J-1 visa before 1 January 2026 are not affected. Exceptions are narrow: dual nationals applying with a non-restricted passport, and rare case-by-case national-interest exceptions. Before you pay a SEVIS fee or tuition deposit, check ng.usembassy.gov, and keep a plan B (Canada, the UK and Germany have similar funded routes in this guide). US STEM PhD programmes are almost universally fully funded: tuition waived, stipend paid ($18,000–35,000/year), health insurance included. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, UC Berkeley, or any top-50 research university is world-class education — and you are paid to be there. You apply by emailing professors directly, submitting to 10–15 programmes, and targeting professors whose research matches yours.",
         firstSteps: [
           { action: "Email 15–20 professors whose published research matches your interests", detail: "Write brief, specific emails (under 200 words). Reference one paper they published. Explain how your background connects. Ask if they are accepting PhD students. Attach your CV. This is expected and normal — professors post emails because they want applicants. A professor who responds positively is your biggest admission advantage." },
           { action: "Apply to 10–15 funded PhD programmes (December–January deadlines)", detail: "Required: statement of purpose (most critical — be specific about your research vision and the professor you want to work with), CV, 3 reference letters (2 must be academic), transcripts, TOEFL/IELTS, GRE (check — many schools dropped this). Apply broadly." },
           { action: "Evaluate funding offers carefully — compare stipends and cost of living", detail: "Funded offers include I-20 showing university coverage. A $25,000 stipend in West Lafayette, Indiana (Purdue) goes much further than $30,000 in Manhattan. Consider research fit, lab resources, supervisor track record, and placement of recent graduates." },
-          { action: "Apply for F-1 visa and plan your Green Card strategy from year one", detail: "Same visa process. After arrival: register with DSO, apply for SSN after 10 days. From year 3 onwards, build EB-1A/EB-2 NIW credentials: publish, present at conferences, accumulate citations and awards." },
+          { action: "Ask about deferral, then apply for F-1 and plan your Green Card strategy from year one", detail: "New F-1 visas for Nigerians are suspended under Proclamation 10998, so ask your department to hold your funded place if the suspension is still in force. Same visa process otherwise (interview in Lagos). After arrival: register with DSO, apply for SSN after 10 days. From year 3 onwards, build EB-1A/EB-2 NIW credentials: publish, present at conferences, accumulate citations and awards." },
         ],
         keyFacts: [
           "US STEM PhD: full tuition waived + $18,000–35,000/year stipend + health insurance — no debt",
           "Top PhD programmes: MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, CMU, Michigan, Cornell",
           "After PhD: 36 months STEM OPT — use to self-petition EB-2 NIW or build H-1B + EB-1B",
           "EB-2 NIW (National Interest Waiver): self-petition Green Card after PhD — no employer sponsor needed",
-          "Nigerian PhD holders face no per-country Green Card backlog unlike Indian/Chinese nationals",
+          "Nigerians are counted under 'Rest of World' for Green Cards — far shorter waits than India or China, though some categories still have a queue (check the monthly Visa Bulletin)",
         ],
         outcome: "US STEM PhD → 36-month STEM OPT → EB-2 NIW self-petition or H-1B → Green Card. PhD holders with strong publication records can self-petition for permanent residency without needing employer sponsorship — the most independent immigration path available.",
       },
       work: {
-        intro: "The H-1B is the primary work visa for skilled Nigerians in the US. Note: since September 2025 a USD 100,000 fee applies to most new H-1B petitions for workers outside the US; changes of status inside the US (e.g. F-1 to H-1B) are generally exempt. It requires a specialty occupation, employer sponsorship, and selection in an annual lottery (85,000 cap, wage-weighted from FY2027). Nigerians on STEM OPT participate in the lottery — three attempts if on 3-year STEM OPT. Cap-exempt alternatives exist: O-1A (extraordinary ability, no cap) and positions at universities or non-profits. The Green Card path for Nigerians is relatively clear — no per-country backlog unlike Indian and Chinese nationals.",
+        intro: "The H-1B is the primary work visa for skilled Nigerians in the US. H-1B visas are not covered by the 2026 suspension. The USD 100,000 fee on new H-1B petitions for workers outside the US (Proclamation of September 2025) was struck down by a federal court on 8 June 2026, and the appeals court refused to reinstate it on 24 July 2026 — it is not being collected, but the case continues, so check uscis.gov. It requires a specialty occupation, employer sponsorship, and selection in an annual lottery (85,000 cap, wage-weighted from FY2027). Nigerians on STEM OPT participate in the lottery — three attempts if on 3-year STEM OPT. Cap-exempt alternatives exist: O-1A (extraordinary ability, no cap) and positions at universities or non-profits. The Green Card path for Nigerians is relatively clear — no per-country backlog unlike Indian and Chinese nationals.",
         firstSteps: [
           { action: "Use myvisajobs.com to target employers with strong H-1B sponsorship history", detail: "Filter by industry and company. Companies that file thousands of H-1Bs annually — Google, Microsoft, Amazon, Meta, Deloitte, IBM — are experienced sponsors. Prioritize these in your job search over companies with no H-1B history." },
           { action: "Register for H-1B lottery in March through your employer", detail: "Employer registers you online — you do not apply yourself. Registration fee: $215 per beneficiary (employer pays). Results released in April. If selected, USCIS adjudicates petition. Work starts October 1. From FY2027, wage-weighted selection means higher-salary roles have better lottery odds." },
           { action: "If not selected: stay on STEM OPT and try again next year", detail: "Remain on remaining STEM OPT time. Consider cap-exempt employers: universities, hospitals, non-profits — no lottery, immediate H-1B status. Explore O-1A if your credentials support it (publications, awards, press, industry recognition)." },
-          { action: "Begin Green Card process through employer (EB-2/EB-3) or self-petition (EB-1A/EB-2 NIW)", detail: "Employer-sponsored: EB-2 PERM or EB-3 PERM — 3–8 years for Nigerians (no country backlog). Self-petition: EB-1A (extraordinary ability) or EB-2 NIW (national interest waiver) — requires strong evidence but no employer needed. Consult an immigration attorney." },
+          { action: "Begin Green Card process through employer (EB-2/EB-3) or self-petition (EB-1A/EB-2 NIW)", detail: "Employer-sponsored: EB-2 PERM or EB-3 PERM — 3–8 years for Nigerians (no country backlog). Self-petition: EB-1A (extraordinary ability) or EB-2 NIW (national interest waiver) — requires strong evidence but no employer needed. If you are outside the US, the final immigrant visa is currently suspended for Nigerians; if you are inside the US you can usually apply through adjustment of status. Consult an immigration attorney." },
         ],
         keyFacts: [
           "H-1B cap: 65,000 regular + 20,000 US Master's holders = 85,000 total — lottery draw in April",
           "From FY2027: H-1B selection is wage-weighted — higher salary = better lottery odds",
           "H-1B registration fee: $215/beneficiary (employer pays — increased from $10 in 2025)",
-          "Nigeria has NO per-country Green Card backlog — unlike India (decades wait) and China",
+          "Nigeria has no country-specific Green Card backlog (it is in 'Rest of World'). But immigrant visas for Nigerians outside the US are suspended, so in practice the Green Card route works mainly through adjustment of status inside the US",
           "O-1A visa: no cap, no lottery — for Nigerians with exceptional achievements in their field",
+          "Nigerians are not eligible for the Diversity Visa (green card) lottery — Nigeria sends too many immigrants to qualify",
         ],
-        outcome: "H-1B → EB-2/EB-3 PERM (employer) or EB-2 NIW (self-petition) → Green Card → Citizenship at 5 years. Nigerian engineers, doctors, nurses, and academics have built full lives in the US through this path. The absence of a per-country backlog is Nigeria's biggest immigration advantage in the US.",
+        outcome: "H-1B → EB-2/EB-3 PERM (employer) or EB-2 NIW (self-petition) → Green Card → Citizenship at 5 years. Nigerian engineers, doctors, nurses, and academics have built full lives in the US through this path. Being in the 'Rest of World' queue is Nigeria's biggest Green Card advantage — but while immigrant visas are suspended, it mainly helps people already in the US.",
       },
       visitor: {
-        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. The B-1/B-2 US visitor visa is the most carefully scrutinized visa Nigerian applicants face. Approval depends on demonstrating strong ties to Nigeria and a clear, credible reason to visit and return. The interview at US Embassy Lagos or Consulate Abuja is the decisive moment. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the day you decide to travel.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 suspends most new B-1/B-2 visitor visas for Nigerian nationals. Visas issued before that date remain valid and have not been revoked. Even when a visa is issued, Nigerians currently face three extra conditions: most visas are single-entry and valid for only 3 months (reciprocity rule since 8 July 2025); a visa bond of USD 10,000–20,000 may be required (permanent rule since 3 August 2026); and all routine interviews are at the Consulate General in Lagos (Abuja routine visa services suspended from 1 August 2026). The B-1/B-2 US visitor visa is the most carefully scrutinized visa Nigerian applicants face. Approval depends on demonstrating strong ties to Nigeria and a clear, credible reason to visit and return. The interview at the US Consulate General in Lagos is the decisive moment.",
         firstSteps: [
           { action: "Complete DS-160 form at ceac.state.gov/genniv before scheduling anything", detail: "Save your application ID. Answer every question honestly and thoroughly. Include accurate travel history, family situation, employment details, and the purpose of your visit. Incomplete or inconsistent DS-160 forms are a red flag." },
-          { action: "Pay MRV fee ($185) and book your appointment at ustraveldocs.com immediately", detail: "Pay the $185 MRV fee online first, then schedule your interview. Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the moment you decide to apply. Check travel.state.gov monthly for updated wait times — they change seasonally." },
+          { action: "Check the suspension, then pay the MRV fee ($185) and book in Lagos", detail: "While Proclamation 10998 is in force most new Nigerian B-1/B-2 applications are refused, and the $185 fee is non-refundable — check ng.usembassy.gov first. Book through the appointment link on the embassy website. From 1 August 2026 all routine interviews are at the US Consulate General in Lagos. Check travel.state.gov for current wait times." },
           { action: "Gather your supporting documents — ties to Nigeria are everything", detail: "Employment letter (on company letterhead, with salary, leave approval, return-to-work date). Bank statements showing stable funds ($3,000–5,000+ for a 2-week trip). Property ownership documents. Family ties (spouse/children remaining in Nigeria). Prior international travel stamps (UK, Schengen, Canada) strengthen your application significantly." },
           { action: "Attend interview with clear, short, confident answers", detail: "Arrive 15 minutes early. The interview is typically under 3 minutes. Answer each question directly. The officer will ask: What do you do in Nigeria? Why are you visiting? Who are you visiting? When will you return? Practice these. Do not volunteer extra information — answer what is asked." },
         ],
         keyFacts: [
-          "Lagos B-1/B-2 appointment wait times: 6–13 months in 2025 — book immediately at ustraveldocs.com",
+          "New B-1/B-2 visas for Nigerians are largely suspended since 1 January 2026 (Proclamation 10998) — visas issued before then stay valid",
           "MRV fee: $185 — non-refundable regardless of outcome",
-          "214(b) refusal means officer felt you did not prove immigrant intent — you can reapply with stronger evidence",
+          "If a visa is issued, expect a single-entry visa valid for 3 months, and possibly a visa bond of USD 10,000–20,000 that is refunded if you leave on time",
           "Prior UK, Schengen, or Canadian visa stamps significantly strengthen a US visitor visa application",
           "Overstaying: 180+ days = 3-year US bar; 1 year+ = 10-year US bar — and affects visas worldwide",
         ],
-        outcome: "A B-1/B-2 visa is typically valid for 10 years with multiple entries, each stay up to 6 months (set by CBP at port of entry). Once granted, it simplifies future US travel enormously. It also strengthens future visa applications to other countries.",
+        outcome: "Visas issued to Nigerians since July 2025 are usually single-entry and valid for 3 months, so plan to travel soon after issue. At the border, CBP sets your length of stay (often up to 6 months). Nigerians who already hold an older multiple-entry B-1/B-2 visa can keep using it until it expires.",
       },
     },
 
     visa: {
       undergrad: `**US F-1 Student Visa — Undergraduate**
+
+**Read this first (October 2026):** Since 1 January 2026, new F, M and J visas for Nigerian nationals are suspended under Presidential Proclamation 10998. You can still apply to universities and be admitted, but most new Nigerian visa applicants are refused at the interview. Students who already held a valid F-1 visa before that date are not affected. If you are admitted while the suspension is in force, ask the university to defer your place and keep a strong plan B in Canada, the UK or Germany.
 
 **Step 1: Apply to universities through Common App (commonapp.org)**
 Apply to 10–15 schools (safety, match, reach). For need-blind schools (Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, Brown): apply and file for financial aid regardless of income. Harvard families under $100,000/year pay nothing. File CSS Profile at cssprofile.collegeboard.org by November 15 (Early Decision) or January 1–15 (Regular Decision).
@@ -6207,8 +6244,10 @@ Pay before scheduling your interview. Keep the receipt — bring it to your inte
 **Step 4: Complete DS-160 at ceac.state.gov/genniv**
 Fill out carefully and honestly. Save your confirmation barcode.
 
-**Step 5: Pay MRV fee — $185 at ustraveldocs.com**
-Then schedule your interview at US Embassy Lagos (2 Walter Carrington Crescent, Victoria Island) or US Consulate Abuja. Apply early — F-1 visa appointments can take several weeks to months.
+**Step 5: Pay MRV fee — $185, then book your interview**
+Book through the appointment link on ng.usembassy.gov. From 1 August 2026 all routine visa interviews are at the US Consulate General in Lagos (2 Walter Carrington Crescent, Victoria Island). Set your social media accounts to public before the interview — this is required for F, M and J applicants.
+
+**Important:** new F-1 visas for Nigerians are suspended under Proclamation 10998 (since 1 January 2026). Most applicants are currently refused at this step. Ask your university about deferring before you pay the SEVIS fee.
 
 **Step 6: Attend F-1 visa interview. Bring:**
 - Valid passport (6+ months validity beyond programme start)
@@ -6227,7 +6266,7 @@ Report to your university's International Student Office (DSO) within first few 
 
       masters: `**US F-1 Student Visa — Master's**
 
-The visa application process is identical to undergraduate (DS-160, SEVIS $350, MRV $185, interview). The critical difference is funding:
+The visa application process is identical to undergraduate (DS-160, SEVIS $350, MRV $185, interview at the Consulate General in Lagos). New F-1 visas for Nigerians are currently suspended (Proclamation 10998, since 1 January 2026) — ask schools about deferral before paying anything. The critical difference is funding:
 
 **Funded STEM Master's (target this exclusively):**
 Teaching Assistantships (TA) and Research Assistantships (RA) at US universities cover:
@@ -6263,7 +6302,7 @@ US STEM PhD programmes are almost universally funded:
 **Top funded PhD programmes in STEM:**
 MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, University of Michigan, Cornell, Columbia, Johns Hopkins, Purdue, Ohio State, UMass Amherst, Georgia Tech.
 
-**F-1 visa process:** same as above. I-20 shows university covering your costs.
+**F-1 visa process:** same as above. I-20 shows university covering your costs. New F-1 visas for Nigerians are currently suspended (Proclamation 10998) — ask your department whether it will hold your funded place for a year.
 
 **Green Card from PhD:**
 - EB-2 NIW (National Interest Waiver): self-petition — prove your work is in the US national interest. STEM PhD holders with publications qualify. No employer sponsor needed.
@@ -6280,11 +6319,12 @@ MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, Univer
 - From FY2027: selection is wage-weighted — higher-salary roles have better lottery odds
 - Registration fee: $215/beneficiary (employer pays — increased from $10 in 2025)
 - Employer registers you — you do not apply yourself
-- After H-1B approval, you may need to attend US Embassy Lagos for visa stamp before travelling
+- After H-1B approval, if you are outside the US you attend the US Consulate General in Lagos for the visa stamp. H-1B visas are not covered by the 2026 suspension
+- The USD 100,000 fee on new H-1B petitions for workers abroad was struck down in court (8 June 2026; appeal court refused to reinstate it on 24 July 2026). It is not being collected, but the case is ongoing — check uscis.gov
 
 **Key H-1B strategy for Nigerians:**
 - Nigerian STEM OPT holders get 3 lottery attempts (3-year STEM OPT window)
-- Nigerians have NO per-country Green Card backlog (unlike Indian/Chinese nationals) — once your employer files for Green Card, wait is 3–8 years, not decades
+- Nigerians are in the 'Rest of World' Green Card queue (no country-specific backlog like India or China) — once your employer files, the wait is typically years, not decades. Check the monthly Visa Bulletin for current dates
 - Big Tech sponsors thousands of H-1Bs annually: Google, Meta, Amazon, Microsoft, Apple all have dedicated immigration teams
 
 **Cap-exempt routes (no lottery):**
@@ -6296,6 +6336,8 @@ MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, Univer
 - EB-1A: Extraordinary ability — self-petition. Best for academics, senior researchers, entrepreneurs.
 - EB-1B: Outstanding Researcher — employer-sponsored, for research institution hires.
 - EB-2/EB-3 PERM: standard employer-sponsored path — 3–8 years for Nigerians (no country queue).
+- While immigrant visas for Nigerians are suspended (Proclamation 10998), a Green Card is only realistic through adjustment of status inside the US. A June 2026 court ruling ended the USCIS hold on applications from travel-ban nationals, but the government may appeal.
+- Nigerians are not eligible for the Diversity Visa lottery.
 
 **Citizenship:** 5 years as Green Card holder. US citizenship does not require renouncing Nigerian citizenship (US does not require it) — many Nigerian-Americans hold both passports in practice.`,
 
@@ -6303,29 +6345,33 @@ MIT, Stanford, Caltech, Harvard, Princeton, UC Berkeley, Carnegie Mellon, Univer
 
 The B-1/B-2 covers both business visits (B-1) and tourism/personal visits (B-2). Most Nigerians apply for the combined B-1/B-2.
 
+**Read this first (October 2026)**
+Since 1 January 2026, Presidential Proclamation 10998 suspends most new B-1/B-2 visas for Nigerian nationals. You can still apply and attend an interview, but most new Nigerian applicants are refused, and the $185 fee is non-refundable. Visas issued before 1 January 2026 are still valid and have not been revoked. Exceptions are narrow: dual nationals applying with a non-restricted passport, and rare case-by-case national-interest exceptions. Check ng.usembassy.gov before you pay.
+
+**Extra conditions for Nigerians (even when a visa is issued)**
+• Single entry, 3-month validity: since 8 July 2025 most visas issued to Nigerians are valid for one entry within 3 months (reciprocity rule). Older multiple-entry visas keep their original validity.
+• Visa bond: since 21 January 2026 Nigerian visitors may be asked for a bond of USD 10,000, 15,000 or 20,000 (made permanent from 3 August 2026). The officer sets the amount at the interview; you pay through Pay.gov and it is refunded if you leave on time.
+• Lagos only: from 1 August 2026 all routine visa interviews are at the US Consulate General in Lagos (2 Walter Carrington Crescent, Victoria Island). The Embassy in Abuja has suspended routine visa services.
+• Visa integrity fee: a USD 250 fee is in US law, but collection had not started consistently as of October 2026.
+
 **Step 1: Complete DS-160 at ceac.state.gov/genniv**
-Detailed, honest answers about your purpose, employment, travel history, family. Save your confirmation barcode.
+Detailed, honest answers about your purpose, employment, travel history, family. Save your confirmation barcode — it must match the one you use to book.
 
-**Step 2: Pay MRV fee — $185 at ustraveldocs.com**
-Non-refundable. Keep your receipt.
+**Step 2: Pay MRV fee — $185, then book your interview**
+Book through the appointment link on ng.usembassy.gov. Non-refundable. Keep your receipt. Check travel.state.gov for current Lagos wait times.
 
-**Step 3: Book interview appointment at ustraveldocs.com**
-US Embassy Lagos: 2 Walter Carrington Crescent, Victoria Island.
-US Consulate Abuja: Plot 1075, Diplomatic Drive, Central Business District.
-Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the day you decide to apply. Check travel.state.gov for current updated wait times.
-
-**Step 4: Gather documents. Consular officers look for:**
+**Step 3: Gather documents. Consular officers look for:**
 - Strong ties to Nigeria: employment letter (letterhead, salary, approved leave, return-to-work date), business registration or bank statements if self-employed, property documents, family staying in Nigeria (spouse, children)
 - Clear purpose of visit: why you are going, where you will stay, what you will do
 - Ability to fund the trip: bank statements showing $3,000–5,000+ for a typical 2-week trip
 - Prior international travel: UK visa, Schengen stamps, Canadian visa all strengthen your case significantly
 
-**Step 5: Interview (typically under 3 minutes)**
+**Step 4: Interview (typically under 3 minutes)**
 Arrive 15 minutes early. Answers should be short, direct, confident. Key questions: what do you do in Nigeria? Why are you visiting? Who are you visiting? When are you returning? Do not volunteer information beyond what is asked.
 
-**If refused (214b):** the officer felt you did not prove non-immigrant intent. You can reapply — but you must present meaningfully new or stronger evidence. The same application will almost certainly be refused again. Address the specific concern.
+**If refused:** a refusal under Proclamation 10998 is about nationality, not your documents — reapplying with better documents will not help until the policy changes. A 214(b) refusal means the officer was not convinced of your ties to Nigeria; you can reapply with meaningfully stronger evidence.
 
-**Entry:** CBP sets your length of stay at the port of entry — usually 6 months. Do not overstay: 180+ days triggers a 3-year US bar; 1 year+ triggers a 10-year bar. Both affect visa applications globally.`,
+**Entry:** CBP sets your length of stay at the port of entry — usually up to 6 months. Do not overstay: 180+ days triggers a 3-year US bar; 1 year+ triggers a 10-year bar. If you paid a visa bond, overstaying also forfeits it.`,
     },
 
     timeline: {
@@ -6334,21 +6380,21 @@ Arrive 15 minutes early. Answers should be short, direct, confident. Key questio
         { step: "August–January (application year)", title: "Submit Common App to 10–15 universities", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to safety, match, and reach schools. Write specific, personal essays — avoid generic hardship narratives. File CSS Profile simultaneously for need-based aid at need-blind schools." },
         { step: "March–April", title: "Receive admission and financial aid offers", detail: "Decision Day is May 1. Compare financial aid packages carefully. Contact financial aid offices to negotiate — this is standard and expected. Need-blind schools will explain your exact cost based on family income." },
         { step: "May–June", title: "Enroll, receive I-20, pay SEVIS fee", detail: "Confirm enrollment and pay any deposit. University issues I-20 form. Pay SEVIS fee ($350) at fmjfee.com. Keep all receipts for your visa interview." },
-        { step: "June–July", title: "F-1 visa interview at US Embassy Lagos or Consulate Abuja", detail: "Complete DS-160, pay MRV fee ($185), attend interview. Bring: passport, DS-160 barcode, SEVIS receipt, I-20, proof of funds, transcripts, TOEFL/IELTS. Processing: 2–5 days if approved. Apply early — Lagos wait times can stretch." },
+        { step: "June–July", title: "F-1 visa interview at the US Consulate General in Lagos", detail: "Check first whether Proclamation 10998 still suspends new F-1 visas for Nigerians — if so, ask the university to defer. Complete DS-160, pay MRV fee ($185), set social media to public, attend interview. Bring: passport, DS-160 barcode, SEVIS receipt, I-20, proof of funds, transcripts, TOEFL/IELTS. Processing: 2–5 days if approved. Apply early." },
         { step: "August", title: "Arrive in the US — no earlier than 30 days before programme start", detail: "Report to International Student Office (DSO) within first few days — mandatory. Apply for SSN after 10 days. Set up US bank account. Attend orientation." },
       ],
       masters: [
         { step: "6–12 months ahead", title: "Take TOEFL/IELTS and GRE (if required), research professors", detail: "TOEFL 90–100+ or IELTS 7.0+ typically needed. GRE: check each school — many STEM programmes dropped it post-COVID. Research faculty at target universities. Email professors whose work aligns with yours before applying." },
         { step: "September–December", title: "Submit applications — target funded STEM programmes", detail: "Most STEM deadlines: December 1 – January 15. Required: statement of purpose (state funding interest explicitly), CV, 3 recommendation letters, transcripts, test scores. Apply to 10+ programmes. Never rely on just one application." },
         { step: "January–April", title: "Receive funding offers and negotiate", detail: "Funded offers include TA/RA offer with tuition waiver + stipend. You can compare packages and negotiate. A funded Master's at a lower-ranked school beats an unfunded one at a higher-ranked school every time." },
-        { step: "May–July", title: "I-20 issued, apply for F-1 visa", detail: "SEVIS fee ($350), DS-160, MRV fee ($185), interview at US Embassy Lagos or Consulate Abuja. If funded, I-20 shows university covering costs — no personal funds proof needed for those costs." },
+        { step: "May–July", title: "I-20 issued, apply for F-1 visa", detail: "Check the Proclamation 10998 suspension first and ask about deferral if it is still in force. SEVIS fee ($350), DS-160, MRV fee ($185), interview at the US Consulate General in Lagos. If funded, I-20 shows university covering costs — no personal funds proof needed for those costs." },
         { step: "Year 1 of studies", title: "Plan OPT and STEM OPT from day one", detail: "Register with your DSO about OPT early. STEM OPT application is filed 90 days before graduation. Your degree must be in a STEM-designated field — check the DHS STEM list. Time your H-1B lottery registration for March of your graduation year." },
         { step: "After graduation", title: "STEM OPT → H-1B lottery (up to 3 attempts)", detail: "Apply for 12-month OPT before graduation, then 24-month STEM OPT extension. Total: 36 months. Register for H-1B each March through your employer. If selected, work starts October 1. If not, remain on OPT and try again next year." },
       ],
       phd: [
         { step: "July–December", title: "Email professors + submit to 10–15 funded programmes", detail: "Email 15–20 professors before applications open. Short, specific emails (under 200 words) referencing their specific published work. Attach your CV. A positive reply dramatically increases your admission and funding chances. Apply broadly — funded PhD admissions are competitive." },
         { step: "January–March", title: "Evaluate funding offers — compare stipends and research fit", detail: "Funded offers include I-20 showing university coverage. Compare: annual stipend (ask about increases over PhD duration), cost of living in that city, supervisor track record, recent graduate placement. Research fit > ranking for PhD success." },
-        { step: "May–August", title: "F-1 visa and arrival", detail: "Same visa process. Register with DSO. Apply for SSN after 10 days. Set up US bank account. Attend department orientation and supervisor introductions." },
+        { step: "May–August", title: "F-1 visa and arrival", detail: "Same visa process (interview in Lagos; check the suspension first and ask about deferral). Register with DSO. Apply for SSN after 10 days. Set up US bank account. Attend department orientation and supervisor introductions." },
         { step: "Years 1–3", title: "Build research record and Green Card credentials", detail: "Publish, present at conferences, accumulate citations. From year 3: begin consulting an immigration attorney about EB-2 NIW self-petition. Build evidence: publications, invited talks, peer review credits, press, awards." },
         { step: "Year 4–6", title: "STEM OPT + H-1B lottery or Green Card self-petition", detail: "Apply for STEM OPT on graduation. 36 months of work authorization: 3 H-1B lottery attempts. Simultaneously build EB-2 NIW or EB-1A self-petition case with your attorney. Nigerian PhD holders with publications can often qualify for NIW without employer sponsorship." },
       ],
@@ -6361,9 +6407,9 @@ Arrive 15 minutes early. Answers should be short, direct, confident. Key questio
       ],
       visitor: [
         { step: "Complete immediately", title: "DS-160 form at ceac.state.gov/genniv", detail: "Detailed, honest answers. Travel history, employment, family situation, purpose of visit. Save your application ID and confirmation barcode — you need this at the interview." },
-        { step: "Book immediately — 6–13 months ahead", title: "Pay $185 MRV fee and book interview at ustraveldocs.com", detail: "Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the moment you decide to apply. Check travel.state.gov monthly for updated wait times — they shift seasonally. Abuja Consulate typically has shorter wait times than Lagos." },
+        { step: "Before paying anything", title: "Check the suspension, then pay $185 and book in Lagos", detail: "Most new Nigerian B-1/B-2 applications are refused while Proclamation 10998 is in force, and the fee is non-refundable — check ng.usembassy.gov first. From 1 August 2026 all routine interviews are at the Consulate General in Lagos. Check travel.state.gov for current wait times." },
         { step: "2–4 weeks before interview", title: "Gather all supporting documents", detail: "Employment letter (letterhead, salary, leave approval, return-to-work date). 6 months bank statements showing stable income. Property documents. Family staying in Nigeria. Purpose of visit documentation. Prior international visa stamps (UK, Schengen, Canada) — include these passports." },
-        { step: "Interview day", title: "Attend interview with short, confident, specific answers", detail: "Arrive 15 minutes early. Interview is typically 2–3 minutes. Prepare answers: why visiting, what you do in Nigeria, who is staying in Nigeria, when you return. Be direct. If refused: request to know the specific section cited (usually 214b), then address it in a new application." },
+        { step: "Interview day", title: "Attend interview with short, confident, specific answers", detail: "Arrive 15 minutes early. Interview is typically 2–3 minutes. Prepare answers: why visiting, what you do in Nigeria, who is staying in Nigeria, when you return. Be direct. If a visa is issued, it is usually single-entry and valid for 3 months, and you may be asked for a visa bond of USD 10,000–20,000. If refused: note the section cited — a 214(b) refusal can be addressed with stronger evidence; a Proclamation 10998 refusal cannot." },
       ],
     },
 
@@ -6383,17 +6429,17 @@ Arrive 15 minutes early. Answers should be short, direct, confident. Key questio
       phd: [
         { title: "EB-2 NIW is the Nigerian STEM PhD graduate's most powerful Green Card path", body: "The National Interest Waiver lets you self-petition for permanent residency without an employer — you prove your work benefits the US national interest. STEM PhD graduates with publications, conference presentations, and citations are well-positioned to qualify. Start building this record from year one. Consult an immigration attorney from year 3 of your PhD." },
         { title: "Emailing professors is not just acceptable — it is how funded PhD positions are filled", body: "US PhD professors actively look for strong students. Your email to a professor is not an intrusion — it is how the system works. Write to 15–20 professors, keep emails specific and under 200 words, reference one paper they published, attach your CV, ask if they are taking students. One positive reply can change your application outcome entirely." },
-        { title: "Nigerians have a massive advantage over Indian and Chinese nationals in Green Card processing", body: "The US Green Card system has per-country quotas — Indian and Chinese nationals face decade-long backlogs for EB-2 and EB-3. Nigeria has no such backlog. Once your employer files your Green Card petition, wait times are 3–8 years — not 50+ years. This is one of the most strategically important immigration facts for Nigerians considering the US." },
+        { title: "Nigerians have a big advantage over Indian and Chinese nationals in Green Card processing", body: "The US Green Card system has per-country quotas — Indian and Chinese nationals face decade-long backlogs for EB-2 and EB-3. Nigeria is in the shorter 'Rest of World' queue. Once your employer files your Green Card petition, wait times are typically a few years — not decades. While immigrant visas are suspended for Nigerians abroad, this route mainly works through adjustment of status inside the US. This is one of the most strategically important immigration facts for Nigerians considering the US." },
         { title: "Build your EB-1A/NIW record from year one — publications, citations, talks, awards", body: "The EB-1A (extraordinary ability) and EB-2 NIW Green Cards are based on evidence of achievement: publications in reputable journals, citation counts, invited conference presentations, peer review work, press coverage, awards. These take years to accumulate. Starting intentionally in year 1 of your PhD — choosing journals with strong indexing, attending top conferences — puts you in a much stronger position by year 4–5." },
       ],
       work: [
         { title: "Use myvisajobs.com to identify H-1B sponsors before applying for jobs", body: "myvisajobs.com tracks every H-1B petition filed with USCIS by company and year. Companies filing 5,000+ H-1Bs annually are well-resourced sponsors: Google, Amazon, Microsoft, Meta, Apple, Deloitte, IBM, Infosys, Cognizant. These companies have internal immigration teams and established processes. Prioritize them over smaller companies with no H-1B history — the sponsorship process is smoother and more reliable." },
-        { title: "Nigeria's lack of Green Card backlog is a career-defining advantage — use it strategically", body: "Indian-born H-1B holders can wait 70+ years for a Green Card (EB-2 backlog). Nigerian-born holders typically wait 3–8 years. This means: target companies and roles where your employer will file for your Green Card quickly. Negotiate GC sponsorship into your offer. A faster Green Card means faster career freedom — you can change employers, start a company, or self-petition once you have it." },
+        { title: "Nigeria's 'Rest of World' Green Card queue is a career-defining advantage — use it strategically", body: "Indian-born H-1B holders can wait decades for a Green Card (EB-2 backlog). Nigerian-born holders are in the much shorter 'Rest of World' queue — typically a few years (check the Visa Bulletin). While immigrant visas are suspended for Nigerians abroad, file through adjustment of status while you are in the US. This means: target companies and roles where your employer will file for your Green Card quickly. Negotiate GC sponsorship into your offer. A faster Green Card means faster career freedom — you can change employers, start a company, or self-petition once you have it." },
         { title: "Cap-exempt H-1B at universities and non-profits is available immediately — no lottery", body: "Any US university, research institution, or qualifying non-profit can hire you on H-1B without the annual cap or lottery. A postdoc or research scientist role at a US university gives you immediate H-1B status and lets you build the publication record needed for EB-2 NIW or EB-1B Green Card. Many Nigerian academics have used this path to bypass the H-1B lottery entirely." },
         { title: "Texas and Florida have no state income tax — significantly higher take-home pay than California", body: "US federal income tax applies everywhere. But state income tax varies from 0% (Texas, Florida, Nevada, Washington) to 13.3% (California). A Nigerian software engineer earning $150,000 at Google Austin takes home roughly $15,000–18,000 more per year than a counterpart at Google Mountain View in California — before accounting for lower cost of living in Texas. Major tech employers in Texas: Google, Amazon, Apple, Oracle, Dell." },
       ],
       visitor: [
-        { title: "Book your B-1/B-2 appointment the day you decide to travel — not when you are ready", body: "Lagos B-1/B-2 US visa appointment wait times in 2025 are 6–13 months — among the longest for any US post worldwide. You should book your interview appointment before you even start gathering documents. You can gather documents over the following months. Waiting until you feel 'ready' can cost you a year. Check travel.state.gov monthly for current Lagos wait times." },
+        { title: "Check the suspension before you spend money", body: "Since 1 January 2026 most new B-1/B-2 visas for Nigerians are suspended under Proclamation 10998. The $185 fee is non-refundable, so check ng.usembassy.gov for the current position before you apply. If you already hold a valid US visa issued before 2026, you can still use it. Waiting until you feel 'ready' can cost you a year. Check travel.state.gov monthly for current Lagos wait times." },
         { title: "Your employment letter is the single most important document in your application", body: "The consular officer needs to believe you will return to Nigeria after your visit. An employment letter on company letterhead, signed by HR, confirming your role, your salary, your approved leave dates, and your return-to-work date is the clearest proof of ties. If self-employed: business registration certificate, 6 months bank statements showing business income, and a letter from your accountant." },
         { title: "Prior international travel is the strongest signal you return home as required", body: "UK visa stamps, Schengen visa stamps, and Canadian visa stamps in your passport prove you have traveled internationally before and returned to Nigeria as required. If you have any of these, bring those passports to your interview — even expired ones. Multiple international travel stamps dramatically improve approval odds." },
         { title: "A 214(b) refusal is not permanent — but the same application will fail again", body: "Section 214(b) refusal means the officer was not convinced you have strong enough ties to Nigeria to return. You can reapply — but you must present meaningfully stronger or new evidence. The same bank statements, the same employment letter, the same application will almost certainly be refused again. Wait 6–12 months, build stronger evidence (property purchase, marriage certificate, business growth), and reapply with a clearly different financial or personal situation." },
@@ -6434,25 +6480,27 @@ Arrive 15 minutes early. Answers should be short, direct, confident. Key questio
       ],
       masters: [
         { name: "Teaching/Research Assistantship (TA/RA)", amount: "Full tuition waiver + $18,000–30,000/year stipend + health insurance — the primary funding route for STEM Master's in the US", university: "All US research universities with graduate programmes: CMU, Georgia Tech, Michigan, Purdue, UIUC, Ohio State, Texas A&M, UMass Amherst, NC State and more", deadline: "Apply with your programme application (September–January deadlines). State funding interest explicitly in your statement of purpose.", url: "https://www.gradcafe.com/" },
-        { name: "Fulbright Foreign Student Program (Nigeria)", amount: "Full funding — tuition, living allowance, health insurance, travel — competitive, prestigious", university: "US universities across all disciplines — US Embassy Lagos administers Nigerian nominations", deadline: "Apply through US Embassy Lagos — typically opens February, closes May/June each year", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
+        { name: "Fulbright Foreign Student Program (Nigeria)", amount: "Full funding — tuition, living allowance, health insurance, travel — competitive, prestigious", university: "US universities across all disciplines — the US Mission in Nigeria administers Nigerian nominations", deadline: "Apply through the US Mission in Nigeria — typically opens February, closes May/June each year", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
       ],
       phd: [
         { name: "University PhD Fellowship / TA-RA Funding (standard funded PhD)", amount: "Full tuition waiver + $18,000–40,000/year stipend + health insurance — standard offer for admitted STEM PhD students at US research universities", university: "All US research universities in STEM fields — MIT, Stanford, CMU, Michigan, Purdue, Georgia Tech, Cornell, Columbia, Johns Hopkins and all top-50 programmes", deadline: "December 1 – January 15 for most STEM PhD programmes. Apply to 10–15 programmes.", url: "https://www.uscis.gov/" },
-        { name: "Fulbright Foreign Student Program (PhD track)", amount: "Full funding for PhD study or research at US universities — prestigious government scholarship", university: "US universities — Embassy Lagos manages Nigerian nominations and selection", deadline: "Apply via US Embassy Lagos — typically February–May annually", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
+        { name: "Fulbright Foreign Student Program (PhD track)", amount: "Full funding for PhD study or research at US universities — prestigious government scholarship", university: "US universities — the US Mission in Nigeria manages Nigerian nominations and selection", deadline: "Apply via the US Mission in Nigeria — typically February–May annually", url: "https://ng.usembassy.gov/education-culture/educational-exchange/fulbright-program/" },
       ],
       work: [],
     },
 
     embassy: {
-      name: "US Embassy Lagos / US Consulate Abuja",
-      address: "Embassy: 2 Walter Carrington Crescent, Victoria Island, Lagos | Consulate: Plot 1075, Diplomatic Drive, Central Business District, Abuja",
-      phone: "Visa enquiries: ustraveldocs.com (online only). Emergency line: +234 1 460 3400 (Lagos)",
-      note: "All US visa appointments (F-1, B-1/B-2, H-1B stamp) for Nigerian applicants are booked through ustraveldocs.com. Pay the MRV fee ($185) online first, then schedule your interview. Lagos B-1/B-2 appointment wait times in 2025: 6–13 months — book immediately after deciding to apply. F-1 student visa appointments are typically shorter waits. F-1 students may schedule interviews up to 120 days before their programme start date on the I-20. SEVIS fee ($350) for F-1 is paid separately at fmjfee.com and must be paid before your interview. DS-160 form: ceac.state.gov/genniv. Check travel.state.gov for real-time Lagos appointment wait times (updated monthly). H-1B and Green Card petitions are filed by your employer with USCIS inside the US — not at the embassy.",
+      name: "US Embassy Abuja / US Consulate General Lagos",
+      address: "Consulate General (all routine visa interviews from 1 Aug 2026): 2 Walter Carrington Crescent, Victoria Island, Lagos | Embassy: Plot 1075, Diplomatic Drive, Central Business District, Abuja",
+      phone: "Visa enquiries: online via ng.usembassy.gov. Emergency line: +234 1 460 3400 (Lagos)",
+      note: "Since 1 January 2026, Proclamation 10998 suspends most new B-1/B-2, F, M, J and immigrant visas for Nigerian nationals; visas issued before then remain valid. H-1B and other work visas are not covered. From 1 August 2026 all routine visa interviews are at the US Consulate General in Lagos — the Embassy in Abuja has suspended routine visa services. Visas issued to Nigerians are mostly single-entry with 3 months' validity, and visitors may be asked for a USD 10,000–20,000 visa bond. Always check ng.usembassy.gov for the latest position before paying fees.",
       website: "https://ng.usembassy.gov/",
-      visa_apply: "https://www.ustraveldocs.com/ng/",
+      visa_apply: "https://ng.usembassy.gov/",
       official_immigration: "https://www.uscis.gov/",
       extra_links: [
-        { label: "US TravelDocs Nigeria — visa appointment booking", url: "https://www.ustraveldocs.com/ng/" },
+        { label: "US Mission Nigeria — latest visa updates and appointment booking", url: "https://ng.usembassy.gov/" },
+        { label: "State Dept: Nigeria reciprocity schedule (visa validity and entries)", url: "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Nigeria.html" },
+        { label: "Visa Bulletin — Green Card queue dates", url: "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html" },
         { label: "DS-160 Nonimmigrant Visa Application form", url: "https://ceac.state.gov/genniv/" },
         { label: "SEVIS I-901 Fee payment (F-1 students — $350)", url: "https://www.fmjfee.com/" },
         { label: "State Dept: current visa wait times by post", url: "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/wait-times.html" },
