@@ -36,7 +36,7 @@ export default function PaystackButton({ user, packageData, selectedCountries, o
           toast.success('Payment successful! Your guides are now unlocked.');
           onSuccess();
         } catch {
-          toast.error('Payment received but failed to unlock. Please contact hello@moveabroadng.com with your reference: ' + reference);
+          toast.error('Payment received but failed to unlock. Please contact moveabroadng@gmail.com with your reference: ' + reference);
         } finally {
           setLoading(false);
         }

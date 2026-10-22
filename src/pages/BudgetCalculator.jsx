@@ -60,13 +60,13 @@ function getVisaItems(countryCode, visaType) {
     if (countryCode === 'CA') {
       items.push({ label: 'Study Permit application fee', amount: 150, currency: 'CAD', note: 'IRCC fee' });
       items.push({ label: 'Biometrics fee', amount: 85, currency: 'CAD', note: 'Required for most applicants' });
-      items.push({ label: 'GIC (Guaranteed Investment Certificate)', amount: 20635, currency: 'CAD', note: 'Mandatory proof of funds — you get this back over time as a stipend in Canada' });
+      items.push({ label: 'GIC (Guaranteed Investment Certificate)', amount: 23448, currency: 'CAD', note: 'Mandatory proof of funds — you get this back over time as a stipend in Canada' });
       items.push({ label: 'IELTS / TOEFL', amount: 285, currency: 'USD', note: 'Academic IELTS or TOEFL iBT. Book early — dates fill fast in Nigeria' });
       items.push({ label: 'WES credential evaluation', amount: 246, currency: 'USD', note: 'Required for most admissions and some study permit applications' });
       items.push({ label: 'Tuition deposit to university', amount: 1000, currency: 'CAD', note: 'Typical deposit to hold your offer — varies by school' });
       items.push({ label: 'Medical exam (panel physician)', amount: 200, currency: 'USD', note: 'Upfront medical required before visa issuance. Use IRCC-approved physician in Nigeria' });
     } else if (countryCode === 'GB') {
-      items.push({ label: 'Student Visa application fee', amount: 490, currency: 'GBP', note: 'UK Visas & Immigration fee' });
+      items.push({ label: 'Student Visa application fee', amount: 558, currency: 'GBP', note: 'UK Visas & Immigration fee' });
       items.push({ label: 'Immigration Health Surcharge (IHS)', amount: 776, currency: 'GBP', note: 'Per year — for a 1-year masters this is £776, 3-year PhD = £2,328. Paid upfront' });
       items.push({ label: 'IELTS for UKVI', amount: 220, currency: 'GBP', note: 'Must be the specific "IELTS for UKVI" version — NOT regular IELTS' });
       items.push({ label: 'TB (tuberculosis) test', amount: 50, currency: 'GBP', note: 'Required for Nigerian nationals. Nigeria is on the UK TB test list' });
@@ -83,13 +83,13 @@ function getVisaItems(countryCode, visaType) {
       items.push({ label: 'IELTS / TOEFL / GRE / GMAT', amount: 250, currency: 'USD', note: 'Depends on program — TOEFL iBT is ~$245, GRE ~$220' });
     } else if (countryCode === 'DE') {
       items.push({ label: 'Student Visa fee', amount: 75, currency: 'EUR', note: 'German embassy fee. Usually applied for after receiving university admission' });
-      items.push({ label: 'Blocked account (Sperrkonto)', amount: 11208, currency: 'EUR', note: 'Required proof of funds — €934/month × 12 months. Opened with Deutsche Bank, Fintiba, or Expatrio. You access it monthly once in Germany' });
+      items.push({ label: 'Blocked account (Sperrkonto)', amount: 11904, currency: 'EUR', note: 'Required proof of funds — €992/month × 12 months. Opened with Deutsche Bank, Fintiba, or Expatrio. You access it monthly once in Germany' });
       items.push({ label: 'Language test (if German-taught program)', amount: 150, currency: 'EUR', note: 'TestDaF or DSH. English-taught programs require IELTS/TOEFL instead' });
     } else if (countryCode === 'AU') {
-      items.push({ label: 'Student Visa (subclass 500)', amount: 650, currency: 'AUD', note: 'DIBP fee' });
+      items.push({ label: 'Student Visa (subclass 500)', amount: 2500, currency: 'AUD', note: 'Home Affairs fee from 1 July 2026' });
       items.push({ label: 'IELTS / TOEFL / PTE', amount: 285, currency: 'USD', note: 'English proficiency proof' });
       items.push({ label: 'Overseas Student Health Cover (OSHC)', amount: 600, currency: 'AUD', note: 'Approximately AUD 600/year. Mandatory — usually arranged through university' });
-      items.push({ label: 'GTE assessment supporting docs', amount: 100, currency: 'AUD', note: 'Genuine Temporary Entrant — costs are mainly time but some translation fees may apply' });
+      items.push({ label: 'GSR statement supporting docs', amount: 100, currency: 'AUD', note: 'Genuine Student requirement — costs are mainly time but some translation fees may apply' });
     } else {
       items.push({ label: 'Visa application fee', amount: 150, currency: 'USD', note: 'Estimate — check the specific embassy' });
       items.push({ label: 'IELTS / language test', amount: 285, currency: 'USD', note: 'Most countries require English or local language proficiency' });

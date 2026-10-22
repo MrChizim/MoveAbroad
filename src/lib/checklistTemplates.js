@@ -66,7 +66,7 @@ export function getChecklistTemplate(countryCode, visaType) {
   // Country-specific additions
   const countryExtras = {
     CA: [
-      { id: 'gic', label: 'GIC (Guaranteed Investment Certificate) — CAD 20,635', category: 'Financial', status: 'pending' },
+      { id: 'gic', label: 'GIC (Guaranteed Investment Certificate) — CAD 23,448', category: 'Financial', status: 'pending' },
       { id: 'biometrics', label: 'Biometrics Appointment at VFS Lagos/Abuja', category: 'Application', status: 'pending' },
     ],
     US: [
@@ -80,7 +80,7 @@ export function getChecklistTemplate(countryCode, visaType) {
       { id: 'cas', label: 'CAS Number from University', category: 'Academic Documents', status: 'pending' },
     ],
     DE: [
-      { id: 'blocked_account', label: 'Blocked Account (Sperrkonto) — €11,208', category: 'Financial', status: 'pending' },
+      { id: 'blocked_account', label: 'Blocked Account (Sperrkonto) — €11,904', category: 'Financial', status: 'pending' },
       { id: 'german_language', label: 'German Language Certificate (if applicable)', category: 'Language', status: 'pending' },
       { id: 'anerkennungsberatung', label: 'Credential Recognition Certificate', category: 'Credentials', status: 'pending' },
     ],

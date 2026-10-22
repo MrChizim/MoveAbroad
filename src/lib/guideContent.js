@@ -1,6 +1,7 @@
 // Guide content for each country
-// All figures verified from official sources — always check official sites as rules change
-// Sources: canada.ca/ircc, gov.uk, migrationsverket.se, si.se
+// Key fees and thresholds last reviewed October 2026 against official sources — always check official sites as rules change
+// Sources: canada.ca/ircc, gov.uk, migrationsverket.se, make-it-in-germany.com, ind.nl, immi.homeaffairs.gov.au,
+// enterprise.gov.ie, immigration.govt.nz, ng.usembassy.gov
 
 export const GUIDE_CONTENT = {
 
@@ -26,15 +27,16 @@ export const GUIDE_CONTENT = {
           { action: "Get your WAEC/NECO results verified at the WAEC office", detail: "Takes 2–4 weeks. Canadian universities specifically require a Verification Certificate — not just your result slip. Do this before anything else." },
           { action: "Take IELTS Academic — target 6.0 overall minimum (6.5 to be safe)", detail: "Book at British Council or IDP in Lagos, Abuja, or Port Harcourt. You have 2–3 months before typical application windows open." },
           { action: "Apply to 4–6 Designated Learning Institutions (DLIs)", detail: "Apply through each university's own website. Application fee: CAD 100–200 per school. You need: WAEC certificate, transcripts, IELTS result, personal statement, reference letters." },
-          { action: "Once admitted: pay your deposit and set up a GIC account", detail: "Your GIC (CAD 20,635 deposited at CIBC, Scotiabank, or SBI Canada) is not a fee — the money is released back to you monthly after you arrive. The GIC certificate is required to apply for your Study Permit." },
+          { action: "Once admitted: pay your deposit and set up a GIC account", detail: "Your GIC (CAD 23,448 deposited at CIBC, Scotiabank, or SBI Canada) is not a fee — the money is released back to you monthly after you arrive. The GIC certificate is required to apply for your Study Permit." },
           { action: "Apply for your Study Permit at canada.ca (CAD 150 fee)", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, bank statements, Statement of Purpose, passport. Then attend biometrics at VFS Global in Lagos or Abuja (CAD 85)." },
         ],
         keyFacts: [
           "Processing: 4–12 weeks after biometrics",
           "Your approval letter is NOT your Study Permit — the physical card is issued at the Canadian airport on arrival",
           "GIC money is NOT lost — it comes back to you in monthly payments",
-          "Your spouse gets an Open Work Permit and can work anywhere in Canada while you study",
+          "Spouses of most undergraduate students are NOT eligible for an Open Work Permit (changed January 2025). Exceptions are a few professional degrees such as medicine, law, nursing, engineering and education",
           "WAEC verification takes 2–4 weeks — start this first, before choosing schools",
+          "Undergraduate and college applicants need a Provincial Attestation Letter (PAL) from the province — your school provides it after admission. Most master's and PhD students at public universities are exempt from 1 January 2026",
         ],
         outcome: "After your degree, you qualify for a Post-Graduation Work Permit (PGWP) — up to 3 years of open work authorization. Canadian work experience then feeds into Express Entry for Permanent Residency.",
       },
@@ -44,13 +46,13 @@ export const GUIDE_CONTENT = {
           { action: "Research programs and shortlist 4–6 universities — apply to all of them", detail: "Start at each university's School of Graduate Studies website. Do not apply to only one school. Programs range from course-based (no research required) to thesis-based (you work with a supervisor). Choose based on your career goals." },
           { action: "Take IELTS Academic — target 7.0 overall (most top programs require this)", detail: "University of Toronto requires 7.0 minimum with no band below 6.5. Book at British Council or IDP in Lagos, Abuja, or Port Harcourt." },
           { action: "Get your degree and transcripts officially certified", detail: "Your degree certificate and transcripts must be officially stamped by your university's registrar. Some programs also require WES (World Education Services) evaluation — do this at wes.org, costs ~USD 246, takes ~7 weeks." },
-          { action: "Once admitted: pay your tuition deposit and set up your GIC account", detail: "Open a GIC account (CAD 20,635) at CIBC, Scotiabank StartRight, or SBI Canada. This takes 2–3 weeks. The money is released back to you in monthly payments after arrival — it is a savings account, not a fee." },
+          { action: "Once admitted: pay your tuition deposit and set up your GIC account", detail: "Open a GIC account (CAD 23,448) at CIBC, Scotiabank StartRight, or SBI Canada. This takes 2–3 weeks. The money is released back to you in monthly payments after arrival — it is a savings account, not a fee." },
           { action: "Apply for Study Permit at canada.ca (CAD 150) and attend biometrics at VFS Global", detail: "Upload: Letter of Acceptance, GIC certificate, IELTS result, Statement of Purpose, transcripts, passport. Biometrics fee: CAD 85 at VFS Global Lagos or Abuja. Processing: 4–12 weeks." },
         ],
         keyFacts: [
           "ALL masters graduates now receive a 3-year PGWP — even 1-year programs (changed February 2024)",
-          "GIC money (CAD 20,635) is returned to you in monthly instalments after you arrive — it is not a fee",
-          "Your spouse gets an Open Work Permit — they can work for any employer in Canada while you study",
+          "GIC money (CAD 23,448) is returned to you in monthly instalments after you arrive — it is not a fee",
+          "Your spouse can get an Open Work Permit only if your master's program is 16 months or longer (rule since January 2025). Shorter programs do not qualify",
           "Apply for PGWP within 180 days of graduating — missing this window ends your path to PR",
           "After 1 year of skilled Canadian work, you qualify for Canadian Experience Class — a fast-track PR route",
         ],
@@ -76,15 +78,15 @@ export const GUIDE_CONTENT = {
       work: {
         intro: "There are two ways to work in Canada as a Nigerian: Express Entry (apply for Permanent Residency from outside Canada using your qualifications) or an LMIA Work Permit (a Canadian employer sponsors you for a specific job). Most Nigerians who move to Canada for work use Express Entry. The process starts with two mandatory steps you can do right now.",
         firstSteps: [
-          { action: "Get your Nigerian degree evaluated by WES (World Education Services)", detail: "Go to wes.org. Cost: ~USD 246. Takes ~7 weeks once WES receives your documents. This is mandatory for Express Entry — you cannot create an Express Entry profile without a WES evaluation." },
+          { action: "Get your Nigerian degree evaluated by WES (World Education Services)", detail: "Go to wes.org. Cost: ~USD 246. Takes ~7 weeks once WES receives your documents. An Educational Credential Assessment (ECA) is mandatory for the Federal Skilled Worker program. WES is the most common provider, but IRCC also accepts other designated organisations." },
           { action: "Take IELTS — target 8.0+ in all 4 bands (CLB 9)", detail: "Language points are the biggest lever in your CRS score. Going from CLB 7 to CLB 9 can add 50–80+ points. Book IELTS General Training at British Council or IDP. Take it multiple times if needed." },
           { action: "Use the Come to Canada tool at canada.ca to estimate your CRS score", detail: "Before spending months on applications, estimate your score. If you are below 440, focus on improving your IELTS first. Know your score before deciding which path to take." },
-          { action: "Create your Express Entry profile at canada.ca", detail: "Once your WES evaluation and IELTS scores are ready, submit your profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 90 days to submit your full PR application." },
+          { action: "Create your Express Entry profile at canada.ca", detail: "Once your WES evaluation and IELTS scores are ready, submit your profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 60 days to submit your full PR application." },
         ],
         keyFacts: [
           "WES evaluation is mandatory for Express Entry — start it now even if you are months away from applying",
           "IELTS CLB 9 (8.0+ in every band) gives you maximum language points — the most impactful thing you can improve",
-          "2024 Express Entry cut-off scores: STEM occupations ~491, Healthcare ~422–463, General draws ~460–500+",
+          "Express Entry cut-off scores change every draw. Check the latest rounds at canada.ca before estimating your chances",
           "LMIA path: a Canadian employer hires you, pays CAD 1,000 to apply for LMIA, then you apply for a work permit — takes 2–5 months",
           "After 1 year of skilled Canadian work experience, you qualify for Canadian Experience Class — faster PR track",
         ],
@@ -129,7 +131,7 @@ Each school has its own application portal. Go directly to the university websit
 When a school admits you, they send a Letter of Acceptance. This letter is the most important document for your visa application. Pay your tuition deposit (usually CAD 3,000–5,000) to confirm your place. The school will then finalise your LOA.
 
 **Step 3 — Set up your GIC (Guaranteed Investment Certificate)**
-For most Nigerian Study Permit applicants, IRCC requires you to deposit CAD 20,635 into a Canadian GIC account before applying. This money is NOT lost — it is released to you in monthly payments once you arrive in Canada. Think of it as a forced savings account. Use CIBC, Scotiabank (StartRight program), or SBI Canada — they all accept applications from Nigeria. Processing typically takes 2–3 weeks. You will receive a GIC certificate to include in your visa application.
+For most Nigerian Study Permit applicants, IRCC requires you to deposit CAD 23,448 into a Canadian GIC account before applying. This money is NOT lost — it is released to you in monthly payments once you arrive in Canada. Think of it as a forced savings account. Use CIBC, Scotiabank (StartRight program), or SBI Canada — they all accept applications from Nigeria. Processing typically takes 2–3 weeks. You will receive a GIC certificate to include in your visa application.
 
 **Step 4 — Apply for your Study Permit online**
 Go to canada.ca and create an IRCC account. The Study Permit application fee is CAD 150. You will upload:
@@ -152,7 +154,7 @@ After submitting your application, IRCC will send you a Biometrics Instruction L
 Your Study Permit approval letter is NOT your actual permit. At the Canadian Port of Entry (airport), an immigration officer will check your documents and issue the physical Study Permit card. Carry all original documents in your hand luggage: LOA, passport, proof of funds, GIC certificate, approval letter. Do not put these in checked luggage.
 
 **Bringing your spouse or children:**
-• Your spouse/partner can apply for an Open Work Permit — they can work for any employer anywhere in Canada while you study
+• Since January 2025, spouses of most undergraduate students are NOT eligible for an Open Work Permit. Exceptions are a few professional degrees (e.g. medicine, law, nursing, engineering, education). Check canada.ca before planning to bring your spouse
 • Your children can attend Canadian primary or secondary school at no extra cost
 • Show additional funds of approximately CAD 4,000/year per additional family member
 Apply for their permits at the same time as yours — submit everything together
@@ -194,11 +196,11 @@ Once you decide which school to attend, log into their admissions portal and for
 
 **Setting up your GIC — the step that confuses most Nigerian families**
 
-Before you can apply for your Study Permit, you need to deposit CAD 20,635 into a special account called a Guaranteed Investment Certificate (GIC). This money is NOT a fee and it is NOT paid to the Canadian government. It stays in a Canadian bank account in your name and is released back to you in monthly payments once you arrive in Canada. Think of it as a forced savings account that Canada holds on your behalf to confirm you can support yourself in your first year.
+Before you can apply for your Study Permit, you need to deposit CAD 23,448 into a special account called a Guaranteed Investment Certificate (GIC). This money is NOT a fee and it is NOT paid to the Canadian government. It stays in a Canadian bank account in your name and is released back to you in monthly payments once you arrive in Canada. Think of it as a forced savings account that Canada holds on your behalf to confirm you can support yourself in your first year.
 
 The banks that accept GIC applications from Nigeria are CIBC (cibc.com/international), Scotiabank (StartRight program — scotiabank.com/startright), and SBI Canada. Each has a slightly different process but all can be done online from Nigeria. You send the money via international wire transfer and the bank processes the GIC within 2–3 weeks. You then receive a GIC certificate, which you include in your Study Permit application.
 
-Your family needs to transfer CAD 20,635 to the bank — at current rates this is roughly ₦30–35 million depending on exchange rates. This money will come back. Do not let anyone tell you it is a visa fee or that it is non-refundable.
+Your family needs to transfer CAD 23,448 to the bank — check the current naira rate before you plan the transfer, because the exact naira amount moves with the exchange rate. This money will come back. Do not let anyone tell you it is a visa fee or that it is non-refundable.
 
 **Applying for your Study Permit**
 
@@ -262,7 +264,7 @@ Apply to 4–6 programs. Do not apply to only one. Shortlist schools at differen
 Once admitted, pay your tuition deposit (usually CAD 3,000–5,000) to secure your place. The university then issues your formal Letter of Acceptance (LOA). You cannot apply for a Study Permit without this letter — it is the single most important document in your application.
 
 **Step 3 — Set up your GIC (Guaranteed Investment Certificate)**
-Deposit CAD 20,635 into a Canadian GIC account before applying for your Study Permit. Banks that accept Nigerian applications: CIBC, Scotiabank (StartRight program), and SBI Canada. The application takes about 2–3 weeks and you receive a GIC certificate. This money is NOT lost — it is released back to you in monthly instalments after you arrive in Canada. It is a savings account, not a fee.
+Deposit CAD 23,448 into a Canadian GIC account before applying for your Study Permit. Banks that accept Nigerian applications: CIBC, Scotiabank (StartRight program), and SBI Canada. The application takes about 2–3 weeks and you receive a GIC certificate. This money is NOT lost — it is released back to you in monthly instalments after you arrive in Canada. It is a savings account, not a fee.
 
 **Step 4 — Apply for your Study Permit at canada.ca**
 Create an IRCC account and pay the CAD 150 application fee. Upload:
@@ -289,7 +291,7 @@ Three years of Canadian work experience then feeds into Express Entry for Perman
 IMPORTANT: You must apply for the PGWP within 180 days of graduating. Apply immediately after you receive your final results. Do not miss this window. As of November 2024, you also need to include a language proficiency test result (IELTS) with your PGWP application. Apply online at canada.ca. Processing currently takes 80–180 days but you can start working full-time as soon as you submit the application (as long as your Study Permit was still valid when you applied).
 
 **Bringing your spouse or children:**
-Your spouse gets an Open Work Permit — they can work any job anywhere in Canada. Children can attend school. Show approximately CAD 4,000–6,000 extra per family member per year.
+Your spouse can get an Open Work Permit if your master's program is 16 months or longer (rule since January 2025). Shorter programs do not qualify. Children can attend school. Show approximately CAD 4,000–6,000 extra per family member per year.
 
 **────────────────────────────────────────────**
 **FULL WALKTHROUGH — Canada Masters, Start to Finish**
@@ -351,11 +353,11 @@ Log into the university's admissions portal and formally accept your offer. Pay 
 
 **Setting up your GIC**
 
-This step trips up many Nigerian families. Before applying for your Study Permit, you must deposit CAD 20,635 into a Canadian Guaranteed Investment Certificate (GIC) account. This money is not a visa fee. It is not paid to the government. It is deposited into a Canadian bank account in your name and released back to you monthly after you arrive — approximately CAD 1,700 per month for 12 months. The purpose is to prove to IRCC that you have funds to live on in your first year in Canada.
+This step trips up many Nigerian families. Before applying for your Study Permit, you must deposit CAD 23,448 into a Canadian Guaranteed Investment Certificate (GIC) account. This money is not a visa fee. It is not paid to the government. It is deposited into a Canadian bank account in your name and released back to you monthly after you arrive — approximately CAD 1,700 per month for 12 months. The purpose is to prove to IRCC that you have funds to live on in your first year in Canada.
 
 The banks that accept GIC applications from Nigeria are CIBC, Scotiabank (StartRight program), and SBI Canada. Apply online from Nigeria — you will create an account on the bank's website, complete the application, and send the money by international wire transfer from a Nigerian bank. Processing takes 2–3 weeks. You receive a GIC certificate, which you upload with your Study Permit application. Keep a copy.
 
-At the current exchange rate, CAD 20,635 is roughly ₦30–35 million — rates change, calculate at time of transfer. Your family will need to send this amount. It all comes back to you in Canada.
+Calculate the naira amount at the time of transfer — rates change. Your family will need to send this amount. It all comes back to you in Canada.
 
 **Applying for your Study Permit at canada.ca**
 
@@ -383,7 +385,7 @@ When you finish your masters, apply for the PGWP within 180 days of receiving yo
 
 **Getting Permanent Residency**
 
-During your PGWP work period, you are accumulating Canadian work experience. After 1 year of skilled work experience in Canada, you qualify for Canadian Experience Class — a stream within Express Entry. Create your Express Entry profile at canada.ca. Your CRS (Comprehensive Ranking System) score is based on: your age, your education level, your IELTS score (target CLB 9 — 8.0+ in every band for maximum points), and your Canadian work experience. Most Nigerian masters graduates with CLB 9 IELTS scores and 1–3 years of Canadian work experience are competitive for Express Entry invitations. Check your estimated score using the Come to Canada tool at canada.ca. When you receive an Invitation to Apply (ITA), you have 90 days to submit your full PR application. The entire PR process from ITA to decision typically takes 6 months.`,
+During your PGWP work period, you are accumulating Canadian work experience. After 1 year of skilled work experience in Canada, you qualify for Canadian Experience Class — a stream within Express Entry. Create your Express Entry profile at canada.ca. Your CRS (Comprehensive Ranking System) score is based on: your age, your education level, your IELTS score (target CLB 9 — 8.0+ in every band for maximum points), and your Canadian work experience. Most Nigerian masters graduates with CLB 9 IELTS scores and 1–3 years of Canadian work experience are competitive for Express Entry invitations. Check your estimated score using the Come to Canada tool at canada.ca. When you receive an Invitation to Apply (ITA), you have 60 days to submit your full PR application. The entire PR process from ITA to decision typically takes 6 months.`,
 
       phd: `**PhD in Canada — Funded, Respected, and a Clear Path to PR**
 
@@ -561,8 +563,8 @@ Step-by-step:
 2. Get your Nigerian degree evaluated by WES (World Education Services) at wes.org. Cost: approximately USD 246. Takes about 7 weeks once WES receives your documents. This is mandatory — you cannot submit an Express Entry profile without it.
 3. Go to canada.ca and use the "Come to Canada" tool to check your estimated CRS score
 4. Create your Express Entry profile
-5. Wait for an Invitation to Apply (ITA). Category-based draws in 2024 had cut-off scores ranging from 336 (French speakers) to 491 (STEM). General draws are typically 460–500+.
-6. Once invited, you have 90 days to submit your full PR application
+5. Wait for an Invitation to Apply (ITA). Cut-off scores change with every draw and differ by category (French-language, healthcare, trades, etc.). Check the latest rounds of invitations at canada.ca.
+6. Once invited, you have 60 days to submit your full PR application
 
 Recent draws (2024): STEM occupations round — CRS 491. Healthcare — CRS 422–463. French language — 336–478. General draws are higher. If your score is below 450, focus on improving IELTS or gaining Canadian experience first.
 
@@ -595,9 +597,9 @@ Every Nigerian who wants to work in Canada uses one of two routes: Express Entry
 
 **PATH 1: Express Entry — applying for PR from Nigeria**
 
-Express Entry is Canada's points-based immigration system. You create a profile online and receive a score called the Comprehensive Ranking System (CRS) score. Canada holds draws every 2–4 weeks — in each draw, everyone above a certain CRS score threshold receives an Invitation to Apply (ITA) for Permanent Residency. Once you receive an ITA, you have 90 days to submit your full PR application. The entire process from ITA to PR decision typically takes 6 months.
+Express Entry is Canada's points-based immigration system. You create a profile online and receive a score called the Comprehensive Ranking System (CRS) score. Canada holds draws every 2–4 weeks — in each draw, everyone above a certain CRS score threshold receives an Invitation to Apply (ITA) for Permanent Residency. Once you receive an ITA, you have 60 days to submit your full PR application. The entire process from ITA to PR decision typically takes 6 months.
 
-Your CRS score is calculated from four main factors: your age (peak points at 20–29, declining after 30), your education level (higher degrees = more points, a Nigerian masters or PhD evaluated by WES gets full credit), your language scores (English IELTS — target CLB 9 which is 8.0+ in every band; French is also scored if you have it), and your Canadian work experience (this is the biggest bonus — even 1 year of Canadian work experience adds a large number of points, which is why studying in Canada first is so effective). There are also bonus points for a provincial nomination (+600 points, which essentially guarantees an ITA), a sibling who is a Canadian citizen or PR, or a qualifying job offer.
+Your CRS score is calculated from four main factors: your age (peak points at 20–29, declining after 30), your education level (higher degrees = more points, a Nigerian masters or PhD evaluated by WES gets full credit), your language scores (English IELTS — target CLB 9 which is 8.0+ in every band; French is also scored if you have it), and your Canadian work experience (this is the biggest bonus — even 1 year of Canadian work experience adds a large number of points, which is why studying in Canada first is so effective). There are also bonus points for a provincial nomination (+600 points, which essentially guarantees an ITA), or a sibling who is a Canadian citizen or PR. Job offers no longer add CRS points: IRCC removed arranged-employment points on 25 March 2025.
 
 Step one — get your Nigerian degree evaluated by WES. World Education Services (wes.org) is the organisation that assesses whether your Nigerian degree is equivalent to a Canadian degree. This evaluation is mandatory for Express Entry — you cannot create a profile without it. The process costs approximately USD 246. You apply online at wes.org, request your transcripts to be sent from your Nigerian university directly to WES (check WES's instructions for Nigeria-specific document requirements), and WES processes your evaluation once they receive everything. The whole process takes about 7 weeks from when WES physically receives your documents. Do this immediately. Do not wait until you are ready to apply — WES always takes longer than expected.
 
@@ -609,7 +611,7 @@ Step four — create your Express Entry profile at canada.ca. Create an IRCC acc
 
 Step five — wait for an Invitation to Apply. Draws happen every 2–4 weeks. IRCC announces each draw publicly — the score threshold and number of invitations. You can track results on the IRCC website. If your score is below the threshold, focus on improving it. The most effective improvements: retake IELTS and improve your score, get a provincial nomination (see below), or gain Canadian work experience.
 
-Step six — receive your ITA and submit your PR application. Once you receive an ITA, you have 90 days to compile and submit your full application. This requires police clearance certificates from Nigeria (apply through the Nigeria Police Force — takes several weeks), medical examination results from an IRCC-approved physician, and supporting documents for everything you declared in your profile. Start gathering these documents the moment you create your Express Entry profile so you are ready if you receive an ITA.
+Step six — receive your ITA and submit your PR application. Once you receive an ITA, you have 60 days to compile and submit your full application. This requires police clearance certificates from Nigeria (apply through the Nigeria Police Force — takes several weeks), medical examination results from an IRCC-approved physician, and supporting documents for everything you declared in your profile. Start gathering these documents the moment you create your Express Entry profile so you are ready if you receive an ITA.
 
 Provincial Nominee Programs: Ontario, British Columbia, Alberta, Saskatchewan, Manitoba, and other provinces have their own streams for skilled workers. A provincial nomination adds 600 CRS points, which essentially guarantees an Express Entry invitation at the next draw. Research which provinces have streams matching your occupation. For example: Ontario's Human Capital Priorities stream, BC's Tech Pilot for tech workers. Apply to provincial programs in parallel with your Express Entry profile.
 
@@ -695,7 +697,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { step: "10–12 months before", title: "Take IELTS Academic", detail: "Book IELTS Academic (not General Training — Academic is required for university admission). Minimum target: 6.0 overall with no band below 5.5. Target 6.5 to be safe. British Council and IDP both run IELTS in Lagos, Abuja, and Port Harcourt. Allow yourself 2–3 months of preparation. You can retake the test — no limit." },
         { step: "8–10 months before", title: "Submit university applications", detail: "Apply to 4–6 schools through each university's own website. You need: official transcripts (stamped by your university/school registrar), WAEC verification certificate, personal statement, reference letters, and your IELTS result. Pay each school's application fee (typically CAD 100–200 per school)." },
         { step: "6–8 months before", title: "Receive Letter of Acceptance and pay deposit", detail: "Once you receive an offer, pay the tuition deposit (usually CAD 3,000–5,000) to secure your place. The school then issues your formal Letter of Acceptance (LOA). Do not delay paying the deposit — spots are limited and offers can expire." },
-        { step: "5–6 months before", title: "Set up your GIC", detail: "Open a GIC account with CIBC, Scotiabank (StartRight program), or SBI Canada. Transfer CAD 20,635. The bank processes this in about 2–3 weeks and sends you a GIC certificate. You need this certificate to apply for your Study Permit." },
+        { step: "5–6 months before", title: "Set up your GIC", detail: "Open a GIC account with CIBC, Scotiabank (StartRight program), or SBI Canada. Transfer CAD 23,448. The bank processes this in about 2–3 weeks and sends you a GIC certificate. You need this certificate to apply for your Study Permit." },
         { step: "5–6 months before", title: "Apply for Study Permit online at canada.ca", detail: "Application fee: CAD 150. Upload your LOA, GIC certificate, bank statements, passport bio-data page, IELTS result, and Statement of Purpose. Submit everything at once. Incomplete applications are rejected." },
         { step: "4–5 months before", title: "Biometrics at VFS Global Lagos or Abuja", detail: "After submitting your application, IRCC sends a Biometrics Instruction Letter (BIL). Book at vfsglobal.ca/canada/nigeria. Fee: CAD 85. Bring your passport and the BIL. Biometrics are valid for 10 years." },
         { step: "2–3 months before", title: "Study Permit approved — prepare to travel", detail: "Book your flight. Apply for on-campus housing immediately — it fills fast. Join Nigerian student WhatsApp groups for your university. Open a Canadian bank account online before you arrive (Scotiabank StartRight and TD International Student Banking allow pre-arrival setup)." },
@@ -705,7 +707,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { step: "12–18 months before", title: "Research programs and email professors (if research-based)", detail: "For course-based masters: browse the university's graduate programs page, read admission requirements carefully, and shortlist 4–6 programs across different universities. For thesis/research-based masters: email 5–10 professors whose research matches your interests before applying. A professor who agrees to supervise you will dramatically improve your admission chances." },
         { step: "10–12 months before", title: "IELTS Academic and get transcripts ready", detail: "Target IELTS Academic 7.0 overall (University of Toronto requires 7.0 with no band below 6.5 — this is a common benchmark for top schools). Get your degree certificate and transcripts officially stamped by your university's registrar. Some programs require WES (World Education Services) evaluation of your Nigerian degree — do this at wes.org, costs approximately USD 246, takes about 7 weeks." },
         { step: "8–10 months before", title: "Apply to 4–6 programs", detail: "Your Statement of Purpose is the most important document. Write specifically about: why this exact program at this university, which specific professor or research area interests you (name them), how your Nigerian academic background and any work experience connect to this degree, and what you plan to do after. Two specific focused pages beats five generic pages every time." },
-        { step: "5–7 months before", title: "Accept offer and set up GIC", detail: "Pay your tuition deposit. Set up the GIC (CAD 20,635). Apply for Study Permit at canada.ca (CAD 150 fee). Include any scholarship letters — these strengthen your application." },
+        { step: "5–7 months before", title: "Accept offer and set up GIC", detail: "Pay your tuition deposit. Set up the GIC (CAD 23,448). Apply for Study Permit at canada.ca (CAD 150 fee). Include any scholarship letters — these strengthen your application." },
         { step: "4–5 months before", title: "Biometrics", detail: "VFS Global Lagos or Abuja after receiving your Biometrics Instruction Letter. Fee: CAD 85. Bring passport and the letter. Processed within 2–5 days typically." },
         { step: "Within 180 days of graduating", title: "Apply for Post-Graduation Work Permit (PGWP)", detail: "This is the most important step for staying in Canada. Apply before your Study Permit expires. Any masters degree now gives you a 3-year PGWP. Include your IELTS result in the application (required since November 2024). You can start working immediately after submitting the application. Processing takes 80–180 days but work is allowed while it is pending. Apply online at canada.ca." },
         { step: "During PGWP (1–3 years working)", title: "Build Express Entry CRS score and apply for PR", detail: "Get at least 1 year of skilled Canadian work experience. Use the Canada Job Bank (jobbank.gc.ca) and LinkedIn. Once you have 1 year experience, check your CRS score using the Come to Canada tool at canada.ca. Target IELTS CLB 9 (8.0+ in every band) for maximum language points. Most Nigerian masters graduates with strong language scores receive an Express Entry invitation within 6–18 months of graduating." },
@@ -721,7 +723,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
       work: [
         { step: "Before anything else", title: "WES evaluation and IELTS", detail: "Get your Nigerian degree evaluated at wes.org. Cost: approximately USD 246. Takes about 7 weeks. This is mandatory for Express Entry. At the same time, take IELTS — target 8.0+ in all bands (CLB 9). These two things are the foundation of everything else." },
         { step: "Check your score first", title: "Use the Come to Canada tool at canada.ca", detail: "Before spending months on anything, estimate your CRS score at canada.ca/come-to-canada-tool. If your score is below 440, focus on improving your IELTS first — the language improvement alone could add 50–80 points. Know your score before deciding which path to pursue." },
-        { step: "Create your Express Entry profile", title: "Submit to the pool and wait for an invitation", detail: "Go to canada.ca, create your IRCC account, and submit your Express Entry profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 90 days to submit your full PR application. The entire PR process (from ITA to decision) typically takes 6 months." },
+        { step: "Create your Express Entry profile", title: "Submit to the pool and wait for an invitation", detail: "Go to canada.ca, create your IRCC account, and submit your Express Entry profile. You are now in the pool. Draws happen every 2–4 weeks. If you receive an Invitation to Apply (ITA), you have 60 days to submit your full PR application. The entire PR process (from ITA to decision) typically takes 6 months." },
         { step: "Parallel track — job search for LMIA work permit", title: "Apply to Canadian employers willing to sponsor", detail: "Job Bank Canada (jobbank.gc.ca) is the government job board — free to use and specifically designed for this. Also use LinkedIn and Indeed Canada (ca.indeed.com). Look for companies that sponsor work visas — tech companies, hospitals, engineering firms. The job posting sometimes says 'open to work permit sponsorship'. Focus on IT, healthcare, engineering, and finance." },
         { step: "Job offer received", title: "Employer applies for LMIA on your behalf", detail: "Your employer submits an LMIA application to Service Canada. This proves no Canadian worker was available for your role. Cost to employer: CAD 1,000. Processing: 2–5 months. Once approved, you apply for your work permit at canada.ca." },
         { step: "1 year of Canadian work", title: "Canadian Experience Class — fast-track to PR", detail: "After 1 year of skilled work experience in Canada, apply for PR through Canadian Experience Class (a stream within Express Entry). This stream has lower CRS score requirements. Most Nigerians who get 1 year of Canadian work experience qualify for PR within another 6–12 months." },
@@ -740,7 +742,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         { title: "WAEC verification takes 2–4 weeks — start immediately", body: "Many Nigerian students lose months because they forgot to verify their WAEC/NECO results. Go to the WAEC office (Lagos: 16 Plot 326, Independence Avenue, Wuse 2; or your nearest state office) and request a Verification Certificate. This is different from your result slips. Canadian universities specifically request this. Do it before you even decide which schools to apply to." },
         { title: "Bank statements must show 3–6 months of stable funds", body: "IRCC visa officers check how long money has been sitting in your account. If NGN 15 million appeared in your account 3 weeks ago, a visa officer will flag it. Your funds should be stable for at least 3 months before you apply. If your parents or a sponsor is providing the funds, you also need a signed sponsor letter and their own bank statements." },
         { title: "Proof of ties to Nigeria — exactly what counts", body: "For your Study Permit, show you have reasons to come back to Nigeria (even if you plan to apply for PR later, your initial application must show ties). What counts: signed letter from a Nigerian employer confirming your position is being held for you, Certificate of Occupancy or family land documents (family property counts, not just yours), letter from parents confirming they are funding you and remaining in Nigeria, business registration documents, siblings or spouse in Nigeria. The more evidence, the better." },
-        { title: "The GIC money comes back to you — it is not a fee", body: "Many Nigerian families panic when they hear CAD 20,635 must be deposited. This money is NOT paid to the Canadian government. It is deposited into a Canadian bank account in your name and released to you in monthly instalments when you arrive. By the end of your first year, you will have received every penny back. Think of it as a savings account that Canada holds for you." },
+        { title: "The GIC money comes back to you — it is not a fee", body: "Many Nigerian families panic when they hear CAD 23,448 must be deposited. This money is NOT paid to the Canadian government. It is deposited into a Canadian bank account in your name and released to you in monthly instalments when you arrive. By the end of your first year, you will have received every penny back. Think of it as a savings account that Canada holds for you." },
         { title: "On-campus housing fills fast — apply the same day you accept your offer", body: "Do not wait. The day you accept your university offer and pay your deposit, immediately apply for on-campus housing. International students qualify for the same housing as domestic students at most Canadian universities. Residence halls are safe, affordable, and put you in the middle of campus life. Private apartments near campus can cost 2–3 times more." },
       ],
       masters: [
@@ -841,14 +843,14 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
   // ─────────────────────────────────────────────
   GB: {
     tagline: "Cultural familiarity, world-class universities, and a clear post-study work route",
-    overview: "The UK is the most culturally familiar western country for Nigerians — shared language, similar legal system, and one of the largest Nigerian diaspora communities in the world. UK universities are globally ranked. The Graduate Route visa lets international graduates stay and work in the UK for 2 years (3 for PhD) after finishing their degree. For healthcare workers, the NHS is one of the largest employers of Nigerians in the world.",
+    overview: "The UK is the most culturally familiar western country for Nigerians — shared language, similar legal system, and one of the largest Nigerian diaspora communities in the world. UK universities are globally ranked. The Graduate Route visa lets international graduates stay and work in the UK for 2 years (18 months for applications from 1 January 2027; 3 years for PhD) after finishing their degree. For healthcare workers, the NHS is one of the largest employers of Nigerians in the world.",
 
     stats: {
-      undergrad:  { tuition: "£14,000–£38,000/yr", living: "£1,136–£1,483/month", processing: "3 weeks", acceptance: "Varies by university", minIELTS: "5.5–6.5 UKVI (see guide)", currency: "GBP" },
-      masters:    { tuition: "£15,000–£40,000/yr", living: "£1,136–£1,483/month", processing: "3 weeks", acceptance: "Varies by program", minIELTS: "6.0–7.0 UKVI (see guide)", currency: "GBP" },
-      phd:        { tuition: "£15,000–£30,000/yr (often funded)", living: "£1,136–£1,483/month", processing: "3 weeks", acceptance: "Very competitive", minIELTS: "6.5–7.0 UKVI", currency: "GBP" },
-      work:       { salary: "£28,000–£65,000/yr", processing: "3–8 weeks", pathway: "Skilled Worker Visa", minIELTS: "B1 English required", currency: "GBP" },
-      visitor:    { fee: "£115 (Standard Visitor Visa)", processing: "3 weeks (online)", duration: "Up to 6 months per entry", pathway: "Standard Visitor Visa", currency: "GBP" },
+      undergrad:  { tuition: "£14,000–£38,000/yr", living: "£1,171–£1,529/month", processing: "3 weeks", acceptance: "Varies by university", minIELTS: "5.5–6.5 UKVI (see guide)", currency: "GBP" },
+      masters:    { tuition: "£15,000–£40,000/yr", living: "£1,171–£1,529/month", processing: "3 weeks", acceptance: "Varies by program", minIELTS: "6.0–7.0 UKVI (see guide)", currency: "GBP" },
+      phd:        { tuition: "£15,000–£30,000/yr (often funded)", living: "£1,171–£1,529/month", processing: "3 weeks", acceptance: "Very competitive", minIELTS: "6.5–7.0 UKVI", currency: "GBP" },
+      work:       { salary: "£28,000–£65,000/yr", processing: "3–8 weeks", pathway: "Skilled Worker Visa", minIELTS: "B2 English required (from 8 Jan 2026)", currency: "GBP" },
+      visitor:    { fee: "£135 (Standard Visitor Visa)", processing: "3 weeks (online)", duration: "Up to 6 months per entry", pathway: "Standard Visitor Visa", currency: "GBP" },
     },
 
     summary: {
@@ -858,7 +860,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
           { action: "Take IELTS for UKVI Academic — NOT regular IELTS Academic", detail: "This is a critical mistake many Nigerians make. The visa requires specifically 'IELTS for UKVI Academic'. Book through British Council or IDP in Lagos, Abuja, or Port Harcourt. A regular IELTS Academic certificate will be rejected for your visa application." },
           { action: "Apply through UCAS at ucas.com — one application covers all 5 universities", detail: "UCAS fee: £27.50 (2025). Oxford/Cambridge and Medicine applications: deadline October 15. All other universities: late January. You write ONE personal statement that goes to all 5 schools — write about why you love the subject, not which universities you picked." },
           { action: "Book your TB test at IOM Lagos or Abuja — do this early", detail: "Mandatory for all Nigerian passport holders. IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Appointments fill up weeks in advance. Certificate valid for 6 months." },
-          { action: "Once you have your CAS number: prepare your funds (28-day rule)", detail: "Your money must sit in your account for 28 consecutive days before applying. Outside London: £1,136/month × 9 months + first year tuition. London: £1,483/month × 9 months + first year tuition. Plan this 6–8 weeks ahead." },
+          { action: "Once you have your CAS number: prepare your funds (28-day rule)", detail: "Your money must sit in your account for 28 consecutive days before applying. Outside London: £1,171/month × 9 months + first year tuition. London: £1,529/month × 9 months + first year tuition. Plan this 6–8 weeks ahead." },
           { action: "Apply for Student Visa at gov.uk/student-visa — pay IHS upfront", detail: "IHS (Immigration Health Surcharge): £776 per year. This gives you full NHS access. Biometrics at TLScontact in Lagos, Abuja, or Port Harcourt. Processing: 3 weeks. Visa comes as a sticker in your passport." },
         ],
         keyFacts: [
@@ -868,7 +870,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
           "TB test is mandatory for all Nigerians — book early, slots fill quickly",
           "On arrival: collect your Biometric Residence Permit (BRP) from a Post Office within 10 days",
         ],
-        outcome: "After your degree, the Graduate Route visa gives you 2 years (3 for PhD) to work freely in the UK with no job offer required. Then you can switch to a Skilled Worker Visa and eventually apply for Indefinite Leave to Remain after 5 years.",
+        outcome: "After your degree, the Graduate Route visa gives you 2 years (18 months if you apply from 1 January 2027; 3 years for PhD) to work freely in the UK with no job offer required. Then you can switch to a Skilled Worker Visa and eventually apply for Indefinite Leave to Remain after 5 years.",
       },
       masters: {
         intro: "UK masters programs are typically 1 year — faster and cheaper than Canada or the US. Applications go directly to each university (not through UCAS). After graduating, the Graduate Route visa gives you 2 years to work for any employer in the UK without needing sponsorship. Combined with a Skilled Worker Visa, this is now a genuine long-term path for Nigerians.",
@@ -877,11 +879,11 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
           { action: "Apply directly to each university's own admissions portal", detail: "No central system for masters — go to each university's website. University of Manchester: pgapplication.manchester.ac.uk. UCL: ucl.ac.uk. Edinburgh: euclid.ed.ac.uk. Apply by January for September start — popular programs fill by February." },
           { action: "Accept your offer, pay deposit, and receive your CAS number", detail: "Deposit: usually £3,000–5,000. CAS is issued 1–3 months before your course starts. Do not apply for the visa before receiving your CAS." },
           { action: "Book TB test at IOM Lagos or Abuja — mandatory for all Nigerians", detail: "IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Book as early as possible — slots fill fast. Result sent directly to UKVI. Certificate valid for 6 months. Cost: ~£50." },
-          { action: "Prepare your finances (28-day rule) and apply at gov.uk/student-visa", detail: "Funds must sit in your account for 28 days. Outside London: £1,136/month × 9 months + first year tuition. London: £1,483/month × 9 months + first year tuition. Pay IHS (£776). Biometrics at TLScontact. Processing: 3 weeks." },
+          { action: "Prepare your finances (28-day rule) and apply at gov.uk/student-visa", detail: "Funds must sit in your account for 28 days. Outside London: £1,171/month × 9 months + first year tuition. London: £1,529/month × 9 months + first year tuition. Pay IHS (£776). Biometrics at TLScontact. Processing: 3 weeks." },
         ],
         keyFacts: [
           "1-year UK masters is internationally recognised — it is not inferior to a 2-year program",
-          "Graduate Route after graduation: 2 years of open work, no job offer or sponsorship needed",
+          "Graduate Route after graduation: 2 years of open work if you apply by 31 Dec 2026 — reduced to 18 months for applications from 1 January 2027",
           "Chevening Scholarship covers full tuition + ~£14,000/year living costs + flights + visa fees — apply by November",
           "IHS (£776/year) gives you full NHS access during your studies — no separate health insurance needed",
           "UK allows dual nationality — if you later qualify for citizenship, you keep your Nigerian passport",
@@ -907,7 +909,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         outcome: "PhD graduation → 3-year Graduate Route visa → Skilled Worker Visa → Indefinite Leave to Remain after 5 years total on qualifying visas → British citizenship. UK allows dual nationality.",
       },
       work: {
-        intro: "Working in the UK as a Nigerian requires a Skilled Worker Visa — you need a job offer from a licensed sponsor paying at least £38,700/year (as of April 2024, verify at gov.uk as this changes). Nigerian professionals in tech, healthcare, engineering, finance, and law are in genuine demand. The NHS specifically employs large numbers of Nigerians — though government-to-government recruitment is restricted, individual applications to NHS trusts are open.",
+        intro: "Working in the UK as a Nigerian requires a Skilled Worker Visa — you need a job offer from a licensed sponsor paying at least £41,700/year (since 22 July 2025, verify at gov.uk as this changes). Nigerian professionals in tech, healthcare, engineering, finance, and law are in genuine demand. The NHS specifically employs large numbers of Nigerians — though government-to-government recruitment is restricted, individual applications to NHS trusts are open.",
         firstSteps: [
           { action: "Download the licensed sponsors register from gov.uk before applying to any job", detail: "Only companies on this list can legally sponsor your Skilled Worker Visa. Download from gov.uk/government/publications/register-of-licensed-sponsors-workers. Check a company is on the list before investing time in an application. Scam job offers with fake sponsorship exist — this list is your protection." },
           { action: "Search LinkedIn, NHS Jobs, and sector-specific boards for UK-based roles", detail: "LinkedIn: set location to UK, turn on 'Open to Work'. NHS jobs: jobs.nhs.uk. General: reed.co.uk, totaljobs.com, indeed.co.uk. Tech: londontech.jobs. Focus on companies already on the licensed sponsors register." },
@@ -916,7 +918,7 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         ],
         keyFacts: [
           "Check the licensed sponsors register BEFORE applying to any job — scams targeting Nigerians exist",
-          "Salary threshold: £38,700/year for most roles (changed April 2024 — verify at gov.uk as this changes)",
+          "Salary threshold: £41,700/year for most roles (changed 22 July 2025 — verify at gov.uk as this changes)",
           "NHS healthcare workers: individual applications are open, but targeted Nigeria recruitment campaigns are restricted (Red List)",
           "After 5 years on Skilled Worker Visa: apply for Indefinite Leave to Remain (ILR) — permanent residence",
           "UK allows dual nationality — British citizenship does not require giving up your Nigerian passport",
@@ -928,12 +930,12 @@ When applying, request a Multiple Entry Temporary Resident Visa (METV). If appro
         firstSteps: [
           { action: "Decide what type of evidence you are building your application around", detail: "There are two main application types: visiting family/friends in the UK, or visiting for tourism/business. For family visits, an invitation letter from the UK-based person is essential. For tourism, your itinerary and hotel bookings carry most of the weight. Decide which applies to you before gathering documents." },
           { action: "Get a strong employment letter from your Nigerian employer", detail: "The letter must be on official company letterhead, signed by HR or management. It should state: your name, job title, annual or monthly salary, length of employment, that you have been approved leave from [date] to [date], and that your position will be held for you. This is the single document that most affects visitor visa decisions. If self-employed, get a letter from your accountant confirming your business is active and generating income." },
-          { action: "Apply online at gov.uk/standard-visitor-visa", detail: "The application fee is £115. Complete the form carefully — be specific about where you are staying, who you are visiting (with their contact details and UK address), your itinerary, and how you are funding the trip. You will then be asked to book a visa appointment at TLScontact (the UK's visa centre in Nigeria)." },
+          { action: "Apply online at gov.uk/standard-visitor-visa", detail: "The application fee is £135. Complete the form carefully — be specific about where you are staying, who you are visiting (with their contact details and UK address), your itinerary, and how you are funding the trip. You will then be asked to book a visa appointment at TLScontact (the UK's visa centre in Nigeria)." },
           { action: "Attend your appointment at TLScontact in Lagos or Abuja", detail: "TLScontact handles UK visa applications in Nigeria. You submit your documents and biometrics (fingerprints and photo) here. Lagos: 31A Ladybird House, Mobolaji Bank Anthony Way, Ikeja. Abuja: plot 1261 Tafawa Balewa Way. Bring originals and copies of all documents. The appointment fee is separate from the visa fee." },
           { action: "Prepare your document bundle in this order", detail: "1. Valid Nigerian passport (6 months validity beyond return date). 2. UK Standard Visitor Visa application form. 3. Bank statements — 3–6 months, showing stable funds (roughly £2,000–3,000 for a 2-week trip minimum). 4. Employment letter or business evidence. 5. Hotel bookings or host's invitation letter and proof of their UK status. 6. Return flight booking (you can use a refundable booking at this stage). 7. Travel itinerary. 8. Any previous UK, US, or Schengen visas — these help significantly." },
         ],
         keyFacts: [
-          "Standard Visitor Visa fee: £115 — apply at gov.uk/standard-visitor-visa",
+          "Standard Visitor Visa fee: £135 — apply at gov.uk/standard-visitor-visa",
           "TLScontact (not VFS for UK) handles applications in Lagos and Abuja — book at tlscontact.com",
           "Processing: typically 3 weeks from biometrics for standard service; 5 working days for priority (extra £250); 24 hours for super priority (extra £500 — limited availability)",
           "A long-term Standard Visitor Visa (2, 5, or 10 years) is available — same application, costs more but allows multiple visits without reapplying",
@@ -988,19 +990,19 @@ Before submitting your visa application, you pay the IHS online. This gives you 
 
 **Step 7 — Prove your finances (28-day rule)**
 Your funds must have been sitting in your bank account for a minimum of 28 consecutive days before you apply. The amounts required (verified from gov.uk, January 2025):
-• If studying in London: £1,483 per month × 9 months = £13,347 (plus your first year's tuition)
-• If studying outside London: £1,136 per month × 9 months = £10,224 (plus your first year's tuition)
+• If studying in London: £1,529 per month × 9 months = £13,761 (plus your first year's tuition)
+• If studying outside London: £1,171 per month × 9 months = £10,539 (plus your first year's tuition)
 
 Example: If your tuition is £20,000 and you are studying in Manchester (outside London), you need to show at least £30,224 in your account, and it must have been there for 28 continuous days.
 
 **Step 8 — Apply for Student Visa online and biometrics**
 Apply at gov.uk/student-visa. You can apply no earlier than 6 months before your course start date. Book biometrics at TLScontact in Lagos, Abuja, or Port Harcourt.
 
-**Processing time:** Typically 3 weeks. Most Nigerian applicants receive decisions within 3 weeks. You receive your visa as a sticker in your passport. When you arrive in the UK, collect your Biometric Residence Permit (BRP) from a Post Office within 10 days.
+**Processing time:** Typically 3 weeks. Most Nigerian applicants receive decisions within 3 weeks. You receive your visa as a sticker in your passport. BRPs have been replaced by eVisas. You get a short-validity vignette to travel, then you create a UKVI account to access your eVisa, which is your proof of status in the UK.
 
 **Bringing your spouse or children:**
-• Your spouse/partner can apply for a Student Dependant visa
-• Dependant funds required: £845/month per dependant outside London; £680/month in London (28-day rule applies)
+• Undergraduate students cannot bring dependants. Since January 2024, only PhD/doctoral or research-based postgraduate students (or government-sponsored students) can
+• Dependant funds required: £845/month per dependant in London; £680/month outside London (28-day rule applies)
 • Work rights for dependants: Check current rules at gov.uk — these rules have changed in recent years and may change again
 
 **────────────────────────────────────────────**
@@ -1055,10 +1057,10 @@ Book as early as possible. Slots fill up weeks in advance, especially in summer 
 UK Student Visa finance requirements are strict and strictly enforced. Your funds must appear in your bank account (or your sponsor's account if someone is funding you) for 28 consecutive days before the date you submit your visa application. Not 27 days. Not transferred in 25 days ago. 28 days continuous — every day for 28 days the money must be there.
 
 The amounts required depend on where you are studying:
-Studying outside London: £1,136 per month × 9 months = £10,224, plus your first year's tuition in full.
-Studying in London: £1,483 per month × 9 months = £13,347, plus your first year's tuition in full.
+Studying outside London: £1,171 per month × 9 months = £10,539, plus your first year's tuition in full.
+Studying in London: £1,529 per month × 9 months = £13,761, plus your first year's tuition in full.
 
-Example: If you are studying at the University of Manchester (outside London) and your first year tuition is £22,000, you need to show £10,224 + £22,000 = £32,224 sitting in your account for 28 days before you apply.
+Example: If you are studying at the University of Manchester (outside London) and your first year tuition is £22,000, you need to show £10,539 + £22,000 = £32,539 sitting in your account for 28 days before you apply.
 
 If your parents or a sponsor is funding you: you need their bank statements (showing the money has been there for 28 days), a signed sponsor letter from them stating they are funding your education and their relationship to you, and their proof of income (payslips or business accounts). This is standard and UKVI accepts third-party sponsors — but all the 28-day rules apply to the sponsor's account.
 
@@ -1134,8 +1136,8 @@ Step 2 — Take IELTS for UKVI Academic (not regular IELTS). Must specifically s
 Step 3 — TB test at IOM Lagos or Abuja. Mandatory for all Nigerian passport holders. IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Book early — slots fill weeks in advance. Results sent directly to UKVI. Certificate valid for 6 months. Cost: approximately £50.
 
 Step 4 — Prepare your finances (28-day rule). Your funds must have been in your account for 28 consecutive days before you apply. Required amounts:
-• Studying outside London: £1,136/month × 9 months = £10,224 (plus first year tuition)
-• Studying in London: £1,483/month × 9 months = £13,347 (plus first year tuition)
+• Studying outside London: £1,171/month × 9 months = £10,539 (plus first year tuition)
+• Studying in London: £1,529/month × 9 months = £13,761 (plus first year tuition)
 Example: If your tuition is £20,000 and you are studying in Manchester, you need to show at least £30,224 sitting in your account for 28 days.
 
 Step 5 — Pay the Immigration Health Surcharge (IHS) online. Current rate: £776 per year. For a 1-year masters: £776 paid upfront. This gives you full NHS access during your studies — no GP fees, no hospital fees. Pay at immigration-health-surcharge.service.gov.uk.
@@ -1152,7 +1154,7 @@ NOTE: The UK government has proposed reducing the Graduate Route to 18 months fo
 During these 2 years, find a Skilled Worker sponsor. Once you have a job offer from a licensed sponsor, switch to a Skilled Worker Visa.
 
 **Bringing your spouse or children:**
-Masters students can bring dependants. Show £845/month outside London or £680/month in London (28-day rule). Children can attend UK schools.
+Taught master's students (e.g. MSc, MA, MBA) CANNOT bring dependants for courses starting on or after 1 January 2024. Only research-based master's (e.g. MRes, MPhil) qualify. If eligible, show £845/month per dependant in London or £680/month outside London (28-day rule).
 
 **────────────────────────────────────────────**
 **FULL WALKTHROUGH — UK Masters, Start to Finish**
@@ -1193,8 +1195,8 @@ Every Nigerian passport holder must take a TB test at an IOM-approved clinic bef
 **Prepare your finances — the 28-day rule**
 
 Your funds must sit in your account (or sponsor's account) for 28 consecutive days before you apply. Required amounts:
-Outside London: £1,136/month × 9 months = £10,224, plus first year tuition
-In London: £1,483/month × 9 months = £13,347, plus first year tuition
+Outside London: £1,171/month × 9 months = £10,539, plus first year tuition
+In London: £1,529/month × 9 months = £13,761, plus first year tuition
 
 Example: Studying at Manchester, tuition £22,000: you need £32,224 sitting in the account for 28 days. Plan this 6–8 weeks ahead. If a sponsor (parent, relative) is providing funds, include their bank statements, a signed sponsor letter, and their proof of income.
 
@@ -1272,8 +1274,8 @@ After you accept your offer and complete the university's enrolment formalities,
 
 **Step 7 — Prove your finances (28-day rule)**
 Your funds must have been sitting in your bank account for 28 consecutive days before the date you submit your visa application. The amounts required (verified from gov.uk):
-• Studying outside London: £1,136 per month × 9 months = £10,224
-• Studying in London: £1,483 per month × 9 months = £13,347
+• Studying outside London: £1,171 per month × 9 months = £10,539
+• Studying in London: £1,529 per month × 9 months = £13,761
 If your scholarship covers living costs, your scholarship letter satisfies the financial requirement — you do not need to show personal funds for living costs. If tuition is funded, you do not need to show funds for tuition either. Only show personal funds for what the scholarship does not cover.
 Example: If you have a full Commonwealth Scholarship covering tuition, living allowance, and travel — you do not need to show personal bank funds at all. The scholarship letter is your financial proof.
 
@@ -1349,7 +1351,7 @@ Book immediately at IOM Lagos or IOM Abuja — slots fill weeks ahead in summer.
 
 **Step five — prepare finances**
 
-If your scholarship covers living costs, the scholarship award letter is your financial proof. If not, show: outside London — £1,136/month × 9 months = £10,224; in London — £1,483/month × 9 months = £13,347. Money must be in the account for 28 consecutive days before application.
+If your scholarship covers living costs, the scholarship award letter is your financial proof. If not, show: outside London — £1,171/month × 9 months = £10,539; in London — £1,529/month × 9 months = £13,761. Money must be in the account for 28 consecutive days before application.
 
 **Step six — pay IHS and apply at gov.uk/student-visa**
 
@@ -1369,7 +1371,7 @@ Apply at gov.uk/graduate-visa before your Student Visa expires — from inside t
 To work legally in the UK as a Nigerian, you need a Skilled Worker Visa. Three conditions must ALL be met:
 1. Your employer must be on the Home Office's list of licensed sponsors (check the public register at gov.uk/government/publications/register-of-licensed-sponsors-workers)
 2. Your job must be on the eligible occupations list (check gov.uk/skilled-worker-visa/eligible-occupations)
-3. Your salary must meet the threshold — currently £38,700/year for most roles (this changed significantly in April 2024 — verify current figures at gov.uk/skilled-worker-visa as this changes frequently)
+3. Your salary must meet the threshold — currently £41,700/year for most roles (this changed again on 22 July 2025 — verify current figures at gov.uk/skilled-worker-visa as this changes frequently)
 
 Step by step:
 1. Find a job at a company on the licensed sponsors register (check BEFORE applying)
@@ -1402,7 +1404,7 @@ Skilled Worker Visa holders can bring family. Your spouse gets a Dependant visa 
 
 **Understanding the Skilled Worker Visa**
 
-To work in the UK as a Nigerian you need a Skilled Worker Visa. Three things must all be true at the same time: your employer must be on the Home Office's list of licensed sponsors, your specific job must be on the eligible occupations list, and your salary must meet the minimum threshold. As of April 2024 the general threshold is £38,700/year — verify the current figure at gov.uk/skilled-worker-visa because this changes.
+To work in the UK as a Nigerian you need a Skilled Worker Visa. Three things must all be true at the same time: your employer must be on the Home Office's list of licensed sponsors, your specific job must be on the eligible occupations list, and your salary must meet the minimum threshold. Since 22 July 2025 the general threshold is £41,700/year — verify the current figure at gov.uk/skilled-worker-visa because this changes.
 
 Download the licensed sponsors register before doing anything else. It is a spreadsheet published at gov.uk/government/publications/register-of-licensed-sponsors-workers — download it, open it, and use Ctrl+F to search company names. Every company you seriously apply to should be on this list before you invest time in the application. Scam job offers targeting Nigerians with fake sponsorship promises are real — this list is your protection.
 
@@ -1434,7 +1436,7 @@ When you receive an offer, ask your employer to issue a Certificate of Sponsorsh
 
 **Applying for the Skilled Worker Visa**
 
-Apply online at gov.uk/skilled-worker-visa. You will need: your Certificate of Sponsorship reference number, your valid Nigerian passport, proof of English language ability (a degree taught in English, or IELTS B1 level — check gov.uk for current requirements), proof of your qualifications if required for the specific role. Pay the visa fee and IHS (Immigration Health Surcharge — currently £1,035/year for Skilled Workers). Processing: 3–8 weeks.
+Apply online at gov.uk/skilled-worker-visa. You will need: your Certificate of Sponsorship reference number, your valid Nigerian passport, proof of English language ability (a degree taught in English, or English at B2 level, required for new Skilled Worker applications from 8 January 2026. Check gov.uk for accepted tests), proof of your qualifications if required for the specific role. Pay the visa fee and IHS (Immigration Health Surcharge — currently £1,035/year for Skilled Workers). Processing: 3–8 weeks.
 
 If you are already in the UK on a Graduate Route or another visa, you can switch to a Skilled Worker Visa from inside the UK without leaving the country.
 
@@ -1451,7 +1453,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         { step: "March–May", title: "Receive and respond to offers on UCAS Track", detail: "Accept your Firm choice and Insurance choice on UCAS. Meet any conditions on your offers — usually grade requirements. Pay the tuition deposit once you accept your firm offer (typically £3,000–5,000)." },
         { step: "June–July", title: "Receive CAS number from university", detail: "After meeting conditions and paying your deposit, the university issues your CAS. This typically arrives 1–3 months before your course starts. The CAS contains your personal details and course information." },
         { step: "Before visa application", title: "TB test at IOM Lagos or IOM Abuja", detail: "Mandatory for all Nigerian passport holders. Book at IOM Lagos (106 Dr. Nnamdi Azikiwe Street, Victoria Island) or IOM Abuja. Results take 3–5 working days. Your result is sent directly to UKVI — you receive a certificate with a reference number. Results valid for 6 months." },
-        { step: "No earlier than 6 months before course start", title: "Apply for UK Student Visa at gov.uk", detail: "Apply at gov.uk/student-visa. Pay IHS upfront (£776/year × course length). Show maintenance funds in your bank account for 28 days (£1,136–£1,483/month × 9 months + first year tuition). Book biometrics at TLScontact Lagos, Abuja, or Port Harcourt." },
+        { step: "No earlier than 6 months before course start", title: "Apply for UK Student Visa at gov.uk", detail: "Apply at gov.uk/student-visa. Pay IHS upfront (£776/year × course length). Show maintenance funds in your bank account for 28 days (£1,171–£1,529/month × 9 months + first year tuition). Book biometrics at TLScontact Lagos, Abuja, or Port Harcourt." },
         { step: "3 weeks after applying", title: "Visa decision", detail: "Most Nigerian applicants get a decision within 3 weeks. If approved, your passport comes back with a vignette sticker. When you land in the UK, collect your Biometric Residence Permit (BRP) from a specified Post Office within 10 days of arrival." },
       ],
       masters: [
@@ -1459,7 +1461,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         { step: "8–10 months before", title: "Apply directly to university portals", detail: "For University of Manchester: pgapplication.manchester.ac.uk/apply. For UCL: ucl.ac.uk/prospective-students/graduate. For Edinburgh: euclid.ed.ac.uk. Apply early — popular programs fill by February or March. Have your transcripts, IELTS for UKVI result, personal statement, and reference letters ready." },
         { step: "5–7 months before", title: "Accept offer, pay deposit, receive CAS", detail: "Pay your tuition deposit (usually £3,000–5,000). The university issues your CAS typically 1–3 months before your course starts. Do not apply for your visa before receiving the CAS." },
         { step: "Before visa application", title: "TB test at IOM Lagos or Abuja", detail: "Book as early as possible — slots fill fast, especially in summer. IOM Lagos: 106 Dr. Nnamdi Azikiwe Street, Victoria Island. Bring your passport. Results sent directly to UKVI. Certificate valid 6 months." },
-        { step: "No earlier than 6 months before start", title: "Apply for Student Visa at gov.uk", detail: "Pay IHS (£776/year). Show maintenance funds (£1,136/month outside London or £1,483/month London, × 9 months, held for 28 days). Biometrics at TLScontact. Processing: 3 weeks." },
+        { step: "No earlier than 6 months before start", title: "Apply for Student Visa at gov.uk", detail: "Pay IHS (£776/year). Show maintenance funds (£1,171/month outside London or £1,529/month London, × 9 months, held for 28 days). Biometrics at TLScontact. Processing: 3 weeks." },
         { step: "After graduating — before Student Visa expires", title: "Apply for Graduate Route visa at gov.uk/graduate-visa", detail: "Apply from inside the UK before your Student Visa expires. The university notifies UKVI of your graduation — once UKVI confirms this, you can apply. The Graduate Route gives 2 years of open work authorization (no employer sponsorship needed). You can work for any employer. Apply entirely online at gov.uk/graduate-visa. Do not travel outside the UK after applying until you receive your decision." },
         { step: "During Graduate Route (2 years)", title: "Find a Skilled Worker sponsor", detail: "Search jobs.nhs.uk if you are in healthcare. For tech, finance, law, engineering: check the licensed sponsors register at gov.uk first to confirm your employer can sponsor you. Once you have a job offer with a Certificate of Sponsorship, apply to switch to a Skilled Worker Visa." },
       ],
@@ -1471,7 +1473,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         { step: "After graduating", title: "Graduate Route — 3 years", detail: "PhD graduates receive 3 years on the Graduate Route (not 2 like other graduates). Apply at gov.uk/graduate-visa from inside the UK before your Student Visa expires. 3 years of open work gives substantial time to find a Skilled Worker sponsor and build UK work experience toward ILR." },
       ],
       work: [
-        { step: "Before applying to any job", title: "Check the licensed sponsors register and salary threshold", detail: "Go to gov.uk and download the register of licensed sponsors. Before spending time applying to any company, confirm they are on the list. The salary threshold changed in April 2024 to £38,700 for most roles — verify the current rate at gov.uk/skilled-worker-visa as this changes." },
+        { step: "Before applying to any job", title: "Check the licensed sponsors register and salary threshold", detail: "Go to gov.uk and download the register of licensed sponsors. Before spending time applying to any company, confirm they are on the list. The salary threshold changed on 22 July 2025 to £41,700 for most roles — verify the current rate at gov.uk/skilled-worker-visa as this changes." },
         { step: "Job search", title: "Focus on companies that already sponsor foreign workers", detail: "LinkedIn is essential — set your location preference to UK, turn on 'Open to Work'. NHS jobs: jobs.nhs.uk. General jobs: reed.co.uk, totaljobs.com, indeed.co.uk. Tech jobs: londontech.jobs, techcrunch.com/jobs. Companies that already appear on the licensed sponsors register are your best targets." },
         { step: "Job offer received", title: "Employer issues Certificate of Sponsorship (CoS)", detail: "The CoS is a unique reference number your employer assigns to you through the Sponsorship Management System. It contains your job title, salary, and start date. You need this to apply for your Skilled Worker Visa." },
         { step: "CoS received", title: "Apply for Skilled Worker Visa at gov.uk", detail: "Apply at gov.uk/skilled-worker-visa. Pay visa fee (varies by duration) + IHS (£1,035/year). Processing: 3–8 weeks. You can switch from Graduate Route to Skilled Worker while in the UK without leaving." },
@@ -1479,7 +1481,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
       ],
       visitor: [
         { step: "4–6 weeks before travel", title: "Gather documents — employment letter, bank statements, and itinerary", detail: "Get your employment letter from HR (on company letterhead, with your salary, leave approval, and return-to-work date). Prepare 3–6 months of personal bank statements. Draft your travel itinerary (hotels, activities, dates). If visiting family or friends, ask them to write an invitation letter and attach their UK status document (BRP, passport photo page, or leave to remain)." },
-        { step: "4–5 weeks before travel", title: "Apply online at gov.uk/standard-visitor-visa", detail: "Complete the application online. Fee: £115. Be specific about your accommodation, who you are visiting, your purpose, and your return date. Upload all documents. After submitting, the system gives you a reference number and instructions to book your biometrics appointment at TLScontact." },
+        { step: "4–5 weeks before travel", title: "Apply online at gov.uk/standard-visitor-visa", detail: "Complete the application online. Fee: £135. Be specific about your accommodation, who you are visiting, your purpose, and your return date. Upload all documents. After submitting, the system gives you a reference number and instructions to book your biometrics appointment at TLScontact." },
         { step: "3–4 weeks before travel", title: "Attend TLScontact appointment for biometrics", detail: "Book your appointment at tlscontact.com/gb/lg/en/ (Lagos) or the Abuja TLScontact centre. Bring your passport, appointment letter, and document copies. Biometrics (fingerprints and photo) are taken at the appointment. Standard processing after biometrics: approximately 3 weeks." },
         { step: "After applying", title: "Do not book non-refundable flights until visa is approved", detail: "Processing is typically 3 weeks but can vary. If you need to travel sooner, consider priority service (£250 extra, approximately 5 working days). Only book flights after you have your visa stamped in your passport and returned via TLScontact or courier." },
         { step: "At UK border control", title: "Be prepared to answer questions clearly", detail: "The UK border officer will ask about your visit purpose, where you are staying, who you are visiting, how much money you have access to, and when you are returning to Nigeria. Have your return flight booking visible on your phone or printed. Answer clearly and consistently with what you stated in your application." },
@@ -1490,7 +1492,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
       undergrad: [
         { title: "IELTS for UKVI and regular IELTS are different — Nigerians get this wrong constantly", body: "When booking your test, you must specifically select 'IELTS Academic for UKVI' — not 'IELTS Academic'. They are run by the same organisations (British Council, IDP) but the UKVI version is taken at designated UKVI centres and the certificate specifically states it is for UKVI. A regular IELTS Academic certificate will be rejected for your UK Student Visa application. This mistake has caused many Nigerians to miss their intake. Check twice when booking." },
         { title: "The 28-day bank statement rule is strictly enforced", body: "Your funds must appear in your bank account for 28 consecutive days before your visa application date. If NGN 15 million was deposited 2 weeks ago, your application will likely be refused. If your sponsor (parent, relative) is providing the funds, you need their bank statements too, plus a signed sponsor letter. Plan your finances at least 6–8 weeks before you intend to apply." },
-        { title: "Living outside London saves you roughly 30% on living costs — and many programs are just as good", body: "London maintenance funds requirement is £1,483/month. Outside London: £1,136/month. That is 23% less per month. Over 3 years of an undergraduate degree, this difference is substantial. University of Manchester, University of Birmingham, University of Nottingham, University of Leeds, and University of Edinburgh all have large Nigerian communities and are globally ranked. Unless your program is specifically London-based, consider this carefully." },
+        { title: "Living outside London saves you roughly 30% on living costs — and many programs are just as good", body: "London maintenance funds requirement is £1,529/month. Outside London: £1,171/month. That is 23% less per month. Over 3 years of an undergraduate degree, this difference is substantial. University of Manchester, University of Birmingham, University of Nottingham, University of Leeds, and University of Edinburgh all have large Nigerian communities and are globally ranked. Unless your program is specifically London-based, consider this carefully." },
         { title: "The UCAS personal statement is used for all 5 universities — write it for the subject not the school", body: "Your one personal statement goes to all 5 universities you choose. You cannot write a different statement for each. This means you cannot say 'I chose Manchester because...' — it would be read by Leeds, Edinburgh, and others too. Write about why you love this subject, what sparked your interest, what relevant experience you have (Nigerian secondary school activities, competitions, work), and what you want to do with the degree." },
       ],
       masters: [
@@ -1595,27 +1597,27 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
     overview: "Sweden is one of Europe's most underrated destinations for Nigerians. It offers a very high standard of living, excellent universities, and a genuine commitment to equality and work-life balance. The Swedish Institute Scholarship is one of the most generous fully-funded scholarships for Nigerians for Masters programs. For PhD students: a Swedish PhD is a salaried employment position with full benefits. The main challenges are the high cost of living and the importance of learning Swedish for life outside an international tech bubble.",
 
     stats: {
-      undergrad:  { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,584–12,000/month (Migrationsverket 2025 figure)", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "5.5–6.5 or university equivalent", currency: "SEK" },
-      masters:    { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,584–12,000/month", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "6.0–6.5 or university equivalent", currency: "SEK" },
+      undergrad:  { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,656–12,000/month (Migrationsverket 2026 figure)", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "5.5–6.5 or university equivalent", currency: "SEK" },
+      masters:    { tuition: "SEK 80,000–200,000/yr", living: "SEK 10,656–12,000/month", processing: "4–8 weeks", acceptance: "Varies by program", minIELTS: "6.0–6.5 or university equivalent", currency: "SEK" },
       phd:        { tuition: "FREE — PhD is salaried employment", living: "SEK 25,000–35,000/month (your salary)", processing: "4–8 weeks", acceptance: "Very competitive", minIELTS: "Set by program", currency: "SEK" },
       work:       { salary: "SEK 35,000–65,000/month", processing: "4–8 weeks", pathway: "Swedish Work Permit / EU Blue Card", minIELTS: "Not required for permit — employer may test", currency: "SEK" },
-      visitor:    { fee: "€80 Schengen visa fee (~₦140,000)", processing: "15 calendar days (standard)", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
+      visitor:    { fee: "€90 Schengen visa fee", processing: "15 calendar days (standard)", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
     },
 
     summary: {
       undergrad: {
-        intro: "Swedish undergraduate applications all go through one government portal — universityadmissions.se. There is no other way. Sweden does not issue a student visa — it issues a Residence Permit from the Migration Agency (Migrationsverket). The application window opens October 15 and closes January 15 for autumn start. Tuition is SEK 80,000–200,000/year and you need to prove you have SEK 10,584 per month of your study period (2025 figure).",
+        intro: "Swedish undergraduate applications all go through one government portal — universityadmissions.se. There is no other way. Sweden does not issue a student visa — it issues a Residence Permit from the Migration Agency (Migrationsverket). The application window opens October 15 and closes January 15 for autumn start. Tuition is SEK 80,000–200,000/year and you need to prove you have SEK 10,656 per month of your study period (2026 figure).",
         firstSteps: [
           { action: "Apply at universityadmissions.se between October 15 and January 15", detail: "The ONLY portal for international applications. Create your account, select up to 4 programs, upload your documents (transcripts, English test result, personal letter if required), pay the SEK 900 application fee. Any agent charging to 'apply directly' to a Swedish university is using this same free portal." },
           { action: "Prepare your English proof — check each program's specific requirement", detail: "Many Swedish programs accept IELTS Academic (5.5–6.5), TOEFL, or a letter from your Nigerian university confirming English as medium of instruction — but this varies. Check each specific program page. The Migration Agency does NOT require a language test for the Residence Permit itself." },
           { action: "Wait for admission results in April — then immediately apply for your Residence Permit", detail: "Log into universityadmissions.se to see results. If admitted, accept your place and pay your deposit. Then immediately apply for your Residence Permit at migrationsverket.se — do not delay." },
-          { action: "Apply for Residence Permit at migrationsverket.se with proof of funds", detail: "Upload: admission letter, passport, proof of funds (SEK 10,584 × months of study — for a 3-year degree: ~SEK 381,024), paid tuition deposit receipt, health insurance proof. Processing: 4–8 weeks." },
+          { action: "Apply for Residence Permit at migrationsverket.se with proof of funds", detail: "Upload: admission letter, passport, proof of funds (SEK 10,656 × months of study — for a 3-year degree: ~SEK 383,616), paid tuition deposit receipt, health insurance proof. Processing: 4–8 weeks." },
           { action: "Arrive in Sweden — register at Skatteverket within your first week", detail: "Your personnummer (Swedish personal identity number) is everything. Without it you cannot open a bank account, get a phone plan, or access most services. Go to the nearest Skatteverket office immediately on arrival." },
         ],
         keyFacts: [
           "Application window: October 15 to January 15 — there are no extensions",
           "You can apply to up to 4 programs at universityadmissions.se (SEK 900 fee)",
-          "Funds required: SEK 10,584/month × months of study (2025 figure — verify at migrationsverket.se annually)",
+          "Funds required: SEK 10,656/month × months of study (2026 figure — verify at migrationsverket.se annually)",
           "You are allowed to work with no hour limit while studying in Sweden",
           "Your personnummer from Skatteverket is the most important document you will get in Sweden",
         ],
@@ -1627,13 +1629,13 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
           { action: "Apply at universityadmissions.se by January 15 — and check si.se for the SI Scholarship at the same time", detail: "Both actions happen in the same window. Apply to up to 4 programs at universityadmissions.se (SEK 900 fee, deadline January 15). The SI Scholarship portal typically opens in February — but your universityadmissions.se application must already exist since the scholarship links to your program choices. Go to si.se in October to check the current cycle timeline." },
           { action: "Check English requirements for each specific program", detail: "Most programs accept IELTS Academic 6.0–6.5, TOEFL, or in many cases a letter from your Nigerian university confirming English medium of instruction. Check each program page individually — requirements vary even within the same university." },
           { action: "Wait for admission results in April — SI Scholarship results come May–June", detail: "Log into universityadmissions.se. If admitted, accept your place and pay your deposit. If you receive the SI Scholarship, it satisfies the financial requirement for your Residence Permit entirely." },
-          { action: "Apply for Residence Permit at migrationsverket.se", detail: "Apply immediately after your admission letter. With SI Scholarship: your scholarship letter covers the financial requirement. Without scholarship: show SEK 10,584/month × study months (~SEK 253,728 for a 2-year program). Upload admission letter, passport, and financial proof." },
+          { action: "Apply for Residence Permit at migrationsverket.se", detail: "Apply immediately after your admission letter. With SI Scholarship: your scholarship letter covers the financial requirement. Without scholarship: show SEK 10,656/month × study months (~SEK 255,744 for a 2-year program). Upload admission letter, passport, and financial proof." },
           { action: "Arrive in Sweden — register at Skatteverket immediately for your personnummer", detail: "Do this within your first week before anything else. Bring passport and Residence Permit. Without personnummer, you cannot open a bank account, get a SIM card, or access most services." },
         ],
         keyFacts: [
           "SI Scholarship covers full tuition + SEK 11,000/month + travel + health insurance — Nigerians win this every year",
           "Application window: October 15 – January 15 (SI Scholarship portal opens February)",
-          "Funds without scholarship: SEK 10,584/month × study months (2025 figure)",
+          "Funds without scholarship: SEK 10,656/month × study months (2025 figure)",
           "After graduating: apply for 12-month job-seeking permit; need SEK 13,000/month in savings",
           "You can work with no hour limit while studying — helps offset Sweden's high cost of living",
         ],
@@ -1658,7 +1660,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         outcome: "PhD employment contract → Residence Permit → 4 years → Permanent Residence → Swedish citizenship. Your spouse can also work in Sweden and your children attend school for free.",
       },
       work: {
-        intro: "Sweden's work permit is employer-driven: your employer sponsors the application, not you. The salary must meet the collective agreement minimum (~SEK 27,360/month — verify at migrationsverket.se). Stockholm has one of Europe's strongest tech ecosystems. Swedish is required for most jobs outside Stockholm's international companies, so job search should target firms with English-language work environments.",
+        intro: "Sweden's work permit is employer-driven: your employer sponsors the application, not you. The salary must be at least SEK 34,470/month — 90% of the Swedish median wage, since 16 June 2026 — and meet the collective agreement level (verify at migrationsverket.se). Stockholm has one of Europe's strongest tech ecosystems. Swedish is required for most jobs outside Stockholm's international companies, so job search should target firms with English-language work environments.",
         firstSteps: [
           { action: "Search for Swedish employers on LinkedIn — specifically targeting international companies in Stockholm", detail: "Spotify, Klarna, King, Ericsson, Volvo, ABB, and Saab all hire internationally. Set your LinkedIn location preference to Sweden. English is the working language at most Stockholm tech companies, so you can function without Swedish initially." },
           { action: "Also check arbetsformedlingen.se (Swedish Public Employment Service) and Blocket Jobb", detail: "arbetsformedlingen.se is the government employment service — free to use. For healthcare roles: Socialstyrelsen must validate your credentials first (6–12 months). Register your foreign degree at socialstyrelsen.se before applying to Swedish healthcare jobs." },
@@ -1667,7 +1669,7 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         ],
         keyFacts: [
           "Work permit is employer-sponsored — you cannot apply without a confirmed job offer",
-          "Minimum salary threshold: ~SEK 27,360/month (verify at migrationsverket.se — updated regularly)",
+          "Minimum salary threshold: SEK 34,470/month (90% of median wage, from 16 June 2026 — verify at migrationsverket.se)",
           "EU Blue Card: for degrees + salary above SEK 49,875/month — faster processing and EU mobility",
           "Healthcare workers: foreign credentials must be validated by Socialstyrelsen first (6–12 months)",
           "After 4 years of continuous residence: Permanent Residence. Sweden allows dual citizenship.",
@@ -1675,11 +1677,11 @@ Your Skilled Worker Visa is typically granted for up to 5 years. You can change 
         outcome: "Work Permit (employer applies) → annual renewal → 4 years continuous residence → Permanent Residence → Swedish citizenship. Sweden allows dual nationality.",
       },
       visitor: {
-        intro: "Sweden is a Schengen Area country. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit Sweden. This single visa lets you travel across all 26 Schengen countries for up to 90 days in any 180-day period. You apply through the Swedish embassy or consulate (or in Nigeria, through VFS Global on behalf of Sweden). The visa fee is €80. Sweden processes most visitor visas within 15 calendar days.",
+        intro: "Sweden is a Schengen Area country. Nigerian passport holders need a Schengen short-stay visa (Type C) to visit Sweden. This single visa lets you travel across all 26 Schengen countries for up to 90 days in any 180-day period. You apply through the Swedish embassy or consulate (or in Nigeria, through VFS Global on behalf of Sweden). The visa fee is €90. Sweden processes most visitor visas within 15 calendar days.",
         firstSteps: [
           { action: "Determine where to apply — Sweden or another Schengen country", detail: "Apply at the embassy or consulate of the country you will spend the most time in. If visiting only Sweden, apply for a Swedish Schengen visa. If visiting Sweden and Germany equally, apply at whichever you enter first. In Nigeria, Sweden's Schengen applications go through the VFS Global centre. Lagos: 8 Elsie Femi Pearse Street, Victoria Island. Abuja: 16 Cairo Street, Wuse 2." },
           { action: "Prepare your financial evidence", detail: "The Schengen requirement is €100 per day of your stay, or evidence of a host/sponsor who will cover your costs. For a 14-day visit: approximately €1,400 in accessible funds. Your 3–6 months of bank statements should show stable, consistent funds — not recently deposited. If a Swedish host is covering your costs, include an invitation letter from them with their Swedish identification and residency status." },
-          { action: "Get a strong employment letter and submit your application at VFS", detail: "You need: valid Nigerian passport, completed Schengen visa application form, two recent passport photos (35x45mm, white background), bank statements, employment letter (company letterhead, signed by HR, confirming your role, salary, approved leave dates, and return to work), hotel or host invitation, travel insurance covering €30,000 minimum across all Schengen countries, return flight booking (can be refundable at this stage), and application fee €80 (approximately ₦140,000 at current rates)." },
+          { action: "Get a strong employment letter and submit your application at VFS", detail: "You need: valid Nigerian passport, completed Schengen visa application form, two recent passport photos (35x45mm, white background), bank statements, employment letter (company letterhead, signed by HR, confirming your role, salary, approved leave dates, and return to work), hotel or host invitation, travel insurance covering €30,000 minimum across all Schengen countries, return flight booking (can be refundable at this stage), and application fee €90." },
           { action: "Biometrics and document submission at VFS", detail: "Book your appointment at vfsglobal.com/sweden/nigeria. Bring originals and photocopies of all documents. Biometrics (fingerprints and photo) are taken at the appointment. Your passport is held by VFS until the visa is processed." },
         ],
         keyFacts: [
@@ -1713,7 +1715,7 @@ Results are published in April on universityadmissions.se. If admitted, you rece
 Apply online immediately after receiving your admission letter. Do not delay. You will upload:
 • Your admission letter from the Swedish university
 • Valid Nigerian passport (valid for the full duration of your studies)
-• Proof of funds: The Swedish Migration Agency requires you to show SEK 10,584 per month of your study period (2025 official figure — verify at migrationsverket.se as this is updated annually). For a 3-year bachelor's degree (36 months): SEK 381,024. For a shorter program, multiply by months.
+• Proof of funds: The Swedish Migration Agency requires you to show SEK 10,656 per month of your study period (2025 official figure — verify at migrationsverket.se as this is updated annually). For a 3-year bachelor's degree (36 months): SEK 381,024. For a shorter program, multiply by months.
 • Proof of paid tuition deposit (most universities require this)
 • Health insurance documentation (your university usually provides this or tells you what to get)
 
@@ -1742,7 +1744,7 @@ As a Residence Permit holder studying in Sweden, you are allowed to work with no
 
 **What studying in Sweden as an undergraduate actually involves**
 
-Sweden is one of Europe's most underrated study destinations for Nigerians. The universities are genuinely good — KTH Royal Institute of Technology, Lund University, Stockholm University, Uppsala University, and Chalmers are internationally respected. Programs are taught in English across engineering, technology, natural sciences, business, and social sciences. The country is safe, organised, and the quality of life is high. The main challenges are the high cost of living (Stockholm is expensive — SEK 10,584/month minimum is the government's own figure) and tuition costs for non-EU students (SEK 80,000–200,000/year depending on program and university). There are no government-funded tuition waivers for undergraduates from outside the EU, unlike for PhD students.
+Sweden is one of Europe's most underrated study destinations for Nigerians. The universities are genuinely good — KTH Royal Institute of Technology, Lund University, Stockholm University, Uppsala University, and Chalmers are internationally respected. Programs are taught in English across engineering, technology, natural sciences, business, and social sciences. The country is safe, organised, and the quality of life is high. The main challenges are the high cost of living (Stockholm is expensive — SEK 10,656/month minimum is the government's own figure) and tuition costs for non-EU students (SEK 80,000–200,000/year depending on program and university). There are no government-funded tuition waivers for undergraduates from outside the EU, unlike for PhD students.
 
 The application process is centralised and completely free to navigate yourself — universityadmissions.se handles all international undergraduate applications and it is a government portal. Any Nigerian agent or consultant charging you to "apply to Swedish universities" is using this same free portal.
 
@@ -1768,7 +1770,7 @@ Admission results are published on universityadmissions.se in April. You log in 
 
 **Applying for your Residence Permit at migrationsverket.se**
 
-Apply immediately after receiving your admission letter — do not delay. Apply online at migrationsverket.se. You upload: your admission letter, your valid Nigerian passport (must be valid for the full length of your studies), proof of funds (SEK 10,584 per month of your study period — the 2025 official figure; for a 3-year bachelor's that is SEK 381,024; verify the current figure at migrationsverket.se each year as it is updated), your paid tuition deposit receipt, and health insurance documentation (your university usually specifies what they require or provides it automatically).
+Apply immediately after receiving your admission letter — do not delay. Apply online at migrationsverket.se. You upload: your admission letter, your valid Nigerian passport (must be valid for the full length of your studies), proof of funds (SEK 10,656 per month of your study period — the 2025 official figure; for a 3-year bachelor's that is SEK 381,024; verify the current figure at migrationsverket.se each year as it is updated), your paid tuition deposit receipt, and health insurance documentation (your university usually specifies what they require or provides it automatically).
 
 Processing: 4–8 weeks. Apply as soon as your admission letter arrives — do not wait until close to your start date.
 
@@ -1831,7 +1833,7 @@ Nigeria is an eligible country. Applications typically open in October and the S
 This scholarship is competitive but Nigerians win it every year. Apply regardless of whether you think you will get it.
 
 **Step 3 — Residence Permit at migrationsverket.se**
-Apply after receiving your admission letter. Funds requirement: SEK 10,584 per month × months of study (2025 figure). For a 2-year masters (24 months): SEK 253,728 approximately. If you have the SI Scholarship, your scholarship letter satisfies the financial requirement entirely.
+Apply after receiving your admission letter. Funds requirement: SEK 10,656 per month × months of study (2025 figure). For a 2-year masters (24 months): SEK 253,728 approximately. If you have the SI Scholarship, your scholarship letter satisfies the financial requirement entirely.
 
 **After graduation — staying in Sweden:**
 After completing your masters, you can apply for a "residence permit to look for work" — this gives you up to 12 months to find employment in Sweden. You must show SEK 13,000 per month in savings for each month of the permit. Apply at migrationsverket.se before your student permit expires.
@@ -1875,7 +1877,7 @@ Apply immediately after receiving your admission letter. Do not wait. Apply onli
 
 If you have the SI Scholarship: upload your scholarship award letter as your financial proof. The scholarship letter satisfies the requirement.
 
-If you do not have the scholarship: show SEK 10,584 per month × months of study. For a 2-year masters (24 months): approximately SEK 253,728. For a 1-year masters (12 months): approximately SEK 127,008. Verify the current monthly figure at migrationsverket.se — it is updated annually. These funds must be available in your account and demonstrably yours or from a sponsor.
+If you do not have the scholarship: show SEK 10,656 per month × months of study. For a 2-year masters (24 months): approximately SEK 253,728. For a 1-year masters (12 months): approximately SEK 127,008. Verify the current monthly figure at migrationsverket.se — it is updated annually. These funds must be available in your account and demonstrably yours or from a sponsor.
 
 Also upload: admission letter, valid Nigerian passport (valid for the full study duration), paid tuition deposit receipt, health insurance documentation.
 
@@ -1895,7 +1897,7 @@ You are allowed to work with no hour limit while studying on a student Residence
 
 Before your Residence Permit expires, apply for a residence permit to look for work at migrationsverket.se. You get up to 12 months to find a Swedish employer. You must show SEK 13,000/month in savings for each month of the permit. Apply before your student permit expires — do not let it lapse.
 
-Once you have a job offer, your employer submits a Work Permit application on your behalf. The salary must meet the collective agreement minimum for the occupation — approximately SEK 27,360/month in 2025, but verify at migrationsverket.se. Work permits are approved in 4–8 weeks. After 4 years of total continuous legal residence in Sweden, apply for Permanent Residence at migrationsverket.se. Sweden allows dual nationality — you keep your Nigerian passport.`,
+Once you have a job offer, your employer submits a Work Permit application on your behalf. The salary must meet the collective agreement minimum for the occupation — approximately SEK 34,470/month in 2025, but verify at migrationsverket.se. Work permits are approved in 4–8 weeks. After 4 years of total continuous legal residence in Sweden, apply for Permanent Residence at migrationsverket.se. Sweden allows dual nationality — you keep your Nigerian passport.`,
 
       phd: `**PhD in Sweden — A Salaried Job, Not a Study Program**
 
@@ -2002,7 +2004,7 @@ Network within your department and across your university. The professional netw
 **Work Permit**
 To work in Sweden as a non-EU/EEA citizen, you need a Work Permit (Arbetstillstånd). The Swedish system is employer-driven:
 • Your employer finds you and offers you a job
-• The salary must meet the collective agreement minimum for that occupation — currently at least SEK 27,360/month (verify at migrationsverket.se as this is updated regularly)
+• The salary must meet the collective agreement minimum for that occupation — currently at least SEK 34,470/month (verify at migrationsverket.se as this is updated regularly)
 • Your employer must have advertised the position to EU/EEA workers first (under Swedish law)
 • Your employer submits the work permit application on your behalf through migrationsverket.se — you cannot apply without a confirmed job offer
 
@@ -2033,7 +2035,7 @@ Your spouse can come on a dependant Residence Permit and is permitted to work. C
 
 **The fundamental rule — your employer applies, not you**
 
-Sweden's work permit system is entirely employer-driven. You cannot apply for a Swedish work permit by yourself. Your employer applies on your behalf through migrationsverket.se after you have a confirmed job offer. Before the employer can apply, three conditions must all be met: the job must have been advertised to EU/EEA workers first (this is a Swedish legal requirement your employer handles), the salary must meet the collective agreement minimum for the occupation (approximately SEK 27,360/month in 2025 — verify at migrationsverket.se as this is updated regularly), and you must have a confirmed job offer in writing.
+Sweden's work permit system is entirely employer-driven. You cannot apply for a Swedish work permit by yourself. Your employer applies on your behalf through migrationsverket.se after you have a confirmed job offer. Before the employer can apply, three conditions must all be met: the job must have been advertised to EU/EEA workers first (this is a Swedish legal requirement your employer handles), the salary must meet the collective agreement minimum for the occupation (approximately SEK 34,470/month in 2025 — verify at migrationsverket.se as this is updated regularly), and you must have a confirmed job offer in writing.
 
 This means the most important thing you can do is secure a job offer. Everything else follows from that.
 
@@ -2096,7 +2098,7 @@ Book your appointment at vfsglobal.com/sweden/nigeria.
 
 **Application fee**
 
-€80 — paid at the VFS centre or online depending on the process. At current exchange rates, approximately ₦140,000–150,000. Additional VFS service fees apply (approximately ₦10,000–15,000 extra). Check the VFS website for current charges.
+€90 — paid at the VFS centre or online depending on the process. At July 2026 exchange rates this is roughly ₦143,000 (Swedish Embassy Abuja fee sheet). Additional VFS service fees apply (approximately ₦10,000–15,000 extra). Check the VFS website for current charges.
 
 **Documents required**
 
@@ -2132,17 +2134,17 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
         { step: "October 15 — January 15", title: "Apply at universityadmissions.se", detail: "This is the ONLY portal for international undergraduate applications. Create your account, select up to 4 programs, upload your documents (transcripts, English test results, personal letter if required by the program), and pay the SEK 900 application fee. Do not miss January 15 — there are no extensions." },
         { step: "January–March", title: "Upload and verify supporting documents", detail: "You have a deadline to upload certified transcripts and English proof. Transcripts from Nigerian universities should be official — stamped and signed by your registrar. Upload through the universityadmissions.se document portal. Check your account regularly to confirm documents are received and accepted." },
         { step: "April", title: "Admission results published", detail: "Log into universityadmissions.se to see your results. If admitted, you receive an official admission letter. Accept your place immediately and pay your tuition deposit. Spots do not hold indefinitely." },
-        { step: "April–May", title: "Apply for Residence Permit at migrationsverket.se", detail: "Apply online immediately after receiving your admission letter. Upload: admission letter, passport, proof of funds (SEK 10,584/month × months of study — 2025 figure, verify at migrationsverket.se), health insurance, and paid tuition deposit receipt." },
+        { step: "April–May", title: "Apply for Residence Permit at migrationsverket.se", detail: "Apply online immediately after receiving your admission letter. Upload: admission letter, passport, proof of funds (SEK 10,656/month × months of study — 2025 figure, verify at migrationsverket.se), health insurance, and paid tuition deposit receipt." },
         { step: "June–July", title: "Residence Permit decision", detail: "Most decisions arrive within 4–8 weeks. You receive a decision letter. Your biometric Residence Permit card is ready when you arrive in Sweden — it is mailed to you or collected at a Migration Agency office." },
         { step: "First week in Sweden", title: "Register at Skatteverket (Swedish Tax Agency) for your personnummer", detail: "Your personnummer (Swedish personal identity number) is the single most important document you will get in Sweden. Without it, you cannot open a bank account, get a phone plan, access healthcare, or use most Swedish services. Go to your nearest Skatteverket office within your first week. Bring your passport and Residence Permit. The number is issued on the spot or within a few days." },
       ],
       masters: [
         { step: "October–January 15", title: "Apply at universityadmissions.se AND check si.se for SI Scholarship", detail: "Both actions happen in this window. Apply to up to 4 programs at universityadmissions.se (deadline January 15, SEK 900 fee). Simultaneously check si.se for the current SI Scholarship timeline — the scholarship portal typically opens in February but your universityadmissions.se application must already be submitted first since the scholarship links to your program choices." },
         { step: "April", title: "Admission results — check universityadmissions.se", detail: "Log in to see your results. Swedish Institute Scholarship results come separately in May–June. If admitted, accept your place and pay your deposit." },
-        { step: "April–May", title: "Apply for Residence Permit at migrationsverket.se", detail: "Apply immediately after receiving your admission letter. If you receive the SI Scholarship, your scholarship letter satisfies the financial requirement. Without the scholarship: show SEK 10,584/month × study months (2025 figure) in your bank account." },
+        { step: "April–May", title: "Apply for Residence Permit at migrationsverket.se", detail: "Apply immediately after receiving your admission letter. If you receive the SI Scholarship, your scholarship letter satisfies the financial requirement. Without the scholarship: show SEK 10,656/month × study months (2025 figure) in your bank account." },
         { step: "First week in Sweden", title: "Register at Skatteverket for personnummer", detail: "Do this within your first week — before anything else. Bring your passport and Residence Permit. Without your personnummer, you cannot open a bank account, get a Swedish SIM plan, or access most services." },
         { step: "After graduating", title: "Apply for job-seeking permit at migrationsverket.se", detail: "Before your Residence Permit expires, apply for a 'residence permit to look for work.' This gives you up to 12 months to find a Swedish employer. You need to show SEK 13,000 in savings per month of the permit. Apply at migrationsverket.se." },
-        { step: "Job found — work permit", title: "Employer submits Work Permit application at migrationsverket.se", detail: "Once you have a job offer, your employer submits the Work Permit application. Salary must meet collective agreement minimum (approximately SEK 27,360/month — verify at migrationsverket.se). Processing: 4–8 weeks. Once approved, your permit is renewed annually, then after 4 years of total continuous residence you can apply for permanent residence." },
+        { step: "Job found — work permit", title: "Employer submits Work Permit application at migrationsverket.se", detail: "Once you have a job offer, your employer submits the Work Permit application. Salary must meet collective agreement minimum (approximately SEK 34,470/month — verify at migrationsverket.se). Processing: 4–8 weeks. Once approved, your permit is renewed annually, then after 4 years of total continuous residence you can apply for permanent residence." },
       ],
       phd: [
         { step: "Ongoing throughout the year", title: "Monitor PhD job boards weekly — there is no single application season", detail: "Swedish PhD positions open throughout the year, not in a single season. Set weekly email alerts on academicpositions.com, varbi.com, and ki.se/en/about/jobs-at-ki (for Karolinska). Check each target university's career page directly. Positions are competitive and typically receive 50–200 applications." },
@@ -2155,14 +2157,14 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
       work: [
         { step: "Before job search", title: "Be honest about Swedish language requirement", detail: "Most jobs in Sweden outside Stockholm tech require Swedish. English-language jobs exist primarily in: Stockholm tech companies (international firms), certain finance roles, some academic positions, and international organisations. If you do not speak Swedish, focus your search specifically on these environments — and enrol in SFI as soon as you have your personnummer." },
         { step: "Job search", title: "Use Swedish job platforms — LinkedIn alone is not enough", detail: "LinkedIn is important for international tech roles. For broader search: arbetsformedlingen.se (official Swedish employment service), Blocket Jobb (blocket.se/jobb), Monster Sweden, and company career pages directly. For Stockholm tech startups specifically, also search Breakit.se and Techcrunch Stockholm listings." },
-        { step: "Job offer received", title: "Employer submits Work Permit at migrationsverket.se", detail: "Your employer submits the application — you do not apply independently. The employer confirms your salary meets collective agreement minimums (approximately SEK 27,360/month — verify at migrationsverket.se). Processing: 4–8 weeks." },
+        { step: "Job offer received", title: "Employer submits Work Permit at migrationsverket.se", detail: "Your employer submits the application — you do not apply independently. The employer confirms your salary meets collective agreement minimums (approximately SEK 34,470/month — verify at migrationsverket.se). Processing: 4–8 weeks." },
         { step: "Permit approved — arrive in Sweden", title: "Register at Skatteverket for personnummer immediately", detail: "Your first priority after arriving. Bring your passport and Residence Permit. Personnummer unlocks: bank account (Swedbank or Handelsbanken are easiest for new arrivals), BankID (Swedish digital identity for banking and all government services), SIM plan, healthcare, library card, gym membership." },
         { step: "4 years of continuous residence", title: "Apply for Permanent Residence at migrationsverket.se", detail: "Work permits are renewed annually. After 4 years of continuous legal residence in Sweden, you qualify for permanent residence (PUT). Apply at migrationsverket.se. After 5 years total, apply for Swedish citizenship. Sweden allows dual nationality." },
       ],
       visitor: [
         { step: "6–8 weeks before travel", title: "Gather all documents — start with financial evidence and employment letter", detail: "Prepare 3–6 months of personal bank statements (roughly €100/day minimum as a guideline). Get your employment letter from HR on company letterhead: your name, role, salary, approved leave dates, and return to work confirmation. Book hotel or confirm your Swedish host's details. Get refundable flight bookings for your itinerary." },
         { step: "5–6 weeks before travel", title: "Book your VFS Global appointment in Lagos or Abuja", detail: "Go to vfsglobal.com/sweden/nigeria and book your biometrics appointment. Book as early as possible — slots can fill up. At the appointment you will submit your documents and give biometrics. Your passport is held by VFS until the visa is processed." },
-        { step: "At your VFS appointment", title: "Submit documents including mandatory travel insurance", detail: "Bring: passport, application form, 2 passport photos, bank statements, employment letter, hotel bookings or host invitation, travel itinerary, return flight booking, and travel insurance (minimum €30,000 Schengen coverage, valid for your entire trip). VFS charges a separate service fee on top of the €80 visa fee." },
+        { step: "At your VFS appointment", title: "Submit documents including mandatory travel insurance", detail: "Bring: passport, application form, 2 passport photos, bank statements, employment letter, hotel bookings or host invitation, travel itinerary, return flight booking, and travel insurance (minimum €30,000 Schengen coverage, valid for your entire trip). VFS charges a separate service fee on top of the €90 visa fee." },
         { step: "15 calendar days later (standard)", title: "Visa decision — do not book non-refundable travel until this point", detail: "Standard processing is 15 calendar days but can extend to 30 or 45 in busy periods. Once your passport is returned with a visa sticker, book your flights. The visa sticker shows the valid period, number of entries (single/multiple), and maximum stay." },
         { step: "In Sweden", title: "Register your arrival if staying more than 90 days is ever your goal", detail: "For a short visit, you need no registration. Simply travel, enjoy, and leave before your 90 days expire. Remember the 90/180 rule applies across all Schengen countries — if you visited Germany last month, those days count against your 90-day allowance for the 180-day window." },
       ],
@@ -2172,7 +2174,7 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
       undergrad: [
         { title: "universityadmissions.se is completely free — do not pay anyone to apply for you", body: "There are consultants and websites in Nigeria that charge thousands of naira or dollars to 'apply to Swedish universities' on your behalf. They use the exact same free portal you can use yourself: universityadmissions.se. Create your own account, upload your own documents, and pay only the official SEK 900 application fee directly to the portal. Save your money." },
         { title: "Your personnummer from Skatteverket is the most important document you will get in Sweden", body: "Register at Skatteverket within your first week of arriving. Bring your passport and Residence Permit card. The personnummer unlocks everything: bank account, SIM phone plan, healthcare, gym, library. Without it you are effectively offline in Sweden. Do not delay this step — some services require it within the first month or things become difficult." },
-        { title: "SEK 10,584/month is the minimum — budget more for Stockholm", body: "The Migrationsverket minimum is SEK 10,584/month (2025 figure — verify at migrationsverket.se). Stockholm is expensive — budget SEK 12,000–14,000/month for a comfortable life there. Cities like Lund, Linköping, Örebro, and Umeå are significantly cheaper at SEK 9,000–11,000/month. University-managed student housing is much cheaper than private renting — apply for it the same day you accept your admission." },
+        { title: "SEK 10,656/month is the minimum — budget more for Stockholm", body: "The Migrationsverket minimum is SEK 10,656/month (2025 figure — verify at migrationsverket.se). Stockholm is expensive — budget SEK 12,000–14,000/month for a comfortable life there. Cities like Lund, Linköping, Örebro, and Umeå are significantly cheaper at SEK 9,000–11,000/month. University-managed student housing is much cheaper than private renting — apply for it the same day you accept your admission." },
         { title: "Swedish culture is reserved, not unfriendly — understand the difference", body: "Swedes do not start conversations with strangers as naturally as Nigerians do. This is cultural, not personal. Relationships in Sweden develop slowly and through structured activities — sports teams, study groups, choirs, student associations. The Nigerian or African student association at your university is your fastest connection point. Once Swedes become your friends, they are genuinely loyal. Do not mistake quietness for rejection." },
         { title: "SFI (Swedish for Immigrants) is completely free — start immediately", body: "Once you have your personnummer, enrol at your nearest municipal adult education centre (komvux) for SFI classes. These are free, run by the local government, and are available at multiple proficiency levels. Swedish language ability dramatically improves your daily life, social connections, and employment options in Sweden. Even if your degree program is entirely in English, start Swedish classes." },
       ],
@@ -2279,22 +2281,22 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
       masters:    { tuition: "€0 (public unis) + €200–400/semester contribution", living: "€750–1,100/month", processing: "6–10 weeks", acceptance: "Varies by program", minIELTS: "IELTS 6.0–7.0 (English programs)", currency: "EUR" },
       phd:        { tuition: "FREE — often salaried (TVöD scale)", living: "€1,200–2,000/month (salary or stipend)", processing: "6–10 weeks", acceptance: "Very competitive", minIELTS: "Set by supervisor", currency: "EUR" },
       work:       { salary: "€35,000–70,000/yr", processing: "1–3 months", pathway: "EU Blue Card / Skilled Worker Visa", minIELTS: "B1–B2 German or English role", currency: "EUR" },
-      visitor:    { fee: "€80 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
+      visitor:    { fee: "€90 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
     },
 
     summary: {
       undergrad: {
-        intro: "German public universities charge no tuition for international students — including Nigerians. You pay only a semester contribution of €200–400 which usually includes a public transport pass. Most undergraduate programs are taught in German, so the main requirement before applying is reaching German B2 or C1 level. The process runs through a portal called uni-assist, and you must open a blocked account (Sperrkonto) of €11,208 before your visa is issued.",
+        intro: "German public universities charge no tuition for international students — including Nigerians. You pay only a semester contribution of €200–400 which usually includes a public transport pass. Most undergraduate programs are taught in German, so the main requirement before applying is reaching German B2 or C1 level. The process runs through a portal called uni-assist, and you must open a blocked account (Sperrkonto) of €11,904 before your visa is issued.",
         firstSteps: [
           { action: "Start learning German immediately — B2 is the minimum, C1 is better", detail: "Most German undergraduate programs require B2 or C1 level German. This takes 6–12 months of consistent study. Enrol at Goethe-Institut Lagos (Goethe-Institut Nigeria, House 10, Udi Close, off Bowery Crescent, Victoria Island) or study online via DeutschAkademie, Lingoda, or Deutsche Welle's free courses at dw.com/en/learn-german. The TestDaF or DSH exam is what universities require — take it after B2." },
           { action: "Research programs at hochschulstart.de, daad.de, and each university's own site", detail: "Use the DAAD database at daad.de/en/study-and-research-in-germany/studying-in-germany/study-search to find English and German-taught programs. Public universities are free — private universities charge fees. Shortlist 5–8 programs. Check each university's specific requirements: some use uni-assist, others have their own portals." },
           { action: "Apply through uni-assist (most public universities use this)", detail: "uni-assist.de is the central application portal for most German public universities. Create an account, submit your documents (secondary school certificate, transcripts, German or English test result, passport). Pay the uni-assist fee (€75 for the first university, €30 for each additional). Some universities like TU Munich and LMU have their own portals — check each school's admissions page." },
-          { action: "Open your blocked account (Sperrkonto) — €11,208", detail: "Once admitted, you must deposit €11,208 into a German blocked account before applying for your visa. This money is NOT lost — it is released to you in monthly payments of €934 after you arrive in Germany. Open with Deutsche Bank, Fintiba (fintiba.com), Expatrio (expatrio.com), or Coracle — all accept applications from Nigeria online. Takes 1–3 weeks. You receive a certificate to include in your visa application." },
+          { action: "Open your blocked account (Sperrkonto) — €11,904", detail: "Once admitted, you must deposit €11,904 into a German blocked account before applying for your visa. This money is NOT lost — it is released to you in monthly payments of €992 after you arrive in Germany. Open with Deutsche Bank, Fintiba (fintiba.com), Expatrio (expatrio.com), or Coracle — all accept applications from Nigeria online. Takes 1–3 weeks. You receive a certificate to include in your visa application." },
           { action: "Apply for a German Student Visa at the German Embassy Abuja or Consulate Lagos", detail: "Visa fee: €75. Documents: university admission letter, Sperrkonto certificate, German/English test results, valid passport, academic certificates (secondary and any university), financial evidence, health insurance for Germany. Book your appointment early — slots fill weeks in advance at the German Embassy (Nile House, 9 Alvan Ikoku Street, Maitama, Abuja) or German Consulate General Lagos." },
         ],
         keyFacts: [
           "Public university tuition is FREE — the €200–400 semester contribution covers admin and often a public transport pass",
-          "Blocked account (Sperrkonto): €11,208 deposited once, released to you at €934/month — it is savings, not a fee",
+          "Blocked account (Sperrkonto): €11,904 deposited once, released to you at €992/month — it is savings, not a fee",
           "Most undergraduate programs require German B2/C1 — plan 6–12 months of language study before applying",
           "Germany allows 120 full days or 240 half days of work per year alongside studies",
           "After graduation: 18-month job-seeking visa to find employment in Germany",
@@ -2302,19 +2304,19 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
         outcome: "German degree → 18-month job-seeking visa → EU Blue Card or Skilled Worker Visa → 21–33 months to permanent residence (fast-tracked if B1 German and integrated) → EU citizenship after 8 years (5 with special integration).",
       },
       masters: {
-        intro: "Germany has the largest number of English-taught masters programs in Europe outside the UK — and almost all of them are free at public universities. This is the most realistic path for Nigerians who want a German education without learning German first. You need IELTS 6.0–7.0, a strong bachelor's degree, and the €11,208 blocked account. After graduating, you get an 18-month job-seeking visa to find work in Germany's strong engineering, tech, and healthcare job market.",
+        intro: "Germany has the largest number of English-taught masters programs in Europe outside the UK — and almost all of them are free at public universities. This is the most realistic path for Nigerians who want a German education without learning German first. You need IELTS 6.0–7.0, a strong bachelor's degree, and the €11,904 blocked account. After graduating, you get an 18-month job-seeking visa to find work in Germany's strong engineering, tech, and healthcare job market.",
         firstSteps: [
           { action: "Search English-taught programs at daad.de/en — filter by English and Masters", detail: "The DAAD database lists all English-taught programs at German universities. Use daad.de/en/study-and-research-in-germany/studying-in-germany/study-search. Filter: language = English, degree = Masters. Top programs in engineering, computer science, business, and natural sciences are available at TU Munich, RWTH Aachen, TU Berlin, Heidelberg, and others. Read each program's specific admission requirements." },
           { action: "Take IELTS Academic — target 6.5 overall (most programs accept 6.0–7.0)", detail: "English-taught German programs typically accept IELTS Academic 6.0–7.0 depending on the program. Book at British Council or IDP in Lagos, Abuja, or Port Harcourt. Some programs also accept TOEFL iBT (target 80–100). Check each specific program's language requirement." },
           { action: "Apply directly through each university or via uni-assist", detail: "Some universities (TU Munich, LMU) have their own application portals. Most others use uni-assist.de. You will need: your bachelor's degree certificate and transcripts (with certified English or German translation), IELTS result, CV, motivation letter (1–2 pages explaining your background and why this program), and sometimes reference letters. Apply to 4–6 programs." },
-          { action: "Open your Sperrkonto — deposit €11,208", detail: "Use Fintiba, Expatrio, or Deutsche Bank. Apply online from Nigeria. Takes 1–3 weeks. Transfer €11,208 via international wire. You receive a certificate. The money is released to you in monthly instalments of €934 once you arrive and activate the account in Germany." },
+          { action: "Open your Sperrkonto — deposit €11,904", detail: "Use Fintiba, Expatrio, or Deutsche Bank. Apply online from Nigeria. Takes 1–3 weeks. Transfer €11,904 via international wire. You receive a certificate. The money is released to you in monthly instalments of €934 once you arrive and activate the account in Germany." },
           { action: "Apply for Student Visa at the German Embassy Abuja or Consulate Lagos — book early", detail: "Visa fee: €75. Book your appointment as soon as you have your admission letter — slots at the German Embassy fill 4–8 weeks in advance. Bring: admission letter, Sperrkonto certificate, IELTS result, bachelor's degree and transcripts (with certified translations), valid passport, biometric photo, health insurance proof." },
         ],
         keyFacts: [
           "Germany has 1,800+ English-taught masters programs at public universities — most are free",
-          "€11,208 Sperrkonto is refunded to you at €934/month — it is proof of funds, not a fee",
+          "€11,904 Sperrkonto is refunded to you at €992/month — it is proof of funds, not a fee",
           "After masters: 18-month job-seeking visa — you can legally stay and work (20 hours/week) while job hunting",
-          "EU Blue Card requires a job offer of €45,300/yr+ (€35,300 for shortage occupations — engineers, doctors, IT) — verify at bamf.de",
+          "EU Blue Card requires a job offer of €50,700/yr+ (€45,934 for shortage occupations — engineers, doctors, IT) — verify at bamf.de",
           "Germany has a critical shortage of engineers, software developers, nurses, and doctors — Nigerian professionals in these fields are in demand",
         ],
         outcome: "Masters graduation → 18-month job-seeking visa → EU Blue Card or Skilled Worker Visa → 21 months to permanent residence (with B1 German) → settled in the EU.",
@@ -2340,7 +2342,7 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
         intro: "Germany actively recruits skilled workers from outside the EU through the Skilled Worker Immigration Act (Fachkräfteeinwanderungsgesetz). Engineers, IT professionals, nurses, doctors, and tradespeople from Nigeria are among the profiles Germany specifically needs. You need either your Nigerian qualification recognised by anabin.kmk.org, or a German degree. The EU Blue Card is the fastest route for degree holders with a qualifying salary offer.",
         firstSteps: [
           { action: "Check if your Nigerian qualification is recognised using anabin.kmk.org", detail: "The anabin database lists Nigerian universities and degrees by recognition status: H+ (fully recognised), H (recognised with conditions), H- (not recognised). University of Lagos, Obafemi Awolowo, University of Nigeria Nsukka, Ahmadu Bello — most top Nigerian universities have H+ or H recognition. If your degree is listed H+, you can apply directly for the EU Blue Card. If H-, you may need an equivalency assessment from anabin." },
-          { action: "Get a job offer from a German employer paying at least €45,300/year (€35,300 for shortage occupations)", detail: "EU Blue Card salary thresholds: general = €45,300/year; shortage occupations (engineers, IT, doctors, nurses, scientists) = €35,300/year. Search: make-it-in-germany.com (official German government recruitment portal), LinkedIn Germany, StepStone.de, XING (Germany's main professional network). The job offer must be for a role matching your qualification level." },
+          { action: "Get a job offer from a German employer paying at least €50,700/year (€45,934 for shortage occupations)", detail: "EU Blue Card salary thresholds: general = €50,700/year; shortage occupations (engineers, IT, doctors, nurses, scientists) = €45,934/year. Search: make-it-in-germany.com (official German government recruitment portal), LinkedIn Germany, StepStone.de, XING (Germany's main professional network). The job offer must be for a role matching your qualification level." },
           { action: "Apply for EU Blue Card or Skilled Worker Visa at the German Embassy Abuja", detail: "EU Blue Card requires: job offer letter with salary confirmation, recognised degree certificate (or German degree), valid passport, biometric photos, proof of health insurance. Visa fee: €75. Processing: 4–8 weeks. You can also enter Germany on a 6-month job-seeking visa if you have a German degree or recognised qualification — then apply for the Blue Card from within Germany." },
           { action: "Arrive in Germany and register at your local Einwohnermeldeamt within 2 weeks", detail: "Registration (Anmeldung) at your local residents' registration office is mandatory within 14 days of arrival. Bring your passport and rental contract (Mietvertrag). You receive an Anmeldebestätigung (registration certificate). This triggers your tax ID (Steueridentifikationsnummer) being mailed to your registered address — essential for payroll." },
         ],
@@ -2359,7 +2361,7 @@ Previous US B1/B2 visa, UK Standard Visitor visa, or previous Schengen visas in 
           { action: "Book your appointment at the German Embassy (Abuja) or Consulate General (Lagos)", detail: "Lagos Consulate General: 15 Walter Carrington Crescent, Victoria Island. Abuja Embassy: Nile House, 9 Alvan Ikoku Street, Maitama, Abuja. Book online at the embassy's appointment portal (termine.diplo.de for Abuja). Slots fill fast — book 4–6 weeks before your planned travel date." },
           { action: "Gather your documents — employment letter and bank statements are the core", detail: "Employment letter on company letterhead: your name, role, salary, approved leave dates, return-to-work confirmation signed by HR. Bank statements: 3–6 months of stable funds — rough minimum €100/day of stay (€1,400 for 14 days). If a German host is sponsoring you, include their Verpflichtungserklärung (formal sponsorship declaration from the local German Ausländerbehörde) plus a copy of their German residence or citizenship document." },
           { action: "Buy Schengen travel insurance — mandatory", detail: "Minimum €30,000 coverage across all Schengen countries for the full duration of your trip. Buy from a reputable provider in Nigeria (AXA, Leadway, etc.) or through the embassy's recommended providers. The certificate must clearly state Schengen coverage with dates matching your travel." },
-          { action: "Submit your full application at your appointment", detail: "Bring: completed application form (filled at home from the embassy website), valid Nigerian passport (6 months validity beyond return date), 2 recent passport photos (35x45mm, white background), bank statements, employment letter, travel insurance certificate, hotel bookings or host invitation, return flight booking (refundable is fine), and visa fee €80. Biometrics are taken at the appointment." },
+          { action: "Submit your full application at your appointment", detail: "Bring: completed application form (filled at home from the embassy website), valid Nigerian passport (6 months validity beyond return date), 2 recent passport photos (35x45mm, white background), bank statements, employment letter, travel insurance certificate, hotel bookings or host invitation, return flight booking (refundable is fine), and visa fee €90. Biometrics are taken at the appointment." },
         ],
         keyFacts: [
           "German Embassy Abuja: Nile House, 9 Alvan Ikoku Street, Maitama — book at termine.diplo.de",
@@ -2411,9 +2413,9 @@ When a university admits you, they send a Zulassungsbescheid. This is your offic
 
 **Step 4 — Open your blocked account (Sperrkonto)**
 
-Before applying for your visa, you must deposit €11,208 into a German blocked account (Sperrkonto). This amount represents one year of living costs (€934/month × 12) as required by German immigration law.
+Before applying for your visa, you must deposit €11,904 into a German blocked account (Sperrkonto). This amount represents one year of living costs (€992/month × 12) as required by German immigration law.
 
-This is NOT a fee. The money stays in a German bank account in your name and is released to you in monthly payments of €934 once you arrive in Germany and activate the account.
+This is NOT a fee. The money stays in a German bank account in your name and is released to you in monthly payments of €992 once you arrive in Germany and activate the account.
 
 Where to open a Sperrkonto from Nigeria:
 • Fintiba (fintiba.com) — most popular among international students. Online process, takes about 1 week. Partners with Deutsche Bank.
@@ -2421,7 +2423,7 @@ Where to open a Sperrkonto from Nigeria:
 • Coracle (mycoracle.com) — another option.
 • Deutsche Bank (db.com) — more traditional process but works directly with the bank.
 
-Process: apply online, transfer €11,208 from Nigeria via SWIFT transfer, receive your Sperrkonto certificate. The certificate is what you submit with your visa application.
+Process: apply online, transfer €11,904 from Nigeria via SWIFT transfer, receive your Sperrkonto certificate. The certificate is what you submit with your visa application.
 
 **Step 5 — Get German health insurance**
 
@@ -2436,7 +2438,7 @@ Visa application fee: €75. Documents to bring:
 • Completed visa application form (download from the embassy website)
 • Biometric passport photograph (35x45mm, white background)
 • Admission letter (Zulassungsbescheid) from your German university
-• Sperrkonto certificate showing €11,208 blocked
+• Sperrkonto certificate showing €11,904 blocked
 • German language test result (TestDaF or DSH)
 • WAEC certificate and school transcripts (certified copies with certified translations into German if required — check embassy requirements)
 • Health insurance proof or coverage letter
@@ -2486,9 +2488,9 @@ Most German public universities for international students use uni-assist.de. Cr
 
 Universities with their own portals (not uni-assist): TU Munich uses apply.tum.de. LMU Munich uses lmu.de/en/study/all-degrees-and-programs/application-and-enrollment. Check before assuming uni-assist applies.
 
-**Step 4 — Open your Sperrkonto — €11,208**
+**Step 4 — Open your Sperrkonto — €11,904**
 
-Same process as undergraduate. Use Fintiba, Expatrio, or Coracle — all accept applications from Nigeria online. Transfer €11,208 via international wire transfer. Receive your Sperrkonto certificate within 1–3 weeks. This certificate is required for your visa application. The money is released back to you in monthly instalments of €934 after you arrive in Germany and activate the account.
+Same process as undergraduate. Use Fintiba, Expatrio, or Coracle — all accept applications from Nigeria online. Transfer €11,904 via international wire transfer. Receive your Sperrkonto certificate within 1–3 weeks. This certificate is required for your visa application. The money is released back to you in monthly instalments of €934 after you arrive in Germany and activate the account.
 
 **Step 5 — Apply for Student Visa**
 
@@ -2497,7 +2499,7 @@ Book your appointment at the German Embassy Abuja (termine.diplo.de) or the Germ
 Bring to your appointment:
 • Valid Nigerian passport
 • Admission letter from the German university
-• Sperrkonto certificate (€11,208 blocked)
+• Sperrkonto certificate (€11,904 blocked)
 • IELTS result (or TOEFL)
 • Bachelor's degree and transcripts (certified copies — German translation not typically required for English documents)
 • Health insurance (TK, AOK, or Barmer student coverage — arrange online before arriving)
@@ -2509,7 +2511,7 @@ Processing time: 4–8 weeks. Do not book flights until approved.
 
 **After arriving — 18-month job-seeking visa**
 
-After completing your masters in Germany, you automatically qualify for an 18-month job-seeking visa (Aufenthaltserlaubnis zur Arbeitssuche). You can stay in Germany legally for 18 months and work up to 20 hours per week while searching for a job that matches your qualification. Once you receive a qualifying job offer (EU Blue Card threshold: €45,300/year general, €35,300 for shortage occupations), apply for the EU Blue Card from within Germany. You do not need to return to Nigeria.`,
+After completing your masters in Germany, you automatically qualify for an 18-month job-seeking visa (Aufenthaltserlaubnis zur Arbeitssuche). You can stay in Germany legally for 18 months and work up to 20 hours per week while searching for a job that matches your qualification. Once you receive a qualifying job offer (EU Blue Card threshold: €50,700/year general, €45,934 for shortage occupations), apply for the EU Blue Card from within Germany. You do not need to return to Nigeria.`,
 
       phd: `**German PhD — Research Position or Stipend**
 
@@ -2592,8 +2594,8 @@ Specific sectors where Nigerians are in demand:
 **Step 3 — Get a job offer and apply for the EU Blue Card**
 
 EU Blue Card salary requirements (2024 — verify at bamf.de as these update):
-• General threshold: €45,300/year gross
-• Shortage occupations (IT, engineering, natural sciences, doctors, nurses): €35,300/year gross
+• General threshold: €50,700/year gross
+• Shortage occupations (IT, engineering, natural sciences, doctors, nurses): €45,934/year gross
 
 Your employer does not need to prove no German candidate was available (unlike the standard Skilled Worker Visa process for some roles) — the EU Blue Card is straightforward if you have a recognised degree and a qualifying salary offer.
 
@@ -2644,7 +2646,7 @@ If a German host is paying for your trip or hosting you, they can issue a Verpfl
 • Hotel bookings or signed host invitation letter — with host's German address and contact
 • Return flight booking (can be refundable at application stage)
 • If visiting family: invitation letter from your German-based relative, plus copy of their German residence card (Aufenthaltstitel) or German passport
-• Visa fee: €80
+• Visa fee: €90
 
 **Processing time**
 
@@ -2665,7 +2667,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         { step: "10–12 months before", title: "Research programs and shortlist 5–8 schools using daad.de", detail: "Use the DAAD database (daad.de) to identify programs matching your subject. Check each university's specific entry requirements: most public universities use uni-assist.de for applications, but some (TU Munich, LMU) have their own portals. Note application deadlines — typically July 15 for October start and January 15 for April start." },
         { step: "8–10 months before", title: "Sit TestDaF or DSH exam", detail: "Book your TestDaF exam at Goethe-Institut Lagos or an authorised test centre. TestDaF is offered several times per year — check prüfungstermine at testdaf.de. Results take approximately 6 weeks. Target TDN 4 in all four sections. Some programs accept Goethe-Zertifikat B2/C1 — check your specific program." },
         { step: "6–8 months before", title: "Apply through uni-assist or direct portals", detail: "Upload your documents to uni-assist.de (WAEC certificate, transcripts, German test result, passport copy). Pay the application fee: €75 for first university, €30 each additional. Apply to at least 5–6 programs. If applying to TU Munich or LMU, use their own portals separately." },
-        { step: "4–6 months before", title: "Receive admission letter and open Sperrkonto", detail: "Once admitted (Zulassungsbescheid), open your blocked account immediately. Use Fintiba, Expatrio, or Coracle — all work from Nigeria online. Transfer €11,208. Receive certificate within 1–3 weeks. This certificate is required for your visa." },
+        { step: "4–6 months before", title: "Receive admission letter and open Sperrkonto", detail: "Once admitted (Zulassungsbescheid), open your blocked account immediately. Use Fintiba, Expatrio, or Coracle — all work from Nigeria online. Transfer €11,904. Receive certificate within 1–3 weeks. This certificate is required for your visa." },
         { step: "3–4 months before", title: "Apply for Student Visa at German Embassy Abuja or Consulate Lagos", detail: "Book appointment at termine.diplo.de (Abuja) or consulate Lagos. Visa fee: €75. Bring: admission letter, Sperrkonto certificate, TestDaF/DSH result, WAEC and transcripts, passport, health insurance proof, accommodation confirmation, biometric photo. Processing: 4–8 weeks." },
         { step: "First two weeks in Germany", title: "Register at Einwohnermeldeamt and activate Sperrkonto", detail: "Register at your local residents' registration office within 14 days. Bring passport and rental/host address. Activate your Sperrkonto at Fintiba or your bank — monthly €934 payments begin immediately. Enrol at the university, pay semester contribution (€200–400), get your student ID and public transport pass." },
       ],
@@ -2673,7 +2675,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         { step: "9–12 months before start", title: "Identify English-taught programs at daad.de and take IELTS", detail: "Filter daad.de: Language = English, Degree = Masters. Shortlist 5–8 programs. Take IELTS Academic — target 6.5 overall. Some programs accept TOEFL iBT (80–100). Check each program's specific language requirement before booking your test." },
         { step: "7–9 months before", title: "Prepare motivation letter and application documents", detail: "Your motivation letter (1–2 pages) is the most important document. Name specific modules or professors from the program. Connect your undergraduate background to why this specific German program is the right next step. Get your degree certificate and all semester transcripts certified. If reference letters are required, give referees 6–8 weeks notice." },
         { step: "5–7 months before", title: "Apply through uni-assist or direct university portals", detail: "Deadlines: July 15 for October (winter semester) start, January 15 for April (summer semester) start. TU Munich uses apply.tum.de. Most others use uni-assist.de (€75 first application, €30 each additional). Apply to 4–6 programs." },
-        { step: "3–5 months before", title: "Receive admission and open Sperrkonto — €11,208", detail: "Open Sperrkonto at Fintiba, Expatrio, or Coracle from Nigeria. Transfer €11,208. Receive certificate within 1–3 weeks. Apply for Student Visa immediately — book appointment at German Embassy Abuja (termine.diplo.de) or Consulate Lagos." },
+        { step: "3–5 months before", title: "Receive admission and open Sperrkonto — €11,904", detail: "Open Sperrkonto at Fintiba, Expatrio, or Coracle from Nigeria. Transfer €11,904. Receive certificate within 1–3 weeks. Apply for Student Visa immediately — book appointment at German Embassy Abuja (termine.diplo.de) or Consulate Lagos." },
         { step: "2–3 months before", title: "Student Visa — bring all documents to your appointment", detail: "Visa fee: €75. Bring: admission letter, Sperrkonto certificate, IELTS result, degree + transcripts, health insurance proof, accommodation confirmation, biometric photo, completed application form. Processing: 4–8 weeks." },
         { step: "After graduation", title: "18-month job-seeking visa — stay and find work in Germany", detail: "Apply for Aufenthaltserlaubnis zur Arbeitssuche from within Germany before your Student Permit expires. This gives you 18 months to find a job matching your qualification. You can work up to 20 hours/week during this period. No need to return to Nigeria. Once you have a qualifying offer, apply for the EU Blue Card from within Germany." },
       ],
@@ -2687,7 +2689,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
       work: [
         { step: "Before job search", title: "Check anabin.kmk.org for your Nigerian degree's recognition status", detail: "Go to anabin.kmk.org and search your university and degree type. H+ means fully recognised — you can apply directly for EU Blue Card. H- means not recognised — apply for an equivalency assessment (takes 3–6 months) or consider entering on a 6-month Recognition Visa. This step determines your entire approach." },
         { step: "Job search", title: "Apply on make-it-in-germany.com, LinkedIn, StepStone, and XING", detail: "make-it-in-germany.com is the German government's own portal for international skilled workers — start here. LinkedIn is essential for tech and international companies. StepStone.de and XING cover the broader German job market including Mittelstand (mid-sized German companies). Update your CV to German/European format: 1–2 pages, no photo required but common, reverse chronological." },
-        { step: "Job offer received — confirm salary meets Blue Card threshold", title: "EU Blue Card: €45,300/yr general; €35,300/yr shortage occupations", detail: "Confirm your offer letter explicitly states your annual gross salary. EU Blue Card shortage occupations include: mathematics, computer science, natural sciences, engineering, IT (MINT professions), doctors. If you are in these fields, the threshold is €35,300/year. Verify current figures at bamf.de before applying." },
+        { step: "Job offer received — confirm salary meets Blue Card threshold", title: "EU Blue Card: €50,700/yr general; €45,934/yr shortage occupations", detail: "Confirm your offer letter explicitly states your annual gross salary. EU Blue Card shortage occupations include: mathematics, computer science, natural sciences, engineering, IT (MINT professions), doctors. If you are in these fields, the threshold is €45,934/year. Verify current figures at bamf.de before applying." },
         { step: "Apply for EU Blue Card visa at German Embassy Abuja or Consulate Lagos", title: "Visa fee €75 — processing 4–8 weeks", detail: "Documents: job offer letter with salary, recognised degree (anabin H+ or equivalency certificate), valid passport, health insurance proof (your employer provides this once you start), biometric photos. Book appointment early at termine.diplo.de (Abuja) or Consulate Lagos." },
         { step: "Arrive in Germany — first two weeks", title: "Anmeldung, tax ID, bank account, health insurance", detail: "Register at Einwohnermeldeamt within 14 days. Give your tax ID to your employer immediately. Open a bank account (N26 or DKB are easiest for new arrivals without an in-person appointment). Your employer registers you for statutory health insurance. Enrol in German language classes immediately — B1 reduces your PR wait from 33 months to 21 months." },
         { step: "21 months (with B1 German)", title: "Apply for permanent residence (Niederlassungserlaubnis)", detail: "After 21 months on EU Blue Card with B1 German, apply for permanent residence at your local Ausländerbehörde. You must show: B1 German certificate, 21 months of social security contributions, clean criminal record, and adequate income. After permanent residence, you can work anywhere in the EU and no longer need visa renewals." },
@@ -2696,7 +2698,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         { step: "6–8 weeks before travel", title: "Book appointment at German Embassy Abuja (termine.diplo.de) or Consulate Lagos", detail: "Book as early as possible — slots fill 4–6 weeks in advance. Abuja: termine.diplo.de/en. Lagos: Consulate General, 15 Walter Carrington Crescent, Victoria Island. Begin gathering your documents at the same time as booking." },
         { step: "5–6 weeks before", title: "Prepare documents — employment letter and bank statements are most critical", detail: "Employment letter: company letterhead, signed by HR, your name, role, salary, approved leave from [date] to [date], return-to-work date. Bank statements: 3–6 months, stable funds, approximately €100/day minimum. If a German host is sponsoring you, ask them to get a Verpflichtungserklärung from their local Ausländerbehörde." },
         { step: "Before your appointment", title: "Buy Schengen travel insurance — mandatory", detail: "Minimum €30,000 coverage, valid across all Schengen countries, for the full duration of your trip. Must explicitly state Schengen coverage. Available from AXA, Leadway, or online providers. Certificate must show your name, dates, and coverage amount." },
-        { step: "At your appointment", title: "Submit documents, pay €80 fee, give biometrics", detail: "Bring all originals and photocopies. Complete the visa application form before arriving (download from the embassy website). Biometrics (fingerprints and photo) are taken at the appointment. Your passport is retained until the visa is processed." },
+        { step: "At your appointment", title: "Submit documents, pay €90 fee, give biometrics", detail: "Bring all originals and photocopies. Complete the visa application form before arriving (download from the embassy website). Biometrics (fingerprints and photo) are taken at the appointment. Your passport is retained until the visa is processed." },
         { step: "15 calendar days later", title: "Collect passport with visa sticker — then book non-refundable travel", detail: "Standard processing is 15 days. Only book non-refundable flights and accommodation after collecting your passport with the visa. The visa sticker shows: validity dates, allowed stay (days), and number of entries." },
       ],
     },
@@ -2704,7 +2706,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
     tips: {
       undergrad: [
         { title: "German public university tuition is genuinely zero — not a marketing gimmick", body: "Many Nigerians are sceptical about free tuition. It is real. German public universities (Technische Universität, Ruprecht-Karls-Universität, Freie Universität, etc.) charge no tuition for any student — domestic or international. You pay only a semester contribution of €200–400 which covers administration and usually a public transport pass for your city. The exceptions are Baden-Württemberg state, which charges international students €1,500/semester — still far below UK or North American tuition. Avoid private Hochschulen if cost is a concern — they charge fees." },
-        { title: "The Sperrkonto money comes back to you — do not confuse it with a fee", body: "€11,208 sounds like a lot. It is not a fee paid to Germany. It is your own money deposited into a blocked account in your name at a German bank. Once you arrive and activate the account, you receive €934 every month for 12 months — the full €11,208 comes back. Think of it as Germany forcing you to save one year of living expenses before you arrive. Use Fintiba or Expatrio — both are straightforward for Nigerians and take 1–3 weeks from application to certificate." },
+        { title: "The Sperrkonto money comes back to you — do not confuse it with a fee", body: "€11,904 sounds like a lot. It is not a fee paid to Germany. It is your own money deposited into a blocked account in your name at a German bank. Once you arrive and activate the account, you receive €934 every month for 12 months — the full €11,904 comes back. Think of it as Germany forcing you to save one year of living expenses before you arrive. Use Fintiba or Expatrio — both are straightforward for Nigerians and take 1–3 weeks from application to certificate." },
         { title: "B2 German is not optional for most programs — start immediately", body: "The most common mistake Nigerian students make is assuming they can learn German 'later.' Most German undergraduate programs will not admit you without B2 or C1 level German. TestDaF takes months to prepare for. Goethe-Institut in Lagos runs structured courses — enrol at whatever level you are currently at and commit to 10–15 hours of study per week. Deutsche Welle (dw.com/learn-german) is a free, excellent supplement. Start now, not when you start preparing applications." },
         { title: "Germany allows 120 full or 240 half working days per year for students", body: "Unlike some countries that severely restrict student work, German law allows international students to work 120 full days (or 240 half days) per year alongside their studies. At German minimum wage (€12.41/hour in 2024), a student working 20 hours per week earns approximately €2,000/month — enough to cover living costs entirely in cities outside Munich. On-campus student jobs (Hiwi positions), tutoring, and hospitality are the most common routes. Working in Germany also builds employment history and language skills." },
       ],
@@ -2728,7 +2730,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         { title: "Book your German embassy appointment 4–6 weeks early — slots go fast", body: "The German Embassy in Abuja and the German Consulate General in Lagos both have limited appointment slots for Schengen visa applications. During European summer (June–September), slots can fill 6–8 weeks in advance. Book as soon as you know your travel dates. For Abuja: termine.diplo.de/en. For Lagos: contact the consulate directly or check their website. Missing your appointment means starting the booking process again." },
         { title: "The Verpflichtungserklärung from a German host is powerful evidence", body: "If you have family or a close friend in Germany, ask them to get a Verpflichtungserklärung (formal sponsorship declaration) from their local German Ausländerbehörde (immigration office). This is a government-issued document where your German-resident host formally declares financial responsibility for your stay. It costs approximately €25–30 to obtain. This document significantly strengthens your application because it is issued by a German authority — it is not just a personal letter. Your host brings your details and their residence documents to the Ausländerbehörde and the declaration is issued on the spot or within a few days." },
         { title: "Previous Schengen stamps in your passport are the strongest thing you can show", body: "If you have previously been to any Schengen country and returned home on time, those entry and exit stamps in your passport prove you respect visa conditions. A Schengen visa applied for by someone with previous Schengen travel history is significantly more likely to be approved and more likely to receive multiple-entry. If you have never had a Schengen visa, a current or recent US or UK visa is the next best alternative — it shows other credible immigration systems approved you." },
-        { title: "Request multiple-entry on your application if you visit Europe regularly", body: "When completing your Schengen visa application form, there is a field for 'number of entries requested.' Tick 'multiple entries' if you visit Germany or Europe for business or family reasons more than once a year. A multiple-entry Schengen visa (if granted) allows you to travel to any Schengen country as many times as you want within the visa's validity — typically 1 or 2 years — without reapplying. The fee is the same as a single-entry visa (€80)." },
+        { title: "Request multiple-entry on your application if you visit Europe regularly", body: "When completing your Schengen visa application form, there is a field for 'number of entries requested.' Tick 'multiple entries' if you visit Germany or Europe for business or family reasons more than once a year. A multiple-entry Schengen visa (if granted) allows you to travel to any Schengen country as many times as you want within the visa's validity — typically 1 or 2 years — without reapplying. The fee is the same as a single-entry visa (€90)." },
       ],
     },
 
@@ -2809,7 +2811,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
       masters:    { tuition: "€12,000–22,000/yr (non-EEA fee varies by university)", living: "€1,000–1,400/month", processing: "4–8 weeks (MVV + residence permit)", acceptance: "Competitive, English required", minIELTS: "6.5 overall (7.0 for top programs)", currency: "EUR" },
       phd:        { tuition: "Fully funded — salaried position (AIO/OIO contract)", living: "€2,200–2,700/month (gross salary)", processing: "4–8 weeks after job offer", acceptance: "Very competitive globally", minIELTS: "6.5 overall", currency: "EUR" },
       work:       { salary: "€45,000–100,000/yr depending on sector", processing: "2–5 weeks (IND fast track)", pathway: "Highly Skilled Migrant (HSM) visa — sponsor required", minIELTS: "Not required for most roles", currency: "EUR" },
-      visitor:    { fee: "€80 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
+      visitor:    { fee: "€90 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
     },
 
     summary: {
@@ -2844,7 +2846,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
           "Tuition: €12,000–22,000/yr for non-EEA students (confirm exact institutional fee per program)",
           "After graduation: 1-year Orientation Year permit (Zoekjaar) to find a job — no need to leave while job-hunting",
           "If you find a job above HSM salary threshold, no separate work permit needed — direct conversion",
-          "HSM salary threshold 2024: €5,688/month gross (≈ €68,000/yr) for general roles; €4,171/month for under-30s",
+          "HSM salary threshold 2026: €5,942/month gross (≈ €71,300/yr) aged 30+; €4,357/month for under-30s; €3,122 for recent Dutch graduates",
           "Orientation Year applications cost €192 and must be submitted before your student permit expires",
         ],
         outcome: "Masters → Orientation Year → Highly Skilled Migrant permit → after 5 years continuous residence → permanent residency (or Dutch citizenship). This path has been completed by thousands of African graduates in the Netherlands.",
@@ -2868,16 +2870,16 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         outcome: "A Dutch PhD (doctor degree) combined with 4 years of residence means you are well on the path to permanent residence (5 years required). Many PhD graduates convert directly to HSM permits when hired by Dutch companies after graduation.",
       },
       work: {
-        intro: "The Netherlands has one of the most efficient skilled work permit systems in Europe — the Highly Skilled Migrant (HSM) visa. If a recognized Dutch employer hires you, the entire permit process takes 2–5 weeks. The employer (who must be an IND-recognized sponsor) submits the application; you don't apply yourself. You then collect your entry visa from the Dutch Embassy in Lagos or Abuja and move. No language test required for most tech and business roles. The salary threshold (€5,688/month gross for over-30s) is real but achievable in Amsterdam's tech, finance, and consulting sectors.",
+        intro: "The Netherlands has one of the most efficient skilled work permit systems in Europe — the Highly Skilled Migrant (HSM) visa. If a recognized Dutch employer hires you, the entire permit process takes 2–5 weeks. The employer (who must be an IND-recognized sponsor) submits the application; you don't apply yourself. You then collect your entry visa from the Dutch Embassy in Lagos or Abuja and move. No language test required for most tech and business roles. The salary threshold (€5,942/month gross for over-30s) is real but achievable in Amsterdam's tech, finance, and consulting sectors.",
         firstSteps: [
           { action: "Job search — target IND-recognised sponsors (most large Dutch companies are)", detail: "Search at linkedin.com/jobs (filter: Netherlands), indeed.nl, werkenbijdutchcompanies.nl, and company career pages. Amsterdam has a dense tech ecosystem: Booking.com, Adyen, TomTom, Philips, ASML, ING, ABN AMRO. The Hague has international organisations. Rotterdam is logistics and shipping. Eindhoven is engineering and semiconductors. Check if the company is an IND-recognized sponsor — most major Dutch companies are. New or small companies may not be recognized yet." },
-          { action: "Secure a job offer with a salary at or above the HSM salary threshold", detail: "HSM salary thresholds (2024): over 30 years old: €5,688/month gross (€68,256/yr); under 30: €4,171/month gross (€50,052/yr). Reduced threshold for holders of Dutch university degree searching via Orientation Year: €2,801/month. These are minimums — most tech roles in Amsterdam pay well above this. Confirm your gross monthly salary in the offer letter." },
+          { action: "Secure a job offer with a salary at or above the HSM salary threshold", detail: "HSM salary thresholds (2026): 30 and over: €5,942/month gross (€71,304/yr); under 30: €4,357/month gross (€52,284/yr). Reduced threshold for holders of Dutch university degree searching via Orientation Year: €2,801/month. These are minimums — most tech roles in Amsterdam pay well above this. Confirm your gross monthly salary in the offer letter." },
           { action: "Your Dutch employer submits the HSM application to IND on your behalf", detail: "You don't apply yourself. The employer (as your sponsor) submits the application through IND's online portal. Processing time: 2–5 weeks for recognized sponsors. IND will issue an approval letter (MVV/residence permit). Your employer's HR department will handle this — ask them specifically if they have done this before. Large companies (Booking.com, ASML, Philips) have dedicated expat HR teams." },
           { action: "Collect your MVV entry visa at the Dutch Embassy in Lagos or Abuja", detail: "With IND approval, you collect the MVV (Machtiging tot Voorlopig Verblijf — temporary residence authorisation) from the Dutch Embassy or Consulate in Lagos (Haatso Road, Victoria Island) or Abuja. Book an appointment online. Bring: IND approval letter, passport, passport photos, biometrics fee. Processing at the embassy: 1–2 weeks." },
           { action: "Travel to the Netherlands and register with the municipality within 5 days", detail: "On arrival, register at the gemeente (municipality) of your city. This triggers your BSN (Burgerservicenummer — citizen service number), which you need for: opening a bank account, receiving salary, getting health insurance, accessing government services. Enroll in Dutch health insurance within 4 months of your start date — your employer may contribute to the premium." },
         ],
         keyFacts: [
-          "HSM visa threshold (2024): €5,688/month gross (over 30) or €4,171/month (under 30)",
+          "HSM visa threshold (2026): €5,942/month gross (30+) or €4,357/month (under 30)",
           "Employer must be an IND-recognized sponsor — check the IND public register at ind.nl",
           "30% ruling: if you're transferring from outside the Netherlands, up to 30% of salary is tax-free for 5 years",
           "Processing: 2–5 weeks from employer submission to IND approval for recognized sponsors",
@@ -2890,7 +2892,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         firstSteps: [
           { action: "Book your appointment at VFS Global Lagos or Abuja for the Netherlands Schengen visa", detail: "Go to vfsglobal.com/netherlands/nigeria. Netherlands Schengen visas for Nigerian applicants are processed through VFS Global — you do not go directly to the Dutch Embassy for tourist visas. Book online, pay the appointment fee, and attend in person with all documents. VFS Lagos is at Plot 19, Ligali Ayorinde Street, Victoria Island. VFS Abuja is at Jabi District." },
           { action: "Prepare your Schengen visa documents", detail: "Required: valid Nigerian passport (minimum 3 months validity beyond return date, with 2 blank pages), VFS application form, 2 passport photographs (35mm × 45mm, white background), travel itinerary (flights in and out of Schengen area), accommodation proof (hotel booking or invitation letter with host's proof of residency), travel insurance (minimum €30,000 cover, valid for entire Schengen area, not just Netherlands), bank statements (6 months, showing stable funds — minimum ₦500,000 balance recommended), proof of employment or business registration, and letter from employer granting leave." },
-          { action: "Pay the Schengen visa fee", detail: "Fee: €80 for adults (approximately ₦160,000 at current rates). VFS Global service fee is additional — approximately ₦15,000. Pay online when booking your appointment. The fee is non-refundable even if the visa is denied. Children 6–12 pay €40. Children under 6 pay nothing." },
+          { action: "Pay the Schengen visa fee", detail: "Fee: €90 for adults. VFS Global service fee is additional — approximately ₦15,000. Pay online when booking your appointment. The fee is non-refundable even if the visa is denied. Children 6–12 pay €40. Children under 6 pay nothing." },
           { action: "Attend your biometrics appointment at VFS", detail: "Bring all original documents (not just copies) to your VFS appointment. VFS will take your fingerprints and photo (biometrics). They forward your application to the Dutch Embassy for decision. Processing: 15 calendar days from the date of application (can be up to 45 days in peak travel seasons — apply 3 months before your travel date)." },
           { action: "Track your application and collect your passport at VFS", detail: "Track your application on the VFS website with your reference number. When approved, VFS will notify you by email or SMS to collect your passport with the visa sticker inside. Check: the visa validity dates, number of entries (single or multiple), and maximum stay per entry. If denied, you receive a written explanation and can appeal or reapply." },
         ],
@@ -2992,7 +2994,7 @@ The main portal is academictransfer.nl — set up job alerts in your field. Also
 Many Dutch PhD positions are never publicly advertised. A professor with funding can create a position for the right candidate. Email the professor with: a short research proposal (1 page) clearly linked to their published work, your CV (academic, max 2 pages), degree transcripts, and an honest statement of your English proficiency and availability. A positive response from a professor leads to a formal HR vacancy being created for you.
 
 **Salary and Tax**
-AIO salary scale (2024): approximately €2,770/month gross in year 1, rising to €3,548 in year 4. After Dutch income tax and social contributions, take-home is approximately €2,000–2,400/month. The **30% ruling** is available to knowledge migrants recruited from outside the Netherlands — it allows you to receive 30% of your gross salary tax-free for 5 years. Apply through your university HR in your first months; it significantly improves take-home pay.
+AIO salary scale (2024): approximately €2,902/month gross in year 1, rising to €3,548 in year 4. After Dutch income tax and social contributions, take-home is approximately €2,000–2,400/month. The **30% ruling** is available to knowledge migrants recruited from outside the Netherlands — it allows you to receive 30% of your gross salary tax-free for 5 years. Apply through your university HR in your first months; it significantly improves take-home pay.
 
 **IND Registration Process**
 Your university HR department submits your combined residence permit application and employment notification to IND simultaneously. For recognized sponsors (all Dutch universities are), IND processes in 2–5 weeks. You receive notification, travel to the Netherlands on a single-entry visa, and collect your residence permit.
@@ -3007,8 +3009,8 @@ The Highly Skilled Migrant (Kennismigrant) permit is the main route for Nigerian
 
 **Salary Thresholds (2024)**
 The HSM permit requires a minimum gross salary. Thresholds are updated each January:
-- Over 30 years old: €5,688/month gross (≈ €68,256/yr)
-- Under 30 years old: €4,171/month gross (≈ €50,052/yr)
+- Over 30 years old: €5,942/month gross (≈ €71,304/yr)
+- Under 30 years old: €4,357/month gross (≈ €52,284/yr)
 - Recent Dutch graduates (via Orientation Year): €2,801/month gross
 - EU Blue Card: €6,245/month (alternative route for highly qualified migrants)
 
@@ -3070,7 +3072,7 @@ Book an appointment online at vfsglobal.com/netherlands/nigeria.
 - Nigerian passport data page (all previous visas and stamps)
 
 **Visa Fee**
-€80 adult Schengen fee (non-refundable) + VFS service charge (approximately ₦12,000–15,000). Children 6–12: €40. Under 6: free. Pay online when booking VFS appointment.
+€90 adult Schengen fee (non-refundable) + VFS service charge (approximately ₦12,000–15,000). Children 6–12: €40. Under 6: free. Pay online when booking VFS appointment.
 
 **Processing Time**
 Standard processing: 15 calendar days from date of application.
@@ -3142,7 +3144,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
       visitor: [
         { month: "8 weeks before travel", task: "Book VFS Global appointment online at vfsglobal.com/netherlands/nigeria (Lagos or Abuja)" },
         { month: "6–7 weeks before", task: "Gather all documents: passport, bank statements (6 months), employment letter, travel insurance, hotel booking, return flight booking" },
-        { month: "5–6 weeks before", task: "Attend VFS Global appointment. Submit documents and biometrics. Pay €80 visa fee + VFS service charge" },
+        { month: "5–6 weeks before", task: "Attend VFS Global appointment. Submit documents and biometrics. Pay €90 visa fee + VFS service charge" },
         { month: "3–5 weeks before", task: "VFS forwards to Dutch Embassy. Processing: 15 calendar days standard. Track online via VFS reference number" },
         { month: "2–3 weeks before", task: "Collect passport with visa from VFS office. Check visa dates, entries, and duration carefully" },
         { month: "Day of travel", task: "Travel with: passport + visa sticker, travel insurance document (original or digital), return ticket, hotel booking, cash or card for stay" },
@@ -3235,7 +3237,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
       ],
       phd: [
         { name: "NWO Talent Programme (VENI/VIDI/VICI)", amount: "Full funding for postdoctoral and established researchers — not for incoming PhD students but relevant for later career", university: "All Dutch universities — applied for by your supervisor", deadline: "Rolling, announced per year at nwo.nl", url: "https://www.nwo.nl/en/talent-programme" },
-        { name: "Funded PhD positions (employment contracts)", amount: "Full salary AIO scale — approximately €2,770 gross/month in year 1", university: "All Dutch universities — posted on academictransfer.nl. This is the standard way to do a PhD in the Netherlands", deadline: "Rolling — per vacancy posting on academictransfer.nl", url: "https://www.academictransfer.com/" },
+        { name: "Funded PhD positions (employment contracts)", amount: "Full salary AIO scale — approximately €2,902 gross/month in year 1", university: "All Dutch universities — posted on academictransfer.nl. This is the standard way to do a PhD in the Netherlands", deadline: "Rolling — per vacancy posting on academictransfer.nl", url: "https://www.academictransfer.com/" },
       ],
       work: [],
     },
@@ -3276,7 +3278,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
       masters:    { tuition: "AUD 22,000–50,000/yr", living: "AUD 1,400–2,000/month", processing: "4–6 weeks", acceptance: "Competitive", minIELTS: "6.5 overall (7.0 for top programs)", currency: "AUD" },
       phd:        { tuition: "Often fully funded (domestic fee rate)", living: "AUD 28,000–32,000/yr (stipend)", processing: "4–8 weeks", acceptance: "Very competitive", minIELTS: "6.5 overall", currency: "AUD" },
       work:       { salary: "AUD 60,000–130,000/yr depending on occupation", processing: "2–12 months (SkillSelect EOI)", pathway: "Skilled Independent (189) / Employer Sponsored (482/186)", minIELTS: "Competent English required (IELTS 6.0 each band)", currency: "AUD" },
-      visitor:    { fee: "AUD 190 (Visitor Visa subclass 600)", processing: "20–30 days (can be longer)", duration: "Up to 3 or 6 months", pathway: "Visitor Visa (subclass 600)", currency: "AUD" },
+      visitor:    { fee: "AUD 250 (Visitor Visa subclass 600)", processing: "20–30 days (can be longer)", duration: "Up to 3 or 6 months", pathway: "Visitor Visa (subclass 600)", currency: "AUD" },
     },
 
     summary: {
@@ -3287,7 +3289,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
           { action: "Take IELTS Academic — target 6.5 overall (no band below 6.0)", detail: "Most Australian universities require IELTS 6.0–6.5 overall for undergraduate entry. Book at British Council or IDP Nigeria (Lagos, Abuja, Port Harcourt). TOEFL iBT and PTE Academic are also accepted — check per institution. Start preparing 3–6 months before your application deadline." },
           { action: "Get your WAEC/NECO results verified and transcripts ready", detail: "Australian universities generally accept WAEC/NECO results. Most do not require a separate verification service like WES — they assess documents directly. However, have your original certificates, certified copies, and official transcripts stamped by your school registrar ready. Some universities may ask for additional verification." },
           { action: "Accept your offer and receive your electronic Confirmation of Enrolment (eCoE)", detail: "Once admitted and you pay your tuition deposit (typically AUD 2,000–5,000), your university issues an electronic Confirmation of Enrolment (eCoE). This is the core document for your student visa application. You cannot apply for a subclass 500 student visa without it." },
-          { action: "Apply for Student Visa subclass 500 on ImmiAccount", detail: "Create an ImmiAccount at immi.homeaffairs.gov.au. Apply online. You need: eCoE, IELTS result, Overseas Student Health Cover (OSHC — mandatory, approximately AUD 600–700/yr), financial evidence (AUD 21,041 for living costs + your annual tuition + AUD 7,362 for a dependent partner + AUD 3,152 per child), Genuine Student Requirement statement (why you want to study in Australia and your ties to Nigeria), passport. Visa fee: AUD 710." },
+          { action: "Apply for Student Visa subclass 500 on ImmiAccount", detail: "Create an ImmiAccount at immi.homeaffairs.gov.au. Apply online. You need: eCoE, IELTS result, Overseas Student Health Cover (OSHC — mandatory, approximately AUD 600–700/yr), financial evidence (AUD 29,710 for living costs + your annual tuition + AUD 10,394 for a dependent partner + AUD 4,449 per child), Genuine Student Requirement statement (why you want to study in Australia and your ties to Nigeria), passport. Visa fee: AUD 2,500." },
         ],
         keyFacts: [
           "eCoE from your university is the core visa document — nothing moves without it",
@@ -3304,11 +3306,11 @@ Address all five before submitting. A refused visa means a record in the Schenge
           { action: "Choose your field strategically — check the MLTSSL and STSOL skills lists", detail: "Go to immi.homeaffairs.gov.au and search for the Medium and Long-term Strategic Skills List (MLTSSL). Occupations on this list give you access to the subclass 189 (independent PR) pathway. High-demand fields for Nigerians: Nursing, Engineering (Civil, Mechanical, Electrical), IT (Software Engineer, Cybersecurity), Accounting, Social Work, Teaching. If your field is on the MLTSSL, your post-study work visa can be 3 years instead of 2." },
           { action: "Take IELTS Academic — target 7.0 overall (some programs accept 6.5)", detail: "For the eventual PR application through SkillSelect, you need at minimum 'Competent English' (IELTS 6.0 each band). For points: 'Proficient English' (IELTS 7.0 each band) gives you 10 extra points, 'Superior English' (IELTS 8.0 each band) gives 20 extra points. Take the test seriously — your score affects your PR points, not just your university admission." },
           { action: "Apply to 3–5 universities — target programs with strong industry connections", detail: "Strong master's programs for Nigerian students: UNSW (Engineering, Business), University of Melbourne (all disciplines), Monash (IT, Engineering, Health), UQ (Mining, Environmental, Health Sciences), ANU (Policy, Sciences, Economics), University of Sydney (Business, Law, Health). Apply through each university's online portal. Deadlines: February/March for Semester 1 (February start), July/August for Semester 2 (July start)." },
-          { action: "Once admitted: pay deposit, receive eCoE, apply for subclass 500 student visa", detail: "Pay tuition deposit (AUD 2,000–5,000), receive eCoE from university, purchase OSHC insurance, prepare financial evidence (AUD 21,041 living costs + tuition + travel), write Genuine Student Requirement statement. Apply on ImmiAccount. Visa fee: AUD 710. Processing: 4–6 weeks typically." },
+          { action: "Once admitted: pay deposit, receive eCoE, apply for subclass 500 student visa", detail: "Pay tuition deposit (AUD 2,000–5,000), receive eCoE from university, purchase OSHC insurance, prepare financial evidence (AUD 29,710 living costs + tuition + travel), write Genuine Student Requirement statement. Apply on ImmiAccount. Visa fee: AUD 2,500. Processing: 4–6 weeks typically." },
           { action: "Plan your skills assessment before or during your degree — don't wait until after", detail: "For PR through SkillSelect, your occupation must be assessed by the relevant Australian skills authority. For IT: ACS (Australian Computer Society). For Engineering: Engineers Australia. For Accounting: CPA Australia or CAANZ. For Nursing: AHPRA. Start this process in your final year — assessments take 3–6 months. Having a positive skills assessment ready when you finish your degree saves months." },
         ],
         keyFacts: [
-          "Graduate Visa (subclass 485): 2 years for most; 3 years if your degree is in an MLTSSL occupation; 4 years if you studied in a regional area",
+          "Graduate Visa (subclass 485, Post-Higher Education stream): 2 years for bachelor's and coursework master's; 3 years for research master's and PhD; extra time possible if you studied regionally (rules changed July 2024)",
           "SkillSelect points: 65 points minimum to be invited (in practice, 80–90 points are competitive for popular occupations)",
           "Points for age: 25–32 years = 30 points (maximum) — apply while young",
           "Skills assessment is occupation-specific — check your assessing authority before choosing your program",
@@ -3322,7 +3324,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
           { action: "Find a supervisor first — this is the most important step", detail: "Australian PhD applications are supervisor-driven. Before applying formally, identify professors whose research aligns with yours, read their recent publications, and email them with a 1-page research proposal + CV + transcripts. A supervisor's agreement to take you on significantly strengthens your formal application and scholarship bid. Check university research staff pages, Google Scholar, and ResearchGate. Without a supervisor, your application is much weaker." },
           { action: "Apply for both PhD admission and RTP scholarship simultaneously", detail: "Go to the university's graduate research school website. Most Australian universities have a single application form for PhD admission + scholarship. Key documents: research proposal (2,000–5,000 words depending on university), CV, transcripts and degree certificates, IELTS result, 2–3 academic references, supervisor's support letter. Competitive RTP scholarship applications are ones with strong research proposals and clear supervisor support." },
           { action: "Take IELTS Academic — target 6.5 overall (some require 7.0)", detail: "PhD programs typically require IELTS 6.5 overall with no band below 6.0. ANU and University of Melbourne require 7.0 for some programs. Book through British Council or IDP Nigeria. PTE Academic is an alternative." },
-          { action: "After admission and scholarship offer: apply for subclass 500 student visa", detail: "With your offer letter and scholarship letter, apply on ImmiAccount. PhD scholarship holders get a fee exemption letter in place of eCoE for OSHC. Financial evidence is simplified if scholarship covers living costs — show scholarship letter. Visa fee: AUD 710. Processing: 4–8 weeks." },
+          { action: "After admission and scholarship offer: apply for subclass 500 student visa", detail: "With your offer letter and scholarship letter, apply on ImmiAccount. PhD scholarship holders get a fee exemption letter in place of eCoE for OSHC. Financial evidence is simplified if scholarship covers living costs — show scholarship letter. Visa fee: AUD 2,500. Processing: 4–8 weeks." },
           { action: "Arrive and register with your university and the Australian Taxation Office (ATO)", detail: "RTP stipends are tax-free, but any additional income (tutoring, consulting) is taxable. Get a Tax File Number (TFN) from the ATO within weeks of arriving. Open an Australian bank account (Commonwealth Bank, ANZ, NAB, Westpac — all have international student accounts). Register with Medicare if your country has a reciprocal health agreement with Australia — Nigeria does not, so maintain OSHC." },
         ],
         keyFacts: [
@@ -3357,13 +3359,13 @@ Address all five before submitting. A refused visa means a record in the Schenge
         firstSteps: [
           { action: "Apply online through ImmiAccount at immi.homeaffairs.gov.au", detail: "Create an account at immi.homeaffairs.gov.au. Select 'Visitor' → subclass 600 → Tourist stream. Complete the application form online. You will be asked about: purpose of visit, intended length of stay, funds available, employment in Nigeria, family ties, previous travel history, any previous visa refusals. Be accurate and thorough — inconsistencies are a common reason for refusal." },
           { action: "Prepare your supporting documents", detail: "Required documents: Nigerian passport (minimum 6 months validity beyond intended return date), recent passport photographs, bank statements (6 months showing consistent balance — recommended minimum ₦1,000,000+), employment letter on company letterhead stating your position, salary, and approved leave dates, business registration documents if self-employed (CAC certificate, tax clearance, 6 months business bank statements), evidence of accommodation in Australia (hotel booking or invitation letter from host with proof of Australian address and status), return flight booking, travel itinerary showing planned activities." },
-          { action: "Pay the visa application fee", detail: "Fee: AUD 190 (approximately ₦120,000 at current rates). Paid online by credit/debit card when submitting the application. The fee is non-refundable even if refused. No VFS Global for Australian visitor visas — it is entirely online through ImmiAccount." },
+          { action: "Pay the visa application fee", detail: "Fee: AUD 250 (from 1 July 2026). Paid online by credit/debit card when submitting the application. The fee is non-refundable even if refused. No VFS Global for Australian visitor visas — it is entirely online through ImmiAccount." },
           { action: "Submit health and character documents if requested", detail: "The Department of Home Affairs may request a health examination (by an approved panel physician) or police clearance after you submit. This is more common for longer stays or if you have previously lived in certain countries. Respond to any requests promptly — delays in responding can result in the application being refused." },
           { action: "Track your application and respond promptly to any requests", detail: "Track through ImmiAccount. Standard processing: 20–35 days. Can be longer during peak periods or if additional checks are required. You will receive a grant notification by email with a visa label to print. The visa conditions will specify: maximum stay per visit (3 or 6 months), number of entries (single or multiple), and whether you can work (visitor visas do not allow work)." },
         ],
         keyFacts: [
           "No VFS Global for Australian visitor visas — apply entirely online through ImmiAccount",
-          "Visa fee: AUD 190 — non-refundable regardless of outcome",
+          "Visa fee: AUD 250 — non-refundable regardless of outcome",
           "Processing: 20–35 days standard — apply at least 6 weeks before travel",
           "Strong financial evidence and clear employment ties to Nigeria are the most important factors",
           "Australian visitor visas do not allow you to work — including remote work for overseas employers",
@@ -3386,11 +3388,11 @@ This replaced the old Genuine Temporary Entrant (GTE) requirement. You must demo
 
 **Financial Requirements**
 You must demonstrate funds for:
-- Living costs: AUD 21,041/year
+- Living costs: AUD 29,710/year
 - Annual course tuition fees (stated on your eCoE)
 - Travel costs: AUD 2,000 (if not already shown on your application)
-- If bringing a partner: AUD 7,362 additional
-- If bringing a child: AUD 3,152 per child additional
+- If bringing a partner: AUD 10,394 additional
+- If bringing a child: AUD 4,449 per child additional
 
 Acceptable evidence: personal bank statements (6 months), parent/sponsor bank statements, scholarship award letter, GIC-equivalent accounts. All statements must show the funds have been held consistently — a sudden large deposit is flagged.
 
@@ -3438,7 +3440,7 @@ Points are assessed at time of invitation, not application. Key point sources:
 A 29-year-old with a master's, IELTS 8.0, and 3 years Australian work experience scores: 30 + 15 + 20 + 5 + 5 = 75 points — competitive for many occupations.
 
 **Visa Application Process (Same as undergrad)**
-Accept offer → pay deposit → receive eCoE → purchase OSHC → write Genuine Student Requirement statement → apply on ImmiAccount → pay AUD 710 → upload documents → wait 4–6 weeks for decision → receive grant by email.
+Accept offer → pay deposit → receive eCoE → purchase OSHC → write Genuine Student Requirement statement → apply on ImmiAccount → pay AUD 2,500 → upload documents → wait 4–6 weeks for decision → receive grant by email.
 
 **After Graduation**
 Apply for subclass 485 within 6 months of course completion. You must be in Australia when you apply. The 485 gives you open work rights — any employer, any location, any occupation. Use this time to build Australian work experience (critical for SkillSelect points) and lodge your EOI.`,
@@ -3467,7 +3469,7 @@ This is the most critical step. Australian PhD admission is heavily supervisor-d
 A positive response from a supervisor unlocks the formal application pathway. A cold formal application without supervisor contact is much weaker.
 
 **Subclass 500 for PhD Students**
-PhD students apply for the same subclass 500 student visa. If you have an RTP scholarship, your scholarship letter serves as evidence of funds — you don't need to show bank statements for living costs. OSHC is still required. Visa fee: AUD 710.
+PhD students apply for the same subclass 500 student visa. If you have an RTP scholarship, your scholarship letter serves as evidence of funds — you don't need to show bank statements for living costs. OSHC is still required. Visa fee: AUD 2,500.
 
 **After PhD: Subclass 485**
 After completing your PhD, you qualify for a subclass 485 Graduate Visa:
@@ -3488,7 +3490,7 @@ No employer required. Points-based. You submit an EOI through SkillSelect, wait 
 Same as 189 but you are nominated by an Australian state or territory. State nomination adds 5 points to your score and each state has its own occupation list and selection criteria (some states prioritise in-state residence, some accept offshore applications). States: NSW, VIC, QLD, WA, SA, TAS, ACT, NT. Each state's Department of Home Affairs page lists current nomination requirements. Visa fee: AUD 4,115.
 
 **Subclass 482 — Temporary Skill Shortage (Employer-Sponsored)**
-Your Australian employer nominates you for a temporary work visa. 2-year visa for STSOL occupations, 4 years for MLTSSL. After 3 years on a 482 in an MLTSSL occupation, you can apply for subclass 186 (permanent employer nomination). This is the fastest way to get to Australia if you have a job offer but not enough points for SkillSelect. Salary requirement: at least the Temporary Skilled Migration Income Threshold (TSMIT) — AUD 73,150/year (2024).
+Your Australian employer nominates you for a temporary work visa. 2-year visa for STSOL occupations, 4 years for MLTSSL. After 3 years on a 482 in an MLTSSL occupation, you can apply for subclass 186 (permanent employer nomination). This is the fastest way to get to Australia if you have a job offer but not enough points for SkillSelect. Note: since 7 December 2024 the 482 is the Skills in Demand visa (it replaced the Temporary Skill Shortage visa). Salary requirement: at least the Core Skills Income Threshold — about AUD 79,423/year from 1 July 2026.
 
 **Skills Assessment — The First Gate**
 Every skilled migration pathway requires a positive skills assessment from your occupation's designated authority. This is non-negotiable. Start this before everything else.
@@ -3557,7 +3559,7 @@ Standard processing: 20–35 days. Apply at least 6–8 weeks before travel.
 Typical grant: valid for 12 months from grant date, with stays of up to 3 months per visit (some are granted 6 months — depends on the officer's assessment). Multiple entries within the validity period.
 
 **Fees**
-AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
+AUD 250 paid online by card. Non-refundable.`,
     },
 
     timeline: {
@@ -3567,7 +3569,7 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
         { month: "9–10 months before", task: "Gather certified WAEC/NECO results, transcripts, and any other required documents" },
         { month: "7–9 months before", task: "Apply to 4–6 universities directly. Deadlines vary: most have two intakes (February and July). Apply October–November for February start; April–May for July start" },
         { month: "5–7 months before", task: "Receive offers. Accept your preferred offer, pay tuition deposit (AUD 2,000–5,000). University issues eCoE" },
-        { month: "4–6 months before", task: "Purchase OSHC insurance. Write Genuine Student Requirement statement. Apply for subclass 500 on ImmiAccount. Pay AUD 710 fee" },
+        { month: "4–6 months before", task: "Purchase OSHC insurance. Write Genuine Student Requirement statement. Apply for subclass 500 on ImmiAccount. Pay AUD 2,500 fee" },
         { month: "2–4 months before", task: "Receive visa grant by email. Book flights. Arrange accommodation (university halls or private rental)" },
         { month: "Arrival week", task: "Complete university orientation. Get a Tax File Number (TFN) from the ATO. Open Australian bank account" },
         { month: "During study", task: "Work up to 48 hrs/fortnight during semester. Start planning skills assessment in your final year" },
@@ -3609,7 +3611,7 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
       visitor: [
         { month: "8 weeks before travel", task: "Create ImmiAccount at immi.homeaffairs.gov.au. Begin gathering documents" },
         { month: "6–7 weeks before", task: "Gather: 6 months bank statements, employment letter, return flight booking, hotel/accommodation proof, travel itinerary" },
-        { month: "5–6 weeks before", task: "Complete online application on ImmiAccount. Upload all documents. Pay AUD 190 fee by card" },
+        { month: "5–6 weeks before", task: "Complete online application on ImmiAccount. Upload all documents. Pay AUD 250 fee by card" },
         { month: "3–5 weeks before", task: "Department of Home Affairs reviews application. Standard processing: 20–35 days. Track via ImmiAccount" },
         { month: "Visa granted", task: "Receive email confirmation. Visa is electronic — no sticker needed. Print or save the grant notification" },
         { month: "Day of travel", task: "Australian Border Force can see your visa electronically. Bring your passport + printed grant notice. Declare items on incoming passenger card" },
@@ -3660,7 +3662,7 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
         "Write clear, specific answers for every application question — vague answers are a common reason for refusal",
         "If visiting a host in Australia, get a detailed invitation letter with their Australian residency documentation attached",
         "Previous Schengen, UK, or US visa grants help demonstrate travel history and immigration compliance — mention these",
-        "AUD 190 fee is non-refundable — only apply when your documents are complete and strong",
+        "AUD 250 fee is non-refundable — only apply when your documents are complete and strong",
         "Apply at least 6–8 weeks before travel — processing can take up to 45 days during peak periods",
       ],
     },
@@ -3745,7 +3747,7 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
       undergrad:  { tuition: "€10,000–25,000/yr (non-EU fee)", living: "€1,200–1,800/month", processing: "8–12 weeks (student visa)", acceptance: "Varies by course", minIELTS: "6.0–6.5 overall", currency: "EUR" },
       masters:    { tuition: "€12,000–30,000/yr (non-EU fee)", living: "€1,200–1,800/month", processing: "8–12 weeks (student visa)", acceptance: "Competitive", minIELTS: "6.5 overall (7.0 for some programs)", currency: "EUR" },
       phd:        { tuition: "Often fully funded (IRC or SFI scholarship)", living: "€18,500/yr stipend (IRC standard)", processing: "8–12 weeks after offer", acceptance: "Very competitive", minIELTS: "6.5 overall", currency: "EUR" },
-      work:       { salary: "€32,000–100,000+/yr depending on sector", processing: "4–12 weeks (Critical Skills Permit)", pathway: "Critical Skills Employment Permit / General Employment Permit", minIELTS: "Not required for permit — employer may test", currency: "EUR" },
+      work:       { salary: "€40,904–100,000+/yr depending on sector", processing: "4–12 weeks (Critical Skills Permit)", pathway: "Critical Skills Employment Permit / General Employment Permit", minIELTS: "Not required for permit — employer may test", currency: "EUR" },
       visitor:    { fee: "€60 (Irish Short Stay 'C' visa)", processing: "4–8 weeks", duration: "Up to 90 days", pathway: "Irish Short Stay Visa (Category C) — Ireland is NOT Schengen", currency: "EUR" },
     },
 
@@ -3756,7 +3758,7 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
           { action: "Research programs and apply through the CAO (undergraduate) or directly to universities", detail: "For undergraduate programs, international students apply through each university's international admissions office — not CAO (CAO is for Irish/EU students). Key universities: University College Dublin (UCD), Trinity College Dublin (TCD), University College Cork (UCC), University of Galway (NUI Galway), Dublin City University (DCU), University of Limerick (UL). Check each program's non-EU entry requirements and fees directly on the university website." },
           { action: "Take IELTS Academic — target 6.5 overall", detail: "Most Irish universities require IELTS 6.0–6.5 for undergraduate entry. TCD and UCD require 6.5 for most programs. Book at British Council or IDP Nigeria. TOEFL iBT is also accepted — check each institution's specific requirement. PTE Academic may also be accepted at some institutions." },
           { action: "Receive your offer letter and pay your tuition deposit", detail: "Once admitted, accept your offer and pay the required deposit (typically €3,000–6,000). Your university will issue a letter of acceptance that you need for the visa application. Some Irish universities also provide a registration letter specifying your course details, start date, and duration — keep both documents." },
-          { action: "Apply for your Irish student visa (Study Visa — 'D' visa) at the Irish Embassy", detail: "Apply online at visas.inis.gov.ie. Create an account, complete the application form, pay the €60 fee, and book an appointment at the Irish Embassy in Abuja or the Irish Consulate in Lagos to submit your biometrics and documents. Required documents: offer/acceptance letter, proof of tuition payment or sponsor's financial evidence, bank statements (6 months, showing sufficient funds — €7,000–10,000 minimum recommended for first year living costs plus tuition), passport, passport photographs, evidence of English proficiency, travel insurance." },
+          { action: "Apply for your Irish student visa (Study Visa — 'D' visa) at the Irish Embassy", detail: "Apply online at visas.inis.gov.ie. Create an account, complete the application form, pay the €60 fee, and book an appointment at the Irish Embassy in Abuja or the Irish Consulate in Lagos to submit your biometrics and documents. Required documents: offer/acceptance letter, proof of tuition payment or sponsor's financial evidence, bank statements (6 months, showing sufficient funds — immediate access to at least €10,000 for first-year living costs, plus tuition), passport, passport photographs, evidence of English proficiency, travel insurance." },
           { action: "Arrange accommodation before arrival — student accommodation in Dublin books up fast", detail: "Dublin has a severe housing shortage. Apply for on-campus student accommodation the same week you accept your offer. UCD, TCD, and DCU all have student accommodation but it is heavily oversubscribed. Consider options: Digs (renting a room in a family home — common in Ireland, often includes meals), private student accommodation providers (Yugo, Uninest, Collegiate), shared apartments in suburbs with good transport links. Budget €700–1,100/month for accommodation." },
         ],
         keyFacts: [
@@ -3769,17 +3771,17 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
         outcome: "Graduate → Third Level Graduate Programme (12 months for bachelor's, 24 months for master's/PhD) → find a job → Critical Skills Employment Permit or General Employment Permit → after 5 years legal residence → Long-Term Residence → Irish citizenship possible after 5 years.",
       },
       masters: {
-        intro: "Ireland's master's programs are internationally recognised, entirely English-medium, and feed directly into some of Europe's highest-paying tech and pharmaceutical jobs. The post-study Third Level Graduate Programme (TLGP) gives master's graduates 24 months to find work in Ireland — double what a bachelor's graduate gets. If you secure a job above €32,000 in a Critical Skills occupation, you convert directly to a Critical Skills Employment Permit, which leads to permanent residency after 2 years and Irish citizenship after 5.",
+        intro: "Ireland's master's programs are internationally recognised, entirely English-medium, and feed directly into some of Europe's highest-paying tech and pharmaceutical jobs. The post-study Third Level Graduate Programme (TLGP) gives master's graduates 24 months to find work in Ireland — double what a bachelor's graduate gets. If you secure a job above €40,904 in a Critical Skills occupation, you convert directly to a Critical Skills Employment Permit, which leads to permanent residency after 2 years and Irish citizenship after 5.",
         firstSteps: [
           { action: "Research programs — target fields with strong Irish job market demand", detail: "Ireland's strongest sectors for international graduates: Technology (Software, Data Science, Cybersecurity, Cloud), Pharmaceutical and MedTech (Ireland is Europe's largest pharmaceutical exporter), Finance (Dublin is a major EU financial services hub post-Brexit), Business Analytics, and Healthcare. Check each university's master's programs directly. Strong programs: UCD Smurfit School (Business), TCD Computer Science, UCC Pharmacy, University of Galway Biomedical Sciences, DCU Data Analytics." },
           { action: "Take IELTS Academic — target 6.5–7.0 overall", detail: "Most Irish master's programs require IELTS 6.5. UCD Smurfit and TCD require 7.0 for competitive programs. Your IELTS score affects admission — invest in preparation. Book at British Council or IDP Nigeria." },
           { action: "Apply directly to universities — deadlines vary but most close March–May for September intake", detail: "Apply online through each university's postgraduate admissions portal. Documents: bachelor's degree certificate and transcripts, IELTS result, CV, personal statement, 2 academic references. Some programs (MBA, Data Science, Computer Science) may require additional interviews or test scores. Apply to 3–4 programs — Irish university acceptance rates are not as restrictive as the UK's top programs." },
           { action: "Apply for Irish study visa ('D' visa) once admitted", detail: "Apply online at visas.inis.gov.ie. Book an appointment at the Irish Embassy Abuja or Consulate Lagos. Visa fee: €60. Processing: 8–12 weeks. Documents: acceptance letter, proof of tuition fee payment or financial sponsorship, 6 months bank statements (minimum €7,000 recommended for living costs in first year), IELTS result, passport, photographs, travel insurance. Be honest and complete — Irish visa officers can request additional documentation." },
-          { action: "Plan your Critical Skills Employment Permit application in your final semester", detail: "The Critical Skills Employment Permit requires a job offer from an Irish employer with a salary of at least €32,000/yr (for most roles) or €64,000/yr (for all occupations not on the critical skills list). Research companies recruiting in your field in Dublin and Cork. Attend your university's career fairs. Reach out on LinkedIn to recruiters at tech and pharma companies. A job offer before your TLGP expires is the goal." },
+          { action: "Plan your Critical Skills Employment Permit application in your final semester", detail: "The Critical Skills Employment Permit requires a job offer from an Irish employer with a salary of at least €40,904/yr (for most roles) or €68,911/yr (for all occupations not on the critical skills list). Research companies recruiting in your field in Dublin and Cork. Attend your university's career fairs. Reach out on LinkedIn to recruiters at tech and pharma companies. A job offer before your TLGP expires is the goal." },
         ],
         keyFacts: [
           "Third Level Graduate Programme: 24 months for master's graduates to find work in Ireland — apply before your student permission expires",
-          "Critical Skills Employment Permit: €32,000+ salary threshold for listed occupations; €64,000+ for unlisted ones",
+          "Critical Skills Employment Permit: €40,904+ salary threshold for listed occupations; €68,911+ for unlisted ones",
           "After 2 years on Critical Skills Employment Permit: eligible to apply for Stamp 4 — no employment permit needed, work for any employer",
           "After 5 years legal residence in Ireland: eligible for Long-Term Residence or Irish citizenship (naturalisation)",
           "Dublin has one of Europe's highest concentrations of tech company European HQs — Google, Meta, Apple, LinkedIn, Salesforce, Airbnb, Stripe",
@@ -3805,19 +3807,19 @@ AUD 190 (approximately ₦120,000) paid online by card. Non-refundable.`,
         outcome: "PhD → Third Level Graduate Programme (12 months) → Critical Skills Employment Permit → 2 years → Stamp 4 → 5 years total → Long-Term Residence or Irish citizenship.",
       },
       work: {
-        intro: "Ireland's Critical Skills Employment Permit is one of the best work permit systems in Europe for skilled Nigerians. If you have a job offer from an Irish employer in a critical skills occupation with a salary of at least €32,000, the permit is issued within 4–12 weeks. After just 2 years on this permit, you get Stamp 4 — which means you can work for any employer in Ireland without any permit. No other EU country offers such a fast path from work visa to unrestricted work rights. Ireland does not have a points-based system like Australia — you need a job offer, but the process after that is fast and clear.",
+        intro: "Ireland's Critical Skills Employment Permit is one of the best work permit systems in Europe for skilled Nigerians. If you have a job offer from an Irish employer in a critical skills occupation with a salary of at least €40,904, the permit is issued within 4–12 weeks. After just 2 years on this permit, you get Stamp 4 — which means you can work for any employer in Ireland without any permit. No other EU country offers such a fast path from work visa to unrestricted work rights. Ireland does not have a points-based system like Australia — you need a job offer, but the process after that is fast and clear.",
         firstSteps: [
-          { action: "Check if your occupation is on the Critical Skills Occupation List", detail: "Go to enterprise.gov.ie → employment permits → Critical Skills Occupation List. Occupations on this list qualify for the Critical Skills Employment Permit at €32,000+ salary. Key occupations relevant to Nigerians: Software Developer, Data Scientist, Cybersecurity Specialist, IT Architect, Network Engineer, Pharmacist, Medical Scientist, Registered Nurse, Civil Engineer, Financial Analyst, Accountant. If your occupation is not on the list, you may still be eligible for a General Employment Permit if your salary is €30,000+ and your role is not on the Ineligible Occupations list." },
+          { action: "Check if your occupation is on the Critical Skills Occupation List", detail: "Go to enterprise.gov.ie → employment permits → Critical Skills Occupation List. Occupations on this list qualify for the Critical Skills Employment Permit at €40,904+ salary. Key occupations relevant to Nigerians: Software Developer, Data Scientist, Cybersecurity Specialist, IT Architect, Network Engineer, Pharmacist, Medical Scientist, Registered Nurse, Civil Engineer, Financial Analyst, Accountant. If your occupation is not on the list, you may still be eligible for a General Employment Permit if your salary is €36,605+ and your role is not on the Ineligible Occupations list." },
           { action: "Job search — target Irish employers in Dublin, Cork, and Galway", detail: "Main job boards: irishjobs.ie, jobs.ie, linkedin.com/jobs (Ireland filter), indeed.ie, glassdoor.ie. Key employers in Dublin's tech sector: Google (1,000+ staff), Meta, Apple, LinkedIn, Salesforce, Airbnb, Stripe, HubSpot, Workday, Indeed.com (HQ is Dublin), Zendesk. Pharmaceutical: Pfizer (Cork), Johnson & Johnson, MSD (Merck), Eli Lilly, Novartis, Alexion. Financial services: Citi, Bank of America, J.P. Morgan, State Street, Northern Trust, Fidelity." },
           { action: "Secure a job offer — your employer applies for the permit on your behalf", detail: "In Ireland, either you or your employer can apply for the employment permit — but in practice employers always do it. Once you have an offer, your employer submits the Critical Skills Employment Permit application to the Department of Enterprise, Trade and Employment (DETE) online at epos.enterprise.gov.ie. Processing: typically 4–6 weeks for standard applications. You can then apply for your employment visa ('D' visa) at the Irish Embassy in Abuja or Consulate in Lagos." },
           { action: "Apply for your employment visa ('D' visa) at the Irish Embassy in Abuja", detail: "Once your employment permit is approved, apply for the 'D' (Long Stay) visa at the Irish Embassy, Abuja. Bring: employment permit approval, job offer letter, passport, passport photographs, bank statements, educational qualifications. Fee: €60 for a single-entry visa, €100 for multiple entry. Processing at the embassy: 4–8 weeks. Book your appointment online at dfa.ie." },
           { action: "Register with GNIB within 90 days of arriving in Ireland", detail: "On arrival, register with the Garda National Immigration Bureau (GNIB) at inisonline.jahs.ie to receive your Irish Residence Permit (IRP) card (Stamp 1). This is your legal right-to-stay document. Fee: €300. After 2 years on the Critical Skills permit, apply for Stamp 4 — this removes all work permit requirements and lets you work for any employer freely." },
         ],
         keyFacts: [
-          "Critical Skills permit salary threshold: €32,000+/yr for listed occupations; €64,000+/yr for all others",
+          "Critical Skills permit salary threshold: €40,904+/yr for listed occupations; €68,911+/yr for all others",
           "After 2 years on Critical Skills permit: apply for Stamp 4 — no employment permit needed, work freely for any employer",
           "Employer applies for the permit at epos.enterprise.gov.ie — you get the permit, then apply for the visa",
-          "General Employment Permit: for roles not on critical skills list — salary €30,000+, employer pays €1,000 fee",
+          "General Employment Permit: for roles not on critical skills list — salary €36,605+, employer pays €1,000 fee",
           "After 5 years legal residence: eligible for Long-Term Residence; after 5 years as Irish citizen: can hold dual nationality",
         ],
         outcome: "Critical Skills Employment Permit → 2 years → Stamp 4 (free to work for any employer) → 5 years total Irish residence → Long-Term Residence or Irish Naturalisation (citizenship). Ireland allows dual nationality — you do not need to give up your Nigerian passport.",
@@ -3880,7 +3882,7 @@ Non-EU students in Ireland can work:
 After completing your undergraduate degree, you can apply for the TLGP before your student permission expires. TLGP for bachelor's graduates: 12 months of permission to stay in Ireland and search for graduate employment. You cannot work more than 40 hours per week. If you find a qualifying job, your employer applies for a Critical Skills or General Employment Permit to convert you to a work permission. The TLGP costs €300 to apply for at INIS.
 
 **After TLGP: Employment Permit**
-If you secure a job offer in a Critical Skills occupation (salary €32,000+), your employer applies for a Critical Skills Employment Permit through enterprise.gov.ie. After 2 years on this permit, you upgrade to Stamp 4 — no more employment permit needed, you can work for any Irish employer freely.`,
+If you secure a job offer in a Critical Skills occupation (salary €40,904+), your employer applies for a Critical Skills Employment Permit through enterprise.gov.ie. After 2 years on this permit, you upgrade to Stamp 4 — no more employment permit needed, you can work for any Irish employer freely.`,
 
       masters: `**Ireland Student Visa (Study Visa 'D') — Master's**
 
@@ -3896,7 +3898,7 @@ Same as undergraduate. Apply online at visas.inis.gov.ie → Study visa → Book
 **Financial Requirements for Visa**
 The Irish Embassy assesses whether you can fund your studies without working illegally. For master's applications:
 - Tuition fees: €12,000–30,000/yr — you must show this is covered (fee payment receipt, sponsor's bank statements, scholarship letter)
-- Living costs: approximately €7,000–10,000 for the first academic year in Ireland (Dublin is expensive)
+- Living costs: at least €10,000 for the first academic year (official requirement) in Ireland (Dublin is expensive)
 - Total recommended funds demonstrated: €20,000–40,000 for first year depending on your program
 
 If your family is sponsoring you, include: 6 months of sponsor's bank statements, a signed sponsorship letter, proof of the relationship (birth certificate if parent), and evidence of sponsor's employment or business income.
@@ -3954,7 +3956,7 @@ Apply for study 'D' visa at visas.inis.gov.ie. Funding letter from IRC or univer
 **The Most Important Thing to Know**
 Ireland's Critical Skills Employment Permit is employer-led — either you or your employer submits the application, but in practice employers always do. You do not go to the embassy first. The sequence is:
 
-1. Job offer received with salary ≥ €32,000 in a critical skills occupation
+1. Job offer received with salary ≥ €40,904 in a critical skills occupation
 2. Employer submits permit application at epos.enterprise.gov.ie
 3. DETE processes and approves the permit (4–12 weeks)
 4. You apply for an employment 'D' visa at the Irish Embassy Abuja
@@ -3965,7 +3967,7 @@ Ireland's Critical Skills Employment Permit is employer-led — either you or yo
 **Critical Skills Occupation List**
 The full list is at enterprise.gov.ie. Key categories for Nigerians:
 
-IT and Technology: Software Developer, Data Scientist, Cybersecurity Specialist, Systems/IT Architect, Network Engineer, ICT Project Manager, AI/Machine Learning Engineer — all qualify at €32,000+
+IT and Technology: Software Developer, Data Scientist, Cybersecurity Specialist, Systems/IT Architect, Network Engineer, ICT Project Manager, AI/Machine Learning Engineer — all qualify at €40,904+
 
 Healthcare: Pharmacist (€50,000+ typically), Medical Scientist, Radiographer, Registered Nurse (General Employment Permit — different route), Clinical Nurse Specialist
 
@@ -3973,7 +3975,7 @@ Engineering: Civil Engineer, Mechanical Engineer, Electrical Engineer, Chemical 
 
 Finance: Actuary, Financial Analyst, Risk Manager, Quantitative Analyst
 
-If your occupation is NOT on the Critical Skills list, you may be eligible for the General Employment Permit — salary threshold is €30,000+, employer pays a €1,000 permit fee (refunded if refused), and the occupation must not be on the Ineligible list.
+If your occupation is NOT on the Critical Skills list, you may be eligible for the General Employment Permit — salary threshold is €36,605+, employer pays a €1,000 permit fee (refunded if refused), and the occupation must not be on the Ineligible list.
 
 **Where to Find Jobs in Ireland**
 Primary job boards: irishjobs.ie, jobs.ie, linkedin.com/jobs (set location to Ireland), indeed.ie. Key employers by sector:
@@ -4065,7 +4067,7 @@ If refused, you receive a written refusal notice specifying the grounds. You can
       ],
       work: [
         { month: "Job search", task: "Apply on irishjobs.ie, linkedin.com/jobs (Ireland), and company career pages. Target Critical Skills occupations" },
-        { month: "Job offer", task: "Receive offer with salary ≥ €32,000. Confirm occupation is on Critical Skills list at enterprise.gov.ie" },
+        { month: "Job offer", task: "Receive offer with salary ≥ €40,904. Confirm occupation is on Critical Skills list at enterprise.gov.ie" },
         { month: "Permit application", task: "Employer submits Critical Skills Employment Permit at epos.enterprise.gov.ie. Processing: 4–12 weeks" },
         { month: "Employment visa", task: "With permit approval, apply for 'D' employment visa at Irish Embassy Abuja. Fee: €60 (single) or €100 (multiple). Processing: 4–8 weeks" },
         { month: "Travel and arrival", task: "Travel to Ireland. Register with GNIB within 90 days. Get Stamp 1 IRP card. Open bank account (AIB, Bank of Ireland)" },
@@ -4116,7 +4118,7 @@ If refused, you receive a written refusal notice specifying the grounds. You can
         "Stamp 4 after 2 years is uniquely generous — no other EU country gives unrestricted work rights this quickly",
         "Ireland allows dual nationality — you keep your Nigerian passport when you naturalise as Irish",
         "An Irish passport = EU citizenship — you can live and work in all 27 EU member states without any visa",
-        "Dublin's cost of living is high — negotiate your salary above the €32,000 minimum if you can. Mid-level tech roles pay €55,000–90,000",
+        "Dublin's cost of living is high — negotiate your salary above the €40,904 minimum if you can. Mid-level tech roles pay €55,000–90,000",
         "LinkedIn is the most effective job search tool for Ireland's tech sector — build your profile before applying",
         "GNIB registration fee is €300 — budget for this on arrival. Book your appointment before you land",
       ],
@@ -4240,7 +4242,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         pathway: "Belgian Single Permit",
       },
       visitor: {
-        fee: "€80",
+        fee: "€90",
         duration: "90 days / 180-day period",
         processing: "15–30 days",
         living: "€95/day recommended",
@@ -4321,12 +4323,12 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         intro: "Belgian visitor visas are Schengen short-stay Type C visas — valid for up to 90 days in any 180-day period across all 26 Schengen countries. Apply at the Belgian Embassy in Abuja or via VFS Global. Processing: 15 calendar days standard. Show clear purpose, strong ties to Nigeria, and sufficient funds (~€95/day).",
         firstSteps: [
           { action: "Book appointment at VFS Global Nigeria or Belgian Embassy Abuja", detail: "VFS Global handles Belgian Schengen visa applications in Nigeria. Applications must be submitted no more than 6 months and no less than 15 days before travel. Book as early as possible." },
-          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements (3–6 months). Return flight itinerary. Hotel or host confirmation. Travel insurance (€30,000+ Schengen-wide coverage). Employment letter or business registration as proof of Nigerian ties." },
-          { action: "Submit application and pay €80 fee — biometrics collected on the day", detail: "Bring originals and photocopies. VFS service fee applies in addition to the €80 embassy fee. Processing: 15 calendar days standard, up to 30 days for complex cases." },
+          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements (3–6 months). Return flight itinerary. Hotel or host confirmation. Travel insurance (€36,605+ Schengen-wide coverage). Employment letter or business registration as proof of Nigerian ties." },
+          { action: "Submit application and pay €90 fee — biometrics collected on the day", detail: "Bring originals and photocopies. VFS service fee applies in addition to the €90 embassy fee. Processing: 15 calendar days standard, up to 30 days for complex cases." },
         ],
         keyFacts: [
           "Belgian Schengen visa covers all 26 Schengen countries — Germany, France, Netherlands, Spain and more",
-          "Fee: €80 adults, €40 children 6–12, free under 6",
+          "Fee: €90 adults, €45 children 6–12, free under 6",
           "Processing: 15 calendar days standard, up to 30 for complex cases",
           "Multiple-entry visas available if you have valid reason and prior Schengen travel history",
           "Funds requirement: ~€95/day recommended",
@@ -4488,7 +4490,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
 - Travel and medical insurance: minimum €30,000 coverage, valid for entire Schengen area
 - Proof of financial means: bank statements for last 3–6 months showing sufficient funds (recommended €95/day = ~€8,550 for 90 days, but less for shorter trips)
 - Proof of ties to Nigeria: employment letter, business registration, property ownership, family ties — anything proving you will return
-- Application fee: €80 for adults, €40 for children 6–12, free for under 6
+- Application fee: €90 for adults, €45 for children 6–12, free for under 6
 
 **Processing time:** 15 calendar days (standard). Up to 30 days for complex cases. Apply early.
 
@@ -4539,9 +4541,9 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
       ],
       visitor: [
         { step: "1", title: "Confirm purpose and travel dates (6–8 weeks before)", detail: "Confirm your reason for visiting Belgium. Tourism, business meetings, family visit, or attending a conference all require slightly different supporting documents." },
-        { step: "2", title: "Gather required documents", detail: "Assemble: passport (3 months validity beyond return date), bank statements (3–6 months), accommodation proof, return flight itinerary, travel insurance (€30,000+ coverage), proof of Nigerian ties." },
+        { step: "2", title: "Gather required documents", detail: "Assemble: passport (3 months validity beyond return date), bank statements (3–6 months), accommodation proof, return flight itinerary, travel insurance (€36,605+ coverage), proof of Nigerian ties." },
         { step: "3", title: "Book VFS Global or Embassy appointment", detail: "VFS Global handles Belgian visa applications in Nigeria. Book appointment online. Application must be submitted not more than 6 months before travel and at least 15 days before." },
-        { step: "4", title: "Submit application and pay €80 fee", detail: "Bring original documents plus photocopies. Biometrics collected. Fee: €80 for adults. VFS service fee applies separately." },
+        { step: "4", title: "Submit application and pay €90 fee", detail: "Bring original documents plus photocopies. Biometrics collected. Fee: €90 for adults. VFS service fee applies separately." },
         { step: "5", title: "Wait for decision (15–30 calendar days)", detail: "Standard processing: 15 calendar days. Complex cases: up to 30 days. Track via VFS portal. Do not book non-refundable flights before visa is confirmed." },
         { step: "6", title: "Travel to Belgium within visa validity", detail: "Entry stamp in passport marks start of your 90-day Schengen allowance. Keep your entry and exit stamps — useful if you apply for future Schengen visas." },
       ],
@@ -4665,7 +4667,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
   FR: {
     tagline: "France — the Eiffel Excellence scholarship, world-class universities, and a direct route into the EU job market.",
 
-    overview: `France is one of the most underrated destinations for Nigerian students and professionals. French public universities charge non-EU international students a flat €2,770/year for a Licence (Bachelor's) and €3,770/year for a Master's — set by the 2019 "Bienvenue en France" reform. Combined with the Eiffel Excellence Scholarship — which covers living expenses, return flights, and health insurance on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world for Nigerian students.
+    overview: `France is one of the most underrated destinations for Nigerian students and professionals. French public universities charge non-EU international students a flat €2,902/year for a Licence (Bachelor's) and €3,950/year for a Master's — set by the 2019 "Bienvenue en France" reform. Combined with the Eiffel Excellence Scholarship — which covers living expenses, return flights, and health insurance on top of fees — France becomes one of the most financially accessible high-quality education destinations in the world for Nigerian students.
 
 Paris, Lyon, Marseille, Toulouse, and Bordeaux host some of Europe's most prestigious institutions: Sorbonne Université, Sciences Po, École Polytechnique, HEC Paris, CentraleSupélec, and Université Paris-Saclay, which ranks in the global top 15 for natural sciences. For Nigerian students, the main challenge is language: most undergraduate programmes are taught in French. But at Master's and PhD level, English-medium programmes are available across all major disciplines.
 
@@ -4677,14 +4679,14 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
 
     stats: {
       undergrad: {
-        tuition: "€2,770/yr (non-EU flat rate)",
+        tuition: "€2,902/yr (non-EU flat rate)",
         living: "€800–1,400/mo",
         minIELTS: "6.0+ or DELF B2",
         processing: "4–8 weeks",
         pathway: "VLS-TS Student Visa",
       },
       masters: {
-        tuition: "€3,770/yr (non-EU flat rate); Sciences Po €20,640/yr",
+        tuition: "€3,950/yr (non-EU flat rate); Sciences Po €20,640/yr",
         living: "€900–1,500/mo",
         minIELTS: "6.5+ (English programmes)",
         processing: "4–8 weeks",
@@ -4705,7 +4707,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
         pathway: "Talent Passport – Salarié qualifié",
       },
       visitor: {
-        fee: "€80",
+        fee: "€90",
         duration: "90 days / 180-day period",
         processing: "15–45 days",
         living: "€65–120/day",
@@ -4715,7 +4717,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
 
     summary: {
       undergrad: {
-        intro: "French public universities charge non-EU international students a flat €2,770/year for a Licence (Bachelor's) — set by the 2019 'Bienvenue en France' reform. This is a fraction of UK or US fees for equivalent institutions. Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
+        intro: "French public universities charge non-EU international students a flat €2,902/year for a Licence (Bachelor's) — set by the 2019 'Bienvenue en France' reform. This is a fraction of UK or US fees for equivalent institutions. Most undergraduate programmes are in French, so strong French language skills (B2/C1) are required. You apply through Campus France Nigeria, which manages the application and pre-visa interview process for Nigerian students. Living costs are manageable outside Paris — €800–1,100/month in Lyon, Bordeaux, Toulouse, or Montpellier. The VLS-TS student visa is validated on arrival via OFII.",
         firstSteps: [
           { action: "Start French language preparation (minimum 12–18 months ahead)", detail: "Enroll at Alliance Française Lagos, Abuja, or Kano. Aim for DELF B2 minimum, C1 preferred. This is the single most critical step — most undergrad programmes require near-native French." },
           { action: "Register on Campus France Nigeria — mandatory before any university application", detail: "Go to nigeria.campusfrance.org, complete your DAP (preliminary application file), pay the Campus France fee (₦80,000 in 2025/26), and book a mandatory in-person interview at Campus France Lagos or Abuja. Complete this October–December for September intake." },
@@ -4723,7 +4725,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa at TLScontact Nigeria (June–July)", detail: "Start at france-visas.gouv.fr, complete the application form, then book a TLScontact appointment (TLS replaced VFS for France in Nigeria from April 2025). Documents: passport, Campus France attestation, enrolment letter, proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220." },
         ],
         keyFacts: [
-          "Public university tuition: €2,770/year flat rate for non-EU students (Licence/Bachelor's) — set by 2019 reform",
+          "Public university tuition: €2,902/year flat rate for non-EU students (Licence/Bachelor's) — set by 2019 reform",
           "Campus France Nigeria registration (₦80,000 fee + mandatory interview) is the mandatory first step",
           "Living costs: €800–1,100/month outside Paris; €1,200–1,800/month in Paris",
           "OFII validation within 3 months of arrival is mandatory — fully digital at administration-etrangers-en-france.interieur.gouv.fr",
@@ -4732,7 +4734,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
         outcome: "A French public university Licence gives you an EU-recognized degree from a world-class system at affordable fees compared to the UK or US. After graduating, you can apply for a 12-month CdS RECE job-search permit and transition to the Talent Passport worker route toward permanent residency after 5 years.",
       },
       masters: {
-        intro: "France's Master's landscape is exceptional. Public university fees for non-EU students are €3,770/year flat rate. Sciences Po Paris (€20,640/yr), HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance — note it does not cover tuition fees. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
+        intro: "France's Master's landscape is exceptional. Public university fees for non-EU students are €3,950/year flat rate. Sciences Po Paris (€20,640/yr), HEC Paris, Université Paris-Saclay, and Sorbonne Université offer world-ranked programmes — many in English at Master's level. The Eiffel Excellence Scholarship covers ~€1,200/month living allowance, return flights, and health insurance — note it does not cover tuition fees. Campus France Nigeria registration (₦80,000 fee) is mandatory before any application.",
         firstSteps: [
           { action: "Research Eiffel-eligible programmes and target institutions (August–October)", detail: "Check campusfrance.org/en/eiffel-scholarship-program-excellence for the list of eligible institutions and disciplines. Identify 2–3 target institutions. Contact admissions offices about Eiffel nomination eligibility." },
           { action: "Register on Campus France Nigeria and complete mandatory interview", detail: "Register at nigeria.campusfrance.org, complete your DAP, pay ₦80,000 fee, attend mandatory in-person interview. This must be completed before any French institution processes your application." },
@@ -4740,7 +4742,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           { action: "Apply for VLS-TS student visa via france-visas.gouv.fr and TLScontact (May–July)", detail: "Documents: passport, Campus France attestation, enrolment letter, scholarship letter (if Eiffel) or proof of €615/month, accommodation proof, photos, insurance. Long-stay fee: €220 (Eiffel holders exempt). Validate OFII within 3 months of arrival." },
         ],
         keyFacts: [
-          "Non-EU tuition: €3,770/year flat rate (public); Sciences Po: €20,640/yr; HEC: ~€57,700 for full MiM",
+          "Non-EU tuition: €3,950/year flat rate (public); Sciences Po: €20,640/yr; HEC: ~€57,700 for full MiM",
           "Eiffel Excellence Scholarship: ~€1,200/month stipend + return flights + insurance — does NOT cover tuition",
           "Post-Master's: 12-month CdS RECE job-search permit (not renewable for Nigerians)",
           "Most major Master's programmes are English-medium at postgraduate level",
@@ -4777,21 +4779,21 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
           "Talent Passport salary threshold: €39,582/year gross (updated August 2025 — verify at service-public.fr)",
           "EU Blue Card threshold: €59,373/year gross — stronger EU-wide mobility rights",
           "Permit duration: 4 years, renewable",
-          "Long-stay visa fee: €220 (updated April 2025); short-stay Schengen: €80",
+          "Long-stay visa fee: €220 (updated April 2025); short-stay Schengen: €90",
           "Permanent residency (carte de résident) after 5 years lawful residence; citizenship at 5 years with B1 French",
         ],
         outcome: "France → Talent Passport (4 years) → Carte de Résident after 5 years → French citizenship at 5 years with B1 French and integration record. Paris is the hub for international organisations (UNESCO, OECD), aerospace (Airbus), luxury (LVMH), pharma (Sanofi), and the world's largest startup campus (Station F).",
       },
       visitor: {
-        intro: "The French short-stay visa is a Schengen Type C visa — 90 days in any 180-day period. Since April 18, 2025, France switched from VFS Global to TLScontact for visa submissions in Nigeria. Start your application at france-visas.gouv.fr first, then book a TLScontact appointment. Short-stay visitor fee remains €80. Processing: 15 days standard, up to 45 days peak season.",
+        intro: "The French short-stay visa is a Schengen Type C visa — 90 days in any 180-day period. Since April 18, 2025, France switched from VFS Global to TLScontact for visa submissions in Nigeria. Start your application at france-visas.gouv.fr first, then book a TLScontact appointment. Short-stay visitor fee remains €90. Processing: 15 days standard, up to 45 days peak season.",
         firstSteps: [
           { action: "Complete the online application at france-visas.gouv.fr", detail: "Create an account, choose 'short-stay' / tourism or business, complete the form, and generate your printed application with barcode. This step is mandatory before any TLScontact appointment." },
-          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements 3–6 months (min €65/day). Return flight itinerary. Hotel or host letter. Travel insurance (€30,000+ Schengen-wide). Employment letter or business registration as proof of Nigerian ties." },
-          { action: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Book at tlscontact.com — TLS replaced VFS for France from April 2025. Bring originals and photocopies of every document. Biometrics collected. Pay €80 visa fee + TLScontact service fee (~₦15,000–20,000)." },
+          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements 3–6 months (min €65/day). Return flight itinerary. Hotel or host letter. Travel insurance (€36,605+ Schengen-wide). Employment letter or business registration as proof of Nigerian ties." },
+          { action: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Book at tlscontact.com — TLS replaced VFS for France from April 2025. Bring originals and photocopies of every document. Biometrics collected. Pay €90 visa fee + TLScontact service fee (~₦15,000–20,000)." },
         ],
         keyFacts: [
           "Short-stay Schengen visa: 90 days max in any 180-day period across all 26 Schengen countries",
-          "Fee: €80 adults, €40 children 6–11, free under 6",
+          "Fee: €90 adults, €45 children 6–11, free under 6",
           "Apply via france-visas.gouv.fr first, then book TLScontact appointment (not VFS — changed April 2025)",
           "Processing: 15 calendar days standard, up to 45 days peak season",
           "Proof of funds: €65/day minimum, €120/day recommended for Paris",
@@ -4985,7 +4987,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 - Proof of financial means: bank statements for 3–6 months. Minimum €65/day recommended (€120/day for Paris). For a 14-day Paris trip: show at least €1,700 available.
 - Proof of ties to Nigeria: employment letter with salary, business registration, property ownership, family situation, return flight — anything proving you will leave France when your visa expires
 - For business visits: invitation letter from the French company on official letterhead
-- Application fee: €80 for adults, €40 for children 6–11, free for under 6
+- Application fee: €90 for adults, €45 for children 6–11, free for under 6
 - TLScontact service fee: approximately ₦15,000–20,000 (check tlscontact.com for current Nigeria rate)
 
 **Processing time:** 15 calendar days standard. Up to 45 days for complex cases. Apply at least 3–4 weeks before travel. Do not book non-refundable flights before your visa is granted.
@@ -5039,8 +5041,8 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       ],
       visitor: [
         { step: "1", title: "Start application on france-visas.gouv.fr (4–6 weeks before)", detail: "Create an account, choose your visa type (short-stay tourism/business), complete the form, generate and print the application confirmation with barcode." },
-        { step: "2", title: "Gather all required documents", detail: "Passport, photos, travel insurance (€30,000+ for full Schengen), accommodation proof, return flight itinerary, bank statements (3–6 months), proof of employment/ties to Nigeria." },
-        { step: "3", title: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Bring originals AND photocopies of every document. Biometrics collected. Pay €80 visa fee + TLScontact service fee (~₦15,000–20,000). Keep your receipt. Book at tlscontact.com." },
+        { step: "2", title: "Gather all required documents", detail: "Passport, photos, travel insurance (€36,605+ for full Schengen), accommodation proof, return flight itinerary, bank statements (3–6 months), proof of employment/ties to Nigeria." },
+        { step: "3", title: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Bring originals AND photocopies of every document. Biometrics collected. Pay €90 visa fee + TLScontact service fee (~₦15,000–20,000). Keep your receipt. Book at tlscontact.com." },
         { step: "4", title: "Wait for decision (15–45 calendar days)", detail: "Track status via TLScontact portal. French visas are typically decided in 15 days. Peak season (June–September) can be longer — apply earlier. Do not book non-refundable flights before visa is confirmed." },
         { step: "5", title: "Collect passport and travel within visa validity", detail: "Collect passport from TLScontact. Check visa validity dates carefully — ensure they cover your travel period. 90 days max in any 180-day Schengen period." },
       ],
@@ -5051,13 +5053,13 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { title: "French is non-negotiable for most undergrad programmes", body: "DELF B2 is the minimum, C1 is recommended. Start language classes at Alliance Française Lagos, Abuja, or Kano early — minimum 12–18 months of preparation before applying." },
         { title: "Campus France registration is mandatory — do this first", body: "You cannot apply to any French public institution without a Campus France number. The mandatory interview in Lagos or Abuja (fee: ₦80,000) must be completed before your university application can be processed." },
         { title: "CROUS housing: apply early and have a backup plan", body: "CROUS student housing (€150–400/month) is the most affordable option. Apply as early as possible at trouverunlogement.lescrous.fr. Demand exceeds supply — have a private accommodation backup plan." },
-        { title: "Know the difference between public universities and Grandes Écoles", body: "Non-EU students pay a flat €2,770/year at public universities (set by the 2019 'Bienvenue en France' reform), but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €12,500–22,000/year. Confirm which type of institution you are targeting before applying." },
+        { title: "Know the difference between public universities and Grandes Écoles", body: "Non-EU students pay a flat €2,902/year at public universities (set by the 2019 'Bienvenue en France' reform), but Grandes Écoles (École Polytechnique, HEC, Sciences Po) charge €12,500–22,000/year. Confirm which type of institution you are targeting before applying." },
         { title: "OFII validation within 3 months of arrival is mandatory", body: "If you miss the OFII validation window, your legal status becomes uncertain. Do it your first week in France via administration-etrangers-en-france.interieur.gouv.fr. Fully digital — pay €75 online." },
         { title: "Subsidised campus meals cost just €3.30", body: "CROUS restaurant universitaire tickets give subsidised hot meals at campus restaurants for €3.30/meal. Register as soon as you arrive — one of the best student benefits in France and significantly cuts your food budget." },
         { title: "Year 1 is competitive — take it seriously from day one", body: "French universities operate on a semester system. Year 1 of a Licence is demanding — students who fail to progress may be redirected. Academic independence and thesis quality matter as much as exams." },
       ],
       masters: [
-        { title: "Eiffel is one of the world's best scholarships for Nigerians — but it doesn't cover tuition", body: "The Eiffel Excellence Scholarship pays ~€1,200/month (2025/26 cycle) + return flights + insurance — enough to live comfortably in most French cities. Important: it does NOT cover tuition fees (you still pay €3,770/yr). Applications are submitted by your host institution, not you directly. Build a relationship with admissions offices early and ask about Eiffel nomination." },
+        { title: "Eiffel is one of the world's best scholarships for Nigerians — but it doesn't cover tuition", body: "The Eiffel Excellence Scholarship pays ~€1,200/month (2025/26 cycle) + return flights + insurance — enough to live comfortably in most French cities. Important: it does NOT cover tuition fees (you still pay €3,950/yr). Applications are submitted by your host institution, not you directly. Build a relationship with admissions offices early and ask about Eiffel nomination." },
         { title: "Sciences Po Paris is world-class and fully English-medium", body: "Sciences Po is one of the world's top institutions for international affairs, political science, economics, and law. It is fully English-medium and internationally recognized — worth the competitive application process for Nigerians in policy, law, or economics." },
         { title: "A French Master's opens French and EU job markets", body: "French Master's (2 years = 120 ECTS) often lead directly to CDI (permanent contract) employment. French employers strongly prefer French degrees — a French Master's from Sciences Po, Sorbonne, or Paris-Saclay opens doors that overseas qualifications may not." },
         { title: "Apply for CdS RECE immediately after graduation — it is not renewable", body: "The 12-month CdS RECE job-search permit must be applied for at the ANEF portal before your student permit expires. It is not renewable — you must find a qualifying job and switch to a Talent Passport within those 12 months or leave France." },
@@ -5077,7 +5079,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       work: [
         { title: "Station F in Paris is the world's largest startup campus", body: "Station F (13th arrondissement, Paris) houses 1,000+ startups and accelerators including Meta, Microsoft, Google, and LVMH. If you work in tech or product, getting into a Station F company is a genuine career accelerator." },
         { title: "Negotiate for cadre (executive) status", body: "French job titles matter — cadre status gives you a different pay scale, better benefits, and access to the management pension scheme (AGIRC-ARRCO). Negotiate for cadre status when possible — it significantly improves your employment conditions." },
-        { title: "Calculate your net salary carefully", body: "Income tax in France is progressive (0–45%) and there are additional social charges (~22%). Your take-home on €50,000 gross is roughly €32,000–34,000/year net. Use net-salary.fr or simulateur.net to model your actual take-home before accepting offers." },
+        { title: "Calculate your net salary carefully", body: "Income tax in France is progressive (0–45%) and there are additional social charges (~22%). Your take-home on €50,000 gross is roughly €40,904–34,000/year net. Use net-salary.fr or simulateur.net to model your actual take-home before accepting offers." },
         { title: "The Republican Integration Contract (CIR) is mandatory", body: "The CIR signed at OFII commits you to French language classes and civic formation sessions — these are free, scheduled by OFII, and genuinely useful. Language level assessed on arrival; some immigrants receive intensive hours based on their level." },
         { title: "Push for CDI (permanent contract) when possible", body: "French CDI (contrat à durée indéterminée) is the gold standard employment contract. CDDs (fixed-term) are common in entry-level roles. Prove yourself and push for CDI — it significantly improves housing, credit, and long-term stability." },
         { title: "Paris hosts UNESCO, OECD, and ICC — prime for policy careers", body: "If your background is policy, law, economics, or international development, Paris offers access to UNESCO, OECD, ICSID, and ICC — international organisations that barely exist outside New York, Geneva, and Vienna." },
@@ -5096,18 +5098,18 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 
     universities: {
       undergrad: [
-        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — one of Europe's most prestigious institutions with English-medium options at Licence level", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Selective for competitive Licence programmes", nigerian_community: "Active African student community in Paris; Nigerian students present across faculties" },
-        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, humanities — France's second city, lower cost than Paris with excellent quality of life", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student community; Nigerian community established in Lyon" },
-        { name: "Université Paul Sabatier (Toulouse III)", location: "Toulouse", known_for: "Aerospace engineering, aeronautics, applied mathematics — Airbus HQ is in Toulouse", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "International student body; Toulouse is an affordable engineering city" },
-        { name: "Université de Bordeaux", location: "Bordeaux", known_for: "Engineering, biomedical sciences, agri-business — beautiful city in southwest France", avg_tuition: "€2,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Small but present Nigerian community; Bordeaux growing as student city" },
+        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — one of Europe's most prestigious institutions with English-medium options at Licence level", avg_tuition: "€2,902/year (non-EU flat rate)", acceptance: "Selective for competitive Licence programmes", nigerian_community: "Active African student community in Paris; Nigerian students present across faculties" },
+        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, humanities — France's second city, lower cost than Paris with excellent quality of life", avg_tuition: "€2,902/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student community; Nigerian community established in Lyon" },
+        { name: "Université Paul Sabatier (Toulouse III)", location: "Toulouse", known_for: "Aerospace engineering, aeronautics, applied mathematics — Airbus HQ is in Toulouse", avg_tuition: "€2,902/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "International student body; Toulouse is an affordable engineering city" },
+        { name: "Université de Bordeaux", location: "Bordeaux", known_for: "Engineering, biomedical sciences, agri-business — beautiful city in southwest France", avg_tuition: "€2,902/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Small but present Nigerian community; Bordeaux growing as student city" },
       ],
       masters: [
         { name: "Sciences Po Paris", location: "Paris (+ regional campuses)", known_for: "International affairs, political science, economics, public policy — world top 5, fully English-medium", avg_tuition: "€20,640/year flat rate for non-EEA students", acceptance: "Very competitive (global top applicants)", nigerian_community: "Highly international student body; Nigerian students in policy and law programmes" },
-        { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, mathematics, engineering — top 15 globally (Shanghai Ranking); home to CentraleSupélec", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Very competitive for top programmes", nigerian_community: "Highly international research community; English-medium Master's" },
-        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — many English-medium Master's programmes", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Selective", nigerian_community: "Large African and Nigerian student community in Paris" },
+        { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, mathematics, engineering — top 15 globally (Shanghai Ranking); home to CentraleSupélec", avg_tuition: "€3,950/year (non-EU flat rate)", acceptance: "Very competitive for top programmes", nigerian_community: "Highly international research community; English-medium Master's" },
+        { name: "Sorbonne Université", location: "Paris", known_for: "Humanities, sciences, medicine, law — many English-medium Master's programmes", avg_tuition: "€3,950/year (non-EU flat rate)", acceptance: "Selective", nigerian_community: "Large African and Nigerian student community in Paris" },
         { name: "HEC Paris", location: "Jouy-en-Josas (near Paris)", known_for: "Master in Management, MBA, Master in Finance — top 3 European business school with powerful alumni network", avg_tuition: "~€59,700 for 2-yr MiM; ~€49,500 for MiF", acceptance: "Very competitive", nigerian_community: "Highly international cohort; scholarships available for African students" },
         { name: "École Polytechnique (l'X)", location: "Palaiseau (near Paris)", known_for: "Engineering Master's and PhD — France's most elite engineering school; world-class industry connections", avg_tuition: "€12,500/year (Master's)", acceptance: "Very competitive", nigerian_community: "Highly international engineering community" },
-        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, chemistry — lower cost than Paris with strong research output", avg_tuition: "€3,770/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student body; affordable city for Master's students" },
+        { name: "Université de Lyon (UCBL)", location: "Lyon", known_for: "Life sciences, engineering, chemistry — lower cost than Paris with strong research output", avg_tuition: "€3,950/year (non-EU flat rate)", acceptance: "Moderate", nigerian_community: "Growing international student body; affordable city for Master's students" },
       ],
       phd: [
         { name: "Université Paris-Saclay", location: "Saclay (near Paris)", known_for: "Natural sciences, maths, physics, engineering — hosts CNRS, CEA, INRIA labs; top 15 globally for natural sciences", avg_tuition: "~€391/year (funded positions: contrat doctoral ~€2,025/month gross)", acceptance: "Competitive — supervisor match critical", nigerian_community: "Highly international research environment; English-medium labs" },
@@ -5124,7 +5126,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
         { name: "French Embassy Bursaries (Bourses du gouvernement français)", amount: "Varies — partial to full funding. Small number of awards for Nigerian students each year", university: "Awarded by the French Embassy Abuja to outstanding students — specific to French-medium programmes", deadline: "Contact French Embassy Abuja (Institut Français Nigeria) — typically closes December/January", url: "https://www.nigeria.campusfrance.org/bourses" },
       ],
       masters: [
-        { name: "Eiffel Excellence Scholarship", amount: "~€1,200/month stipend (2025/26 cycle) + return flights from Nigeria + health insurance. Important: Eiffel does NOT cover tuition fees — you pay the €3,770/yr public university fee separately. Eiffel holders are exempt from the long-stay visa fee (€220).", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Applications open October 1; institutions submit nominations by January 8. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
+        { name: "Eiffel Excellence Scholarship", amount: "~€1,200/month stipend (2025/26 cycle) + return flights from Nigeria + health insurance. Important: Eiffel does NOT cover tuition fees — you pay the €3,950/yr public university fee separately. Eiffel holders are exempt from the long-stay visa fee (€220).", university: "All major French public universities and Grandes Écoles participating in the programme — nominated by host institution, not applied to directly", deadline: "Applications open October 1; institutions submit nominations by January 8. Secure your admission and request Eiffel nomination early.", url: "https://www.campusfrance.org/en/france-excellence-eiffel-scholarship-program" },
         { name: "Sciences Po Emile Boutmy Scholarship", amount: "€6,000–19,000 tuition reduction (income-based)", university: "Sciences Po Paris — for non-EU international students in the undergraduate college and Master's programmes", deadline: "Check sciencespo.fr — typically closes February for September intake", url: "https://www.sciencespo.fr/admissions/en/content/scholarships-and-financial-aid.html" },
         { name: "HEC Paris Scholarship", amount: "Up to €24,000 tuition reduction (MBA), merit and need-based", university: "HEC Paris — for Master's in Management and MBA programmes", deadline: "Rolling — check hec.edu/en/mba-programs/financial-aid", url: "https://www.hec.edu/en/mba-programs/financial-aid" },
       ],
@@ -5141,7 +5143,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       name: "French Embassy Abuja / French Consulate Lagos",
       address: "Embassy: 1 Oyinkan Abayomi Drive, Ikoyi, Lagos (Consulate) | 1 Udi Hills Street, Off Mambilla Street, Maitama, Abuja (Embassy)",
       phone: "Visa enquiries handled via TLScontact Nigeria (from April 2025). Embassy general enquiries: +234 1 448 5000 (Lagos Consulate)",
-      note: "IMPORTANT UPDATE (April 2025): France switched from VFS Global to TLScontact for visa submissions in Nigeria. Book appointments at tlscontact.com, not VFS. Long-stay visa fee (student/work): €220 (increased April 2025). Short-stay Schengen visitor visa fee: €80. The mandatory first step for student visas is Campus France Nigeria registration and interview (fee: ₦80,000 in 2025/26) — do this before any visa application. Start your visa application at france-visas.gouv.fr. All OFII post-arrival validation is now fully digital at administration-etrangers-en-france.interieur.gouv.fr within 3 months of arrival — €75 fee paid online.",
+      note: "IMPORTANT UPDATE (April 2025): France switched from VFS Global to TLScontact for visa submissions in Nigeria. Book appointments at tlscontact.com, not VFS. Long-stay visa fee (student/work): €220 (increased April 2025). Short-stay Schengen visitor visa fee: €90. The mandatory first step for student visas is Campus France Nigeria registration and interview (fee: ₦80,000 in 2025/26) — do this before any visa application. Start your visa application at france-visas.gouv.fr. All OFII post-arrival validation is now fully digital at administration-etrangers-en-france.interieur.gouv.fr within 3 months of arrival — €75 fee paid online.",
       website: "https://ng.ambafrance.org/",
       visa_apply: "https://france-visas.gouv.fr/",
       vfs: "https://fr.tlscontact.com/visa/NG/",
@@ -5202,7 +5204,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         pathway: "D3 Highly Qualified / Tech Visa",
       },
       visitor: {
-        fee: "€80",
+        fee: "€90",
         duration: "90 days / 180-day period",
         processing: "15 days",
         living: "€75/day recommended",
@@ -5278,11 +5280,11 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         intro: "Standard Schengen Type C visa. Portuguese Embassy Abuja — no VFS centre for Portugal in Nigeria, apply directly.",
         firstSteps: [
           { action: "Book appointment at Portuguese Embassy Abuja", detail: "Plot 1222 Parakou Crescent, Wuse II, Abuja. Slots can be limited — book early." },
-          { action: "Prepare documents", detail: "Passport, return itinerary, accommodation proof, travel insurance (€30,000+), bank statements (€75/day), proof of Nigeria ties." },
-          { action: "Pay fee and submit", detail: "€80 Schengen fee. Processing: 15 days standard." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, accommodation proof, travel insurance (€36,605+), bank statements (€75/day), proof of Nigeria ties." },
+          { action: "Pay fee and submit", detail: "€90 Schengen fee. Processing: 15 days standard." },
         ],
         keyFacts: [
-          "Fee: €80 | Processing: 15 days",
+          "Fee: €90 | Processing: 15 days",
           "No criminal record required for visitor visa",
           "No VFS for Portugal in Nigeria — embassy-direct only",
           "Covers all 27 Schengen Area countries",
@@ -5326,7 +5328,7 @@ IFICI Tax Regime (NHR 2.0): The original NHR regime closed to new applicants in 
 
       visitor: `**Schengen Visitor Visa (Type C)**
 
-Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: valid passport, return flight itinerary, accommodation proof (hotel/Airbnb/host letter), travel insurance (€30,000+ Schengen-wide), bank statements (€75/day recommended), proof of Nigerian employment or business ties. Fee: €80. Processing: 15 days. Portugal is warm year-round — Lisbon, Porto, the Algarve, and Madeira are all excellent destinations.`,
+Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: valid passport, return flight itinerary, accommodation proof (hotel/Airbnb/host letter), travel insurance (€36,605+ Schengen-wide), bank statements (€75/day recommended), proof of Nigerian employment or business ties. Fee: €90. Processing: 15 days. Portugal is warm year-round — Lisbon, Porto, the Algarve, and Madeira are all excellent destinations.`,
     },
 
     timeline: {
@@ -5354,7 +5356,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         { step: 4, title: "PR + citizenship at 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
       ],
       visitor: [
-        { step: 1, title: "Apply at Portuguese Embassy Abuja", detail: "3–4 weeks before travel. Standard Schengen. €80 fee. Criminal record not required for visitor visas. 15-day processing." },
+        { step: 1, title: "Apply at Portuguese Embassy Abuja", detail: "3–4 weeks before travel. Standard Schengen. €90 fee. Criminal record not required for visitor visas. 15-day processing." },
       ],
     },
 
@@ -5425,7 +5427,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
       name: "Portuguese Embassy Abuja",
       address: "Plot 1222, Parakou Crescent, off Aminu Kano Crescent, Wuse II, Abuja",
       phone: "+234 9 461 8857",
-      note: "All Portuguese visa applications for Nigerian nationals are submitted at the Portuguese Embassy in Abuja. There is no VFS centre for Portugal in Nigeria — go directly to the embassy. Long-stay visa (D3/D4) fee: ~€90. Short-stay Schengen: €80. IMPORTANT: criminal record certificate (apostilled) is required for D3 and D4 long-stay visas — obtain from Nigerian Police Force and get apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks for this step. Residence permits after arrival are applied for at AIMA (Agência para a Integração, Migrações e Asilo) — the agency that replaced SEF in 2023.",
+      note: "All Portuguese visa applications for Nigerian nationals are submitted at the Portuguese Embassy in Abuja. There is no VFS centre for Portugal in Nigeria — go directly to the embassy. Long-stay visa (D3/D4) fee: ~€90. Short-stay Schengen: €90. IMPORTANT: criminal record certificate (apostilled) is required for D3 and D4 long-stay visas — obtain from Nigerian Police Force and get apostilled at the Ministry of Foreign Affairs. Allow 6–8 weeks for this step. Residence permits after arrival are applied for at AIMA (Agência para a Integração, Migrações e Asilo) — the agency that replaced SEF in 2023.",
       website: "https://abuja.embaixadaportugal.mne.gov.pt/",
       visa_apply: "https://abuja.embaixadaportugal.mne.gov.pt/en/",
       vfs: "https://abuja.embaixadaportugal.mne.gov.pt/en/",
@@ -5478,7 +5480,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         pathway: "Autorización de residencia y trabajo",
       },
       visitor: {
-        fee: "€80",
+        fee: "€90",
         duration: "90 days / 180-day period",
         processing: "15 days",
         living: "€90/day recommended",
@@ -5554,11 +5556,11 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         intro: "Standard Schengen Type C visa. Apply at the Spanish Embassy Abuja or VFS Global Nigeria. Processing: 15 days.",
         firstSteps: [
           { action: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "VFS Global handles Spanish Schengen visa applications in Nigeria. Apply 3–4 weeks before travel." },
-          { action: "Prepare documents", detail: "Passport, return itinerary, hotel/accommodation, travel insurance (€30,000+), bank statements (€90/day), proof of Nigerian employment or business ties." },
-          { action: "Pay fee and submit", detail: "€80 fee. Processing: 15 days standard." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, hotel/accommodation, travel insurance (€36,605+), bank statements (€90/day), proof of Nigerian employment or business ties." },
+          { action: "Pay fee and submit", detail: "€90 fee. Processing: 15 days standard." },
         ],
         keyFacts: [
-          "Fee: €80 | Processing: 15 days",
+          "Fee: €90 | Processing: 15 days",
           "No criminal record required for visitor visa",
           "VFS Global Nigeria handles submissions",
           "Covers all 27 Schengen Area countries",
@@ -5603,7 +5605,7 @@ EU Blue Card: for roles with salary ≥ 1.5× average (~€38,000/yr) requiring 
 
       visitor: `**Schengen Visitor Visa (Type C)**
 
-Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nigeria. Documents: passport (3+ months validity), return flight itinerary, hotel/accommodation confirmation, travel insurance (€30,000+ Schengen-wide), bank statements (€90/day minimum), proof of Nigerian employment or business ties, application form. Fee: €80. Processing: 15 days standard. Apply 3–4 weeks before travel.`,
+Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nigeria. Documents: passport (3+ months validity), return flight itinerary, hotel/accommodation confirmation, travel insurance (€36,605+ Schengen-wide), bank statements (€90/day minimum), proof of Nigerian employment or business ties, application form. Fee: €90. Processing: 15 days standard. Apply 3–4 weeks before travel.`,
     },
 
     timeline: {
@@ -5633,7 +5635,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         { step: 5, title: "PR at 5 years, citizenship at 10", detail: "Permanent residency (residencia de larga duración) at 5 years. Spanish citizenship at 10 years." },
       ],
       visitor: [
-        { step: 1, title: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "3–4 weeks before travel. €80 fee. Standard Schengen documents. Criminal record NOT required for visitor visas." },
+        { step: 1, title: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "3–4 weeks before travel. €90 fee. Standard Schengen documents. Criminal record NOT required for visitor visas." },
         { step: 2, title: "Decision", detail: "15 days standard. Track via VFS portal. Spain is very popular — apply early for summer travel." },
       ],
     },
@@ -5759,11 +5761,11 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         salary: "180+ SMC points / Green List role",
         living: "NZD 1,500–2,200/mo (Auckland)",
         processing: "4–8 weeks",
-        fee: "NZD 735 (AEWV)",
+        fee: "NZD 1,540 (AEWV)",
         pathway: "AEWV / Skilled Migrant / Green List",
       },
       visitor: {
-        fee: "NZD 211 (~€115)",
+        fee: "NZD 441",
         duration: "Up to 9 months / 18-month period",
         processing: "2–4 weeks",
         living: "NZD 1,000/mo or credit card evidence",
@@ -5777,7 +5779,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         firstSteps: [
           { action: "Choose a university and apply directly online", detail: "Main intakes: February (Semester 1) and July (Semester 2). Apply 3–6 months before semester start. Key universities: University of Auckland (top 100 globally), Victoria University Wellington, Otago (medicine/marine science), Canterbury (engineering), Massey (agriculture/food tech). Apply via each university's online portal." },
           { action: "Get medical certificate and police clearance (allow 2–3 months)", detail: "Medical certificate (chest X-ray for TB screening) is required from an INZ-approved panel physician in Nigeria — find the list at immigration.govt.nz/medical. Police clearance from Nigerian Police Force. Start these early as they take time." },
-          { action: "Apply for student visa online at visas.immigration.govt.nz", detail: "Upload: offer of place letter, passport, funds evidence (NZD 15,000/year in bank or scholarship letter), medical certificate, police clearance, English proficiency (IELTS 6.0+). Fee: NZD 375. Processing: 2–6 weeks." },
+          { action: "Apply for student visa online at visas.immigration.govt.nz", detail: "Upload: offer of place letter, passport, funds evidence (NZD 20,000/year in bank or scholarship letter), medical certificate, police clearance, English proficiency (IELTS 6.0+). Fee: NZD 850. Processing: 2–6 weeks." },
           { action: "Plan for Post-Study Work Visa from day one", detail: "After completing your degree, apply for the Post-Study Work Visa before your student visa expires. Bachelor's: 3 years open work rights. This lets you work for any employer — building toward the Skilled Migrant Category or Green List residency." },
         ],
         keyFacts: [
@@ -5794,7 +5796,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         firstSteps: [
           { action: "Apply for NZ Commonwealth Scholarship (fully funded) via Commonwealth Scholarship Commission Nigeria", detail: "The NZ Commonwealth Scholarship covers full tuition, NZD 20,000/year living allowance, return flights, and insurance. Applications open September–November annually via the Commonwealth Scholarship Commission Nigeria. Apply for this first." },
           { action: "Apply directly to universities with your undergraduate transcript and research proposal", detail: "Most Master's applications go through the university's online portal. Submissions: typically 3–6 months before intake. University Excellence Scholarships are applied with admission. Merit-based — submit strong academic results." },
-          { action: "Apply for student visa online (offer letter → medical cert → police cert → visa)", detail: "Once you have your offer of place, apply for the student visa at visas.immigration.govt.nz. Upload offer letter, funds proof (scholarship letter or NZD 15,000/year), medical certificate, police clearance. Fee: NZD 375. Allow 2–6 weeks." },
+          { action: "Apply for student visa online (offer letter → medical cert → police cert → visa)", detail: "Once you have your offer of place, apply for the student visa at visas.immigration.govt.nz. Upload offer letter, funds proof (scholarship letter or NZD 20,000/year), medical certificate, police clearance. Fee: NZD 850. Allow 2–6 weeks." },
           { action: "Identify Green List occupations in your field before you start your degree", detail: "Check immigration.govt.nz/green-list before you enrol. If your Master's leads to a Green List Tier 1 occupation (engineer, nurse, doctor, teacher), plan your post-graduation job search accordingly — qualifying roles give straight-to-residence." },
         ],
         keyFacts: [
@@ -5811,7 +5813,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         firstSteps: [
           { action: "Email NZ academics directly with your research proposal and CV", detail: "Cold contact is normal and expected in NZ academia. Write a brief, specific email referencing their published research. Ask if they are taking PhD students. A supervisor's support is critical for the NZ Doctoral Scholarship nomination." },
           { action: "Apply for NZ Doctoral Scholarship through your chosen university", detail: "The NZ Doctoral Scholarship pays NZD 27,500/year + tuition fees for 3 years. Applications go through the university — deadlines vary, main intakes February and July. Apply with research proposal, CV, transcripts, and 2 references." },
-          { action: "Apply for student visa online (medical cert + police cert required)", detail: "Apply at visas.immigration.govt.nz. Upload offer of place / scholarship letter, medical certificate from INZ-approved physician, police clearance, IELTS 6.5+. Fee: NZD 375. Processing: 2–6 weeks." },
+          { action: "Apply for student visa online (medical cert + police cert required)", detail: "Apply at visas.immigration.govt.nz. Upload offer of place / scholarship letter, medical certificate from INZ-approved physician, police clearance, IELTS 6.5+. Fee: NZD 850. Processing: 2–6 weeks." },
           { action: "From year 2, research Green List jobs and build your NZ professional network", detail: "Network at conferences and with industry contacts. Identify Green List Tier 1 occupations in your field. A qualifying job offer after your PhD triggers straight-to-residence — plan this from mid-PhD onwards." },
         ],
         keyFacts: [
@@ -5828,13 +5830,13 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
         firstSteps: [
           { action: "Identify whether your occupation is on the Green List before anything else", detail: "Check immigration.govt.nz/green-list. Tier 1 occupations (straight-to-residency): medical practitioners, nurses, civil/mechanical/electrical engineers, secondary school STEM teachers, construction project managers, and more. Tier 2 (2 years work first): broader list. This determines your entire strategy." },
           { action: "Secure a job offer from an INZ-accredited employer", detail: "Check the accredited employer register at immigration.govt.nz. Employer submits a Job Check to INZ before you can apply for AEWV. Health sector: register with MCNZ (medicine) or NCNZ (nursing) first — NZ registration requires degree verification and English test (IELTS 7.0 for nurses)." },
-          { action: "Apply for Accredited Employer Work Visa (AEWV) online", detail: "Apply at visas.immigration.govt.nz. Documents: passport, job offer, qualifications, English proficiency (IELTS 5.0+ for most), medical certificate, police clearance. Fee: NZD 750. Processing: 2–4 weeks. AEWV is typically 3 years (extendable to 5)." },
+          { action: "Apply for Accredited Employer Work Visa (AEWV) online", detail: "Apply at visas.immigration.govt.nz. Documents: passport, job offer, qualifications, English proficiency (IELTS 5.0+ for most), medical certificate, police clearance. Fee: NZD 1,540. Processing: 2–4 weeks. AEWV is up to 5 years for most jobs (3 years for ANZSCO skill level 4–5 roles)." },
           { action: "Apply for Resident Visa via Green List (immediately) or SMC (180+ points)", detail: "Green List Tier 1: apply for Resident Visa as soon as you have your qualifying job offer — no waiting period. SMC: submit Expression of Interest (EOI) once you have 180+ points; if selected, apply for Resident Visa. Citizenship after 5 years as resident — dual nationality allowed." },
         ],
         keyFacts: [
           "Green List Tier 1: straight-to-permanent-residency for qualifying shortage occupations — no points needed",
           "SMC: 180+ points from age, qualifications, NZ work experience, job offer",
-          "AEWV fee: NZD 750; AEWV duration: 3 years (extendable to 5)",
+          "AEWV fee: NZD 1,540; AEWV duration: up to 5 years for most jobs (3 for skill level 4–5)",
           "Nurses require NCNZ registration (IELTS 7.0 in all bands); doctors require MCNZ registration",
           "NZ citizenship after 5 years as resident — dual nationality permitted, keep Nigerian passport",
         ],
@@ -5843,14 +5845,14 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
       visitor: {
         intro: "New Zealand visitor visa allows up to 9 months in an 18-month period. Most applications are processed fully online via Immigration New Zealand (INZ) — no embassy visit required. Apply at visas.immigration.govt.nz. Processing: 2–4 weeks. NZ is not Schengen — this visa covers New Zealand only. Australia requires a separate visa.",
         firstSteps: [
-          { action: "Apply online at visas.immigration.govt.nz", detail: "Create an INZ account, choose 'Visitor Visa', upload all documents. No embassy or VFS visit needed for most Nigerian applicants — fully online process. Fee: NZD 211 (~€115), paid by card." },
+          { action: "Apply online at visas.immigration.govt.nz", detail: "Create an INZ account, choose 'Visitor Visa', upload all documents. No embassy or VFS visit needed for most Nigerian applicants — fully online process. Fee: NZD 441, paid by card." },
           { action: "Gather required documents", detail: "Valid passport, recent passport photo, evidence of funds (NZD 1,000/month via bank statements or credit card evidence), return or onward flight itinerary, accommodation plan (hotel/host letter), proof of Nigerian ties (employment letter, business registration, family)." },
           { action: "Wait for decision and respond quickly to any requests", detail: "Processing: 2–4 weeks online. INZ may request additional documents — respond within their stated deadline. Check your INZ account regularly." },
         ],
         keyFacts: [
           "Visitor visa: up to 9 months in an 18-month period",
           "Fully online application — no embassy or VFS visit required for most applicants",
-          "Fee: NZD 211 (~€115)",
+          "Fee: NZD 441",
           "Processing: 2–4 weeks",
           "NZ visa covers New Zealand only — Australia requires a separate ETA or visa",
         ],
@@ -5862,7 +5864,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
       undergrad: `**New Zealand Student Visa**
 
 1. Apply directly to a New Zealand university — receive offer of place.
-2. Apply for student visa online at visas.immigration.govt.nz. Documents: passport, offer of place letter, evidence of funds (NZD 15,000/year minimum in bank or scholarship letter), accommodation proof, proof of English proficiency (IELTS 6.0+), medical certificate (chest X-ray from INZ-approved panel physician in Nigeria), police certificate (from Nigerian Police Force). Fee: NZD 375.
+2. Apply for student visa online at visas.immigration.govt.nz. Documents: passport, offer of place letter, evidence of funds (NZD 20,000/year minimum in bank or scholarship letter), accommodation proof, proof of English proficiency (IELTS 6.0+), medical certificate (chest X-ray from INZ-approved panel physician in Nigeria), police certificate (from Nigerian Police Force). Fee: NZD 850.
 3. Processing: 2–6 weeks online.
 4. On arrival: no separate registration needed — your visa conditions are your authorization to study and work.
 5. Work: 20 hrs/week during term, full-time in scheduled holidays.
@@ -5881,9 +5883,9 @@ PhD students apply for a student visa. For NZ Doctoral Scholarship holders: scho
 Step 1 — AEWV (to enter and work):
 - Find an INZ-accredited employer in New Zealand (check accredited employer list at immigration.govt.nz).
 - Employer makes you a Job Check-approved offer.
-- Apply for AEWV online: passport, job offer, qualification evidence, English proof (IELTS 5.0+ for most roles), medical certificate, police certificate. Fee: NZD 750.
+- Apply for AEWV online: passport, job offer, qualification evidence, English proof (IELTS 5.0+ for most roles), medical certificate, police certificate. Fee: NZD 1,540.
 - Processing: 2–4 weeks.
-- AEWV is typically 3 years (extendable to 5). It gives you open work rights with the accredited employer.
+- AEWV is up to 5 years for most jobs (3 years for ANZSCO skill level 4–5 roles). It gives you open work rights with the accredited employer.
 
 Step 2 — Residency routes:
 
@@ -5913,7 +5915,7 @@ Documents uploaded:
 - Evidence of ties to Nigeria: employment letter, business registration, family ties
 - Police clearance certificate (from Nigerian Police Force) — required for stays over 6 months or if requested
 
-Fee: NZD 211 (~€115). Pay online by card.
+Fee: NZD 441. Pay online by card.
 Processing: 2–4 weeks online. Some applications request additional documents — respond quickly.
 
 Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa — covers New Zealand only. Australia requires a separate visa.`,
@@ -5923,21 +5925,21 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
       undergrad: [
         { step: "1", title: "Research universities and apply directly (6–12 months ahead)", detail: "Apply directly to NZ universities. Main intake: February (Semester 1) and July (Semester 2). Deadlines typically 2–3 months before semester start. Key portals: auckland.ac.nz, otago.ac.nz, canterbury.ac.nz, massey.ac.nz." },
         { step: "2", title: "Get medical certificate and police clearance (2–3 months ahead)", detail: "Medical certificate (chest X-ray for TB) from INZ-approved panel physician in Nigeria — list at immigration.govt.nz/medical. Police clearance from Nigerian Police Force. Start both early — they take time." },
-        { step: "3", title: "Apply for student visa online at visas.immigration.govt.nz (6–8 weeks ahead)", detail: "Upload: offer of place, passport, funds proof (NZD 15,000/yr in bank or scholarship letter), medical cert, police clearance, IELTS 6.0+. Fee: NZD 375. Processing: 2–6 weeks." },
+        { step: "3", title: "Apply for student visa online at visas.immigration.govt.nz (6–8 weeks ahead)", detail: "Upload: offer of place, passport, funds proof (NZD 20,000/yr in bank or scholarship letter), medical cert, police clearance, IELTS 6.0+. Fee: NZD 850. Processing: 2–6 weeks." },
         { step: "4", title: "Arrive and set up in New Zealand (1–2 weeks before semester)", detail: "No registration required on arrival — your visa is your authorization. Open bank account (ANZ, BNZ, ASB, Westpac welcome international students with passport and offer letter)." },
         { step: "5", title: "Apply for Post-Study Work Visa before student visa expires", detail: "Apply online for 3-year open work visa (Bachelor's/Master's/PhD). Open work rights — work for any employer in any role. Use this time to build toward Green List or SMC residency." },
       ],
       masters: [
         { step: "1", title: "Apply for NZ Commonwealth Scholarship (September–November)", detail: "NZ Commonwealth Scholarship: full tuition + NZD 20,000/year + flights + insurance. Apply via Commonwealth Scholarship Commission Nigeria. Deadline typically October/November for the following year intake." },
         { step: "2", title: "Apply directly to universities with admission and Excellence Scholarship (3–6 months ahead)", detail: "Apply through each university's portal. University Excellence Scholarships are applied with admission — submit strong academic results. Merit-based, competitive." },
-        { step: "3", title: "Complete medical + police cert, then apply for student visa online", detail: "Offer letter → medical certificate (INZ-approved physician) + police clearance → student visa at visas.immigration.govt.nz. Fee: NZD 375. Processing: 2–6 weeks." },
+        { step: "3", title: "Complete medical + police cert, then apply for student visa online", detail: "Offer letter → medical certificate (INZ-approved physician) + police clearance → student visa at visas.immigration.govt.nz. Fee: NZD 850. Processing: 2–6 weeks." },
         { step: "4", title: "Research Green List occupations and job search during studies (Year 1–2)", detail: "Use Seek.co.nz, LinkedIn NZ, TradeMe Jobs. Network at university career fairs. Identify Green List Tier 1 occupations in your field — qualifying job offer after graduation triggers straight-to-residency." },
         { step: "5", title: "Apply for Post-Study Work Visa → Resident Visa", detail: "3-year open work visa after graduation → Green List Tier 1 (straight-to-residency) or build SMC 180+ points → Resident Visa → citizenship at 5 years." },
       ],
       phd: [
         { step: "1", title: "Contact NZ supervisors directly with research proposal (6–12 months ahead)", detail: "Email NZ academics directly — cold contact is expected. Reference their published research. A supervisor's support is critical for NZ Doctoral Scholarship nomination. Research strengths: marine science, agriculture, geothermal, earthquake engineering, biomedical." },
         { step: "2", title: "Apply for NZ Doctoral Scholarship through your university", detail: "NZD 27,500/year + tuition fees for 3 years. Applications go through the university — main intakes February and July. Submit research proposal, CV, transcripts, and 2 references." },
-        { step: "3", title: "Apply for student visa online (medical + police cert required)", detail: "Apply at visas.immigration.govt.nz. Upload offer of place/scholarship letter, medical certificate, police clearance, IELTS 6.5+. Fee: NZD 375. Processing: 2–6 weeks." },
+        { step: "3", title: "Apply for student visa online (medical + police cert required)", detail: "Apply at visas.immigration.govt.nz. Upload offer of place/scholarship letter, medical certificate, police clearance, IELTS 6.5+. Fee: NZD 850. Processing: 2–6 weeks." },
         { step: "4", title: "Complete PhD and network toward Green List job (3–4 years)", detail: "Student visa renewed annually. NZD 27,500/year stipend. Network at conferences from year 2 — identify Green List Tier 1 roles in your field. A qualifying job offer after PhD triggers straight-to-residency." },
         { step: "5", title: "Apply for Post-Study Work Visa → Resident Visa", detail: "3-year open work visa after PhD → Green List Tier 1 (straight-to-permanent-residency) or SMC points application → Resident Visa → NZ citizenship at 5 years with dual nationality." },
       ],
@@ -5945,11 +5947,11 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
         { step: "1", title: "Check Green List first — determine your residency strategy", detail: "Check immigration.govt.nz/green-list. Tier 1 (straight-to-residency): medical practitioners, nurses, civil/mechanical/electrical engineers, STEM teachers, construction project managers. Tier 2 (2 years work first): broader list. This shapes your entire approach." },
         { step: "2", title: "Register with your professional body if required (2–6 months ahead)", detail: "Nurses: NCNZ (Nursing Council of NZ) — requires degree verification + IELTS 7.0 in all bands. Doctors: MCNZ (Medical Council of NZ). Engineers: Engineering NZ (IPENZ). Teachers: Teaching Council of NZ. Start registration early — it takes months." },
         { step: "3", title: "Secure a job offer from an INZ-accredited employer", detail: "Confirm employer is INZ-accredited at immigration.govt.nz. Seek.co.nz, TradeMe Jobs, LinkedIn NZ are the main platforms. Employer submits a Job Check to INZ before your AEWV application." },
-        { step: "4", title: "Apply for Accredited Employer Work Visa (AEWV) online (2–4 weeks)", detail: "Apply at visas.immigration.govt.nz. Documents: passport, job offer, qualifications, English proof, medical certificate, police clearance. Fee: NZD 750. Processing: 2–4 weeks. AEWV valid up to 3 years (extendable to 5)." },
+        { step: "4", title: "Apply for Accredited Employer Work Visa (AEWV) online (2–4 weeks)", detail: "Apply at visas.immigration.govt.nz. Documents: passport, job offer, qualifications, English proof, medical certificate, police clearance. Fee: NZD 1,540. Processing: 2–4 weeks. AEWV valid up to 5 years for most jobs (3 for skill level 4–5)." },
         { step: "5", title: "Apply for Resident Visa via Green List or SMC", detail: "Green List Tier 1: apply for Resident Visa immediately upon qualifying job offer. SMC: 180+ points → submit EOI → Resident Visa application. Citizenship after 5 years as resident — dual nationality allowed, keep Nigerian passport." },
       ],
       visitor: [
-        { step: "1", title: "Apply fully online at visas.immigration.govt.nz (2–4 weeks before travel)", detail: "Create an INZ account, choose 'Visitor Visa', upload all documents. No embassy or VFS visit needed for most applicants. Fee: NZD 211 (~€115), paid by card." },
+        { step: "1", title: "Apply fully online at visas.immigration.govt.nz (2–4 weeks before travel)", detail: "Create an INZ account, choose 'Visitor Visa', upload all documents. No embassy or VFS visit needed for most applicants. Fee: NZD 441, paid by card." },
         { step: "2", title: "Gather required documents", detail: "Valid passport, passport photo, funds evidence (NZD 1,000/month via bank statements or credit card), return flight itinerary, accommodation proof, proof of Nigerian ties (employment, business, family)." },
         { step: "3", title: "Wait for decision and respond promptly to any requests (2–4 weeks)", detail: "INZ may request additional documents — respond within their deadline. Check your INZ account regularly. No interview required." },
         { step: "4", title: "Travel and declare all biosecurity items on arrival", detail: "Declare all food, plant, and animal products on your arrival card — NZ biosecurity is among the world's strictest. Penalties for non-declaration are heavy and immediate." },
@@ -6050,9 +6052,11 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
   },
 
   US: {
-    tagline: "United States — the world's top university system, the global tech capital, and a clear path for high-skilled Nigerians through F-1, OPT, and H-1B.",
+    tagline: "United States — the world's top university system and the global tech capital. New student and visitor visas for Nigerians are currently restricted (see below).",
 
-    overview: `The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US is the highest-stakes, highest-reward destination. Fees can reach $55,000/year at elite private universities — but at the Master's and PhD level in STEM, you typically pay nothing and get paid a stipend to study. Funded STEM PhD places at top-50 US universities are one of the most underused opportunities available to talented Nigerians.
+    overview: `**IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits.**
+
+The United States has the world's largest and most internationally recognized university system — MIT, Harvard, Stanford, Yale, Columbia, and hundreds of other world-class institutions. For Nigerians, the US is the highest-stakes, highest-reward destination. Fees can reach $55,000/year at elite private universities — but at the Master's and PhD level in STEM, you typically pay nothing and get paid a stipend to study. Funded STEM PhD places at top-50 US universities are one of the most underused opportunities available to talented Nigerians.
 
 The US immigration path for students runs: F-1 visa → OPT (12 months work authorization after graduation, or 36 months for STEM) → H-1B work visa (employer-sponsored, wage-weighted lottery from FY2027) → Green Card. The H-1B has an annual cap of 85,000 with hundreds of thousands of applicants — but Nigerians on STEM OPT get three lottery attempts. Big tech companies like Google, Microsoft, Amazon, Meta, and Apple routinely sponsor Nigerian engineers all the way to Green Card.
 
@@ -6102,7 +6106,7 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
 
     summary: {
       undergrad: {
-        intro: "US undergraduate education is the most expensive in the world — but 8 universities are need-blind for international students and meet 100% of financial need. Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all charge nothing to families that cannot afford to pay. The process starts with applying through Common App, filing for financial aid via CSS Profile, and receiving an I-20 from your university before applying for the F-1 visa.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. US undergraduate education is the most expensive in the world — but 8 universities are need-blind for international students and meet 100% of financial need. Harvard, MIT, Yale, Princeton, Amherst, Dartmouth, Bowdoin, and Brown all charge nothing to families that cannot afford to pay. The process starts with applying through Common App, filing for financial aid via CSS Profile, and receiving an I-20 from your university before applying for the F-1 visa.",
         firstSteps: [
           { action: "Take TOEFL or IELTS and SAT/ACT if targeting competitive schools", detail: "Many schools are now test-optional for SAT/ACT, but strong scores (1400+ SAT) unlock merit scholarships at mid-tier schools. TOEFL 90+ or IELTS 6.5+ required for most universities. Book at British Council or IDP Nigeria." },
           { action: "Apply through Common App (commonapp.org) to 10–15 universities", detail: "Applications open August 1. Early Decision deadlines: November 1–15. Regular Decision: January 1–15. Apply to safety, match, and reach schools. The personal essay is your most important document — make it specific and genuine." },
@@ -6119,7 +6123,7 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
         outcome: "A US undergraduate degree — especially from a top school with need-blind aid — is a life-changing credential. After graduation, STEM OPT gives 3 years to secure H-1B sponsorship and begin the Green Card process. Nigerian engineers, doctors, and lawyers with US degrees access the world's highest-paying job markets.",
       },
       masters: {
-        intro: "The US Master's decision splits into two completely different paths: funded STEM (you pay nothing and receive a stipend) and unfunded (you pay $30,000–60,000/year). Target funded positions in STEM fields exclusively — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, Purdue, or Michigan costs you nothing and pays you to study. The F-1 visa process is identical to undergraduate.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. The US Master's decision splits into two completely different paths: funded STEM (you pay nothing and receive a stipend) and unfunded (you pay $30,000–60,000/year). Target funded positions in STEM fields exclusively — a funded Master's or PhD at Georgia Tech, Carnegie Mellon, Purdue, or Michigan costs you nothing and pays you to study. The F-1 visa process is identical to undergraduate.",
         firstSteps: [
           { action: "Identify target universities and email professors before applying", detail: "For funded STEM programmes, contact professors whose research aligns with yours. A professor's support is the key to TA/RA funding. Search faculty pages at Carnegie Mellon, Georgia Tech, Michigan, Purdue, UIUC, Ohio State, UMass Amherst, Texas A&M, NC State." },
           { action: "Take GRE (if required) and TOEFL/IELTS", detail: "Many top STEM programmes dropped GRE after COVID — check each school. TOEFL 90–100+ or IELTS 7.0+ typically required. Nigerian IELTS scores from English-medium universities are often accepted without waiver requests." },
@@ -6136,7 +6140,7 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
         outcome: "Funded STEM Master's → 36-month STEM OPT → H-1B (3 attempts) → Green Card. Nigerian engineers at Google, Amazon, Microsoft, Meta, and Apple followed this exact path. The US STEM Master's → H-1B pipeline is the most reliable route from Nigeria to high-income US employment.",
       },
       phd: {
-        intro: "US STEM PhD programmes are almost universally fully funded: tuition waived, stipend paid ($18,000–35,000/year), health insurance included. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, UC Berkeley, or any top-50 research university is world-class education — and you are paid to be there. You apply by emailing professors directly, submitting to 10–15 programmes, and targeting professors whose research matches yours.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. US STEM PhD programmes are almost universally fully funded: tuition waived, stipend paid ($18,000–35,000/year), health insurance included. This is the single most underutilized opportunity for talented Nigerians. A funded PhD at MIT, Stanford, Caltech, UC Berkeley, or any top-50 research university is world-class education — and you are paid to be there. You apply by emailing professors directly, submitting to 10–15 programmes, and targeting professors whose research matches yours.",
         firstSteps: [
           { action: "Email 15–20 professors whose published research matches your interests", detail: "Write brief, specific emails (under 200 words). Reference one paper they published. Explain how your background connects. Ask if they are accepting PhD students. Attach your CV. This is expected and normal — professors post emails because they want applicants. A professor who responds positively is your biggest admission advantage." },
           { action: "Apply to 10–15 funded PhD programmes (December–January deadlines)", detail: "Required: statement of purpose (most critical — be specific about your research vision and the professor you want to work with), CV, 3 reference letters (2 must be academic), transcripts, TOEFL/IELTS, GRE (check — many schools dropped this). Apply broadly." },
@@ -6153,7 +6157,7 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
         outcome: "US STEM PhD → 36-month STEM OPT → EB-2 NIW self-petition or H-1B → Green Card. PhD holders with strong publication records can self-petition for permanent residency without needing employer sponsorship — the most independent immigration path available.",
       },
       work: {
-        intro: "The H-1B is the primary work visa for skilled Nigerians in the US. It requires a specialty occupation, employer sponsorship, and selection in an annual lottery (85,000 cap, wage-weighted from FY2027). Nigerians on STEM OPT participate in the lottery — three attempts if on 3-year STEM OPT. Cap-exempt alternatives exist: O-1A (extraordinary ability, no cap) and positions at universities or non-profits. The Green Card path for Nigerians is relatively clear — no per-country backlog unlike Indian and Chinese nationals.",
+        intro: "The H-1B is the primary work visa for skilled Nigerians in the US. Note: since September 2025 a USD 100,000 fee applies to most new H-1B petitions for workers outside the US; changes of status inside the US (e.g. F-1 to H-1B) are generally exempt. It requires a specialty occupation, employer sponsorship, and selection in an annual lottery (85,000 cap, wage-weighted from FY2027). Nigerians on STEM OPT participate in the lottery — three attempts if on 3-year STEM OPT. Cap-exempt alternatives exist: O-1A (extraordinary ability, no cap) and positions at universities or non-profits. The Green Card path for Nigerians is relatively clear — no per-country backlog unlike Indian and Chinese nationals.",
         firstSteps: [
           { action: "Use myvisajobs.com to target employers with strong H-1B sponsorship history", detail: "Filter by industry and company. Companies that file thousands of H-1Bs annually — Google, Microsoft, Amazon, Meta, Deloitte, IBM — are experienced sponsors. Prioritize these in your job search over companies with no H-1B history." },
           { action: "Register for H-1B lottery in March through your employer", detail: "Employer registers you online — you do not apply yourself. Registration fee: $215 per beneficiary (employer pays). Results released in April. If selected, USCIS adjudicates petition. Work starts October 1. From FY2027, wage-weighted selection means higher-salary roles have better lottery odds." },
@@ -6170,7 +6174,7 @@ Visitor visas (B-1/B-2) from Nigeria face scrutiny. Lagos appointment wait times
         outcome: "H-1B → EB-2/EB-3 PERM (employer) or EB-2 NIW (self-petition) → Green Card → Citizenship at 5 years. Nigerian engineers, doctors, nurses, and academics have built full lives in the US through this path. The absence of a per-country backlog is Nigeria's biggest immigration advantage in the US.",
       },
       visitor: {
-        intro: "The B-1/B-2 US visitor visa is the most carefully scrutinized visa Nigerian applicants face. Approval depends on demonstrating strong ties to Nigeria and a clear, credible reason to visit and return. The interview at US Embassy Lagos or Consulate Abuja is the decisive moment. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the day you decide to travel.",
+        intro: "IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends the issuing of B-1/B-2 visitor, F/M student, J exchange and immigrant visas to Nigerian nationals. Nigerians who already held a valid visa before that date are not affected, and you can still apply and attend an interview — but most new applicants are currently refused under the proclamation. Check ng.usembassy.gov for the latest position before paying any fees or deposits. The B-1/B-2 US visitor visa is the most carefully scrutinized visa Nigerian applicants face. Approval depends on demonstrating strong ties to Nigeria and a clear, credible reason to visit and return. The interview at US Embassy Lagos or Consulate Abuja is the decisive moment. In 2025, Lagos B-1/B-2 appointment wait times are 6–13 months — book the day you decide to travel.",
         firstSteps: [
           { action: "Complete DS-160 form at ceac.state.gov/genniv before scheduling anything", detail: "Save your application ID. Answer every question honestly and thoroughly. Include accurate travel history, family situation, employment details, and the purpose of your visit. Incomplete or inconsistent DS-160 forms are a red flag." },
           { action: "Pay MRV fee ($185) and book your appointment at ustraveldocs.com immediately", detail: "Pay the $185 MRV fee online first, then schedule your interview. Lagos B-1/B-2 wait times in 2025: 6–13 months. Book the moment you decide to apply. Check travel.state.gov monthly for updated wait times — they change seasonally." },
