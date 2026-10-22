@@ -106,7 +106,7 @@ export default function Dashboard() {
                   <Link to={`/country/${country.code}`} className="group block">
                     <div className="relative rounded-2xl overflow-hidden bg-white border border-black/[0.07] hover:shadow-[0_8px_32px_rgba(0,0,0,0.1)] transition-all">
                       <div className="relative h-36">
-                        <img src={country.image} alt={country.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <img src={country.image} alt={country.name} loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                         <div className="absolute bottom-3 left-4 flex items-center gap-2">
                           <span className="text-xl">{country.flag}</span>

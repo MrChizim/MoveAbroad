@@ -39,7 +39,7 @@ export default function CountryPreviewGrid() {
               <Link to={`/country/${country.code}`} className="group block relative rounded-2xl overflow-hidden"
                 style={{ aspectRatio: i < 2 ? '4/3' : '4/3' }}
               >
-                <img src={country.image} alt={country.name}
+                <img src={country.image} alt={country.name} loading="lazy" decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                 />
                 {/* Dark overlay */}

@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import ScrollToTop from '@/lib/ScrollToTop';
@@ -28,6 +28,14 @@ function BackToTop() {
   );
 }
 
+function PageLoading() {
+  return (
+    <div className="min-h-[60vh] flex items-center justify-center" role="status" aria-label="Loading page">
+      <div className="w-8 h-8 rounded-full border-2 border-[#0096FF]/20 border-t-[#0096FF] animate-spin" />
+    </div>
+  );
+}
+
 export default function AppLayout() {
   const { pathname } = useLocation();
   const isHome = pathname === '/';
@@ -37,7 +45,9 @@ export default function AppLayout() {
       <ScrollToTop />
       <Navbar />
       <main className={`flex-1 ${isHome ? '' : 'pt-20'}`}>
-        <Outlet />
+        <Suspense fallback={<PageLoading />}>
+          <Outlet />
+        </Suspense>
       </main>
       <Footer />
       <BackToTop />

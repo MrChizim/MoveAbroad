@@ -9,8 +9,10 @@ export default function Footer() {
       {/* City photo CTA */}
       <div className="relative overflow-hidden min-h-[400px] flex items-center">
         <img
-          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1800&q=85"
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=70&auto=format"
           alt="City skyline"
+          loading="lazy"
+          decoding="async"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(4,9,26,0.88) 0%, rgba(0,150,255,0.55) 100%)' }} />
