@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://moveabroad.ng/sitemap.xml
+Sitemap: https://www.moveabroad.ng/sitemap.xml

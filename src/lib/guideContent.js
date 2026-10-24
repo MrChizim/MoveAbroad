@@ -6084,7 +6084,7 @@ Visitor visa allows up to 9 months in an 18-month period. Not a Schengen visa �
   },
 
   US: {
-    tagline: "United States — the world's top university system and the global tech capital. New student and visitor visas for Nigerians are currently restricted (see below).",
+    tagline: "United States — the world's top university system and the global tech capital. New student and visitor visas for Nigerians are currently restricted.",
 
     overview: `**IMPORTANT (October 2026): Since 1 January 2026, Presidential Proclamation 10998 partially suspends new B-1/B-2 visitor, F/M student, J exchange and immigrant visas for Nigerian nationals. Visas issued before that date are still valid. You can still apply and attend an interview, but most new Nigerian applicants are currently refused. H-1B and other work visas are not covered by the suspension.**
 

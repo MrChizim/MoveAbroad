@@ -3,11 +3,11 @@ import { Check, ArrowRight, ChevronDown } from 'lucide-react';
 import { PACKAGES, COUNTRIES } from '@/lib/countries';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { motion } from 'framer-motion';
-import { toast } from 'sonner';
 import { useAuth } from '@/lib/AuthContext';
 import PaystackButton from '../components/payment/PaystackButton';
 import { useNavigate } from 'react-router-dom';
 import { useSEO } from '@/lib/useSEO';
+import { PAGE_SEO, pageUrl } from '@/lib/seo';
 
 const packageMeta = {
   single:     { color: '#0096FF', bg: '#EBF5FF' },
@@ -37,15 +37,14 @@ function FAQItem({ q, a }) {
 
 export default function Pricing() {
   useSEO({
-    title: 'Pricing — Unlock Country Guides | MoveAbroad.ng',
-    description: 'Get full access to Nigerian relocation guides. Single country from ₦10,000, 5-country pack ₦30,000, or all 13 countries for ₦50,000. Pay once, access forever.',
-    canonical: 'https://moveabroad.ng/pricing',
+    ...PAGE_SEO['/pricing'],
+    canonical: pageUrl('/pricing'),
     schema: {
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: 'MoveAbroad.ng Relocation Guides',
       description: 'In-depth relocation guides for Nigerians — visa paths, jobs, cost of living, universities and scholarships for 13 countries.',
-      url: 'https://moveabroad.ng/pricing',
+      url: 'https://www.moveabroad.ng/pricing',
       offers: [
         { '@type': 'Offer', name: 'Single Country', price: '10000', priceCurrency: 'NGN' },
         { '@type': 'Offer', name: '5 Countries Pack', price: '30000', priceCurrency: 'NGN' },
@@ -64,12 +63,8 @@ export default function Pricing() {
 
   const handleSelectPackage = async (pkg) => {
     if (!user) {
-      try {
-        await signInWithGoogle();
-      } catch {
-        toast.error('Sign in failed. Please try again.');
-        return;
-      }
+      const signedIn = await signInWithGoogle();
+      if (!signedIn) return;
     }
     setSelectedPkg(pkg);
     if (preselectedCountry && pkg.id === 'single') {

@@ -1,5 +1,6 @@
 import { lazy } from 'react';
 import { Toaster } from "@/components/ui/toaster"
+import { Toaster as SonnerToaster } from 'sonner';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from '@/lib/AuthContext';
 import AppLayout from './components/layout/AppLayout';
@@ -41,6 +42,7 @@ function App() {
         </Routes>
       </Router>
       <Toaster />
+      <SonnerToaster position="top-center" richColors closeButton />
     </AuthProvider>
   );
 }

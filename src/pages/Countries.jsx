@@ -5,12 +5,12 @@ import { Search } from 'lucide-react';
 import { Input } from "@/components/ui/input";
 import { COUNTRIES } from '@/lib/countries';
 import { useSEO } from '@/lib/useSEO';
+import { PAGE_SEO, pageUrl } from '@/lib/seo';
 
 export default function Countries() {
   useSEO({
-    title: 'Relocation Guides for Nigerians — All Countries | MoveAbroad.ng',
-    description: 'Browse country-by-country relocation guides built for Nigerians. UK, Canada, USA, Germany, Australia and more — visa paths, jobs, cost of living, and Nigerian tips.',
-    canonical: 'https://moveabroad.ng/countries',
+    ...PAGE_SEO['/countries'],
+    canonical: pageUrl('/countries'),
   });
   const [search, setSearch] = useState('');
   

@@ -26,7 +26,7 @@ export default function VisaChecklist() {
     description: checklistCountry
       ? `Track every document you need for your ${checklistCountry.name} visa application. Nigerian-specific checklist for student, work and visitor visas.`
       : 'Track every document you need for your visa application. Nigerian-specific checklists for student, work and visitor visas.',
-    canonical: `https://moveabroad.ng/checklist/${code}`,
+    canonical: `https://www.moveabroad.ng/checklist/${code}`,
   });
   const navigate = useNavigate();
   const { user, loading: authLoading } = useAuth();

@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { useSEO } from '@/lib/useSEO';
+import { PAGE_SEO, pageUrl } from '@/lib/seo';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calculator, Plane, Home, ShoppingCart, GraduationCap, Briefcase, Info, ChevronDown, ChevronUp, ArrowRight, AlertTriangle } from 'lucide-react';
+import { Calculator, Plane, Home, ShoppingCart, GraduationCap, ChevronDown, ChevronUp, ArrowRight, AlertTriangle } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -155,9 +156,8 @@ function toNaira(amount, currency) {
 
 export default function BudgetCalculator() {
   useSEO({
-    title: 'Cost of Living Calculator for Nigerians Moving Abroad | MoveAbroad.ng',
-    description: 'Calculate exactly how much you need to relocate abroad from Nigeria. Rent, food, transport, visa costs — city by city breakdown in Naira.',
-    canonical: 'https://moveabroad.ng/budget-calculator',
+    ...PAGE_SEO['/budget-calculator'],
+    canonical: pageUrl('/budget-calculator'),
   });
 
   const [city, setCity] = useState('');

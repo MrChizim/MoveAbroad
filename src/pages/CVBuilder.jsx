@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import { useSEO } from '@/lib/useSEO';
+import { PAGE_SEO, pageUrl } from '@/lib/seo';
 import { doc, getDoc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { FileText, Download, User, AlertCircle, CheckCircle2, Info, Pencil } from 'lucide-react';
+import { FileText, Download, User, AlertCircle, CheckCircle2, Info } from 'lucide-react';
 import { generateCV, generateCoverLetter } from '@/lib/cvGenerator';
 import { toast } from 'sonner';
 
@@ -34,9 +35,8 @@ const COVER_LEVELS = [
 
 export default function CVBuilder() {
   useSEO({
-    title: 'International CV Builder for Nigerians — UK, Canada, USA & More | MoveAbroad.ng',
-    description: 'Build a job-ready CV in the format required by your target country. Nigerian professionals moving abroad — get a country-specific CV instantly.',
-    canonical: 'https://moveabroad.ng/cv-builder',
+    ...PAGE_SEO['/cv-builder'],
+    canonical: pageUrl('/cv-builder'),
   });
 
   const { user } = useAuth();

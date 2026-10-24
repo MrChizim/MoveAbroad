@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
+import { DEFAULT_IMAGE, DEFAULT_TITLE } from './seo';
 
-export function useSEO({ title, description, canonical, schema }) {
+export function useSEO({ title, description, canonical, image, schema }) {
   useEffect(() => {
     // Title
     document.title = title;
@@ -26,6 +27,10 @@ export function useSEO({ title, description, canonical, schema }) {
     if (ogUrl && canonical) ogUrl.setAttribute('content', canonical);
     if (twTitle) twTitle.setAttribute('content', title);
     if (twDesc) twDesc.setAttribute('content', description);
+    for (const sel of ['meta[property="og:image"]', 'meta[name="twitter:image"]']) {
+      const el = document.querySelector(sel);
+      if (el) el.setAttribute('content', image || DEFAULT_IMAGE);
+    }
 
     // Structured data (JSON-LD)
     if (schema) {
@@ -41,7 +46,7 @@ export function useSEO({ title, description, canonical, schema }) {
 
     return () => {
       // Reset to site defaults on unmount
-      document.title = 'MoveAbroad.ng — Relocation Guides for Nigerians';
+      document.title = DEFAULT_TITLE;
     };
-  }, [title, description, canonical, schema]);
+  }, [title, description, canonical, image, schema]);
 }
