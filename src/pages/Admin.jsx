@@ -7,8 +7,8 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Shield, Search, CheckCircle2 } from 'lucide-react';
 import { COUNTRIES } from '@/lib/countries';
+import { isAdminEmail } from '@/lib/admins';
 
-const ADMIN_EMAILS = ['siriusoddjobs@gmail.com'];
 
 export default function Admin() {
   const { user } = useAuth();
@@ -17,7 +17,7 @@ export default function Admin() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
 
-  const isAdmin = user && ADMIN_EMAILS.includes(user.email);
+  const isAdmin = user && isAdminEmail(user.email);
 
   useEffect(() => {
     if (!user) { navigate('/'); return; }
