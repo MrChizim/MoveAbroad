@@ -5,6 +5,7 @@ import { confirmPayment, initializePaystackPayment } from '@/lib/paystack';
 import { auth } from '@/lib/firebase';
 import { COUNTRIES } from '@/lib/countries';
 import { toast } from 'sonner';
+import { trackEvent } from '@/lib/analytics';
 
 const SUPPORT = 'moveabroadng@gmail.com';
 
@@ -13,6 +14,7 @@ export default function PaystackButton({ user, packageData, selectedCountries, o
 
   const handlePay = async () => {
     setLoading(true);
+    trackEvent('checkout_start');
 
     const allCountryCodes = COUNTRIES.map(c => c.code);
     const countries = packageData.id === 'all_access' ? allCountryCodes : selectedCountries;
@@ -33,6 +35,7 @@ export default function PaystackButton({ user, packageData, selectedCountries, o
             const idToken = await auth.currentUser.getIdToken();
             const result = await confirmPayment(reference, idToken);
             if (result.ok) {
+              trackEvent('purchase');
               toast.success('Payment confirmed! Your guides are now unlocked.');
               onSuccess();
             } else {

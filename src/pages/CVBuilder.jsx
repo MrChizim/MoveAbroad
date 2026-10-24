@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import { useSEO } from '@/lib/useSEO';
 import { PAGE_SEO, pageUrl } from '@/lib/seo';
@@ -39,8 +39,7 @@ export default function CVBuilder() {
     canonical: pageUrl('/cv-builder'),
   });
 
-  const { user } = useAuth();
-  const navigate = useNavigate();
+  const { user, signInWithGoogle } = useAuth();
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedStyle, setSelectedStyle] = useState('CA');
@@ -50,12 +49,13 @@ export default function CVBuilder() {
   const [generatingCover, setGeneratingCover] = useState(false);
 
   useEffect(() => {
-    if (!user) { navigate('/'); return; }
+    if (!user) { setLoading(false); return; }
+    setLoading(true);
     const ref = doc(db, 'profiles', user.uid);
     getDoc(ref).then(snap => {
       if (snap.exists()) setProfile(snap.data());
     }).finally(() => setLoading(false));
-  }, [user, navigate]);
+  }, [user]);
 
   const completionFields = [
     { label: 'Name', done: !!profile?.full_name },
@@ -96,7 +96,32 @@ export default function CVBuilder() {
     setGeneratingCover(false);
   };
 
-  if (!user || loading) return (
+  if (!user) return (
+    <div className="min-h-screen bg-[#F8F9FB] py-16">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+        <div className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-5" style={{ background: '#EBF5FF' }}>
+          <FileText className="w-7 h-7 text-[#0096FF]" strokeWidth={1.75} />
+        </div>
+        <h1 className="text-[1.9rem] font-black text-[#04091A] mb-3" style={{ fontWeight: 900 }}>International CV Builder for Nigerians</h1>
+        <p className="text-[15px] text-black/50 leading-relaxed mb-6">
+          Turn your profile into a CV and cover letter in the format employers and universities expect in Canada, the UK,
+          the US, Germany, Australia and more. Free with your MoveAbroad.ng account.
+        </p>
+        <ul className="text-left inline-block text-[14px] text-black/60 space-y-2 mb-8">
+          <li>• Country-specific layouts (no photo or date of birth where employers don't expect them)</li>
+          <li>• Cover letters for job, masters, PhD and undergraduate applications</li>
+          <li>• Download as PDF in one click</li>
+        </ul>
+        <div>
+          <button onClick={signInWithGoogle} className="px-7 py-3 rounded-xl text-[14px] font-semibold text-white hover:opacity-90 transition-all" style={{ background: '#0096FF' }}>
+            Sign in with Google to start
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
+  if (loading) return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="w-8 h-8 border-4 border-black/10 border-t-[#0096FF] rounded-full animate-spin" />
     </div>

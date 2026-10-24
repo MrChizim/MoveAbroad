@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
 import { auth } from '@/lib/firebase';
-import { COUNTRIES } from '@/lib/countries';
+import { COUNTRIES, GUIDES_LAST_REVIEWED } from '@/lib/countries';
 import { useSEO } from '@/lib/useSEO';
 import { countrySeo } from '@/lib/seo';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -120,7 +120,7 @@ function LockedContent({ countryCode, countryName }) {
 
 // ── Main Component ─────────────────────────────────────────────────────
 export default function CountryDetail() {
-  const { code } = useParams();
+  const code = (useParams().code || '').toUpperCase();
   const { user, loading: authLoading } = useAuth();
   const [hasAccess, setHasAccess] = useState(null);
   // The guide is fetched from /api/guide: everyone gets the free preview,
@@ -260,6 +260,21 @@ export default function CountryDetail() {
           <div className="bg-white rounded-2xl border border-black/[0.07] p-6 mb-6">
             <h2 className="text-[16px] font-bold text-[#04091A] mb-3">About {country.name}</h2>
             <p className="text-[14px] text-black/50 leading-relaxed">{guide.overview}</p>
+            <p className="text-[12px] text-black/40 mt-4">Key fees and rules last checked: {GUIDES_LAST_REVIEWED}, against official government sources.</p>
+            {guide.sources?.length > 0 && (
+              <details className="mt-3">
+                <summary className="text-[13px] font-medium text-[#0096FF] cursor-pointer">Official sources for {country.name}</summary>
+                <ul className="mt-2 space-y-1.5">
+                  {guide.sources.map((s) => (
+                    <li key={s.url}>
+                      <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[13px] text-black/60 hover:text-[#0096FF]">
+                        <ExternalLink className="w-3.5 h-3.5" /> {s.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
           </div>
         )}
 

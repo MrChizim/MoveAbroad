@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+
+# Private pages (/admin, /dashboard, /profile, /expenses) carry a noindex tag instead,
+# so they must stay crawlable for search engines to see it.
 
 Sitemap: https://www.moveabroad.ng/sitemap.xml

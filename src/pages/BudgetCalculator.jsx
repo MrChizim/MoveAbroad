@@ -101,7 +101,7 @@ function getVisaItems(countryCode, visaType) {
       items.push({ label: 'Biometrics', amount: 85, currency: 'CAD', note: 'If not already given in the last 10 years' });
       items.push({ label: 'LMIA-based or employer-sponsored', amount: 0, currency: 'CAD', note: 'Employer pays LMIA fee ($1,000 CAD). You pay nothing for that directly' });
     } else if (countryCode === 'GB') {
-      items.push({ label: 'Skilled Worker Visa fee', amount: 827, currency: 'GBP', note: 'For stays over 3 years. Under 3 years: £551' });
+      items.push({ label: 'Skilled Worker Visa fee', amount: 1618, currency: 'GBP', note: 'GOV.UK fee for stays over 3 years from outside the UK. Up to 3 years: £819 (immigration salary list jobs: £628 / £1,235)' });
       items.push({ label: 'Immigration Health Surcharge', amount: 1035, currency: 'GBP', note: 'Per year × years of visa. E.g., 3 years = £3,105. Paid upfront' });
       items.push({ label: 'English language test (if required)', amount: 200, currency: 'GBP', note: 'B1 SELT — depends on role and nationality' });
     } else if (countryCode === 'SE') {
@@ -114,7 +114,7 @@ function getVisaItems(countryCode, visaType) {
     }
   } else if (visaType === 'pr') {
     if (countryCode === 'CA') {
-      items.push({ label: 'Express Entry / PR application fee', amount: 1365, currency: 'CAD', note: 'Main applicant. Add CAD 460 per dependent adult, CAD 150 per child' });
+      items.push({ label: 'Express Entry / PR application fee', amount: 1590, currency: 'CAD', note: 'Main applicant from 30 April 2026 (CAD 990 processing + CAD 600 right of PR fee). Add CAD 1,590 for a spouse and CAD 270 per child' });
       items.push({ label: 'Right of Permanent Residence Fee', amount: 515, currency: 'CAD', note: 'Paid on approval — per adult applicant' });
       items.push({ label: 'Biometrics', amount: 85, currency: 'CAD', note: 'If not already enrolled' });
       items.push({ label: 'Medical exam', amount: 200, currency: 'USD', note: 'Panel physician exam required for PR' });

@@ -1,12 +1,16 @@
 import react from '@vitejs/plugin-react'
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
+import adminHandler from './api/admin.js'
 import guideHandler from './api/guide.js'
 import paystackWebhookHandler from './api/paystack-webhook.js'
+import trackHandler from './api/track.js'
 import verifyPaymentHandler from './api/verify-payment.js'
 
 const API_ROUTES = {
+  '/api/admin': adminHandler,
   '/api/guide': guideHandler,
+  '/api/track': trackHandler,
   '/api/verify-payment': verifyPaymentHandler,
   '/api/paystack-webhook': paystackWebhookHandler,
 };

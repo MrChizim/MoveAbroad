@@ -2841,7 +2841,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
     stats: {
       undergrad:  { tuition: "€2,314/yr (EEA statutory) — non-EEA typically €8,000–20,000/yr", living: "€1,000–1,400/month", processing: "4–8 weeks (MVV + residence permit)", acceptance: "Varies by program", minIELTS: "6.0–6.5 overall", currency: "EUR" },
       masters:    { tuition: "€12,000–22,000/yr (non-EEA fee varies by university)", living: "€1,000–1,400/month", processing: "4–8 weeks (MVV + residence permit)", acceptance: "Competitive, English required", minIELTS: "6.5 overall (7.0 for top programs)", currency: "EUR" },
-      phd:        { tuition: "Fully funded — salaried position (AIO/OIO contract)", living: "€2,200–2,700/month (gross salary)", processing: "4–8 weeks after job offer", acceptance: "Very competitive globally", minIELTS: "6.5 overall", currency: "EUR" },
+      phd:        { tuition: "Fully funded — salaried position (AIO/OIO contract)", living: "€3,200–4,050/month (gross salary, CAO NU 2026)", processing: "4–8 weeks after job offer", acceptance: "Very competitive globally", minIELTS: "6.5 overall", currency: "EUR" },
       work:       { salary: "€45,000–100,000/yr depending on sector", processing: "2–5 weeks (IND fast track)", pathway: "Highly Skilled Migrant (HSM) visa — sponsor required", minIELTS: "Not required for most roles", currency: "EUR" },
       visitor:    { fee: "€90 (Schengen visa fee)", processing: "15 calendar days", duration: "Up to 90 days in any 180-day period", pathway: "Schengen Short-Stay Visa (Type C)", currency: "EUR" },
     },
@@ -2884,9 +2884,9 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         outcome: "Masters → Orientation Year → Highly Skilled Migrant permit → after 5 years continuous residence → permanent residency (or Dutch citizenship). This path has been completed by thousands of African graduates in the Netherlands.",
       },
       phd: {
-        intro: "PhD positions in the Netherlands are employment contracts, not study places. You apply for a specific advertised vacancy, receive a salary (AIO/OIO contract at a Dutch university, typically €2,200–2,700/month gross), contribute to social insurance, and receive full employee benefits. You don't 'apply to a PhD program' — you apply for a specific job opening posted by a professor. This is very different from the Nigerian academic model. You are an employee of the university from day one. Tax-free PhD scholarships also exist but are less common. Find vacancies at academictransfer.nl and indeed.nl.",
+        intro: "PhD positions in the Netherlands are employment contracts, not study places. You apply for a specific advertised vacancy, receive a salary (AIO/OIO contract at a Dutch university, typically €3,200–4,050/month gross), contribute to social insurance, and receive full employee benefits. You don't 'apply to a PhD program' — you apply for a specific job opening posted by a professor. This is very different from the Nigerian academic model. You are an employee of the university from day one. Tax-free PhD scholarships also exist but are less common. Find vacancies at academictransfer.nl and indeed.nl.",
         firstSteps: [
-          { action: "Find PhD vacancies at academictransfer.nl — the main Dutch academic job portal", detail: "Create a profile at academictransfer.nl and set up job alerts in your research field. Also check: jobs.tue.nl (Eindhoven), werken.tudelft.nl (TU Delft), jobs.uva.nl (Amsterdam), vacatures.leidenuniv.nl (Leiden). A good PhD ad will specify salary (usually TVöD-equivalent), starting date, supervisor, and research project." },
+          { action: "Find PhD vacancies at academictransfer.nl — the main Dutch academic job portal", detail: "Create a profile at academictransfer.nl and set up job alerts in your research field. Also check: jobs.tue.nl (Eindhoven), werken.tudelft.nl (TU Delft), jobs.uva.nl (Amsterdam), vacatures.leidenuniv.nl (Leiden). A good PhD ad will specify salary (on the CAO NU PhD scale), starting date, supervisor, and research project." },
           { action: "Reach out to professors directly if you have a strong research background", detail: "Dutch professors actively recruit PhD students. Find a supervisor whose research aligns with yours, read their recent papers, and send a one-page research proposal + your CV and transcripts. Email them directly — this is common and expected. A professor's yes is the first step to a formal vacancy." },
           { action: "Apply formally through the university HR system once you find a vacancy", detail: "The application will require: CV, research statement, copies of degrees and transcripts, two reference letters, IELTS or TOEFL scores, and sometimes a project proposal. Shortlisted candidates typically do a video interview, then an in-person (or online) presentation. Decisions take 2–6 weeks after the closing date." },
           { action: "Once offered the position: your university sponsor submits your residence permit application to IND", detail: "The university acts as your sponsor. You don't need an MVV if your residence permit is approved from within Nigeria before travel. IND processing: typically 2–4 weeks for sponsored highly skilled migrants. You receive a single-entry visa to travel to the Netherlands, then collect your residence permit on arrival." },
@@ -2894,7 +2894,7 @@ The refusal letter must state the reason. The most common reasons for Nigerian a
         ],
         keyFacts: [
           "PhD = salaried employee in the Netherlands — you pay income tax and social contributions, and receive full employment rights",
-          "Salary: TVöD scale, typically €2,200–2,700/month gross in year 1, increasing annually",
+          "Salary: CAO NU scale, typically €3,200–4,050/month gross in year 1, increasing annually",
           "Contract: typically 4 years (with a go/no-go evaluation after year 1)",
           "30% ruling: as a knowledge migrant, you may be eligible for the 30% tax ruling — up to 30% of salary tax-free for 5 years",
           "After PhD: Orientation Year permit gives you 1 year to find a job without leaving the Netherlands",
@@ -3026,7 +3026,7 @@ The main portal is academictransfer.nl — set up job alerts in your field. Also
 Many Dutch PhD positions are never publicly advertised. A professor with funding can create a position for the right candidate. Email the professor with: a short research proposal (1 page) clearly linked to their published work, your CV (academic, max 2 pages), degree transcripts, and an honest statement of your English proficiency and availability. A positive response from a professor leads to a formal HR vacancy being created for you.
 
 **Salary and Tax**
-AIO salary scale (2024): approximately €2,902/month gross in year 1, rising to €3,548 in year 4. After Dutch income tax and social contributions, take-home is approximately €2,000–2,400/month. The **30% ruling** is available to knowledge migrants recruited from outside the Netherlands — it allows you to receive 30% of your gross salary tax-free for 5 years. Apply through your university HR in your first months; it significantly improves take-home pay.
+AIO salary scale: approximately €3,200/month gross in year 1 (CAO NU 2026), rising to €3,548 in year 4. After Dutch income tax and social contributions, take-home is approximately €2,000–2,400/month. The **30% ruling** is available to knowledge migrants recruited from outside the Netherlands — it allows you to receive 30% of your gross salary tax-free for 5 years. Apply through your university HR in your first months; it significantly improves take-home pay.
 
 **IND Registration Process**
 Your university HR department submits your combined residence permit application and employment notification to IND simultaneously. For recognized sponsors (all Dutch universities are), IND processes in 2–5 weeks. You receive notification, travel to the Netherlands on a single-entry visa, and collect your residence permit.
@@ -3269,7 +3269,7 @@ Address all five before submitting. A refused visa means a record in the Schenge
       ],
       phd: [
         { name: "NWO Talent Programme (VENI/VIDI/VICI)", amount: "Full funding for postdoctoral and established researchers — not for incoming PhD students but relevant for later career", university: "All Dutch universities — applied for by your supervisor", deadline: "Rolling, announced per year at nwo.nl", url: "https://www.nwo.nl/en/talent-programme" },
-        { name: "Funded PhD positions (employment contracts)", amount: "Full salary AIO scale — approximately €2,902 gross/month in year 1", university: "All Dutch universities — posted on academictransfer.nl. This is the standard way to do a PhD in the Netherlands", deadline: "Rolling — per vacancy posting on academictransfer.nl", url: "https://www.academictransfer.com/" },
+        { name: "Funded PhD positions (employment contracts)", amount: "Full salary AIO scale — approximately €3,200 gross/month in year 1 (CAO NU 2026)", university: "All Dutch universities — posted on academictransfer.nl. This is the standard way to do a PhD in the Netherlands", deadline: "Rolling — per vacancy posting on academictransfer.nl", url: "https://www.academictransfer.com/" },
       ],
       work: [],
     },
@@ -4267,7 +4267,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         pathway: "Single Permit / Type D Student Visa",
       },
       work: {
-        salary: "€45,141/yr+ (EU Blue Card)",
+        salary: "€56,976–68,815/yr+ (EU Blue Card, varies by region)",
         living: "€1,200–1,800/mo (Brussels)",
         processing: "6–16 weeks",
         fee: "~€180 (Type D visa)",
@@ -4288,7 +4288,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         firstSteps: [
           { action: "Research English-medium undergrad programmes at VUB, KU Leuven, or University of Antwerp", detail: "Most Belgian Bachelor's are in Dutch or French. If you need English, VUB's International Bachelor programmes and Antwerp's English offerings are your main options. Confirm language requirements before applying." },
           { action: "Apply to the university directly and get your acceptance letter", detail: "Apply through the university's online portal. Deadlines: typically March–April for September intake. Submit transcripts, English proficiency (IELTS 6.0+ minimum), statement of purpose, and references." },
-          { action: "Apply for Belgian Type D student visa at the Belgian Embassy in Abuja", detail: "Documents: passport, acceptance letter, proof of funds (€700–900/month for duration of studies), accommodation proof, travel insurance, visa application form from dvzoe.be, passport photos. Visa fee: €180 + Immigration Office contribution fee of ~€242 (paid separately in Belgium after arrival) = total ~€420. Processing: 4–8 weeks." },
+          { action: "Apply for Belgian Type D student visa at the Belgian Embassy in Abuja", detail: "Documents: passport, acceptance letter, proof of funds (€1,062/month for 2026–27 for duration of studies), accommodation proof, travel insurance, visa application form from dvzoe.be, passport photos. Visa fee: €180 + Immigration Office contribution fee of ~€242 (paid separately in Belgium after arrival) = total ~€420. Processing: 4–8 weeks." },
           { action: "Arrive and register at your local Commune within 8 days", detail: "Registering at the Commune is a legal requirement — not optional. A municipal inspector verifies your address. You then receive a CIRE residence card. Failure to register can jeopardize your legal status." },
         ],
         keyFacts: [
@@ -4306,7 +4306,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
           { action: "Check the VLIR-UOS eligible programmes list at vliruos.be from September", detail: "The VLIR-UOS scholarship covers only specific listed Master's programmes. Study the list in September. You can apply to up to 3 programmes simultaneously. This is one of the best-funded scholarships available to Nigerians anywhere in Europe." },
           { action: "Apply for VLIR-UOS scholarship via vlir.be — window closes late January/February", detail: "Required: transcripts, CV, motivation letter (specific to each programme), 2 reference letters, English proficiency proof (IELTS 6.5+). Apply to your top 3 eligible programmes at once." },
           { action: "Simultaneously apply directly to universities as backup", detail: "Apply directly to KU Leuven, Ghent, VUB, and other universities in parallel. Some have rolling admissions. This ensures admission even if VLIR-UOS is unsuccessful." },
-          { action: "Once admitted: apply for Type D student visa at Belgian Embassy Abuja", detail: "Documents: passport, acceptance letter, scholarship letter (or proof of funds €700–900/month), accommodation proof, insurance, passport photos. Fee: ~€180. Processing: 4–8 weeks." },
+          { action: "Once admitted: apply for Type D student visa at Belgian Embassy Abuja", detail: "Documents: passport, acceptance letter, scholarship letter (or proof of funds €1,062/month for 2026–27), accommodation proof, insurance, passport photos. Fee: ~€180. Processing: 4–8 weeks." },
         ],
         keyFacts: [
           "VLIR-UOS: full tuition + ~€860/month + return flights + health insurance — apply September–January",
@@ -4330,7 +4330,7 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
           "Full social security: healthcare, unemployment insurance, pension accrual included",
           "FWO (Flanders) and FNRS (French-speaking) offer competitive PhD fellowships — prestigious career signals",
           "PhD years count toward the 5-year lawful residence requirement for permanent residency",
-          "Belgian citizenship available after 5 years of legal residence with integration proof",
+          "Belgian citizenship: 5 years of legal residence plus B1-level language, a citizenship test and a €1,030 fee (rules tightened in 2025–26)",
         ],
         outcome: "A Belgian PhD on an employment contract means 4 years of paid work experience in the EU with full social security. Combined with the lawful residence this builds, you can apply for permanent residency (D-card) after 5 years total — and citizenship thereafter.",
       },
@@ -4338,24 +4338,24 @@ The path is not simple — Belgian bureaucracy is famously layered, and the proc
         intro: "The Belgian Single Permit is the primary work route for non-EU nationals — it combines work and residence permits in one employer-led application. Your employer submits to the regional authority (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels). Processing: 6–16 weeks. Brussels is particularly international — EU institutions, pharma, law firms, tech, and NGOs all hire non-EU talent regularly.",
         firstSteps: [
           { action: "Target employers experienced with non-EU sponsorship — Brussels and multinationals are best", detail: "EU institutions, international NGOs, pharma (UCB, Janssen, Solvay), Big Four firms, and multinational tech companies in Brussels and Antwerp deal with non-EU hires regularly. Smaller Flemish SMEs may be unfamiliar with the process." },
-          { action: "Once you have a job offer, employer submits Single Permit application", detail: "Employer files with VDAB (Flanders), FOREM (Wallonia), or Actiris (Brussels). Required: your employment contract, qualifications, job description, salary proof, and a labour market test (unless exempt — EU Blue Card threshold is €45,141/year gross in 2024)." },
+          { action: "Once you have a job offer, employer submits Single Permit application", detail: "Employer files with VDAB (Flanders), FOREM (Wallonia), or Actiris (Brussels). Required: your employment contract, qualifications, job description, salary proof, and a labour market test (unless exempt — EU Blue Card thresholds are set by region: about €56,976 in Brussels, €63,586 in Flanders and €68,815 in Wallonia (2026))." },
           { action: "Receive Annexe 46 and apply for Type D visa at Belgian Embassy Abuja", detail: "Once Belgian Immigration Office approves, Annexe 46 is issued. Apply for Type D long-stay visa at Belgian Embassy Abuja with: passport, Annexe 46, employment contract, accommodation proof, photos. Fee: ~€180." },
           { action: "Arrive and register at Commune within 8 days", detail: "Register your address. Inspector verifies. Receive Bijlage 15, then A-card (1-year residence permit). Renew each year through your Commune — begin 3 months before expiry." },
         ],
         keyFacts: [
-          "EU Blue Card salary threshold: €45,141/year gross (2024) — exempts from labour market test",
+          "EU Blue Card salary threshold: about €56,976–€68,815/year gross depending on the region (2026) — exempts from labour market test",
           "Single Permit processing: 6–16 weeks after employer submits",
           "Belgian income tax: 25–50% progressive, but includes world-class social security benefits",
           "Brussels has Europe's highest concentration of EU institutions, NGOs, and international law firms",
           "Permanent residency (D-card) after 5 years of lawful residence",
         ],
-        outcome: "Belgian Single Permit → annual renewals → D-card (permanent residency) after 5 years → Belgian citizenship after 5 years with integration proof. Belgian citizenship grants an EU passport, visa-free access to 180+ countries, and the right to live and work across all 27 EU member states.",
+        outcome: "Belgian Single Permit → annual renewals → D-card (permanent residency) after 5 years → Belgian citizenship after 5 years with B1-level language, a citizenship test and a €1,030 fee. Belgian citizenship grants an EU passport, visa-free access to 180+ countries, and the right to live and work across all 27 EU member states.",
       },
       visitor: {
         intro: "Belgian visitor visas are Schengen short-stay Type C visas — valid for up to 90 days in any 180-day period across all 26 Schengen countries. Apply at the Belgian Embassy in Abuja or via VFS Global. Processing: 15 calendar days standard. Show clear purpose, strong ties to Nigeria, and sufficient funds (~€95/day).",
         firstSteps: [
           { action: "Book appointment at VFS Global Nigeria or Belgian Embassy Abuja", detail: "VFS Global handles Belgian Schengen visa applications in Nigeria. Applications must be submitted no more than 6 months and no less than 15 days before travel. Book as early as possible." },
-          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements (3–6 months). Return flight itinerary. Hotel or host confirmation. Travel insurance (€36,605+ Schengen-wide coverage). Employment letter or business registration as proof of Nigerian ties." },
+          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements (3–6 months). Return flight itinerary. Hotel or host confirmation. Travel insurance (€30,000+ Schengen-wide coverage). Employment letter or business registration as proof of Nigerian ties." },
           { action: "Submit application and pay €90 fee — biometrics collected on the day", detail: "Bring originals and photocopies. VFS service fee applies in addition to the €90 embassy fee. Processing: 15 calendar days standard, up to 30 days for complex cases." },
         ],
         keyFacts: [
@@ -4383,7 +4383,7 @@ Visit the Belgian Embassy in Abuja (or apply via VFS Global). Documents required
 - Valid passport (minimum 12 months validity beyond planned stay)
 - University acceptance letter
 - Proof of tuition fee payment or scholarship letter
-- Proof of sufficient funds: €700–900/month for the duration of your studies, shown via bank statements
+- Proof of sufficient funds: €1,062/month for the 2026–27 academic year (€12,744 a year), usually shown with a blocked account, a scholarship letter or an Annex 32 sponsorship
 - Proof of accommodation in Belgium (university hall booking, private rental, or landlord letter)
 - Travel insurance for the initial period
 - Belgian visa application form (completed online via dvzoe.be)
@@ -4457,7 +4457,7 @@ If your PhD comes with a scholarship/bursary (not a salary), you apply for a **T
 5. Arrive in Belgium, register at Commune within 8 days
 6. Receive your electronic residence card (A-card or E-card depending on permit type)
 
-**Path to permanent residency:** After 5 years of lawful residence (student + work time can both count), you can apply for a D-card (permanent residence). Belgian citizenship is available after 5 years of legal residence and proof of social integration (language, civic participation).`,
+**Path to permanent residency:** After 5 years of lawful residence (student + work time can both count), you can apply for a D-card (permanent residence). Belgian citizenship is available after 5 years of legal residence with B1-level language, a citizenship test, a €1,030 fee and proof of social integration (language, civic participation).`,
 
       work: `**Belgian Single Permit — Work Route**
 
@@ -4470,7 +4470,7 @@ This is the hardest part. Your employer must be registered in Belgium and willin
 Before most Single Permit applications, the regional employment authority (VDAB in Flanders, FOREM in Wallonia, Actiris in Brussels) checks whether a suitable local/EU candidate could fill the role. Your employer must advertise the vacancy and prove no suitable local candidate was available.
 
 **Exemptions to labour market test:**
-- EU Blue Card: gross salary ≥ €45,141/year (2024) in a role requiring higher education
+- EU Blue Card: gross salary ≥ about €56,976–€68,815/year depending on the region (2026) in a role requiring higher education
 - Intra-company transfer (ICT permit)
 - Certain shortage occupations (list varies by region)
 - Researchers
@@ -4491,10 +4491,10 @@ Within 8 days of arrival, register your address at the local Commune. A municipa
 Single Permits are issued for the duration of your employment contract (typically 1 year, renewable). Renew at least 3 months before expiry via the Commune.
 
 **EU Blue Card:**
-If your salary meets the threshold (€45,141/year gross, 2024), request the EU Blue Card specifically. It gives the same rights as a Single Permit but with faster mobility rights across EU member states after 12 months.
+If your salary meets the threshold (about €56,976–€68,815/year gross depending on the region, 2026), request the EU Blue Card specifically. It gives the same rights as a Single Permit but with faster mobility rights across EU member states after 12 months.
 
 **Path to permanent residency:**
-After 5 years of lawful residence, apply for a D-card (unlimited duration residence permit). Belgian citizenship is available after 5 years of residence with proof of integration.
+After 5 years of lawful residence, apply for a D-card (unlimited duration residence permit). Belgian citizenship is available after 5 years of residence with B1-level language, a citizenship test and a €1,030 fee.
 
 **Key sectors hiring internationally in Belgium:**
 - EU institutions and international organisations (Brussels) — interpreter, policy, legal, IT
@@ -4560,7 +4560,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
         { step: "4", title: "Apply for Type D visa at Belgian Embassy Abuja (3–6 weeks)", detail: "With Annexe 46 in hand, apply for a long-stay Type D visa at the Belgian Embassy in Abuja. Bring: passport, Annexe 46, employment contract, accommodation proof, photos. Fee: ~€180." },
         { step: "5", title: "Arrive and register at Commune within 8 days", detail: "Register at local Commune. Receive temporary Bijlage 15, then A-card (1-year residence permit). Your A-card is renewable annually and tied to your employment contract." },
         { step: "6", title: "Complete PhD research (4 years typical)", detail: "Annual contract renewals. Your employer (university) renews the Single Permit each year. Stay on top of residence card renewals — begin 3 months before expiry each year." },
-        { step: "7", title: "Post-PhD: apply for D-card after 5 years total residence", detail: "PhD holders are well-positioned for EU Blue Card roles. With 5 cumulative years of lawful residence (including PhD years), you can apply for long-term residency D-card. Belgian citizenship possible at 5 years." },
+        { step: "7", title: "Post-PhD: apply for D-card after 5 years total residence", detail: "PhD holders are well-positioned for EU Blue Card roles. With 5 cumulative years of lawful residence (including PhD years), you can apply for long-term residency D-card. Belgian citizenship possible at 5 years (B1 language, citizenship test, €1,030 fee)." },
       ],
       work: [
         { step: "1", title: "Job search targeting Belgian employers (3–6 months)", detail: "LinkedIn, Indeed.be, StepStone.be, VDAB.be, EUjobs.eu (EU institutions). Target sectors: pharma, fintech, EU institutions, NGOs, engineering. Tailor your CV to Belgian/European format — no photo, no age, focus on competencies." },
@@ -4573,7 +4573,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
       ],
       visitor: [
         { step: "1", title: "Confirm purpose and travel dates (6–8 weeks before)", detail: "Confirm your reason for visiting Belgium. Tourism, business meetings, family visit, or attending a conference all require slightly different supporting documents." },
-        { step: "2", title: "Gather required documents", detail: "Assemble: passport (3 months validity beyond return date), bank statements (3–6 months), accommodation proof, return flight itinerary, travel insurance (€36,605+ coverage), proof of Nigerian ties." },
+        { step: "2", title: "Gather required documents", detail: "Assemble: passport (3 months validity beyond return date), bank statements (3–6 months), accommodation proof, return flight itinerary, travel insurance (€30,000+ coverage), proof of Nigerian ties." },
         { step: "3", title: "Book VFS Global or Embassy appointment", detail: "VFS Global handles Belgian visa applications in Nigeria. Book appointment online. Application must be submitted not more than 6 months before travel and at least 15 days before." },
         { step: "4", title: "Submit application and pay €90 fee", detail: "Bring original documents plus photocopies. Biometrics collected. Fee: €90 for adults. VFS service fee applies separately." },
         { step: "5", title: "Wait for decision (15–30 calendar days)", detail: "Standard processing: 15 calendar days. Complex cases: up to 30 days. Track via VFS portal. Do not book non-refundable flights before visa is confirmed." },
@@ -4612,7 +4612,7 @@ Belgian Embassy in Abuja, or via VFS Global (check vfsglobal.com/Belgium/Nigeria
       work: [
         { title: "Brussels is the EU capital — target it if you work in policy or law", body: "Brussels has the highest concentration of NGOs, EU institutions, international law firms, and think tanks per capita in Europe. If your skills are policy, law, economics, or international affairs, Brussels should be your first target." },
         { title: "High taxes — but excellent benefits in return", body: "Belgian income taxes are among the highest in Europe (up to 50% marginal rate). But Belgian social security provides world-class healthcare, generous unemployment insurance, and a real pension system. Factor this in when comparing offers with Gulf countries." },
-        { title: "EU Blue Card exempts you from labour market test", body: "The EU Blue Card (€45,141/year gross threshold, 2024) exempts your employer from the labour market test and gives stronger EU mobility rights. If your salary qualifies, ask your employer to apply for it specifically instead of the standard Single Permit." },
+        { title: "EU Blue Card exempts you from labour market test", body: "The EU Blue Card (about €56,976–€68,815/year gross depending on the region, 2026) exempts your employer from the labour market test and gives stronger EU mobility rights. If your salary qualifies, ask your employer to apply for it specifically instead of the standard Single Permit." },
         { title: "Brussels employers are more experienced with non-EU hires", body: "Belgian employer sponsorship experience varies hugely. Brussels-based multinationals and EU-sector employers deal with non-EU hires regularly. Smaller Flemish SMEs may be unfamiliar with the process — be ready to guide them to werk.belgie.be/en." },
         { title: "Look beyond Brussels: Antwerp, Ghent, and Leuven have strong sectors", body: "Antwerp is home to one of the world's busiest ports, a major diamond trade hub, and growing pharma/biotech. Ghent and Leuven have strong biotech and university spinout ecosystems. Consider these cities if your sector fits." },
         { title: "Start language learning from day one", body: "Flanders requires Dutch for most civil service roles and for citizenship integration tests. Brussels has Dutch and French pathways. Wallonia requires French. Language learning opens doors and is eventually required for citizenship." },
@@ -4820,7 +4820,7 @@ French bureaucracy is notoriously complex — the OFII (Office Français de l'Im
         intro: "The French short-stay visa is a Schengen Type C visa — 90 days in any 180-day period. Since April 18, 2025, France switched from VFS Global to TLScontact for visa submissions in Nigeria. Start your application at france-visas.gouv.fr first, then book a TLScontact appointment. Short-stay visitor fee remains €90. Processing: 15 days standard, up to 45 days peak season.",
         firstSteps: [
           { action: "Complete the online application at france-visas.gouv.fr", detail: "Create an account, choose 'short-stay' / tourism or business, complete the form, and generate your printed application with barcode. This step is mandatory before any TLScontact appointment." },
-          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements 3–6 months (min €65/day). Return flight itinerary. Hotel or host letter. Travel insurance (€36,605+ Schengen-wide). Employment letter or business registration as proof of Nigerian ties." },
+          { action: "Gather documents: passport, funds proof, accommodation, insurance, Nigerian ties", detail: "Valid passport (3+ months beyond return date, 2 blank pages). Bank statements 3–6 months (min €65/day). Return flight itinerary. Hotel or host letter. Travel insurance (€30,000+ Schengen-wide). Employment letter or business registration as proof of Nigerian ties." },
           { action: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Book at tlscontact.com — TLS replaced VFS for France from April 2025. Bring originals and photocopies of every document. Biometrics collected. Pay €90 visa fee + TLScontact service fee (~₦15,000–20,000)." },
         ],
         keyFacts: [
@@ -5073,7 +5073,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       ],
       visitor: [
         { step: "1", title: "Start application on france-visas.gouv.fr (4–6 weeks before)", detail: "Create an account, choose your visa type (short-stay tourism/business), complete the form, generate and print the application confirmation with barcode." },
-        { step: "2", title: "Gather all required documents", detail: "Passport, photos, travel insurance (€36,605+ for full Schengen), accommodation proof, return flight itinerary, bank statements (3–6 months), proof of employment/ties to Nigeria." },
+        { step: "2", title: "Gather all required documents", detail: "Passport, photos, travel insurance (€30,000+ for full Schengen), accommodation proof, return flight itinerary, bank statements (3–6 months), proof of employment/ties to Nigeria." },
         { step: "3", title: "Book and attend TLScontact appointment in Lagos or Abuja", detail: "Bring originals AND photocopies of every document. Biometrics collected. Pay €90 visa fee + TLScontact service fee (~₦15,000–20,000). Keep your receipt. Book at tlscontact.com." },
         { step: "4", title: "Wait for decision (15–45 calendar days)", detail: "Track status via TLScontact portal. French visas are typically decided in 15 days. Peak season (June–September) can be longer — apply earlier. Do not book non-refundable flights before visa is confirmed." },
         { step: "5", title: "Collect passport and travel within visa validity", detail: "Collect passport from TLScontact. Check visa validity dates carefully — ensure they cover your travel period. 90 days max in any 180-day Schengen period." },
@@ -5111,7 +5111,7 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
       work: [
         { title: "Station F in Paris is the world's largest startup campus", body: "Station F (13th arrondissement, Paris) houses 1,000+ startups and accelerators including Meta, Microsoft, Google, and LVMH. If you work in tech or product, getting into a Station F company is a genuine career accelerator." },
         { title: "Negotiate for cadre (executive) status", body: "French job titles matter — cadre status gives you a different pay scale, better benefits, and access to the management pension scheme (AGIRC-ARRCO). Negotiate for cadre status when possible — it significantly improves your employment conditions." },
-        { title: "Calculate your net salary carefully", body: "Income tax in France is progressive (0–45%) and there are additional social charges (~22%). Your take-home on €50,000 gross is roughly €40,904–34,000/year net. Use net-salary.fr or simulateur.net to model your actual take-home before accepting offers." },
+        { title: "Calculate your net salary carefully", body: "Income tax in France is progressive (0–45%) and there are additional social charges (~22%). Your take-home on €50,000 gross is roughly €32,000–34,000/year net. Use net-salary.fr or simulateur.net to model your actual take-home before accepting offers." },
         { title: "The Republican Integration Contract (CIR) is mandatory", body: "The CIR signed at OFII commits you to French language classes and civic formation sessions — these are free, scheduled by OFII, and genuinely useful. Language level assessed on arrival; some immigrants receive intensive hours based on their level." },
         { title: "Push for CDI (permanent contract) when possible", body: "French CDI (contrat à durée indéterminée) is the gold standard employment contract. CDDs (fixed-term) are common in entry-level roles. Prove yourself and push for CDI — it significantly improves housing, credit, and long-term stability." },
         { title: "Paris hosts UNESCO, OECD, and ICC — prime for policy careers", body: "If your background is policy, law, economics, or international development, Paris offers access to UNESCO, OECD, ICSID, and ICC — international organisations that barely exist outside New York, Geneva, and Vienna." },
@@ -5202,9 +5202,9 @@ France is in the Schengen Area. A French short-stay visa allows up to 90 days in
 
     overview: `Portugal has become one of the most popular relocation destinations in Europe — and for good reason. Lisbon and Porto are vibrant, affordable cities (€900–1,300/month) with warm climates, excellent food, and a genuinely welcoming culture. Portugal speaks Portuguese, but English is widely used in Lisbon's tech and startup scene, tourism, and international business. The country has grown rapidly as a digital nomad and tech hub — companies like Feedzai, Outsystems, and Farfetch are Portuguese, and Lisbon's Web Summit (the world's largest tech conference) reflects its international ambition.
 
-For students, Portuguese public universities charge non-EU students €950–7,000/year — affordable by Western European standards. The Instituto Camões Portuguese language scholarship and Gulbenkian Foundation grants are available. For workers, the Tech Visa is a specific fast-track permit for tech professionals. The D3 Highly Qualified Activity visa covers most other skilled roles. Portugal also introduced the Digital Nomad Visa for remote workers earning at least €3,040/month.
+For students, Portuguese public universities charge non-EU students €950–7,000/year — affordable by Western European standards. The Instituto Camões Portuguese language scholarship and Gulbenkian Foundation grants are available. For workers, the Tech Visa is a specific fast-track permit for tech professionals. The D3 Highly Qualified Activity visa covers most other skilled roles. Portugal also introduced the Digital Nomad Visa for remote workers earning at least €3,680/month (four times the 2026 minimum wage of €920).
 
-The path to permanent residency is 5 years. Portuguese citizenship — which gives EU passport rights — is available after 5 years of legal residence, one of the shortest timelines in the EU.`,
+The path to permanent residency is 5 years. Portuguese citizenship — which gives EU passport rights — now requires 10 years of legal residence for most nationalities, including Nigerians (7 years for EU and CPLP nationals). The law changed on 19 May 2026, ending the old 5-year route; applications filed before that date keep the old rule.`,
 
     stats: {
       undergrad: {
@@ -5259,7 +5259,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
           "Residence permit applied at AIMA within 4 months of arrival",
           "Porto is significantly cheaper than Lisbon — comparable universities at lower living costs",
         ],
-        outcome: "4-year degree opens D3 job-search extension and EU Blue Card eligibility. Portugal citizenship after 5 years of residency.",
+        outcome: "4-year degree opens D3 job-search extension and EU Blue Card eligibility. Portuguese citizenship after 10 years of residence (law changed 19 May 2026).",
       },
       masters: {
         intro: "Portugal has excellent English-medium Master's at IST (engineering), Nova SBE (management, finance), Universidade Nova Lisboa (sciences), and University of Porto. Fees are €1,250–7,000/year.",
@@ -5290,7 +5290,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
           "AIMA residence permit renewed annually",
           "Coimbra and Porto offer lower living costs than Lisbon: €600–800/month",
         ],
-        outcome: "Portuguese research residency, path to D3 post-doc or industry work visa, and citizenship eligibility at 5 years.",
+        outcome: "Portuguese research residency, path to D3 post-doc or industry work visa, and citizenship eligibility after 10 years (rule since 19 May 2026).",
       },
       work: {
         intro: "The D3 Highly Qualified Activity Visa is Portugal's main skilled worker route. The Tech Visa is a fast-track for tech professionals. Portugal's IFICI regime (NHR 2.0, effective 2024) offers 20% flat tax for 10 years for qualifying professionals — tech workers, researchers, and healthcare workers. The original NHR closed to new applicants in January 2024.",
@@ -5302,7 +5302,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         ],
         keyFacts: [
           "IFICI (NHR 2.0): 20% flat tax for 10 years for qualifying professionals — tech, research, healthcare. Original NHR closed Jan 2024",
-          "Citizenship after 5 years lawful residence + A2 Portuguese test",
+          "Citizenship after 10 years lawful residence for Nigerians (since 19 May 2026; was 5) + Portuguese language test",
           "Tech Visa: employer certified by IAPMEI sponsors faster processing",
           "AIMA processing can be slow — allow extra time, consider a lawyer for complex cases",
         ],
@@ -5312,7 +5312,7 @@ The path to permanent residency is 5 years. Portuguese citizenship — which giv
         intro: "Standard Schengen Type C visa. Portuguese Embassy Abuja — no VFS centre for Portugal in Nigeria, apply directly.",
         firstSteps: [
           { action: "Book appointment at Portuguese Embassy Abuja", detail: "Plot 1222 Parakou Crescent, Wuse II, Abuja. Slots can be limited — book early." },
-          { action: "Prepare documents", detail: "Passport, return itinerary, accommodation proof, travel insurance (€36,605+), bank statements (€75/day), proof of Nigeria ties." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, accommodation proof, travel insurance (€30,000+), bank statements (€75/day), proof of Nigeria ties." },
           { action: "Pay fee and submit", detail: "€90 Schengen fee. Processing: 15 days standard." },
         ],
         keyFacts: [
@@ -5360,7 +5360,7 @@ IFICI Tax Regime (NHR 2.0): The original NHR regime closed to new applicants in 
 
       visitor: `**Schengen Visitor Visa (Type C)**
 
-Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: valid passport, return flight itinerary, accommodation proof (hotel/Airbnb/host letter), travel insurance (€36,605+ Schengen-wide), bank statements (€75/day recommended), proof of Nigerian employment or business ties. Fee: €90. Processing: 15 days. Portugal is warm year-round — Lisbon, Porto, the Algarve, and Madeira are all excellent destinations.`,
+Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: valid passport, return flight itinerary, accommodation proof (hotel/Airbnb/host letter), travel insurance (€30,000+ Schengen-wide), bank statements (€75/day recommended), proof of Nigerian employment or business ties. Fee: €90. Processing: 15 days. Portugal is warm year-round — Lisbon, Porto, the Algarve, and Madeira are all excellent destinations.`,
     },
 
     timeline: {
@@ -5385,7 +5385,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         { step: 1, title: "Job search", detail: "2–4 months. Landing.jobs, LinkedIn, Glassdoor, Sapo Emprego. Lisbon offices: Google, Amazon, Volkswagen Digital, Farfetch, Feedzai. Remote-first companies also hire Lisbon-based staff." },
         { step: 2, title: "D3 or Tech Visa", detail: "60–90 days at Portuguese Embassy Abuja. Criminal record apostille is critical — start immediately." },
         { step: 3, title: "AIMA + IFICI tax regime", detail: "Apply for AIMA residence permit on arrival. If you qualify (tech, research, healthcare), apply for the IFICI regime (NHR 2.0) by 31 March following year of arrival at portaldasfinancas.gov.pt." },
-        { step: 4, title: "PR + citizenship at 5 years", detail: "Portugal has one of Europe's shortest routes to citizenship — 5 years lawful residence + A2 Portuguese language test + clean criminal record." },
+        { step: 4, title: "Permanent residence at 5 years, citizenship at 10", detail: "Since 19 May 2026 Portuguese citizenship needs 10 years of lawful residence for Nigerians (7 for EU and CPLP nationals); permanent residence is still possible after 5 years. Citizenship requires 10 years lawful residence + A2 Portuguese language test + clean criminal record." },
       ],
       visitor: [
         { step: 1, title: "Apply at Portuguese Embassy Abuja", detail: "3–4 weeks before travel. Standard Schengen. €90 fee. Criminal record not required for visitor visas. 15-day processing." },
@@ -5505,7 +5505,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         pathway: "Student Visa (Type D) / Researcher Visa",
       },
       work: {
-        salary: "~€38,000/yr+ (EU Blue Card threshold)",
+        salary: "~€39,270/yr+ (EU Blue Card threshold, 2026)",
         living: "€1,000–1,600/mo (Madrid/Barcelona)",
         processing: "1–3 months",
         fee: "~€80 (student/work visa)",
@@ -5569,7 +5569,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         outcome: "Access to Spain's world-class research infrastructure and gateway to EU research careers.",
       },
       work: {
-        intro: "The standard work permit is employer-led (filed at Extranjería). The EU Blue Card covers high-salary roles (≥€38,000/yr). Beckham Law offers 24% flat tax for 6 years. The 2023 Startup Law created a Digital Nomad Visa for remote workers.",
+        intro: "The standard work permit is employer-led (filed at Extranjería). The EU Blue Card covers high-salary roles (about €39,270/yr or more in 2026). Beckham Law offers 24% flat tax for 6 years. The 2023 Startup Law created a Digital Nomad Visa for remote workers.",
         firstSteps: [
           { action: "Secure job offer from Spanish employer", detail: "Infojobs.net, LinkedIn, Tecnoempleo, Manfred (tech). Madrid and Barcelona have the strongest job markets." },
           { action: "Employer files work authorisation at Extranjería", detail: "Labour market test may apply. Allow 1–3 months." },
@@ -5578,7 +5578,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         ],
         keyFacts: [
           "Beckham Law: 24% flat tax on Spanish income up to €600,000 for 6 years",
-          "Digital Nomad Visa: min €2,763/month income from outside Spain (updated 2025 — tied to 200% of Spain's minimum wage)",
+          "Digital Nomad Visa: min about €2,849/month income from outside Spain (2026 — tied to 200% of Spain's minimum wage)",
           "Permanent residency at 5 years; citizenship at 10 years",
           "AIMA/Extranjería bureaucracy is slow — apply immediately when eligible",
         ],
@@ -5588,7 +5588,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
         intro: "Standard Schengen Type C visa. Apply at the Spanish Embassy Abuja or VFS Global Nigeria. Processing: 15 days.",
         firstSteps: [
           { action: "Apply at Spanish Embassy Abuja or VFS Global Nigeria", detail: "VFS Global handles Spanish Schengen visa applications in Nigeria. Apply 3–4 weeks before travel." },
-          { action: "Prepare documents", detail: "Passport, return itinerary, hotel/accommodation, travel insurance (€36,605+), bank statements (€90/day), proof of Nigerian employment or business ties." },
+          { action: "Prepare documents", detail: "Passport, return itinerary, hotel/accommodation, travel insurance (€30,000+), bank statements (€90/day), proof of Nigerian employment or business ties." },
           { action: "Pay fee and submit", detail: "€90 fee. Processing: 15 days standard." },
         ],
         keyFacts: [
@@ -5606,7 +5606,7 @@ Apply at Portuguese Embassy Abuja or VFS Global Nigeria. Standard documents: val
 
 1. Apply directly to a Spanish university — get admission letter.
 2. Get your secondary school qualifications evaluated by UNED (uned.es/universidad/inicio/en/international) — required for Nigerian secondary school certificates. This takes 2–3 months.
-3. Apply for student visa at Spanish Embassy Abuja or VFS. Documents: passport, admission letter, UNED equivalency (or university exemption), proof of funds (€600/month), accommodation proof, health insurance, criminal record certificate (apostilled), photos. Fee: €80.
+3. Apply for student visa at Spanish Embassy Abuja or VFS. Documents: passport, admission letter, UNED equivalency (or university exemption), proof of funds (100% of IPREM, about €600/month — confirm the current figure with the consulate), accommodation proof, health insurance, criminal record certificate (apostilled), photos. Fee: €80.
 4. Processing: 30–60 days.
 5. On arrival: apply for your Tarjeta de Identidad de Extranjero (TIE — foreigner ID card) at the Extranjería office within 30 days.
 6. Work: up to 30 hrs/week permitted.`,
@@ -5633,11 +5633,11 @@ Beckham Law (Régimen Especial de Trabajadores Desplazados):
 - Valid for 6 years
 - Apply at the Spanish Tax Agency (AEAT) within 6 months of starting work
 
-EU Blue Card: for roles with salary ≥ 1.5× average (~€38,000/yr) requiring higher education — request specifically from employer.`,
+EU Blue Card: for roles with salary of at least 1.4× the national average (about €39,270/yr in 2026, or about €31,416 for recent graduates) requiring higher education — request specifically from employer.`,
 
       visitor: `**Schengen Visitor Visa (Type C)**
 
-Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nigeria. Documents: passport (3+ months validity), return flight itinerary, hotel/accommodation confirmation, travel insurance (€36,605+ Schengen-wide), bank statements (€90/day minimum), proof of Nigerian employment or business ties, application form. Fee: €90. Processing: 15 days standard. Apply 3–4 weeks before travel.`,
+Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nigeria. Documents: passport (3+ months validity), return flight itinerary, hotel/accommodation confirmation, travel insurance (€30,000+ Schengen-wide), bank statements (€90/day minimum), proof of Nigerian employment or business ties, application form. Fee: €90. Processing: 15 days standard. Apply 3–4 weeks before travel.`,
     },
 
     timeline: {
@@ -5693,7 +5693,7 @@ Apply at the Spanish Embassy Abuja (Calle Yerma 16, Abuja) or via VFS Global Nig
       work: [
         { title: "Beckham Law — apply within 6 months", body: "Beckham Law (Régimen Especial para Trabajadores Desplazados) gives 24% flat tax for 6 years for qualifying new residents. Apply within 6 months of starting work at AEAT — don't miss this window." },
         { title: "Madrid tech market overview", body: "Junior developer: €25,000–35,000 gross/year. Senior: €45,000–65,000. Living costs: €1,000–1,400/month. Tighter than northern Europe but quality of life is exceptional." },
-        { title: "Digital Nomad Visa is a real option", body: "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum €2,763/month income (2025 — tied to 200% Spain's minimum wage). Beckham Law also applies." },
+        { title: "Digital Nomad Visa is a real option", body: "Spain's Digital Nomad Visa (launched 2023) allows remote workers earning income from outside Spain to live in Spain legally — minimum about €2,849/month income (2026 — tied to 200% of Spain's minimum wage). Beckham Law also applies." },
         { title: "Spanish bureaucracy is slow — act immediately", body: "The Extranjería, Seguridad Social, and AEAT all move slowly. Apply for everything the day you are eligible. Cita previa (appointment systems) fill up fast — book on arrival." },
       ],
       visitor: [

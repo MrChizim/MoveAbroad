@@ -5,9 +5,9 @@
 // Needs two Vercel environment variables:
 //   PAYSTACK_SECRET_KEY        sk_live_... (or sk_test_... for testing)
 //   FIREBASE_SERVICE_ACCOUNT   the service-account JSON from Firebase console
-import { cert, getApps, initializeApp } from 'firebase-admin/app';
-import { FieldValue, getFirestore } from 'firebase-admin/firestore';
+import { FieldValue } from 'firebase-admin/firestore';
 import { COUNTRIES, PACKAGES } from '../../src/lib/countries.js';
+import { ConfigError, adminDb as getAdminDb } from './firebaseAdmin.js';
 
 const ALL_CODES = COUNTRIES.map((c) => c.code);
 
@@ -20,12 +20,12 @@ export class PaymentError extends Error {
 }
 
 function adminDb() {
-  if (!getApps().length) {
-    const raw = process.env.FIREBASE_SERVICE_ACCOUNT;
-    if (!raw) throw new PaymentError('server_not_configured', 500);
-    initializeApp({ credential: cert(JSON.parse(raw)) });
+  try {
+    return getAdminDb();
+  } catch (err) {
+    if (err instanceof ConfigError) throw new PaymentError('server_not_configured', 500);
+    throw err;
   }
-  return getFirestore();
 }
 
 async function fetchTransaction(reference) {

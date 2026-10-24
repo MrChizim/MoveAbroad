@@ -2,12 +2,16 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useAuth } from '@/lib/AuthContext';
+import { isAdminEmail } from '@/lib/admins';
 import { motion, AnimatePresence } from 'framer-motion';
 import logoSrc from '@/assets/logo.png';
 
 const NAV_LINKS = [
   { to: '/countries', label: 'Countries' },
+  { to: '/updates', label: 'Visa News' },
+  { to: '/pricing', label: 'Pricing' },
   { to: '/budget-calculator', label: 'Budget Tool' },
+  { to: '/about', label: 'About' },
 ];
 
 const USER_LINKS = [
@@ -30,7 +34,7 @@ export default function Navbar() {
   }, []);
   useEffect(() => { setIsOpen(false); }, [location.pathname]);
 
-  const isAdmin = user?.isAdmin;
+  const isAdmin = isAdminEmail(user?.email);
   const isHome = location.pathname === '/';
   const dark = isHome && !scrolled;
 

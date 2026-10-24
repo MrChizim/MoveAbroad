@@ -14,6 +14,9 @@ export const COUNTRIES = [
 { code: "NZ", name: "New Zealand", flag: "🇳🇿", image: "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80" }
 ];
 
+// When key fees, proof-of-funds amounts and thresholds in the guides were last checked.
+export const GUIDES_LAST_REVIEWED = 'October 2026';
+
 export const PACKAGES = [
   {
     id: "single",

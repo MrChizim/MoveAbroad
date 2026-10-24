@@ -3,6 +3,7 @@ import { getRedirectResult, onAuthStateChanged, signInWithPopup, signInWithRedir
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { toast } from 'sonner';
 import { auth, db, googleProvider } from './firebase';
+import { trackEvent } from './analytics';
 
 const AuthContext = createContext(null);
 
@@ -79,6 +80,7 @@ export function AuthProvider({ children }) {
     }
     try {
       await signInWithPopup(auth, googleProvider);
+      trackEvent('sign_in');
       return true;
     } catch (err) {
       if (err?.code === 'auth/popup-blocked' || err?.code === 'auth/operation-not-supported-in-this-environment') {

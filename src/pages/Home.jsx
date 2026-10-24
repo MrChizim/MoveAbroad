@@ -3,6 +3,7 @@ import HeroSection from '../components/home/HeroSection';
 import FeaturesSection from '../components/home/FeaturesSection';
 import CountryPreviewGrid from '../components/home/CountryPreviewGrid';
 import PricingPreview from '../components/home/PricingPreview';
+import LatestUpdates from '../components/home/LatestUpdates';
 import { useSEO } from '@/lib/useSEO';
 import { PAGE_SEO, pageUrl } from '@/lib/seo';
 
@@ -15,12 +16,8 @@ export default function Home() {
       '@type': 'WebSite',
       name: 'MoveAbroad.ng',
       url: 'https://www.moveabroad.ng',
-      description: 'In-depth relocation guides for Nigerians planning to move abroad.',
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: 'https://www.moveabroad.ng/countries?q={search_term_string}',
-        'query-input': 'required name=search_term_string',
-      },
+      alternateName: ['Move Abroad Nigeria', 'MoveAbroad Nigeria'],
+      description: 'Independent relocation guides for Nigerians planning to study, work or visit abroad.',
     },
   });
 
@@ -29,6 +26,7 @@ export default function Home() {
       <HeroSection />
       <FeaturesSection />
       <CountryPreviewGrid />
+      <LatestUpdates />
       <PricingPreview />
     </div>
   );

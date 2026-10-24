@@ -17,7 +17,10 @@ import { PROJECT_ID, bearerToken, send, verifyFirebaseToken } from './_lib/http.
 const FREE_FIELDS = ['tagline', 'overview', 'stats'];
 
 function preview(guide) {
-  return Object.fromEntries(FREE_FIELDS.filter((k) => k in guide).map((k) => [k, guide[k]]));
+  const free = Object.fromEntries(FREE_FIELDS.filter((k) => k in guide).map((k) => [k, guide[k]]));
+  // Official government links are public information; show them to everyone.
+  free.sources = (guide.embassy?.extra_links || []).slice(0, 8);
+  return free;
 }
 
 // Returns the list of purchased country codes, or null if the lookup failed.

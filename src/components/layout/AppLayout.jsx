@@ -3,6 +3,9 @@ import { Suspense, useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import ScrollToTop from '@/lib/ScrollToTop';
+import { useAuth } from '@/lib/AuthContext';
+import { isAdminEmail } from '@/lib/admins';
+import { excludeFromAnalytics, trackPageview } from '@/lib/analytics';
 import { ArrowUp } from 'lucide-react';
 
 function BackToTop() {
@@ -38,7 +41,16 @@ function PageLoading() {
 
 export default function AppLayout() {
   const { pathname } = useLocation();
+  const { user } = useAuth();
   const isHome = pathname === '/';
+
+  useEffect(() => {
+    excludeFromAnalytics(isAdminEmail(user?.email));
+  }, [user]);
+
+  useEffect(() => {
+    trackPageview(pathname);
+  }, [pathname]);
 
   return (
     <div className="min-h-screen flex flex-col">

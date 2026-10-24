@@ -17,7 +17,7 @@ const VISA_TYPES = [
 ];
 
 export default function VisaChecklist() {
-  const { code } = useParams();
+  const code = (useParams().code || '').toUpperCase();
   const checklistCountry = COUNTRIES.find(c => c.code === code);
   useSEO({
     title: checklistCountry
