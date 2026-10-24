@@ -7,7 +7,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { COUNTRIES } from '../src/lib/countries.js';
-import { GUIDE_CONTENT } from '../src/lib/guideContent.js';
+import { GUIDE_CONTENT } from '../content/guideContent.js';
 import { DEFAULT_IMAGE, PAGE_SEO, countrySeo, pageUrl } from '../src/lib/seo.js';
 
 const dist = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist');

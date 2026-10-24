@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useAuth } from '@/lib/AuthContext';
-import { hasAccessToCountry } from '@/lib/purchases';
+import { auth } from '@/lib/firebase';
 import { COUNTRIES } from '@/lib/countries';
-import { GUIDE_CONTENT } from '@/lib/guideContent';
 import { useSEO } from '@/lib/useSEO';
 import { countrySeo } from '@/lib/seo';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -124,11 +123,14 @@ export default function CountryDetail() {
   const { code } = useParams();
   const { user, loading: authLoading } = useAuth();
   const [hasAccess, setHasAccess] = useState(null);
+  // The guide is fetched from /api/guide: everyone gets the free preview,
+  // buyers get the full guide. Status: loading | ready | missing | error.
+  const [guide, setGuide] = useState(null);
+  const [guideStatus, setGuideStatus] = useState('loading');
   const [level, setLevel] = useState('masters');
   const [activeTab, setActiveTab] = useState('overview');
 
   const country = COUNTRIES.find(c => c.code === code);
-  const guide = GUIDE_CONTENT[code];
 
   useSEO(country ? {
     ...countrySeo(country, guide),
@@ -147,10 +149,29 @@ export default function CountryDetail() {
   } : { title: 'MoveAbroad.ng', description: '' });
 
   useEffect(() => {
-    if (authLoading) return;
-    if (!user) { setHasAccess(false); return; }
-    hasAccessToCountry(user.uid, code, user.email).then(setHasAccess);
-  }, [user, code, authLoading]);
+    if (authLoading || !country) return;
+    let cancelled = false;
+    setGuideStatus('loading');
+    setHasAccess(null);
+    (async () => {
+      try {
+        const token = user && auth.currentUser ? await auth.currentUser.getIdToken() : null;
+        const r = await fetch(`/api/guide?code=${encodeURIComponent(code)}`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        });
+        const body = await r.json().catch(() => ({}));
+        if (cancelled) return;
+        setGuide(body.guide || null);
+        if (r.status === 404) { setGuideStatus('missing'); setHasAccess(false); return; }
+        if (!r.ok) { setGuideStatus('error'); setHasAccess(false); return; }
+        setGuideStatus('ready');
+        setHasAccess(body.access === true);
+      } catch {
+        if (!cancelled) { setGuideStatus('error'); setHasAccess(false); }
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [user, code, authLoading, country]);
 
   // reset tab when switching levels
   useEffect(() => { setActiveTab('overview'); }, [level]);
@@ -242,9 +263,16 @@ export default function CountryDetail() {
           </div>
         )}
 
-        {!guide && (
+        {guideStatus === 'missing' && (
           <div className="bg-white rounded-2xl border border-black/[0.07] p-8 text-center mb-6">
             <p className="text-[14px] text-black/30">Full guide for {country.name} is being prepared. Check back soon.</p>
+          </div>
+        )}
+
+        {guideStatus === 'error' && (
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 mb-6 text-[14px] text-amber-800">
+            We couldn't load this guide right now. Please refresh the page. If you have paid and this keeps happening,
+            email moveabroadng@gmail.com and we'll sort it out.
           </div>
         )}
 

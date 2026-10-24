@@ -25,6 +25,7 @@
     "firebase": "^11.10.0",
     "framer-motion": "^11.16.4",
     "html2canvas": "^1.4.1",
+    "jose": "^6.2.12",
     "jspdf": "^4.0.0",
     "lucide-react": "^0.475.0",
     "react": "^18.2.0",

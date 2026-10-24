@@ -1,5 +1,6 @@
 import { doc, getDoc, setDoc, updateDoc, arrayUnion } from 'firebase/firestore';
 import { db } from './firebase';
+import { isAdminEmail } from './admins';
 
 // Get all purchases for a user
 export async function getUserPurchases(uid) {
@@ -36,13 +37,12 @@ export async function recordPurchase(uid, { packageId, countries, paystackRef, e
   }
 }
 
-export const ADMIN_EMAILS = ['siriusoddjobs@gmail.com', 'lilnutellx@gmail.com', 'melvinnnamani@gmail.com'];
+export { ADMIN_EMAILS } from './admins';
 
 // Check if a user has access to a specific country
 export async function hasAccessToCountry(uid, countryCode, email) {
   if (!uid) return false;
-  // Admin bypass — case-insensitive comparison
-  if (email && ADMIN_EMAILS.map(e => e.toLowerCase()).includes(email.toLowerCase())) return true;
+  if (isAdminEmail(email)) return true;
   const data = await getUserPurchases(uid);
   return data.countries?.includes(countryCode) || data.countries?.includes('ALL');
 }
