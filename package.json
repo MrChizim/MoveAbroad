@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prerender-meta.mjs",
@@ -23,7 +26,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
     "firebase": "^11.10.0",
-    "firebase-admin": "^14.5.0",
+    "firebase-admin": "^13.10.0",
     "framer-motion": "^11.16.4",
     "html2canvas": "^1.4.1",
     "jose": "^6.2.12",
