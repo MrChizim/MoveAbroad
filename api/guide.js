@@ -10,31 +10,14 @@
 // API, so it obeys the same security rules as the site and needs no admin keys.
 // Written with plain Node req/res so it runs both on Vercel and in the Vite
 // dev/preview server (see vite.config.js).
-import { createRemoteJWKSet, jwtVerify } from 'jose';
 import { GUIDE_CONTENT } from '../content/guideContent.js';
 import { isAdminEmail } from '../src/lib/admins.js';
+import { PROJECT_ID, bearerToken, send, verifyFirebaseToken } from './_lib/http.js';
 
-const PROJECT_ID = 'moveabroadng';
 const FREE_FIELDS = ['tagline', 'overview', 'stats'];
-const GOOGLE_KEYS = createRemoteJWKSet(
-  new URL('https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com'),
-);
-
-function send(res, status, body) {
-  res.statusCode = status;
-  res.setHeader('Content-Type', 'application/json; charset=utf-8');
-  // Responses differ per user, so nothing may be cached by the CDN or browser.
-  res.setHeader('Cache-Control', 'private, no-store');
-  res.end(JSON.stringify(body));
-}
 
 function preview(guide) {
   return Object.fromEntries(FREE_FIELDS.filter((k) => k in guide).map((k) => [k, guide[k]]));
-}
-
-function bearerToken(req) {
-  const header = req.headers.authorization || '';
-  return header.startsWith('Bearer ') ? header.slice(7).trim() : null;
 }
 
 // Returns the list of purchased country codes, or null if the lookup failed.
@@ -61,15 +44,8 @@ export default async function handler(req, res) {
   const idToken = bearerToken(req);
   if (!idToken) return send(res, 200, { access: false, guide: preview(guide) });
 
-  let claims;
-  try {
-    ({ payload: claims } = await jwtVerify(idToken, GOOGLE_KEYS, {
-      issuer: `https://securetoken.google.com/${PROJECT_ID}`,
-      audience: PROJECT_ID,
-    }));
-  } catch {
-    return send(res, 401, { error: 'invalid_token' });
-  }
+  const claims = await verifyFirebaseToken(idToken);
+  if (!claims) return send(res, 401, { error: 'invalid_token' });
 
   let access = claims.email_verified === true && isAdminEmail(claims.email);
   if (!access) {

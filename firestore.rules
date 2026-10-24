@@ -1,0 +1,48 @@
+rules_version = '2';
+
+// Firestore security rules for MoveAbroad.ng.
+// Paste into Firebase console → Firestore Database → Rules → Publish.
+// Purchases and payments are written only by the server (Firebase Admin SDK,
+// which ignores these rules), so browsers can read their own purchases but
+// can never grant themselves a guide.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+    // Keep in sync with src/lib/admins.js
+    function isAdmin() {
+      return signedIn()
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in [
+          'siriusoddjobs@gmail.com',
+          'lilnutellx@gmail.com',
+          'melvinnnamani@gmail.com'
+        ];
+    }
+
+    match /users/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+    match /profiles/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+    match /expenses/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+    // Checklist IDs are "<uid>_<countryCode>".
+    match /checklists/{checklistId} {
+      allow read, write: if signedIn() && checklistId.matches(request.auth.uid + '_.+');
+    }
+    match /purchases/{uid} {
+      allow get: if isOwner(uid) || isAdmin();
+      allow list: if isAdmin();
+      allow write: if false;
+    }
+    // payments/{reference}: server-only record of every confirmed Paystack payment.
+    // No browser access (anything not matched above is denied).
+  }
+}

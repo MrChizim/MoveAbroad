@@ -1,4 +1,4 @@
-import { doc, getDoc, setDoc, updateDoc, arrayUnion } from 'firebase/firestore';
+import { doc, getDoc } from 'firebase/firestore';
 import { db } from './firebase';
 import { isAdminEmail } from './admins';
 
@@ -10,32 +10,7 @@ export async function getUserPurchases(uid) {
   return snap.data();
 }
 
-// Record a purchase after Paystack payment succeeds
-export async function recordPurchase(uid, { packageId, countries, paystackRef, email }) {
-  const ref = doc(db, 'purchases', uid);
-  const snap = await getDoc(ref);
-
-  const entry = {
-    packageId,
-    countries,
-    paystackRef,
-    paidAt: new Date().toISOString(),
-  };
-
-  if (!snap.exists()) {
-    await setDoc(ref, {
-      uid,
-      email,
-      countries: countries,
-      packages: [entry],
-    });
-  } else {
-    await updateDoc(ref, {
-      countries: arrayUnion(...countries),
-      packages: arrayUnion(entry),
-    });
-  }
-}
+// Purchases are recorded by the server (api/_lib/payments.js) after Paystack confirms them.
 
 export { ADMIN_EMAILS } from './admins';
 
